@@ -73,6 +73,7 @@ a{color:#a9c5ff}.status{margin-top:14px}.section{margin-top:20px}.section h2{fon
 <div class="panel" style="margin-top:18px">
   <div class="k">PUSH-ÜBERWACHUNG</div>
   <div class="v">Entry + Exit Alerts</div>
+  <div id="todayPushCount" class="detail"><b>Heute über das Radar gesendet:</b> wird geladen …</div>
   <div class="detail">Der GitHub-Monitor prüft während der regulären US-Handelszeit etwa alle 15 Minuten. Bei einem neuen <b>KAUF HEUTE</b>-Setup wird einmalig ein Entry-Push gesendet und das Setup anschließend virtuell bis Stop, Gewinnziel oder Zeit-Exit verfolgt.</div>
   <div class="muted small" style="margin-top:8px">Hinweis: Die Überwachung kennt nicht, ob du in Trade Republic tatsächlich gekauft hast. Der gespeicherte Einstieg ist der Referenzkurs zum Zeitpunkt des Push-Signals.</div>
   <button id="testPushBtn" type="button" style="margin-top:12px;padding:10px 14px;border-radius:10px;border:1px solid var(--accent);background:#16213a;color:var(--txt);font-weight:800;cursor:pointer">Test-Benachrichtigung senden</button>
@@ -134,8 +135,22 @@ async function refreshBackendState(){
   try{
     const r=await fetch(BACKEND_URL+'/health',{cache:'no-store'});
     if(!r.ok) throw new Error('HTTP '+r.status);
+    const data=await r.json();
     pushStateEl.innerHTML='<span class="good">✓ Push-Backend verbunden · ntfy-Topic bleibt verborgen</span>';
-  }catch(e){pushStateEl.innerHTML='<span class="bad">✕ Backend nicht erreichbar</span>'}
+
+    const counterEl=$('todayPushCount');
+    if(counterEl){
+      if(data.counter_configured){
+        counterEl.innerHTML='<b>Heute über das Radar gesendet:</b> '+Number(data.today_push_count||0)+' Push-Nachrichten';
+      }else{
+        counterEl.innerHTML='<b>Heute über das Radar gesendet:</b> Zähler noch nicht eingerichtet';
+      }
+    }
+  }catch(e){
+    pushStateEl.innerHTML='<span class="bad">✕ Backend nicht erreichbar</span>';
+    const counterEl=$('todayPushCount');
+    if(counterEl) counterEl.innerHTML='<b>Heute über das Radar gesendet:</b> nicht verfügbar';
+  }
 }
 refreshBackendState();
 
@@ -172,6 +187,7 @@ if(true){
       });
       if(!r.ok) throw new Error('HTTP '+r.status);
       $('tradeMsg').textContent='Position gespeichert. Der Monitor übernimmt sie beim nächsten Lauf und verwendet deinen echten Einstieg für Exit-Pushs.';
+       refreshBackendState();
     }catch(err){
       $('tradeMsg').textContent='Senden fehlgeschlagen: '+err.message;
     }
@@ -252,6 +268,7 @@ if(testPushBtn){
       }
 
       msg.innerHTML='<span class="good">✓ Test-Benachrichtigung wurde an ntfy gesendet.</span>';
+      refreshBackendState();
     }catch(err){
       msg.innerHTML='<span class="bad">✕ Test fehlgeschlagen: '+esc(err.message)+'</span>';
     }finally{
