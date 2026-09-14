@@ -369,6 +369,31 @@ def main():
             entry=f'Premarket-Gap {gap:+.2f}%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.'
         else:
             entry=f'Premarket-Gap {gap:+.2f}%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.'
+        criteria = {
+          'score_ok': r['score'] >= 75,
+          'momentum_ok': r['c1'] > 0 and r['c5'] > -1.0,
+          'volume_ok': r['vr'] >= 1.10,
+          'volatility_ok': (r.get('atr_pct') is not None and 1.0 <= r['atr_pct'] <= 6.0),
+          'news_ok': r.get('nsent',0) >= 0,
+          'gap_ok': (gap is None) or (-1.5 <= gap <= 6.0),
+          'premarket_ok': (r.get('premarket_move_pct') is None) or (r.get('premarket_move_pct') >= -0.5)
+        }
+        premarket_available = gap is not None and r.get('premarket_move_pct') is not None
+        all_rules = all(criteria.values())
+
+        if all_rules and premarket_available:
+            action_status = 'KAUF HEUTE'
+            action_reason = 'Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Premarket-Kriterien sind erfüllt.'
+        elif r['score'] >= 65 and criteria['momentum_ok'] and criteria['volume_ok']:
+            action_status = 'WARTEN'
+            missing = [k.replace('_ok','') for k,v in criteria.items() if not v]
+            if not premarket_available:
+                missing.append('Premarket-Bestätigung')
+            action_reason = 'Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ' + ', '.join(missing[:4])
+        else:
+            action_status = 'NICHT KAUFEN'
+            action_reason = 'Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.'
+
         candidates.append({
           'ticker':r['ticker'],'name':r['name'],'score':r['score'],'stance':'Short-Term Momentum / Event',
           'thesis':f"1T {r['c1']:+.2f}%, 5T {r['c5']:+.2f}%, relatives Volumen {r['vr']:.2f}x" + (f", ATR {r['atr_pct']:.2f}%" if r.get('atr_pct') else ''),
@@ -378,7 +403,10 @@ def main():
           'change_1d':f"{r['c1']:+.2f}%",'change_5d':f"{r['c5']:+.2f}%",'volume_ratio':f"{r['vr']:.2f}x",
           'atr_pct':f"{r['atr_pct']:.2f}%" if r.get('atr_pct') else 'n/a',
           'gap_pct':f"{gap:+.2f}%" if gap is not None else 'noch nicht verfügbar',
-          'premarket_move_pct':f"{r['premarket_move_pct']:+.2f}%" if r.get('premarket_move_pct') is not None else 'noch nicht verfügbar'
+          'premarket_move_pct':f"{r['premarket_move_pct']:+.2f}%" if r.get('premarket_move_pct') is not None else 'noch nicht verfügbar',
+          'action_status':action_status,
+          'action_reason':action_reason,
+          'criteria':criteria
         })
 
     avoid=[]
