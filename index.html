@@ -32,6 +32,20 @@ a{color:#a9c5ff}.status{margin-top:14px}.section{margin-top:20px}.section h2{fon
 
 <div class="panel"><div class="k">Morning Brief</div><div id="brief" style="margin-top:7px">Daten werden geladen.</div></div>
 
+
+<section class="section">
+  <h2>Positionsgröße</h2>
+  <div class="panel">
+    <div class="muted small">Diese Werte bestimmen, wie viele Stück das Dashboard pro Setup vorschlägt. Formel: maximaler Verlust am Stop = Depotwert × Risiko pro Trade; zusätzlich wird die Positionsgröße durch den maximalen Depotanteil begrenzt.</div>
+    <form id="riskForm" style="margin-top:12px;display:grid;gap:10px;grid-template-columns:repeat(3,minmax(0,1fr))">
+      <label class="small">Depotwert €<input id="portfolioEur" required type="number" min="100" step="100" placeholder="10000" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
+      <label class="small">Risiko pro Trade %<input id="riskPct" required type="number" min="0.1" max="5" step="0.1" value="0.5" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
+      <label class="small">Max. Position % vom Depot<input id="maxPosPct" required type="number" min="1" max="100" step="1" value="10" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
+      <button type="submit" style="grid-column:1/-1;padding:11px 14px;border-radius:10px;border:1px solid var(--accent);background:#16213a;color:var(--txt);font-weight:800;cursor:pointer">Einstellungen speichern & an Monitor senden</button>
+    </form>
+    <div id="riskMsg" class="small muted" style="margin-top:10px"></div>
+  </div>
+</section>
 <section class="section"><h2>Research-Kandidaten</h2><div id="cards" class="grid cards"></div></section>
 
 <section class="section">
@@ -93,9 +107,11 @@ async function load(){
    <div class="detail"><b>Stop/Invalidation:</b> ca. −${esc(x.stop_pct)}%</div>
    <div class="detail"><b>1. Gewinnziel:</b> ca. +${esc(x.target_pct)}%</div>
    <div class="detail"><b>Exit-Plan:</b> ${esc(x.exit_note)}</div>
-   <div class="muted small" style="margin-top:9px">1T: ${esc(x.change_1d)} · 5T: ${esc(x.change_5d)} · Volumen: ${esc(x.volume_ratio)} · ATR: ${esc(x.atr_pct)} · Gap: ${esc(x.gap_pct)} · Premarket: ${esc(x.premarket_move_pct)}</div>`;
+   <div class="muted small" style="margin-top:9px">1T: ${esc(x.change_1d)} · 5T: ${esc(x.change_5d)} · Volumen: ${esc(x.volume_ratio)} · ATR: ${esc(x.atr_pct)} · Gap: ${esc(x.gap_pct)} · Premarket: ${esc(x.premarket_move_pct)}</div>
+   <div class="detail" data-sizing="${esc(x.ticker)}" data-stop="${esc(x.stop_pct)}"><b>Vorgeschlagene Kaufmenge:</b> <span class="qtySuggestion">Depotdaten eintragen</span></div>`;
    cards.appendChild(el);
   });
+  if(typeof refreshSizing==='function') setTimeout(refreshSizing,0);
   $('avoid').innerHTML=(d.avoid||[]).map(x=>`<div class="detail"><b>${esc(x.ticker)}</b> — ${esc(x.reason)}</div>`).join('')||'<span class="muted">Keine zusätzlichen Warnungen.</span>';
   $('news').innerHTML=(d.news||[]).slice(0,18).map(n=>`<tr><td>${esc(n.time)}</td><td><b>${esc(n.ticker)}</b></td><td>${esc(n.title)}</td><td class="${n.sentiment>0?'good':n.sentiment<0?'bad':'muted'}">${n.sentiment>0?'positiv':n.sentiment<0?'negativ':'neutral'}</td></tr>`).join('');
  }catch(e){$('brief').textContent='Daten konnten nicht geladen werden: '+e.message}
@@ -140,7 +156,61 @@ if(topicInput){
   });
 }
 
-load(); setInterval(load, 5*60*1000);
+
+function getRiskSettings(){
+  try{return JSON.parse(localStorage.getItem('radar_risk_settings')||'{}')}catch(e){return {}}
+}
+function calcQty(price, stopPct, s){
+  const portfolio=Number(s.portfolio_eur), risk=Number(s.risk_per_trade_pct), cap=Number(s.max_position_pct);
+  price=Number(price); stopPct=Number(stopPct);
+  if(!(portfolio>0&&risk>0&&cap>0&&price>0&&stopPct>0)) return null;
+  const riskEur=portfolio*risk/100;
+  const byRisk=Math.floor(riskEur/(price*stopPct/100));
+  const byCap=Math.floor((portfolio*cap/100)/price);
+  return Math.max(0,Math.min(byRisk,byCap));
+}
+function refreshSizing(){
+  const s=getRiskSettings();
+  document.querySelectorAll('[data-sizing]').forEach(el=>{
+    // Candidate JSON has no reliable live price in the static card, so use latest price from thesis is unavailable.
+    // We display risk budget here; exact share count is calculated in the live push from the current quote.
+    const span=el.querySelector('.qtySuggestion');
+    if(!span)return;
+    if(!(Number(s.portfolio_eur)>0)){span.textContent='Depotdaten eintragen';return}
+    const riskEur=Number(s.portfolio_eur)*Number(s.risk_per_trade_pct)/100;
+    span.textContent=`im Live-Entry-Push berechnet · max. Verlustbudget ${riskEur.toFixed(2)} €`;
+  });
+}
+const riskForm=$('riskForm');
+if(riskForm){
+  const saved=getRiskSettings();
+  if(saved.portfolio_eur)$('portfolioEur').value=saved.portfolio_eur;
+  if(saved.risk_per_trade_pct)$('riskPct').value=saved.risk_per_trade_pct;
+  if(saved.max_position_pct)$('maxPosPct').value=saved.max_position_pct;
+  riskForm.addEventListener('submit',async e=>{
+    e.preventDefault();
+    const s={
+      portfolio_eur:parseFloat($('portfolioEur').value),
+      risk_per_trade_pct:parseFloat($('riskPct').value),
+      max_position_pct:parseFloat($('maxPosPct').value)
+    };
+    if(!(s.portfolio_eur>0&&s.risk_per_trade_pct>0&&s.max_position_pct>0)){ $('riskMsg').textContent='Bitte gültige Werte eintragen.'; return; }
+    localStorage.setItem('radar_risk_settings',JSON.stringify(s));
+    refreshSizing();
+    const topic=localStorage.getItem('radar_ntfy_topic')||($('tradeTopic')?.value||'').trim();
+    if(!topic){$('riskMsg').textContent='Gespeichert. Für Push-Berechnung bitte unten einmal deinen ntfy-Topic eintragen.';return}
+    try{
+      const r=await fetch('https://ntfy.sh/'+encodeURIComponent(topic),{
+        method:'POST',headers:{'Content-Type':'text/plain','Title':'Risk settings update','Tags':'gear'},
+        body:'RISK_SETTINGS_JSON:'+JSON.stringify(s)
+      });
+      if(!r.ok)throw new Error('HTTP '+r.status);
+      $('riskMsg').textContent='Gespeichert und an den Monitor gesendet.';
+    }catch(err){$('riskMsg').textContent='Lokal gespeichert; Senden an Monitor fehlgeschlagen: '+err.message}
+  });
+}
+
+load().then?.(()=>refreshSizing()); setTimeout(refreshSizing,1000); setInterval(load, 5*60*1000);
 </script>
 </body>
 </html>

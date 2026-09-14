@@ -83,6 +83,20 @@ def import_manual_positions(state):
                 continue
 
             msg = evt.get("message", "")
+            if msg.startswith("RISK_SETTINGS_JSON:"):
+                payload = json.loads(msg.split("RISK_SETTINGS_JSON:", 1)[1])
+                portfolio = float(payload.get("portfolio_eur", 0) or 0)
+                risk_pct = float(payload.get("risk_per_trade_pct", 0) or 0)
+                max_position_pct = float(payload.get("max_position_pct", 0) or 0)
+                if portfolio > 0 and 0 < risk_pct <= 5 and 0 < max_position_pct <= 100:
+                    state["risk_settings"] = {
+                        "portfolio_eur": portfolio,
+                        "risk_per_trade_pct": risk_pct,
+                        "max_position_pct": max_position_pct
+                    }
+                    print("Imported risk settings:", state["risk_settings"])
+                continue
+
             if not msg.startswith("TRADE_BUY_JSON:"):
                 continue
 
@@ -114,16 +128,26 @@ def import_manual_positions(state):
         print("Manual position import failed:", e)
         return state
 
+
+def effective_risk_settings(state, config):
+    s = dict(config or {})
+    s.update(state.get("risk_settings", {}) or {})
+    return s
+
 def position_size(entry, stop_pct, config):
     portfolio = config.get("portfolio_eur")
     risk_pct = config.get("risk_per_trade_pct", 0.5)
+    max_position_pct = config.get("max_position_pct", 10.0)
     if not portfolio or not entry or not stop_pct:
         return None
-    risk_eur = float(portfolio) * float(risk_pct) / 100.0
+    portfolio = float(portfolio)
+    risk_eur = portfolio * float(risk_pct) / 100.0
     loss_per_share = float(entry) * float(stop_pct) / 100.0
     if loss_per_share <= 0:
         return None
-    return max(0, int(risk_eur // loss_per_share))
+    by_risk = int(risk_eur // loss_per_share)
+    by_position_cap = int((portfolio * float(max_position_pct) / 100.0) // float(entry))
+    return max(0, min(by_risk, by_position_cap))
 
 def main():
     now_ny = datetime.now(NY)
@@ -134,6 +158,7 @@ def main():
     state.setdefault("signals", {})
     state.setdefault("positions", {})
     state = import_manual_positions(state)
+    risk_settings = effective_risk_settings(state, config)
 
     # Manual trades are imported even outside market hours.
     if not market_window_open(now_ny):
@@ -161,14 +186,14 @@ def main():
 
         stop_pct = float(c.get("stop_pct") or 0)
         target_pct = float(c.get("target_pct") or 0)
-        qty = position_size(price, stop_pct, config)
+        qty = position_size(price, stop_pct, risk_settings)
 
         stop_price = price * (1 - stop_pct/100) if stop_pct else None
         target_price = price * (1 + target_pct/100) if target_pct else None
         qty_text = (
-            f"\nPositionsgröße nach Risikolimit: {qty} Stück"
-            if qty is not None else
-            "\nPositionsgröße: nicht berechnet."
+            f"\nVorgeschlagene Kaufmenge: {qty} Stück"
+            if qty is not None and qty > 0 else
+            "\nKaufmenge: nicht berechnet oder unter 1 Stück."
         )
 
         msg = (
@@ -244,7 +269,7 @@ def main():
                 + f"Veränderung: {pnl_pct:+.2f}%\n"
                 + (f"Unrealisierter P/L: {pnl_eur:+.2f}\n" if pnl_eur is not None else "")
                 + f"{reason}\n"
-                + "Aktion: Position jetzt prüfen und Exit erwägen."
+                + (f"Aktion: {qty} Stück verkaufen / Position vollständig schließen." if qty else "Aktion: Position jetzt prüfen und Exit erwägen.")
             )
             if push(f"🔴 EXIT-SIGNAL {ticker}", msg, priority="high", tags=tags):
                 p["status"] = "exit_alerted"
