@@ -75,6 +75,8 @@ a{color:#a9c5ff}.status{margin-top:14px}.section{margin-top:20px}.section h2{fon
   <div class="v">Entry + Exit Alerts</div>
   <div class="detail">Der GitHub-Monitor prüft während der regulären US-Handelszeit etwa alle 15 Minuten. Bei einem neuen <b>KAUF HEUTE</b>-Setup wird einmalig ein Entry-Push gesendet und das Setup anschließend virtuell bis Stop, Gewinnziel oder Zeit-Exit verfolgt.</div>
   <div class="muted small" style="margin-top:8px">Hinweis: Die Überwachung kennt nicht, ob du in Trade Republic tatsächlich gekauft hast. Der gespeicherte Einstieg ist der Referenzkurs zum Zeitpunkt des Push-Signals.</div>
+  <button id="testPushBtn" type="button" style="margin-top:12px;padding:10px 14px;border-radius:10px;border:1px solid var(--accent);background:#16213a;color:var(--txt);font-weight:800;cursor:pointer">Test-Benachrichtigung senden</button>
+  <div id="testPushMsg" class="small muted" style="margin-top:8px"></div>
 </div>
 <div class="status muted small">Das Dashboard aktualisiert <b>data/radar.json</b> automatisch über GitHub Actions. Scores sind heuristische Research-Signale und keine Vorhersage oder Garantie. Overnight-Trades können durch Gaps erhebliche Verluste verursachen.</div>
 </div>
@@ -218,6 +220,43 @@ if(riskForm){
     localStorage.setItem('radar_risk_settings',JSON.stringify(s));
     refreshSizing();
     $('riskMsg').textContent='Gespeichert. Dafür wird keine ntfy-Nachricht verbraucht.';
+  });
+}
+
+
+const testPushBtn=$('testPushBtn');
+if(testPushBtn){
+  testPushBtn.addEventListener('click', async ()=>{
+    const msg=$('testPushMsg');
+    if(!BACKEND_URL || BACKEND_URL.includes('YOUR-WORKER')){
+      msg.textContent='Backend noch nicht eingerichtet.';
+      return;
+    }
+
+    testPushBtn.disabled=true;
+    msg.textContent='Sende Test-Benachrichtigung …';
+
+    try{
+      const r=await fetch(BACKEND_URL+'/test',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:'{}'
+      });
+
+      let data={};
+      try{ data=await r.json(); }catch(e){}
+
+      if(!r.ok){
+        const detail=data.detail || data.error || ('HTTP '+r.status);
+        throw new Error(detail);
+      }
+
+      msg.innerHTML='<span class="good">✓ Test-Benachrichtigung wurde an ntfy gesendet.</span>';
+    }catch(err){
+      msg.innerHTML='<span class="bad">✕ Test fehlgeschlagen: '+esc(err.message)+'</span>';
+    }finally{
+      testPushBtn.disabled=false;
+    }
   });
 }
 
