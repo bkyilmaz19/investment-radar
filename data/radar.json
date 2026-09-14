@@ -1,10 +1,40 @@
 {
-  "generated_at_local": "14.09.2026 13:53 CEST",
+  "generated_at_local": "14.09.2026 14:15 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Risk-on / positives Momentum. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
   "candidates": [
+    {
+      "ticker": "IBM",
+      "name": "IBM",
+      "score": 89,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.96%, 5T +3.66%, relatives Volumen 0.98x, ATR 2.61%",
+      "catalyst": "IBM stock holds near USD 242.77 as analysts stay upbeat - ad-hoc-news.de",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.70%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.7,
+      "target_pct": 3.05,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.96%",
+      "change_5d": "+3.66%",
+      "volume_ratio": "0.98x",
+      "atr_pct": "2.61%",
+      "gap_pct": "+0.70%",
+      "premarket_move_pct": "+1.37%",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "premarket_ok": true
+      }
+    },
     {
       "ticker": "CSCO",
       "name": "Cisco",
@@ -22,50 +52,23 @@
       "volume_ratio": "1.11x",
       "atr_pct": "1.86%",
       "gap_pct": "-1.41%",
-      "premarket_move_pct": "-0.65%"
-    },
-    {
-      "ticker": "UAL",
-      "name": "United Airlines",
-      "score": 86,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.13%, 5T +1.07%, relatives Volumen 1.84x, ATR 3.24%",
-      "catalyst": "United Airlines Holdings (UAL) Premium Push Raises A Fresh Question On Value",
-      "risk_note": "UAL, AAL, DAL Stocks Suffer Weekly Loss: Barclays Cuts Price Targets But Sees A Silver Lining",
-      "entry_note": "Premarket-Gap -1.58%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 2.11,
-      "target_pct": 3.8,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.13%",
-      "change_5d": "+1.07%",
-      "volume_ratio": "1.84x",
-      "atr_pct": "3.24%",
-      "gap_pct": "-1.58%",
-      "premarket_move_pct": "-0.06%"
-    },
-    {
-      "ticker": "IBM",
-      "name": "IBM",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.96%, 5T +3.66%, relatives Volumen 0.98x, ATR 2.61%",
-      "catalyst": "S&P 500, Nasdaq And Dow Close At Record Highs Amid Positive Reports Of US-Iran Ceasefire Negotiations — IBM, SNOW, CZR, AKTX, LLY In Focus",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.70%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.7,
-      "target_pct": 3.05,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.96%",
-      "change_5d": "+3.66%",
-      "volume_ratio": "0.98x",
-      "atr_pct": "2.61%",
-      "gap_pct": "+0.70%",
-      "premarket_move_pct": "+1.08%"
+      "premarket_move_pct": "-0.77%",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: premarket",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "premarket_ok": false
+      }
     },
     {
       "ticker": "DELL",
       "name": "Dell",
-      "score": 84,
+      "score": 83,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +11.98%, 5T +9.86%, relatives Volumen 1.40x, ATR 5.80%",
       "catalyst": "Dell Shares Reach Record High After RBC Starts Coverage With Outperform Rating",
@@ -79,7 +82,48 @@
       "volume_ratio": "1.40x",
       "atr_pct": "5.80%",
       "gap_pct": "-2.96%",
-      "premarket_move_pct": "-1.08%"
+      "premarket_move_pct": "-1.59%",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: gap, premarket",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": false,
+        "premarket_ok": false
+      }
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines",
+      "score": 82,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.13%, 5T +1.07%, relatives Volumen 1.84x, ATR 3.24%",
+      "catalyst": "United Airlines Holdings (UAL) Premium Push Raises A Fresh Question On Value",
+      "risk_note": "UAL, AAL, DAL Stocks Suffer Weekly Loss: Barclays Cuts Price Targets But Sees A Silver Lining",
+      "entry_note": "Premarket-Gap -1.58%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 2.11,
+      "target_pct": 3.8,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.13%",
+      "change_5d": "+1.07%",
+      "volume_ratio": "1.84x",
+      "atr_pct": "3.24%",
+      "gap_pct": "-1.58%",
+      "premarket_move_pct": "-0.13%",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: gap",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": false,
+        "premarket_ok": true
+      }
     },
     {
       "ticker": "DKNG",
@@ -98,7 +142,18 @@
       "volume_ratio": "1.42x",
       "atr_pct": "4.20%",
       "gap_pct": "-1.50%",
-      "premarket_move_pct": "+1.51%"
+      "premarket_move_pct": "+1.31%",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Premarket-Kriterien sind erfüllt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "premarket_ok": true
+      }
     }
   ],
   "avoid": [
@@ -149,12 +204,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "UAL",
-      "title": "HPQ Beats Q2 Estimates But Lowers FY26 Guidance",
-      "time": "Mon, 14 Sep 2026 00:04:58",
-      "sentiment": 1
-    },
-    {
       "ticker": "DELL",
       "title": "Dell Shares Reach Record High After RBC Starts Coverage With Outperform Rating",
       "time": "Mon, 14 Sep 2026 10:12:14",
@@ -179,12 +228,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "ON",
-      "title": "ON Semiconductor Surges As Synaptics Deal Builds Growth Story",
-      "time": "Sun, 13 Sep 2026 15:37:00",
-      "sentiment": 1
-    },
-    {
       "ticker": "HPE",
       "title": "HPE Stock Is Downgraded After Rising 159% This Year. Why?",
       "time": "Mon, 14 Sep 2026 11:32:00",
@@ -200,6 +243,12 @@
       "ticker": "HPE",
       "title": "HPE downgraded by Evercore ISI after recent share price run up (HPE:NYSE)",
       "time": "Mon, 14 Sep 2026 11:21:44",
+      "sentiment": -1
+    },
+    {
+      "ticker": "HPE",
+      "title": "HPE Shares Retreat as Analyst Downgrade Halts Rally",
+      "time": "Mon, 14 Sep 2026 11:56:37",
       "sentiment": -1
     },
     {
@@ -234,6 +283,12 @@
     },
     {
       "ticker": "IBM",
+      "title": "IBM stock holds near USD 242.77 as analysts stay upbeat - ad-hoc-news.de",
+      "time": "Mon, 14 Sep 2026 12:03:53",
+      "sentiment": 1
+    },
+    {
+      "ticker": "IBM",
       "title": "S&P 500, Nasdaq And Dow Close At Record Highs Amid Positive Reports Of US-Iran Ceasefire Negotiations — IBM, SNOW, CZR, AKTX, LLY In Focus",
       "time": "Sun, 13 Sep 2026 22:47:41",
       "sentiment": 1
@@ -243,12 +298,6 @@
       "title": "Qualcomm Falls 7% After Q4 EPS Guidance Misses by 12% — Automotive Hit a Record $1.6B",
       "time": "Sun, 13 Sep 2026 13:29:08",
       "sentiment": -1
-    },
-    {
-      "ticker": "ISRG",
-      "title": "Intuitive Surgical stock gains after strong first-quarter revenue growth - ad-hoc-news.de",
-      "time": "Sun, 13 Sep 2026 12:10:15",
-      "sentiment": 1
     },
     {
       "ticker": "APP",
@@ -288,26 +337,32 @@
     },
     {
       "ticker": "ARM",
+      "title": "Ed Yardeni Says ‘I’m Not Particularly Concerned’ About AI Slowdown Fears, Maintains 8,400 Year-End S&P 500 Target",
+      "time": "Mon, 14 Sep 2026 11:31:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ARM",
       "title": "Arm Holds $253 as $2B AI CPU Pipeline Puts $270 Breakout in Focus",
       "time": "Mon, 14 Sep 2026 06:53:35",
       "sentiment": 0
     },
     {
-      "ticker": "ARM",
-      "title": "Masayoshi Son Says ARM’s Valuation Could Soar Over 10X From $391B, Defends INTC Investment — ‘US Has No Choice But To Strengthen Intel’",
-      "time": "Sun, 13 Sep 2026 22:54:07",
-      "sentiment": 0
-    },
-    {
       "ticker": "UAL",
-      "title": "United Airlines stock heads into the open after a 3.1 percent gain - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 01:09:38",
+      "title": "$10,000 in Archer Aviation at Last Year's High Is About $3,840 Now. Here's What Gets It Back.",
+      "time": "Mon, 14 Sep 2026 07:37:16",
       "sentiment": 0
     },
     {
       "ticker": "UAL",
       "title": "(UAL) Risk Channels and Responsive Allocation",
       "time": "Sun, 13 Sep 2026 17:52:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "UAL",
+      "title": "United Airlines stock heads into the open after a 3.1 percent gain - ad-hoc-news.de",
+      "time": "Mon, 14 Sep 2026 01:09:38",
       "sentiment": 0
     },
     {
@@ -378,12 +433,6 @@
     },
     {
       "ticker": "ANET",
-      "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-      "time": "Sun, 13 Sep 2026 11:57:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ANET",
       "title": "12 Best 5G Stocks for 2026 and How to Invest",
       "time": "Sun, 13 Sep 2026 19:59:00",
       "sentiment": 0
@@ -396,20 +445,26 @@
     },
     {
       "ticker": "ON",
-      "title": "ON Semiconductor stock gains as analyst day and Wells Fargo target cut set the stage - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 09:27:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
       "title": "Credo Technology Group vs. Marvell Technology: Which Semiconductor Stock Is a Better Buy in 2026?",
       "time": "Mon, 14 Sep 2026 11:22:28",
       "sentiment": 0
     },
     {
       "ticker": "ON",
+      "title": "ON Semiconductor stock gains as analyst day and Wells Fargo target cut set the stage - ad-hoc-news.de",
+      "time": "Mon, 14 Sep 2026 09:27:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ON",
       "title": "Broadcom Shares Fall 3.2% as AI Development Debate Weighs on Semiconductor Stocks",
       "time": "Mon, 14 Sep 2026 11:12:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ON",
+      "title": "Prediction: Intel Could Be the Tech Comeback Story of the Decade",
+      "time": "Mon, 14 Sep 2026 12:00:00",
       "sentiment": 0
     },
     {
@@ -422,12 +477,6 @@
       "ticker": "HPE",
       "title": "Why Is Hewlett Packard Stock Falling Monday?",
       "time": "Mon, 14 Sep 2026 10:43:29",
-      "sentiment": 0
-    },
-    {
-      "ticker": "HPE",
-      "title": "DELL, HPE Stocks Lead S&P 500 Gains: Oracle’s $95B Capex Plan Lifts AI Stocks",
-      "time": "Sun, 13 Sep 2026 23:51:42",
       "sentiment": 0
     },
     {
@@ -450,14 +499,14 @@
     },
     {
       "ticker": "TXN",
-      "title": "AI, chip stocks fall as tech CEOs urge caution on development pace (OPENAI:Private)",
-      "time": "Mon, 14 Sep 2026 08:51:11",
+      "title": "Jeremy Grantham’s Latest Portfolio: Top 10 Holdings & Biggest Trades",
+      "time": "Sun, 13 Sep 2026 23:50:37",
       "sentiment": 0
     },
     {
       "ticker": "TXN",
-      "title": "Jeremy Grantham’s Latest Portfolio: Top 10 Holdings & Biggest Trades",
-      "time": "Sun, 13 Sep 2026 23:50:37",
+      "title": "AI, chip stocks fall as tech CEOs urge caution on development pace (OPENAI:Private)",
+      "time": "Mon, 14 Sep 2026 08:51:11",
       "sentiment": 0
     },
     {
@@ -476,6 +525,18 @@
       "ticker": "CSCO",
       "title": "Cisco Systems stock gains on AI-driven Q4 2026 results and higher FY2027 guidance - ad-hoc-news.de",
       "time": "Sun, 13 Sep 2026 12:35:18",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ETN",
+      "title": "One of Eaton’s largest gifts in 115 years will support freshwater conservation",
+      "time": "Mon, 14 Sep 2026 12:03:22",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMD",
+      "title": "Chip stocks down: AMD, Nvidia, Intel, and Sandisk lead market selloff after AI bosses call for a pause",
+      "time": "Mon, 14 Sep 2026 11:32:34",
       "sentiment": 0
     },
     {
@@ -509,15 +570,27 @@
       "sentiment": 0
     },
     {
-      "ticker": "AMD",
-      "title": "INTC, ARM, AMD Stocks Gain Today — Bernstein Supercharges AI Chip Bull Case",
-      "time": "Mon, 14 Sep 2026 01:31:06",
-      "sentiment": 0
-    },
-    {
       "ticker": "NXPI",
       "title": "Top Cerebras Systems (CBRS) Competitors 2026",
       "time": "Sun, 13 Sep 2026 14:19:19",
+      "sentiment": 0
+    },
+    {
+      "ticker": "INTC",
+      "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
+      "time": "Mon, 14 Sep 2026 11:37:33",
+      "sentiment": 0
+    },
+    {
+      "ticker": "INTC",
+      "title": "Prediction: Intel Could Be the Tech Comeback Story of the Decade",
+      "time": "Mon, 14 Sep 2026 12:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "INTC",
+      "title": "INTC Stock Pulls Back As Apple Extends Move Away From Intel",
+      "time": "Mon, 14 Sep 2026 11:47:00",
       "sentiment": 0
     },
     {
@@ -539,24 +612,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "INTC",
-      "title": "Intel (INTC) Tackles Encryption Bottlenecks, Is It Still 80% Undervalued?",
-      "time": "Sun, 13 Sep 2026 23:38:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "INTC",
-      "title": "Intel (INTC) Is Winning From the CPU Shortage, but Its Foundry Valuation Needs More Proof",
-      "time": "Sun, 13 Sep 2026 19:10:52",
-      "sentiment": 0
-    },
-    {
-      "ticker": "INTC",
-      "title": "Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week: INTC, RUM, NBIS, ASTS, ONDS",
-      "time": "Sun, 13 Sep 2026 21:46:32",
-      "sentiment": 0
-    },
-    {
       "ticker": "SMCI",
       "title": "US stocks rebound sharply, but major indices still close lower for the week",
       "time": "Mon, 14 Sep 2026 06:01:51",
@@ -570,20 +625,20 @@
     },
     {
       "ticker": "SMCI",
-      "title": "AI Leaders Call for Caution Amid Rising Concerns, Impacting SMCI",
-      "time": "Sun, 13 Sep 2026 21:14:37",
+      "title": "Get 55% off InvestingPro NOW: For a limited time only, this price won’t last By Investing.com",
+      "time": "Mon, 14 Sep 2026 10:15:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SMCI",
+      "title": "Asian Markets Set for Lower Open Amid AI Sector Concerns",
+      "time": "Mon, 14 Sep 2026 00:09:06",
       "sentiment": 0
     },
     {
       "ticker": "SMCI",
       "title": "GRRR Stock Slides Premarket Despite A $2B AI Deal With Supermicro — Here's Why",
       "time": "Sun, 13 Sep 2026 20:01:17",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SMCI",
-      "title": "Get 55% off InvestingPro NOW: For a limited time only, this price won’t last By Investing.com",
-      "time": "Mon, 14 Sep 2026 10:24:00",
       "sentiment": 0
     },
     {
@@ -600,20 +655,20 @@
     },
     {
       "ticker": "IBM",
-      "title": "IBM stock heads into the open after a 1.6 percent gain - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 05:54:12",
-      "sentiment": 0
-    },
-    {
-      "ticker": "IBM",
       "title": "Nykredit A S Takes Position in International Business Machines Corporation $IBM",
       "time": "Mon, 14 Sep 2026 07:46:49",
       "sentiment": 0
     },
     {
       "ticker": "IBM",
-      "title": "TD Waterhouse Canada Inc. Buys 13,169 Shares of International Business Machines Corporation $IBM",
-      "time": "Mon, 14 Sep 2026 07:46:48",
+      "title": "IBM stock heads into the open after a 1.6 percent gain - ad-hoc-news.de",
+      "time": "Mon, 14 Sep 2026 05:54:12",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MRVL",
+      "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
+      "time": "Mon, 14 Sep 2026 11:37:33",
       "sentiment": 0
     },
     {
@@ -647,12 +702,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "MRVL",
-      "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
-      "time": "Mon, 14 Sep 2026 11:37:33",
-      "sentiment": 0
-    },
-    {
       "ticker": "KHC",
       "title": "Kraft Heinz Moves to the NYSE. What Happened to the Breakup?",
       "time": "Mon, 14 Sep 2026 11:10:00",
@@ -678,20 +727,26 @@
     },
     {
       "ticker": "KHC",
-      "title": "The Kraft Heinz Company Primary Exchange Listing will Change to New York Stock Exchange from Nasdaq Global Select",
-      "time": "Mon, 14 Sep 2026 00:35:56",
+      "title": "Goldman rebalances its short duration stock basket (IWB:NYSEARCA)",
+      "time": "Mon, 14 Sep 2026 12:00:07",
       "sentiment": 0
     },
     {
       "ticker": "KHC",
-      "title": "Best Dividend Stocks To Watch Today - September 13th",
-      "time": "Sun, 13 Sep 2026 20:05:06",
+      "title": "The Kraft Heinz Company Primary Exchange Listing will Change to New York Stock Exchange from Nasdaq Global Select",
+      "time": "Mon, 14 Sep 2026 00:35:56",
       "sentiment": 0
     },
     {
       "ticker": "QCOM",
       "title": "Qualcomm: AI Boom Ignored (NASDAQ:QCOM)",
       "time": "Sun, 13 Sep 2026 18:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "QCOM",
+      "title": "This Could Be the Most Underrated Artificial Intelligence Stock to Buy Right Now",
+      "time": "Mon, 14 Sep 2026 12:00:03",
       "sentiment": 0
     },
     {
@@ -713,12 +768,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "QCOM",
-      "title": "Qualcomm (NASDAQ: QCOM) Loses Apple Modem Revenue But Eyes $60 Billion Amazon Lifeline In Data Center Push",
-      "time": "Sun, 13 Sep 2026 19:15:00",
-      "sentiment": 0
-    },
-    {
       "ticker": "ISRG",
       "title": "Intuitive Surgical (ISRG) Down 30% This Year; Can Tonight’s Q2 Earnings Reverse the Bearish Channel?",
       "time": "Sun, 13 Sep 2026 18:00:05",
@@ -734,6 +783,12 @@
       "ticker": "ISRG",
       "title": "Intuitive Surgical Stock Has Fallen 39% From Its High. Could This Be the Bottom?",
       "time": "Sun, 13 Sep 2026 21:31:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ISRG",
+      "title": "Intuitive announces expanded indication for da Vinci SP in Europe",
+      "time": "Mon, 14 Sep 2026 06:00:00",
       "sentiment": 0
     },
     {
@@ -805,7 +860,7 @@
     {
       "ticker": "GEV",
       "title": "GLJ Research initiates GE Vernova stock with sell rating on cycle concerns",
-      "time": "Mon, 14 Sep 2026 10:18:00",
+      "time": "Mon, 14 Sep 2026 11:11:50",
       "sentiment": 0
     },
     {
@@ -818,6 +873,12 @@
       "ticker": "GEV",
       "title": "GE Healthcare in Talks To Acquire Sofie Biosciences, Maker of Cancer Scan Chemicals",
       "time": "Sun, 13 Sep 2026 19:45:36",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GEV",
+      "title": "Here Are Monday’s Top Wall Street Analyst Research Calls: Accenture, Chime Financial, Crown Castle, Dick's Sporting Goods, EchoStar Corporation, GE Vernova, Honeywell Aerospace, IREN Limited, and More",
+      "time": "Mon, 14 Sep 2026 12:04:00",
       "sentiment": 0
     },
     {
