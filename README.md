@@ -48,3 +48,16 @@ Für ernsthaftes aktives Trading sind kostenlose Datenfeeds nicht garantiert ech
 ## Risiko
 
 Kurzfristige und Overnight-Trades sind spekulativ. Ein Setup kann trotz positivem Score sofort drehen oder mit einem Gap gegen dich eröffnen. Stop-/Target-Angaben sind Modellorientierungen, keine personalisierte Anlageberatung.
+
+
+## Großes Aktienuniversum
+
+Diese Version scannt aktuell **204 liquide Aktien/ADRs** aus mehreren Sektoren. 
+Der Prozess ist dreistufig, um Laufzeit und Datenlast vernünftig zu halten:
+
+1. Alle 204 Titel: Kursmomentum, 5-Tages-Momentum, relatives Volumen und ATR.
+2. Nur die besten 24 quantitativen Setups: aktuelle News/Sentiment.
+3. Nur die besten 10: Premarket-/Gap-Prüfung.
+4. Im Dashboard erscheinen maximal die besten 5 Titel mit Mindestscore 65/100.
+
+Damit werden nicht nur wenige feste Favoriten verglichen, sondern ein deutlich breiteres Universum.

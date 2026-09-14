@@ -25,7 +25,7 @@ a{color:#a9c5ff}.status{margin-top:14px}.section{margin-top:20px}.section h2{fon
 
 <div class="grid metrics">
 <div class="panel"><div class="k">Marktregime</div><div class="v" id="regime">–</div></div>
-<div class="panel"><div class="k">Kandidaten</div><div class="v" id="count">–</div></div>
+<div class="panel"><div class="k">Geprüfte Aktien</div><div class="v" id="scanned">–</div></div>
 <div class="panel"><div class="k">Top-Score</div><div class="v" id="topscore">–</div></div>
 <div class="panel"><div class="k">Grundregel</div><div class="v">Kein Setup = kein Trade</div></div>
 </div>
@@ -47,7 +47,7 @@ async function load(){
   const r=await fetch('data/radar.json?ts='+Date.now(),{cache:'no-store'}); if(!r.ok) throw new Error('HTTP '+r.status);
   const d=await r.json(), c=d.candidates||[];
   $('updated').textContent='Aktualisiert: '+(d.generated_at_local||'–');
-  $('regime').textContent=d.market_regime||'–'; $('count').textContent=c.length; $('topscore').textContent=c.length?Math.max(...c.map(x=>+x.score||0))+'/100':'–'; $('brief').textContent=d.summary||'–';
+  $('regime').textContent=d.market_regime||'–'; $('scanned').textContent=(d.scanned_count??'–')+' / '+(d.universe_size??'–'); $('topscore').textContent=c.length?Math.max(...c.map(x=>+x.score||0))+'/100':'–'; $('brief').textContent=d.summary||'–';
   const cards=$('cards'); cards.innerHTML='';
   if(!c.length){cards.innerHTML='<div class="empty panel">Heute kein überzeugender Kandidat. Kein Trade kann besser sein als ein erzwungener Trade.</div>'}
   c.forEach(x=>{
