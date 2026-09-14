@@ -51,7 +51,8 @@ a{color:#a9c5ff}.status{margin-top:14px}.section{margin-top:20px}.section h2{fon
 <section class="section">
   <h2>Meine echte Position</h2>
   <div class="panel">
-    <div class="muted small">Nach deinem Kauf in Trade Republic trägst du hier deinen tatsächlichen Einstieg ein. Der Monitor verwendet danach deinen echten Kaufkurs und deine echte Stückzahl für Exit-Alarme.</div>
+    <div class="muted small">Nach deinem Kauf in Trade Republic trägst du hier deinen tatsächlichen Einstieg ein. Das Backend leitet die Position an deinen Monitor weiter; dein ntfy-Topic steht nicht im Dashboard.</div>
+    <div id="pushConnectionState" class="small" style="margin-top:8px"></div>
     <form id="tradeForm" style="margin-top:12px;display:grid;gap:10px;grid-template-columns:repeat(2,minmax(0,1fr))">
       <label class="small">Ticker<input id="tradeTicker" required placeholder="DKNG" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
       <label class="small">Kaufkurs<input id="tradeEntry" required type="number" min="0.0001" step="0.0001" placeholder="38.20" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
@@ -59,7 +60,7 @@ a{color:#a9c5ff}.status{margin-top:14px}.section{margin-top:20px}.section h2{fon
       <label class="small">Kaufzeit<input id="tradeTime" type="datetime-local" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
       <label class="small">Stop %<input id="tradeStop" type="number" min="0.1" max="20" step="0.1" value="2.0" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
       <label class="small">Gewinnziel %<input id="tradeTarget" type="number" min="0.1" max="50" step="0.1" value="4.0" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
-      <label class="small" style="grid-column:1/-1">Privater ntfy-Topic<input id="tradeTopic" required placeholder="dein privater Topic" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
+      
       <button type="submit" style="grid-column:1/-1;padding:11px 14px;border-radius:10px;border:1px solid var(--good);background:rgba(69,211,155,.12);color:var(--good);font-weight:800;cursor:pointer">Position speichern & überwachen</button>
     </form>
     <div id="tradeMsg" class="small muted" style="margin-top:10px"></div>
@@ -77,8 +78,10 @@ a{color:#a9c5ff}.status{margin-top:14px}.section{margin-top:20px}.section h2{fon
 </div>
 <div class="status muted small">Das Dashboard aktualisiert <b>data/radar.json</b> automatisch über GitHub Actions. Scores sind heuristische Research-Signale und keine Vorhersage oder Garantie. Overnight-Trades können durch Gaps erhebliche Verluste verursachen.</div>
 </div>
+<script src="backend-config.js"></script>
 <script>
 const $=x=>document.getElementById(x);
+const BACKEND_URL=(window.RADAR_BACKEND_URL||'').replace(/\/$/,'');
 const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 function tone(v){return v>=75?'good':v>=62?'warn':'bad'}
 async function load(){
@@ -117,15 +120,29 @@ async function load(){
  }catch(e){$('brief').textContent='Daten konnten nicht geladen werden: '+e.message}
 }
 
-const topicInput=$('tradeTopic');
-if(topicInput){
-  topicInput.value=localStorage.getItem('radar_ntfy_topic')||'';
+
+const pushStateEl=$('pushConnectionState');
+async function refreshBackendState(){
+  if(!pushStateEl) return;
+  if(!BACKEND_URL || BACKEND_URL.includes('YOUR-WORKER')){
+    pushStateEl.innerHTML='<span class="bad">✕ Backend noch nicht eingerichtet</span>';
+    return;
+  }
+  pushStateEl.innerHTML='<span class="muted">Prüfe Backend …</span>';
+  try{
+    const r=await fetch(BACKEND_URL+'/health',{cache:'no-store'});
+    if(!r.ok) throw new Error('HTTP '+r.status);
+    pushStateEl.innerHTML='<span class="good">✓ Push-Backend verbunden · ntfy-Topic bleibt verborgen</span>';
+  }catch(e){pushStateEl.innerHTML='<span class="bad">✕ Backend nicht erreichbar</span>'}
+}
+refreshBackendState();
+
+if(true){
   const n=new Date(); n.setMinutes(n.getMinutes()-n.getTimezoneOffset());
   $('tradeTime').value=n.toISOString().slice(0,16);
 
   $('tradeForm').addEventListener('submit',async e=>{
     e.preventDefault();
-    const topic=$('tradeTopic').value.trim();
     const ticker=$('tradeTicker').value.trim().toUpperCase();
     const entry=parseFloat($('tradeEntry').value);
     const qty=parseInt($('tradeQty').value,10);
@@ -133,20 +150,23 @@ if(topicInput){
     const target_pct=parseFloat($('tradeTarget').value);
     const bought_at=$('tradeTime').value ? new Date($('tradeTime').value).toISOString() : new Date().toISOString();
 
-    if(!topic||!ticker||!(entry>0)||!(qty>0)){
-      $('tradeMsg').textContent='Bitte Ticker, Kaufkurs, Stückzahl und Topic prüfen.';
+    if(!ticker||!(entry>0)||!(qty>0)){
+      $('tradeMsg').textContent='Bitte Ticker, Kaufkurs und Stückzahl prüfen.';
+      return;
+    }
+    if(!BACKEND_URL || BACKEND_URL.includes('YOUR-WORKER')){
+      $('tradeMsg').textContent='Backend noch nicht eingerichtet.';
       return;
     }
 
-    localStorage.setItem('radar_ntfy_topic',topic);
     const payload={ticker,entry,qty,bought_at,stop_pct,target_pct};
 
     try{
       $('tradeMsg').textContent='Sende Position an den Monitor …';
-      const r=await fetch('https://ntfy.sh/'+encodeURIComponent(topic),{
+      const r=await fetch(BACKEND_URL+'/trade',{
         method:'POST',
-        headers:{'Content-Type':'text/plain','Title':'Trade position update','Tags':'memo'},
-        body:'TRADE_BUY_JSON:'+JSON.stringify(payload)
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify(payload)
       });
       if(!r.ok) throw new Error('HTTP '+r.status);
       $('tradeMsg').textContent='Position gespeichert. Der Monitor übernimmt sie beim nächsten Lauf und verwendet deinen echten Einstieg für Exit-Pushs.';
@@ -197,12 +217,13 @@ if(riskForm){
     if(!(s.portfolio_eur>0&&s.risk_per_trade_pct>0&&s.max_position_pct>0)){ $('riskMsg').textContent='Bitte gültige Werte eintragen.'; return; }
     localStorage.setItem('radar_risk_settings',JSON.stringify(s));
     refreshSizing();
-    const topic=localStorage.getItem('radar_ntfy_topic')||($('tradeTopic')?.value||'').trim();
-    if(!topic){$('riskMsg').textContent='Gespeichert. Für Push-Berechnung bitte unten einmal deinen ntfy-Topic eintragen.';return}
+    if(!BACKEND_URL || BACKEND_URL.includes('YOUR-WORKER')){
+      $('riskMsg').textContent='Lokal gespeichert. Backend noch nicht eingerichtet.';
+      return;
+    }
     try{
-      const r=await fetch('https://ntfy.sh/'+encodeURIComponent(topic),{
-        method:'POST',headers:{'Content-Type':'text/plain','Title':'Risk settings update','Tags':'gear'},
-        body:'RISK_SETTINGS_JSON:'+JSON.stringify(s)
+      const r=await fetch(BACKEND_URL+'/settings',{
+        method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(s)
       });
       if(!r.ok)throw new Error('HTTP '+r.status);
       $('riskMsg').textContent='Gespeichert und an den Monitor gesendet.';
