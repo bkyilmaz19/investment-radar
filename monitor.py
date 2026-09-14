@@ -24,7 +24,6 @@ def save_json(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 def market_window_open(now_ny):
-    # Give a small buffer around regular US market hours.
     return now_ny.weekday() < 5 and time(9, 25) <= now_ny.time() <= time(16, 15)
 
 def latest_price(ticker):
@@ -34,7 +33,6 @@ def latest_price(ticker):
         if d.empty:
             return None
         close = d["Close"]
-        # yfinance may return DataFrame for one ticker in newer versions.
         if hasattr(close, "columns"):
             close = close.iloc[:, 0]
         close = close.dropna()
@@ -62,6 +60,60 @@ def push(title, message, priority="default", tags="bell"):
         print("Push failed:", e)
         return False
 
+def import_manual_positions(state):
+    """Import BUY events sent by the public dashboard through the private ntfy topic."""
+    topic = os.environ.get("NTFY_TOPIC", "").strip()
+    if not topic:
+        return state
+
+    server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
+    since = state.get("ntfy_last_event_id")
+    params = {"poll": "1", "since": since if since else "24h"}
+
+    try:
+        r = requests.get(f"{server}/{topic}/json", params=params, timeout=20)
+        r.raise_for_status()
+        for line in r.text.splitlines():
+            if not line.strip():
+                continue
+            evt = json.loads(line)
+            if evt.get("id"):
+                state["ntfy_last_event_id"] = evt["id"]
+            if evt.get("event") != "message":
+                continue
+
+            msg = evt.get("message", "")
+            if not msg.startswith("TRADE_BUY_JSON:"):
+                continue
+
+            payload = json.loads(msg.split("TRADE_BUY_JSON:", 1)[1])
+            ticker = str(payload.get("ticker", "")).upper().strip()
+            entry = float(payload.get("entry", 0) or 0)
+            qty = int(payload.get("qty", 0) or 0)
+            stop_pct = float(payload.get("stop_pct", 0) or 0)
+            target_pct = float(payload.get("target_pct", 0) or 0)
+            bought_at = payload.get("bought_at") or datetime.now(NY).isoformat()
+
+            if not ticker or entry <= 0 or qty <= 0:
+                continue
+
+            state.setdefault("positions", {})
+            state["positions"][ticker] = {
+                "entry": entry,
+                "qty": qty,
+                "stop_pct": stop_pct,
+                "target_pct": target_pct,
+                "opened_at": bought_at,
+                "status": "real_open",
+                "source": "dashboard_manual"
+            }
+            print("Imported real position:", ticker, entry, qty)
+
+        return state
+    except Exception as e:
+        print("Manual position import failed:", e)
+        return state
+
 def position_size(entry, stop_pct, config):
     portfolio = config.get("portfolio_eur")
     risk_pct = config.get("risk_per_trade_pct", 0.5)
@@ -75,20 +127,25 @@ def position_size(entry, stop_pct, config):
 
 def main():
     now_ny = datetime.now(NY)
-    if not market_window_open(now_ny):
-        print("Outside regular US monitoring window:", now_ny.isoformat())
-        return
 
     radar = load_json(RADAR_PATH, {})
     config = load_json(CONFIG_PATH, {})
     state = load_json(STATE_PATH, {"signals": {}, "positions": {}})
     state.setdefault("signals", {})
     state.setdefault("positions", {})
+    state = import_manual_positions(state)
+
+    # Manual trades are imported even outside market hours.
+    if not market_window_open(now_ny):
+        state["last_check"] = datetime.now(BERLIN).isoformat()
+        save_json(STATE_PATH, state)
+        print("Outside regular US monitoring window:", now_ny.isoformat())
+        return
 
     candidates = radar.get("candidates", [])
     today = now_ny.date().isoformat()
 
-    # 1) New entry alerts: only once per ticker/day.
+    # 1) Entry alerts from the scanner.
     for c in candidates:
         ticker = c.get("ticker")
         if not ticker or c.get("action_status") != "KAUF HEUTE":
@@ -108,48 +165,58 @@ def main():
 
         stop_price = price * (1 - stop_pct/100) if stop_pct else None
         target_price = price * (1 + target_pct/100) if target_pct else None
-
-        qty_text = f"\nPositionsgröße nach deinem Risikolimit: {qty} Stück" if qty is not None else \
-                   "\nPositionsgröße: nicht berechnet (portfolio_eur in config.json noch nicht gesetzt)."
+        qty_text = (
+            f"\nPositionsgröße nach Risikolimit: {qty} Stück"
+            if qty is not None else
+            "\nPositionsgröße: nicht berechnet."
+        )
 
         msg = (
             f"{ticker} erfüllt alle Dashboard-Regeln.\n"
             f"Referenzkurs: {price:.2f}\n"
             f"Score: {c.get('score','–')}/100\n"
-            f"Stop/Invalidation: ca. {stop_price:.2f} ({-stop_pct:.2f}%)\n" if stop_price else
-            f"{ticker} erfüllt alle Dashboard-Regeln.\nReferenzkurs: {price:.2f}\nScore: {c.get('score','–')}/100\n"
         )
+        if stop_price:
+            msg += f"Stop/Invalidation: ca. {stop_price:.2f} ({-stop_pct:.2f}%)\n"
         if target_price:
             msg += f"1. Ziel: ca. {target_price:.2f} (+{target_pct:.2f}%)\n"
         msg += f"Entry-Regel: {c.get('entry_note','')}{qty_text}\nKeine Gewinngarantie."
 
         if push(f"🟢 ENTRY-SIGNAL {ticker}", msg, priority="high", tags="chart_with_upwards_trend"):
-            state["signals"][signal_key] = {"sent_at": datetime.now(BERLIN).isoformat(), "price": price}
-            # Virtual tracking starts from the reference price. This is not proof the user actually bought.
-            state["positions"][ticker] = {
-                "entry": price,
-                "stop_pct": stop_pct,
-                "target_pct": target_pct,
-                "opened_at": now_ny.isoformat(),
-                "signal_key": signal_key,
-                "status": "virtual_open"
+            state["signals"][signal_key] = {
+                "sent_at": datetime.now(BERLIN).isoformat(),
+                "price": price
             }
+            existing = state["positions"].get(ticker)
+            if not existing or existing.get("status") not in ("real_open", "virtual_open"):
+                state["positions"][ticker] = {
+                    "entry": price,
+                    "qty": None,
+                    "stop_pct": stop_pct,
+                    "target_pct": target_pct,
+                    "opened_at": now_ny.isoformat(),
+                    "signal_key": signal_key,
+                    "status": "virtual_open",
+                    "source": "entry_signal_reference"
+                }
 
-    # 2) Monitor virtual positions for exit conditions.
+    # 2) Monitor real or virtual positions.
     for ticker, p in list(state["positions"].items()):
-        if p.get("status") != "virtual_open":
+        if p.get("status") not in ("real_open", "virtual_open"):
             continue
+
         price = latest_price(ticker)
         if price is None:
             continue
 
         entry = float(p["entry"])
+        qty = p.get("qty")
         stop_pct = float(p.get("stop_pct") or 0)
         target_pct = float(p.get("target_pct") or 0)
         pnl_pct = (price / entry - 1) * 100
+        pnl_eur = (price - entry) * int(qty) if qty else None
 
         reason = None
-        priority = "high"
         tags = "warning"
 
         if stop_pct and pnl_pct <= -stop_pct:
@@ -161,28 +228,29 @@ def main():
         else:
             try:
                 opened = datetime.fromisoformat(p["opened_at"]).astimezone(NY)
-                # Time exit: by 15:45 ET on the next trading date or later.
                 if now_ny.date() > opened.date() and now_ny.time() >= time(15,45):
-                    reason = f"Zeit-Exit: Setup ist vom Vortag ({pnl_pct:+.2f}%)."
+                    reason = f"Zeit-Exit: Position ist vom Vortag ({pnl_pct:+.2f}%)."
                     tags = "alarm_clock"
             except Exception:
                 pass
 
         if reason:
+            source_label = "Echte Position" if p.get("status") == "real_open" else "Virtuelles Setup"
             msg = (
-                f"Virtuell überwachtes Setup {ticker}\n"
-                f"Referenz-Einstieg: {entry:.2f}\n"
-                f"Aktueller Kurs: {price:.2f}\n"
-                f"Veränderung: {pnl_pct:+.2f}%\n"
-                f"{reason}\n"
-                f"Aktion: Position/Setup jetzt prüfen und Exit erwägen."
+                f"{source_label} {ticker}\n"
+                f"Einstieg: {entry:.2f}\n"
+                + (f"Stückzahl: {qty}\n" if qty else "")
+                + f"Aktueller Kurs: {price:.2f}\n"
+                + f"Veränderung: {pnl_pct:+.2f}%\n"
+                + (f"Unrealisierter P/L: {pnl_eur:+.2f}\n" if pnl_eur is not None else "")
+                + f"{reason}\n"
+                + "Aktion: Position jetzt prüfen und Exit erwägen."
             )
-            if push(f"🔴 EXIT-SIGNAL {ticker}", msg, priority=priority, tags=tags):
+            if push(f"🔴 EXIT-SIGNAL {ticker}", msg, priority="high", tags=tags):
                 p["status"] = "exit_alerted"
                 p["exit_alert_at"] = now_ny.isoformat()
                 p["exit_reference_price"] = price
 
-    # Prune old signal keys after 14 days by keeping only recent positions/signals approximately.
     if len(state["signals"]) > 500:
         keys = list(state["signals"].keys())[-300:]
         state["signals"] = {k: state["signals"][k] for k in keys}
