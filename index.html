@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Next-Day Investment Radar</title>
+<style>
+:root{color-scheme:dark;--bg:#0b0f15;--panel:#121823;--card:#171f2c;--line:#2a3445;--txt:#edf3fa;--muted:#99a8bb;--good:#45d39b;--warn:#f0bd58;--bad:#ff7474;--accent:#7ea9ff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}.wrap{max-width:1180px;margin:auto;padding:22px}
+header{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;flex-wrap:wrap}h1{margin:0 0 6px;font-size:28px}.muted{color:var(--muted)}.pill{border:1px solid var(--line);border-radius:999px;padding:8px 11px;font-size:13px}
+.grid{display:grid;gap:14px}.metrics{grid-template-columns:repeat(4,1fr);margin:18px 0}.panel,.card{border:1px solid var(--line);border-radius:15px;padding:15px}.panel{background:var(--panel)}.card{background:var(--card)}
+.cards{grid-template-columns:repeat(3,1fr)}.row{display:flex;justify-content:space-between;gap:12px}.score{font-size:28px;font-weight:800}.good{color:var(--good)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+.bar{height:8px;background:#252f3e;border-radius:999px;overflow:hidden;margin:11px 0}.bar>i{display:block;height:100%;background:var(--accent)}.k{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}.v{margin-top:5px;font-weight:750}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:9px;border-top:1px solid var(--line)}th{color:var(--muted);font-weight:600}.small{font-size:12px}.detail{font-size:14px;line-height:1.48;margin-top:7px}
+a{color:#a9c5ff}.status{margin-top:14px}.section{margin-top:20px}.section h2{font-size:18px;margin:0 0 10px}.empty{padding:24px;text-align:center;color:var(--muted)}
+@media(max-width:900px){.metrics{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr 1fr}}@media(max-width:600px){.wrap{padding:13px}.metrics,.cards{grid-template-columns:1fr}h1{font-size:23px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div><h1>Next-Day Investment Radar</h1><div class="muted">Automatischer Morning-Scan für kurzfristige Research-Ideen</div></div>
+<div class="pill" id="updated">Lade Daten …</div>
+</header>
+
+<div class="grid metrics">
+<div class="panel"><div class="k">Marktregime</div><div class="v" id="regime">–</div></div>
+<div class="panel"><div class="k">Kandidaten</div><div class="v" id="count">–</div></div>
+<div class="panel"><div class="k">Top-Score</div><div class="v" id="topscore">–</div></div>
+<div class="panel"><div class="k">Grundregel</div><div class="v">Kein Setup = kein Trade</div></div>
+</div>
+
+<div class="panel"><div class="k">Morning Brief</div><div id="brief" style="margin-top:7px">Daten werden geladen.</div></div>
+
+<section class="section"><h2>Research-Kandidaten</h2><div id="cards" class="grid cards"></div></section>
+<section class="section"><h2>Heute besonders vorsichtig</h2><div class="panel"><div id="avoid"></div></div></section>
+<section class="section"><h2>News-Signale</h2><div class="panel" style="overflow:auto"><table><thead><tr><th>Zeit</th><th>Ticker</th><th>Schlagzeile</th><th>Signal</th></tr></thead><tbody id="news"></tbody></table></div></section>
+
+<div class="status muted small">Das Dashboard aktualisiert <b>data/radar.json</b> automatisch über GitHub Actions. Scores sind heuristische Research-Signale und keine Vorhersage oder Garantie. Overnight-Trades können durch Gaps erhebliche Verluste verursachen.</div>
+</div>
+<script>
+const $=x=>document.getElementById(x);
+const esc=s=>String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+function tone(v){return v>=75?'good':v>=62?'warn':'bad'}
+async function load(){
+ try{
+  const r=await fetch('data/radar.json?ts='+Date.now(),{cache:'no-store'}); if(!r.ok) throw new Error('HTTP '+r.status);
+  const d=await r.json(), c=d.candidates||[];
+  $('updated').textContent='Aktualisiert: '+(d.generated_at_local||'–');
+  $('regime').textContent=d.market_regime||'–'; $('count').textContent=c.length; $('topscore').textContent=c.length?Math.max(...c.map(x=>+x.score||0))+'/100':'–'; $('brief').textContent=d.summary||'–';
+  const cards=$('cards'); cards.innerHTML='';
+  if(!c.length){cards.innerHTML='<div class="empty panel">Heute kein überzeugender Kandidat. Kein Trade kann besser sein als ein erzwungener Trade.</div>'}
+  c.forEach(x=>{
+   const el=document.createElement('article'); el.className='card';
+   el.innerHTML=`<div class="row"><div><div style="font-size:19px;font-weight:800">${esc(x.ticker)}</div><div class="muted small">${esc(x.name||'')} · ${esc(x.stance||'Research')}</div></div><div class="score ${tone(+x.score)}">${esc(x.score)}</div></div>
+   <div class="bar"><i style="width:${Math.max(0,Math.min(100,+x.score||0))}%"></i></div>
+   <div class="detail"><b>These:</b> ${esc(x.thesis)}</div><div class="detail"><b>Katalysator:</b> ${esc(x.catalyst)}</div><div class="detail"><b>Risiko:</b> ${esc(x.risk_note)}</div><div class="detail"><b>Entry-Trigger:</b> ${esc(x.entry_note)}</div><div class="detail"><b>Stop/Invalidation:</b> ca. ${esc(x.stop_pct)}%</div><div class="detail"><b>1. Gewinnziel:</b> ca. ${esc(x.target_pct)}%</div><div class="detail"><b>Exit-Plan:</b> ${esc(x.exit_note)}</div>
+   <div class="muted small" style="margin-top:9px">1T: ${esc(x.change_1d)} · 5T: ${esc(x.change_5d)} · Volumen: ${esc(x.volume_ratio)} · ATR: ${esc(x.atr_pct)} · Gap: ${esc(x.gap_pct)} · Premarket: ${esc(x.premarket_move_pct)}</div>`;
+   cards.appendChild(el);
+  });
+  $('avoid').innerHTML=(d.avoid||[]).map(x=>`<div class="detail"><b>${esc(x.ticker)}</b> — ${esc(x.reason)}</div>`).join('')||'<span class="muted">Keine zusätzlichen Warnungen.</span>';
+  $('news').innerHTML=(d.news||[]).slice(0,18).map(n=>`<tr><td>${esc(n.time)}</td><td><b>${esc(n.ticker)}</b></td><td>${esc(n.title)}</td><td class="${n.sentiment>0?'good':n.sentiment<0?'bad':'muted'}">${n.sentiment>0?'positiv':n.sentiment<0?'negativ':'neutral'}</td></tr>`).join('');
+ }catch(e){$('brief').textContent='Daten konnten nicht geladen werden: '+e.message}
+}
+load(); setInterval(load, 5*60*1000);
+</script>
+</body>
+</html>
