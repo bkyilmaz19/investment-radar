@@ -1,0 +1,21 @@
+name: Test Push
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send test notification
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          if [ -z "$NTFY_TOPIC" ]; then
+            echo "NTFY_TOPIC secret is missing"
+            exit 1
+          fi
+
+          curl -fsS             -H "Title: Investment Radar Test"             -H "Priority: high"             -H "Tags: white_check_mark"             -d "Push funktioniert. GitHub kann dein Investment-Radar auf dem Handy benachrichtigen."             "https://ntfy.sh/$NTFY_TOPIC"
+
+          echo "Test push sent"
