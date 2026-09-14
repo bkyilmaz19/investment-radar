@@ -1,5 +1,6 @@
 {
-  "portfolio_eur": null,
+  "portfolio_eur": 2000,
   "risk_per_trade_pct": 0.5,
-  "note": "Setze portfolio_eur einmalig auf deinen ungefähren Depotwert, wenn Push-Nachrichten eine Stückzahl berechnen sollen."
+  "note": "Automatische Positionsgroesse fuer Entry-Pushs: Depot 2000 EUR, Risiko 0.5 %, max. Position 10 %. Dashboard-Einstellungen werden lokal gespeichert und verbrauchen keine ntfy-Nachricht.",
+  "max_position_pct": 10
 }

@@ -36,12 +36,12 @@ a{color:#a9c5ff}.status{margin-top:14px}.section{margin-top:20px}.section h2{fon
 <section class="section">
   <h2>Positionsgröße</h2>
   <div class="panel">
-    <div class="muted small">Diese Werte bestimmen, wie viele Stück das Dashboard pro Setup vorschlägt. Formel: maximaler Verlust am Stop = Depotwert × Risiko pro Trade; zusätzlich wird die Positionsgröße durch den maximalen Depotanteil begrenzt.</div>
+    <div class="muted small">Diese Werte werden nur lokal im Browser gespeichert und verbrauchen keine ntfy-Nachricht. Der automatische Monitor ist aktuell auf 2.000 € Depot, 0,5 % Risiko und 10 % maximale Position eingestellt. Formel: maximaler Verlust am Stop = Depotwert × Risiko pro Trade; zusätzlich wird die Positionsgröße durch den maximalen Depotanteil begrenzt.</div>
     <form id="riskForm" style="margin-top:12px;display:grid;gap:10px;grid-template-columns:repeat(3,minmax(0,1fr))">
-      <label class="small">Depotwert €<input id="portfolioEur" required type="number" min="100" step="100" placeholder="10000" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
+      <label class="small">Depotwert €<input id="portfolioEur" required type="number" min="100" step="100" placeholder="2000" value="2000" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
       <label class="small">Risiko pro Trade %<input id="riskPct" required type="number" min="0.1" max="5" step="0.1" value="0.5" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
       <label class="small">Max. Position % vom Depot<input id="maxPosPct" required type="number" min="1" max="100" step="1" value="10" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
-      <button type="submit" style="grid-column:1/-1;padding:11px 14px;border-radius:10px;border:1px solid var(--accent);background:#16213a;color:var(--txt);font-weight:800;cursor:pointer">Einstellungen speichern & an Monitor senden</button>
+      <button type="submit" style="grid-column:1/-1;padding:11px 14px;border-radius:10px;border:1px solid var(--accent);background:#16213a;color:var(--txt);font-weight:800;cursor:pointer">Einstellungen speichern</button>
     </form>
     <div id="riskMsg" class="small muted" style="margin-top:10px"></div>
   </div>
@@ -217,17 +217,7 @@ if(riskForm){
     if(!(s.portfolio_eur>0&&s.risk_per_trade_pct>0&&s.max_position_pct>0)){ $('riskMsg').textContent='Bitte gültige Werte eintragen.'; return; }
     localStorage.setItem('radar_risk_settings',JSON.stringify(s));
     refreshSizing();
-    if(!BACKEND_URL || BACKEND_URL.includes('YOUR-WORKER')){
-      $('riskMsg').textContent='Lokal gespeichert. Backend noch nicht eingerichtet.';
-      return;
-    }
-    try{
-      const r=await fetch(BACKEND_URL+'/settings',{
-        method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(s)
-      });
-      if(!r.ok)throw new Error('HTTP '+r.status);
-      $('riskMsg').textContent='Gespeichert und an den Monitor gesendet.';
-    }catch(err){$('riskMsg').textContent='Lokal gespeichert; Senden an Monitor fehlgeschlagen: '+err.message}
+    $('riskMsg').textContent='Gespeichert. Dafür wird keine ntfy-Nachricht verbraucht.';
   });
 }
 
