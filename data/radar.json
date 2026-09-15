@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "15.09.2026 23:39 CEST",
+  "generated_at_local": "15.09.2026 23:51 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -72,6 +72,39 @@
       }
     },
     {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.33%, 5T +4.58%, relatives Volumen 1.15x, ATR 2.22%",
+      "catalyst": "Fuel for Growth: 3 Big Energy Stocks Get New Price Targets",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.01%, Bewegung seit US-Open +2.66%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "stop_pct": 1.44,
+      "target_pct": 2.6,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.33%",
+      "change_5d": "+4.58%",
+      "volume_ratio": "1.15x",
+      "atr_pct": "2.22%",
+      "gap_pct": "-2.78%",
+      "premarket_move_pct": "+0.04%",
+      "live_gap_pct": "+0.01%",
+      "regular_move_pct": "+2.66%",
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Live-Kriterien sind erfüllt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
       "score": 90,
@@ -136,39 +169,6 @@
         "gap_ok": true,
         "confirmation_ok": true
       }
-    },
-    {
-      "ticker": "XOM",
-      "name": "Exxon Mobil",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.57%, 5T +5.39%, relatives Volumen 0.91x, ATR 2.15%",
-      "catalyst": "Bondholders tendered $570M and $616M in ExxonMobil's buyback offers",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.02%, Bewegung seit US-Open +2.38%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
-      "stop_pct": 1.4,
-      "target_pct": 2.52,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.57%",
-      "change_5d": "+5.39%",
-      "volume_ratio": "0.91x",
-      "atr_pct": "2.15%",
-      "gap_pct": "-1.93%",
-      "premarket_move_pct": "-0.74%",
-      "live_gap_pct": "-0.02%",
-      "regular_move_pct": "+2.38%",
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
     }
   ],
   "avoid": [
@@ -213,15 +213,27 @@
       "sentiment": 1
     },
     {
-      "ticker": "RMD",
-      "title": "ResMed stock upgraded at RBC Capital Markets (RMD:NYSE)",
-      "time": "Tue, 15 Sep 2026 14:00:51",
+      "ticker": "COP",
+      "title": "Fuel for Growth: 3 Big Energy Stocks Get New Price Targets",
+      "time": "Tue, 15 Sep 2026 13:45:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "COP",
+      "title": "Oil Crisis Worsens, Diesel Hits Record High: Here's How to Trade It",
+      "time": "Tue, 15 Sep 2026 18:07:04",
       "sentiment": 1
     },
     {
       "ticker": "RMD",
-      "title": "This Analyst Just Upgraded ResMed Stock. Here's Why.",
-      "time": "Tue, 15 Sep 2026 19:57:51",
+      "title": "ResMed (RMD) Stock Surges Following Upgraded Rating and Price Ta",
+      "time": "Tue, 15 Sep 2026 18:39:34",
+      "sentiment": 1
+    },
+    {
+      "ticker": "RMD",
+      "title": "ResMed stock upgraded at RBC Capital Markets (RMD:NYSE)",
+      "time": "Tue, 15 Sep 2026 14:00:51",
       "sentiment": 1
     },
     {
@@ -234,6 +246,12 @@
       "ticker": "MPC",
       "title": "Marathon Petroleum Corp. stock outperforms competitors on strong trading day",
       "time": "Tue, 15 Sep 2026 20:38:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "DXCM",
+      "title": "DexCom Inc. stock outperforms competitors on strong trading day",
+      "time": "Tue, 15 Sep 2026 20:56:00",
       "sentiment": 1
     },
     {
@@ -264,6 +282,12 @@
       "ticker": "XOM",
       "title": "XOM Looks 30.9% Overvalued on GF Value™ Amid Strong Dividend Fun",
       "time": "Tue, 15 Sep 2026 15:24:04",
+      "sentiment": 1
+    },
+    {
+      "ticker": "ANET",
+      "title": "Was Arista Networks Stock’s Surge Visible Before It Happened?",
+      "time": "Tue, 15 Sep 2026 21:18:27",
       "sentiment": 1
     },
     {
@@ -382,8 +406,8 @@
     },
     {
       "ticker": "QCOM",
-      "title": "What Was Qualcomm Stock Telling You Before It Ran?",
-      "time": "Tue, 15 Sep 2026 20:26:37",
+      "title": "Why Qualcomm (QCOM) Stock Is Trading Up Today",
+      "time": "Tue, 15 Sep 2026 21:35:31",
       "sentiment": 0
     },
     {
@@ -400,14 +424,14 @@
     },
     {
       "ticker": "QCOM",
-      "title": "What Qualcomm Stock Was Telling You About Its Next Forty Billion Dollars",
-      "time": "Tue, 15 Sep 2026 10:16:11",
+      "title": "What Was Qualcomm Stock Telling You Before It Ran?",
+      "time": "Tue, 15 Sep 2026 20:26:37",
       "sentiment": 0
     },
     {
       "ticker": "QCOM",
-      "title": "Applied Materials vs. Qualcomm: Which Tech Stock Is a Better Buy in 2026?",
-      "time": "Tue, 15 Sep 2026 12:45:00",
+      "title": "What Qualcomm Stock Was Telling You About Its Next Forty Billion Dollars",
+      "time": "Tue, 15 Sep 2026 10:16:11",
       "sentiment": 0
     },
     {
@@ -471,18 +495,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "COP",
-      "title": "Are Refining Margins Changing ConocoPhillips (NYSE:COP) Focus?",
-      "time": "Mon, 14 Sep 2026 21:47:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "COP",
-      "title": "ConocoPhillips stock heads into the open after a 1.2% gain - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 03:01:32",
-      "sentiment": 0
-    },
-    {
       "ticker": "RMD",
       "title": "Is This the Right Time to Retain Resmed Stock in Your Portfolio?",
       "time": "Tue, 15 Sep 2026 14:10:00",
@@ -526,12 +538,6 @@
     },
     {
       "ticker": "OXY",
-      "title": "What’s Next for Occidental Petroleum (NYSE:OXY) As Demand Shifts?",
-      "time": "Mon, 14 Sep 2026 21:49:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "OXY",
       "title": "Occidental’s New CEO Tested by Debt, Lagging Stock Price and Big Dividend Payments to Berkshire",
       "time": "Tue, 15 Sep 2026 03:30:57",
       "sentiment": 0
@@ -540,6 +546,12 @@
       "ticker": "OXY",
       "title": "What Makes the Latest Occidental Petroleum (OXY) Story Different?",
       "time": "Tue, 15 Sep 2026 09:35:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "OXY",
+      "title": "Occidental Petroleum stock gains as Wells Fargo lifts price target to USD 82 - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 15:45:12",
       "sentiment": 0
     },
     {
@@ -604,8 +616,8 @@
     },
     {
       "ticker": "JPM",
-      "title": "JPMorganChase Declares Preferred Stock Dividends",
-      "time": "Tue, 15 Sep 2026 20:43:24",
+      "title": "JPMorganChase had $5 trillion in assets on June 30 and declared preferred-stock dividends.",
+      "time": "Tue, 15 Sep 2026 20:27:00",
       "sentiment": 0
     },
     {
@@ -646,12 +658,6 @@
     },
     {
       "ticker": "DXCM",
-      "title": "DexCom (DXCM) Appoints Former Medtech Finance Chief Glenn Boehnlein To Board",
-      "time": "Mon, 14 Sep 2026 21:45:20",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DXCM",
       "title": "Dexcom Inc. stock gains as market cap approaches USD 32 billion - ad-hoc-news.de",
       "time": "Tue, 15 Sep 2026 21:33:14",
       "sentiment": 0
@@ -660,12 +666,6 @@
       "ticker": "DXCM",
       "title": "Dexcom Elevates Jereme Sylvain to COO and CFO",
       "time": "Mon, 14 Sep 2026 21:52:36",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CVX",
-      "title": "Chevron’s CEO Thinks the World Is Out of Spare Oil. He Is Betting $7 Billion on Being Right.",
-      "time": "Tue, 15 Sep 2026 15:40:00",
       "sentiment": 0
     },
     {
@@ -688,14 +688,20 @@
     },
     {
       "ticker": "CVX",
+      "title": "CVX Looks 30.9% Overvalued on GF Value™ as Dividend Sustainabili",
+      "time": "Tue, 15 Sep 2026 01:03:37",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CVX",
       "title": "What’s Driving Chevron (NYSE:CVX) As Fuel Costs Shift?",
       "time": "Mon, 14 Sep 2026 23:09:00",
       "sentiment": 0
     },
     {
       "ticker": "CVX",
-      "title": "CVX Looks 30.9% Overvalued on GF Value™ as Dividend Sustainabili",
-      "time": "Tue, 15 Sep 2026 01:03:37",
+      "title": "Chevron’s CEO Thinks the World Is Out of Spare Oil. He Is Betting $7 Billion on Being Right.",
+      "time": "Tue, 15 Sep 2026 15:40:27",
       "sentiment": 0
     },
     {
@@ -766,12 +772,6 @@
     },
     {
       "ticker": "ON",
-      "title": "Semiconductor Stocks",
-      "time": "Tue, 15 Sep 2026 14:29:50",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
       "title": "If You Invested $1000 In ON Semiconductor Stock 15 Years Ago, You Would Have This Much Today",
       "time": "Tue, 15 Sep 2026 14:30:24",
       "sentiment": 0
@@ -798,6 +798,12 @@
       "ticker": "ON",
       "title": "ON Semiconductor Corp. (ON) Declines More Than Market: Some Information for Investors",
       "time": "Mon, 14 Sep 2026 22:00:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ON",
+      "title": "PHLX Semiconductor Index (SOX): What It Is & How It Works",
+      "time": "Tue, 15 Sep 2026 11:33:00",
       "sentiment": 0
     },
     {
@@ -837,12 +843,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "ANET",
-      "title": "Arista Networks (ANET) insider reshuffles stake across family trusts",
-      "time": "Mon, 14 Sep 2026 23:05:35",
-      "sentiment": 0
-    },
-    {
       "ticker": "STLD",
       "title": "These S&P500 stocks that are showing activity before the opening bell on Tuesday.",
       "time": "Tue, 15 Sep 2026 12:35:01",
@@ -868,12 +868,6 @@
     },
     {
       "ticker": "TTD",
-      "title": "Can Trade Desk (TTD) Hold Up on Future Cash Flow?",
-      "time": "Mon, 14 Sep 2026 21:43:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TTD",
       "title": "Trade Desk (NASDAQ: TTD) grants CFO 398K shares with quarterly vesting",
       "time": "Mon, 14 Sep 2026 22:11:13",
       "sentiment": 0
@@ -888,6 +882,12 @@
       "ticker": "TTD",
       "title": "Trade Desk (TTD) COO awarded 724K shares that vest through 2029",
       "time": "Mon, 14 Sep 2026 22:12:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "Trade Desk (TTD) grants 217K shares to accounting chief",
+      "time": "Mon, 14 Sep 2026 22:16:24",
       "sentiment": 0
     },
     {
@@ -952,12 +952,6 @@
     },
     {
       "ticker": "ABBV",
-      "title": "AbbVie (ABBV) Advances While Market Declines: Some Information for Investors",
-      "time": "Mon, 14 Sep 2026 21:45:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ABBV",
       "title": "Why Is the Market Reassessing AbbVie (ABBV)?",
       "time": "Tue, 15 Sep 2026 09:10:00",
       "sentiment": 0
@@ -975,9 +969,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "WFC",
-      "title": "Wells Fargo (WFC) Dips More Than Broader Market: What You Should Know",
-      "time": "Mon, 14 Sep 2026 21:45:04",
+      "ticker": "ABBV",
+      "title": "AbbVie and BioLabs University of Toronto Open Applications for AbbVie Biotech Innovators Award at Life Sciences Ontario Forum",
+      "time": "Tue, 15 Sep 2026 13:01:28",
       "sentiment": 0
     },
     {
@@ -996,6 +990,12 @@
       "ticker": "WFC",
       "title": "What Is Changing the Conversation Around Wells Fargo (WFC)?",
       "time": "Tue, 15 Sep 2026 08:24:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "WFC",
+      "title": "The Zacks Analyst Blog Highlights Walmart, UnitedHealth, Wells Fargo, XMax and Interlink Electronics",
+      "time": "Tue, 15 Sep 2026 14:54:00",
       "sentiment": 0
     },
     {
