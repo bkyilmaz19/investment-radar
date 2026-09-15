@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "15.09.2026 10:13 CEST",
+  "generated_at_local": "15.09.2026 10:34 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +12.73%, 5T +18.43%, relatives Volumen 2.05x, ATR 4.39%",
       "catalyst": "Roblox Stock Surges As Analysts Lift Targets",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.96%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "Premarket-Gap -1.11%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -21,13 +21,13 @@
       "change_5d": "+18.43%",
       "volume_ratio": "2.05x",
       "atr_pct": "4.39%",
-      "gap_pct": "-0.96%",
-      "premarket_move_pct": "-0.96%",
+      "gap_pct": "-1.11%",
+      "premarket_move_pct": "-0.41%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "session_phase": "Premarket / vor US-Open",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Premarket-Kriterien sind erfüllt.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -35,7 +35,7 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": false
+        "confirmation_ok": true
       }
     },
     {
@@ -55,7 +55,7 @@
       "volume_ratio": "2.35x",
       "atr_pct": "5.88%",
       "gap_pct": "-1.44%",
-      "premarket_move_pct": "-0.30%",
+      "premarket_move_pct": "-0.10%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "session_phase": "Premarket / vor US-Open",
@@ -88,7 +88,7 @@
       "volume_ratio": "3.48x",
       "atr_pct": "6.46%",
       "gap_pct": "-1.33%",
-      "premarket_move_pct": "-0.19%",
+      "premarket_move_pct": "-0.42%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "session_phase": "Premarket / vor US-Open",
@@ -102,6 +102,39 @@
         "news_ok": true,
         "gap_ok": true,
         "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "GSK",
+      "name": "GSK",
+      "score": 91,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.99%, 5T +0.32%, relatives Volumen 1.23x, ATR 2.07%",
+      "catalyst": "GSK PLC (GSK) Shares Surge 4.0% -- What GF Score of 71 Tells Inv",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.76%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.34,
+      "target_pct": 2.42,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.99%",
+      "change_5d": "+0.32%",
+      "volume_ratio": "1.23x",
+      "atr_pct": "2.07%",
+      "gap_pct": "+0.76%",
+      "premarket_move_pct": "-0.61%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "session_phase": "Premarket / vor US-Open",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
       }
     },
     {
@@ -124,39 +157,6 @@
       "premarket_move_pct": "+1.16%",
       "live_gap_pct": "+0.05%",
       "regular_move_pct": "+2.99%",
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Live-Kriterien sind erfüllt.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "GSK",
-      "name": "GSK",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.99%, 5T +0.32%, relatives Volumen 1.23x, ATR 2.07%",
-      "catalyst": "GSK PLC (GSK) Shares Surge 4.0% -- What GF Score of 71 Tells Inv",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Gap +0.00%. Erst kaufen, wenn die Bewegung seit US-Open stabil/positiv wird.",
-      "stop_pct": 1.34,
-      "target_pct": 2.42,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.99%",
-      "change_5d": "+0.32%",
-      "volume_ratio": "1.23x",
-      "atr_pct": "2.07%",
-      "gap_pct": "-2.08%",
-      "premarket_move_pct": "+2.24%",
-      "live_gap_pct": "+0.00%",
-      "regular_move_pct": "-0.48%",
       "session_phase": "US-Handel live",
       "action_status": "KAUF HEUTE",
       "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Live-Kriterien sind erfüllt.",
@@ -207,6 +207,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "RBLX",
+      "title": "Roblox (NYSE:RBLX) Shares Gap Up Following Analyst Upgrade",
+      "time": "Mon, 14 Sep 2026 14:26:16",
+      "sentiment": 1
+    },
+    {
       "ticker": "PANW",
       "title": "Palo Alto Networks Stock Draws Bullish Targets After Q4 Beat",
       "time": "Mon, 14 Sep 2026 19:04:00",
@@ -240,6 +246,12 @@
       "ticker": "GSK",
       "title": "GSK announces positive data from two clinical trials",
       "time": "Mon, 14 Sep 2026 13:41:59",
+      "sentiment": 1
+    },
+    {
+      "ticker": "GSK",
+      "title": "GSK shares rise as Berenberg upgrades to Buy on stronger drug pipeline",
+      "time": "Tue, 15 Sep 2026 08:12:00",
       "sentiment": 1
     },
     {
@@ -279,12 +291,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "ADBE",
-      "title": "Adobe’s AI Metrics Surge, But ADBE Stock Falls As Wall Street Questions Growth Trajectory",
-      "time": "Mon, 14 Sep 2026 17:53:36",
-      "sentiment": 1
-    },
-    {
       "ticker": "CI",
       "title": "The Cigna Group (CI) Shares Surge 3.3% -- What GF Score of 74 Te",
       "time": "Mon, 14 Sep 2026 22:03:08",
@@ -297,15 +303,21 @@
       "sentiment": 1
     },
     {
-      "ticker": "RBLX",
-      "title": "Why Roblox Stock Popped Today",
-      "time": "Mon, 14 Sep 2026 19:01:39",
-      "sentiment": 0
+      "ticker": "MDB",
+      "title": "MongoDB Inc (MDB) Shares Surge 5.5% -- What GF Score of 86 Tells Investors",
+      "time": "Mon, 14 Sep 2026 23:01:01",
+      "sentiment": 1
+    },
+    {
+      "ticker": "MDB",
+      "title": "What's behind MongoDB's latest 5.9% stock surge?",
+      "time": "Mon, 14 Sep 2026 17:04:29",
+      "sentiment": 1
     },
     {
       "ticker": "RBLX",
-      "title": "Gaming Stock Roblox Corporation (NYSE: RBLX) Gains on Updates to Expand Play, Give Creators the Game Engine and AI Tools",
-      "time": "Mon, 14 Sep 2026 16:16:00",
+      "title": "Why Roblox Stock Popped Today",
+      "time": "Mon, 14 Sep 2026 19:01:39",
       "sentiment": 0
     },
     {
@@ -466,6 +478,12 @@
     },
     {
       "ticker": "SPOT",
+      "title": "Does Spotify’s AI Add‑Ons and New Verticals Strategy Change The Bull Case For Spotify Technology (SPOT)?",
+      "time": "Tue, 15 Sep 2026 08:11:56",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SPOT",
       "title": "An insider at Spotify (SPOT) lines up another share sale after two multimillion-dollar trades",
       "time": "Mon, 14 Sep 2026 22:00:38",
       "sentiment": 0
@@ -480,12 +498,6 @@
       "ticker": "SPOT",
       "title": "ASML Stock Gains Over 5% — Why Bernstein Thinks ASML Holding Can Keep Climbing After Nearly 140% Run In The Past Year",
       "time": "Mon, 14 Sep 2026 17:12:19",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SPOT",
-      "title": "Morgan Stanley Maintains Spotify Technology(SPOT.US) With Buy Rating, Maintains Target Price $640",
-      "time": "Mon, 14 Sep 2026 12:31:00",
       "sentiment": 0
     },
     {
@@ -538,14 +550,14 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "2 Numbers Matter More to Alphabet Stock's Performance Than Anything Else Right Now",
-      "time": "Mon, 14 Sep 2026 12:19:00",
+      "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
+      "time": "Mon, 14 Sep 2026 19:51:00",
       "sentiment": 0
     },
     {
       "ticker": "GOOGL",
-      "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
-      "time": "Mon, 14 Sep 2026 19:51:00",
+      "title": "2 Numbers Matter More to Alphabet Stock's Performance Than Anything Else Right Now",
+      "time": "Mon, 14 Sep 2026 12:19:00",
       "sentiment": 0
     },
     {
@@ -586,8 +598,8 @@
     },
     {
       "ticker": "GOOG",
-      "title": "Alphabet Stock Gains On Report Of Google’s New ‘Frozen’ Chip To Boost Gemini AI Efficiency",
-      "time": "Mon, 14 Sep 2026 16:52:12",
+      "title": "Alphabet C stock heads into the open after a 2.0% gain - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 06:18:09",
       "sentiment": 0
     },
     {
@@ -711,15 +723,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "GSK",
-      "title": "GSK (NYSE: GSK) drug extends small cell lung cancer survival beyond chemotherapy in phase III test",
-      "time": "Mon, 14 Sep 2026 11:25:02",
-      "sentiment": 0
-    },
-    {
       "ticker": "NFLX",
-      "title": "NFLX Stock On Track For Fourth Consecutive Month In The Red As Acquisition Attempts Continue To Fail",
-      "time": "Tue, 15 Sep 2026 01:11:35",
+      "title": "Buy NFLX Stock Dip? Wall Street Analysts Stay Bullish While Cathie Wood’s Ark Piles In After Post-Earnings Slide",
+      "time": "Tue, 15 Sep 2026 03:19:21",
       "sentiment": 0
     },
     {
@@ -754,20 +760,20 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Technologies (PLTR) Brings AI Legal Workflows Into A Major Law Firm",
-      "time": "Mon, 14 Sep 2026 08:24:26",
+      "title": "PLTR Stock Price Today, Palantir Technologies News, Quote, NASDAQ",
+      "time": "Tue, 15 Sep 2026 08:18:29",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir stock may win even if AI boom slows: why Wall Street sees 50% upside",
+      "time": "Mon, 14 Sep 2026 08:50:27",
       "sentiment": 0
     },
     {
       "ticker": "PLTR",
       "title": "Palantir Made Nebius Its Preferred Sovereign-AI Partner. The Deal Has No Revenue Number",
       "time": "Mon, 14 Sep 2026 08:51:19",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
-      "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock",
-      "time": "Mon, 14 Sep 2026 15:30:00",
       "sentiment": 0
     },
     {
@@ -837,42 +843,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "KHC",
-      "title": "Corient Private Wealth LP Has $16.87 Million Stock Position in Kraft Heinz Company $KHC",
-      "time": "Tue, 15 Sep 2026 08:10:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "Kraft Heinz Moves to the NYSE. What Happened to the Breakup?",
-      "time": "Mon, 14 Sep 2026 11:10:20",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "Kraft Heinz Moves to the NYSE. What Happened to the Breakup?",
-      "time": "Mon, 14 Sep 2026 11:10:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "Does Index Removal Change The Bull Case For Kraft Heinz Stock?",
-      "time": "Mon, 14 Sep 2026 12:35:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "NewEdge Advisors LLC Buys 59,918 Shares of Kraft Heinz Company $KHC",
-      "time": "Tue, 15 Sep 2026 08:06:35",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "What Put Kraft Heinz (KHC) on the Market Radar?",
-      "time": "Tue, 15 Sep 2026 07:03:00",
-      "sentiment": 0
-    },
-    {
       "ticker": "META",
       "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
       "time": "Mon, 14 Sep 2026 19:51:00",
@@ -922,14 +892,14 @@
     },
     {
       "ticker": "NOW",
-      "title": "ServiceNow Inc Stock (NOW) Closed Up by 7.41% on Sep 14: A Full Analysis",
-      "time": "Mon, 14 Sep 2026 20:15:57",
+      "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock",
+      "time": "Mon, 14 Sep 2026 15:30:00",
       "sentiment": 0
     },
     {
       "ticker": "NOW",
-      "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock",
-      "time": "Mon, 14 Sep 2026 15:30:00",
+      "title": "ServiceNow Inc Stock (NOW) Closed Up by 7.41% on Sep 14: A Full Analysis",
+      "time": "Mon, 14 Sep 2026 20:15:57",
       "sentiment": 0
     },
     {
@@ -994,6 +964,12 @@
     },
     {
       "ticker": "MSFT",
+      "title": "Microsoft Stock: Cheap After A 27% Rally As The AI Bear Case Cracks (NASDAQ:MSFT)",
+      "time": "Tue, 15 Sep 2026 08:17:54",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
       "title": "Microsoft Just Made a Move That Could Put More Pressure on Its Azure Business. Here's Why It Could Turn Out Great for the Stock",
       "time": "Mon, 14 Sep 2026 23:01:37",
       "sentiment": 0
@@ -1011,9 +987,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "MSFT",
-      "title": "Microsoft Just Made a Move That Could Put More Pressure on Its Azure Business. Here's Why It Could Turn Out Great for the Stock",
-      "time": "Mon, 14 Sep 2026 23:41:00",
+      "ticker": "ADBE",
+      "title": "Adobe (ADBE): A Billion Users, But Wall Street Wants Proof It Pays",
+      "time": "Mon, 14 Sep 2026 20:59:47",
       "sentiment": 0
     },
     {
@@ -1024,8 +1000,8 @@
     },
     {
       "ticker": "ADBE",
-      "title": "Adobe Stock Jumps 4.2% as Investors Reassess the AI Software Trade",
-      "time": "Mon, 14 Sep 2026 19:06:37",
+      "title": "Adobe (ADBE) Jumped, So What Is Behind Its Latest Move?",
+      "time": "Mon, 14 Sep 2026 22:48:10",
       "sentiment": 0
     },
     {
@@ -1042,12 +1018,6 @@
     },
     {
       "ticker": "CI",
-      "title": "The Cigna Group (CI) Stock Analysis: Evaluating a 20.87% Potential Upside for Healthcare Investors",
-      "time": "Mon, 14 Sep 2026 09:12:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CI",
       "title": "6 Best Health Insurance Stocks for 2026 and How to Invest",
       "time": "Mon, 14 Sep 2026 20:27:00",
       "sentiment": 0
@@ -1056,6 +1026,24 @@
       "ticker": "CI",
       "title": "Cigna Group stock holds steady as analysts lift targets - ad-hoc-news.de",
       "time": "Mon, 14 Sep 2026 17:32:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDB",
+      "title": "Goldman Sachs Maintains MongoDB(MDB.US) With Buy Rating, Maintains Target Price $520",
+      "time": "Mon, 14 Sep 2026 13:45:41",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDB",
+      "title": "IBRX Stock Extends Rally To Day 3: Founder Drops ‘Prelude’ To 2025 Earnings, Slams Bristol Myers, Amgen Cancer Playbook",
+      "time": "Mon, 14 Sep 2026 17:34:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDB",
+      "title": "MongoDB Jumps As Investors Rediscover Its AI Power",
+      "time": "Mon, 14 Sep 2026 19:18:13",
       "sentiment": 0
     }
   ]
