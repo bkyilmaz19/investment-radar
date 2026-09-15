@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "14.09.2026 20:28 CEST",
+  "generated_at_local": "15.09.2026 08:29 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -10,18 +10,18 @@
       "name": "Roblox",
       "score": 94,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +11.54%, 5T +17.18%, relatives Volumen 1.25x, ATR 4.43%",
+      "thesis": "1T +12.73%, 5T +18.43%, relatives Volumen 2.05x, ATR 4.39%",
       "catalyst": "Roblox Stock Surges As Analysts Lift Targets",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -10.72%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "Premarket-Gap -11.66%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+11.54%",
-      "change_5d": "+17.18%",
-      "volume_ratio": "1.25x",
-      "atr_pct": "4.43%",
-      "gap_pct": "-10.72%",
+      "change_1d": "+12.73%",
+      "change_5d": "+18.43%",
+      "volume_ratio": "2.05x",
+      "atr_pct": "4.39%",
+      "gap_pct": "-11.66%",
       "premarket_move_pct": "+3.80%",
       "action_status": "WARTEN",
       "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: gap",
@@ -36,30 +36,60 @@
       }
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 88,
+      "ticker": "SPOT",
+      "name": "Spotify",
+      "score": 87,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +8.73%, 5T +3.21%, relatives Volumen 1.41x, ATR 6.11%",
-      "catalyst": "Coinbase Jumps 6% on Compass Point Upgrade Ahead of Senate CLARITY Act Vote; Strategy Climbs 3%, MARA Slips",
+      "thesis": "1T +5.81%, 5T +2.56%, relatives Volumen 1.31x, ATR 3.54%",
+      "catalyst": "Cortis reclaims Spotify Korea No.1 with RedRed, sets new record - CHOSUNBIZ",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -7.83%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 2.5,
-      "target_pct": 4.5,
+      "entry_note": "Premarket-Gap -5.46%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 2.3,
+      "target_pct": 4.14,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+8.73%",
-      "change_5d": "+3.21%",
-      "volume_ratio": "1.41x",
-      "atr_pct": "6.11%",
-      "gap_pct": "-7.83%",
-      "premarket_move_pct": "+3.12%",
+      "change_1d": "+5.81%",
+      "change_5d": "+2.56%",
+      "volume_ratio": "1.31x",
+      "atr_pct": "3.54%",
+      "gap_pct": "-5.46%",
+      "premarket_move_pct": "+1.16%",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: volatility, gap",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: gap",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
-        "volatility_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": false,
+        "premarket_ok": true
+      }
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "score": 86,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +13.09%, 5T +12.21%, relatives Volumen 2.35x, ATR 5.88%",
+      "catalyst": "Premarket-/Momentum-Bestätigung",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -8.94%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+13.09%",
+      "change_5d": "+12.21%",
+      "volume_ratio": "2.35x",
+      "atr_pct": "5.88%",
+      "gap_pct": "-8.94%",
+      "premarket_move_pct": "+1.61%",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: gap",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
         "news_ok": true,
         "gap_ok": false,
         "premarket_ok": true
@@ -68,20 +98,20 @@
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 86,
+      "score": 85,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +14.73%, 5T +11.31%, relatives Volumen 2.72x, ATR 6.41%",
+      "thesis": "1T +13.85%, 5T +10.46%, relatives Volumen 3.48x, ATR 6.46%",
       "catalyst": "Premarket-/Momentum-Bestätigung",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -9.40%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "Premarket-Gap -8.70%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+14.73%",
-      "change_5d": "+11.31%",
-      "volume_ratio": "2.72x",
-      "atr_pct": "6.41%",
-      "gap_pct": "-9.40%",
+      "change_1d": "+13.85%",
+      "change_5d": "+10.46%",
+      "volume_ratio": "3.48x",
+      "atr_pct": "6.46%",
+      "gap_pct": "-8.70%",
       "premarket_move_pct": "+1.73%",
       "action_status": "WARTEN",
       "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: volatility, gap",
@@ -96,60 +126,30 @@
       }
     },
     {
-      "ticker": "SPOT",
-      "name": "Spotify",
-      "score": 85,
+      "ticker": "COIN",
+      "name": "Coinbase",
+      "score": 84,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +6.49%, 5T +3.21%, relatives Volumen 0.83x, ATR 3.51%",
-      "catalyst": "Spotify Technology Pitches AI Add-Ons, Video and New Verticals for Growth",
+      "thesis": "1T +9.24%, 5T +3.69%, relatives Volumen 2.00x, ATR 6.09%",
+      "catalyst": "Coinbase Global Inc (COIN) Shares Surge 9.2% -- What GF Score of 78 Tells Investors",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -6.06%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 2.28,
-      "target_pct": 4.11,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+6.49%",
-      "change_5d": "+3.21%",
-      "volume_ratio": "0.83x",
-      "atr_pct": "3.51%",
-      "gap_pct": "-6.06%",
-      "premarket_move_pct": "+1.16%",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "premarket_ok": true
-      }
-    },
-    {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +13.54%, 5T +12.65%, relatives Volumen 1.68x, ATR 5.86%",
-      "catalyst": "PANW Stock Climbs As AI Security Growth Story Accelerates",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -9.30%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "Premarket-Gap -8.26%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+13.54%",
-      "change_5d": "+12.65%",
-      "volume_ratio": "1.68x",
-      "atr_pct": "5.86%",
-      "gap_pct": "-9.30%",
-      "premarket_move_pct": "+1.61%",
+      "change_1d": "+9.24%",
+      "change_5d": "+3.69%",
+      "volume_ratio": "2.00x",
+      "atr_pct": "6.09%",
+      "gap_pct": "-8.26%",
+      "premarket_move_pct": "+3.12%",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: gap",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: volatility, gap",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
-        "volatility_ok": true,
+        "volatility_ok": false,
         "news_ok": true,
         "gap_ok": false,
         "premarket_ok": true
@@ -158,24 +158,24 @@
   ],
   "avoid": [
     {
-      "ticker": "LCID",
-      "reason": "Schwaches kurzfristiges Setup (Score 20/100; 1T -2.73%, 5T -12.29%)."
-    },
-    {
       "ticker": "ORCL",
-      "reason": "Schwaches kurzfristiges Setup (Score 26/100; 1T -4.64%, 5T -9.75%)."
+      "reason": "Schwaches kurzfristiges Setup (Score 30/100; 1T -3.65%, 5T -8.81%)."
     },
     {
       "ticker": "SMCI",
-      "reason": "Schwaches kurzfristiges Setup (Score 30/100; 1T -6.70%, 5T -5.49%)."
+      "reason": "Schwaches kurzfristiges Setup (Score 32/100; 1T -8.38%, 5T -7.20%)."
     },
     {
-      "ticker": "KLAC",
-      "reason": "Schwaches kurzfristiges Setup (Score 32/100; 1T -6.13%, 5T -8.64%)."
+      "ticker": "LCID",
+      "reason": "Schwaches kurzfristiges Setup (Score 33/100; 1T -1.42%, 5T -11.11%)."
     },
     {
       "ticker": "SLB",
-      "reason": "Schwaches kurzfristiges Setup (Score 33/100; 1T -4.74%, 5T -7.15%)."
+      "reason": "Schwaches kurzfristiges Setup (Score 37/100; 1T -4.89%, 5T -7.29%)."
+    },
+    {
+      "ticker": "CHTR",
+      "reason": "Schwaches kurzfristiges Setup (Score 38/100; 1T -1.66%, 5T -5.68%)."
     }
   ],
   "news": [
@@ -198,21 +198,15 @@
       "sentiment": 1
     },
     {
-      "ticker": "RBLX",
-      "title": "Roblox lays out growth plans at RDC as analysts seek signs of payoff (RBLX:NYSE)",
-      "time": "Mon, 14 Sep 2026 12:54:30",
+      "ticker": "NET",
+      "title": "Cybersecurity Stocks Surge, CrowdStrike Jumps 15% as AI Risks May Drive Demand",
+      "time": "Mon, 14 Sep 2026 18:22:55",
       "sentiment": 1
     },
     {
-      "ticker": "PANW",
-      "title": "PANW Stock Climbs As AI Security Growth Story Accelerates",
-      "time": "Mon, 14 Sep 2026 16:33:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "SPOT",
-      "title": "Spotify Technology Pitches AI Add-Ons, Video and New Verticals for Growth",
-      "time": "Sun, 13 Sep 2026 22:02:00",
+      "ticker": "COIN",
+      "title": "Coinbase Global Inc (COIN) Shares Surge 9.2% -- What GF Score of 78 Tells Investors",
+      "time": "Mon, 14 Sep 2026 22:32:47",
       "sentiment": 1
     },
     {
@@ -234,33 +228,9 @@
       "sentiment": 1
     },
     {
-      "ticker": "COIN",
-      "title": "Coinbase Jumps 6% on Compass Point Upgrade Ahead of Senate CLARITY Act Vote; Strategy Climbs 3%, MARA Slips",
-      "time": "Mon, 14 Sep 2026 15:00:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "COIN",
-      "title": "Coinbase Global (COIN) Just Raised A Bigger Question",
-      "time": "Mon, 14 Sep 2026 08:24:26",
-      "sentiment": 1
-    },
-    {
-      "ticker": "COIN",
-      "title": "Compass Point upgrades Coinbase stock rating on Bitcoin recovery By Investing.com",
-      "time": "Mon, 14 Sep 2026 13:25:27",
-      "sentiment": 1
-    },
-    {
-      "ticker": "COIN",
-      "title": "Coinbase Global (NASDAQ:COIN) Trading 7.4% Higher After Analyst Upgrade",
-      "time": "Mon, 14 Sep 2026 14:26:16",
-      "sentiment": 1
-    },
-    {
-      "ticker": "GSK",
-      "title": "GSK announces positive data from two clinical trials",
-      "time": "Mon, 14 Sep 2026 13:41:59",
+      "ticker": "GOOG",
+      "title": "Alphabet Inc. Cl C stock outperforms competitors on strong trading day",
+      "time": "Mon, 14 Sep 2026 20:31:00",
       "sentiment": 1
     },
     {
@@ -271,20 +241,32 @@
     },
     {
       "ticker": "APP",
-      "title": "Morgan Stanley cuts AppLovin stock price target on valuation",
-      "time": "Mon, 14 Sep 2026 10:18:00",
+      "title": "Morgan Stanley cuts AppLovin stock price target on valuation By Investing.com",
+      "time": "Mon, 14 Sep 2026 14:14:51",
       "sentiment": -1
     },
     {
-      "ticker": "APP",
-      "title": "Morgan Stanley Maintains Applovin(APP.US) With Buy Rating, Cuts Target Price to $450",
-      "time": "Mon, 14 Sep 2026 10:42:12",
-      "sentiment": -1
+      "ticker": "GSK",
+      "title": "GSK PLC (GSK) Shares Surge 4.0% -- What GF Score of 71 Tells Inv",
+      "time": "Mon, 14 Sep 2026 21:53:07",
+      "sentiment": 1
     },
     {
-      "ticker": "CRM",
-      "title": "Salesforce Stock’s Dreamforce Test Starts Tomorrow With cRPO Growth at 14%",
-      "time": "Mon, 14 Sep 2026 14:45:21",
+      "ticker": "GSK",
+      "title": "GSK announces positive data from two clinical trials",
+      "time": "Mon, 14 Sep 2026 13:41:59",
+      "sentiment": 1
+    },
+    {
+      "ticker": "NFLX",
+      "title": "Netflix stock jumps as Wall Street sees a new growth engine",
+      "time": "Mon, 14 Sep 2026 21:04:25",
+      "sentiment": 1
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Stock Rises as AI Leaders Hint at Growth Slowdown",
+      "time": "Mon, 14 Sep 2026 19:20:39",
       "sentiment": 1
     },
     {
@@ -294,51 +276,15 @@
       "sentiment": 1
     },
     {
-      "ticker": "SAP",
-      "title": "SAP stock gains as cloud growth and AI investments underpin outlook - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 12:54:24",
-      "sentiment": 1
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Weekly Recap: Datadog R&D shifts to AI/GPUs and Wedbush raises target $275",
-      "time": "Mon, 14 Sep 2026 11:22:11",
-      "sentiment": 1
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Datadog Shares Surge on Accelerating AI and Enterprise Growth Focus : 기업주식정보 : JKN",
-      "time": "Mon, 14 Sep 2026 16:30:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Datadog shares jump around 5.5% as AI investments and enterprise expansion fuel growth",
-      "time": "Mon, 14 Sep 2026 18:21:30",
-      "sentiment": 1
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Securities Fraud Investigation Into Alphabet Inc. (GOOGL)",
-      "time": "Mon, 14 Sep 2026 15:00:00",
-      "sentiment": -1
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir (PLTR) Stock Forecast: 85% Revenue Growth, Rule of 40 at 145% - Worth $129?",
-      "time": "Sun, 13 Sep 2026 21:59:21",
-      "sentiment": 1
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft (NASDAQ:MSFT) Combines Strong Growth With a Quality Technical Setup",
-      "time": "Mon, 14 Sep 2026 12:31:00",
+      "ticker": "TTWO",
+      "title": "Take-Two Interactive Software Inc. stock outperforms competitors on strong trading day",
+      "time": "Mon, 14 Sep 2026 20:53:00",
       "sentiment": 1
     },
     {
       "ticker": "ADBE",
-      "title": "Can Adobe Stock Surge To $500?",
-      "time": "Mon, 14 Sep 2026 14:45:08",
+      "title": "Adobe Inc (ADBE) Shares Surge 5.3% -- What GF Score of 88 Tells Investors",
+      "time": "Mon, 14 Sep 2026 21:53:06",
       "sentiment": 1
     },
     {
@@ -348,93 +294,39 @@
       "sentiment": 1
     },
     {
-      "ticker": "MDB",
-      "title": "MongoDB Sees AI, Atlas and Enterprise Modernization Fueling Growth",
-      "time": "Mon, 14 Sep 2026 07:02:03",
+      "ticker": "ADBE",
+      "title": "Adobe’s AI Metrics Surge, But ADBE Stock Falls As Wall Street Questions Growth Trajectory",
+      "time": "Mon, 14 Sep 2026 17:53:36",
       "sentiment": 1
     },
     {
-      "ticker": "MDB",
-      "title": "MongoDB Sees AI, Modernization and Self-Managed Demand Fueling Growth",
-      "time": "Mon, 14 Sep 2026 04:01:00",
+      "ticker": "CI",
+      "title": "The Cigna Group (CI) Shares Surge 3.3% -- What GF Score of 74 Te",
+      "time": "Mon, 14 Sep 2026 22:03:08",
       "sentiment": 1
     },
     {
-      "ticker": "MDB",
-      "title": "What's behind MongoDB's latest 5.9% stock surge?",
-      "time": "Mon, 14 Sep 2026 17:04:29",
+      "ticker": "CI",
+      "title": "Cigna Group stock outperforms competitors on strong trading day",
+      "time": "Mon, 14 Sep 2026 20:44:00",
       "sentiment": 1
     },
     {
-      "ticker": "TTWO",
-      "title": "Where to Find Growth Beyond AI. Start With These 8 Stocks.",
-      "time": "Mon, 14 Sep 2026 11:58:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "TTD",
-      "title": "The Trade Desk stock heads into the open after a weak prior close - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 03:57:32",
-      "sentiment": -1
-    },
-    {
-      "ticker": "TTD",
-      "title": "Can Audience Unlimited Accelerate Trade Desk's Growth Momentum?",
-      "time": "Mon, 14 Sep 2026 12:33:01",
-      "sentiment": 1
-    },
-    {
-      "ticker": "TTD",
-      "title": "Bloom Energy Falls 8% as AI Power Bid Unwinds Days Before Bloom's S&P 500 Add; FuelCell Energy Drops 5%, Plug Power Dips",
-      "time": "Mon, 14 Sep 2026 15:57:00",
-      "sentiment": -1
-    },
-    {
-      "ticker": "CRWD",
-      "title": "3 Reasons CRWD Has Explosive Upside Potential",
-      "time": "Mon, 14 Sep 2026 13:47:30",
+      "ticker": "RBLX",
+      "title": "Why Roblox Stock Popped Today",
+      "time": "Mon, 14 Sep 2026 19:01:39",
       "sentiment": 0
     },
     {
-      "ticker": "CRWD",
-      "title": "Why Is CrowdStrike (CRWD) Stock Rocketing Higher Today",
-      "time": "Mon, 14 Sep 2026 16:58:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRWD",
-      "title": "Why CrowdStrike and Palo Alto Are Leading the Software Stock Rally",
-      "time": "Mon, 14 Sep 2026 14:10:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRWD",
-      "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 15.03% on Sep 14: Drivers Behind the Movement",
-      "time": "Mon, 14 Sep 2026 17:15:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRWD",
-      "title": "Why CrowdStrike Stock Rocketed Higher Today",
-      "time": "Mon, 14 Sep 2026 17:01:50",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRWD",
-      "title": "CrowdStrike, Palo Alto Networks lead cybersecurity stocks higher amid AI worries (CRWD:NASDAQ)",
-      "time": "Mon, 14 Sep 2026 14:50:14",
+      "ticker": "RBLX",
+      "title": "Roblox Corporation Has Two Big Problems It Must Contend With (NYSE:RBLX)",
+      "time": "Mon, 14 Sep 2026 19:00:29",
       "sentiment": 0
     },
     {
       "ticker": "RBLX",
       "title": "Roblox Jumps 10% as Wedbush Lifts Target to $48 While Staying Neutral; Take-Two and GameStop Nudge Higher",
       "time": "Mon, 14 Sep 2026 15:44:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "RBLX",
-      "title": "Walt Disney vs. Roblox: Which Media Stock Is a Better Buy in 2026?",
-      "time": "Mon, 14 Sep 2026 14:59:52",
       "sentiment": 0
     },
     {
@@ -452,73 +344,115 @@
     {
       "ticker": "PANW",
       "title": "Why CrowdStrike and Palo Alto Are Leading the Software Stock Rally",
-      "time": "Mon, 14 Sep 2026 14:10:00",
+      "time": "Mon, 14 Sep 2026 18:13:00",
       "sentiment": 0
     },
     {
       "ticker": "PANW",
-      "title": "Palo Alto Networks Inc Stock (PANW) Moved Up by 12.70% on Sep 14: What Investors Need To Know",
-      "time": "Mon, 14 Sep 2026 15:15:44",
+      "title": "Palo Alto Networks soars 13% amid cybersecurity rally (PANW:NASDAQ)",
+      "time": "Mon, 14 Sep 2026 20:32:36",
       "sentiment": 0
     },
     {
       "ticker": "PANW",
-      "title": "CrowdStrike, Palo Alto Networks lead cybersecurity stocks higher amid AI worries (CRWD:NASDAQ)",
-      "time": "Mon, 14 Sep 2026 14:50:14",
+      "title": "Palo Alto Networks (PANW) Enters Founding 6G Forum Role In AI Native Trials",
+      "time": "Tue, 15 Sep 2026 01:33:33",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PANW",
+      "title": "Bawa family trust at Palo Alto Networks (NASDAQ: PANW) plans $331K share sale",
+      "time": "Mon, 14 Sep 2026 23:43:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "Why CrowdStrike Stock Rocketed Higher Today",
+      "time": "Mon, 14 Sep 2026 17:01:50",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "Why Is CrowdStrike (CRWD) Stock Rocketing Higher Today",
+      "time": "Mon, 14 Sep 2026 16:58:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "Why CrowdStrike and Palo Alto Are Leading the Software Stock Rally",
+      "time": "Mon, 14 Sep 2026 18:13:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "3 Reasons CRWD Has Explosive Upside Potential",
+      "time": "Mon, 14 Sep 2026 13:47:30",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "CrowdStrike jumps 14% amid cybersecurity sector rally (CRWD:NASDAQ)",
+      "time": "Mon, 14 Sep 2026 20:14:30",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "Why Is CrowdStrike (NASDAQ:CRWD) Stock Surging Today? CRWD Jumps 15% as AI Fears Lift Cybersecurity Stocks",
+      "time": "Mon, 14 Sep 2026 18:47:44",
       "sentiment": 0
     },
     {
       "ticker": "NET",
       "title": "Cloudflare, Paylocity, GitLab, Commvault, and Qualys Shares Are Soaring, What You Need To Know",
-      "time": "Mon, 14 Sep 2026 16:41:53",
+      "time": "Mon, 14 Sep 2026 16:58:12",
       "sentiment": 0
     },
     {
       "ticker": "NET",
-      "title": "NET Stock Tanks After Axing 1,100 Employees Amid AI Push; Lifts Full-Year Earnings Outlook",
-      "time": "Sun, 13 Sep 2026 19:35:01",
+      "title": "Is Cloudflare Inc (NET) Overvalued After 7.8% Rally? GF Value Sa",
+      "time": "Mon, 14 Sep 2026 21:53:07",
       "sentiment": 0
     },
     {
       "ticker": "NET",
-      "title": "Cloudflare (NET) Rolls Out AI Security Tools, Is The Stock Now Too Expensive?",
-      "time": "Sun, 13 Sep 2026 19:34:41",
+      "title": "Cloudflare stock hits all-time high at 332.27 USD",
+      "time": "Mon, 14 Sep 2026 18:13:25",
       "sentiment": 0
     },
     {
       "ticker": "NET",
       "title": "CRWD vs. NET: Which Cybersecurity Stock Has an Edge Right Now?",
-      "time": "Mon, 14 Sep 2026 14:11:00",
+      "time": "Mon, 14 Sep 2026 13:42:19",
       "sentiment": 0
     },
     {
       "ticker": "NET",
-      "title": "Cloudflare stock hits all-time high at 332.27 USD By Investing.com",
-      "time": "Mon, 14 Sep 2026 18:00:00",
+      "title": "Cloudflare CEO: Good Guys Have More Tools Than Bad Guys",
+      "time": "Mon, 14 Sep 2026 21:55:55",
       "sentiment": 0
     },
     {
-      "ticker": "NET",
-      "title": "Microsoft AI Safety Rules Send 3 Cyber Stocks Higher - Microsoft (NASDAQ:MSFT), Palo Alto Networks (NASDA",
-      "time": "Mon, 14 Sep 2026 16:32:42",
+      "ticker": "COIN",
+      "title": "Why Is Coinbase (COIN) Stock Soaring Today",
+      "time": "Tue, 15 Sep 2026 03:23:00",
       "sentiment": 0
     },
     {
-      "ticker": "SPOT",
-      "title": "Research Analysts Offer Predictions for SPOT FY2027 Earnings",
-      "time": "Mon, 14 Sep 2026 05:33:06",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SPOT",
-      "title": "Tracking Ron Baron's BAMCO Portfolio - Q2 2026 Update (MUTF:BARIX)",
-      "time": "Sun, 13 Sep 2026 20:42:11",
+      "ticker": "COIN",
+      "title": "Why is Coinbase stock surging today?",
+      "time": "Mon, 14 Sep 2026 14:11:58",
       "sentiment": 0
     },
     {
       "ticker": "COIN",
       "title": "Should You Buy Coinbase Stock While Its Revenue Is Shrinking?",
-      "time": "Mon, 14 Sep 2026 17:11:08",
+      "time": "Mon, 14 Sep 2026 17:10:44",
+      "sentiment": 0
+    },
+    {
+      "ticker": "COIN",
+      "title": "Coinbase Global climbs 9% amid crypto-sector rally, regulatory hopes (COIN:NASDAQ)",
+      "time": "Mon, 14 Sep 2026 20:19:51",
       "sentiment": 0
     },
     {
@@ -528,231 +462,69 @@
       "sentiment": 0
     },
     {
-      "ticker": "NFLX",
-      "title": "Netflix Stock (NFLX) Opinions on Recent Earnings and Price Adjustments",
-      "time": "Mon, 14 Sep 2026 14:05:00",
+      "ticker": "SPOT",
+      "title": "AI Push Could Reshape The Case For Spotify Stock",
+      "time": "Tue, 15 Sep 2026 04:51:09",
       "sentiment": 0
     },
     {
-      "ticker": "NFLX",
-      "title": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
-      "time": "Mon, 14 Sep 2026 17:45:00",
+      "ticker": "SPOT",
+      "title": "An insider at Spotify (SPOT) lines up another share sale after two multimillion-dollar trades",
+      "time": "Mon, 14 Sep 2026 22:00:38",
       "sentiment": 0
     },
     {
-      "ticker": "NFLX",
-      "title": "Netflix Stock Will Be Worth More by 2028: My Case for Buying NFLX Now",
-      "time": "Mon, 14 Sep 2026 00:30:00",
+      "ticker": "SPOT",
+      "title": "Spotify Technology SA (SPOT) Stock Up 5.8% but GF Value Says Ove",
+      "time": "Mon, 14 Sep 2026 21:57:06",
       "sentiment": 0
     },
     {
-      "ticker": "NFLX",
-      "title": "Netflix Inc Stock (NFLX) Moved Up by 3.75% on Sep 14: What Investors Need To Know",
-      "time": "Mon, 14 Sep 2026 15:15:42",
+      "ticker": "TTD",
+      "title": "Can Trade Desk (TTD) Hold Up on Future Cash Flow?",
+      "time": "Mon, 14 Sep 2026 21:43:11",
       "sentiment": 0
     },
     {
-      "ticker": "NFLX",
-      "title": "Wall Street analyst updates Netflix stock price target",
-      "time": "Mon, 14 Sep 2026 14:43:46",
+      "ticker": "TTD",
+      "title": "The Trade Desk Stock Trades at 16x Forward Earnings, Well Below Its Historical Average. Here’s What Investors Need to See Before Buying.",
+      "time": "Mon, 14 Sep 2026 17:50:08",
       "sentiment": 0
     },
     {
-      "ticker": "NFLX",
-      "title": "Most Investors Think Netflix (NFLX) Is Too Expensive. I Think They're Wrong.",
-      "time": "Sun, 13 Sep 2026 18:35:00",
+      "ticker": "TTD",
+      "title": "Trade Desk (NASDAQ: TTD) grants CFO 398K shares with quarterly vesting",
+      "time": "Mon, 14 Sep 2026 22:11:13",
       "sentiment": 0
     },
     {
-      "ticker": "GSK",
-      "title": "Why is GSK stock surging today?",
-      "time": "Mon, 14 Sep 2026 09:25:43",
+      "ticker": "TTD",
+      "title": "Chief lawyer at Trade Desk (TTD) gets 398K-share grant",
+      "time": "Mon, 14 Sep 2026 22:14:09",
       "sentiment": 0
     },
     {
-      "ticker": "GSK",
-      "title": "Why Is GSK Stock Gaining Monday?",
-      "time": "Mon, 14 Sep 2026 16:03:11",
+      "ticker": "TTD",
+      "title": "Why Is Trade Desk (NASDAQ:TTD) Back in Focus on the Nasdaq?",
+      "time": "Mon, 14 Sep 2026 11:14:00",
       "sentiment": 0
     },
     {
-      "ticker": "GSK",
-      "title": "GSK (NYSE: GSK) drug extends small cell lung cancer survival beyond chemotherapy in phase III test",
-      "time": "Mon, 14 Sep 2026 11:25:02",
+      "ticker": "TTD",
+      "title": "Trade Desk (TTD) COO awarded 724K shares that vest through 2029",
+      "time": "Mon, 14 Sep 2026 22:12:16",
       "sentiment": 0
     },
     {
-      "ticker": "GSK",
-      "title": "Why Is GSK (LSE:GSK) Stock Back In The Spotlight As Myeloma And Vaccine Milestones Stack Up?",
-      "time": "Mon, 14 Sep 2026 12:48:00",
+      "ticker": "GOOGL",
+      "title": "Alphabet (GOOGL) Stock Quotes, Company News And Chart Analysis",
+      "time": "Mon, 14 Sep 2026 16:37:00",
       "sentiment": 0
     },
     {
-      "ticker": "GSK",
-      "title": "GSK stock rises on lung cancer data and JP Morgan view - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 10:24:25",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Prediction: Meta Stock Has More Upside Than Its Valuation Suggests",
-      "time": "Mon, 14 Sep 2026 16:00:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Prediction: Meta Stock Has More Upside Than Its Valuation Suggests",
-      "time": "Mon, 14 Sep 2026 16:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
-      "time": "Mon, 14 Sep 2026 13:37:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Wall Street sets Meta stock price for the next 12 months",
-      "time": "Mon, 14 Sep 2026 18:14:16",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Goldman Sachs reiterates Meta stock Buy rating on AI agent launch",
-      "time": "Mon, 14 Sep 2026 12:24:27",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "History Suggests That You'll Regret Not Buying This Struggling Tech Stock",
-      "time": "Mon, 14 Sep 2026 14:20:25",
-      "sentiment": 0
-    },
-    {
-      "ticker": "IBM",
-      "title": "Here is What to Know Beyond Why International Business Machines Corporation (IBM) is a Trending Stock",
-      "time": "Mon, 14 Sep 2026 13:00:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "IBM",
-      "title": "International Business Machines Corporation $IBM Shares Purchased by B. Metzler seel. Sohn & Co. AG",
-      "time": "Mon, 14 Sep 2026 07:07:13",
-      "sentiment": 0
-    },
-    {
-      "ticker": "IBM",
-      "title": "CrowdStrike, Palo Alto Networks lead cybersecurity stocks higher amid AI worries (CRWD:NASDAQ)",
-      "time": "Mon, 14 Sep 2026 14:50:14",
-      "sentiment": 0
-    },
-    {
-      "ticker": "IBM",
-      "title": "Nykredit A S Takes Position in International Business Machines Corporation $IBM",
-      "time": "Mon, 14 Sep 2026 07:46:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "IBM",
-      "title": "IBM Takes its AI Strategy Beyond Earth with NASA Lunar Model",
-      "time": "Mon, 14 Sep 2026 14:57:27",
-      "sentiment": 0
-    },
-    {
-      "ticker": "APP",
-      "title": "Investors Heavily Search AppLovin Corporation (APP): Here is What You Need to Know",
-      "time": "Mon, 14 Sep 2026 13:00:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "APP",
-      "title": "Morgan Stanley Adjusts Price Target on AppLovin to $450 From $650, Keeps Overweight Rating",
-      "time": "Mon, 14 Sep 2026 10:56:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "APP",
-      "title": "Applovin Corporation Tokenized Stock (Robinhood): Latest News, Social Media Updates and Insights",
-      "time": "Mon, 14 Sep 2026 05:44:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "APP",
-      "title": "AppLovin stock heads into the open after a 3.0% gain - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 04:20:55",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRM",
-      "title": "$27 million in new grants will support public schools",
-      "time": "Mon, 14 Sep 2026 12:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRM",
-      "title": "ServiceNow Climbs 5% as Software Sidesteps AI Selloff; Adobe Gains 4%, Salesforce Ticks Up",
-      "time": "Mon, 14 Sep 2026 14:11:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRM",
-      "title": "Salesforce's AI Business Is Booming, Why Isn't CRM Stock?",
-      "time": "Mon, 14 Sep 2026 14:05:37",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRM",
-      "title": "ServiceNow Climbs 5% as Software Sidesteps AI Selloff; Adobe Gains 4%, Salesforce Ticks Up",
-      "time": "Mon, 14 Sep 2026 14:11:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRM",
-      "title": "Salesforce (CRM) Closes Early AI Customer Agent Deal, Adding 30,000 Customers",
-      "time": "Sun, 13 Sep 2026 23:48:45",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SAP",
-      "title": "SAP (NYSE:SAP) Shares Gap Up - What's Next?",
-      "time": "Mon, 14 Sep 2026 15:02:31",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SAP",
-      "title": "SAP SE Stock (SAP) Moved Up by 4.79% on Sep 14: What Investors Need To Know",
-      "time": "Mon, 14 Sep 2026 16:15:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SAP",
-      "title": "SAP SE: Lars Lamade, Disposal of shares for the settlement of taxes and duties in connection with participation in the SAP employee participation programme ‘MOVE SAP’.",
-      "time": "Mon, 14 Sep 2026 10:38:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SAP",
-      "title": "AI Stocks Stumble Amid Growing Safety Fears",
-      "time": "Mon, 14 Sep 2026 15:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Investors Heavily Search Datadog, Inc. (DDOG): Here is What You Need to Know",
-      "time": "Mon, 14 Sep 2026 13:00:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DDOG",
-      "title": "How AI Agent Monitoring At Datadog Shares Has Changed Its Investment Story",
-      "time": "Mon, 14 Sep 2026 00:53:28",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DDOG",
-      "title": "The Week Ahead: US July Non-Farm Payrolls in Focus; PLTR, SanDisk, AMD, and SpaceX Earnings Ahead",
-      "time": "Mon, 14 Sep 2026 04:09:57",
+      "ticker": "GOOGL",
+      "title": "Alphabet has been in a correction since May. Katie Stockton sees the Google parent breaking out",
+      "time": "Mon, 14 Sep 2026 18:00:01",
       "sentiment": 0
     },
     {
@@ -763,26 +535,20 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "2 Numbers Matter More to Alphabet Stock's Performance Than Anything Else Right Now",
-      "time": "Mon, 14 Sep 2026 12:59:00",
+      "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
+      "time": "Mon, 14 Sep 2026 19:51:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Dan Ives Says AI Capex Boom Continues 'Full Steam Ahead' After TSLA, GOOGL Earnings — Gene Munster Notes Tech Industry Still In '3rd Inning'",
+      "time": "Tue, 15 Sep 2026 03:54:18",
       "sentiment": 0
     },
     {
       "ticker": "GOOGL",
       "title": "Alphabet Inc Class A Stock (GOOGL) Moved Up by 3.11% on Sep 14: A Full Analysis",
       "time": "Mon, 14 Sep 2026 18:15:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
-      "time": "Mon, 14 Sep 2026 13:37:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alphabet has been in a correction since May. Katie Stockton sees the Google parent breaking out",
-      "time": "Mon, 14 Sep 2026 18:00:01",
       "sentiment": 0
     },
     {
@@ -805,20 +571,170 @@
     },
     {
       "ticker": "GOOG",
-      "title": "Google considers new data center in energy-rich Lea County, N.M.",
-      "time": "Mon, 14 Sep 2026 17:43:07",
+      "title": "Alphabet C breaks Ichimoku cloud near Fibonacci resistance: Live",
+      "time": "Mon, 14 Sep 2026 19:30:00",
       "sentiment": 0
     },
     {
       "ticker": "GOOG",
-      "title": "Alphabet C stuck in chop zone at $341: Hourly levels",
-      "time": "Mon, 14 Sep 2026 14:26:15",
+      "title": "Alphabet Stock Gains On Report Of Google’s New ‘Frozen’ Chip To Boost Gemini AI Efficiency",
+      "time": "Mon, 14 Sep 2026 16:52:12",
       "sentiment": 0
     },
     {
-      "ticker": "GOOG",
-      "title": "The Stock Market Is Doing Something Incredibly Rare Right Now, and History Has Promising News for Investors",
-      "time": "Mon, 14 Sep 2026 12:30:00",
+      "ticker": "IBM",
+      "title": "IBM Stock Tanks To 2-Month Lows In Pre-Market – CEO Says Company ‘Faltered’ In Q2 As ‘Large Deals Failed To Close’ On Expected Timelines",
+      "time": "Tue, 15 Sep 2026 00:42:36",
+      "sentiment": 0
+    },
+    {
+      "ticker": "IBM",
+      "title": "Here is What to Know Beyond Why International Business Machines Corporation (IBM) is a Trending Stock",
+      "time": "Mon, 14 Sep 2026 13:00:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "IBM",
+      "title": "IBM (IBM) Debuts Dedicated AI Agent Governance Software",
+      "time": "Tue, 15 Sep 2026 01:33:33",
+      "sentiment": 0
+    },
+    {
+      "ticker": "IBM",
+      "title": "International Business Machines (NYSE:IBM) Trading 2.4% Higher - Time to Buy?",
+      "time": "Mon, 14 Sep 2026 21:23:32",
+      "sentiment": 0
+    },
+    {
+      "ticker": "IBM",
+      "title": "SBUX Stock Set For Best Day In Two Months — Starbucks Steps Up AI Push To Cut Reliance On MSFT, IBM",
+      "time": "Mon, 14 Sep 2026 15:42:45",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
+      "title": "Investors Heavily Search AppLovin Corporation (APP): Here is What You Need to Know",
+      "time": "Mon, 14 Sep 2026 13:00:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
+      "title": "AppLovin: A Misunderstood Business Makes For One Of The Best Investments (NASDAQ:APP)",
+      "time": "Tue, 15 Sep 2026 05:51:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
+      "title": "A Look at AppLovin Corp (APP) After 3.2% Gain -- GF Value $587.0",
+      "time": "Mon, 14 Sep 2026 21:53:06",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
+      "title": "AppLovin and Unity Software Can Both Grow in Big App Ad Market -- Market Talk",
+      "time": "Mon, 14 Sep 2026 18:28:12",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
+      "title": "Morgan Stanley Adjusts Price Target on AppLovin to $450 From $650, Keeps Overweight Rating",
+      "time": "Mon, 14 Sep 2026 10:56:41",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRM",
+      "title": "CRM Stock Snags Second Rating Downgrade This Month – Analyst Says Risk/Reward On Salesforce Balanced In Absence Of Notable Growth Inflection",
+      "time": "Mon, 14 Sep 2026 21:02:12",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRM",
+      "title": "Salesforce (CRM) Sees Fresh Partner Tools Push Agentic AI Into Enterprise Workflows",
+      "time": "Tue, 15 Sep 2026 03:22:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRM",
+      "title": "Salesforce (NYSE:CRM) Trading 4.7% Higher - What's Next?",
+      "time": "Mon, 14 Sep 2026 21:55:42",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRM",
+      "title": "Salesforce Inc Stock (CRM) Moved Up by 4.75% on Sep 14: Drivers Behind the Movement",
+      "time": "Mon, 14 Sep 2026 19:15:49",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRM",
+      "title": "A Look at Salesforce Inc (CRM) After 4.7% Gain -- GF Value $342.",
+      "time": "Mon, 14 Sep 2026 21:41:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRM",
+      "title": "$27 million in new grants will support public schools",
+      "time": "Mon, 14 Sep 2026 12:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GSK",
+      "title": "Why is GSK stock surging today?",
+      "time": "Mon, 14 Sep 2026 09:25:43",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GSK",
+      "title": "Why Is GSK Stock Gaining Monday?",
+      "time": "Mon, 14 Sep 2026 16:03:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GSK",
+      "title": "GSK stock heads into the open after a 4.6% jump on trial data - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 02:34:09",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GSK",
+      "title": "GSK (NYSE: GSK) drug extends small cell lung cancer survival beyond chemotherapy in phase III test",
+      "time": "Mon, 14 Sep 2026 11:25:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NFLX",
+      "title": "NFLX Stock On Track For Fourth Consecutive Month In The Red As Acquisition Attempts Continue To Fail",
+      "time": "Tue, 15 Sep 2026 01:11:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NFLX",
+      "title": "Netflix Stock is Trending Higher: What's Going On?",
+      "time": "Mon, 14 Sep 2026 19:02:15",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NFLX",
+      "title": "Netflix Stock (NFLX) Opinions on Recent Earnings and Price Adjustments",
+      "time": "Mon, 14 Sep 2026 14:05:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NFLX",
+      "title": "Paramount’s Warner Takeover Chaos Handed Netflix The Ultimate Moat (NASDAQ:NFLX)",
+      "time": "Mon, 14 Sep 2026 20:40:12",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NFLX",
+      "title": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+      "time": "Mon, 14 Sep 2026 17:45:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Can Palantir Deploy Fast Enough To Move Its Stock Higher?",
+      "time": "Mon, 14 Sep 2026 16:58:55",
       "sentiment": 0
     },
     {
@@ -829,20 +745,8 @@
     },
     {
       "ticker": "PLTR",
-      "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock",
-      "time": "Mon, 14 Sep 2026 15:30:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
       "title": "Palantir Technologies (PLTR) Brings AI Legal Workflows Into A Major Law Firm",
       "time": "Mon, 14 Sep 2026 08:24:26",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Michael Burry Says He’s Still Short Palantir After Stock Sees Recovery Following Trump’s Endorsement",
-      "time": "Mon, 14 Sep 2026 00:33:23",
       "sentiment": 0
     },
     {
@@ -852,111 +756,51 @@
       "sentiment": 0
     },
     {
-      "ticker": "NOW",
-      "title": "Why is ServiceNow stock climbing today?",
-      "time": "Mon, 14 Sep 2026 09:55:45",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NOW",
-      "title": "ServiceNow Shares Rise 2.6% After Analysts Raise Price Targets",
-      "time": "Mon, 14 Sep 2026 11:04:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NOW",
+      "ticker": "PLTR",
       "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock",
       "time": "Mon, 14 Sep 2026 15:30:00",
       "sentiment": 0
     },
     {
-      "ticker": "NOW",
-      "title": "HubSpot, ServiceNow, Okta, Workday, and Zscaler Shares Skyrocket, What You Need To Know",
-      "time": "Mon, 14 Sep 2026 17:02:12",
+      "ticker": "SAP",
+      "title": "SAP (NYSE:SAP) Shares Gap Up - What's Next?",
+      "time": "Mon, 14 Sep 2026 15:02:31",
       "sentiment": 0
     },
     {
-      "ticker": "NOW",
-      "title": "ServiceNow Stock Rises as the SaaS-Pocalypse Fear Reverses Course",
-      "time": "Mon, 14 Sep 2026 13:47:13",
+      "ticker": "SAP",
+      "title": "A Look at SAP SE (SAP) After 5.8% Gain -- GF Value $258.97 vs Pr",
+      "time": "Mon, 14 Sep 2026 21:41:04",
       "sentiment": 0
     },
     {
-      "ticker": "NOW",
-      "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock",
-      "time": "Mon, 14 Sep 2026 15:30:50",
+      "ticker": "SAP",
+      "title": "SAP SE Stock (SAP) Moved Up by 4.79% on Sep 14: What Investors Need To Know",
+      "time": "Mon, 14 Sep 2026 16:15:46",
       "sentiment": 0
     },
     {
-      "ticker": "MSFT",
-      "title": "Microsoft Stock (MSFT) Opinions on Bank of America Price Target Upgrade",
-      "time": "Mon, 14 Sep 2026 14:05:00",
+      "ticker": "SAP",
+      "title": "Software support costs could fall by up to 90%. Rimini Street and Datacom teamed up.",
+      "time": "Mon, 14 Sep 2026 20:00:00",
       "sentiment": 0
     },
     {
-      "ticker": "MSFT",
-      "title": "Microsoft AI Safety Rules Send 3 Cyber Stocks Higher - Microsoft (NASDAQ:MSFT), Palo Alto Networks (NASDA",
-      "time": "Mon, 14 Sep 2026 16:32:42",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Shows Nothing Is Over Just Yet (NASDAQ:MSFT)",
-      "time": "Mon, 14 Sep 2026 15:30:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Prediction: This Could Be One of the Best Stocks to Own Through 2030",
-      "time": "Mon, 14 Sep 2026 14:30:24",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Prediction: This Could Be One of the Best Stocks to Own Through 2030",
-      "time": "Mon, 14 Sep 2026 14:30:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADBE",
-      "title": "Adobe Inc. (ADBE) is Attracting Investor Attention: Here is What You Should Know",
-      "time": "Mon, 14 Sep 2026 13:00:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADBE",
-      "title": "Why It May Finally Be Time to Buy Adobe Stock",
-      "time": "Mon, 14 Sep 2026 08:41:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADBE",
-      "title": "ServiceNow Climbs 5% as Software Sidesteps AI Selloff; Adobe Gains 4%, Salesforce Ticks Up",
-      "time": "Mon, 14 Sep 2026 14:11:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADBE",
-      "title": "Adobe, DocuSign, Intuit, Workiva, and Appian Stocks Trade Up, What You Need To Know",
-      "time": "Mon, 14 Sep 2026 16:40:54",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MDB",
-      "title": "Goldman Sachs Maintains MongoDB(MDB.US) With Buy Rating, Maintains Target Price $520",
-      "time": "Mon, 14 Sep 2026 13:45:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MDB",
-      "title": "NOK Stock Gains After-Hours — Nokia Oyj Rejoins Europe's Benchmark Stoxx 50 Index",
-      "time": "Mon, 14 Sep 2026 00:14:08",
+      "ticker": "SAP",
+      "title": "SAP SE: Lars Lamade, Disposal of shares for the settlement of taxes and duties in connection with participation in the SAP employee participation programme ‘MOVE SAP’.",
+      "time": "Mon, 14 Sep 2026 10:38:05",
       "sentiment": 0
     },
     {
       "ticker": "TTWO",
-      "title": "Take-Two Stock Prediction: Can GTA 6 Push TTWO Above $250 Again?",
-      "time": "Sun, 13 Sep 2026 20:19:35",
+      "title": "Take Two Interactive Software (TTWO) Shares Moved, What Is Catching Attention Now?",
+      "time": "Tue, 15 Sep 2026 01:33:33",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTWO",
+      "title": "Is It Too Late to Buy Take-Two Interactive Software Inc (TTWO) A",
+      "time": "Mon, 14 Sep 2026 22:32:47",
       "sentiment": 0
     },
     {
@@ -973,32 +817,206 @@
     },
     {
       "ticker": "TTWO",
-      "title": "US Stock Market Today: S&P 500 Futures Climb On Persistent Inflation And Rate Jitters",
-      "time": "Mon, 14 Sep 2026 08:27:14",
+      "title": "Take-Two Interactive stock holds near USD 215 as GTA 6 risk and guidance stay in view - ad-hoc-news.de",
+      "time": "Mon, 14 Sep 2026 15:26:47",
       "sentiment": 0
     },
     {
-      "ticker": "TTWO",
-      "title": "Take-Two Interactive stock heads into the open after a 0.7% dip - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 04:19:52",
+      "ticker": "KHC",
+      "title": "Kraft Heinz Moves to the NYSE. What Happened to the Breakup?",
+      "time": "Mon, 14 Sep 2026 11:10:20",
       "sentiment": 0
     },
     {
-      "ticker": "TTD",
-      "title": "2 Cash-Producing Stocks Worth Your Attention and 1 We Ignore",
-      "time": "Mon, 14 Sep 2026 04:32:00",
+      "ticker": "KHC",
+      "title": "Kraft Heinz Moves to the NYSE. What Happened to the Breakup?",
+      "time": "Mon, 14 Sep 2026 11:10:00",
       "sentiment": 0
     },
     {
-      "ticker": "TTD",
-      "title": "Why Is Trade Desk (NASDAQ:TTD) Back in Focus on the Nasdaq?",
-      "time": "Mon, 14 Sep 2026 11:14:00",
+      "ticker": "KHC",
+      "title": "Does Index Removal Change The Bull Case For Kraft Heinz Stock?",
+      "time": "Mon, 14 Sep 2026 12:35:34",
       "sentiment": 0
     },
     {
-      "ticker": "TTD",
-      "title": "2 Cash-Producing Stocks Worth Your Attention and 1 We Ignore",
-      "time": "Mon, 14 Sep 2026 04:32:55",
+      "ticker": "KHC",
+      "title": "Here's Why Kraft Heinz (KHC) Fell More Than Broader Market",
+      "time": "Mon, 14 Sep 2026 22:00:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KHC",
+      "title": "KHC Maintained by Evercore ISI Group -- Price Target Lowered to $23",
+      "time": "Mon, 14 Sep 2026 15:10:47",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KHC",
+      "title": "California State Teachers Retirement System Purchases 36,762,849 Shares of Kraft Heinz Company $KHC",
+      "time": "Mon, 14 Sep 2026 07:24:47",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
+      "time": "Mon, 14 Sep 2026 19:51:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Prediction: Meta Stock Has More Upside Than Its Valuation Suggests",
+      "time": "Mon, 14 Sep 2026 16:00:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Prediction: Meta Stock Has More Upside Than Its Valuation Suggests",
+      "time": "Mon, 14 Sep 2026 16:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?",
+      "time": "Mon, 14 Sep 2026 20:21:09",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "What's Going On With Meta Stock?",
+      "time": "Mon, 14 Sep 2026 19:13:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Wall Street sets Meta stock price for the next 12 months",
+      "time": "Mon, 14 Sep 2026 18:14:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NOW",
+      "title": "ServiceNow Jumps 6.4% as AI Slowdown Flips the Software Trade",
+      "time": "Mon, 14 Sep 2026 20:58:08",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NOW",
+      "title": "Why is ServiceNow stock climbing today?",
+      "time": "Mon, 14 Sep 2026 09:55:45",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NOW",
+      "title": "ServiceNow Inc Stock (NOW) Closed Up by 7.41% on Sep 14: A Full Analysis",
+      "time": "Mon, 14 Sep 2026 20:15:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NOW",
+      "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock",
+      "time": "Mon, 14 Sep 2026 15:30:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NOW",
+      "title": "ServiceNow Stock Rises as the SaaS-Pocalypse Fear Reverses Course",
+      "time": "Mon, 14 Sep 2026 13:47:13",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NOW",
+      "title": "ServiceNow vs. Palantir: I’d Rather Own This AI Stock",
+      "time": "Mon, 14 Sep 2026 15:30:50",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDT",
+      "title": "Medtronic Launches Exchange Offer to Complete Separation of MiniMed Group, Inc.",
+      "time": "Mon, 14 Sep 2026 11:32:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDT",
+      "title": "[425] Medtronic plc Business Combination Communication | MDT SEC Filing - Form 425",
+      "time": "Mon, 14 Sep 2026 21:11:37",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDT",
+      "title": "Is It Too Late to Buy Medtronic PLC (MDT) After 3.1% Rally? GF V",
+      "time": "Mon, 14 Sep 2026 21:57:06",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDT",
+      "title": "Medtronic launches exchange offer to complete separation of MiniMed (MDT:NYSE)",
+      "time": "Mon, 14 Sep 2026 11:53:53",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDT",
+      "title": "Medtronic PLC (MDT) Stock News Today",
+      "time": "Mon, 14 Sep 2026 19:13:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDT",
+      "title": "Medtronic (NYSE: MDT) plans tax-free swap to shed its diabetes business",
+      "time": "Mon, 14 Sep 2026 12:54:26",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Stock (MSFT) Opinions on Bank of America Price Target Upgrade",
+      "time": "Mon, 14 Sep 2026 14:05:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Just Made a Move That Could Put More Pressure on Its Azure Business. Here's Why It Could Turn Out Great for the Stock",
+      "time": "Mon, 14 Sep 2026 23:01:37",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Why Is Microsoft (MSFT) Slowing Advanced AI Development?",
+      "time": "Tue, 15 Sep 2026 02:37:30",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Just Made a Move That Could Put More Pressure on Its Azure Business. Here's Why It Could Turn Out Great for the Stock",
+      "time": "Mon, 14 Sep 2026 23:41:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft (MSFT) CFO moves to sell tens of thousands of shares under preset plan",
+      "time": "Mon, 14 Sep 2026 22:00:52",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "MSFT Stock Gains 2% — Microsoft Unveils ‘Humanist AI’ Code Of Conduct To Curb Autonomous AI Risks",
+      "time": "Mon, 14 Sep 2026 20:58:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADBE",
+      "title": "How Far Can Adobe Stock Fall While It Waits On Freemium?",
+      "time": "Mon, 14 Sep 2026 19:31:24",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADBE",
+      "title": "Adobe (ADBE): A Billion Users, But Wall Street Wants Proof It Pays",
+      "time": "Mon, 14 Sep 2026 20:59:47",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADBE",
+      "title": "If You Invested $100 In Adobe Stock 20 Years Ago, You Would Have This Much Today",
+      "time": "Mon, 14 Sep 2026 23:15:27",
       "sentiment": 0
     },
     {
@@ -1009,14 +1027,14 @@
     },
     {
       "ticker": "CI",
-      "title": "Cigna Group stock holds steady as analysts lift targets - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 17:32:57",
+      "title": "6 Best Health Insurance Stocks for 2026 and How to Invest",
+      "time": "Mon, 14 Sep 2026 20:27:00",
       "sentiment": 0
     },
     {
       "ticker": "CI",
-      "title": "Cigna Group stock heads into the open after a 0.8% gain - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 04:39:14",
+      "title": "Cigna Group stock holds steady as analysts lift targets - ad-hoc-news.de",
+      "time": "Mon, 14 Sep 2026 17:32:57",
       "sentiment": 0
     }
   ]
