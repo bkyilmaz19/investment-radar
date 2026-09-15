@@ -47,10 +47,14 @@ def push(title, message, priority="default", tags="bell"):
         return False
     server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
     try:
+        token = os.environ.get("NTFY_TOKEN", "").strip()
+        headers = {"Title": title, "Priority": priority, "Tags": tags}
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
         r = requests.post(
             f"{server}/{topic}",
             data=message.encode("utf-8"),
-            headers={"Title": title, "Priority": priority, "Tags": tags},
+            headers=headers,
             timeout=20,
         )
         r.raise_for_status()
@@ -71,7 +75,14 @@ def import_manual_positions(state):
     params = {"poll": "1", "since": since if since else "24h"}
 
     try:
-        r = requests.get(f"{server}/{topic}/json", params=params, timeout=20)
+        token = os.environ.get("NTFY_TOKEN", "").strip()
+        headers = {"Authorization": f"Bearer {token}"} if token else {}
+        r = requests.get(
+            f"{server}/{topic}/json",
+            params=params,
+            headers=headers,
+            timeout=20,
+        )
         r.raise_for_status()
         for line in r.text.splitlines():
             if not line.strip():
