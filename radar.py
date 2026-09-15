@@ -254,30 +254,86 @@ def atr14(frame):
     except Exception:
         return None
 
-def get_premarket(ticker, prev_close):
-    result = {"premarket_price":None,"gap_pct":None,"premarket_move_pct":None}
+def get_session_context(ticker, prev_close):
+    """
+    Returns premarket context and, after 09:30 New York time, live regular-session
+    confirmation. This allows a setup to move from WARTEN -> KAUF HEUTE intraday.
+    """
+    result = {
+        "premarket_price": None,
+        "gap_pct": None,
+        "premarket_move_pct": None,
+        "live_price": None,
+        "live_gap_pct": None,
+        "regular_move_pct": None,
+        "market_open": False,
+    }
     try:
-        intr = yf.download(ticker, period='2d', interval='5m', prepost=True, auto_adjust=False,
-                           progress=False, threads=False)
-        if intr.empty: return result
+        intr = yf.download(
+            ticker,
+            period="2d",
+            interval="5m",
+            prepost=True,
+            auto_adjust=False,
+            progress=False,
+            threads=False,
+        )
+        if intr.empty:
+            return result
+
         if isinstance(intr.columns, pd.MultiIndex):
             intr.columns = intr.columns.get_level_values(0)
-        intr = intr.dropna(subset=['Close'])
-        if intr.empty: return result
+
+        intr = intr.dropna(subset=["Close"])
+        if intr.empty:
+            return result
+
         idx = intr.index
         try:
-            local = idx.tz_convert('America/New_York') if idx.tz is not None else idx.tz_localize('America/New_York')
+            local = idx.tz_convert("America/New_York") if idx.tz is not None else idx.tz_localize("America/New_York")
         except Exception:
             local = idx
-        intr = intr.copy(); intr.index = local
+
+        intr = intr.copy()
+        intr.index = local
         today = intr.index[-1].date()
         day = intr[intr.index.date == today]
-        pre = day[((day.index.hour >= 4) & ((day.index.hour < 9) | ((day.index.hour == 9) & (day.index.minute < 30))))]
-        if pre.empty: return result
-        first,last = float(pre['Close'].iloc[0]),float(pre['Close'].iloc[-1])
-        result.update({"premarket_price":last,"gap_pct":pct(first,prev_close),"premarket_move_pct":pct(last,first)})
+        if day.empty:
+            return result
+
+        pre = day[
+            (day.index.hour >= 4)
+            & ((day.index.hour < 9) | ((day.index.hour == 9) & (day.index.minute < 30)))
+        ]
+        if not pre.empty:
+            first = float(pre["Close"].iloc[0])
+            last = float(pre["Close"].iloc[-1])
+            result.update(
+                {
+                    "premarket_price": last,
+                    "gap_pct": pct(first, prev_close),
+                    "premarket_move_pct": pct(last, first),
+                }
+            )
+
+        regular = day[
+            ((day.index.hour > 9) | ((day.index.hour == 9) & (day.index.minute >= 30)))
+            & (day.index.hour < 16)
+        ]
+        if not regular.empty:
+            regular_open = float(regular["Open"].iloc[0]) if "Open" in regular.columns else float(regular["Close"].iloc[0])
+            current = float(regular["Close"].iloc[-1])
+            result.update(
+                {
+                    "live_price": current,
+                    "live_gap_pct": pct(current, prev_close),
+                    "regular_move_pct": pct(current, regular_open),
+                    "market_open": True,
+                }
+            )
     except Exception:
         pass
+
     return result
 
 def market_regime():
@@ -340,14 +396,25 @@ def main():
 
     # Stage 3: premarket only for top 10. Keeps runtime/API load manageable.
     for r in rows[:10]:
-        pm=get_premarket(r['ticker'],r['prev_close']); r.update(pm)
+        pm=get_session_context(r['ticker'],r['prev_close']); r.update(pm)
         gp=r.get('gap_pct'); pmove=r.get('premarket_move_pct')
-        if gp is not None:
-            if 0.5<=gp<=4.0:r['score']+=7
-            elif 4.0<gp<=7.0:r['score']+=3
-            elif gp>10:r['score']-=8
-            elif gp<-3:r['score']-=5
-        if pmove is not None:r['score']+=max(-4,min(5,pmove*1.5))
+        live_gap=r.get('live_gap_pct'); regular_move=r.get('regular_move_pct')
+        market_open=bool(r.get('market_open'))
+
+        # Before the open, score the premarket gap. After the open, score the
+        # current gap vs. yesterday's close so gap recovery can improve a setup.
+        rule_gap = live_gap if market_open and live_gap is not None else gp
+        if rule_gap is not None:
+            if 0.5<=rule_gap<=4.0:r['score']+=7
+            elif -1.5<=rule_gap<0.5:r['score']+=5
+            elif 4.0<rule_gap<=7.0:r['score']+=3
+            elif rule_gap>10:r['score']-=8
+            elif rule_gap<-3:r['score']-=5
+
+        if market_open and regular_move is not None:
+            r['score'] += max(-5,min(6,regular_move*1.5))
+        elif pmove is not None:
+            r['score'] += max(-4,min(5,pmove*1.5))
 
     for r in rows:
         r['score']=int(max(10,min(94,round(r['score']))))
@@ -363,32 +430,61 @@ def main():
         ap=r.get('atr_pct') or 2.0
         stop=max(0.7,min(2.5,ap*0.65)); target=max(1.2,min(5.0,stop*1.8))
         gap=r.get('gap_pct')
-        if gap is None:
+        live_gap=r.get('live_gap_pct')
+        regular_move=r.get('regular_move_pct')
+        market_open=bool(r.get('market_open'))
+
+        rule_gap = live_gap if market_open and live_gap is not None else gap
+        confirmation_move = regular_move if market_open else r.get('premarket_move_pct')
+        confirmation_available = rule_gap is not None and confirmation_move is not None
+
+        if market_open:
+            if rule_gap is None:
+                entry='Live-Handel aktiv. Einstieg nur bei bestätigtem Breakout bzw. klarer relativer Stärke mit Volumen.'
+            elif rule_gap < -1.5:
+                entry=f'Live-Gap noch {rule_gap:+.2f}%. Warten, bis der Kurs mindestens in den erlaubten Gap-Bereich zurückkehrt und Stabilität zeigt.'
+            elif confirmation_move is not None and confirmation_move >= 0:
+                entry=f'Live-Bestätigung vorhanden: aktueller Gap {rule_gap:+.2f}%, Bewegung seit US-Open {confirmation_move:+.2f}%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.'
+            else:
+                entry=f'Live-Gap {rule_gap:+.2f}%. Erst kaufen, wenn die Bewegung seit US-Open stabil/positiv wird.'
+        elif gap is None:
             entry='Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.'
         elif gap>0:
             entry=f'Premarket-Gap {gap:+.2f}%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.'
         else:
             entry=f'Premarket-Gap {gap:+.2f}%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.'
+
         criteria = {
           'score_ok': r['score'] >= 75,
           'momentum_ok': r['c1'] > 0 and r['c5'] > -1.0,
           'volume_ok': r['vr'] >= 1.10,
           'volatility_ok': (r.get('atr_pct') is not None and 1.0 <= r['atr_pct'] <= 6.0),
           'news_ok': r.get('nsent',0) >= 0,
-          'gap_ok': (gap is None) or (-1.5 <= gap <= 6.0),
-          'premarket_ok': (r.get('premarket_move_pct') is None) or (r.get('premarket_move_pct') >= -0.5)
+          'gap_ok': (rule_gap is not None and -1.5 <= rule_gap <= 6.0),
+          'confirmation_ok': (confirmation_move is not None and confirmation_move >= -0.5)
         }
-        premarket_available = gap is not None and r.get('premarket_move_pct') is not None
         all_rules = all(criteria.values())
 
-        if all_rules and premarket_available:
+        if all_rules and confirmation_available:
             action_status = 'KAUF HEUTE'
-            action_reason = 'Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Premarket-Kriterien sind erfüllt.'
+            action_reason = (
+                'Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und '
+                + ('Live-Kriterien sind erfüllt.' if market_open else 'Premarket-Kriterien sind erfüllt.')
+            )
         elif r['score'] >= 65 and criteria['momentum_ok'] and criteria['volume_ok']:
             action_status = 'WARTEN'
-            missing = [k.replace('_ok','') for k,v in criteria.items() if not v]
-            if not premarket_available:
-                missing.append('Premarket-Bestätigung')
+            labels = {
+                'score_ok':'Score',
+                'momentum_ok':'Momentum',
+                'volume_ok':'Volumen',
+                'volatility_ok':'ATR',
+                'news_ok':'News',
+                'gap_ok':'Gap',
+                'confirmation_ok':'Live-/Premarket-Bestätigung'
+            }
+            missing = [labels[k] for k,v in criteria.items() if not v]
+            if not confirmation_available:
+                missing.append('Live-/Premarket-Daten')
             action_reason = 'Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ' + ', '.join(missing[:4])
         else:
             action_status = 'NICHT KAUFEN'
@@ -404,6 +500,9 @@ def main():
           'atr_pct':f"{r['atr_pct']:.2f}%" if r.get('atr_pct') else 'n/a',
           'gap_pct':f"{gap:+.2f}%" if gap is not None else 'noch nicht verfügbar',
           'premarket_move_pct':f"{r['premarket_move_pct']:+.2f}%" if r.get('premarket_move_pct') is not None else 'noch nicht verfügbar',
+          'live_gap_pct':f"{live_gap:+.2f}%" if live_gap is not None else 'noch nicht verfügbar',
+          'regular_move_pct':f"{regular_move:+.2f}%" if regular_move is not None else 'noch nicht verfügbar',
+          'session_phase':'US-Handel live' if market_open else 'Premarket / vor US-Open',
           'action_status':action_status,
           'action_reason':action_reason,
           'criteria':criteria
@@ -415,7 +514,12 @@ def main():
             avoid.append({'ticker':r['ticker'],'reason':f"Schwaches kurzfristiges Setup (Score {r['score']}/100; 1T {r['c1']:+.2f}%, 5T {r['c5']:+.2f}%)."})
 
     now=datetime.now(TZ); regime=market_regime()
-    phase='Premarket-Daten einbezogen, soweit verfügbar' if any(c['gap_pct']!='noch nicht verfügbar' for c in candidates) else 'Früher Morning-Scan; US-Premarket ggf. noch nicht geöffnet'
+    if any(c.get('session_phase') == 'US-Handel live' for c in candidates):
+        phase='US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet'
+    elif any(c['gap_pct']!='noch nicht verfügbar' for c in candidates):
+        phase='Premarket-Daten einbezogen, soweit verfügbar'
+    else:
+        phase='Früher Morning-Scan; US-Premarket ggf. noch nicht geöffnet'
     data={
       'generated_at_local':now.strftime('%d.%m.%Y %H:%M %Z'),
       'market_regime':regime,
