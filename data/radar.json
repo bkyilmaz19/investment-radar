@@ -1,9 +1,9 @@
 {
-  "generated_at_local": "15.09.2026 22:54 CEST",
+  "generated_at_local": "15.09.2026 23:11 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
-  "scanned_count": 201,
-  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
+  "scanned_count": 200,
+  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 200 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
   "candidates": [
     {
       "ticker": "TMO",
@@ -43,7 +43,7 @@
       "name": "CrowdStrike",
       "score": 92,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.60x, ATR 6.26%",
+      "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
       "catalyst": "Is CrowdStrike Stock Betting That Its Record Quarter Is The New Normal?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
       "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.01%, Bewegung seit US-Open +4.19%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
@@ -52,7 +52,7 @@
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
       "change_1d": "+3.02%",
       "change_5d": "+15.46%",
-      "volume_ratio": "1.60x",
+      "volume_ratio": "1.61x",
       "atr_pct": "6.26%",
       "gap_pct": "-4.22%",
       "premarket_move_pct": "+0.32%",
@@ -66,6 +66,39 @@
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": false,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.84x, ATR 4.07%",
+      "catalyst": "Qualcomm Stock Jumps. Amazon AI Chip Deal Opens New Growth Avenue",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.04%, Bewegung seit US-Open +3.75%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+4.25%",
+      "change_5d": "+7.88%",
+      "volume_ratio": "0.84x",
+      "atr_pct": "4.07%",
+      "gap_pct": "-4.56%",
+      "premarket_move_pct": "+0.87%",
+      "live_gap_pct": "+0.04%",
+      "regular_move_pct": "+3.75%",
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
         "confirmation_ok": true
@@ -105,45 +138,12 @@
       }
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.83x, ATR 4.07%",
-      "catalyst": "Qualcomm Stock Jumps. Amazon AI Chip Deal Opens New Growth Avenue",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.04%, Bewegung seit US-Open +3.75%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
-      "stop_pct": 2.5,
-      "target_pct": 4.5,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+4.25%",
-      "change_5d": "+7.88%",
-      "volume_ratio": "0.83x",
-      "atr_pct": "4.07%",
-      "gap_pct": "-4.56%",
-      "premarket_move_pct": "+0.87%",
-      "live_gap_pct": "+0.04%",
-      "regular_move_pct": "+3.75%",
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
       "ticker": "RMD",
       "name": "ResMed",
       "score": 88,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.28x, ATR 2.90%",
-      "catalyst": "ResMed stock upgraded at RBC Capital Markets (RMD:NYSE)",
+      "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.29x, ATR 2.90%",
+      "catalyst": "ResMed (RMD) Stock Surges Following Upgraded Rating and Price Ta",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
       "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.00%, Bewegung seit US-Open +1.37%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
       "stop_pct": 1.88,
@@ -151,7 +151,7 @@
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
       "change_1d": "+2.89%",
       "change_5d": "+3.80%",
-      "volume_ratio": "1.28x",
+      "volume_ratio": "1.29x",
       "atr_pct": "2.90%",
       "gap_pct": "-2.08%",
       "premarket_move_pct": "-0.26%",
@@ -202,6 +202,12 @@
     },
     {
       "ticker": "TMO",
+      "title": "Thermo Fisher CEO Says AI Will Drive More Pharma Spending — Sees 7% Organic Growth By 2028",
+      "time": "Tue, 15 Sep 2026 17:19:02",
+      "sentiment": 1
+    },
+    {
+      "ticker": "TMO",
       "title": "TMO surges as new Heratherm environmental chambers launch",
       "time": "Tue, 15 Sep 2026 19:16:27",
       "sentiment": 1
@@ -226,14 +232,14 @@
     },
     {
       "ticker": "RMD",
-      "title": "ResMed stock upgraded at RBC Capital Markets (RMD:NYSE)",
-      "time": "Tue, 15 Sep 2026 14:00:51",
+      "title": "ResMed (RMD) Stock Surges Following Upgraded Rating and Price Ta",
+      "time": "Tue, 15 Sep 2026 18:39:34",
       "sentiment": 1
     },
     {
       "ticker": "RMD",
-      "title": "This Analyst Just Upgraded ResMed Stock. Here's Why.",
-      "time": "Tue, 15 Sep 2026 19:57:51",
+      "title": "ResMed stock upgraded at RBC Capital Markets (RMD:NYSE)",
+      "time": "Tue, 15 Sep 2026 14:00:51",
       "sentiment": 1
     },
     {
@@ -247,12 +253,6 @@
       "title": "Raymond James Maintains Valero Energy(VLO.US) With Buy Rating, Raises Target Price to $450",
       "time": "Tue, 15 Sep 2026 02:26:42",
       "sentiment": 1
-    },
-    {
-      "ticker": "JPM",
-      "title": "Danske Bank A S Increases Stock Position in JPMorgan Chase & Co. $JPM",
-      "time": "Tue, 15 Sep 2026 07:34:29",
-      "sentiment": -1
     },
     {
       "ticker": "DXCM",
@@ -376,14 +376,14 @@
     },
     {
       "ticker": "CRWD",
-      "title": "Why Is CrowdStrike (CRWD) Stock Rocketing Higher Today",
-      "time": "Tue, 15 Sep 2026 00:59:00",
+      "title": "CrowdStrike: AI Threat Is Making Cybersecurity Great Again (NASDAQ:CRWD)",
+      "time": "Tue, 15 Sep 2026 17:27:39",
       "sentiment": 0
     },
     {
       "ticker": "CRWD",
-      "title": "CrowdStrike: AI Threat Is Making Cybersecurity Great Again (NASDAQ:CRWD)",
-      "time": "Tue, 15 Sep 2026 17:27:39",
+      "title": "Why Is CrowdStrike (CRWD) Stock Rocketing Higher Today",
+      "time": "Tue, 15 Sep 2026 00:59:00",
       "sentiment": 0
     },
     {
@@ -395,7 +395,7 @@
     {
       "ticker": "QCOM",
       "title": "What Was Qualcomm Stock Telling You Before It Ran?",
-      "time": "Tue, 15 Sep 2026 20:26:02",
+      "time": "Tue, 15 Sep 2026 20:26:37",
       "sentiment": 0
     },
     {
@@ -412,14 +412,14 @@
     },
     {
       "ticker": "QCOM",
-      "title": "Applied Materials vs. Qualcomm: Which Tech Stock Is a Better Buy in 2026?",
-      "time": "Tue, 15 Sep 2026 12:45:00",
+      "title": "What Qualcomm Stock Was Telling You About Its Next Forty Billion Dollars",
+      "time": "Tue, 15 Sep 2026 10:16:11",
       "sentiment": 0
     },
     {
       "ticker": "QCOM",
-      "title": "What's Going On With Qualcomm Stock Tuesday? - Qualcomm (NASDAQ:QCOM)",
-      "time": "Tue, 15 Sep 2026 11:12:18",
+      "title": "Applied Materials vs. Qualcomm: Which Tech Stock Is a Better Buy in 2026?",
+      "time": "Tue, 15 Sep 2026 12:45:00",
       "sentiment": 0
     },
     {
@@ -484,8 +484,8 @@
     },
     {
       "ticker": "COP",
-      "title": "UBS Maintains ConocoPhillips(COP.US) With Buy Rating, Maintains Target Price $169",
-      "time": "Tue, 15 Sep 2026 18:28:14",
+      "title": "ConocoPhillips stock heads into the open after a 1.2% gain - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 03:01:32",
       "sentiment": 0
     },
     {
@@ -628,14 +628,56 @@
     },
     {
       "ticker": "JPM",
-      "title": "J.P. Morgan nears $1 trillion, but your gains hinge on 1 office",
-      "time": "Mon, 14 Sep 2026 21:03:00",
+      "title": "Chase Freedom cardmembers can earn 5% back on groceries, meals and Red Cross donations",
+      "time": "Tue, 15 Sep 2026 12:10:24",
       "sentiment": 0
     },
     {
       "ticker": "JPM",
       "title": "JPMorgan Chase & Co. $JPM Stock Position Increased by Diversify Advisory Services LLC",
       "time": "Tue, 15 Sep 2026 07:36:33",
+      "sentiment": 0
+    },
+    {
+      "ticker": "JPM",
+      "title": "J.P. Morgan nears $1 trillion, but your gains hinge on 1 office",
+      "time": "Tue, 15 Sep 2026 00:03:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KHC",
+      "title": "Kraft Heinz (KHC) Stock Looks Reasonable Following Oscar Mayer Fix Effort",
+      "time": "Tue, 15 Sep 2026 10:10:15",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KHC",
+      "title": "Corient Private Wealth LP Has $16.87 Million Stock Position in Kraft Heinz Company $KHC",
+      "time": "Tue, 15 Sep 2026 08:10:41",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KHC",
+      "title": "Philadelphia puts hot honey in cream cheese for the first time",
+      "time": "Tue, 15 Sep 2026 11:03:18",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KHC",
+      "title": "Kraft Heinz stock edges higher after August 5 earnings - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 15:13:21",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KHC",
+      "title": "NewEdge Advisors LLC Buys 59,918 Shares of Kraft Heinz Company $KHC",
+      "time": "Tue, 15 Sep 2026 08:06:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KHC",
+      "title": "Inadvertently published alert from Kraft Heinz withdrawn",
+      "time": "Tue, 15 Sep 2026 11:22:37",
       "sentiment": 0
     },
     {
@@ -652,20 +694,14 @@
     },
     {
       "ticker": "DXCM",
-      "title": "DXCM Looks 17.4% Undervalued on GF Value™",
-      "time": "Mon, 14 Sep 2026 21:08:57",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DXCM",
       "title": "Dexcom promotes CFO Jereme Sylvain to dual COO role By Investing.com",
-      "time": "Mon, 14 Sep 2026 21:06:50",
+      "time": "Mon, 14 Sep 2026 21:38:58",
       "sentiment": 0
     },
     {
       "ticker": "DXCM",
-      "title": "DXCM Looks 17.4% Undervalued on GF Value™",
-      "time": "Mon, 14 Sep 2026 21:08:57",
+      "title": "Dexcom Elevates Jereme Sylvain to COO and CFO",
+      "time": "Mon, 14 Sep 2026 21:52:36",
       "sentiment": 0
     },
     {
@@ -771,24 +807,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "XOM",
-      "title": "ExxonMobil Trending After Subsidiary Completes $2.1 Billion Debt Tender",
-      "time": "Tue, 15 Sep 2026 13:51:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "XOM",
-      "title": "ExxonMobil's unit to retire $1.19B debt via cash tender offers: Key details",
-      "time": "Tue, 15 Sep 2026 13:59:48",
-      "sentiment": 0
-    },
-    {
-      "ticker": "XOM",
-      "title": "Should You Buy ExxonMobil Stock For What Guyana Pays Next?",
-      "time": "Mon, 14 Sep 2026 21:28:07",
-      "sentiment": 0
-    },
-    {
       "ticker": "ON",
       "title": "If You Invested $1000 In ON Semiconductor Stock 15 Years Ago, You Would Have This Much Today",
       "time": "Tue, 15 Sep 2026 14:30:24",
@@ -825,21 +843,21 @@
       "sentiment": 0
     },
     {
-      "ticker": "STLD",
-      "title": "These S&P500 stocks that are showing activity before the opening bell on Tuesday.",
-      "time": "Tue, 15 Sep 2026 12:35:01",
+      "ticker": "XOM",
+      "title": "ExxonMobil Trending After Subsidiary Completes $2.1 Billion Debt Tender",
+      "time": "Tue, 15 Sep 2026 13:51:05",
       "sentiment": 0
     },
     {
-      "ticker": "STLD",
-      "title": "U.S. Steel and Materials Stocks Swing as U.S.-Canada Trade War Escalates With 50% Tariffs",
-      "time": "Tue, 15 Sep 2026 19:30:08",
+      "ticker": "XOM",
+      "title": "ExxonMobil's unit to retire $1.19B debt via cash tender offers: Key details",
+      "time": "Tue, 15 Sep 2026 13:59:48",
       "sentiment": 0
     },
     {
-      "ticker": "STLD",
-      "title": "Steel Dynamics stock slips from recent highs as bearish technical signals emerge - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 09:21:14",
+      "ticker": "XOM",
+      "title": "Should You Buy ExxonMobil Stock For What Guyana Pays Next?",
+      "time": "Mon, 14 Sep 2026 21:28:07",
       "sentiment": 0
     },
     {
@@ -864,6 +882,24 @@
       "ticker": "ANET",
       "title": "Arista Networks (ANET) insider reshuffles stake across family trusts",
       "time": "Mon, 14 Sep 2026 23:05:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "STLD",
+      "title": "These S&P500 stocks that are showing activity before the opening bell on Tuesday.",
+      "time": "Tue, 15 Sep 2026 12:35:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "STLD",
+      "title": "U.S. Steel and Materials Stocks Swing as U.S.-Canada Trade War Escalates With 50% Tariffs",
+      "time": "Tue, 15 Sep 2026 19:30:08",
+      "sentiment": 0
+    },
+    {
+      "ticker": "STLD",
+      "title": "Steel Dynamics stock slips from recent highs as bearish technical signals emerge - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 09:21:14",
       "sentiment": 0
     },
     {
@@ -996,42 +1032,6 @@
       "ticker": "WFC",
       "title": "What Is Changing the Conversation Around Wells Fargo (WFC)?",
       "time": "Tue, 15 Sep 2026 08:24:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Is Meta Stock Still The Self-Funding Ad Business You Bought?",
-      "time": "Tue, 15 Sep 2026 15:53:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Meta Platforms (META) Shares Just Moved, So What Is Going On?",
-      "time": "Tue, 15 Sep 2026 20:06:24",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Meta Launches Meta One Subscription Armed With AI Tools For Content Creators — META Stock Gains",
-      "time": "Tue, 15 Sep 2026 17:26:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Why Meta’s $2.4 Billion Legal Tab Could Explode Into a National Regulatory Nightmare",
-      "time": "Tue, 15 Sep 2026 17:15:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Meta stock rises on cost-saving AI chip deployment plans",
-      "time": "Tue, 15 Sep 2026 14:19:47",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "AI Selloff Is ‘Panic,’ Meta May Be The Best Stock To Buy, Joseph Carlson Says",
-      "time": "Tue, 15 Sep 2026 17:30:31",
       "sentiment": 0
     }
   ]
