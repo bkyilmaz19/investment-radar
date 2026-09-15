@@ -1,9 +1,9 @@
 {
-  "generated_at_local": "15.09.2026 09:56 CEST",
+  "generated_at_local": "15.09.2026 10:13 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
-  "summary": "Gemischt / selektiv. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
+  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
   "candidates": [
     {
       "ticker": "RBLX",
@@ -13,7 +13,7 @@
       "thesis": "1T +12.73%, 5T +18.43%, relatives Volumen 2.05x, ATR 4.39%",
       "catalyst": "Roblox Stock Surges As Analysts Lift Targets",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -11.66%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "Premarket-Gap -0.96%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -21,29 +21,32 @@
       "change_5d": "+18.43%",
       "volume_ratio": "2.05x",
       "atr_pct": "4.39%",
-      "gap_pct": "-11.66%",
-      "premarket_move_pct": "+3.80%",
+      "gap_pct": "-0.96%",
+      "premarket_move_pct": "-0.96%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "session_phase": "Premarket / vor US-Open",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: gap",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": false,
-        "premarket_ok": true
+        "gap_ok": true,
+        "confirmation_ok": false
       }
     },
     {
       "ticker": "PANW",
       "name": "Palo Alto Networks",
-      "score": 90,
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +13.09%, 5T +12.21%, relatives Volumen 2.35x, ATR 5.88%",
       "catalyst": "Palo Alto Networks Stock Draws Bullish Targets After Q4 Beat",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -8.94%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "Premarket-Gap -1.44%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -51,29 +54,32 @@
       "change_5d": "+12.21%",
       "volume_ratio": "2.35x",
       "atr_pct": "5.88%",
-      "gap_pct": "-8.94%",
-      "premarket_move_pct": "+1.61%",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: gap",
+      "gap_pct": "-1.44%",
+      "premarket_move_pct": "-0.30%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "session_phase": "Premarket / vor US-Open",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Premarket-Kriterien sind erfüllt.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": false,
-        "premarket_ok": true
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     },
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 85,
+      "score": 92,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +13.85%, 5T +10.46%, relatives Volumen 3.48x, ATR 6.46%",
       "catalyst": "Premarket-/Momentum-Bestätigung",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -8.70%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "Premarket-Gap -1.33%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -81,59 +87,65 @@
       "change_5d": "+10.46%",
       "volume_ratio": "3.48x",
       "atr_pct": "6.46%",
-      "gap_pct": "-8.70%",
-      "premarket_move_pct": "+1.73%",
+      "gap_pct": "-1.33%",
+      "premarket_move_pct": "-0.19%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "session_phase": "Premarket / vor US-Open",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: volatility, gap",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": false,
         "news_ok": true,
-        "gap_ok": false,
-        "premarket_ok": true
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     },
     {
-      "ticker": "COIN",
-      "name": "Coinbase",
-      "score": 84,
+      "ticker": "SPOT",
+      "name": "Spotify",
+      "score": 87,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +9.24%, 5T +3.69%, relatives Volumen 2.00x, ATR 6.09%",
-      "catalyst": "Coinbase Global Inc (COIN) Shares Surge 9.2% -- What GF Score of 78 Tells Investors",
+      "thesis": "1T +5.81%, 5T +2.56%, relatives Volumen 1.31x, ATR 3.54%",
+      "catalyst": "Premarket-/Momentum-Bestätigung",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -8.26%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 2.5,
-      "target_pct": 4.5,
+      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.05%, Bewegung seit US-Open +2.99%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "stop_pct": 2.3,
+      "target_pct": 4.14,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+9.24%",
-      "change_5d": "+3.69%",
-      "volume_ratio": "2.00x",
-      "atr_pct": "6.09%",
-      "gap_pct": "-8.26%",
-      "premarket_move_pct": "+3.12%",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: volatility, gap",
+      "change_1d": "+5.81%",
+      "change_5d": "+2.56%",
+      "volume_ratio": "1.31x",
+      "atr_pct": "3.54%",
+      "gap_pct": "-5.46%",
+      "premarket_move_pct": "+1.16%",
+      "live_gap_pct": "+0.05%",
+      "regular_move_pct": "+2.99%",
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Live-Kriterien sind erfüllt.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
-        "volatility_ok": false,
+        "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": false,
-        "premarket_ok": true
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     },
     {
       "ticker": "GSK",
       "name": "GSK",
-      "score": 84,
+      "score": 85,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.99%, 5T +0.32%, relatives Volumen 1.23x, ATR 2.07%",
       "catalyst": "GSK PLC (GSK) Shares Surge 4.0% -- What GF Score of 71 Tells Inv",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -2.08%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "Live-Gap +0.00%. Erst kaufen, wenn die Bewegung seit US-Open stabil/positiv wird.",
       "stop_pct": 1.34,
       "target_pct": 2.42,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -143,16 +155,19 @@
       "atr_pct": "2.07%",
       "gap_pct": "-2.08%",
       "premarket_move_pct": "+2.24%",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: gap",
+      "live_gap_pct": "+0.00%",
+      "regular_move_pct": "-0.48%",
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Live-Kriterien sind erfüllt.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": false,
-        "premarket_ok": true
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     }
   ],
@@ -192,28 +207,16 @@
       "sentiment": 1
     },
     {
-      "ticker": "RBLX",
-      "title": "Roblox (NYSE:RBLX) Shares Gap Up Following Analyst Upgrade",
-      "time": "Mon, 14 Sep 2026 14:26:16",
-      "sentiment": 1
-    },
-    {
       "ticker": "PANW",
       "title": "Palo Alto Networks Stock Draws Bullish Targets After Q4 Beat",
       "time": "Mon, 14 Sep 2026 19:04:00",
       "sentiment": 1
     },
     {
-      "ticker": "COIN",
-      "title": "Coinbase Global Inc (COIN) Shares Surge 9.2% -- What GF Score of 78 Tells Investors",
-      "time": "Mon, 14 Sep 2026 22:32:47",
-      "sentiment": 1
-    },
-    {
-      "ticker": "SPOT",
-      "title": "SPOT climbs over 4% after executives emphasize AI innovation and growth plans",
-      "time": "Mon, 14 Sep 2026 15:21:31",
-      "sentiment": 1
+      "ticker": "NET",
+      "title": "3 US AI Stocks That Could Benefit From Delayed Washington Rules",
+      "time": "Tue, 15 Sep 2026 07:47:49",
+      "sentiment": -1
     },
     {
       "ticker": "GOOG",
@@ -264,12 +267,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "TTWO",
-      "title": "Take-Two Interactive Software Inc. stock outperforms competitors on strong trading day",
-      "time": "Mon, 14 Sep 2026 20:53:00",
-      "sentiment": 1
-    },
-    {
       "ticker": "ADBE",
       "title": "Adobe Inc (ADBE) Shares Surge 5.3% -- What GF Score of 88 Tells Investors",
       "time": "Mon, 14 Sep 2026 21:53:06",
@@ -303,6 +300,12 @@
       "ticker": "RBLX",
       "title": "Why Roblox Stock Popped Today",
       "time": "Mon, 14 Sep 2026 19:01:39",
+      "sentiment": 0
+    },
+    {
+      "ticker": "RBLX",
+      "title": "Gaming Stock Roblox Corporation (NYSE: RBLX) Gains on Updates to Expand Play, Give Creators the Game Engine and AI Tools",
+      "time": "Mon, 14 Sep 2026 16:16:00",
       "sentiment": 0
     },
     {
@@ -397,12 +400,6 @@
     },
     {
       "ticker": "NET",
-      "title": "Microsoft AI Safety Rules Send 3 Cyber Stocks Higher - Microsoft (NASDAQ:MSFT), Palo Alto Networks (NASDA",
-      "time": "Mon, 14 Sep 2026 16:32:42",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NET",
       "title": "Cloudflare stock hits all-time high at 332.27 USD",
       "time": "Mon, 14 Sep 2026 18:13:25",
       "sentiment": 0
@@ -423,6 +420,12 @@
       "ticker": "COIN",
       "title": "Why Is Coinbase (COIN) Stock Soaring Today",
       "time": "Tue, 15 Sep 2026 03:23:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "COIN",
+      "title": "Coinbase Global, Inc. $COIN Shares Purchased by Baird Financial Group Inc.",
+      "time": "Tue, 15 Sep 2026 08:10:38",
       "sentiment": 0
     },
     {
@@ -457,6 +460,12 @@
     },
     {
       "ticker": "SPOT",
+      "title": "NewEdge Advisors LLC Sells 50,681 Shares of Spotify Technology $SPOT",
+      "time": "Tue, 15 Sep 2026 08:10:37",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SPOT",
       "title": "An insider at Spotify (SPOT) lines up another share sale after two multimillion-dollar trades",
       "time": "Mon, 14 Sep 2026 22:00:38",
       "sentiment": 0
@@ -477,12 +486,6 @@
       "ticker": "SPOT",
       "title": "Morgan Stanley Maintains Spotify Technology(SPOT.US) With Buy Rating, Maintains Target Price $640",
       "time": "Mon, 14 Sep 2026 12:31:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TTD",
-      "title": "Why Did TTD Stock Tumble Today?",
-      "time": "Tue, 15 Sep 2026 01:08:10",
       "sentiment": 0
     },
     {
@@ -513,6 +516,12 @@
       "ticker": "TTD",
       "title": "Why Is Trade Desk (NASDAQ:TTD) Back in Focus on the Nasdaq?",
       "time": "Mon, 14 Sep 2026 11:14:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "Trade Desk (TTD) COO awarded 724K shares that vest through 2029",
+      "time": "Mon, 14 Sep 2026 22:12:16",
       "sentiment": 0
     },
     {
@@ -769,14 +778,14 @@
     },
     {
       "ticker": "SAP",
-      "title": "SAP (NYSE:SAP) Shares Gap Up - What's Next?",
-      "time": "Mon, 14 Sep 2026 15:02:31",
+      "title": "A Look at SAP SE (SAP) After 5.8% Gain -- GF Value $258.97 vs Pr",
+      "time": "Mon, 14 Sep 2026 21:41:04",
       "sentiment": 0
     },
     {
       "ticker": "SAP",
-      "title": "A Look at SAP SE (SAP) After 5.8% Gain -- GF Value $258.97 vs Pr",
-      "time": "Mon, 14 Sep 2026 21:41:04",
+      "title": "SAP (NYSE:SAP) Shares Gap Up - What's Next?",
+      "time": "Mon, 14 Sep 2026 15:02:31",
       "sentiment": 0
     },
     {
@@ -811,6 +820,12 @@
     },
     {
       "ticker": "TTWO",
+      "title": "NewEdge Advisors LLC Purchases 9,550 Shares of Take-Two Interactive Software, Inc. $TTWO",
+      "time": "Tue, 15 Sep 2026 08:06:36",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTWO",
       "title": "Roblox Jumps 10% as Wedbush Lifts Target to $48 While Staying Neutral; Take-Two and GameStop Nudge Higher",
       "time": "Mon, 14 Sep 2026 15:44:00",
       "sentiment": 0
@@ -819,6 +834,12 @@
       "ticker": "TTWO",
       "title": "Twilio (TWLO) Is Considered a Good Investment by Brokers: Is That True?",
       "time": "Mon, 14 Sep 2026 13:30:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KHC",
+      "title": "Corient Private Wealth LP Has $16.87 Million Stock Position in Kraft Heinz Company $KHC",
+      "time": "Tue, 15 Sep 2026 08:10:41",
       "sentiment": 0
     },
     {
@@ -841,20 +862,14 @@
     },
     {
       "ticker": "KHC",
+      "title": "NewEdge Advisors LLC Buys 59,918 Shares of Kraft Heinz Company $KHC",
+      "time": "Tue, 15 Sep 2026 08:06:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KHC",
       "title": "What Put Kraft Heinz (KHC) on the Market Radar?",
       "time": "Tue, 15 Sep 2026 07:03:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "Here's Why Kraft Heinz (KHC) Fell More Than Broader Market",
-      "time": "Mon, 14 Sep 2026 22:00:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "KHC Maintained by Evercore ISI Group -- Price Target Lowered to $23",
-      "time": "Mon, 14 Sep 2026 15:10:47",
       "sentiment": 0
     },
     {
@@ -1003,14 +1018,14 @@
     },
     {
       "ticker": "ADBE",
-      "title": "Adobe (ADBE): A Billion Users, But Wall Street Wants Proof It Pays",
-      "time": "Mon, 14 Sep 2026 20:59:47",
+      "title": "How Far Can Adobe Stock Fall While It Waits On Freemium?",
+      "time": "Mon, 14 Sep 2026 19:31:24",
       "sentiment": 0
     },
     {
       "ticker": "ADBE",
-      "title": "How Far Can Adobe Stock Fall While It Waits On Freemium?",
-      "time": "Mon, 14 Sep 2026 19:31:24",
+      "title": "Adobe Stock Jumps 4.2% as Investors Reassess the AI Software Trade",
+      "time": "Mon, 14 Sep 2026 19:06:37",
       "sentiment": 0
     },
     {
@@ -1023,6 +1038,12 @@
       "ticker": "CI",
       "title": "Cigna Corp (CI) Stock Price Today: $288.57",
       "time": "Mon, 14 Sep 2026 12:36:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CI",
+      "title": "The Cigna Group (CI) Stock Analysis: Evaluating a 20.87% Potential Upside for Healthcare Investors",
+      "time": "Mon, 14 Sep 2026 09:12:34",
       "sentiment": 0
     },
     {
