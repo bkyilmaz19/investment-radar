@@ -35,6 +35,7 @@ jobs:
       - name: Check fresh entry and exit signals
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
           NTFY_SERVER: https://ntfy.sh
         run: python monitor.py
 
