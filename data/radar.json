@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "15.09.2026 22:42 CEST",
+  "generated_at_local": "15.09.2026 22:54 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -32,39 +32,6 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 93,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.83x, ATR 4.07%",
-      "catalyst": "Qualcomm Stock Jumps. Amazon AI Chip Deal Opens New Growth Avenue",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.04%, Bewegung seit US-Open +3.75%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
-      "stop_pct": 2.5,
-      "target_pct": 4.5,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+4.25%",
-      "change_5d": "+7.88%",
-      "volume_ratio": "0.83x",
-      "atr_pct": "4.07%",
-      "gap_pct": "-4.56%",
-      "premarket_move_pct": "+0.87%",
-      "live_gap_pct": "+0.04%",
-      "regular_move_pct": "+3.75%",
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -124,6 +91,39 @@
       "premarket_move_pct": "-0.74%",
       "live_gap_pct": "-0.02%",
       "regular_move_pct": "+2.38%",
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 89,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.83x, ATR 4.07%",
+      "catalyst": "Qualcomm Stock Jumps. Amazon AI Chip Deal Opens New Growth Avenue",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.04%, Bewegung seit US-Open +3.75%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+4.25%",
+      "change_5d": "+7.88%",
+      "volume_ratio": "0.83x",
+      "atr_pct": "4.07%",
+      "gap_pct": "-4.56%",
+      "premarket_move_pct": "+0.87%",
+      "live_gap_pct": "+0.04%",
+      "regular_move_pct": "+3.75%",
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -219,12 +219,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "QCOM",
-      "title": "Qualcomm Stock Jumps. Amazon AI Chip Deal Opens New Growth Avenue",
-      "time": "Tue, 15 Sep 2026 19:35:04",
-      "sentiment": 1
-    },
-    {
       "ticker": "COP",
       "title": "Fuel for Growth: 3 Big Energy Stocks Get New Price Targets",
       "time": "Tue, 15 Sep 2026 13:45:00",
@@ -243,16 +237,34 @@
       "sentiment": 1
     },
     {
+      "ticker": "MPC",
+      "title": "Marathon Petroleum Corp. stock outperforms competitors on strong trading day",
+      "time": "Tue, 15 Sep 2026 20:38:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "VLO",
       "title": "Raymond James Maintains Valero Energy(VLO.US) With Buy Rating, Raises Target Price to $450",
       "time": "Tue, 15 Sep 2026 02:26:42",
       "sentiment": 1
     },
     {
-      "ticker": "VLO",
-      "title": "Bank of America Corp DE Takes $1.20 Billion Position in Valero Energy Corporation $VLO",
-      "time": "Tue, 15 Sep 2026 08:10:39",
+      "ticker": "JPM",
+      "title": "Danske Bank A S Increases Stock Position in JPMorgan Chase & Co. $JPM",
+      "time": "Tue, 15 Sep 2026 07:34:29",
       "sentiment": -1
+    },
+    {
+      "ticker": "DXCM",
+      "title": "Portfolio check: The biggest SA Quant upgrades over the past week",
+      "time": "Tue, 15 Sep 2026 11:08:28",
+      "sentiment": 1
+    },
+    {
+      "ticker": "PSX",
+      "title": "Phillips 66 stock gains on all-time high and strong Q2 earnings - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 20:38:06",
+      "sentiment": 1
     },
     {
       "ticker": "XOM",
@@ -382,12 +394,6 @@
     },
     {
       "ticker": "QCOM",
-      "title": "Why Qualcomm (QCOM) Stock Is Trading Up Today",
-      "time": "Tue, 15 Sep 2026 16:15:33",
-      "sentiment": 0
-    },
-    {
-      "ticker": "QCOM",
       "title": "What Was Qualcomm Stock Telling You Before It Ran?",
       "time": "Tue, 15 Sep 2026 20:26:02",
       "sentiment": 0
@@ -402,6 +408,18 @@
       "ticker": "QCOM",
       "title": "Qualcomm to pay dividends on September 24; Here’s how much 100 QCOM shares will earn",
       "time": "Tue, 15 Sep 2026 13:20:45",
+      "sentiment": 0
+    },
+    {
+      "ticker": "QCOM",
+      "title": "Applied Materials vs. Qualcomm: Which Tech Stock Is a Better Buy in 2026?",
+      "time": "Tue, 15 Sep 2026 12:45:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "QCOM",
+      "title": "What's Going On With Qualcomm Stock Tuesday? - Qualcomm (NASDAQ:QCOM)",
+      "time": "Tue, 15 Sep 2026 11:12:18",
       "sentiment": 0
     },
     {
@@ -561,12 +579,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "MPC",
-      "title": "Why Is Marathon Petroleum (MPC) a Stock to Watch Today?",
-      "time": "Tue, 15 Sep 2026 09:18:00",
-      "sentiment": 0
-    },
-    {
       "ticker": "VLO",
       "title": "Valero Energy Corp Stock (VLO) Moved Up by 3.83% on Sep 15: A Full Analysis",
       "time": "Tue, 15 Sep 2026 18:15:28",
@@ -586,32 +598,32 @@
     },
     {
       "ticker": "VLO",
+      "title": "Valero Energy (VLO) Receives a Rating Update from a Top Analyst",
+      "time": "Tue, 15 Sep 2026 13:58:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VLO",
       "title": "Why Is Valero Energy (VLO) Moving Into Market Focus?",
       "time": "Tue, 15 Sep 2026 09:18:00",
       "sentiment": 0
     },
     {
       "ticker": "JPM",
-      "title": "JPMorganChase Declares Common Stock Dividend",
-      "time": "Tue, 15 Sep 2026 20:28:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "JPM",
-      "title": "JPMorgan Chase & Co. $JPM Stock Position Lifted by Palmer Knight Co",
-      "time": "Tue, 15 Sep 2026 07:34:30",
-      "sentiment": 0
-    },
-    {
-      "ticker": "JPM",
-      "title": "Chase Freedom cardmembers can earn 5% back on groceries, meals and Red Cross donations",
-      "time": "Tue, 15 Sep 2026 12:10:24",
+      "title": "JPMorganChase Declares Preferred Stock Dividends",
+      "time": "Tue, 15 Sep 2026 20:43:24",
       "sentiment": 0
     },
     {
       "ticker": "JPM",
       "title": "Should JPMorgan’s Long-Dated Callable Debt Push Require Action From JPMorgan Chase (JPM) Investors?",
       "time": "Tue, 15 Sep 2026 04:31:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "JPM",
+      "title": "JPMorgan Chase & Co. $JPM Stock Position Lifted by Palmer Knight Co",
+      "time": "Tue, 15 Sep 2026 07:34:30",
       "sentiment": 0
     },
     {
@@ -624,42 +636,6 @@
       "ticker": "JPM",
       "title": "JPMorgan Chase & Co. $JPM Stock Position Increased by Diversify Advisory Services LLC",
       "time": "Tue, 15 Sep 2026 07:36:33",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "Kraft Heinz (KHC) Stock Looks Reasonable Following Oscar Mayer Fix Effort",
-      "time": "Tue, 15 Sep 2026 10:10:15",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "Corient Private Wealth LP Has $16.87 Million Stock Position in Kraft Heinz Company $KHC",
-      "time": "Tue, 15 Sep 2026 08:10:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "Philadelphia puts hot honey in cream cheese for the first time",
-      "time": "Tue, 15 Sep 2026 11:03:18",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "Kraft Heinz stock edges higher after August 5 earnings - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 15:13:21",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "NewEdge Advisors LLC Buys 59,918 Shares of Kraft Heinz Company $KHC",
-      "time": "Tue, 15 Sep 2026 08:06:35",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KHC",
-      "title": "Inadvertently published alert from Kraft Heinz withdrawn",
-      "time": "Tue, 15 Sep 2026 11:22:37",
       "sentiment": 0
     },
     {
@@ -682,12 +658,6 @@
     },
     {
       "ticker": "DXCM",
-      "title": "Dexcom promotes Jereme Sylvain to EVP, COO and CFO",
-      "time": "Mon, 14 Sep 2026 20:43:20",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DXCM",
       "title": "Dexcom promotes CFO Jereme Sylvain to dual COO role By Investing.com",
       "time": "Mon, 14 Sep 2026 21:06:50",
       "sentiment": 0
@@ -700,14 +670,14 @@
     },
     {
       "ticker": "CVX",
-      "title": "Diversified Upstream E&P Stocks Q2 Teardown: Chevron (NYSE:CVX) Vs The Rest",
-      "time": "Mon, 14 Sep 2026 22:35:30",
+      "title": "Chevron’s CEO Thinks the World Is Out of Spare Oil. He Is Betting $7 Billion on Being Right.",
+      "time": "Tue, 15 Sep 2026 15:40:00",
       "sentiment": 0
     },
     {
       "ticker": "CVX",
-      "title": "Chevron (CVX) Analysis: The $18 Billion Quarter That Isn’t Fully What It Looks Like",
-      "time": "Mon, 14 Sep 2026 20:53:44",
+      "title": "Diversified Upstream E&P Stocks Q2 Teardown: Chevron (NYSE:CVX) Vs The Rest",
+      "time": "Mon, 14 Sep 2026 22:35:30",
       "sentiment": 0
     },
     {
@@ -724,14 +694,14 @@
     },
     {
       "ticker": "CVX",
-      "title": "What’s Driving Chevron (NYSE:CVX) As Fuel Costs Shift?",
-      "time": "Mon, 14 Sep 2026 23:09:00",
+      "title": "CVX Looks 30.9% Overvalued on GF Value™ as Dividend Sustainabili",
+      "time": "Tue, 15 Sep 2026 01:03:37",
       "sentiment": 0
     },
     {
       "ticker": "CVX",
-      "title": "Chevron’s CEO Thinks the World Is Out of Spare Oil. He Is Betting $7 Billion on Being Right.",
-      "time": "Tue, 15 Sep 2026 15:40:00",
+      "title": "What’s Driving Chevron (NYSE:CVX) As Fuel Costs Shift?",
+      "time": "Mon, 14 Sep 2026 23:09:00",
       "sentiment": 0
     },
     {
@@ -774,12 +744,6 @@
       "ticker": "PSX",
       "title": "Why Phillips 66 (PSX) Stock Is Up Today",
       "time": "Tue, 15 Sep 2026 18:36:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PSX",
-      "title": "Phillips 66 Stock (PSX) Moved Up by 3.09% on Sep 15: Drivers Behind the Movement",
-      "time": "Tue, 15 Sep 2026 17:15:28",
       "sentiment": 0
     },
     {
@@ -838,12 +802,6 @@
     },
     {
       "ticker": "ON",
-      "title": "Santoli: The youthful phase of AI is over. What it means for investors",
-      "time": "Tue, 15 Sep 2026 12:28:50",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
       "title": "Nvidia vs. Micron: Which Is the Better Artificial Intelligence (AI) Semiconductor Stock to Own for the Next 5 Years?",
       "time": "Tue, 15 Sep 2026 18:16:18",
       "sentiment": 0
@@ -858,6 +816,12 @@
       "ticker": "ON",
       "title": "ON Semiconductor Corp. (ON) Declines More Than Market: Some Information for Investors",
       "time": "Mon, 14 Sep 2026 22:00:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ON",
+      "title": "PHLX Semiconductor Index (SOX): What It Is & How It Works",
+      "time": "Tue, 15 Sep 2026 11:33:00",
       "sentiment": 0
     },
     {
@@ -892,14 +856,14 @@
     },
     {
       "ticker": "ANET",
-      "title": "Arista Networks (ANET) insider reshuffles stake across family trusts",
-      "time": "Mon, 14 Sep 2026 23:05:35",
+      "title": "Is AI Infrastructure Changing Arista Networks (NYSE:ANET) Market Story?",
+      "time": "Tue, 15 Sep 2026 20:37:00",
       "sentiment": 0
     },
     {
       "ticker": "ANET",
-      "title": "A Look at Arista Networks Inc (ANET) After 5.9% Decline -- GF Va",
-      "time": "Mon, 14 Sep 2026 21:32:29",
+      "title": "Arista Networks (ANET) insider reshuffles stake across family trusts",
+      "time": "Mon, 14 Sep 2026 23:05:35",
       "sentiment": 0
     },
     {
@@ -988,14 +952,14 @@
     },
     {
       "ticker": "ABBV",
-      "title": "AbbVie (ABBV) Advances While Market Declines: Some Information for Investors",
-      "time": "Mon, 14 Sep 2026 21:45:04",
+      "title": "Why Is the Market Reassessing AbbVie (ABBV)?",
+      "time": "Tue, 15 Sep 2026 09:10:00",
       "sentiment": 0
     },
     {
       "ticker": "ABBV",
-      "title": "Why Is the Market Reassessing AbbVie (ABBV)?",
-      "time": "Tue, 15 Sep 2026 09:10:00",
+      "title": "AbbVie (ABBV) Advances While Market Declines: Some Information for Investors",
+      "time": "Mon, 14 Sep 2026 21:45:04",
       "sentiment": 0
     },
     {
@@ -1032,6 +996,42 @@
       "ticker": "WFC",
       "title": "What Is Changing the Conversation Around Wells Fargo (WFC)?",
       "time": "Tue, 15 Sep 2026 08:24:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Is Meta Stock Still The Self-Funding Ad Business You Bought?",
+      "time": "Tue, 15 Sep 2026 15:53:34",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Meta Platforms (META) Shares Just Moved, So What Is Going On?",
+      "time": "Tue, 15 Sep 2026 20:06:24",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Meta Launches Meta One Subscription Armed With AI Tools For Content Creators — META Stock Gains",
+      "time": "Tue, 15 Sep 2026 17:26:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Why Meta’s $2.4 Billion Legal Tab Could Explode Into a National Regulatory Nightmare",
+      "time": "Tue, 15 Sep 2026 17:15:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Meta stock rises on cost-saving AI chip deployment plans",
+      "time": "Tue, 15 Sep 2026 14:19:47",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "AI Selloff Is ‘Panic,’ Meta May Be The Best Stock To Buy, Joseph Carlson Says",
+      "time": "Tue, 15 Sep 2026 17:30:31",
       "sentiment": 0
     }
   ]
