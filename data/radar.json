@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "15.09.2026 16:29 CEST",
+  "generated_at_local": "15.09.2026 16:46 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -8,56 +8,23 @@
     {
       "ticker": "RMD",
       "name": "ResMed",
-      "score": 80,
+      "score": 84,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.43%, 5T +3.33%, relatives Volumen 0.18x, ATR 2.78%",
+      "thesis": "1T +3.11%, 5T +4.01%, relatives Volumen 0.23x, ATR 2.76%",
       "catalyst": "ResMed stock upgraded at RBC Capital Markets (RMD:NYSE)",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.00%, Bewegung seit US-Open +0.91%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
-      "stop_pct": 1.81,
-      "target_pct": 3.25,
+      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.01%, Bewegung seit US-Open +1.57%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "stop_pct": 1.79,
+      "target_pct": 3.23,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.43%",
-      "change_5d": "+3.33%",
-      "volume_ratio": "0.18x",
-      "atr_pct": "2.78%",
-      "gap_pct": "-1.64%",
+      "change_1d": "+3.11%",
+      "change_5d": "+4.01%",
+      "volume_ratio": "0.23x",
+      "atr_pct": "2.76%",
+      "gap_pct": "-2.29%",
       "premarket_move_pct": "-0.26%",
-      "live_gap_pct": "+0.00%",
-      "regular_move_pct": "+0.91%",
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "VLO",
-      "name": "Valero",
-      "score": 79,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.07%, 5T +2.10%, relatives Volumen 0.16x, ATR 3.12%",
-      "catalyst": "Raymond James Maintains Valero Energy(VLO.US) With Buy Rating, Raises Target Price to $450",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.00%, Bewegung seit US-Open +1.92%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
-      "stop_pct": 2.03,
-      "target_pct": 3.65,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.07%",
-      "change_5d": "+2.10%",
-      "volume_ratio": "0.16x",
-      "atr_pct": "3.12%",
-      "gap_pct": "-1.38%",
-      "premarket_move_pct": "-0.91%",
-      "live_gap_pct": "+0.00%",
-      "regular_move_pct": "+1.92%",
+      "live_gap_pct": "-0.01%",
+      "regular_move_pct": "+1.57%",
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -74,23 +41,23 @@
     {
       "ticker": "QCOM",
       "name": "Qualcomm",
-      "score": 79,
+      "score": 80,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.87%, 5T +7.49%, relatives Volumen 0.23x, ATR 4.08%",
+      "thesis": "1T +3.89%, 5T +7.50%, relatives Volumen 0.26x, ATR 4.08%",
       "catalyst": "Premarket-/Momentum-Bestätigung",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.01%, Bewegung seit US-Open +3.33%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.04%, Bewegung seit US-Open +3.40%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.87%",
-      "change_5d": "+7.49%",
-      "volume_ratio": "0.23x",
+      "change_1d": "+3.89%",
+      "change_5d": "+7.50%",
+      "volume_ratio": "0.26x",
       "atr_pct": "4.08%",
-      "gap_pct": "-4.22%",
+      "gap_pct": "-4.23%",
       "premarket_move_pct": "+0.87%",
-      "live_gap_pct": "-0.01%",
-      "regular_move_pct": "+3.33%",
+      "live_gap_pct": "+0.04%",
+      "regular_move_pct": "+3.40%",
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -105,30 +72,30 @@
       }
     },
     {
-      "ticker": "COP",
-      "name": "ConocoPhillips",
-      "score": 73,
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
+      "score": 76,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.69%, 5T +2.91%, relatives Volumen 0.17x, ATR 2.16%",
-      "catalyst": "Fuel for Growth: 3 Big Energy Stocks Get New Price Targets",
+      "thesis": "1T +2.79%, 5T +4.60%, relatives Volumen 0.29x, ATR 2.28%",
+      "catalyst": "Thermo Fisher at Morgan Stanley healthcare conference: growth gathers pace By Investing.com",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.12%, Bewegung seit US-Open +0.90%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
-      "stop_pct": 1.4,
-      "target_pct": 2.53,
+      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.01%, Bewegung seit US-Open +2.50%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "stop_pct": 1.48,
+      "target_pct": 2.67,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.69%",
-      "change_5d": "+2.91%",
-      "volume_ratio": "0.17x",
-      "atr_pct": "2.16%",
-      "gap_pct": "-1.21%",
-      "premarket_move_pct": "+0.04%",
-      "live_gap_pct": "-0.12%",
-      "regular_move_pct": "+0.90%",
+      "change_1d": "+2.79%",
+      "change_5d": "+4.60%",
+      "volume_ratio": "0.29x",
+      "atr_pct": "2.28%",
+      "gap_pct": "-2.50%",
+      "premarket_move_pct": "-0.14%",
+      "live_gap_pct": "+0.01%",
+      "regular_move_pct": "+2.50%",
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
-        "score_ok": false,
+        "score_ok": true,
         "momentum_ok": true,
         "volume_ok": false,
         "volatility_ok": true,
@@ -138,25 +105,58 @@
       }
     },
     {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 73,
+      "ticker": "DELL",
+      "name": "Dell",
+      "score": 74,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.78%, 5T +1.45%, relatives Volumen 0.11x, ATR 3.07%",
-      "catalyst": "Oil Stock Nears Record High After Price-Target Boost",
+      "thesis": "1T +4.16%, 5T +4.23%, relatives Volumen 0.48x, ATR 6.22%",
+      "catalyst": "Why Did DELL, ROIV, SHEL Stocks Surge To 52-Week Highs Today?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.23%, Bewegung seit US-Open +1.23%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
-      "stop_pct": 1.99,
-      "target_pct": 3.59,
+      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.02%, Bewegung seit US-Open +2.73%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.78%",
-      "change_5d": "+1.45%",
-      "volume_ratio": "0.11x",
-      "atr_pct": "3.07%",
-      "gap_pct": "-0.64%",
-      "premarket_move_pct": "-1.24%",
-      "live_gap_pct": "-0.23%",
-      "regular_move_pct": "+1.23%",
+      "change_1d": "+4.16%",
+      "change_5d": "+4.23%",
+      "volume_ratio": "0.48x",
+      "atr_pct": "6.22%",
+      "gap_pct": "-4.13%",
+      "premarket_move_pct": "+0.51%",
+      "live_gap_pct": "-0.02%",
+      "regular_move_pct": "+2.73%",
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": false,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": false,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "COP",
+      "name": "ConocoPhillips",
+      "score": 72,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.41%, 5T +2.64%, relatives Volumen 0.21x, ATR 2.16%",
+      "catalyst": "Fuel for Growth: 3 Big Energy Stocks Get New Price Targets",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.05%, Bewegung seit US-Open +0.69%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "stop_pct": 1.41,
+      "target_pct": 2.53,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.41%",
+      "change_5d": "+2.64%",
+      "volume_ratio": "0.21x",
+      "atr_pct": "2.16%",
+      "gap_pct": "-0.94%",
+      "premarket_move_pct": "+0.04%",
+      "live_gap_pct": "-0.05%",
+      "regular_move_pct": "+0.69%",
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -174,23 +174,23 @@
   "avoid": [
     {
       "ticker": "LCID",
-      "reason": "Schwaches kurzfristiges Setup (Score 22/100; 1T -1.02%, 5T -11.07%)."
-    },
-    {
-      "ticker": "ORCL",
-      "reason": "Schwaches kurzfristiges Setup (Score 28/100; 1T -1.85%, 5T -12.56%)."
-    },
-    {
-      "ticker": "HOOD",
-      "reason": "Schwaches kurzfristiges Setup (Score 29/100; 1T -3.26%, 5T -5.74%)."
+      "reason": "Schwaches kurzfristiges Setup (Score 20/100; 1T -1.44%, 5T -11.45%)."
     },
     {
       "ticker": "SNOW",
-      "reason": "Schwaches kurzfristiges Setup (Score 29/100; 1T -3.61%, 5T -4.51%)."
+      "reason": "Schwaches kurzfristiges Setup (Score 29/100; 1T -3.59%, 5T -4.50%)."
     },
     {
       "ticker": "LULU",
-      "reason": "Schwaches kurzfristiges Setup (Score 30/100; 1T -2.89%, 5T -5.61%)."
+      "reason": "Schwaches kurzfristiges Setup (Score 29/100; 1T -3.32%, 5T -6.03%)."
+    },
+    {
+      "ticker": "HOOD",
+      "reason": "Schwaches kurzfristiges Setup (Score 29/100; 1T -3.38%, 5T -5.85%)."
+    },
+    {
+      "ticker": "ORCL",
+      "reason": "Schwaches kurzfristiges Setup (Score 30/100; 1T -1.34%, 5T -12.11%)."
     }
   ],
   "news": [
@@ -225,36 +225,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "XOM",
-      "title": "Bondholders tendered $570M and $616M in ExxonMobil's buyback offers",
-      "time": "Tue, 15 Sep 2026 13:00:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "WFC",
-      "title": "QUICK SPARK: Big Bank Stocks Tumble After Moynihan's Grim Outlook",
-      "time": "Mon, 14 Sep 2026 20:13:48",
-      "sentiment": -1
-    },
-    {
-      "ticker": "VLO",
-      "title": "Raymond James Maintains Valero Energy(VLO.US) With Buy Rating, Raises Target Price to $450",
-      "time": "Tue, 15 Sep 2026 02:26:42",
-      "sentiment": 1
-    },
-    {
-      "ticker": "VLO",
-      "title": "Raymond James Financial Forecasts Strong Price Appreciation for Valero Energy (NYSE:VLO) Stock",
-      "time": "Mon, 14 Sep 2026 18:41:27",
-      "sentiment": 1
-    },
-    {
-      "ticker": "VLO",
-      "title": "Valero Energy (NYSE:VLO) Price Target Raised to $411.00",
-      "time": "Mon, 14 Sep 2026 15:56:51",
-      "sentiment": 1
-    },
-    {
       "ticker": "ANET",
       "title": "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum in Focus",
       "time": "Tue, 15 Sep 2026 09:01:31",
@@ -273,6 +243,30 @@
       "sentiment": -1
     },
     {
+      "ticker": "HPE",
+      "title": "HPE Stock Is Downgraded After Rising 159% This Year. Why?",
+      "time": "Mon, 14 Sep 2026 18:23:00",
+      "sentiment": -1
+    },
+    {
+      "ticker": "HPE",
+      "title": "HPE Stock Set For Another Record High Following Strong AI-Driven Quarter – This Analyst Says Shares Deserve Higher Multiple",
+      "time": "Mon, 14 Sep 2026 21:29:38",
+      "sentiment": 1
+    },
+    {
+      "ticker": "HPE",
+      "title": "HPE Stock Drops 11% To Worst Day In Over A Year After Evercore Downgrades On Lack Of Near-Term Catalysts",
+      "time": "Mon, 14 Sep 2026 23:16:05",
+      "sentiment": -1
+    },
+    {
+      "ticker": "XOM",
+      "title": "Bondholders tendered $570M and $616M in ExxonMobil's buyback offers",
+      "time": "Tue, 15 Sep 2026 13:00:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "COP",
       "title": "Fuel for Growth: 3 Big Energy Stocks Get New Price Targets",
       "time": "Tue, 15 Sep 2026 13:45:00",
@@ -285,15 +279,21 @@
       "sentiment": 1
     },
     {
-      "ticker": "MPC",
-      "title": "Oil Stock Nears Record High After Price-Target Boost",
-      "time": "Mon, 14 Sep 2026 14:52:28",
-      "sentiment": 1
+      "ticker": "ON",
+      "title": "Dow Falls 152 Points as AI Slowdown Debate Weighs on Semiconductor Stocks",
+      "time": "Mon, 14 Sep 2026 21:05:00",
+      "sentiment": -1
     },
     {
-      "ticker": "MPC",
-      "title": "Marathon Petroleum stock gains after Q2 profit surge and fresh Morgan Stanley upgrade - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 17:14:16",
+      "ticker": "WFC",
+      "title": "Wells Fargo’s Kwon Cuts US Stocks View as AI Worries Mount in Tech",
+      "time": "Tue, 15 Sep 2026 14:23:03",
+      "sentiment": -1
+    },
+    {
+      "ticker": "RBLX",
+      "title": "Roblox Stock Surges As Analysts Lift Targets",
+      "time": "Mon, 14 Sep 2026 17:37:06",
       "sentiment": 1
     },
     {
@@ -301,6 +301,18 @@
       "title": "Nucor (NUE) Falls More Steeply Than Broader Market: What Investors Need to Know",
       "time": "Mon, 14 Sep 2026 22:15:02",
       "sentiment": -1
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie Inc. stock outperforms competitors on strong trading day",
+      "time": "Mon, 14 Sep 2026 20:31:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie Inc. stock gains on dividend hike and strong Q2 2026 figures - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 10:24:47",
+      "sentiment": 1
     },
     {
       "ticker": "TXN",
@@ -321,9 +333,21 @@
       "sentiment": 1
     },
     {
-      "ticker": "RBLX",
-      "title": "Roblox Stock Surges As Analysts Lift Targets",
-      "time": "Mon, 14 Sep 2026 17:37:06",
+      "ticker": "CRWD",
+      "title": "Is CrowdStrike Stock Betting That Its Record Quarter Is The New Normal?",
+      "time": "Tue, 15 Sep 2026 14:00:31",
+      "sentiment": 1
+    },
+    {
+      "ticker": "MPC",
+      "title": "Oil Stock Nears Record High After Price-Target Boost",
+      "time": "Mon, 14 Sep 2026 14:52:28",
+      "sentiment": 1
+    },
+    {
+      "ticker": "MPC",
+      "title": "Marathon Petroleum stock gains after Q2 profit surge and fresh Morgan Stanley upgrade - ad-hoc-news.de",
+      "time": "Mon, 14 Sep 2026 17:14:16",
       "sentiment": 1
     },
     {
@@ -363,42 +387,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "OXY",
-      "title": "Occidental Petroleum (NYSE:OXY) Given New $67.00 Price Target at UBS Group",
-      "time": "Mon, 14 Sep 2026 21:21:26",
-      "sentiment": 0
-    },
-    {
-      "ticker": "OXY",
-      "title": "What’s Next for Occidental Petroleum (NYSE:OXY) As Demand Shifts?",
-      "time": "Mon, 14 Sep 2026 21:49:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "OXY",
-      "title": "Occidental’s New CEO Tested by Debt, Lagging Stock Price and Big Dividend Payments to Berkshire",
-      "time": "Tue, 15 Sep 2026 03:30:57",
-      "sentiment": 0
-    },
-    {
-      "ticker": "OXY",
-      "title": "Occidental Petroleum: Keep An Eye On This One In The Carbon Capture Space (NYSE:OXY)",
-      "time": "Mon, 14 Sep 2026 18:13:16",
-      "sentiment": 0
-    },
-    {
-      "ticker": "OXY",
-      "title": "Diversified Upstream E&P Stocks Q2 Teardown: Chevron (NYSE:CVX) Vs The Rest",
-      "time": "Mon, 14 Sep 2026 22:35:30",
-      "sentiment": 0
-    },
-    {
-      "ticker": "OXY",
-      "title": "Why (OXY.WS) Price Action Is Critical for Tactical Trading",
-      "time": "Mon, 14 Sep 2026 19:34:02",
-      "sentiment": 0
-    },
-    {
       "ticker": "RMD",
       "title": "ResMed Inc. $RMD Shares Sold by Corient Private Wealth LP",
       "time": "Tue, 15 Sep 2026 09:08:55",
@@ -414,6 +402,66 @@
       "ticker": "RMD",
       "title": "Why Could ResMed (ASX:RMD) Stand Out as Markets Turn Defensive?",
       "time": "Tue, 15 Sep 2026 10:18:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "Why Is the Market Reassessing Thermo Fisher Scientific (TMO)?",
+      "time": "Tue, 15 Sep 2026 08:36:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "Mayo Clinic and Thermo Fisher Scientific launch Precure, LLC to identify signs of disease before symptoms appear",
+      "time": "Tue, 15 Sep 2026 12:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "Q2 Rundown: Revvity (NYSE:RVTY) Vs Other Research Tools & Consumables Stocks",
+      "time": "Tue, 15 Sep 2026 13:35:31",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "Fortrea Holdings (FTRE) Reinstates Its CFO, Is The Stock A Bargain?",
+      "time": "Tue, 15 Sep 2026 07:47:49",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "Market news",
+      "time": "Tue, 15 Sep 2026 14:03:08",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DELL",
+      "title": "Dell Technologies Stock Hits a New All-Time High: Is It Too Late to Buy?",
+      "time": "Tue, 15 Sep 2026 13:39:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DELL",
+      "title": "Why 1 Analyst Is Betting That DELL Stock Can Gain At Least Another 20% From Here",
+      "time": "Tue, 15 Sep 2026 14:00:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DELL",
+      "title": "Dell Technologies Inc. Tokenized Stock price today, DELLx to USD chart, marketcap and volume",
+      "time": "Tue, 15 Sep 2026 08:57:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DELL",
+      "title": "Dell Technologies Inc Stock (DELL) Opened Up by 4.67% on Sep 15: Facts Behind the Movement",
+      "time": "Tue, 15 Sep 2026 13:47:17",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DELL",
+      "title": "Billionaire Michael Dell lost $15.1bn in a morning as AI stocks sold off",
+      "time": "Tue, 15 Sep 2026 08:31:17",
       "sentiment": 0
     },
     {
@@ -472,6 +520,12 @@
     },
     {
       "ticker": "AMD",
+      "title": "AMD CEO Lisa Su sells $48M in shares amid stron...",
+      "time": "Tue, 15 Sep 2026 13:45:44",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMD",
       "title": "AMD Is Eating Intel’s Lunch",
       "time": "Tue, 15 Sep 2026 11:15:00",
       "sentiment": 0
@@ -483,105 +537,75 @@
       "sentiment": 0
     },
     {
-      "ticker": "AMD",
-      "title": "2 Profitable Stocks with Competitive Advantages and 1 Facing Headwinds",
-      "time": "Tue, 15 Sep 2026 09:06:38",
+      "ticker": "OXY",
+      "title": "Occidental Petroleum (NYSE:OXY) Given New $67.00 Price Target at UBS Group",
+      "time": "Mon, 14 Sep 2026 21:21:26",
       "sentiment": 0
     },
     {
-      "ticker": "TMO",
-      "title": "Why Is the Market Reassessing Thermo Fisher Scientific (TMO)?",
-      "time": "Tue, 15 Sep 2026 08:36:00",
+      "ticker": "OXY",
+      "title": "What’s Next for Occidental Petroleum (NYSE:OXY) As Demand Shifts?",
+      "time": "Mon, 14 Sep 2026 21:49:00",
       "sentiment": 0
     },
     {
-      "ticker": "TMO",
-      "title": "Mayo Clinic and Thermo Fisher Scientific launch Precure, LLC to identify signs of disease before symptoms appear",
-      "time": "Tue, 15 Sep 2026 12:00:00",
+      "ticker": "OXY",
+      "title": "Occidental’s New CEO Tested by Debt, Lagging Stock Price and Big Dividend Payments to Berkshire",
+      "time": "Tue, 15 Sep 2026 03:30:57",
       "sentiment": 0
     },
     {
-      "ticker": "TMO",
-      "title": "Fortrea Holdings (FTRE) Reinstates Its CFO, Is The Stock A Bargain?",
-      "time": "Tue, 15 Sep 2026 07:47:49",
+      "ticker": "OXY",
+      "title": "Occidental Petroleum: Keep An Eye On This One In The Carbon Capture Space (NYSE:OXY)",
+      "time": "Mon, 14 Sep 2026 18:13:16",
       "sentiment": 0
     },
     {
-      "ticker": "TMO",
-      "title": "Q2 Rundown: Revvity (NYSE:RVTY) Vs Other Research Tools & Consumables Stocks",
-      "time": "Tue, 15 Sep 2026 13:35:31",
+      "ticker": "OXY",
+      "title": "Diversified Upstream E&P Stocks Q2 Teardown: Chevron (NYSE:CVX) Vs The Rest",
+      "time": "Mon, 14 Sep 2026 22:35:30",
       "sentiment": 0
     },
     {
-      "ticker": "TMO",
-      "title": "Market news",
-      "time": "Tue, 15 Sep 2026 14:03:08",
+      "ticker": "OXY",
+      "title": "Why (OXY.WS) Price Action Is Critical for Tactical Trading",
+      "time": "Mon, 14 Sep 2026 19:34:02",
       "sentiment": 0
     },
     {
-      "ticker": "DELL",
-      "title": "Dell Technologies Stock Hits a New All-Time High: Is It Too Late to Buy?",
-      "time": "Tue, 15 Sep 2026 13:39:40",
+      "ticker": "ANET",
+      "title": "Arista Networks (ANET) insider reshuffles stake across family trusts",
+      "time": "Mon, 14 Sep 2026 23:05:35",
       "sentiment": 0
     },
     {
-      "ticker": "DELL",
-      "title": "Why 1 Analyst Is Betting That DELL Stock Can Gain At Least Another 20% From Here",
-      "time": "Tue, 15 Sep 2026 14:00:03",
+      "ticker": "ANET",
+      "title": "Arista Networks Inc Stock (ANET) Moved Down by 5.12% on Sep 14: What Signal Does It Send?",
+      "time": "Mon, 14 Sep 2026 17:15:44",
       "sentiment": 0
     },
     {
-      "ticker": "DELL",
-      "title": "Dell Technologies Inc. Tokenized Stock price today, DELLx to USD chart, marketcap and volume",
-      "time": "Tue, 15 Sep 2026 08:57:00",
+      "ticker": "ANET",
+      "title": "A Look at Arista Networks Inc (ANET) After 5.9% Decline -- GF Va",
+      "time": "Mon, 14 Sep 2026 21:32:29",
       "sentiment": 0
     },
     {
-      "ticker": "DELL",
-      "title": "Dell Technologies Inc Stock (DELL) Opened Up by 4.67% on Sep 15: Facts Behind the Movement",
-      "time": "Tue, 15 Sep 2026 13:47:17",
+      "ticker": "HPE",
+      "title": "Is HPE Stock Now A Bet On Memory Prices?",
+      "time": "Mon, 14 Sep 2026 17:48:30",
       "sentiment": 0
     },
     {
-      "ticker": "DELL",
-      "title": "Billionaire Michael Dell lost $15.1bn in a morning as AI stocks sold off",
-      "time": "Tue, 15 Sep 2026 08:31:17",
+      "ticker": "HPE",
+      "title": "HPE valuation under pressure: What’s behind the stock selloff?",
+      "time": "Tue, 15 Sep 2026 11:23:44",
       "sentiment": 0
     },
     {
-      "ticker": "META",
-      "title": "Meta Bulls Bet Stock Will Break Out After Year of Head Fakes",
-      "time": "Tue, 15 Sep 2026 09:30:36",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Fifty-Five Analysts Cover Meta and None Say Sell",
-      "time": "Tue, 15 Sep 2026 12:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Meta stock rises on cost-saving AI chip deployment plans",
-      "time": "Tue, 15 Sep 2026 14:19:47",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Meta (META.US) stock experiences a year-long \"false breakout\"! Yet with litigation risks receding and the boost from Muse AI, bulls bet that the market is finally poised for a breakthrough.",
-      "time": "Tue, 15 Sep 2026 10:49:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
-      "time": "Mon, 14 Sep 2026 19:51:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?",
-      "time": "Mon, 14 Sep 2026 20:21:09",
+      "ticker": "HPE",
+      "title": "Hewlett Packard Enterprise Co (HPE) Stock Down 10.8% but Still O",
+      "time": "Mon, 14 Sep 2026 22:03:08",
       "sentiment": 0
     },
     {
@@ -604,128 +628,14 @@
     },
     {
       "ticker": "XOM",
-      "title": "Exxon Mobil Faces Production Disruption at Joliet Refinery Follo",
-      "time": "Tue, 15 Sep 2026 08:52:11",
+      "title": "ExxonMobil's unit to retire $1.19B debt via cash tender offers: Key details",
+      "time": "Tue, 15 Sep 2026 13:59:48",
       "sentiment": 0
     },
     {
       "ticker": "XOM",
-      "title": "Exxon Mobil shuts down Joliet refinery after power outage",
-      "time": "Mon, 14 Sep 2026 19:56:42",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WFC",
-      "title": "Wells Fargo (WFC) Dips More Than Broader Market: What You Should Know",
-      "time": "Mon, 14 Sep 2026 21:45:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WFC",
-      "title": "Wells Fargo Series DD Vs. AA Pfds, With The Latter A Buy (NYSE:WFC.PR.A)",
-      "time": "Tue, 15 Sep 2026 12:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WFC",
-      "title": "Wells Fargo stock heads into the open after a 1.75% drop - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 04:49:42",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WFC",
-      "title": "What Is Changing the Conversation Around Wells Fargo (WFC)?",
-      "time": "Tue, 15 Sep 2026 08:24:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WFC",
-      "title": "Does Wells Fargo (WFC) Have An Edge In Mobile Remittances Now?",
-      "time": "Tue, 15 Sep 2026 01:09:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "ON Semi Stock Faces Earnings Test As Valuation Draws Scrutiny",
-      "time": "Tue, 15 Sep 2026 09:27:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "ON Semiconductor Corp. (ON) Declines More Than Market: Some Information for Investors",
-      "time": "Mon, 14 Sep 2026 22:00:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "ON Semiconductor stock heads into the open after a 5.9 percent drop - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 04:52:33",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "AMD Stock Leads Semiconductor Stocks Lower Amid AI Slowdown Debate",
-      "time": "Mon, 14 Sep 2026 19:55:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "ON Semiconductor Corp (ON) Shares Fall 5.9% -- What GF Score of 85 Tells Investors",
-      "time": "Mon, 14 Sep 2026 23:01:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "What's Going On With Micron Technology Stock Tuesday?",
-      "time": "Tue, 15 Sep 2026 09:33:39",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
-      "title": "Why Is Valero Energy (VLO) Moving Into Market Focus?",
-      "time": "Tue, 15 Sep 2026 09:18:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
-      "title": "Valero Energy Corp (VLO): What a GF Score of 65 Says About the S",
-      "time": "Mon, 14 Sep 2026 16:03:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
-      "title": "Valero Energy (NYSE:VLO) Hits New 1-Year High - Time to Buy?",
-      "time": "Mon, 14 Sep 2026 14:44:30",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ANET",
-      "title": "Arista Networks (ANET) insider reshuffles stake across family trusts",
-      "time": "Mon, 14 Sep 2026 23:05:35",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ANET",
-      "title": "Arista Networks Inc Stock (ANET) Moved Down by 5.12% on Sep 14: What Signal Does It Send?",
-      "time": "Mon, 14 Sep 2026 17:15:44",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ANET",
-      "title": "A Look at Arista Networks Inc (ANET) After 5.9% Decline -- GF Va",
-      "time": "Mon, 14 Sep 2026 21:32:29",
-      "sentiment": 0
-    },
-    {
-      "ticker": "STLD",
-      "title": "These S&P500 stocks that are showing activity before the opening bell on Tuesday.",
-      "time": "Tue, 15 Sep 2026 12:35:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "STLD",
-      "title": "Steel Dynamics stock slips from recent highs as bearish technical signals emerge - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 09:21:14",
+      "title": "Exxon Mobil Faces Production Disruption at Joliet Refinery Follo",
+      "time": "Tue, 15 Sep 2026 08:52:11",
       "sentiment": 0
     },
     {
@@ -753,159 +663,99 @@
       "sentiment": 0
     },
     {
-      "ticker": "PSX",
-      "title": "Phillips 66 (NYSE: PSX) executive reports 25,361-share stake after stock gift",
-      "time": "Mon, 14 Sep 2026 21:11:36",
+      "ticker": "STLD",
+      "title": "These S&P500 stocks that are showing activity before the opening bell on Tuesday.",
+      "time": "Tue, 15 Sep 2026 12:35:01",
       "sentiment": 0
     },
     {
-      "ticker": "PSX",
-      "title": "What Makes the Latest Phillips 66 (PSX) Story Different?",
-      "time": "Tue, 15 Sep 2026 09:18:00",
+      "ticker": "STLD",
+      "title": "Steel Dynamics stock slips from recent highs as bearish technical signals emerge - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 09:21:14",
       "sentiment": 0
     },
     {
-      "ticker": "PSX",
-      "title": "Phillips 66 stock heads into the open after a 0.4% NYSE gain - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 01:52:30",
+      "ticker": "ON",
+      "title": "ON Semi Stock Faces Earnings Test As Valuation Draws Scrutiny",
+      "time": "Tue, 15 Sep 2026 09:27:00",
       "sentiment": 0
     },
     {
-      "ticker": "PSX",
-      "title": "HF Sinclair Rises 113.9% in a Year: Should You Buy, Hold or Sell?",
-      "time": "Mon, 14 Sep 2026 16:43:00",
+      "ticker": "ON",
+      "title": "If You Invested $1000 In ON Semiconductor Stock 15 Years Ago, You Would Have This Much Today",
+      "time": "Tue, 15 Sep 2026 14:30:24",
       "sentiment": 0
     },
     {
-      "ticker": "PSX",
-      "title": "Oil is near $100 as Gulf states prepare to meet Iran",
-      "time": "Mon, 14 Sep 2026 19:34:00",
+      "ticker": "ON",
+      "title": "ON Semiconductor Corp. (ON) Declines More Than Market: Some Information for Investors",
+      "time": "Mon, 14 Sep 2026 22:00:04",
       "sentiment": 0
     },
     {
-      "ticker": "PSX",
-      "title": "Phillips 66 stock gains as Morgan Stanley lifts price target to USD 284 - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 15:00:44",
+      "ticker": "ON",
+      "title": "ON Semiconductor stock heads into the open after a 5.9 percent drop - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 04:52:33",
       "sentiment": 0
     },
     {
-      "ticker": "MPC",
-      "title": "Marathon Petroleum (NYSE:MPC) Hits New 52-Week High - Time to Buy?",
-      "time": "Tue, 15 Sep 2026 07:42:30",
+      "ticker": "ON",
+      "title": "ON Semiconductor Corp (ON) Shares Fall 5.9% -- What GF Score of 85 Tells Investors",
+      "time": "Mon, 14 Sep 2026 23:01:01",
       "sentiment": 0
     },
     {
-      "ticker": "MPC",
-      "title": "Why Is Marathon Petroleum (MPC) a Stock to Watch Today?",
-      "time": "Tue, 15 Sep 2026 09:18:00",
+      "ticker": "DHR",
+      "title": "Danaher Corp stock gains support from analyst consensus and recent earnings - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 08:54:28",
       "sentiment": 0
     },
     {
-      "ticker": "MPC",
-      "title": "Marathon Petroleum Corp (MPC): What a GF Score of 63 Says About the Stock",
-      "time": "Mon, 14 Sep 2026 15:18:49",
+      "ticker": "DHR",
+      "title": "Crypto Market Analysis Today: Rate Hike Odds Jump to 86.7%",
+      "time": "Mon, 14 Sep 2026 16:46:21",
       "sentiment": 0
     },
     {
-      "ticker": "MPC",
-      "title": "Oil is near $100 as Gulf states prepare to meet Iran",
-      "time": "Mon, 14 Sep 2026 19:34:00",
+      "ticker": "DHR",
+      "title": "Danaher Stock Slips As Sector Jitters Mount",
+      "time": "Mon, 14 Sep 2026 22:12:45",
       "sentiment": 0
     },
     {
-      "ticker": "CVX",
-      "title": "CVX Stock Quote Price and Forecast",
-      "time": "Tue, 15 Sep 2026 10:48:45",
+      "ticker": "META",
+      "title": "Meta Bulls Bet Stock Will Break Out After Year of Head Fakes",
+      "time": "Tue, 15 Sep 2026 09:30:36",
       "sentiment": 0
     },
     {
-      "ticker": "CVX",
-      "title": "Diversified Upstream E&P Stocks Q2 Teardown: Chevron (NYSE:CVX) Vs The Rest",
-      "time": "Mon, 14 Sep 2026 22:35:30",
+      "ticker": "META",
+      "title": "Meta stock rises on cost-saving AI chip deployment plans",
+      "time": "Tue, 15 Sep 2026 14:19:47",
       "sentiment": 0
     },
     {
-      "ticker": "CVX",
-      "title": "Chevron (CVX) Analysis: The $18 Billion Quarter That Isn’t Fully What It Looks Like",
-      "time": "Mon, 14 Sep 2026 20:53:44",
+      "ticker": "META",
+      "title": "Fifty-Five Analysts Cover Meta and None Say Sell",
+      "time": "Tue, 15 Sep 2026 12:00:00",
       "sentiment": 0
     },
     {
-      "ticker": "CVX",
-      "title": "Chevron Targets Argentina, Mediterranean in Global LNG Push",
-      "time": "Tue, 15 Sep 2026 12:02:00",
+      "ticker": "META",
+      "title": "Meta (META.US) stock experiences a year-long \"false breakout\"! Yet with litigation risks receding and the boost from Muse AI, bulls bet that the market is finally poised for a breakthrough.",
+      "time": "Tue, 15 Sep 2026 10:49:49",
       "sentiment": 0
     },
     {
-      "ticker": "CVX",
-      "title": "Chevron (CVX) Weighs Mediterranean And Argentina Gas Push As LNG Routes Shift",
-      "time": "Mon, 14 Sep 2026 18:31:33",
+      "ticker": "META",
+      "title": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
+      "time": "Mon, 14 Sep 2026 19:51:00",
       "sentiment": 0
     },
     {
-      "ticker": "CVX",
-      "title": "If You Invested $100 In Chevron Stock 5 Years Ago, You Would Have This Much Today",
-      "time": "Mon, 14 Sep 2026 23:00:33",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NUE",
-      "title": "What Is Shaping Sentiment Around Nucor (NUE)?",
-      "time": "Tue, 15 Sep 2026 09:14:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NUE",
-      "title": "Nucor Corp stock holds steady after recent earnings boost - ad-hoc-news.de",
-      "time": "Mon, 14 Sep 2026 14:56:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NUE",
-      "title": "4 Best Cyclical Stocks to Buy in 2026 and How to Invest",
-      "time": "Mon, 14 Sep 2026 18:03:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NUE",
-      "title": "Intel Upgraded, CVS Health Downgraded: Updated Rankings on Top Blue-Chip Stocks",
-      "time": "Mon, 14 Sep 2026 23:15:29",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NXPI",
-      "title": "NXP Semiconductors (NXPI) Registers a Bigger Fall Than the Market: Important Facts to Note",
-      "time": "Mon, 14 Sep 2026 22:15:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NXPI",
-      "title": "NXP Stock Faces A Physical AI Push Has The Bull Case Changed?",
-      "time": "Mon, 14 Sep 2026 22:48:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NXPI",
-      "title": "A Look at NXP Semiconductors NV (NXPI) After 5.2% Decline -- GF Value $246.81 vs Price $224.23",
-      "time": "Mon, 14 Sep 2026 22:55:24",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NXPI",
-      "title": "NXP Semiconductors stock pre-market after a 4.4 percent drop - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 02:39:08",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NXPI",
-      "title": "5 Best International Stocks to Buy in 2026",
-      "time": "Mon, 14 Sep 2026 15:43:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NXPI",
-      "title": "NVIDIA Corporation (NVDA) Stock Price & News",
-      "time": "Mon, 14 Sep 2026 14:32:00",
+      "ticker": "META",
+      "title": "Is META Stock’s $130B AI Buildout Your Ticket to an 8.7% Yield?",
+      "time": "Mon, 14 Sep 2026 20:21:09",
       "sentiment": 0
     },
     {
@@ -945,57 +795,69 @@
       "sentiment": 0
     },
     {
-      "ticker": "TXN",
-      "title": "Texas Instruments:The Earnings Recovery Has More Room To Run (NASDAQ:TXN)",
-      "time": "Tue, 15 Sep 2026 11:58:58",
+      "ticker": "CVX",
+      "title": "CVX Stock Quote Price and Forecast",
+      "time": "Tue, 15 Sep 2026 10:48:45",
       "sentiment": 0
     },
     {
-      "ticker": "TXN",
-      "title": "Texas Instruments stock heads into the open after a 2.0% drop - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 04:01:22",
+      "ticker": "CVX",
+      "title": "Diversified Upstream E&P Stocks Q2 Teardown: Chevron (NYSE:CVX) Vs The Rest",
+      "time": "Mon, 14 Sep 2026 22:35:30",
       "sentiment": 0
     },
     {
-      "ticker": "TXN",
-      "title": "Texas Instruments stock jumps 55% in 2026, outp...",
-      "time": "Mon, 14 Sep 2026 19:24:18",
+      "ticker": "CVX",
+      "title": "Chevron (CVX) Analysis: The $18 Billion Quarter That Isn’t Fully What It Looks Like",
+      "time": "Mon, 14 Sep 2026 20:53:44",
       "sentiment": 0
     },
     {
-      "ticker": "CSCO",
-      "title": "Cisco Systems (NASDAQ: CSCO) sales chief sells shares under preset plan",
-      "time": "Mon, 14 Sep 2026 23:11:58",
+      "ticker": "CVX",
+      "title": "Chevron Targets Argentina, Mediterranean in Global LNG Push",
+      "time": "Tue, 15 Sep 2026 12:02:00",
       "sentiment": 0
     },
     {
-      "ticker": "CSCO",
-      "title": "Cisco (NASDAQ: CSCO) CFO reports preset-plan stock sale",
-      "time": "Mon, 14 Sep 2026 23:11:40",
+      "ticker": "CVX",
+      "title": "Chevron (CVX) Weighs Mediterranean And Argentina Gas Push As LNG Routes Shift",
+      "time": "Mon, 14 Sep 2026 18:31:33",
       "sentiment": 0
     },
     {
-      "ticker": "CSCO",
-      "title": "Cisco (CSCO) EVP logs stock sale and tax withholding",
-      "time": "Mon, 14 Sep 2026 23:13:21",
+      "ticker": "CVX",
+      "title": "If You Invested $100 In Chevron Stock 5 Years Ago, You Would Have This Much Today",
+      "time": "Mon, 14 Sep 2026 23:00:33",
       "sentiment": 0
     },
     {
-      "ticker": "CSCO",
-      "title": "Cisco EVP Oliver Tuszik sells $74,922 in stock",
-      "time": "Tue, 15 Sep 2026 00:30:00",
+      "ticker": "WFC",
+      "title": "Wells Fargo (WFC) Dips More Than Broader Market: What You Should Know",
+      "time": "Mon, 14 Sep 2026 21:45:04",
       "sentiment": 0
     },
     {
-      "ticker": "CSCO",
-      "title": "Cisco EVP and CFO Mark Patterson sells $195,421 in stock",
-      "time": "Tue, 15 Sep 2026 00:30:00",
+      "ticker": "WFC",
+      "title": "Wells Fargo Series DD Vs. AA Pfds, With The Latter A Buy (NYSE:WFC.PR.A)",
+      "time": "Tue, 15 Sep 2026 12:00:00",
       "sentiment": 0
     },
     {
-      "ticker": "CSCO",
-      "title": "Cisco EVP Subaiya sells 312 shares for $34,376",
-      "time": "Tue, 15 Sep 2026 00:30:00",
+      "ticker": "WFC",
+      "title": "Wells Fargo stock heads into the open after a 1.75% drop - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 04:49:42",
+      "sentiment": 0
+    },
+    {
+      "ticker": "WFC",
+      "title": "What Is Changing the Conversation Around Wells Fargo (WFC)?",
+      "time": "Tue, 15 Sep 2026 08:24:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "WFC",
+      "title": "Does Wells Fargo (WFC) Have An Edge In Mobile Remittances Now?",
+      "time": "Tue, 15 Sep 2026 01:09:05",
       "sentiment": 0
     },
     {
@@ -1026,6 +888,126 @@
       "ticker": "RBLX",
       "title": "Roblox Jumps 10% as Wedbush Lifts Target to $48 While Staying Neutral; Take-Two and GameStop Nudge Higher",
       "time": "Mon, 14 Sep 2026 15:44:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NUE",
+      "title": "What Is Shaping Sentiment Around Nucor (NUE)?",
+      "time": "Tue, 15 Sep 2026 09:14:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NUE",
+      "title": "Nucor Corp stock holds steady after recent earnings boost - ad-hoc-news.de",
+      "time": "Mon, 14 Sep 2026 14:56:46",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NUE",
+      "title": "4 Best Cyclical Stocks to Buy in 2026 and How to Invest",
+      "time": "Mon, 14 Sep 2026 18:03:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NUE",
+      "title": "Intel Upgraded, CVS Health Downgraded: Updated Rankings on Top Blue-Chip Stocks",
+      "time": "Mon, 14 Sep 2026 23:15:29",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie (ABBV) Advances While Market Declines: Some Information for Investors",
+      "time": "Mon, 14 Sep 2026 21:45:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ABBV",
+      "title": "A skincare company with more than 200 clinical studies is bringing a new framework",
+      "time": "Tue, 15 Sep 2026 12:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ABBV",
+      "title": "Why Is the Market Reassessing AbbVie (ABBV)?",
+      "time": "Tue, 15 Sep 2026 09:10:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie vs. CRISPR Therapeutics: Which Healthcare Stock Is a Better Buy in 2026?",
+      "time": "Mon, 14 Sep 2026 15:40:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TXN",
+      "title": "Texas Instruments:The Earnings Recovery Has More Room To Run (NASDAQ:TXN)",
+      "time": "Tue, 15 Sep 2026 11:58:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TXN",
+      "title": "Texas Instruments stock heads into the open after a 2.0% drop - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 04:01:22",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TXN",
+      "title": "Texas Instruments stock jumps 55% in 2026, outp...",
+      "time": "Mon, 14 Sep 2026 19:24:18",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "What's Going On With CrowdStrike Stock Tuesday?",
+      "time": "Tue, 15 Sep 2026 13:08:54",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "Why CrowdStrike Stock Rocketed Higher Today",
+      "time": "Mon, 14 Sep 2026 17:01:50",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "Why CrowdStrike and Palo Alto Are Leading the Software Stock Rally",
+      "time": "Mon, 14 Sep 2026 18:13:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "CrowdStrike Stock Breaks $233.88 as AI-Security Revaluation Puts $239.46 in Focus",
+      "time": "Tue, 15 Sep 2026 13:04:42",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "Why Is CrowdStrike (CRWD) Stock Rocketing Higher Today",
+      "time": "Tue, 15 Sep 2026 00:59:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MPC",
+      "title": "Marathon Petroleum (NYSE:MPC) Hits New 52-Week High - Time to Buy?",
+      "time": "Tue, 15 Sep 2026 07:42:30",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MPC",
+      "title": "Why Is Marathon Petroleum (MPC) a Stock to Watch Today?",
+      "time": "Tue, 15 Sep 2026 09:18:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MPC",
+      "title": "Marathon Petroleum Corp (MPC): What a GF Score of 63 Says About the Stock",
+      "time": "Mon, 14 Sep 2026 15:18:49",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MPC",
+      "title": "Oil is near $100 as Gulf states prepare to meet Iran",
+      "time": "Mon, 14 Sep 2026 19:34:00",
       "sentiment": 0
     }
   ]
