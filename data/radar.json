@@ -1,19 +1,19 @@
 {
-  "generated_at_local": "16.09.2026 08:28 CEST",
+  "generated_at_local": "16.09.2026 09:06 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
-  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
+  "summary": "Gemischt / selektiv. Früher Morning-Scan; US-Premarket ggf. noch nicht geöffnet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
   "candidates": [
     {
       "ticker": "TMO",
       "name": "Thermo Fisher",
-      "score": 94,
+      "score": 92,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +4.53%, 5T +6.36%, relatives Volumen 1.63x, ATR 2.34%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Tuesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.00%, Bewegung seit US-Open +4.21%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
       "stop_pct": 1.52,
       "target_pct": 2.74,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -21,32 +21,32 @@
       "change_5d": "+6.36%",
       "volume_ratio": "1.63x",
       "atr_pct": "2.34%",
-      "gap_pct": "-4.11%",
-      "premarket_move_pct": "-0.14%",
-      "live_gap_pct": "-0.00%",
-      "regular_move_pct": "+4.21%",
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Live-Kriterien sind erfüllt.",
+      "gap_pct": "noch nicht verfügbar",
+      "premarket_move_pct": "noch nicht verfügbar",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "session_phase": "Vor US-Premarket",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
+        "gap_ok": false,
+        "confirmation_ok": false
       }
     },
     {
       "ticker": "RMD",
       "name": "ResMed",
-      "score": 93,
+      "score": 86,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.37x, ATR 2.90%",
       "catalyst": "Learn Why The Bull Case For ResMed Stock Could Change Following Earnings Beat",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.00%, Bewegung seit US-Open +1.37%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
       "stop_pct": 1.88,
       "target_pct": 3.39,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -54,65 +54,32 @@
       "change_5d": "+3.80%",
       "volume_ratio": "1.37x",
       "atr_pct": "2.90%",
-      "gap_pct": "-2.08%",
-      "premarket_move_pct": "-0.26%",
-      "live_gap_pct": "+0.00%",
-      "regular_move_pct": "+1.37%",
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Live-Kriterien sind erfüllt.",
+      "gap_pct": "noch nicht verfügbar",
+      "premarket_move_pct": "noch nicht verfügbar",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "session_phase": "Vor US-Premarket",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 92,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
-      "catalyst": "Is CrowdStrike Stock Betting That Its Record Quarter Is The New Normal?",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.01%, Bewegung seit US-Open +4.19%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
-      "stop_pct": 2.5,
-      "target_pct": 4.5,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.02%",
-      "change_5d": "+15.46%",
-      "volume_ratio": "1.61x",
-      "atr_pct": "6.26%",
-      "gap_pct": "-4.22%",
-      "premarket_move_pct": "+0.32%",
-      "live_gap_pct": "+0.01%",
-      "regular_move_pct": "+4.19%",
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": false,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
+        "gap_ok": false,
+        "confirmation_ok": false
       }
     },
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 91,
+      "score": 81,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.63%, 5T +3.29%, relatives Volumen 1.17x, ATR 3.13%",
       "catalyst": "Marathon Petroleum: The Focus Should Help (Rating Upgrade) (NYSE:MPC)",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.05%, Bewegung seit US-Open +3.26%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
       "stop_pct": 2.04,
       "target_pct": 3.66,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -120,44 +87,77 @@
       "change_5d": "+3.29%",
       "volume_ratio": "1.17x",
       "atr_pct": "3.13%",
-      "gap_pct": "-2.40%",
-      "premarket_move_pct": "-1.24%",
-      "live_gap_pct": "-0.05%",
-      "regular_move_pct": "+3.26%",
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Live-Kriterien sind erfüllt.",
+      "gap_pct": "noch nicht verfügbar",
+      "premarket_move_pct": "noch nicht verfügbar",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "session_phase": "Vor US-Premarket",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
+        "gap_ok": false,
+        "confirmation_ok": false
       }
     },
     {
-      "ticker": "VLO",
-      "name": "Valero",
-      "score": 87,
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 81,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.68%, 5T +3.71%, relatives Volumen 1.06x, ATR 3.21%",
-      "catalyst": "UBS Bets on Valero Energy (VLO) to Shatter its Record High",
+      "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
+      "catalyst": "Is CrowdStrike Stock Betting That Its Record Quarter Is The New Normal?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.02%, Bewegung seit US-Open +3.50%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
-      "stop_pct": 2.08,
-      "target_pct": 3.75,
+      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.68%",
-      "change_5d": "+3.71%",
-      "volume_ratio": "1.06x",
-      "atr_pct": "3.21%",
-      "gap_pct": "-2.91%",
-      "premarket_move_pct": "-0.91%",
-      "live_gap_pct": "-0.02%",
-      "regular_move_pct": "+3.50%",
-      "session_phase": "US-Handel live",
+      "change_1d": "+3.02%",
+      "change_5d": "+15.46%",
+      "volume_ratio": "1.61x",
+      "atr_pct": "6.26%",
+      "gap_pct": "noch nicht verfügbar",
+      "premarket_move_pct": "noch nicht verfügbar",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "session_phase": "Vor US-Premarket",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR, Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": false,
+        "news_ok": true,
+        "gap_ok": false,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 79,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.85x, ATR 4.07%",
+      "catalyst": "QCOM Stock Is 7% From Its Record High; Executives To Join Trump In China Visit",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+4.25%",
+      "change_5d": "+7.88%",
+      "volume_ratio": "0.85x",
+      "atr_pct": "4.07%",
+      "gap_pct": "noch nicht verfügbar",
+      "premarket_move_pct": "noch nicht verfügbar",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "session_phase": "Vor US-Premarket",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
@@ -166,8 +166,8 @@
         "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
+        "gap_ok": false,
+        "confirmation_ok": false
       }
     }
   ],
@@ -210,6 +210,12 @@
       "ticker": "CRWD",
       "title": "Is CrowdStrike Stock Betting That Its Record Quarter Is The New Normal?",
       "time": "Tue, 15 Sep 2026 14:00:31",
+      "sentiment": 1
+    },
+    {
+      "ticker": "QCOM",
+      "title": "QCOM Stock Is 7% From Its Record High; Executives To Join Trump In China Visit",
+      "time": "Tue, 15 Sep 2026 18:56:54",
       "sentiment": 1
     },
     {
@@ -333,12 +339,6 @@
       "sentiment": -1
     },
     {
-      "ticker": "APP",
-      "title": "Dutch Bros Falls to $41.98, Now 42% Below Its June Peak",
-      "time": "Tue, 15 Sep 2026 23:51:23",
-      "sentiment": -1
-    },
-    {
       "ticker": "META",
       "title": "Meta Platforms Inc. (META) Stock Could Surge as AI Monetization Gains Momentum, Says JPMorgan",
       "time": "Tue, 15 Sep 2026 21:10:27",
@@ -365,7 +365,7 @@
     {
       "ticker": "ABBV",
       "title": "AbbVie at Morgan Stanley healthcare conference: growth beyond humira By Investing.com",
-      "time": "Tue, 15 Sep 2026 15:24:00",
+      "time": "Tue, 15 Sep 2026 15:43:41",
       "sentiment": 1
     },
     {
@@ -394,8 +394,8 @@
     },
     {
       "ticker": "TMO",
-      "title": "Why Is the Market Reassessing Thermo Fisher Scientific (TMO)?",
-      "time": "Tue, 15 Sep 2026 08:36:00",
+      "title": "Thermo Fisher stock heads into the open after a 4.6% jump - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 06:16:11",
       "sentiment": 0
     },
     {
@@ -456,12 +456,6 @@
       "ticker": "QCOM",
       "title": "QCOM Stock Climbs To 2-Month High As AI Data Center Push Gains Momentum",
       "time": "Wed, 16 Sep 2026 03:18:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "QCOM",
-      "title": "QCOM Stock Extends Gains Overnight: Analyst Says Amazon AI Deal 'Changes Calculus For Qualcomm'",
-      "time": "Tue, 15 Sep 2026 15:31:05",
       "sentiment": 0
     },
     {
@@ -586,6 +580,12 @@
     },
     {
       "ticker": "JPM",
+      "title": "Wall Street giants’ trading operations show a tale of two extremes: JPMorgan (JPM.US) expects a surge in Q3 performance, while Bank of America (BAC.US) warns of a slowdown",
+      "time": "Wed, 16 Sep 2026 04:40:31",
+      "sentiment": 0
+    },
+    {
+      "ticker": "JPM",
       "title": "Chase Freedom cardmembers can earn 5% back on groceries, meals and Red Cross donations",
       "time": "Tue, 15 Sep 2026 12:10:24",
       "sentiment": 0
@@ -600,12 +600,6 @@
       "ticker": "JPM",
       "title": "JPMorgan Chase & Co. $JPM Stock Position Lifted by Palmer Knight Co",
       "time": "Tue, 15 Sep 2026 07:34:30",
-      "sentiment": 0
-    },
-    {
-      "ticker": "JPM",
-      "title": "JPMorgan Chase & Co. $JPM Stock Position Increased by Diversify Advisory Services LLC",
-      "time": "Tue, 15 Sep 2026 07:36:33",
       "sentiment": 0
     },
     {
@@ -664,14 +658,14 @@
     },
     {
       "ticker": "VLO",
-      "title": "What Does the Future Hold for Valero Energy's Refining Business?",
-      "time": "Tue, 15 Sep 2026 15:47:00",
+      "title": "Valero Energy (VLO) Receives a Rating Update from a Top Analyst",
+      "time": "Tue, 15 Sep 2026 13:58:00",
       "sentiment": 0
     },
     {
       "ticker": "VLO",
-      "title": "Why Is Valero Energy (VLO) Moving Into Market Focus?",
-      "time": "Tue, 15 Sep 2026 09:18:00",
+      "title": "What Does the Future Hold for Valero Energy's Refining Business?",
+      "time": "Tue, 15 Sep 2026 15:47:00",
       "sentiment": 0
     },
     {
@@ -964,14 +958,20 @@
     },
     {
       "ticker": "APP",
+      "title": "APP Stock Slumps After-Hours Despite Strong Q4 Earnings — Why Does Retail See This As A Buying Opportunity?",
+      "time": "Tue, 15 Sep 2026 18:42:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
       "title": "AppLovin (APP) Expands Into Streaming TV Ads With New Content Platform",
       "time": "Tue, 15 Sep 2026 22:37:23",
       "sentiment": 0
     },
     {
       "ticker": "APP",
-      "title": "AppLovin: Why I Think The Market Is Wrong After A 43.65% Decline (NASDAQ:APP)",
-      "time": "Tue, 15 Sep 2026 14:00:15",
+      "title": "The Paid-To-Wait Play On APP Stock: An 8.1% Annualized Yield",
+      "time": "Wed, 16 Sep 2026 04:53:48",
       "sentiment": 0
     },
     {
