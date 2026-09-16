@@ -273,6 +273,12 @@ def get_session_context(ticker, prev_close):
         "regular_move_pct": None,
         "market_open": False,
         "session_phase": "pre_premarket",
+        "bar_age_minutes": None,
+        "vwap": None,
+        "opening_range_high": None,
+        "opening_range_low": None,
+        "opening_range_ready": False,
+        "breakout_confirmed": False,
     }
     if now_ny.weekday() >= 5:
         result["session_phase"] = "weekend"
@@ -307,6 +313,10 @@ def get_session_context(ticker, prev_close):
         if day.empty:
             return result
 
+        # Reject stale bars. A stale prior snapshot must never become a live trigger.
+        last_ts = day.index[-1].to_pydatetime()
+        result["bar_age_minutes"] = max(0.0, (now_ny - last_ts).total_seconds() / 60.0)
+
         pre = day[(day.index.hour >= 4) & ((day.index.hour < 9) | ((day.index.hour == 9) & (day.index.minute < 30)))]
         if not pre.empty:
             first = float(pre["Close"].iloc[0]); last = float(pre["Close"].iloc[-1])
@@ -323,11 +333,32 @@ def get_session_context(ticker, prev_close):
             if not regular.empty:
                 regular_open = float(regular["Open"].iloc[0]) if "Open" in regular.columns else float(regular["Close"].iloc[0])
                 current = float(regular["Close"].iloc[-1])
+                # 15-minute opening range + session VWAP. These are stronger entry
+                # confirmations than merely being green since the opening print.
+                first15 = regular[regular.index < regular.index[0] + pd.Timedelta(minutes=15)]
+                or_high = float(first15["High"].max()) if len(first15) >= 3 else None
+                or_low = float(first15["Low"].min()) if len(first15) >= 3 else None
+                vwap = None
+                if "Volume" in regular.columns:
+                    vol = regular["Volume"].fillna(0).astype(float)
+                    typical = ((regular["High"] + regular["Low"] + regular["Close"]) / 3).astype(float)
+                    if float(vol.sum()) > 0:
+                        vwap = float((typical * vol).sum() / vol.sum())
+                fresh = result["bar_age_minutes"] is not None and result["bar_age_minutes"] <= 20
+                opening_ready = len(first15) >= 3 and now_ny.time() >= datetime.strptime("09:45", "%H:%M").time()
+                breakout = bool(opening_ready and fresh and or_high is not None and vwap is not None
+                                and current >= or_high * 0.998 and current >= vwap
+                                and pct(current, regular_open) >= 0)
                 result.update({
                     "live_price": current,
                     "live_gap_pct": pct(current, prev_close),
                     "regular_move_pct": pct(current, regular_open),
                     "market_open": now_ny.time() < datetime.strptime("16:00", "%H:%M").time(),
+                    "vwap": vwap,
+                    "opening_range_high": or_high,
+                    "opening_range_low": or_low,
+                    "opening_range_ready": opening_ready,
+                    "breakout_confirmed": breakout,
                 })
     except Exception:
         pass
@@ -374,6 +405,7 @@ def main():
             c5=pct(float(c_done.iloc[-1]),float(c_done.iloc[-6]))
             vr=float(v_done.iloc[-1]/max(1.0,v_done.iloc[-6:-1].mean())) if len(v_done)>=6 else 1.0
             atr=atr14(frame_done); atr_pct=(atr/prev_close*100) if atr and prev_close else None
+            avg_dollar_volume = float((c_done.iloc[-20:] * v_done.iloc[-20:]).mean()) if len(c_done) >= 20 else float((c_done * v_done).tail(10).mean())
 
             # Stage 1: cheap quantitative scan across the whole universe.
             qscore=50
@@ -386,8 +418,14 @@ def main():
                 elif atr_pct>8:qscore-=8
             # Penalize obviously tiny price / highly unstable situations.
             if prev_close < 5:qscore-=10
+            # Liquidity guard: favor names that can realistically be traded with
+            # tight spreads; exclude thin names from final research candidates.
+            if avg_dollar_volume >= 500_000_000: qscore += 6
+            elif avg_dollar_volume >= 100_000_000: qscore += 4
+            elif avg_dollar_volume >= 25_000_000: qscore += 1
+            else: qscore -= 12
             rows.append(dict(ticker=t,name=WATCHLIST[t],score=qscore,c1=c1,c5=c5,vr=vr,
-                             atr_pct=atr_pct,prev_close=prev_close,news=[],nsent=0))
+                             atr_pct=atr_pct,prev_close=prev_close,avg_dollar_volume=avg_dollar_volume,news=[],nsent=0))
         except Exception:
             continue
 
@@ -426,10 +464,10 @@ def main():
             r['score'] += max(-4,min(5,pmove*1.5))
 
     for r in rows:
-        r['score']=int(max(10,min(94,round(r['score']))))
+        r['score']=int(max(0,min(100,round(r['score']))))
     rows.sort(key=lambda x:x['score'],reverse=True)
 
-    selected=[r for r in rows if r['score']>=65][:5]
+    selected=[r for r in rows if r['score']>=65 and r.get('avg_dollar_volume',0) >= 25_000_000][:5]
     candidates=[]
     for r in selected:
         pos_titles=[n['title'] for n in r['news'] if n['sentiment']>0]
@@ -447,15 +485,23 @@ def main():
         rule_gap = live_gap if market_open and live_gap is not None else gap
         confirmation_move = regular_move if market_open else r.get('premarket_move_pct')
         confirmation_available = rule_gap is not None and confirmation_move is not None
-        live_confirmation_available = market_open and regular_move is not None and live_gap is not None
+        live_confirmation_available = (market_open and regular_move is not None and live_gap is not None
+                                       and bool(r.get('opening_range_ready'))
+                                       and r.get('bar_age_minutes') is not None
+                                       and r.get('bar_age_minutes') <= 20)
+        breakout_confirmed = bool(r.get('breakout_confirmed'))
 
         if market_open:
             if rule_gap is None:
                 entry='Live-Handel aktiv. Einstieg nur bei bestätigtem Breakout bzw. klarer relativer Stärke mit Volumen.'
             elif rule_gap < -1.5:
                 entry=f'Live-Gap noch {rule_gap:+.2f}%. Warten, bis der Kurs mindestens in den erlaubten Gap-Bereich zurückkehrt und Stabilität zeigt.'
-            elif confirmation_move is not None and confirmation_move >= 0:
-                entry=f'Live-Bestätigung vorhanden: aktueller Gap {rule_gap:+.2f}%, Bewegung seit US-Open {confirmation_move:+.2f}%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.'
+            elif not r.get('opening_range_ready'):
+                entry=f'US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.'
+            elif breakout_confirmed:
+                entry=f'Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap {rule_gap:+.2f}%, seit Open {confirmation_move:+.2f}%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.'
+            elif confirmation_move is not None:
+                entry=f'Noch kein sauberer Live-Trigger. Gap {rule_gap:+.2f}%, seit Open {confirmation_move:+.2f}%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.'
             else:
                 entry=f'Live-Gap {rule_gap:+.2f}%. Erst kaufen, wenn die Bewegung seit US-Open stabil/positiv wird.'
         elif gap is None:
@@ -472,7 +518,7 @@ def main():
           'volatility_ok': (r.get('atr_pct') is not None and 1.0 <= r['atr_pct'] <= 6.0),
           'news_ok': r.get('nsent',0) >= 0,
           'gap_ok': (rule_gap is not None and -1.5 <= rule_gap <= 6.0),
-          'confirmation_ok': (confirmation_move is not None and confirmation_move >= -0.5)
+          'confirmation_ok': (breakout_confirmed if market_open else (confirmation_move is not None and confirmation_move >= -0.5))
         }
         all_rules = all(criteria.values())
 
@@ -513,6 +559,12 @@ def main():
           'premarket_move_pct':f"{r['premarket_move_pct']:+.2f}%" if r.get('premarket_move_pct') is not None else 'noch nicht verfügbar',
           'live_gap_pct':f"{live_gap:+.2f}%" if live_gap is not None else 'noch nicht verfügbar',
           'regular_move_pct':f"{regular_move:+.2f}%" if regular_move is not None else 'noch nicht verfügbar',
+          'avg_dollar_volume': round(r.get('avg_dollar_volume',0),2),
+          'bar_age_minutes': round(r.get('bar_age_minutes'),1) if r.get('bar_age_minutes') is not None else None,
+          'vwap': round(r.get('vwap'),2) if r.get('vwap') is not None else None,
+          'opening_range_high': round(r.get('opening_range_high'),2) if r.get('opening_range_high') is not None else None,
+          'opening_range_ready': bool(r.get('opening_range_ready')),
+          'breakout_confirmed': breakout_confirmed,
           'session_phase':('US-Handel live' if market_open else ('Premarket' if session_phase == 'premarket' else ('After-Hours / US-Session beendet' if session_phase == 'after_hours' else ('Wochenende' if session_phase == 'weekend' else 'Vor US-Premarket')))),
           'action_status':action_status,
           'action_reason':action_reason,

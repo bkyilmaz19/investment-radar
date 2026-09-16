@@ -69,7 +69,7 @@ a{color:#a9c5ff}.status{margin-top:14px}.section{margin-top:20px}.section h2{fon
 <section class="section"><h2>Heute besonders vorsichtig</h2><div class="panel"><div id="avoid"></div></div></section>
 <section class="section"><h2>News-Signale</h2><div class="panel" style="overflow:auto"><table><thead><tr><th>Zeit</th><th>Ticker</th><th>Schlagzeile</th><th>Signal</th></tr></thead><tbody id="news"></tbody></table></div></section>
 
-<div class="panel" style="margin-top:18px"><b>Signalregel:</b> <span class="good">KAUF HEUTE</span> erscheint nur, wenn alle hinterlegten Regeln erfüllt sind und Premarket-Daten vorliegen. <span class="warn">WARTEN</span> bedeutet: Setup interessant, aber Bestätigung fehlt. <span class="bad">NICHT KAUFEN</span> bedeutet: Mindestregeln nicht erfüllt. Das ist ein regelbasiertes Research-Signal, keine Gewinnzusage.</div>
+<div class="panel" style="margin-top:18px"><b>Signalregel:</b> <span class="good">KAUF HEUTE</span> erscheint nur, wenn alle Regeln erfüllt sind und die heutige reguläre US-Session nach der 15-Minuten-Opening-Range einen frischen Live-Trigger bestätigt. <span class="warn">WARTEN</span> bedeutet: Setup interessant, aber Bestätigung fehlt. <span class="bad">NICHT KAUFEN</span> bedeutet: Mindestregeln nicht erfüllt. Das ist ein regelbasiertes Research-Signal, keine Gewinnzusage.</div>
 <div class="panel" style="margin-top:18px">
   <div class="k">PUSH-ÜBERWACHUNG</div>
   <div class="v">Entry + Exit Alerts</div>
@@ -99,7 +99,7 @@ async function load(){
    const el=document.createElement('article'); el.className='card';
    const status=x.action_status||'WARTEN';
    const cls=status==='KAUF HEUTE'?'buy':status==='NICHT KAUFEN'?'no':'wait';
-   const labels={score_ok:'Score ≥ 75',momentum_ok:'Momentum positiv',volume_ok:'Volumen ≥ 1,10x',volatility_ok:'ATR 1–6%',news_ok:'News nicht negativ',gap_ok:'Gap im Rahmen',premarket_ok:'Premarket stabil',confirmation_ok:'Live-/Premarket stabil'};
+   const labels={score_ok:'Score ≥ 75',momentum_ok:'Momentum positiv',volume_ok:'Volumen ≥ 1,10x',volatility_ok:'ATR 1–6%',news_ok:'News nicht negativ',gap_ok:'Gap im Rahmen',premarket_ok:'Premarket stabil',confirmation_ok:'Trigger bestätigt'};
    const checks=Object.entries(x.criteria||{}).map(([k,v])=>`<div class="criterion ${v?'good':'bad'}">${v?'✓':'✕'} ${esc(labels[k]||k)}</div>`).join('');
    el.innerHTML=`<div class="row"><div><div style="font-size:19px;font-weight:800">${esc(x.ticker)}</div><div class="muted small">${esc(x.name||'')} · ${esc(x.stance||'Research')}</div></div><div class="score ${tone(+x.score)}">${esc(x.score)}</div></div>
    <div class="signal ${cls}">${esc(status)}</div>
@@ -113,7 +113,7 @@ async function load(){
    <div class="detail"><b>Stop/Invalidation:</b> ca. −${esc(x.stop_pct)}%</div>
    <div class="detail"><b>1. Gewinnziel:</b> ca. +${esc(x.target_pct)}%</div>
    <div class="detail"><b>Exit-Plan:</b> ${esc(x.exit_note)}</div>
-   <div class="muted small" style="margin-top:9px">1T: ${esc(x.change_1d)} · 5T: ${esc(x.change_5d)} · Volumen: ${esc(x.volume_ratio)} · ATR: ${esc(x.atr_pct)} · Gap: ${esc(x.gap_pct)} · Premarket: ${esc(x.premarket_move_pct)} · Live-Gap: ${esc(x.live_gap_pct||'–')} · Seit Open: ${esc(x.regular_move_pct||'–')}</div>
+   <div class="muted small" style="margin-top:9px">1T: ${esc(x.change_1d)} · 5T: ${esc(x.change_5d)} · Volumen: ${esc(x.volume_ratio)} · ATR: ${esc(x.atr_pct)} · Gap: ${esc(x.gap_pct)} · Premarket: ${esc(x.premarket_move_pct)} · Live-Gap: ${esc(x.live_gap_pct||'–')} · Seit Open: ${esc(x.regular_move_pct||'–')} · VWAP: ${esc(x.vwap??'–')} · OR15-Hoch: ${esc(x.opening_range_high??'–')}</div>
    <div class="detail" data-sizing="${esc(x.ticker)}" data-stop="${esc(x.stop_pct)}"><b>Vorgeschlagene Kaufmenge:</b> <span class="qtySuggestion">Depotdaten eintragen</span></div>`;
    cards.appendChild(el);
   });

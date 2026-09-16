@@ -24,19 +24,31 @@ def save_json(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 def market_window_open(now_ny):
-    return now_ny.weekday() < 5 and time(9, 25) <= now_ny.time() <= time(16, 15)
+    return now_ny.weekday() < 5 and time(9, 45) <= now_ny.time() <= time(16, 15)
 
 def latest_price(ticker):
+    """Fresh regular-session price only; never reuse yesterday's last bar."""
     try:
-        d = yf.download(ticker, period="1d", interval="5m", prepost=False,
+        d = yf.download(ticker, period="2d", interval="5m", prepost=False,
                         auto_adjust=False, progress=False, threads=False)
         if d.empty:
             return None
-        close = d["Close"]
-        if hasattr(close, "columns"):
-            close = close.iloc[:, 0]
-        close = close.dropna()
-        return float(close.iloc[-1]) if len(close) else None
+        if hasattr(d.columns, "levels"):
+            try: d.columns = d.columns.get_level_values(0)
+            except Exception: pass
+        idx = d.index
+        local = idx.tz_convert(NY) if idx.tz is not None else idx.tz_localize(NY)
+        d = d.copy(); d.index = local
+        now = datetime.now(NY)
+        d = d[d.index.date == now.date()]
+        d = d[((d.index.hour > 9) | ((d.index.hour == 9) & (d.index.minute >= 30))) & (d.index.hour < 16)]
+        if d.empty:
+            return None
+        close = d["Close"].dropna()
+        if not len(close): return None
+        age = (now - close.index[-1].to_pydatetime()).total_seconds()/60
+        if age > 20: return None
+        return float(close.iloc[-1])
     except Exception:
         return None
 
