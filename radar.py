@@ -10,6 +10,7 @@ import yfinance as yf
 from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("Europe/Berlin")
+NY = ZoneInfo("America/New_York")
 
 WATCHLIST = {
     "AAPL": "Apple",
@@ -255,10 +256,14 @@ def atr14(frame):
         return None
 
 def get_session_context(ticker, prev_close):
+    """Return context ONLY for the actual current New-York trading date.
+
+    Never treats the most recent intraday bar as "today". This prevents
+    yesterday's regular session/after-hours data from becoming a false live
+    confirmation during the European morning.
     """
-    Returns premarket context and, after 09:30 New York time, live regular-session
-    confirmation. This allows a setup to move from WARTEN -> KAUF HEUTE intraday.
-    """
+    now_ny = datetime.now(NY)
+    today_ny = now_ny.date()
     result = {
         "premarket_price": None,
         "gap_pct": None,
@@ -267,73 +272,65 @@ def get_session_context(ticker, prev_close):
         "live_gap_pct": None,
         "regular_move_pct": None,
         "market_open": False,
+        "session_phase": "pre_premarket",
     }
+    if now_ny.weekday() >= 5:
+        result["session_phase"] = "weekend"
+        return result
+    if now_ny.time() >= datetime.strptime("04:00", "%H:%M").time():
+        result["session_phase"] = "premarket"
+    if now_ny.time() >= datetime.strptime("09:30", "%H:%M").time():
+        result["session_phase"] = "regular"
+    if now_ny.time() >= datetime.strptime("16:00", "%H:%M").time():
+        result["session_phase"] = "after_hours"
+
     try:
         intr = yf.download(
-            ticker,
-            period="2d",
-            interval="5m",
-            prepost=True,
-            auto_adjust=False,
-            progress=False,
-            threads=False,
+            ticker, period="2d", interval="5m", prepost=True,
+            auto_adjust=False, progress=False, threads=False,
         )
         if intr.empty:
             return result
-
         if isinstance(intr.columns, pd.MultiIndex):
             intr.columns = intr.columns.get_level_values(0)
-
         intr = intr.dropna(subset=["Close"])
         if intr.empty:
             return result
 
         idx = intr.index
-        try:
-            local = idx.tz_convert("America/New_York") if idx.tz is not None else idx.tz_localize("America/New_York")
-        except Exception:
-            local = idx
+        local = idx.tz_convert(NY) if idx.tz is not None else idx.tz_localize(NY)
+        intr = intr.copy(); intr.index = local
 
-        intr = intr.copy()
-        intr.index = local
-        today = intr.index[-1].date()
-        day = intr[intr.index.date == today]
+        # Critical guard: select the real calendar date in New York, not the
+        # date of the last available bar.
+        day = intr[intr.index.date == today_ny]
         if day.empty:
             return result
 
-        pre = day[
-            (day.index.hour >= 4)
-            & ((day.index.hour < 9) | ((day.index.hour == 9) & (day.index.minute < 30)))
-        ]
+        pre = day[(day.index.hour >= 4) & ((day.index.hour < 9) | ((day.index.hour == 9) & (day.index.minute < 30)))]
         if not pre.empty:
-            first = float(pre["Close"].iloc[0])
-            last = float(pre["Close"].iloc[-1])
-            result.update(
-                {
-                    "premarket_price": last,
-                    "gap_pct": pct(first, prev_close),
-                    "premarket_move_pct": pct(last, first),
-                }
-            )
+            first = float(pre["Close"].iloc[0]); last = float(pre["Close"].iloc[-1])
+            result.update({
+                "premarket_price": last,
+                # Gap is the CURRENT premarket price vs prior official close.
+                "gap_pct": pct(last, prev_close),
+                "premarket_move_pct": pct(last, first),
+            })
 
-        regular = day[
-            ((day.index.hour > 9) | ((day.index.hour == 9) & (day.index.minute >= 30)))
-            & (day.index.hour < 16)
-        ]
-        if not regular.empty:
-            regular_open = float(regular["Open"].iloc[0]) if "Open" in regular.columns else float(regular["Close"].iloc[0])
-            current = float(regular["Close"].iloc[-1])
-            result.update(
-                {
+        # Do not allow regular-session confirmation before the actual NY open.
+        if now_ny.time() >= datetime.strptime("09:30", "%H:%M").time():
+            regular = day[((day.index.hour > 9) | ((day.index.hour == 9) & (day.index.minute >= 30))) & (day.index.hour < 16)]
+            if not regular.empty:
+                regular_open = float(regular["Open"].iloc[0]) if "Open" in regular.columns else float(regular["Close"].iloc[0])
+                current = float(regular["Close"].iloc[-1])
+                result.update({
                     "live_price": current,
                     "live_gap_pct": pct(current, prev_close),
                     "regular_move_pct": pct(current, regular_open),
-                    "market_open": True,
-                }
-            )
+                    "market_open": now_ny.time() < datetime.strptime("16:00", "%H:%M").time(),
+                })
     except Exception:
         pass
-
     return result
 
 def market_regime():
@@ -360,11 +357,23 @@ def main():
             frame=px[t].dropna(how='all')
             c,v=frame['Close'].dropna(),frame['Volume'].dropna()
             if len(c)<16: continue
-            prev_close=float(c.iloc[-1])
-            c1=pct(float(c.iloc[-1]),float(c.iloc[-2]))
-            c5=pct(float(c.iloc[-1]),float(c.iloc[-6]))
-            vr=float(v.iloc[-1]/max(1.0,v.iloc[-6:-1].mean())) if len(v)>=6 else 1.0
-            atr=atr14(frame); atr_pct=(atr/prev_close*100) if atr and prev_close else None
+            # Daily momentum/volume must use completed sessions only. During
+            # today's US session Yahoo may already expose an incomplete daily bar.
+            now_ny = datetime.now(NY)
+            try:
+                last_daily_date = pd.Timestamp(c.index[-1]).date()
+            except Exception:
+                last_daily_date = None
+            has_live_daily = last_daily_date == now_ny.date() and now_ny.weekday() < 5
+            c_done = c.iloc[:-1] if has_live_daily else c
+            v_done = v.iloc[:-1] if has_live_daily else v
+            frame_done = frame.iloc[:-1] if has_live_daily else frame
+            if len(c_done) < 16: continue
+            prev_close=float(c_done.iloc[-1])
+            c1=pct(float(c_done.iloc[-1]),float(c_done.iloc[-2]))
+            c5=pct(float(c_done.iloc[-1]),float(c_done.iloc[-6]))
+            vr=float(v_done.iloc[-1]/max(1.0,v_done.iloc[-6:-1].mean())) if len(v_done)>=6 else 1.0
+            atr=atr14(frame_done); atr_pct=(atr/prev_close*100) if atr and prev_close else None
 
             # Stage 1: cheap quantitative scan across the whole universe.
             qscore=50
@@ -433,10 +442,12 @@ def main():
         live_gap=r.get('live_gap_pct')
         regular_move=r.get('regular_move_pct')
         market_open=bool(r.get('market_open'))
+        session_phase=r.get('session_phase','pre_premarket')
 
         rule_gap = live_gap if market_open and live_gap is not None else gap
         confirmation_move = regular_move if market_open else r.get('premarket_move_pct')
         confirmation_available = rule_gap is not None and confirmation_move is not None
+        live_confirmation_available = market_open and regular_move is not None and live_gap is not None
 
         if market_open:
             if rule_gap is None:
@@ -465,12 +476,12 @@ def main():
         }
         all_rules = all(criteria.values())
 
-        if all_rules and confirmation_available:
+        if all_rules and live_confirmation_available:
             action_status = 'KAUF HEUTE'
-            action_reason = (
-                'Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und '
-                + ('Live-Kriterien sind erfüllt.' if market_open else 'Premarket-Kriterien sind erfüllt.')
-            )
+            action_reason = 'Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.'
+        elif all_rules and confirmation_available and not market_open:
+            action_status = 'WARTEN'
+            action_reason = 'Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.'
         elif r['score'] >= 65 and criteria['momentum_ok'] and criteria['volume_ok']:
             action_status = 'WARTEN'
             labels = {
@@ -502,7 +513,7 @@ def main():
           'premarket_move_pct':f"{r['premarket_move_pct']:+.2f}%" if r.get('premarket_move_pct') is not None else 'noch nicht verfügbar',
           'live_gap_pct':f"{live_gap:+.2f}%" if live_gap is not None else 'noch nicht verfügbar',
           'regular_move_pct':f"{regular_move:+.2f}%" if regular_move is not None else 'noch nicht verfügbar',
-          'session_phase':'US-Handel live' if market_open else 'Premarket / vor US-Open',
+          'session_phase':('US-Handel live' if market_open else ('Premarket' if session_phase == 'premarket' else ('After-Hours / US-Session beendet' if session_phase == 'after_hours' else ('Wochenende' if session_phase == 'weekend' else 'Vor US-Premarket')))),
           'action_status':action_status,
           'action_reason':action_reason,
           'criteria':criteria
