@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "16.09.2026 22:56 CEST",
+  "generated_at_local": "16.09.2026 23:14 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,11 +26,11 @@
       "live_gap_pct": "+1.10%",
       "regular_move_pct": "+1.00%",
       "avg_dollar_volume": 1107797729.56,
-      "bar_age_minutes": 10.7,
+      "bar_age_minutes": 29.3,
       "vwap": 647.38,
       "opening_range_high": 648.26,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
       "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
@@ -65,7 +65,7 @@
       "live_gap_pct": "-0.51%",
       "regular_move_pct": "+0.04%",
       "avg_dollar_volume": 307065640.4,
-      "bar_age_minutes": 21.8,
+      "bar_age_minutes": 39.3,
       "vwap": 228.17,
       "opening_range_high": 228.64,
       "opening_range_ready": true,
@@ -104,7 +104,7 @@
       "live_gap_pct": "-1.58%",
       "regular_move_pct": "-2.35%",
       "avg_dollar_volume": 1972468163.2,
-      "bar_age_minutes": 1.8,
+      "bar_age_minutes": 4.3,
       "vwap": 187.48,
       "opening_range_high": 189.98,
       "opening_range_ready": true,
@@ -143,7 +143,7 @@
       "live_gap_pct": "-0.97%",
       "regular_move_pct": "-1.22%",
       "avg_dollar_volume": 2211446627.72,
-      "bar_age_minutes": 2.1,
+      "bar_age_minutes": 9.3,
       "vwap": 349.99,
       "opening_range_high": 355.6,
       "opening_range_ready": true,
@@ -162,42 +162,42 @@
       }
     },
     {
-      "ticker": "DXCM",
-      "name": "DexCom",
-      "score": 87,
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 85,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.09%, 5T +2.27%, relatives Volumen 1.42x, ATR 2.94%",
-      "catalyst": "DexCom Inc (DXCM): GF Score of 95 Signals Strong Outperformance Potential",
+      "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
+      "catalyst": "CrowdStrike Stock Surges to Record High Amid Growing AI Safety Concerns",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.01%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.91,
-      "target_pct": 3.44,
+      "entry_note": "Premarket-Gap -2.55%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.09%",
-      "change_5d": "+2.27%",
-      "volume_ratio": "1.42x",
-      "atr_pct": "2.94%",
-      "gap_pct": "+0.01%",
-      "premarket_move_pct": "-0.15%",
-      "live_gap_pct": "+1.04%",
-      "regular_move_pct": "+1.51%",
-      "avg_dollar_volume": 338232310.35,
-      "bar_age_minutes": 16.8,
-      "vwap": 87.79,
-      "opening_range_high": 87.88,
+      "change_1d": "+3.02%",
+      "change_5d": "+15.46%",
+      "volume_ratio": "1.61x",
+      "atr_pct": "6.26%",
+      "gap_pct": "-2.55%",
+      "premarket_move_pct": "-1.55%",
+      "live_gap_pct": "-0.45%",
+      "regular_move_pct": "+1.90%",
+      "avg_dollar_volume": 2546497385.73,
+      "bar_age_minutes": 4.3,
+      "vwap": 241.5,
+      "opening_range_high": 241.49,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR, Gap, Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
-        "volatility_ok": true,
+        "volatility_ok": false,
         "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
+        "gap_ok": false,
+        "confirmation_ok": false
       }
     }
   ],
@@ -351,12 +351,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "DXCM",
-      "title": "Dexcom Inc. stock gains as leadership shift and FDA pilot highlight growth ambitions - ad-hoc-news.de",
-      "time": "Wed, 16 Sep 2026 09:26:50",
-      "sentiment": 1
-    },
-    {
       "ticker": "XOM",
       "title": "ExxonMobil (XOM) Wins Approval For Rose Carbon Capture Project In Texas",
       "time": "Wed, 16 Sep 2026 07:29:14",
@@ -424,12 +418,6 @@
     },
     {
       "ticker": "TMO",
-      "title": "Stifel Maintains Thermo Fisher Scientific(TMO.US) With Buy Rating",
-      "time": "Wed, 16 Sep 2026 14:22:48",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TMO",
       "title": "A Look at Thermo Fisher Scientific Inc (TMO) After 4.5% Gain -- GF Value $598.67 vs Price $641.39",
       "time": "Tue, 15 Sep 2026 21:15:34",
       "sentiment": 0
@@ -442,8 +430,14 @@
     },
     {
       "ticker": "TMO",
-      "title": "Thermo Fisher stock gains as conference outlook and dividend support valuation - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 21:09:06",
+      "title": "Thermo Fisher Scientific stock hits 52-week high at 647.72 USD",
+      "time": "Wed, 16 Sep 2026 13:39:12",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "9/15/2026 Market Summary: 16 S&P 500 Stocks Hit Highs",
+      "time": "Wed, 16 Sep 2026 11:02:20",
       "sentiment": 0
     },
     {
@@ -466,14 +460,14 @@
     },
     {
       "ticker": "CRWD",
-      "title": "CrowdStrike CEO Kurtz George Offloads 20,000 Shares Between $205.13 and $238.75 (NASDAQ: CRWD)",
-      "time": "Wed, 16 Sep 2026 18:04:00",
+      "title": "CrowdStrike(CRWD.US) Officer Sells US$4.41 Million in Common Stock",
+      "time": "Wed, 16 Sep 2026 00:02:27",
       "sentiment": 0
     },
     {
       "ticker": "CRWD",
-      "title": "CrowdStrike(CRWD.US) Officer Sells US$4.41 Million in Common Stock",
-      "time": "Wed, 16 Sep 2026 00:02:27",
+      "title": "CrowdStrike (NASDAQ: CRWD) director unloads 50,000 shares after exercising options",
+      "time": "Wed, 16 Sep 2026 00:04:52",
       "sentiment": 0
     },
     {
@@ -484,14 +478,14 @@
     },
     {
       "ticker": "QCOM",
-      "title": "Why Qualcomm (QCOM) Stock Is Trading Up Today",
-      "time": "Tue, 15 Sep 2026 21:35:31",
+      "title": "Qualcomm’s Discount Could Vanish If Its AI Bet Pays Off",
+      "time": "Wed, 16 Sep 2026 15:39:14",
       "sentiment": 0
     },
     {
       "ticker": "QCOM",
-      "title": "Qualcomm’s Discount Could Vanish If Its AI Bet Pays Off",
-      "time": "Wed, 16 Sep 2026 15:39:14",
+      "title": "Why Qualcomm (QCOM) Stock Is Trading Up Today",
+      "time": "Tue, 15 Sep 2026 21:35:31",
       "sentiment": 0
     },
     {
@@ -688,20 +682,20 @@
     },
     {
       "ticker": "CVX",
-      "title": "Chevron (CVX) Rises As Market Takes a Dip: Key Facts",
-      "time": "Tue, 15 Sep 2026 21:45:07",
+      "title": "Will Chevron’s (CVX) Expanded Venezuelan Oil Ventures Redefine Its Long-Term Cash Flow Narrative?",
+      "time": "Wed, 16 Sep 2026 18:09:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CVX",
+      "title": "Why Did DELL, CRWD, CVX Stocks Jump To 52-Week Highs Today?",
+      "time": "Wed, 16 Sep 2026 03:55:17",
       "sentiment": 0
     },
     {
       "ticker": "CVX",
       "title": "Why Did DELL, CRWD, CVX Stocks Jump To 52-Week Highs Today?",
       "time": "Wed, 16 Sep 2026 03:51:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CVX",
-      "title": "What’s Driving Chevron (NYSE:CVX) Into Focus Today?",
-      "time": "Wed, 16 Sep 2026 00:52:00",
       "sentiment": 0
     },
     {
@@ -718,12 +712,6 @@
     },
     {
       "ticker": "DHR",
-      "title": "Danaher declares $0.40 quarterly dividend",
-      "time": "Tue, 15 Sep 2026 21:11:20",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DHR",
       "title": "Danaher stock heads into the open after a 3.0% gain - ad-hoc-news.de",
       "time": "Wed, 16 Sep 2026 02:37:56",
       "sentiment": 0
@@ -732,6 +720,12 @@
       "ticker": "DHR",
       "title": "Danone (ENXTPA:BN) Stock Could Be Undervalued Despite Its 27% Three Year Gain",
       "time": "Wed, 16 Sep 2026 14:10:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DHR",
+      "title": "DHR Looks 13.9% Undervalued on GF Value™ as Dividend Maintains S",
+      "time": "Wed, 16 Sep 2026 07:44:06",
       "sentiment": 0
     },
     {
@@ -748,14 +742,14 @@
     },
     {
       "ticker": "PSX",
-      "title": "Phillips 66 stock heads into the open after a 3.1% jump - ad-hoc-news.de",
-      "time": "Wed, 16 Sep 2026 02:21:15",
+      "title": "Is Phillips 66 (PSX) Overvalued After 3.1% Rally? GF Value Says",
+      "time": "Tue, 15 Sep 2026 21:33:27",
       "sentiment": 0
     },
     {
       "ticker": "PSX",
-      "title": "Is Phillips 66 (PSX) Overvalued After 3.1% Rally? GF Value Says",
-      "time": "Tue, 15 Sep 2026 21:33:27",
+      "title": "Phillips 66 stock heads into the open after a 3.1% jump - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 02:21:15",
       "sentiment": 0
     },
     {
@@ -778,8 +772,8 @@
     },
     {
       "ticker": "ON",
-      "title": "ASX vs. TER: Which AI Semiconductor Stock Should You Buy Right Now?",
-      "time": "Wed, 16 Sep 2026 14:04:00",
+      "title": "AI needs more power in less space. onsemi is building for that.",
+      "time": "Wed, 16 Sep 2026 18:30:00",
       "sentiment": 0
     },
     {
@@ -790,14 +784,14 @@
     },
     {
       "ticker": "ON",
-      "title": "symbol__ Stock Quote Price and Forecast",
-      "time": "Wed, 16 Sep 2026 07:56:12",
+      "title": "ASX vs. TER: Which AI Semiconductor Stock Should You Buy Right Now?",
+      "time": "Wed, 16 Sep 2026 13:24:25",
       "sentiment": 0
     },
     {
       "ticker": "ON",
-      "title": "ASML vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy in 2026?",
-      "time": "Wed, 16 Sep 2026 12:25:00",
+      "title": "symbol__ Stock Quote Price and Forecast",
+      "time": "Wed, 16 Sep 2026 07:56:12",
       "sentiment": 0
     },
     {
@@ -814,14 +808,20 @@
     },
     {
       "ticker": "DXCM",
+      "title": "Stock futures rise as Fed rate decision takes center stage",
+      "time": "Wed, 16 Sep 2026 12:38:22",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DXCM",
       "title": "6 Best Internet of Things Stocks for 2026 and How to Invest",
       "time": "Wed, 16 Sep 2026 16:27:00",
       "sentiment": 0
     },
     {
       "ticker": "DXCM",
-      "title": "Stock futures rise as Fed rate decision takes center stage",
-      "time": "Wed, 16 Sep 2026 12:38:22",
+      "title": "Stock futures mixed as Fed rate decision takes center stage",
+      "time": "Wed, 16 Sep 2026 08:18:25",
       "sentiment": 0
     },
     {
@@ -832,14 +832,14 @@
     },
     {
       "ticker": "XOM",
-      "title": "XOM|Exxon Mobil Corp|Price:164.890|Chg%:-4.430",
-      "time": "Wed, 16 Sep 2026 17:06:22",
+      "title": "ExxonMobil Holdings (XOM) Shares Moved, What Is Drawing Fresh Attention?",
+      "time": "Wed, 16 Sep 2026 10:10:41",
       "sentiment": 0
     },
     {
       "ticker": "XOM",
-      "title": "ExxonMobil Holdings (XOM) Shares Moved, What Is Drawing Fresh Attention?",
-      "time": "Wed, 16 Sep 2026 10:10:41",
+      "title": "XOM|Exxon Mobil Corp|Price:164.890|Chg%:-4.430",
+      "time": "Wed, 16 Sep 2026 17:06:22",
       "sentiment": 0
     },
     {
@@ -976,14 +976,14 @@
     },
     {
       "ticker": "WFC",
-      "title": "Wells Fargo & Co Stock (WFC) Moved Down by 3.55% on Sep 16: What Investors Need To Know",
-      "time": "Wed, 16 Sep 2026 19:15:26",
+      "title": "Learn Why The Bull Case For Wells Fargo Stock Could Change Following Asset Cap Removal",
+      "time": "Wed, 16 Sep 2026 10:24:15",
       "sentiment": 0
     },
     {
       "ticker": "WFC",
-      "title": "Learn Why The Bull Case For Wells Fargo Stock Could Change Following Asset Cap Removal",
-      "time": "Wed, 16 Sep 2026 10:24:15",
+      "title": "Wells Fargo & Co Stock (WFC) Moved Down by 3.55% on Sep 16: What Investors Need To Know",
+      "time": "Wed, 16 Sep 2026 19:15:26",
       "sentiment": 0
     },
     {
@@ -1012,8 +1012,8 @@
     },
     {
       "ticker": "ABBV",
-      "title": "Is AbbVie the Best Dividend King to Buy in September?",
-      "time": "Wed, 16 Sep 2026 14:33:47",
+      "title": "Cantor Fitzgerald reiterates Abbvie stock rating on drug data",
+      "time": "Wed, 16 Sep 2026 12:52:47",
       "sentiment": 0
     },
     {
@@ -1030,14 +1030,14 @@
     },
     {
       "ticker": "SCHW",
-      "title": "Schwab's Blossoming Wealth Management Foray Provides Intriguing Upside for Investors",
-      "time": "Wed, 16 Sep 2026 00:45:00",
+      "title": "Truist Financial Maintains Charles Schwab(SCHW.US) With Buy Rating",
+      "time": "Wed, 16 Sep 2026 16:13:26",
       "sentiment": 0
     },
     {
       "ticker": "SCHW",
-      "title": "Truist Financial Maintains Charles Schwab(SCHW.US) With Buy Rating",
-      "time": "Wed, 16 Sep 2026 16:13:26",
+      "title": "Schwab's Blossoming Wealth Management Foray Provides Intriguing Upside for Investors",
+      "time": "Wed, 16 Sep 2026 00:45:00",
       "sentiment": 0
     },
     {
