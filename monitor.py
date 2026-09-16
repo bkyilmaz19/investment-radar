@@ -60,7 +60,13 @@ def push(title, message, priority="default", tags="bell"):
     server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
     try:
         token = os.environ.get("NTFY_TOKEN", "").strip()
-        headers = {"Title": title, "Priority": priority, "Tags": tags}
+        # requests/http.client encodes HTTP header values as latin-1. Keep ntfy
+        # headers ASCII-safe; the message body remains UTF-8 and may contain
+        # umlauts/emojis without problems.
+        safe_title = str(title).encode("ascii", "ignore").decode("ascii").strip() or "Investment Radar"
+        safe_priority = str(priority).encode("ascii", "ignore").decode("ascii")
+        safe_tags = str(tags).encode("ascii", "ignore").decode("ascii")
+        headers = {"Title": safe_title, "Priority": safe_priority, "Tags": safe_tags}
         if token:
             headers["Authorization"] = f"Bearer {token}"
         r = requests.post(
@@ -230,7 +236,7 @@ def main():
             msg += f"1. Ziel: ca. {target_price:.2f} (+{target_pct:.2f}%)\n"
         msg += f"Entry-Regel: {c.get('entry_note','')}{qty_text}\nKeine Gewinngarantie."
 
-        if push(f"🟢 ENTRY-SIGNAL {ticker}", msg, priority="high", tags="chart_with_upwards_trend"):
+        if push(f"ENTRY-SIGNAL {ticker}", msg, priority="high", tags="chart_with_upwards_trend"):
             state["signals"][signal_key] = {
                 "sent_at": datetime.now(BERLIN).isoformat(),
                 "price": price
@@ -294,7 +300,7 @@ def main():
                 + f"{reason}\n"
                 + (f"Aktion: {qty} Stück verkaufen / Position vollständig schließen." if qty else "Aktion: Position jetzt prüfen und Exit erwägen.")
             )
-            if push(f"🔴 EXIT-SIGNAL {ticker}", msg, priority="high", tags=tags):
+            if push(f"EXIT-SIGNAL {ticker}", msg, priority="high", tags=tags):
                 p["status"] = "exit_alerted"
                 p["exit_alert_at"] = now_ny.isoformat()
                 p["exit_reference_price"] = price
