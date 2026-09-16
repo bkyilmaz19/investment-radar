@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "16.09.2026 19:06 CEST",
+  "generated_at_local": "16.09.2026 19:10 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +4.53%, 5T +6.36%, relatives Volumen 1.63x, ATR 2.34%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Tuesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.07%, seit Open +0.97%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.08%, seit Open +0.99%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.52,
       "target_pct": 2.74,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "2.34%",
       "gap_pct": "+0.17%",
       "premarket_move_pct": "+0.08%",
-      "live_gap_pct": "+1.07%",
-      "regular_move_pct": "+0.97%",
+      "live_gap_pct": "+1.08%",
+      "regular_move_pct": "+0.99%",
       "avg_dollar_volume": 1107797729.56,
-      "bar_age_minutes": 1.9,
-      "vwap": 644.34,
+      "bar_age_minutes": 0.6,
+      "vwap": 644.41,
       "opening_range_high": 648.26,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -52,7 +52,7 @@
       "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.37x, ATR 2.90%",
       "catalyst": "ResMed Shares Jump Following RBC Capital Upgrade to Outperform",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.61%, seit Open -0.07%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.70%, seit Open -0.15%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.88,
       "target_pct": 3.39,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,10 +62,10 @@
       "atr_pct": "2.90%",
       "gap_pct": "-1.05%",
       "premarket_move_pct": "+0.00%",
-      "live_gap_pct": "-0.61%",
-      "regular_move_pct": "-0.07%",
+      "live_gap_pct": "-0.70%",
+      "regular_move_pct": "-0.15%",
       "avg_dollar_volume": 307065640.4,
-      "bar_age_minutes": 1.9,
+      "bar_age_minutes": 5.6,
       "vwap": 228.02,
       "opening_range_high": 228.64,
       "opening_range_ready": true,
@@ -91,7 +91,7 @@
       "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
       "catalyst": "CrowdStrike Stock Surges to Record High Amid Growing AI Safety Concerns",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.40%, seit Open +1.94%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.36%, seit Open +1.98%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,17 +101,17 @@
       "atr_pct": "6.26%",
       "gap_pct": "-2.55%",
       "premarket_move_pct": "-1.55%",
-      "live_gap_pct": "-0.40%",
-      "regular_move_pct": "+1.94%",
+      "live_gap_pct": "-0.36%",
+      "regular_move_pct": "+1.98%",
       "avg_dollar_volume": 2546035442.27,
-      "bar_age_minutes": 1.9,
+      "bar_age_minutes": 0.6,
       "vwap": 241.61,
       "opening_range_high": 241.49,
       "opening_range_ready": true,
-      "breakout_confirmed": false,
+      "breakout_confirmed": true,
       "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR, Live-/Premarket-Bestätigung",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -119,18 +119,18 @@
         "volatility_ok": false,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": false
+        "confirmation_ok": true
       }
     },
     {
       "ticker": "VLO",
       "name": "Valero",
-      "score": 94,
+      "score": 95,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.68%, 5T +3.71%, relatives Volumen 1.06x, ATR 3.21%",
       "catalyst": "UBS Bets on Valero Energy (VLO) to Shatter its Record High",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.78%, seit Open +3.17%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.09%, seit Open +3.49%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.08,
       "target_pct": 3.75,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +140,11 @@
       "atr_pct": "3.21%",
       "gap_pct": "-1.32%",
       "premarket_move_pct": "-2.06%",
-      "live_gap_pct": "+1.78%",
-      "regular_move_pct": "+3.17%",
+      "live_gap_pct": "+2.09%",
+      "regular_move_pct": "+3.49%",
       "avg_dollar_volume": 975699093.76,
-      "bar_age_minutes": 2.0,
-      "vwap": 398.88,
+      "bar_age_minutes": 0.6,
+      "vwap": 399.02,
       "opening_range_high": 396.74,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -169,7 +169,7 @@
       "thesis": "1T +2.09%, 5T +2.27%, relatives Volumen 1.42x, ATR 2.94%",
       "catalyst": "DexCom Inc (DXCM): GF Score of 95 Signals Strong Outperformance Potential",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.72%, seit Open +2.19%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.75%, seit Open +2.22%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.91,
       "target_pct": 3.44,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,10 +179,10 @@
       "atr_pct": "2.94%",
       "gap_pct": "+0.01%",
       "premarket_move_pct": "-0.15%",
-      "live_gap_pct": "+1.72%",
-      "regular_move_pct": "+2.19%",
+      "live_gap_pct": "+1.75%",
+      "regular_move_pct": "+2.22%",
       "avg_dollar_volume": 338232310.35,
-      "bar_age_minutes": 1.9,
+      "bar_age_minutes": 0.6,
       "vwap": 88.01,
       "opening_range_high": 87.88,
       "opening_range_ready": true,
@@ -327,6 +327,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "OXY",
+      "title": "US Stock Market Moves | Oil Stocks Decline Broadly, Occidental Petroleum (OXY.US) Falls 5%",
+      "time": "Wed, 16 Sep 2026 15:29:15",
+      "sentiment": -1
+    },
+    {
       "ticker": "CVX",
       "title": "Chevron stock heads into the open after a 2.6% surge - ad-hoc-news.de",
       "time": "Wed, 16 Sep 2026 05:58:05",
@@ -343,12 +349,6 @@
       "title": "ON Stock Falls 9% After-Hours While SYNA Soars 12% On $7B Synaptics Takeover",
       "time": "Tue, 15 Sep 2026 23:55:02",
       "sentiment": -1
-    },
-    {
-      "ticker": "ON",
-      "title": "ON Semiconductor Corp. stock outperforms competitors on strong trading day",
-      "time": "Tue, 15 Sep 2026 20:59:00",
-      "sentiment": 1
     },
     {
       "ticker": "DXCM",
@@ -403,6 +403,12 @@
       "title": "JPMorgan vs. Wells Fargo: Which Bank Stock Has More Upside Potential?",
       "time": "Wed, 16 Sep 2026 15:13:00",
       "sentiment": -1
+    },
+    {
+      "ticker": "WFC",
+      "title": "Wells Fargo CFO Signals Stronger 2026 Loan Growth",
+      "time": "Wed, 16 Sep 2026 17:06:19",
+      "sentiment": 1
     },
     {
       "ticker": "WFC",
@@ -502,8 +508,8 @@
     },
     {
       "ticker": "QCOM",
-      "title": "What Was Qualcomm Stock Telling You Before It Ran?",
-      "time": "Tue, 15 Sep 2026 20:26:37",
+      "title": "QCOM Stock Climbs To 2-Month High As AI Data Center Push Gains Momentum",
+      "time": "Wed, 16 Sep 2026 03:18:00",
       "sentiment": 0
     },
     {
@@ -675,12 +681,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "OXY",
-      "title": "NewEdge Advisors LLC Buys 22,183 Shares of Occidental Petroleum Corporation $OXY",
-      "time": "Wed, 16 Sep 2026 07:57:32",
-      "sentiment": 0
-    },
-    {
       "ticker": "CVX",
       "title": "Chevron (CVX) After LNG And Venezuela Moves, Buying Opportunity Or Fairly Priced?",
       "time": "Wed, 16 Sep 2026 13:54:53",
@@ -784,6 +784,12 @@
     },
     {
       "ticker": "ON",
+      "title": "How Is Teradyne Stock Performance Compared to Other Semiconductor Stocks",
+      "time": "Wed, 16 Sep 2026 11:48:46",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ON",
       "title": "ASX vs. TER: Which AI Semiconductor Stock Should You Buy Right Now?",
       "time": "Wed, 16 Sep 2026 15:17:03",
       "sentiment": 0
@@ -868,12 +874,6 @@
     },
     {
       "ticker": "ANET",
-      "title": "Bull of the Day: Arista Networks, Inc. (ANET)",
-      "time": "Wed, 16 Sep 2026 08:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ANET",
       "title": "Why the Market Dipped But Arista Networks (ANET) Gained Today",
       "time": "Tue, 15 Sep 2026 21:45:04",
       "sentiment": 0
@@ -882,6 +882,12 @@
       "ticker": "ANET",
       "title": "Ciena Climbs 4% as $10B Backlog Outlook Outweighs Month-Long Slide; Arista and Cisco Edge Higher",
       "time": "Wed, 16 Sep 2026 13:45:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ANET",
+      "title": "Bull of the Day: Arista Networks, Inc. (ANET)",
+      "time": "Wed, 16 Sep 2026 09:08:00",
       "sentiment": 0
     },
     {
@@ -984,12 +990,6 @@
       "ticker": "WFC",
       "title": "Wells Fargo stock edges lower ahead of the open after 1.8% drop - ad-hoc-news.de",
       "time": "Wed, 16 Sep 2026 02:53:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WFC",
-      "title": "Wells Fargo (NYSE:WFC) Keeps Its Place In Today’s Sector Spotlight",
-      "time": "Tue, 15 Sep 2026 22:52:00",
       "sentiment": 0
     },
     {
