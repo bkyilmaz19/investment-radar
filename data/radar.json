@@ -1,9 +1,9 @@
 {
-  "generated_at_local": "16.09.2026 15:12 CEST",
+  "generated_at_local": "16.09.2026 15:30 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
-  "summary": "Gemischt / selektiv. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
+  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
   "candidates": [
     {
       "ticker": "TMO",
@@ -13,7 +13,7 @@
       "thesis": "1T +4.53%, 5T +6.36%, relatives Volumen 1.63x, ATR 2.34%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Tuesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.10%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
       "stop_pct": 1.52,
       "target_pct": 2.74,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -21,19 +21,19 @@
       "change_5d": "+6.36%",
       "volume_ratio": "1.63x",
       "atr_pct": "2.34%",
-      "gap_pct": "+0.10%",
-      "premarket_move_pct": "+0.00%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
+      "gap_pct": "+0.17%",
+      "premarket_move_pct": "+0.08%",
+      "live_gap_pct": "+0.19%",
+      "regular_move_pct": "+0.00%",
       "avg_dollar_volume": 1107797729.56,
-      "bar_age_minutes": 57.8,
+      "bar_age_minutes": 1.0,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Premarket",
+      "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -41,46 +41,7 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 96,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
-      "catalyst": "CrowdStrike Stock Surges to Record High Amid Growing AI Safety Concerns",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -1.32%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 2.5,
-      "target_pct": 4.5,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.02%",
-      "change_5d": "+15.46%",
-      "volume_ratio": "1.61x",
-      "atr_pct": "6.26%",
-      "gap_pct": "-1.32%",
-      "premarket_move_pct": "-0.30%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 2546035442.27,
-      "bar_age_minutes": 2.8,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": false,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
       }
     },
     {
@@ -91,7 +52,7 @@
       "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.37x, ATR 2.90%",
       "catalyst": "ResMed Shares Jump Following RBC Capital Upgrade to Outperform",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -1.05%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
       "stop_pct": 1.88,
       "target_pct": 3.39,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,17 +62,17 @@
       "atr_pct": "2.90%",
       "gap_pct": "-1.05%",
       "premarket_move_pct": "+0.00%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
+      "live_gap_pct": "-1.13%",
+      "regular_move_pct": "+0.00%",
       "avg_dollar_volume": 307065640.4,
-      "bar_age_minutes": 52.8,
+      "bar_age_minutes": 1.0,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Premarket",
+      "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -119,18 +80,18 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
       }
     },
     {
       "ticker": "JPM",
       "name": "JPMorgan",
-      "score": 92,
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +0.67%, 5T -0.29%, relatives Volumen 2.26x, ATR 1.78%",
       "catalyst": "JPMorgan Chase Stock Is Beating Nu This Year, but Only One of Them Had Positive Free Cash Flow Last Year",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.15%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
       "stop_pct": 1.16,
       "target_pct": 2.08,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -138,19 +99,19 @@
       "change_5d": "-0.29%",
       "volume_ratio": "2.26x",
       "atr_pct": "1.78%",
-      "gap_pct": "+0.15%",
-      "premarket_move_pct": "-0.15%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
+      "gap_pct": "+0.06%",
+      "premarket_move_pct": "-0.24%",
+      "live_gap_pct": "+0.52%",
+      "regular_move_pct": "+0.00%",
       "avg_dollar_volume": 2211446627.72,
-      "bar_age_minutes": 1.7,
+      "bar_age_minutes": 1.0,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Premarket",
+      "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -158,18 +119,18 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
       }
     },
     {
       "ticker": "QCOM",
       "name": "Qualcomm",
-      "score": 89,
+      "score": 92,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.85x, ATR 4.07%",
       "catalyst": "QCOM Stock Is 7% From Its Record High; Executives To Join Trump In China Visit",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.24%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -177,17 +138,56 @@
       "change_5d": "+7.88%",
       "volume_ratio": "0.85x",
       "atr_pct": "4.07%",
-      "gap_pct": "+0.24%",
-      "premarket_move_pct": "-0.64%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
+      "gap_pct": "+0.86%",
+      "premarket_move_pct": "-0.03%",
+      "live_gap_pct": "+0.59%",
+      "regular_move_pct": "+0.00%",
       "avg_dollar_volume": 1972362995.2,
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 1.0,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Premarket",
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "DHR",
+      "name": "Danaher",
+      "score": 86,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.01%, 5T +2.01%, relatives Volumen 1.09x, ATR 2.56%",
+      "catalyst": "Danaher Corp (DHR) Shares Surge 3.0% -- What GF Score of 80 Tells Investors",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "stop_pct": 1.66,
+      "target_pct": 3.0,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.01%",
+      "change_5d": "+2.01%",
+      "volume_ratio": "1.09x",
+      "atr_pct": "2.56%",
+      "gap_pct": "-0.03%",
+      "premarket_move_pct": "+0.00%",
+      "live_gap_pct": "+0.53%",
+      "regular_move_pct": "+0.00%",
+      "avg_dollar_volume": 689142182.56,
+      "bar_age_minutes": 1.0,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
@@ -240,12 +240,6 @@
       "ticker": "CRWD",
       "title": "CrowdStrike Stock Surges to Record High Amid Growing AI Safety Concerns",
       "time": "Wed, 16 Sep 2026 12:25:23",
-      "sentiment": 1
-    },
-    {
-      "ticker": "CRWD",
-      "title": "Is CrowdStrike Stock Betting That Its Record Quarter Is The New Normal?",
-      "time": "Tue, 15 Sep 2026 14:00:31",
       "sentiment": 1
     },
     {
@@ -369,12 +363,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "TTD",
-      "title": "Is The Trade Desk’s Cash Worth More Than Its Lost Growth?",
-      "time": "Tue, 15 Sep 2026 13:18:59",
-      "sentiment": 1
-    },
-    {
       "ticker": "META",
       "title": "Meta Platforms Inc. (META) Stock Could Surge as AI Monetization Gains Momentum, Says JPMorgan",
       "time": "Tue, 15 Sep 2026 21:10:27",
@@ -412,8 +400,8 @@
     },
     {
       "ticker": "SCHW",
-      "title": "Charles Schwab Stock (SCHW) Rises as Net New Assets Hit a Record High",
-      "time": "Tue, 15 Sep 2026 16:15:05",
+      "title": "Charles Schwab stock gains on record August net new assets - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 08:45:45",
       "sentiment": 1
     },
     {
@@ -444,6 +432,12 @@
       "ticker": "CRWD",
       "title": "Why CrowdStrike (CRWD) Stock Is Up Today",
       "time": "Tue, 15 Sep 2026 22:31:31",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "CrowdStrike Stock Pauses Wednesday: What's Going On?",
+      "time": "Wed, 16 Sep 2026 13:12:30",
       "sentiment": 0
     },
     {
@@ -951,6 +945,18 @@
       "sentiment": 0
     },
     {
+      "ticker": "TTD",
+      "title": "Trade Desk CFO Nathan Olmstead Granted 398,262 Shares at No Cost on September 14, 2026",
+      "time": "Tue, 15 Sep 2026 18:47:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Why Meta's Zuckerberg, Nvidia's Huang Say An AI Slowdown Is Not Needed",
+      "time": "Wed, 16 Sep 2026 13:22:00",
+      "sentiment": 0
+    },
+    {
       "ticker": "META",
       "title": "Mark Zuckerberg Rejects AI Slowdown Calls and Emphasizes Model Alignment",
       "time": "Wed, 16 Sep 2026 12:25:23",
@@ -966,12 +972,6 @@
       "ticker": "META",
       "title": "Is Meta Stock Still The Self-Funding Ad Business You Bought?",
       "time": "Tue, 15 Sep 2026 15:53:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Meta Could Pay Billions To End Teen Addiction Trial – Gary Black Says That Could Boost META Stock",
-      "time": "Tue, 15 Sep 2026 14:45:26",
       "sentiment": 0
     },
     {
@@ -1060,14 +1060,14 @@
     },
     {
       "ticker": "SCHW",
-      "title": "Charles Schwab core net new assets rise 12% M/M, 46% Y/Y in August (SCHW:NYSE)",
-      "time": "Tue, 15 Sep 2026 13:17:11",
+      "title": "Charles Schwab (SCHW) Brings AI Tools to 16,000 Financial Advisors",
+      "time": "Wed, 16 Sep 2026 05:14:00",
       "sentiment": 0
     },
     {
       "ticker": "SCHW",
-      "title": "Charles Schwab (SCHW) Brings AI Tools to 16,000 Financial Advisors",
-      "time": "Wed, 16 Sep 2026 05:14:00",
+      "title": "Schwab's Blossoming Wealth Management Foray Provides Intriguing Upside for Investors",
+      "time": "Wed, 16 Sep 2026 00:45:00",
       "sentiment": 0
     }
   ]
