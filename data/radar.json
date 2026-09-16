@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "16.09.2026 21:40 CEST",
+  "generated_at_local": "16.09.2026 21:51 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +4.53%, 5T +6.36%, relatives Volumen 1.63x, ATR 2.34%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Tuesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.27%, seit Open +1.17%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.41%, seit Open +1.31%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.52,
       "target_pct": 2.74,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "2.34%",
       "gap_pct": "+0.17%",
       "premarket_move_pct": "+0.08%",
-      "live_gap_pct": "+1.27%",
-      "regular_move_pct": "+1.17%",
+      "live_gap_pct": "+1.41%",
+      "regular_move_pct": "+1.31%",
       "avg_dollar_volume": 1107797729.56,
-      "bar_age_minutes": 0.4,
-      "vwap": 646.85,
+      "bar_age_minutes": 1.5,
+      "vwap": 647.09,
       "opening_range_high": 648.26,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -52,7 +52,7 @@
       "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.37x, ATR 2.90%",
       "catalyst": "ResMed Shares Jump Following RBC Capital Upgrade to Outperform",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.61%, seit Open -0.06%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.39%, seit Open +0.16%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.88,
       "target_pct": 3.39,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,17 +62,17 @@
       "atr_pct": "2.90%",
       "gap_pct": "-1.05%",
       "premarket_move_pct": "+0.00%",
-      "live_gap_pct": "-0.61%",
-      "regular_move_pct": "-0.06%",
+      "live_gap_pct": "-0.39%",
+      "regular_move_pct": "+0.16%",
       "avg_dollar_volume": 307065640.4,
-      "bar_age_minutes": 0.4,
-      "vwap": 228.11,
+      "bar_age_minutes": 1.5,
+      "vwap": 228.12,
       "opening_range_high": 228.64,
       "opening_range_ready": true,
-      "breakout_confirmed": false,
+      "breakout_confirmed": true,
       "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -80,7 +80,46 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": false
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 95,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
+      "catalyst": "CrowdStrike Stock Surges to Record High Amid Growing AI Safety Concerns",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.27%, seit Open +2.08%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.02%",
+      "change_5d": "+15.46%",
+      "volume_ratio": "1.61x",
+      "atr_pct": "6.26%",
+      "gap_pct": "-2.55%",
+      "premarket_move_pct": "-1.55%",
+      "live_gap_pct": "-0.27%",
+      "regular_move_pct": "+2.08%",
+      "avg_dollar_volume": 2546497385.73,
+      "bar_age_minutes": 1.5,
+      "vwap": 241.52,
+      "opening_range_high": 241.49,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": false,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     },
     {
@@ -91,7 +130,7 @@
       "thesis": "1T +3.68%, 5T +3.71%, relatives Volumen 1.06x, ATR 3.21%",
       "catalyst": "UBS Bets on Valero Energy (VLO) to Shatter its Record High",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.01%, seit Open +3.41%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.25%, seit Open +3.65%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.08,
       "target_pct": 3.75,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +140,11 @@
       "atr_pct": "3.21%",
       "gap_pct": "-1.32%",
       "premarket_move_pct": "-2.06%",
-      "live_gap_pct": "+2.01%",
-      "regular_move_pct": "+3.41%",
+      "live_gap_pct": "+2.25%",
+      "regular_move_pct": "+3.65%",
       "avg_dollar_volume": 975699093.76,
-      "bar_age_minutes": 0.4,
-      "vwap": 401.41,
+      "bar_age_minutes": 1.5,
+      "vwap": 401.56,
       "opening_range_high": 396.74,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -123,53 +162,14 @@
       }
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 94,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
-      "catalyst": "CrowdStrike Stock Surges to Record High Amid Growing AI Safety Concerns",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.78%, seit Open +1.56%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 2.5,
-      "target_pct": 4.5,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.02%",
-      "change_5d": "+15.46%",
-      "volume_ratio": "1.61x",
-      "atr_pct": "6.26%",
-      "gap_pct": "-2.55%",
-      "premarket_move_pct": "-1.55%",
-      "live_gap_pct": "-0.78%",
-      "regular_move_pct": "+1.56%",
-      "avg_dollar_volume": 2546497385.73,
-      "bar_age_minutes": 0.4,
-      "vwap": 241.53,
-      "opening_range_high": 241.49,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR, Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": false,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
       "ticker": "DXCM",
       "name": "DexCom",
-      "score": 92,
+      "score": 91,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +2.09%, 5T +2.27%, relatives Volumen 1.42x, ATR 2.94%",
       "catalyst": "DexCom Inc (DXCM): GF Score of 95 Signals Strong Outperformance Potential",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.97%, seit Open +1.44%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.81%, seit Open +1.28%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.91,
       "target_pct": 3.44,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +179,11 @@
       "atr_pct": "2.94%",
       "gap_pct": "+0.01%",
       "premarket_move_pct": "-0.15%",
-      "live_gap_pct": "+0.97%",
-      "regular_move_pct": "+1.44%",
+      "live_gap_pct": "+0.81%",
+      "regular_move_pct": "+1.28%",
       "avg_dollar_volume": 338232310.35,
-      "bar_age_minutes": 0.4,
-      "vwap": 87.9,
+      "bar_age_minutes": 1.5,
+      "vwap": 87.85,
       "opening_range_high": 87.88,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -283,12 +283,6 @@
       "title": "JPMorgan vs. Wells Fargo: Which Bank Stock Has More Upside Potential?",
       "time": "Wed, 16 Sep 2026 15:13:00",
       "sentiment": -1
-    },
-    {
-      "ticker": "JPM",
-      "title": "JPMorgan Chase Stock Is Beating Nu This Year, but Only One of Them Had Positive Free Cash Flow Last Year",
-      "time": "Wed, 16 Sep 2026 13:21:00",
-      "sentiment": 1
     },
     {
       "ticker": "JPM",
@@ -417,22 +411,10 @@
       "sentiment": 1
     },
     {
-      "ticker": "ABBV",
-      "title": "Biogen (BIIB) and AbbVie (ABBV) Get Wolfe Upgrades—Which Pharma Stock Has More Upside?",
-      "time": "Tue, 15 Sep 2026 19:47:30",
-      "sentiment": 1
-    },
-    {
       "ticker": "STLD",
       "title": "Nucor Corp. stock underperforms Tuesday when compared to competitors despite daily gains",
       "time": "Tue, 15 Sep 2026 20:48:00",
       "sentiment": -1
-    },
-    {
-      "ticker": "SCHW",
-      "title": "Charles Schwab stock gains on record August net new assets - ad-hoc-news.de",
-      "time": "Wed, 16 Sep 2026 08:45:45",
-      "sentiment": 1
     },
     {
       "ticker": "TMO",
@@ -490,6 +472,12 @@
     },
     {
       "ticker": "QCOM",
+      "title": "Should You Buy Qualcomm Stock For The Cash As Apple Leaves?",
+      "time": "Wed, 16 Sep 2026 19:29:42",
+      "sentiment": 0
+    },
+    {
+      "ticker": "QCOM",
       "title": "Why Qualcomm (QCOM) Stock Is Trading Up Today",
       "time": "Tue, 15 Sep 2026 21:35:31",
       "sentiment": 0
@@ -510,12 +498,6 @@
       "ticker": "QCOM",
       "title": "Momentum in AI data center deployment draws investor attention! Qualcomm (QCOM.US) shares climb to two-month high",
       "time": "Wed, 16 Sep 2026 09:27:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "QCOM",
-      "title": "Qualcomm Edged Higher as Amazon Opens a $60 Billion AI Door",
-      "time": "Wed, 16 Sep 2026 17:17:13",
       "sentiment": 0
     },
     {
@@ -576,6 +558,12 @@
       "ticker": "JPM",
       "title": "Eligible Chase cardholders can turn points into investment cash",
       "time": "Wed, 16 Sep 2026 13:26:19",
+      "sentiment": 0
+    },
+    {
+      "ticker": "JPM",
+      "title": "JPMorgan Sees ‘Nothing Flashing Red’ In US Economy",
+      "time": "Wed, 16 Sep 2026 17:01:14",
       "sentiment": 0
     },
     {
@@ -682,14 +670,14 @@
     },
     {
       "ticker": "CVX",
-      "title": "Chevron Corp Stock (CVX) Moved Down by 3.12% on Sep 16: Drivers Behind the Movement",
-      "time": "Wed, 16 Sep 2026 19:15:27",
+      "title": "Chevron (CVX) After LNG And Venezuela Moves, Buying Opportunity Or Fairly Priced?",
+      "time": "Wed, 16 Sep 2026 13:54:53",
       "sentiment": 0
     },
     {
       "ticker": "CVX",
-      "title": "Chevron (CVX) After LNG And Venezuela Moves, Buying Opportunity Or Fairly Priced?",
-      "time": "Wed, 16 Sep 2026 13:54:53",
+      "title": "Chevron Corp Stock (CVX) Moved Down by 3.12% on Sep 16: Drivers Behind the Movement",
+      "time": "Wed, 16 Sep 2026 19:15:27",
       "sentiment": 0
     },
     {
@@ -838,6 +826,12 @@
     },
     {
       "ticker": "XOM",
+      "title": "Exxon Mobil Stock (XOM) Opinions on Surging Crude Prices",
+      "time": "Wed, 16 Sep 2026 19:37:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "XOM",
       "title": "ExxonMobil Holdings (XOM) Shares Moved, What Is Drawing Fresh Attention?",
       "time": "Wed, 16 Sep 2026 10:10:41",
       "sentiment": 0
@@ -858,12 +852,6 @@
       "ticker": "XOM",
       "title": "Will ExxonMobil's Guyana & Permian Assets Power Its Upstream Business?",
       "time": "Wed, 16 Sep 2026 16:36:13",
-      "sentiment": 0
-    },
-    {
-      "ticker": "XOM",
-      "title": "Exxon Mobil Corp Stock (XOM) Moved Down by 3.30% on Sep 16: A Full Analysis",
-      "time": "Wed, 16 Sep 2026 15:15:24",
       "sentiment": 0
     },
     {
@@ -928,12 +916,6 @@
     },
     {
       "ticker": "TTD",
-      "title": "symbol__ Stock Quote Price and Forecast",
-      "time": "Wed, 16 Sep 2026 07:12:22",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TTD",
       "title": "The Trade Desk vs. Amazon: Which Ad-Tech Stock Is the Smarter Pick?",
       "time": "Wed, 16 Sep 2026 15:54:00",
       "sentiment": 0
@@ -948,6 +930,12 @@
       "ticker": "TTD",
       "title": "Why Is Trade Desk (TTD) Drawing Fresh Attention?",
       "time": "Wed, 16 Sep 2026 08:14:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "The Trade Desk stock falls after layoffs and S&P 500 exit as growth slows - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 20:42:52",
       "sentiment": 0
     },
     {
@@ -1029,6 +1017,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "ABBV",
+      "title": "Is AbbVie the Best Dividend King to Buy in September?",
+      "time": "Wed, 16 Sep 2026 14:33:47",
+      "sentiment": 0
+    },
+    {
       "ticker": "STLD",
       "title": "S&P 500 Premarket Movers: Gainers and Losers on September 15, 2026",
       "time": "Wed, 16 Sep 2026 10:48:33",
@@ -1062,6 +1056,12 @@
       "ticker": "SCHW",
       "title": "The Fed Could Be About to Raise Rates for the First Time Since 2023. Here's What History Says Happens to Stocks Next.",
       "time": "Wed, 16 Sep 2026 09:13:19",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SCHW",
+      "title": "The Next Phase of Webull Could Be the One That Matters Most",
+      "time": "Wed, 16 Sep 2026 15:30:00",
       "sentiment": 0
     }
   ]
