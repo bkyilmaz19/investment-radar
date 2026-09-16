@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "15.09.2026 23:51 CEST",
+  "generated_at_local": "16.09.2026 08:28 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -10,8 +10,8 @@
       "name": "Thermo Fisher",
       "score": 94,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.53%, 5T +6.36%, relatives Volumen 1.59x, ATR 2.34%",
-      "catalyst": "Thermo Fisher CEO Says AI Will Drive More Pharma Spending — Sees 7% Organic Growth By 2028",
+      "thesis": "1T +4.53%, 5T +6.36%, relatives Volumen 1.63x, ATR 2.34%",
+      "catalyst": "Thermo Fisher Scientific Inc. stock rises Tuesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
       "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.00%, Bewegung seit US-Open +4.21%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
       "stop_pct": 1.52,
@@ -19,12 +19,45 @@
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
       "change_1d": "+4.53%",
       "change_5d": "+6.36%",
-      "volume_ratio": "1.59x",
+      "volume_ratio": "1.63x",
       "atr_pct": "2.34%",
       "gap_pct": "-4.11%",
       "premarket_move_pct": "-0.14%",
       "live_gap_pct": "-0.00%",
       "regular_move_pct": "+4.21%",
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Live-Kriterien sind erfüllt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "RMD",
+      "name": "ResMed",
+      "score": 93,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.37x, ATR 2.90%",
+      "catalyst": "Learn Why The Bull Case For ResMed Stock Could Change Following Earnings Beat",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.00%, Bewegung seit US-Open +1.37%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "stop_pct": 1.88,
+      "target_pct": 3.39,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.89%",
+      "change_5d": "+3.80%",
+      "volume_ratio": "1.37x",
+      "atr_pct": "2.90%",
+      "gap_pct": "-2.08%",
+      "premarket_move_pct": "-0.26%",
+      "live_gap_pct": "+0.00%",
+      "regular_move_pct": "+1.37%",
       "session_phase": "US-Handel live",
       "action_status": "KAUF HEUTE",
       "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Live-Kriterien sind erfüllt.",
@@ -72,44 +105,11 @@
       }
     },
     {
-      "ticker": "COP",
-      "name": "ConocoPhillips",
-      "score": 90,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.33%, 5T +4.58%, relatives Volumen 1.15x, ATR 2.22%",
-      "catalyst": "Fuel for Growth: 3 Big Energy Stocks Get New Price Targets",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.01%, Bewegung seit US-Open +2.66%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
-      "stop_pct": 1.44,
-      "target_pct": 2.6,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.33%",
-      "change_5d": "+4.58%",
-      "volume_ratio": "1.15x",
-      "atr_pct": "2.22%",
-      "gap_pct": "-2.78%",
-      "premarket_move_pct": "+0.04%",
-      "live_gap_pct": "+0.01%",
-      "regular_move_pct": "+2.66%",
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Momentum-, Volumen-, Volatilitäts-, News- und Live-Kriterien sind erfüllt.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 90,
+      "score": 91,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.63%, 5T +3.29%, relatives Volumen 1.11x, ATR 3.13%",
+      "thesis": "1T +3.63%, 5T +3.29%, relatives Volumen 1.17x, ATR 3.13%",
       "catalyst": "Marathon Petroleum: The Focus Should Help (Rating Upgrade) (NYSE:MPC)",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
       "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.05%, Bewegung seit US-Open +3.26%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
@@ -118,7 +118,7 @@
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
       "change_1d": "+3.63%",
       "change_5d": "+3.29%",
-      "volume_ratio": "1.11x",
+      "volume_ratio": "1.17x",
       "atr_pct": "3.13%",
       "gap_pct": "-2.40%",
       "premarket_move_pct": "-1.24%",
@@ -138,25 +138,25 @@
       }
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 90,
+      "ticker": "VLO",
+      "name": "Valero",
+      "score": 87,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.84x, ATR 4.07%",
-      "catalyst": "Qualcomm Stock Jumps. Amazon AI Chip Deal Opens New Growth Avenue",
+      "thesis": "1T +3.68%, 5T +3.71%, relatives Volumen 1.06x, ATR 3.21%",
+      "catalyst": "UBS Bets on Valero Energy (VLO) to Shatter its Record High",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap +0.04%, Bewegung seit US-Open +3.75%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
-      "stop_pct": 2.5,
-      "target_pct": 4.5,
+      "entry_note": "Live-Bestätigung vorhanden: aktueller Gap -0.02%, Bewegung seit US-Open +3.50%. Nicht blind jagen; bevorzugt Rücksetzer + erneute Stärke.",
+      "stop_pct": 2.08,
+      "target_pct": 3.75,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+4.25%",
-      "change_5d": "+7.88%",
-      "volume_ratio": "0.84x",
-      "atr_pct": "4.07%",
-      "gap_pct": "-4.56%",
-      "premarket_move_pct": "+0.87%",
-      "live_gap_pct": "+0.04%",
-      "regular_move_pct": "+3.75%",
+      "change_1d": "+3.68%",
+      "change_5d": "+3.71%",
+      "volume_ratio": "1.06x",
+      "atr_pct": "3.21%",
+      "gap_pct": "-2.91%",
+      "premarket_move_pct": "-0.91%",
+      "live_gap_pct": "-0.02%",
+      "regular_move_pct": "+3.50%",
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -196,6 +196,12 @@
   "news": [
     {
       "ticker": "TMO",
+      "title": "Thermo Fisher Scientific Inc. stock rises Tuesday, outperforms market",
+      "time": "Tue, 15 Sep 2026 20:32:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "TMO",
       "title": "Thermo Fisher CEO Says AI Will Drive More Pharma Spending — Sees 7% Organic Growth By 2028",
       "time": "Tue, 15 Sep 2026 17:16:19",
       "sentiment": 1
@@ -207,33 +213,27 @@
       "sentiment": 1
     },
     {
-      "ticker": "QCOM",
-      "title": "Qualcomm Stock Jumps. Amazon AI Chip Deal Opens New Growth Avenue",
-      "time": "Tue, 15 Sep 2026 19:35:04",
-      "sentiment": 1
-    },
-    {
-      "ticker": "COP",
-      "title": "Fuel for Growth: 3 Big Energy Stocks Get New Price Targets",
-      "time": "Tue, 15 Sep 2026 13:45:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "COP",
-      "title": "Oil Crisis Worsens, Diesel Hits Record High: Here's How to Trade It",
-      "time": "Tue, 15 Sep 2026 18:07:04",
-      "sentiment": 1
+      "ticker": "EOG",
+      "title": "EOG Resources Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
+      "time": "Tue, 15 Sep 2026 20:43:00",
+      "sentiment": -1
     },
     {
       "ticker": "RMD",
-      "title": "ResMed (RMD) Stock Surges Following Upgraded Rating and Price Ta",
-      "time": "Tue, 15 Sep 2026 18:39:34",
+      "title": "Learn Why The Bull Case For ResMed Stock Could Change Following Earnings Beat",
+      "time": "Wed, 16 Sep 2026 05:17:07",
       "sentiment": 1
     },
     {
       "ticker": "RMD",
       "title": "ResMed stock upgraded at RBC Capital Markets (RMD:NYSE)",
       "time": "Tue, 15 Sep 2026 14:00:51",
+      "sentiment": 1
+    },
+    {
+      "ticker": "RMD",
+      "title": "ResMed (RMD) Stock Surges Following Upgraded Rating and Price Ta",
+      "time": "Tue, 15 Sep 2026 18:39:34",
       "sentiment": 1
     },
     {
@@ -249,22 +249,34 @@
       "sentiment": 1
     },
     {
+      "ticker": "VLO",
+      "title": "UBS Bets on Valero Energy (VLO) to Shatter its Record High",
+      "time": "Wed, 16 Sep 2026 04:31:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "DXCM",
       "title": "DexCom Inc. stock outperforms competitors on strong trading day",
       "time": "Tue, 15 Sep 2026 20:56:00",
       "sentiment": 1
     },
     {
-      "ticker": "DXCM",
-      "title": "Portfolio check: The biggest SA Quant upgrades over the past week",
-      "time": "Tue, 15 Sep 2026 11:08:28",
+      "ticker": "DHR",
+      "title": "Danaher Corp (DHR) Shares Surge 3.0% -- What GF Score of 80 Tells Investors",
+      "time": "Tue, 15 Sep 2026 21:15:35",
       "sentiment": 1
     },
     {
-      "ticker": "DHR",
-      "title": "Danaher Corp (DHR) Shares Surge 3.0% -- What GF Score of 80 Tells Investors",
-      "time": "Tue, 15 Sep 2026 21:15:34",
+      "ticker": "ON",
+      "title": "ON Semiconductor Corp. stock outperforms competitors on strong trading day",
+      "time": "Tue, 15 Sep 2026 20:59:00",
       "sentiment": 1
+    },
+    {
+      "ticker": "ON",
+      "title": "3 AI Infrastructure Stocks Retail Investors Are Watching After Fresh 2026 AI Warnings",
+      "time": "Tue, 15 Sep 2026 22:37:23",
+      "sentiment": -1
     },
     {
       "ticker": "XOM",
@@ -274,14 +286,14 @@
     },
     {
       "ticker": "XOM",
-      "title": "Oil Crisis Worsens, Diesel Hits Record High: Here's How to Trade It",
-      "time": "Tue, 15 Sep 2026 18:07:04",
+      "title": "ExxonMobil’s LNG Ambitions Just Got A Major Upgrade",
+      "time": "Wed, 16 Sep 2026 03:46:00",
       "sentiment": 1
     },
     {
-      "ticker": "XOM",
-      "title": "XOM Looks 30.9% Overvalued on GF Value™ Amid Strong Dividend Fun",
-      "time": "Tue, 15 Sep 2026 15:24:04",
+      "ticker": "TTD",
+      "title": "Is The Trade Desk’s Cash Worth More Than Its Lost Growth?",
+      "time": "Tue, 15 Sep 2026 13:18:59",
       "sentiment": 1
     },
     {
@@ -303,15 +315,9 @@
       "sentiment": 1
     },
     {
-      "ticker": "TTD",
-      "title": "Is The Trade Desk’s Cash Worth More Than Its Lost Growth?",
-      "time": "Tue, 15 Sep 2026 13:18:59",
-      "sentiment": 1
-    },
-    {
-      "ticker": "MMM",
-      "title": "3M CEO sees innovation, data centers, cost cuts extending turnaround (MMM:NYSE)",
-      "time": "Tue, 15 Sep 2026 20:08:30",
+      "ticker": "STLD",
+      "title": "Nucor Corp. stock underperforms Tuesday when compared to competitors despite daily gains",
+      "time": "Tue, 15 Sep 2026 20:48:00",
       "sentiment": -1
     },
     {
@@ -322,14 +328,20 @@
     },
     {
       "ticker": "MMM",
-      "title": "3M (MMM) Faces Firefighter PFAS Lawsuit Amid Dividend Sustainabi",
-      "time": "Tue, 15 Sep 2026 21:15:33",
+      "title": "3M CEO sees innovation, data centers, cost cuts extending turnaround (MMM:NYSE)",
+      "time": "Tue, 15 Sep 2026 20:08:30",
       "sentiment": -1
     },
     {
-      "ticker": "ABBV",
-      "title": "Biogen (BIIB) and AbbVie (ABBV) Get Wolfe Upgrades—Which Pharma Stock Has More Upside?",
-      "time": "Tue, 15 Sep 2026 19:47:30",
+      "ticker": "APP",
+      "title": "Dutch Bros Falls to $41.98, Now 42% Below Its June Peak",
+      "time": "Tue, 15 Sep 2026 23:51:23",
+      "sentiment": -1
+    },
+    {
+      "ticker": "META",
+      "title": "Meta Platforms Inc. (META) Stock Could Surge as AI Monetization Gains Momentum, Says JPMorgan",
+      "time": "Tue, 15 Sep 2026 21:10:27",
       "sentiment": 1
     },
     {
@@ -345,9 +357,21 @@
       "sentiment": 1
     },
     {
-      "ticker": "META",
-      "title": "Meta Platforms Inc. (META) Stock Could Surge as AI Monetization Gains Momentum, Says JPMorgan",
-      "time": "Tue, 15 Sep 2026 21:10:27",
+      "ticker": "ABBV",
+      "title": "Biogen (BIIB) and AbbVie (ABBV) Get Wolfe Upgrades—Which Pharma Stock Has More Upside?",
+      "time": "Tue, 15 Sep 2026 19:47:30",
+      "sentiment": 1
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie at Morgan Stanley healthcare conference: growth beyond humira By Investing.com",
+      "time": "Tue, 15 Sep 2026 15:24:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie Inc. stock gains on dividend hike and strong Q2 2026 figures - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 10:24:47",
       "sentiment": 1
     },
     {
@@ -377,7 +401,7 @@
     {
       "ticker": "CRWD",
       "title": "Why CrowdStrike (CRWD) Stock Is Up Today",
-      "time": "Tue, 15 Sep 2026 21:24:55",
+      "time": "Tue, 15 Sep 2026 22:31:31",
       "sentiment": 0
     },
     {
@@ -388,8 +412,14 @@
     },
     {
       "ticker": "CRWD",
-      "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 3.33% on Sep 15: A Full Analysis",
-      "time": "Tue, 15 Sep 2026 17:15:26",
+      "title": "CrowdStrike(CRWD.US) Officer Sells US$4.41 Million in Common Stock",
+      "time": "Wed, 16 Sep 2026 01:47:56",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "CrowdStrike (CRWD) CEO sells 20,000 shares under trading plan",
+      "time": "Wed, 16 Sep 2026 00:04:52",
       "sentiment": 0
     },
     {
@@ -399,15 +429,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "CRWD",
-      "title": "Why Is CrowdStrike (CRWD) Stock Rocketing Higher Today",
-      "time": "Tue, 15 Sep 2026 00:59:00",
+      "ticker": "QCOM",
+      "title": "Why Qualcomm (QCOM) Stock Is Trading Up Today",
+      "time": "Tue, 15 Sep 2026 21:35:31",
       "sentiment": 0
     },
     {
       "ticker": "QCOM",
-      "title": "Why Qualcomm (QCOM) Stock Is Trading Up Today",
-      "time": "Tue, 15 Sep 2026 21:35:31",
+      "title": "What Was Qualcomm Stock Telling You Before It Ran?",
+      "time": "Tue, 15 Sep 2026 20:26:02",
       "sentiment": 0
     },
     {
@@ -424,14 +454,14 @@
     },
     {
       "ticker": "QCOM",
-      "title": "What Was Qualcomm Stock Telling You Before It Ran?",
-      "time": "Tue, 15 Sep 2026 20:26:37",
+      "title": "QCOM Stock Climbs To 2-Month High As AI Data Center Push Gains Momentum",
+      "time": "Wed, 16 Sep 2026 03:18:00",
       "sentiment": 0
     },
     {
       "ticker": "QCOM",
-      "title": "What Qualcomm Stock Was Telling You About Its Next Forty Billion Dollars",
-      "time": "Tue, 15 Sep 2026 10:16:11",
+      "title": "QCOM Stock Extends Gains Overnight: Analyst Says Amazon AI Deal 'Changes Calculus For Qualcomm'",
+      "time": "Tue, 15 Sep 2026 15:31:05",
       "sentiment": 0
     },
     {
@@ -448,6 +478,12 @@
     },
     {
       "ticker": "EOG",
+      "title": "EOG Resources stock heads into the open after a 3.5 percent jump - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 06:08:43",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EOG",
       "title": "Is It Too Late to Buy EOG Resources Inc (EOG) After 3.5% Rally? GF Value Says Undervalued",
       "time": "Tue, 15 Sep 2026 21:33:27",
       "sentiment": 0
@@ -459,15 +495,51 @@
       "sentiment": 0
     },
     {
-      "ticker": "EOG",
-      "title": "EOG Resources stock gains as UBS lifts price target to USD 183 - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 13:30:30",
+      "ticker": "RMD",
+      "title": "Is This the Right Time to Retain Resmed Stock in Your Portfolio?",
+      "time": "Tue, 15 Sep 2026 14:10:00",
       "sentiment": 0
     },
     {
-      "ticker": "EOG",
-      "title": "What Is Behind the New Interest in EOG Resources (EOG)?",
-      "time": "Tue, 15 Sep 2026 09:18:00",
+      "ticker": "RMD",
+      "title": "ResMed (NYSE:RMD) Trading 4.5% Higher - Here's What Happened",
+      "time": "Tue, 15 Sep 2026 19:05:07",
+      "sentiment": 0
+    },
+    {
+      "ticker": "RMD",
+      "title": "Resmed Inc Stock (RMD) Moved Up by 3.05% on Sep 15: A Full Analysis",
+      "time": "Tue, 15 Sep 2026 15:15:26",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MPC",
+      "title": "Marathon Petroleum Stock Just Hit New Highs, But Oil Price Risks Remain",
+      "time": "Tue, 15 Sep 2026 15:30:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MPC",
+      "title": "California State Teachers Retirement System Has $128.81 Million Stake in Marathon Petroleum Corporation $MPC",
+      "time": "Tue, 15 Sep 2026 23:01:45",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MPC",
+      "title": "Marathon Petroleum stock hits all-time high at 409.63 USD",
+      "time": "Tue, 15 Sep 2026 16:40:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MPC",
+      "title": "Marathon Petroleum Corp Stock (MPC) Moved Up by 3.44% on Sep 15: Facts Behind the Movement",
+      "time": "Tue, 15 Sep 2026 17:15:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "COP",
+      "title": "ConocoPhillips (COP) Stock Appears Undervalued Despite Its Earnings Premium",
+      "time": "Wed, 16 Sep 2026 02:32:54",
       "sentiment": 0
     },
     {
@@ -490,38 +562,56 @@
     },
     {
       "ticker": "COP",
+      "title": "ConocoPhillips (NYSE:COP) Commands Attention As Yields Swing The Tape",
+      "time": "Wed, 16 Sep 2026 00:55:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "COP",
       "title": "Why Is ConocoPhillips (COP) a Stock to Watch Today?",
       "time": "Tue, 15 Sep 2026 09:35:00",
       "sentiment": 0
     },
     {
-      "ticker": "RMD",
-      "title": "Is This the Right Time to Retain Resmed Stock in Your Portfolio?",
-      "time": "Tue, 15 Sep 2026 14:10:00",
+      "ticker": "JPM",
+      "title": "JPMorganChase Declares Common Stock Dividend",
+      "time": "Tue, 15 Sep 2026 20:28:00",
       "sentiment": 0
     },
     {
-      "ticker": "RMD",
-      "title": "ResMed (NYSE:RMD) Trading 4.5% Higher - Here's What Happened",
-      "time": "Tue, 15 Sep 2026 19:05:07",
+      "ticker": "JPM",
+      "title": "JPMorgan Chase & Co. (NYSE:JPM) Trading Up 1.1% - Time to Buy?",
+      "time": "Tue, 15 Sep 2026 21:29:31",
       "sentiment": 0
     },
     {
-      "ticker": "RMD",
-      "title": "Resmed Inc Stock (RMD) Moved Up by 3.05% on Sep 15: A Full Analysis",
-      "time": "Tue, 15 Sep 2026 15:15:26",
+      "ticker": "JPM",
+      "title": "Chase Freedom cardmembers can earn 5% back on groceries, meals and Red Cross donations",
+      "time": "Tue, 15 Sep 2026 12:10:24",
       "sentiment": 0
     },
     {
-      "ticker": "RMD",
-      "title": "ResMed Inc. $RMD Shares Sold by Corient Private Wealth LP",
-      "time": "Tue, 15 Sep 2026 09:08:55",
+      "ticker": "JPM",
+      "title": "JPMorgan (NYSE:JPM) Draws Notice As The Market Digests Fresh Signals",
+      "time": "Tue, 15 Sep 2026 21:08:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "JPM",
+      "title": "JPMorgan Chase & Co. $JPM Stock Position Lifted by Palmer Knight Co",
+      "time": "Tue, 15 Sep 2026 07:34:30",
+      "sentiment": 0
+    },
+    {
+      "ticker": "JPM",
+      "title": "JPMorgan Chase & Co. $JPM Stock Position Increased by Diversify Advisory Services LLC",
+      "time": "Tue, 15 Sep 2026 07:36:33",
       "sentiment": 0
     },
     {
       "ticker": "OXY",
-      "title": "Occidental Petroleum Corporation (OXY) is Attracting Investor Attention: Here is What You Should Know",
-      "time": "Tue, 15 Sep 2026 13:00:03",
+      "title": "Occidental Petroleum (OXY) Gains As Market Dips: What You Should Know",
+      "time": "Tue, 15 Sep 2026 21:50:05",
       "sentiment": 0
     },
     {
@@ -532,50 +622,26 @@
     },
     {
       "ticker": "OXY",
+      "title": "Occidental Petroleum Corporation (OXY) is Attracting Investor Attention: Here is What You Should Know",
+      "time": "Tue, 15 Sep 2026 13:00:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "OXY",
       "title": "UBS Reaffirms Their Hold Rating on Occidental Petroleum (OXY)",
       "time": "Tue, 15 Sep 2026 09:58:00",
       "sentiment": 0
     },
     {
       "ticker": "OXY",
-      "title": "Occidental’s New CEO Tested by Debt, Lagging Stock Price and Big Dividend Payments to Berkshire",
-      "time": "Tue, 15 Sep 2026 03:30:57",
+      "title": "Occidental Petroleum (NYSE:OXY) Draws A Second Wave OF Attention Today",
+      "time": "Wed, 16 Sep 2026 00:58:00",
       "sentiment": 0
     },
     {
       "ticker": "OXY",
-      "title": "What Makes the Latest Occidental Petroleum (OXY) Story Different?",
-      "time": "Tue, 15 Sep 2026 09:35:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "OXY",
-      "title": "Occidental Petroleum stock gains as Wells Fargo lifts price target to USD 82 - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 15:45:12",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MPC",
-      "title": "Marathon Petroleum Stock Just Hit New Highs, But Oil Price Risks Remain",
-      "time": "Tue, 15 Sep 2026 15:30:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MPC",
-      "title": "Marathon Petroleum Corp Stock (MPC) Moved Up by 3.44% on Sep 15: Facts Behind the Movement",
-      "time": "Tue, 15 Sep 2026 17:15:23",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MPC",
-      "title": "Marathon Petroleum (MPC) Receives a Buy from UBS",
-      "time": "Tue, 15 Sep 2026 14:14:54",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MPC",
-      "title": "Marathon Petroleum stock hits all-time high at 409.63 USD By Investing.com",
-      "time": "Tue, 15 Sep 2026 16:40:00",
+      "title": "Analysts Offer Insights on Energy Companies: Murphy Oil (MUR), Occidental Petroleum (OXY) and Delek US Holdings (DK)",
+      "time": "Tue, 15 Sep 2026 10:30:00",
       "sentiment": 0
     },
     {
@@ -604,50 +670,20 @@
     },
     {
       "ticker": "VLO",
-      "title": "Valero Energy (VLO) Receives a Rating Update from a Top Analyst",
-      "time": "Tue, 15 Sep 2026 13:58:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
       "title": "Why Is Valero Energy (VLO) Moving Into Market Focus?",
       "time": "Tue, 15 Sep 2026 09:18:00",
       "sentiment": 0
     },
     {
-      "ticker": "JPM",
-      "title": "JPMorganChase had $5 trillion in assets on June 30 and declared preferred-stock dividends.",
-      "time": "Tue, 15 Sep 2026 20:27:00",
+      "ticker": "DXCM",
+      "title": "Dexcom (NASDAQ: DXCM) officer to sell 1,700 shares under Rule 144",
+      "time": "Tue, 15 Sep 2026 20:02:28",
       "sentiment": 0
     },
     {
-      "ticker": "JPM",
-      "title": "JPMorgan Chase & Co. (NYSE:JPM) Trading Up 1.1% - Time to Buy?",
-      "time": "Tue, 15 Sep 2026 21:29:31",
-      "sentiment": 0
-    },
-    {
-      "ticker": "JPM",
-      "title": "Should JPMorgan’s Long-Dated Callable Debt Push Require Action From JPMorgan Chase (JPM) Investors?",
-      "time": "Tue, 15 Sep 2026 04:31:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "JPM",
-      "title": "JPMorgan (NYSE:JPM) Draws Notice As The Market Digests Fresh Signals",
-      "time": "Tue, 15 Sep 2026 21:08:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "JPM",
-      "title": "JPMorgan Chase & Co. $JPM Stock Position Lifted by Palmer Knight Co",
-      "time": "Tue, 15 Sep 2026 07:34:30",
-      "sentiment": 0
-    },
-    {
-      "ticker": "JPM",
-      "title": "J.P. Morgan nears $1 trillion, but your gains hinge on 1 office",
-      "time": "Tue, 15 Sep 2026 00:03:00",
+      "ticker": "DXCM",
+      "title": "Dexcom Elevates Jereme Sylvain to COO and CFO",
+      "time": "Tue, 15 Sep 2026 21:52:14",
       "sentiment": 0
     },
     {
@@ -658,20 +694,32 @@
     },
     {
       "ticker": "DXCM",
+      "title": "Dexcom stock heads into the open after a 2.0% gain - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 05:06:26",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DXCM",
       "title": "Dexcom Inc. stock gains as market cap approaches USD 32 billion - ad-hoc-news.de",
       "time": "Tue, 15 Sep 2026 21:33:14",
       "sentiment": 0
     },
     {
-      "ticker": "DXCM",
-      "title": "Dexcom Elevates Jereme Sylvain to COO and CFO",
-      "time": "Mon, 14 Sep 2026 21:52:36",
+      "ticker": "CVX",
+      "title": "Chevron (CVX) Rises As Market Takes a Dip: Key Facts",
+      "time": "Tue, 15 Sep 2026 21:45:07",
       "sentiment": 0
     },
     {
       "ticker": "CVX",
-      "title": "Diversified Upstream E&P Stocks Q2 Teardown: Chevron (NYSE:CVX) Vs The Rest",
-      "time": "Mon, 14 Sep 2026 22:35:30",
+      "title": "Chevron’s CEO Thinks the World Is Out of Spare Oil. He Is Betting $7 Billion on Being Right.",
+      "time": "Tue, 15 Sep 2026 15:40:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CVX",
+      "title": "What’s Driving Chevron (NYSE:CVX) Into Focus Today?",
+      "time": "Wed, 16 Sep 2026 00:52:00",
       "sentiment": 0
     },
     {
@@ -682,26 +730,14 @@
     },
     {
       "ticker": "CVX",
-      "title": "If You Invested $100 In Chevron Stock 5 Years Ago, You Would Have This Much Today",
-      "time": "Mon, 14 Sep 2026 23:00:33",
+      "title": "Why Did DELL, CRWD, CVX Stocks Jump To 52-Week Highs Today?",
+      "time": "Wed, 16 Sep 2026 03:55:17",
       "sentiment": 0
     },
     {
       "ticker": "CVX",
-      "title": "CVX Looks 30.9% Overvalued on GF Value™ as Dividend Sustainabili",
-      "time": "Tue, 15 Sep 2026 01:03:37",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CVX",
-      "title": "What’s Driving Chevron (NYSE:CVX) As Fuel Costs Shift?",
-      "time": "Mon, 14 Sep 2026 23:09:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CVX",
-      "title": "Chevron’s CEO Thinks the World Is Out of Spare Oil. He Is Betting $7 Billion on Being Right.",
-      "time": "Tue, 15 Sep 2026 15:40:27",
+      "title": "Chevron Forecasts up to $2.2 Billion Rise in Upstream Earnings From Higher Q1 Prices",
+      "time": "Tue, 15 Sep 2026 20:09:36",
       "sentiment": 0
     },
     {
@@ -725,13 +761,19 @@
     {
       "ticker": "DHR",
       "title": "Danaher declares $0.40 quarterly dividend By Investing.com",
-      "time": "Tue, 15 Sep 2026 20:31:31",
+      "time": "Tue, 15 Sep 2026 20:50:58",
       "sentiment": 0
     },
     {
       "ticker": "DHR",
-      "title": "Danaher Corp stock gains support from analyst consensus and recent earnings - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 08:54:28",
+      "title": "Danaher stock heads into the open after a 3.0% gain - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 02:37:56",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PSX",
+      "title": "Phillips 66 (PSX) Faces Bayway Labor Questions, Is The Stock Now Too Expensive?",
+      "time": "Wed, 16 Sep 2026 02:11:00",
       "sentiment": 0
     },
     {
@@ -742,50 +784,26 @@
     },
     {
       "ticker": "PSX",
+      "title": "Phillips 66 Stock (PSX) Moved Up by 3.09% on Sep 15: Drivers Behind the Movement",
+      "time": "Tue, 15 Sep 2026 17:15:28",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PSX",
+      "title": "Phillips 66 (PSX) Rises As Market Takes a Dip: Key Facts",
+      "time": "Tue, 15 Sep 2026 22:15:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PSX",
       "title": "Is Phillips 66 (PSX) Overvalued After 3.1% Rally? GF Value Says",
-      "time": "Tue, 15 Sep 2026 21:33:27",
+      "time": "Tue, 15 Sep 2026 21:15:34",
       "sentiment": 0
     },
     {
       "ticker": "PSX",
-      "title": "What Makes the Latest Phillips 66 (PSX) Story Different?",
-      "time": "Tue, 15 Sep 2026 09:18:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PSX",
-      "title": "What Does the Future Hold for Valero Energy's Refining Business?",
-      "time": "Tue, 15 Sep 2026 15:47:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PSX",
-      "title": "Phillips 66 stock heads into the open after a 0.4% NYSE gain - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 01:52:30",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PSX",
-      "title": "Phillips 66 stock hits all-time high at 265.47 USD",
-      "time": "Tue, 15 Sep 2026 17:13:13",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "If You Invested $1000 In ON Semiconductor Stock 15 Years Ago, You Would Have This Much Today",
-      "time": "Tue, 15 Sep 2026 14:30:24",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "ON Semi Stock Faces Earnings Test As Valuation Draws Scrutiny",
-      "time": "Tue, 15 Sep 2026 09:27:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "Nvidia vs. Micron: Which Is the Better Artificial Intelligence (AI) Semiconductor Stock to Own for the Next 5 Years?",
-      "time": "Tue, 15 Sep 2026 18:53:00",
+      "title": "Here's How Much $1000 Invested In Phillips 66 5 Years Ago Would Be Worth Today",
+      "time": "Tue, 15 Sep 2026 23:45:46",
       "sentiment": 0
     },
     {
@@ -796,14 +814,32 @@
     },
     {
       "ticker": "ON",
-      "title": "ON Semiconductor Corp. (ON) Declines More Than Market: Some Information for Investors",
-      "time": "Mon, 14 Sep 2026 22:00:04",
+      "title": "ON Semiconductor stock heads into the open after a 5.9 percent slide - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 01:57:02",
       "sentiment": 0
     },
     {
       "ticker": "ON",
-      "title": "PHLX Semiconductor Index (SOX): What It Is & How It Works",
-      "time": "Tue, 15 Sep 2026 11:33:00",
+      "title": "If You Invested $1000 In ON Semiconductor Stock 15 Years Ago, You Would Have This Much Today",
+      "time": "Tue, 15 Sep 2026 14:30:24",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ON",
+      "title": "Nvidia vs. Micron: Which Is the Better Artificial Intelligence (AI) Semiconductor Stock to Own for the Next 5 Years?",
+      "time": "Tue, 15 Sep 2026 18:53:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "XOM",
+      "title": "Why the Market Dipped But Exxon Mobil Holdings (XOM) Gained Today",
+      "time": "Tue, 15 Sep 2026 21:45:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "XOM",
+      "title": "XOM|Exxon Mobil Corp|Price:169.320|Chg%:+4.240",
+      "time": "Tue, 15 Sep 2026 23:10:09",
       "sentiment": 0
     },
     {
@@ -814,20 +850,44 @@
     },
     {
       "ticker": "XOM",
-      "title": "ExxonMobil Trending After Subsidiary Completes $2.1 Billion Debt Tender",
-      "time": "Tue, 15 Sep 2026 13:51:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "XOM",
       "title": "ExxonMobil's unit to retire $1.19B debt via cash tender offers: Key details",
       "time": "Tue, 15 Sep 2026 13:59:48",
       "sentiment": 0
     },
     {
+      "ticker": "TTD",
+      "title": "Trade Desk (TTD) Climbed, But What Is Driving Attention Now?",
+      "time": "Tue, 15 Sep 2026 22:37:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "Could Trade Desk Stock's Cash Flow Spark the Next Rally?",
+      "time": "Tue, 15 Sep 2026 10:16:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "Why Did ADBE, CRM, TTD Stocks Hit 52-Week Lows Today?",
+      "time": "Tue, 15 Sep 2026 14:22:52",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "Trade Desk (NASDAQ: TTD) Grants Chief Legal Officer 398,262 Shares Worth 54.4% of His Total Holdings",
+      "time": "Tue, 15 Sep 2026 18:05:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "The Trade Desk stock falls after layoffs and S&P 500 exit as growth slows - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 20:42:52",
+      "sentiment": 0
+    },
+    {
       "ticker": "ANET",
-      "title": "Jim Cramer on Arista (ANET) CEO: “She Is Money and the Company’s Fantastic”",
-      "time": "Tue, 15 Sep 2026 17:23:07",
+      "title": "Why the Market Dipped But Arista Networks (ANET) Gained Today",
+      "time": "Tue, 15 Sep 2026 21:45:04",
       "sentiment": 0
     },
     {
@@ -838,8 +898,8 @@
     },
     {
       "ticker": "ANET",
-      "title": "Is AI Infrastructure Changing Arista Networks (NYSE:ANET) Market Story?",
-      "time": "Tue, 15 Sep 2026 20:37:00",
+      "title": "Jim Cramer on Arista (ANET) CEO: “She Is Money and the Company’s Fantastic”",
+      "time": "Tue, 15 Sep 2026 17:23:07",
       "sentiment": 0
     },
     {
@@ -861,36 +921,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "TTD",
-      "title": "Could Trade Desk Stock's Cash Flow Spark the Next Rally?",
-      "time": "Tue, 15 Sep 2026 10:16:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TTD",
-      "title": "Trade Desk (NASDAQ: TTD) grants CFO 398K shares with quarterly vesting",
-      "time": "Mon, 14 Sep 2026 22:11:13",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TTD",
-      "title": "Chief lawyer at Trade Desk (TTD) gets 398K-share grant",
-      "time": "Mon, 14 Sep 2026 22:14:09",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TTD",
-      "title": "Trade Desk (TTD) COO awarded 724K shares that vest through 2029",
-      "time": "Mon, 14 Sep 2026 22:12:16",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TTD",
-      "title": "Trade Desk (TTD) grants 217K shares to accounting chief",
-      "time": "Mon, 14 Sep 2026 22:16:24",
-      "sentiment": 0
-    },
-    {
       "ticker": "MMM",
       "title": "Cooling Film Launch Could Matter For 3M Stock (MMM)",
       "time": "Tue, 15 Sep 2026 08:46:40",
@@ -904,104 +934,44 @@
     },
     {
       "ticker": "MMM",
+      "title": "3M stock heads into the open after a 1.8 percent drop - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 06:13:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MMM",
       "title": "3M CEO Touts Data-Center Push, Margin Gains and Progress Toward 2027 Targets",
       "time": "Tue, 15 Sep 2026 19:02:36",
       "sentiment": 0
     },
     {
       "ticker": "APP",
+      "title": "AppLovin: Gaming Just Closed The Gap E-Commerce Was Meant To",
+      "time": "Wed, 16 Sep 2026 04:59:12",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
+      "title": "AppLovin Stock Jumps 9.6% This Week. Can $496 Upside Hold?",
+      "time": "Tue, 15 Sep 2026 22:39:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
+      "title": "Is AppLovin’s Lead Over Its Peers Already In The Price?",
+      "time": "Tue, 15 Sep 2026 23:15:22",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
+      "title": "AppLovin (APP) Expands Into Streaming TV Ads With New Content Platform",
+      "time": "Tue, 15 Sep 2026 22:37:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
       "title": "AppLovin: Why I Think The Market Is Wrong After A 43.65% Decline (NASDAQ:APP)",
       "time": "Tue, 15 Sep 2026 14:00:15",
-      "sentiment": 0
-    },
-    {
-      "ticker": "APP",
-      "title": "Why Is AppLovin (APP) Moving Into Market Focus?",
-      "time": "Tue, 15 Sep 2026 09:17:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "APP",
-      "title": "A Look at AppLovin Corp (APP) After 3.2% Gain -- GF Value $587.0",
-      "time": "Mon, 14 Sep 2026 21:53:06",
-      "sentiment": 0
-    },
-    {
-      "ticker": "APP",
-      "title": "AppLovin Corp. stock reacts to Morgan Stanley target cut but stays far below 52-week high - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 16:19:37",
-      "sentiment": 0
-    },
-    {
-      "ticker": "APP",
-      "title": "Wurl Launches Content Intelligence Platform to Scale Advanced Targeting Across Streaming TV",
-      "time": "Tue, 15 Sep 2026 14:03:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "APP",
-      "title": "AppLovin: A Misunderstood Business Makes For One Of The Best Investments (NASDAQ:APP)",
-      "time": "Tue, 15 Sep 2026 05:51:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ABBV",
-      "title": "A skincare company with more than 200 clinical studies is bringing a new framework",
-      "time": "Tue, 15 Sep 2026 12:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Why Is the Market Reassessing AbbVie (ABBV)?",
-      "time": "Tue, 15 Sep 2026 09:10:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ABBV",
-      "title": "3 Dividend Stocks That Are No-Brainer Buys Right Now, Starting With This Healthcare Giant",
-      "time": "Tue, 15 Sep 2026 16:46:23",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Billionaire Ken Griffin Just Loaded Up on This Dividend King, and Wall Street Still Sees Upside",
-      "time": "Tue, 15 Sep 2026 03:37:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AbbVie and BioLabs University of Toronto Open Applications for AbbVie Biotech Innovators Award at Life Sciences Ontario Forum",
-      "time": "Tue, 15 Sep 2026 13:01:28",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WFC",
-      "title": "Wells Fargo Series DD Vs. AA Pfds, With The Latter A Buy (NYSE:WFC.PR.A)",
-      "time": "Tue, 15 Sep 2026 12:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WFC",
-      "title": "Wells Fargo stock heads into the open after a 1.75% drop - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 04:49:42",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WFC",
-      "title": "What Is Changing the Conversation Around Wells Fargo (WFC)?",
-      "time": "Tue, 15 Sep 2026 08:24:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WFC",
-      "title": "The Zacks Analyst Blog Highlights Walmart, UnitedHealth, Wells Fargo, XMax and Interlink Electronics",
-      "time": "Tue, 15 Sep 2026 14:54:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "META Stock Alert: What to Know as Meta Platforms Plans Expanded Use of Proprietary Chips",
-      "time": "Tue, 15 Sep 2026 21:10:54",
       "sentiment": 0
     },
     {
@@ -1018,13 +988,61 @@
     },
     {
       "ticker": "META",
-      "title": "Meta Launches Meta One Subscription Armed With AI Tools For Content Creators — META Stock Gains",
-      "time": "Tue, 15 Sep 2026 17:26:00",
+      "title": "Meta Could Pay Billions To End Teen Addiction Trial – Gary Black Says That Could Boost META Stock",
+      "time": "Tue, 15 Sep 2026 14:45:26",
       "sentiment": 0
     },
     {
       "ticker": "META",
       "title": "Why Meta’s $2.4 Billion Legal Tab Could Explode Into a National Regulatory Nightmare",
+      "time": "Tue, 15 Sep 2026 17:15:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Meta (NASDAQ:META) Stock Rises as Meta One AI Subscription Launches: What Investors Need to Know",
+      "time": "Tue, 15 Sep 2026 21:58:26",
+      "sentiment": 0
+    },
+    {
+      "ticker": "WFC",
+      "title": "Wells Fargo stock edges lower ahead of the open after 1.8% drop - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 02:53:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "WFC",
+      "title": "Wells Fargo (NYSE:WFC) Keeps Its Place In Today’s Sector Spotlight",
+      "time": "Tue, 15 Sep 2026 22:52:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "WFC",
+      "title": "Wells Fargo Series DD Vs. AA Pfds, With The Latter A Buy (NYSE:WFC.PR.A)",
+      "time": "Tue, 15 Sep 2026 12:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "WFC",
+      "title": "What Is Changing the Conversation Around Wells Fargo (WFC)?",
+      "time": "Tue, 15 Sep 2026 08:24:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ABBV",
+      "title": "A skincare company with more than 200 clinical studies is bringing a new framework",
+      "time": "Tue, 15 Sep 2026 12:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie stock heads into the open after a 1.8 percent NYSE gain - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 06:20:29",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ABBV",
+      "title": "3 Dividend Stocks That Are No-Brainer Buys Right Now, Starting With This Healthcare Giant",
       "time": "Tue, 15 Sep 2026 17:15:00",
       "sentiment": 0
     }
