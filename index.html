@@ -56,7 +56,7 @@ a{color:#a9c5ff}.status{margin-top:14px}.section{margin-top:20px}.section h2{fon
     <form id="tradeForm" style="margin-top:12px;display:grid;gap:10px;grid-template-columns:repeat(2,minmax(0,1fr))">
       <label class="small">Ticker<input id="tradeTicker" required placeholder="DKNG" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
       <label class="small">Kaufkurs<input id="tradeEntry" required type="number" min="0.0001" step="0.0001" placeholder="38.20" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
-      <label class="small">Stückzahl<input id="tradeQty" required type="number" min="1" step="1" placeholder="12" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
+      <label class="small">Stückzahl<input id="tradeQty" required type="number" min="0.000001" step="any" placeholder="0.50" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
       <label class="small">Kaufzeit<input id="tradeTime" type="datetime-local" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
       <label class="small">Stop %<input id="tradeStop" type="number" min="0.1" max="20" step="0.1" value="2.0" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
       <label class="small">Gewinnziel %<input id="tradeTarget" type="number" min="0.1" max="50" step="0.1" value="4.0" style="width:100%;margin-top:4px;padding:10px;border-radius:9px;border:1px solid var(--line);background:#0e141e;color:var(--txt)"></label>
@@ -114,7 +114,7 @@ async function load(){
    <div class="detail"><b>1. Gewinnziel:</b> ca. +${esc(x.target_pct)}%</div>
    <div class="detail"><b>Exit-Plan:</b> ${esc(x.exit_note)}</div>
    <div class="muted small" style="margin-top:9px">1T: ${esc(x.change_1d)} · 5T: ${esc(x.change_5d)} · Volumen: ${esc(x.volume_ratio)} · ATR: ${esc(x.atr_pct)} · Gap: ${esc(x.gap_pct)} · Premarket: ${esc(x.premarket_move_pct)} · Live-Gap: ${esc(x.live_gap_pct||'–')} · Seit Open: ${esc(x.regular_move_pct||'–')} · VWAP: ${esc(x.vwap??'–')} · OR15-Hoch: ${esc(x.opening_range_high??'–')}</div>
-   <div class="detail" data-sizing="${esc(x.ticker)}" data-stop="${esc(x.stop_pct)}"><b>Vorgeschlagene Kaufmenge:</b> <span class="qtySuggestion">Depotdaten eintragen</span></div>`;
+   <div class="detail" data-sizing="${esc(x.ticker)}" data-stop="${esc(x.stop_pct)}"><b>Vorgeschlagener Euro-Einsatz:</b> <span class="qtySuggestion">Depotdaten eintragen</span></div>`;
    cards.appendChild(el);
   });
   if(typeof refreshSizing==='function') setTimeout(refreshSizing,0);
@@ -162,7 +162,7 @@ if(true){
     e.preventDefault();
     const ticker=$('tradeTicker').value.trim().toUpperCase();
     const entry=parseFloat($('tradeEntry').value);
-    const qty=parseInt($('tradeQty').value,10);
+    const qty=parseFloat($('tradeQty').value);
     const stop_pct=parseFloat($('tradeStop').value);
     const target_pct=parseFloat($('tradeTarget').value);
     const bought_at=$('tradeTime').value ? new Date($('tradeTime').value).toISOString() : new Date().toISOString();
@@ -176,7 +176,7 @@ if(true){
       return;
     }
 
-    const payload={ticker,entry,qty,bought_at,stop_pct,target_pct};
+    const payload={ticker,entry,qty,bought_at,stop_pct,target_pct,entry_currency:'EUR'};
 
     try{
       $('tradeMsg').textContent='Sende Position an den Monitor …';
@@ -216,7 +216,11 @@ function refreshSizing(){
     if(!span)return;
     if(!(Number(s.portfolio_eur)>0)){span.textContent='Depotdaten eintragen';return}
     const riskEur=Number(s.portfolio_eur)*Number(s.risk_per_trade_pct)/100;
-    span.textContent=`im Live-Entry-Push berechnet · max. Verlustbudget ${riskEur.toFixed(2)} €`;
+    const stopPct=Number(el.dataset.stop);
+    const capEur=Number(s.portfolio_eur)*Number(s.max_position_pct)/100;
+    const byRisk=stopPct>0 ? riskEur/(stopPct/100) : 0;
+    const invest=Math.min(byRisk,capEur);
+    span.textContent=invest>0 ? `${invest.toFixed(2)} € · max. Verlustbudget ${riskEur.toFixed(2)} €` : 'nicht berechenbar';
   });
 }
 const riskForm=$('riskForm');
