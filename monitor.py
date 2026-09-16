@@ -60,7 +60,16 @@ def push(title, message, priority="default", tags="bell"):
     server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
     try:
         token = os.environ.get("NTFY_TOKEN", "").strip()
-        headers = {"Title": title, "Priority": priority, "Tags": tags}
+        # requests/http.client encodes HTTP header values as latin-1. Keep every
+        # HTTP header ASCII-safe. The body remains UTF-8.
+        token = token.encode("ascii", "ignore").decode("ascii")
+        # requests/http.client encodes HTTP header values as latin-1. Keep ntfy
+        # headers ASCII-safe; the message body remains UTF-8 and may contain
+        # umlauts/emojis without problems.
+        safe_title = str(title).encode("ascii", "ignore").decode("ascii").strip() or "Investment Radar"
+        safe_priority = str(priority).encode("ascii", "ignore").decode("ascii")
+        safe_tags = str(tags).encode("ascii", "ignore").decode("ascii")
+        headers = {"Title": safe_title, "Priority": safe_priority, "Tags": safe_tags}
         if token:
             headers["Authorization"] = f"Bearer {token}"
         r = requests.post(
@@ -142,8 +151,7 @@ def import_manual_positions(state):
                 "target_pct": target_pct,
                 "opened_at": bought_at,
                 "status": "real_open",
-                "source": "dashboard_manual",
-                "entry_currency": str(payload.get("entry_currency", "EUR") or "EUR").upper()
+                "source": "dashboard_manual"
             }
             print("Imported real position:", ticker, entry, qty)
 
@@ -158,33 +166,20 @@ def effective_risk_settings(state, config):
     s.update(state.get("risk_settings", {}) or {})
     return s
 
-def suggested_investment_eur(stop_pct, config):
-    """Euro position value from risk budget; supports fractional shares and is currency-independent."""
+def position_size(entry, stop_pct, config):
     portfolio = config.get("portfolio_eur")
     risk_pct = config.get("risk_per_trade_pct", 0.5)
     max_position_pct = config.get("max_position_pct", 10.0)
-    if not portfolio or not stop_pct:
+    if not portfolio or not entry or not stop_pct:
         return None
     portfolio = float(portfolio)
-    stop_frac = float(stop_pct) / 100.0
-    if stop_frac <= 0:
+    risk_eur = portfolio * float(risk_pct) / 100.0
+    loss_per_share = float(entry) * float(stop_pct) / 100.0
+    if loss_per_share <= 0:
         return None
-    risk_budget = portfolio * float(risk_pct) / 100.0
-    by_risk = risk_budget / stop_frac
-    cap = portfolio * float(max_position_pct) / 100.0
-    return max(0.0, min(by_risk, cap))
-
-def usd_to_eur_rate():
-    try:
-        d = yf.download("EURUSD=X", period="1d", interval="5m", auto_adjust=False, progress=False, threads=False)
-        if d.empty: return None
-        if hasattr(d.columns, "levels"):
-            try: d.columns = d.columns.get_level_values(0)
-            except Exception: pass
-        eurusd = float(d["Close"].dropna().iloc[-1])
-        return (1.0 / eurusd) if eurusd > 0 else None
-    except Exception:
-        return None
+    by_risk = int(risk_eur // loss_per_share)
+    by_position_cap = int((portfolio * float(max_position_pct) / 100.0) // float(entry))
+    return max(0, min(by_risk, by_position_cap))
 
 def main():
     now_ny = datetime.now(NY)
@@ -194,6 +189,12 @@ def main():
     state = load_json(STATE_PATH, {"signals": {}, "positions": {}})
     state.setdefault("signals", {})
     state.setdefault("positions", {})
+    # Legacy versions created virtual positions from entry alerts. They are not
+    # real purchases and must never trigger stop/target monitoring.
+    state["positions"] = {
+        t: pos for t, pos in state["positions"].items()
+        if pos.get("status") != "virtual_open"
+    }
     state = import_manual_positions(state)
     risk_settings = effective_risk_settings(state, config)
 
@@ -223,16 +224,15 @@ def main():
 
         stop_pct = float(c.get("stop_pct") or 0)
         target_pct = float(c.get("target_pct") or 0)
-        investment_eur = suggested_investment_eur(stop_pct, risk_settings)
+        qty = position_size(price, stop_pct, risk_settings)
 
         stop_price = price * (1 - stop_pct/100) if stop_pct else None
         target_price = price * (1 + target_pct/100) if target_pct else None
-        investment_text = (
-            f"\nVorgeschlagener Einsatz: {investment_eur:.2f} EUR"
-            if investment_eur is not None and investment_eur >= 1 else
-            "\nKEIN KAUF - sinnvoller Euro-Einsatz nicht berechenbar."
+        qty_text = (
+            f"\nVorgeschlagene Kaufmenge: {qty} Stück"
+            if qty is not None and qty > 0 else
+            "\nKaufmenge: nicht berechnet oder unter 1 Stück."
         )
-
 
         msg = (
             f"{ticker} erfüllt alle Dashboard-Regeln.\n"
@@ -243,38 +243,17 @@ def main():
             msg += f"Stop/Invalidation: ca. {stop_price:.2f} ({-stop_pct:.2f}%)\n"
         if target_price:
             msg += f"1. Ziel: ca. {target_price:.2f} (+{target_pct:.2f}%)\n"
-        msg += (f"Entry-Regel: {c.get('entry_note','')}{investment_text}\n\n"
-                f"NACH DEM KAUF IM DASHBOARD EINTRAGEN:\n"
-                f"Ticker: {ticker}\n"
-                f"Kaufkurs: tatsaechlichen TR-Ausfuehrungskurs in EUR\n"
-                f"Stueckzahl: tatsaechlich gekaufte Anteile (Dezimalstellen erlaubt)\n"
-                f"Kaufzeit: tatsaechliche Kaufzeit\n"
-                f"Stop %: {stop_pct:.2f}\n"
-                f"Gewinnziel %: {target_pct:.2f}\n"
-                f"Dann: Position speichern & ueberwachen.\n"
-                f"Keine Gewinngarantie.")
+        msg += f"Entry-Regel: {c.get('entry_note','')}{qty_text}\nKeine Gewinngarantie."
 
-        if push(f"🟢 ENTRY-SIGNAL {ticker}", msg, priority="high", tags="chart_with_upwards_trend"):
+        if push(f"ENTRY-SIGNAL {ticker}", msg, priority="high", tags="chart_with_upwards_trend"):
             state["signals"][signal_key] = {
                 "sent_at": datetime.now(BERLIN).isoformat(),
                 "price": price
             }
-            existing = state["positions"].get(ticker)
-            if not existing or existing.get("status") not in ("real_open", "virtual_open"):
-                state["positions"][ticker] = {
-                    "entry": price,
-                    "qty": None,
-                    "stop_pct": stop_pct,
-                    "target_pct": target_pct,
-                    "opened_at": now_ny.isoformat(),
-                    "signal_key": signal_key,
-                    "status": "virtual_open",
-                    "source": "entry_signal_reference"
-                }
 
-    # 2) Monitor real or virtual positions.
+    # 2) Monitor only positions explicitly saved by the user in the dashboard.
     for ticker, p in list(state["positions"].items()):
-        if p.get("status") not in ("real_open", "virtual_open"):
+        if p.get("status") != "real_open":
             continue
 
         price = latest_price(ticker)
@@ -283,13 +262,6 @@ def main():
 
         entry = float(p["entry"])
         qty = p.get("qty")
-        # Dashboard manual entries are Trade Republic EUR prices. Convert the US quote to EUR.
-        if p.get("status") == "real_open" and str(p.get("entry_currency", "EUR")).upper() == "EUR":
-            fx = usd_to_eur_rate()
-            if fx is None:
-                print("FX unavailable; skipping real-position check for", ticker)
-                continue
-            price = price * fx
         stop_pct = float(p.get("stop_pct") or 0)
         target_pct = float(p.get("target_pct") or 0)
         pnl_pct = (price / entry - 1) * 100
@@ -323,9 +295,9 @@ def main():
                 + f"Veränderung: {pnl_pct:+.2f}%\n"
                 + (f"Unrealisierter P/L: {pnl_eur:+.2f}\n" if pnl_eur is not None else "")
                 + f"{reason}\n"
-                + (f"Aktion: {qty:g} Stück verkaufen / Position vollständig schließen." if qty else "Aktion: Position jetzt prüfen und Exit erwägen.")
+                + (f"Aktion: {qty} Stück verkaufen / Position vollständig schließen." if qty else "Aktion: Position jetzt prüfen und Exit erwägen.")
             )
-            if push(f"🔴 EXIT-SIGNAL {ticker}", msg, priority="high", tags=tags):
+            if push(f"EXIT-SIGNAL {ticker}", msg, priority="high", tags=tags):
                 p["status"] = "exit_alerted"
                 p["exit_alert_at"] = now_ny.isoformat()
                 p["exit_reference_price"] = price
