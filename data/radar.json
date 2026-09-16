@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "16.09.2026 16:26 CEST",
+  "generated_at_local": "16.09.2026 16:29 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +4.53%, 5T +6.36%, relatives Volumen 1.63x, ATR 2.34%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Tuesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.17%, seit Open -0.27%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.31%, seit Open -0.40%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.52,
       "target_pct": 2.74,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "2.34%",
       "gap_pct": "+0.17%",
       "premarket_move_pct": "+0.08%",
-      "live_gap_pct": "-0.17%",
-      "regular_move_pct": "-0.27%",
+      "live_gap_pct": "-0.31%",
+      "regular_move_pct": "-0.40%",
       "avg_dollar_volume": 1107797729.56,
-      "bar_age_minutes": 1.4,
-      "vwap": 643.16,
+      "bar_age_minutes": 4.8,
+      "vwap": 643.04,
       "opening_range_high": 648.26,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -47,12 +47,12 @@
     {
       "ticker": "QCOM",
       "name": "Qualcomm",
-      "score": 97,
+      "score": 100,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.85x, ATR 4.07%",
-      "catalyst": "QCOM Stock Is 7% From Its Record High; Executives To Join Trump In China Visit",
+      "catalyst": "Qualcomm (NASDAQ: QCOM) Hits Two-Month High As Amazon AI Chip Deal Reshapes Growth Outlook",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.43%, seit Open -0.36%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.52%, seit Open -0.27%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,10 +62,10 @@
       "atr_pct": "4.07%",
       "gap_pct": "+0.86%",
       "premarket_move_pct": "-0.03%",
-      "live_gap_pct": "+0.43%",
-      "regular_move_pct": "-0.36%",
+      "live_gap_pct": "+0.52%",
+      "regular_move_pct": "-0.27%",
       "avg_dollar_volume": 1972362995.2,
-      "bar_age_minutes": 1.4,
+      "bar_age_minutes": 4.8,
       "vwap": 189.3,
       "opening_range_high": 189.98,
       "opening_range_ready": true,
@@ -104,8 +104,8 @@
       "live_gap_pct": "-0.31%",
       "regular_move_pct": "+0.24%",
       "avg_dollar_volume": 307065640.4,
-      "bar_age_minutes": 6.4,
-      "vwap": 227.91,
+      "bar_age_minutes": 4.8,
+      "vwap": 227.94,
       "opening_range_high": 228.64,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -125,12 +125,12 @@
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 95,
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
       "catalyst": "CrowdStrike Stock Surges to Record High Amid Growing AI Safety Concerns",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.38%, seit Open +1.97%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.75%, seit Open +1.58%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,17 +140,17 @@
       "atr_pct": "6.26%",
       "gap_pct": "-2.55%",
       "premarket_move_pct": "-1.55%",
-      "live_gap_pct": "-0.38%",
-      "regular_move_pct": "+1.97%",
+      "live_gap_pct": "-0.75%",
+      "regular_move_pct": "+1.58%",
       "avg_dollar_volume": 2546035442.27,
-      "bar_age_minutes": 1.4,
-      "vwap": 239.86,
+      "bar_age_minutes": 4.8,
+      "vwap": 239.88,
       "opening_range_high": 241.49,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR, Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -158,7 +158,7 @@
         "volatility_ok": false,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
       }
     },
     {
@@ -169,7 +169,7 @@
       "thesis": "1T +0.67%, 5T -0.29%, relatives Volumen 2.26x, ATR 1.78%",
       "catalyst": "JPMorgan Chase Stock Is Beating Nu This Year, but Only One of Them Had Positive Free Cash Flow Last Year",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.94%, seit Open -1.19%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.88%, seit Open -1.13%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.16,
       "target_pct": 2.08,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +179,11 @@
       "atr_pct": "1.78%",
       "gap_pct": "+0.15%",
       "premarket_move_pct": "-0.15%",
-      "live_gap_pct": "-0.94%",
-      "regular_move_pct": "-1.19%",
+      "live_gap_pct": "-0.88%",
+      "regular_move_pct": "-1.13%",
       "avg_dollar_volume": 2211446627.72,
-      "bar_age_minutes": 1.4,
-      "vwap": 351.48,
+      "bar_age_minutes": 4.8,
+      "vwap": 351.44,
       "opening_range_high": 355.6,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -244,6 +244,12 @@
     },
     {
       "ticker": "QCOM",
+      "title": "Qualcomm (NASDAQ: QCOM) Hits Two-Month High As Amazon AI Chip Deal Reshapes Growth Outlook",
+      "time": "Wed, 16 Sep 2026 09:56:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "QCOM",
       "title": "QCOM Stock Is 7% From Its Record High; Executives To Join Trump In China Visit",
       "time": "Tue, 15 Sep 2026 18:56:54",
       "sentiment": 1
@@ -252,12 +258,6 @@
       "ticker": "QCOM",
       "title": "Qualcomm Stock Forecast: Can QCOM Hit $200 After Amazon AI Chip Partnership?",
       "time": "Tue, 15 Sep 2026 21:45:28",
-      "sentiment": 1
-    },
-    {
-      "ticker": "QCOM",
-      "title": "Qualcomm (NASDAQ: QCOM) Hits Two-Month High As Amazon AI Chip Deal Reshapes Growth Outlook",
-      "time": "Wed, 16 Sep 2026 09:56:00",
       "sentiment": 1
     },
     {
@@ -395,7 +395,7 @@
     {
       "ticker": "WFC",
       "title": "JPMorgan Stock And 2 US Banks Built For Higher Interest Rates",
-      "time": "Wed, 16 Sep 2026 12:35:14",
+      "time": "Wed, 16 Sep 2026 12:33:40",
       "sentiment": -1
     },
     {
@@ -448,6 +448,12 @@
     },
     {
       "ticker": "CRWD",
+      "title": "The Ultimate Cyber Shield: CrowdStrike Rises Past $235",
+      "time": "Wed, 16 Sep 2026 13:48:44",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
       "title": "CrowdStrike Stock Pauses Wednesday: What's Going On?",
       "time": "Wed, 16 Sep 2026 13:12:30",
       "sentiment": 0
@@ -462,12 +468,6 @@
       "ticker": "CRWD",
       "title": "CrowdStrike(CRWD.US) Officer Sells US$4.41 Million in Common Stock",
       "time": "Wed, 16 Sep 2026 00:02:27",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRWD",
-      "title": "CrowdStrike (NASDAQ: CRWD) director unloads 50,000 shares after exercising options",
-      "time": "Wed, 16 Sep 2026 00:04:52",
       "sentiment": 0
     },
     {
@@ -532,14 +532,14 @@
     },
     {
       "ticker": "COP",
-      "title": "ConocoPhillips Stock (COP) Moved Up by 3.21% on Sep 15: What Signal Does It Send?",
-      "time": "Tue, 15 Sep 2026 17:15:24",
+      "title": "ConocoPhillips (NYSE:COP) Commands Attention As Yields Swing The Tape",
+      "time": "Wed, 16 Sep 2026 00:55:00",
       "sentiment": 0
     },
     {
       "ticker": "COP",
-      "title": "ConocoPhillips (NYSE:COP) Commands Attention As Yields Swing The Tape",
-      "time": "Wed, 16 Sep 2026 00:55:00",
+      "title": "ConocoPhillips Stock (COP) Moved Up by 3.21% on Sep 15: What Signal Does It Send?",
+      "time": "Tue, 15 Sep 2026 17:15:24",
       "sentiment": 0
     },
     {
@@ -562,8 +562,8 @@
     },
     {
       "ticker": "JPM",
-      "title": "JPM Stock Gains Nearly 3% — Jamie Dimon Succession Dynamics Shift After Marianne Lake Exit",
-      "time": "Tue, 15 Sep 2026 18:00:21",
+      "title": "Wall Street giants’ trading operations show a tale of two extremes: JPMorgan (JPM.US) expects a surge in Q3 performance, while Bank of America (BAC.US) warns of a slowdown",
+      "time": "Wed, 16 Sep 2026 04:40:31",
       "sentiment": 0
     },
     {
@@ -580,14 +580,14 @@
     },
     {
       "ticker": "EOG",
-      "title": "EOG Resources stock hits all-time high at 153.71 USD",
-      "time": "Tue, 15 Sep 2026 18:13:38",
+      "title": "EOG Resources stock heads into the open after a 3.5 percent jump - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 06:08:43",
       "sentiment": 0
     },
     {
       "ticker": "EOG",
-      "title": "EOG Resources stock heads into the open after a 3.5 percent jump - ad-hoc-news.de",
-      "time": "Wed, 16 Sep 2026 06:08:43",
+      "title": "EOG Resources stock hits all-time high at 153.71 USD",
+      "time": "Tue, 15 Sep 2026 18:13:38",
       "sentiment": 0
     },
     {
@@ -694,8 +694,8 @@
     },
     {
       "ticker": "CVX",
-      "title": "Why Did DELL, CRWD, CVX Stocks Jump To 52-Week Highs Today?",
-      "time": "Wed, 16 Sep 2026 03:55:17",
+      "title": "Goldman Sachs Adjusts Price Target on Chevron to $240 From $225, Keeps Buy Rating",
+      "time": "Wed, 16 Sep 2026 09:30:53",
       "sentiment": 0
     },
     {
@@ -1035,12 +1035,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "STLD",
-      "title": "U.S. Steel and Materials Stocks Swing as U.S.-Canada Trade War Escalates With 50% Tariffs",
-      "time": "Tue, 15 Sep 2026 19:30:08",
-      "sentiment": 0
-    },
-    {
       "ticker": "SCHW",
       "title": "SCHW Stock Quote Price and Forecast",
       "time": "Wed, 16 Sep 2026 08:40:31",
@@ -1054,12 +1048,6 @@
     },
     {
       "ticker": "SCHW",
-      "title": "Robinhood vs. Schwab: Which Brokerage Stock is the Better Bet?",
-      "time": "Tue, 15 Sep 2026 15:01:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SCHW",
       "title": "Charles Schwab (SCHW) Brings AI Tools to 16,000 Financial Advisors",
       "time": "Wed, 16 Sep 2026 05:14:00",
       "sentiment": 0
@@ -1068,6 +1056,12 @@
       "ticker": "SCHW",
       "title": "Schwab's Blossoming Wealth Management Foray Provides Intriguing Upside for Investors",
       "time": "Wed, 16 Sep 2026 00:45:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SCHW",
+      "title": "Robinhood vs. Schwab: Which Brokerage Stock is the Better Bet?",
+      "time": "Tue, 15 Sep 2026 15:01:00",
       "sentiment": 0
     }
   ]
