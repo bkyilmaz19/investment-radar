@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "16.09.2026 22:12 CEST",
+  "generated_at_local": "16.09.2026 22:29 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -23,14 +23,14 @@
       "atr_pct": "2.34%",
       "gap_pct": "+0.17%",
       "premarket_move_pct": "+0.08%",
-      "live_gap_pct": "+1.11%",
-      "regular_move_pct": "+1.01%",
+      "live_gap_pct": "+1.10%",
+      "regular_move_pct": "+1.00%",
       "avg_dollar_volume": 1107797729.56,
-      "bar_age_minutes": 12.4,
-      "vwap": 647.36,
+      "bar_age_minutes": 29.6,
+      "vwap": 647.38,
       "opening_range_high": 648.26,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
       "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
@@ -47,11 +47,11 @@
     {
       "ticker": "RMD",
       "name": "ResMed",
-      "score": 99,
+      "score": 95,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.37x, ATR 2.90%",
       "catalyst": "ResMed Shares Jump Following RBC Capital Upgrade to Outperform",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "risk_note": "STERIS Stock: Is STE Underperforming the Healthcare Sector?",
       "entry_note": "Premarket-Gap -1.05%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
       "stop_pct": 1.88,
       "target_pct": 3.39,
@@ -62,14 +62,14 @@
       "atr_pct": "2.90%",
       "gap_pct": "-1.05%",
       "premarket_move_pct": "+0.00%",
-      "live_gap_pct": "-0.45%",
-      "regular_move_pct": "+0.09%",
+      "live_gap_pct": "-0.51%",
+      "regular_move_pct": "+0.04%",
       "avg_dollar_volume": 307065640.4,
-      "bar_age_minutes": 17.4,
+      "bar_age_minutes": 29.6,
       "vwap": 228.17,
       "opening_range_high": 228.64,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
       "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
@@ -104,7 +104,7 @@
       "live_gap_pct": "-1.58%",
       "regular_move_pct": "-2.35%",
       "avg_dollar_volume": 1972468163.2,
-      "bar_age_minutes": 2.4,
+      "bar_age_minutes": 4.6,
       "vwap": 187.48,
       "opening_range_high": 189.98,
       "opening_range_ready": true,
@@ -116,6 +116,45 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan",
+      "score": 88,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.67%, 5T -0.29%, relatives Volumen 2.26x, ATR 1.78%",
+      "catalyst": "JPMorgan Chase Stock Is Beating Nu This Year, but Only One of Them Had Positive Free Cash Flow Last Year",
+      "risk_note": "JPMorgan vs. Wells Fargo: Which Bank Stock Has More Upside Potential?",
+      "entry_note": "Premarket-Gap +0.15%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.16,
+      "target_pct": 2.08,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.67%",
+      "change_5d": "-0.29%",
+      "volume_ratio": "2.26x",
+      "atr_pct": "1.78%",
+      "gap_pct": "+0.15%",
+      "premarket_move_pct": "-0.15%",
+      "live_gap_pct": "-0.97%",
+      "regular_move_pct": "-1.22%",
+      "avg_dollar_volume": 2211446627.72,
+      "bar_age_minutes": 2.0,
+      "vwap": 349.99,
+      "opening_range_high": 355.6,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -143,7 +182,7 @@
       "live_gap_pct": "+1.04%",
       "regular_move_pct": "+1.51%",
       "avg_dollar_volume": 338232310.35,
-      "bar_age_minutes": 2.3,
+      "bar_age_minutes": 4.6,
       "vwap": 87.79,
       "opening_range_high": 87.88,
       "opening_range_ready": true,
@@ -159,45 +198,6 @@
         "news_ok": true,
         "gap_ok": true,
         "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
-      "catalyst": "CrowdStrike Stock Surges to Record High Amid Growing AI Safety Concerns",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -2.55%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 2.5,
-      "target_pct": 4.5,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.02%",
-      "change_5d": "+15.46%",
-      "volume_ratio": "1.61x",
-      "atr_pct": "6.26%",
-      "gap_pct": "-2.55%",
-      "premarket_move_pct": "-1.55%",
-      "live_gap_pct": "-0.45%",
-      "regular_move_pct": "+1.90%",
-      "avg_dollar_volume": 2546497385.73,
-      "bar_age_minutes": 2.4,
-      "vwap": 241.5,
-      "opening_range_high": 241.49,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR, Gap, Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": false,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
       }
     }
   ],
@@ -286,6 +286,12 @@
     },
     {
       "ticker": "JPM",
+      "title": "JPMorgan Chase Stock Is Beating Nu This Year, but Only One of Them Had Positive Free Cash Flow Last Year",
+      "time": "Wed, 16 Sep 2026 13:21:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "JPM",
       "title": "JPMorgan Chase & Co. (NYSE:JPM) Raises Dividend to $1.65 Per Share",
       "time": "Wed, 16 Sep 2026 12:33:06",
       "sentiment": 1
@@ -317,8 +323,14 @@
     {
       "ticker": "RMD",
       "title": "ResMed stock jumps 3% on RBC Capital upgrade to Outperform By Investing.com",
-      "time": "Tue, 15 Sep 2026 20:21:05",
+      "time": "Wed, 16 Sep 2026 00:18:46",
       "sentiment": 1
+    },
+    {
+      "ticker": "RMD",
+      "title": "STERIS Stock: Is STE Underperforming the Healthcare Sector?",
+      "time": "Wed, 16 Sep 2026 11:43:39",
+      "sentiment": -1
     },
     {
       "ticker": "RMD",
@@ -532,8 +544,8 @@
     },
     {
       "ticker": "COP",
-      "title": "ConocoPhillips (NYSE:COP) Commands Attention As Yields Swing The Tape",
-      "time": "Wed, 16 Sep 2026 00:55:00",
+      "title": "Here’s How Much You Would Have Made Owning ConocoPhillips Stock In The Last 5 Years",
+      "time": "Wed, 16 Sep 2026 20:15:46",
       "sentiment": 0
     },
     {
@@ -552,12 +564,6 @@
       "ticker": "JPM",
       "title": "Eligible Chase cardholders can turn points into investment cash",
       "time": "Wed, 16 Sep 2026 13:26:19",
-      "sentiment": 0
-    },
-    {
-      "ticker": "JPM",
-      "title": "JPMorgan Sees ‘Nothing Flashing Red’ In US Economy",
-      "time": "Wed, 16 Sep 2026 17:01:14",
       "sentiment": 0
     },
     {
@@ -624,12 +630,6 @@
       "ticker": "RMD",
       "title": "ResMed stock heads into the open after a 4.5% Nasdaq gain - ad-hoc-news.de",
       "time": "Wed, 16 Sep 2026 04:15:50",
-      "sentiment": 0
-    },
-    {
-      "ticker": "RMD",
-      "title": "How Could Consistent Monthly Contributions to ASX Shares Build Substantial Passive Income?",
-      "time": "Tue, 15 Sep 2026 23:44:00",
       "sentiment": 0
     },
     {
@@ -712,20 +712,20 @@
     },
     {
       "ticker": "DHR",
-      "title": "Danaher Corp Stock (DHR) Closed Up by 3.01% on Sep 15: A Full Analysis",
-      "time": "Tue, 15 Sep 2026 20:15:23",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DHR",
-      "title": "Danaher Announces Quarterly Dividend",
-      "time": "Tue, 15 Sep 2026 20:15:00",
+      "title": "Danaher declares $0.40 quarterly dividend By Investing.com",
+      "time": "Tue, 15 Sep 2026 20:31:31",
       "sentiment": 0
     },
     {
       "ticker": "DHR",
       "title": "Danaher stock heads into the open after a 3.0% gain - ad-hoc-news.de",
       "time": "Wed, 16 Sep 2026 02:37:56",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DHR",
+      "title": "Danaher declares $0.40 quarterly dividend By Investing.com",
+      "time": "Tue, 15 Sep 2026 20:44:03",
       "sentiment": 0
     },
     {
@@ -743,7 +743,7 @@
     {
       "ticker": "PSX",
       "title": "Is Phillips 66 (PSX) Overvalued After 3.1% Rally? GF Value Says",
-      "time": "Tue, 15 Sep 2026 21:15:34",
+      "time": "Tue, 15 Sep 2026 21:33:27",
       "sentiment": 0
     },
     {
@@ -790,14 +790,14 @@
     },
     {
       "ticker": "ON",
-      "title": "ASML vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy in 2026?",
-      "time": "Wed, 16 Sep 2026 11:45:01",
+      "title": "symbol__ Stock Quote Price and Forecast",
+      "time": "Wed, 16 Sep 2026 07:56:12",
       "sentiment": 0
     },
     {
       "ticker": "ON",
-      "title": "symbol__ Stock Quote Price and Forecast",
-      "time": "Wed, 16 Sep 2026 07:56:12",
+      "title": "ASML vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy in 2026?",
+      "time": "Wed, 16 Sep 2026 12:25:00",
       "sentiment": 0
     },
     {
@@ -958,14 +958,14 @@
     },
     {
       "ticker": "META",
-      "title": "Meta’s ChatGPT Moment Is Here (NASDAQ:META)",
-      "time": "Wed, 16 Sep 2026 17:00:20",
+      "title": "Meta Stock Ticks Higher as Meta's AI Stack Takes Shape",
+      "time": "Wed, 16 Sep 2026 20:14:15",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Why Is Meta Platforms Stock Gaining Wednesday?",
-      "time": "Wed, 16 Sep 2026 14:25:08",
+      "title": "Meta’s ChatGPT Moment Is Here (NASDAQ:META)",
+      "time": "Wed, 16 Sep 2026 17:00:20",
       "sentiment": 0
     },
     {
@@ -976,14 +976,14 @@
     },
     {
       "ticker": "WFC",
-      "title": "Wells Fargo & Co Stock (WFC) Moved Down by 3.55% on Sep 16: What Investors Need To Know",
-      "time": "Wed, 16 Sep 2026 19:15:26",
+      "title": "Learn Why The Bull Case For Wells Fargo Stock Could Change Following Asset Cap Removal",
+      "time": "Wed, 16 Sep 2026 10:24:15",
       "sentiment": 0
     },
     {
       "ticker": "WFC",
-      "title": "Learn Why The Bull Case For Wells Fargo Stock Could Change Following Asset Cap Removal",
-      "time": "Wed, 16 Sep 2026 10:24:15",
+      "title": "Wells Fargo & Co Stock (WFC) Moved Down by 3.55% on Sep 16: What Investors Need To Know",
+      "time": "Wed, 16 Sep 2026 19:15:26",
       "sentiment": 0
     },
     {
