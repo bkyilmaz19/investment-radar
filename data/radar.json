@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "16.09.2026 20:54 CEST",
+  "generated_at_local": "16.09.2026 21:10 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.37x, ATR 2.90%",
       "catalyst": "ResMed Shares Jump Following RBC Capital Upgrade to Outperform",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.57%, seit Open -0.02%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.60%, seit Open -0.06%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.88,
       "target_pct": 3.39,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,10 +23,10 @@
       "atr_pct": "2.90%",
       "gap_pct": "-1.05%",
       "premarket_move_pct": "+0.00%",
-      "live_gap_pct": "-0.57%",
-      "regular_move_pct": "-0.02%",
+      "live_gap_pct": "-0.60%",
+      "regular_move_pct": "-0.06%",
       "avg_dollar_volume": 307065640.4,
-      "bar_age_minutes": 4.9,
+      "bar_age_minutes": 0.7,
       "vwap": 228.14,
       "opening_range_high": 228.64,
       "opening_range_ready": true,
@@ -52,7 +52,7 @@
       "thesis": "1T +4.53%, 5T +6.36%, relatives Volumen 1.63x, ATR 2.34%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Tuesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.23%, seit Open +1.13%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.02%, seit Open +0.93%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.52,
       "target_pct": 2.74,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +62,11 @@
       "atr_pct": "2.34%",
       "gap_pct": "+0.17%",
       "premarket_move_pct": "+0.08%",
-      "live_gap_pct": "+1.23%",
-      "regular_move_pct": "+1.13%",
+      "live_gap_pct": "+1.02%",
+      "regular_move_pct": "+0.93%",
       "avg_dollar_volume": 1107797729.56,
-      "bar_age_minutes": 4.9,
-      "vwap": 646.38,
+      "bar_age_minutes": 0.7,
+      "vwap": 646.52,
       "opening_range_high": 648.26,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -86,12 +86,12 @@
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 96,
+      "score": 95,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
       "catalyst": "CrowdStrike Stock Surges to Record High Amid Growing AI Safety Concerns",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.05%, seit Open +2.41%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.66%, seit Open +1.68%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,17 +101,17 @@
       "atr_pct": "6.26%",
       "gap_pct": "-2.55%",
       "premarket_move_pct": "-1.55%",
-      "live_gap_pct": "+0.05%",
-      "regular_move_pct": "+2.41%",
+      "live_gap_pct": "-0.66%",
+      "regular_move_pct": "+1.68%",
       "avg_dollar_volume": 2546035442.27,
-      "bar_age_minutes": 4.9,
+      "bar_age_minutes": 0.7,
       "vwap": 241.66,
       "opening_range_high": 241.49,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR, Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -119,7 +119,7 @@
         "volatility_ok": false,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
       }
     },
     {
@@ -130,7 +130,7 @@
       "thesis": "1T +3.68%, 5T +3.71%, relatives Volumen 1.06x, ATR 3.21%",
       "catalyst": "UBS Bets on Valero Energy (VLO) to Shatter its Record High",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.88%, seit Open +3.27%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.40%, seit Open +2.78%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.08,
       "target_pct": 3.75,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +140,11 @@
       "atr_pct": "3.21%",
       "gap_pct": "-1.32%",
       "premarket_move_pct": "-2.06%",
-      "live_gap_pct": "+1.88%",
-      "regular_move_pct": "+3.27%",
+      "live_gap_pct": "+1.40%",
+      "regular_move_pct": "+2.78%",
       "avg_dollar_volume": 975699093.76,
-      "bar_age_minutes": 4.9,
-      "vwap": 401.07,
+      "bar_age_minutes": 0.7,
+      "vwap": 401.22,
       "opening_range_high": 396.74,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -164,12 +164,12 @@
     {
       "ticker": "DXCM",
       "name": "DexCom",
-      "score": 93,
+      "score": 92,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +2.09%, 5T +2.27%, relatives Volumen 1.42x, ATR 2.94%",
       "catalyst": "DexCom Inc (DXCM): GF Score of 95 Signals Strong Outperformance Potential",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.65%, seit Open +2.13%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.31%, seit Open +1.78%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.91,
       "target_pct": 3.44,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +179,11 @@
       "atr_pct": "2.94%",
       "gap_pct": "+0.01%",
       "premarket_move_pct": "-0.15%",
-      "live_gap_pct": "+1.65%",
-      "regular_move_pct": "+2.13%",
+      "live_gap_pct": "+1.31%",
+      "regular_move_pct": "+1.78%",
       "avg_dollar_volume": 338232310.35,
-      "bar_age_minutes": 4.9,
-      "vwap": 88.01,
+      "bar_age_minutes": 0.7,
+      "vwap": 87.99,
       "opening_range_high": 87.88,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -423,6 +423,12 @@
       "sentiment": -1
     },
     {
+      "ticker": "SCHW",
+      "title": "Charles Schwab stock gains on record August net new assets - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 08:45:45",
+      "sentiment": 1
+    },
+    {
       "ticker": "TMO",
       "title": "A Look at Thermo Fisher Scientific Inc (TMO) After 4.5% Gain -- GF Value $598.67 vs Price $641.39",
       "time": "Tue, 15 Sep 2026 21:15:34",
@@ -460,14 +466,14 @@
     },
     {
       "ticker": "CRWD",
-      "title": "The Ultimate Cyber Shield: CrowdStrike Rises Past $235",
-      "time": "Wed, 16 Sep 2026 13:48:44",
+      "title": "CrowdStrike Stock Pauses Wednesday: What's Going On?",
+      "time": "Wed, 16 Sep 2026 13:12:30",
       "sentiment": 0
     },
     {
       "ticker": "CRWD",
-      "title": "CrowdStrike Stock Pauses Wednesday: What's Going On?",
-      "time": "Wed, 16 Sep 2026 13:12:30",
+      "title": "The Ultimate Cyber Shield: CrowdStrike Rises Past $235",
+      "time": "Wed, 16 Sep 2026 13:48:44",
       "sentiment": 0
     },
     {
@@ -491,7 +497,7 @@
     {
       "ticker": "QCOM",
       "title": "Qualcomm’s Discount Could Vanish If Its AI Bet Pays Off",
-      "time": "Wed, 16 Sep 2026 15:34:40",
+      "time": "Wed, 16 Sep 2026 15:39:14",
       "sentiment": 0
     },
     {
@@ -508,8 +514,8 @@
     },
     {
       "ticker": "QCOM",
-      "title": "QCOM Stock Technicals Today: Gains 4.25%, Golden Cross Formed",
-      "time": "Wed, 16 Sep 2026 12:12:15",
+      "title": "QCOM Looks 6.8% Overvalued on GF Value™ as Dividend Sustainabili",
+      "time": "Tue, 15 Sep 2026 21:15:32",
       "sentiment": 0
     },
     {
@@ -622,20 +628,20 @@
     },
     {
       "ticker": "VLO",
+      "title": "Valero Energy stock hits all-time high at 400.2 USD By Investing.com",
+      "time": "Wed, 16 Sep 2026 14:45:26",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VLO",
       "title": "Valero Energy stock heads into the open after a 2.3% gain - ad-hoc-news.de",
       "time": "Wed, 16 Sep 2026 02:41:50",
       "sentiment": 0
     },
     {
-      "ticker": "VLO",
-      "title": "The Next Oil Shock Has No Safety Valve — And the Bill Will Land in Your Pantry",
-      "time": "Wed, 16 Sep 2026 17:09:57",
-      "sentiment": 0
-    },
-    {
       "ticker": "RMD",
-      "title": "ResMed (NYSE:RMD) Trading 4.5% Higher - Here's What Happened",
-      "time": "Tue, 15 Sep 2026 19:05:07",
+      "title": "ResMed stock heads into the open after a 4.5% Nasdaq gain - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 04:15:50",
       "sentiment": 0
     },
     {
@@ -671,7 +677,7 @@
     {
       "ticker": "CVX",
       "title": "Chevron Doesn’t Need Oil to Hit New Highs. Here’s What Could Drive the Stock Instead",
-      "time": "Wed, 16 Sep 2026 17:30:00",
+      "time": "Wed, 16 Sep 2026 17:30:12",
       "sentiment": 0
     },
     {
@@ -772,6 +778,12 @@
     },
     {
       "ticker": "ON",
+      "title": "Why is ON Semiconductor stock tumbling today? By Investing.com",
+      "time": "Wed, 16 Sep 2026 19:08:07",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ON",
       "title": "How Is Teradyne Stock Performance Compared to Other Semiconductor Stocks",
       "time": "Wed, 16 Sep 2026 11:48:46",
       "sentiment": 0
@@ -798,12 +810,6 @@
       "ticker": "ON",
       "title": "symbol__ Stock Quote Price and Forecast",
       "time": "Wed, 16 Sep 2026 07:56:12",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "ASML vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy in 2026?",
-      "time": "Wed, 16 Sep 2026 12:25:00",
       "sentiment": 0
     },
     {
@@ -1036,26 +1042,20 @@
     },
     {
       "ticker": "SCHW",
+      "title": "Truist Financial Maintains Charles Schwab(SCHW.US) With Buy Rating",
+      "time": "Wed, 16 Sep 2026 16:13:26",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SCHW",
       "title": "Schwab's Blossoming Wealth Management Foray Provides Intriguing Upside for Investors",
       "time": "Wed, 16 Sep 2026 00:45:00",
       "sentiment": 0
     },
     {
       "ticker": "SCHW",
-      "title": "Barclays Maintains Charles Schwab(SCHW.US) With Buy Rating, Maintains Target Price $125",
-      "time": "Wed, 16 Sep 2026 11:57:06",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SCHW",
       "title": "Agnico Eagle Mines, Charles Schwab, 16 Other Stocks Added To IBD Watchlists",
       "time": "Tue, 15 Sep 2026 22:27:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SCHW",
-      "title": "The Next Phase of Webull Could Be the One That Matters Most",
-      "time": "Wed, 16 Sep 2026 15:30:00",
       "sentiment": 0
     },
     {
