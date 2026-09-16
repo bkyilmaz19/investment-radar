@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "16.09.2026 09:08 CEST",
+  "generated_at_local": "16.09.2026 09:18 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -8,7 +8,7 @@
     {
       "ticker": "TMO",
       "name": "Thermo Fisher",
-      "score": 92,
+      "score": 98,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +4.53%, 5T +6.36%, relatives Volumen 1.63x, ATR 2.34%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Tuesday, outperforms market",
@@ -25,6 +25,12 @@
       "premarket_move_pct": "noch nicht verfügbar",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 1107797729.56,
+      "bar_age_minutes": null,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
       "session_phase": "Vor US-Premarket",
       "action_status": "WARTEN",
       "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
@@ -41,7 +47,7 @@
     {
       "ticker": "RMD",
       "name": "ResMed",
-      "score": 86,
+      "score": 90,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.37x, ATR 2.90%",
       "catalyst": "Learn Why The Bull Case For ResMed Stock Could Change Following Earnings Beat",
@@ -58,6 +64,12 @@
       "premarket_move_pct": "noch nicht verfügbar",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 307065640.4,
+      "bar_age_minutes": null,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
       "session_phase": "Vor US-Premarket",
       "action_status": "WARTEN",
       "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
@@ -74,7 +86,7 @@
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 81,
+      "score": 87,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.63%, 5T +3.29%, relatives Volumen 1.17x, ATR 3.13%",
       "catalyst": "Marathon Petroleum: The Focus Should Help (Rating Upgrade) (NYSE:MPC)",
@@ -91,6 +103,12 @@
       "premarket_move_pct": "noch nicht verfügbar",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 919676325.74,
+      "bar_age_minutes": null,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
       "session_phase": "Vor US-Premarket",
       "action_status": "WARTEN",
       "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
@@ -107,7 +125,7 @@
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 81,
+      "score": 87,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
       "catalyst": "Is CrowdStrike Stock Betting That Its Record Quarter Is The New Normal?",
@@ -124,6 +142,12 @@
       "premarket_move_pct": "noch nicht verfügbar",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 2546035442.27,
+      "bar_age_minutes": null,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
       "session_phase": "Vor US-Premarket",
       "action_status": "WARTEN",
       "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR, Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
@@ -140,7 +164,7 @@
     {
       "ticker": "QCOM",
       "name": "Qualcomm",
-      "score": 79,
+      "score": 85,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.85x, ATR 4.07%",
       "catalyst": "QCOM Stock Is 7% From Its Record High; Executives To Join Trump In China Visit",
@@ -157,6 +181,12 @@
       "premarket_move_pct": "noch nicht verfügbar",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 1972362995.2,
+      "bar_age_minutes": null,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
       "session_phase": "Vor US-Premarket",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -173,24 +203,24 @@
   ],
   "avoid": [
     {
+      "ticker": "LCID",
+      "reason": "Schwaches kurzfristiges Setup (Score 31/100; 1T -0.96%, 5T -11.02%)."
+    },
+    {
       "ticker": "ORCL",
-      "reason": "Schwaches kurzfristiges Setup (Score 26/100; 1T -3.07%, 5T -13.64%)."
+      "reason": "Schwaches kurzfristiges Setup (Score 32/100; 1T -3.07%, 5T -13.64%)."
     },
     {
       "ticker": "SMCI",
-      "reason": "Schwaches kurzfristiges Setup (Score 28/100; 1T -2.99%, 5T -11.48%)."
-    },
-    {
-      "ticker": "LCID",
-      "reason": "Schwaches kurzfristiges Setup (Score 30/100; 1T -0.96%, 5T -11.02%)."
-    },
-    {
-      "ticker": "LULU",
-      "reason": "Schwaches kurzfristiges Setup (Score 35/100; 1T -1.92%, 5T -4.67%)."
+      "reason": "Schwaches kurzfristiges Setup (Score 34/100; 1T -2.99%, 5T -11.48%)."
     },
     {
       "ticker": "PINS",
-      "reason": "Schwaches kurzfristiges Setup (Score 36/100; 1T -4.72%, 5T -6.85%)."
+      "reason": "Schwaches kurzfristiges Setup (Score 40/100; 1T -4.72%, 5T -6.85%)."
+    },
+    {
+      "ticker": "LULU",
+      "reason": "Schwaches kurzfristiges Setup (Score 41/100; 1T -1.92%, 5T -4.67%)."
     }
   ],
   "news": [
@@ -219,30 +249,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "EOG",
-      "title": "EOG Resources Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
-      "time": "Tue, 15 Sep 2026 20:43:00",
-      "sentiment": -1
-    },
-    {
-      "ticker": "RMD",
-      "title": "Learn Why The Bull Case For ResMed Stock Could Change Following Earnings Beat",
-      "time": "Wed, 16 Sep 2026 05:17:06",
-      "sentiment": 1
-    },
-    {
-      "ticker": "RMD",
-      "title": "ResMed stock upgraded at RBC Capital Markets (RMD:NYSE)",
-      "time": "Tue, 15 Sep 2026 14:00:51",
-      "sentiment": 1
-    },
-    {
-      "ticker": "RMD",
-      "title": "ResMed (RMD) Stock Surges Following Upgraded Rating and Price Ta",
-      "time": "Tue, 15 Sep 2026 18:39:34",
-      "sentiment": 1
-    },
-    {
       "ticker": "MPC",
       "title": "Marathon Petroleum: The Focus Should Help (Rating Upgrade) (NYSE:MPC)",
       "time": "Tue, 15 Sep 2026 21:20:39",
@@ -255,10 +261,10 @@
       "sentiment": 1
     },
     {
-      "ticker": "JPM",
-      "title": "JPMorgan Chase Raises Quarterly Dividend to $1.65 a Share From $1.50, Payable Oct. 31 to Shareholders of Record Oct. 6",
-      "time": "Tue, 15 Sep 2026 20:44:22",
-      "sentiment": 1
+      "ticker": "EOG",
+      "title": "EOG Resources Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
+      "time": "Tue, 15 Sep 2026 20:43:00",
+      "sentiment": -1
     },
     {
       "ticker": "VLO",
@@ -267,9 +273,21 @@
       "sentiment": 1
     },
     {
-      "ticker": "DXCM",
-      "title": "DexCom Inc. stock outperforms competitors on strong trading day",
-      "time": "Tue, 15 Sep 2026 20:56:00",
+      "ticker": "RMD",
+      "title": "Learn Why The Bull Case For ResMed Stock Could Change Following Earnings Beat",
+      "time": "Wed, 16 Sep 2026 05:17:07",
+      "sentiment": 1
+    },
+    {
+      "ticker": "RMD",
+      "title": "ResMed stock upgraded at RBC Capital Markets (RMD:NYSE)",
+      "time": "Tue, 15 Sep 2026 14:00:51",
+      "sentiment": 1
+    },
+    {
+      "ticker": "RMD",
+      "title": "ResMed (RMD) Stock Surges Following Upgraded Rating and Price Ta",
+      "time": "Tue, 15 Sep 2026 18:39:34",
       "sentiment": 1
     },
     {
@@ -291,6 +309,12 @@
       "sentiment": -1
     },
     {
+      "ticker": "DXCM",
+      "title": "DexCom Inc. stock outperforms competitors on strong trading day",
+      "time": "Tue, 15 Sep 2026 20:56:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "XOM",
       "title": "Bondholders tendered $570M and $616M in ExxonMobil's buyback offers",
       "time": "Tue, 15 Sep 2026 13:00:00",
@@ -300,12 +324,6 @@
       "ticker": "XOM",
       "title": "ExxonMobil’s LNG Ambitions Just Got A Major Upgrade",
       "time": "Wed, 16 Sep 2026 03:46:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "TTD",
-      "title": "Is The Trade Desk’s Cash Worth More Than Its Lost Growth?",
-      "time": "Tue, 15 Sep 2026 13:18:59",
       "sentiment": 1
     },
     {
@@ -327,22 +345,10 @@
       "sentiment": 1
     },
     {
-      "ticker": "STLD",
-      "title": "Nucor Corp. stock underperforms Tuesday when compared to competitors despite daily gains",
-      "time": "Tue, 15 Sep 2026 20:48:00",
-      "sentiment": -1
-    },
-    {
-      "ticker": "MMM",
-      "title": "Can 3M Continue Its Strong Capital Returns to Shareholders?",
-      "time": "Tue, 15 Sep 2026 17:02:00",
+      "ticker": "TTD",
+      "title": "Is The Trade Desk’s Cash Worth More Than Its Lost Growth?",
+      "time": "Tue, 15 Sep 2026 13:18:59",
       "sentiment": 1
-    },
-    {
-      "ticker": "MMM",
-      "title": "3M CEO sees innovation, data centers, cost cuts extending turnaround (MMM:NYSE)",
-      "time": "Tue, 15 Sep 2026 20:08:30",
-      "sentiment": -1
     },
     {
       "ticker": "META",
@@ -378,6 +384,18 @@
       "ticker": "ABBV",
       "title": "AbbVie Inc. stock gains on dividend hike and strong Q2 2026 figures - ad-hoc-news.de",
       "time": "Tue, 15 Sep 2026 10:24:47",
+      "sentiment": 1
+    },
+    {
+      "ticker": "STLD",
+      "title": "Nucor Corp. stock underperforms Tuesday when compared to competitors despite daily gains",
+      "time": "Tue, 15 Sep 2026 20:48:00",
+      "sentiment": -1
+    },
+    {
+      "ticker": "SCHW",
+      "title": "Charles Schwab Stock (SCHW) Rises as Net New Assets Hit a Record High",
+      "time": "Tue, 15 Sep 2026 16:15:05",
       "sentiment": 1
     },
     {
@@ -465,54 +483,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "EOG",
-      "title": "EOG Resources (NYSE:EOG) Sets New 52-Week High - What's Next?",
-      "time": "Tue, 15 Sep 2026 19:43:16",
-      "sentiment": 0
-    },
-    {
-      "ticker": "EOG",
-      "title": "EOG Resources stock hits all-time high at 153.71 USD",
-      "time": "Tue, 15 Sep 2026 18:13:38",
-      "sentiment": 0
-    },
-    {
-      "ticker": "EOG",
-      "title": "EOG Resources stock heads into the open after a 3.5 percent jump - ad-hoc-news.de",
-      "time": "Wed, 16 Sep 2026 06:08:43",
-      "sentiment": 0
-    },
-    {
-      "ticker": "EOG",
-      "title": "Is It Too Late to Buy EOG Resources Inc (EOG) After 3.5% Rally? GF Value Says Undervalued",
-      "time": "Tue, 15 Sep 2026 21:33:27",
-      "sentiment": 0
-    },
-    {
-      "ticker": "EOG",
-      "title": "UBS Keeps Their Buy Rating on EOG Resources (EOG)",
-      "time": "Tue, 15 Sep 2026 09:58:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "RMD",
-      "title": "Why ResMed (RMD) Stock Is Up Today",
-      "time": "Tue, 15 Sep 2026 18:36:53",
-      "sentiment": 0
-    },
-    {
-      "ticker": "RMD",
-      "title": "Is This the Right Time to Retain Resmed Stock in Your Portfolio?",
-      "time": "Tue, 15 Sep 2026 14:10:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "RMD",
-      "title": "ResMed (NYSE:RMD) Trading 4.5% Higher - Here's What Happened",
-      "time": "Tue, 15 Sep 2026 19:05:07",
-      "sentiment": 0
-    },
-    {
       "ticker": "MPC",
       "title": "Marathon Petroleum Stock Just Hit New Highs, But Oil Price Risks Remain",
       "time": "Tue, 15 Sep 2026 15:30:03",
@@ -574,14 +544,14 @@
     },
     {
       "ticker": "JPM",
-      "title": "JPMorganChase Declares Common Stock Dividend",
-      "time": "Tue, 15 Sep 2026 20:28:00",
+      "title": "JPMorgan Chase & Co. $JPM Shares Purchased by Advisors Capital Management LLC",
+      "time": "Wed, 16 Sep 2026 07:11:42",
       "sentiment": 0
     },
     {
       "ticker": "JPM",
-      "title": "JPMorgan Chase & Co. (NYSE:JPM) Trading Up 1.1% - Time to Buy?",
-      "time": "Tue, 15 Sep 2026 21:29:31",
+      "title": "JPMorganChase Declares Common Stock Dividend",
+      "time": "Tue, 15 Sep 2026 20:28:00",
       "sentiment": 0
     },
     {
@@ -592,14 +562,98 @@
     },
     {
       "ticker": "JPM",
-      "title": "HIMS Stock Hits 2026 High After Unlocking $400M Working Capital Through JPMorgan — Retail Gets Less Bearish",
-      "time": "Tue, 15 Sep 2026 12:00:16",
+      "title": "Chase Freedom cardmembers can earn 5% back on groceries, meals and Red Cross donations",
+      "time": "Tue, 15 Sep 2026 12:10:24",
       "sentiment": 0
     },
     {
       "ticker": "JPM",
-      "title": "Chase Freedom cardmembers can earn 5% back on groceries, meals and Red Cross donations",
-      "time": "Tue, 15 Sep 2026 12:10:24",
+      "title": "JPMorgan (NYSE:JPM) Draws Notice As The Market Digests Fresh Signals",
+      "time": "Tue, 15 Sep 2026 21:08:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "JPM",
+      "title": "JPMorgan Chase & Co. (NYSE:JPM) Trading Up 1.1% - Time to Buy?",
+      "time": "Tue, 15 Sep 2026 21:29:31",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EOG",
+      "title": "EOG Resources (NYSE:EOG) Sets New 52-Week High - What's Next?",
+      "time": "Tue, 15 Sep 2026 19:43:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EOG",
+      "title": "EOG Resources stock hits all-time high at 153.71 USD",
+      "time": "Tue, 15 Sep 2026 18:13:38",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EOG",
+      "title": "EOG Resources stock heads into the open after a 3.5 percent jump - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 06:08:43",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EOG",
+      "title": "Is It Too Late to Buy EOG Resources Inc (EOG) After 3.5% Rally? GF Value Says Undervalued",
+      "time": "Tue, 15 Sep 2026 21:33:27",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EOG",
+      "title": "UBS Keeps Their Buy Rating on EOG Resources (EOG)",
+      "time": "Tue, 15 Sep 2026 09:58:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VLO",
+      "title": "Valero Energy Corp Stock (VLO) Moved Up by 3.83% on Sep 15: A Full Analysis",
+      "time": "Tue, 15 Sep 2026 18:15:28",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VLO",
+      "title": "Is Valero Energy Corp (VLO) Overvalued After 3.7% Rally? GF Valu",
+      "time": "Tue, 15 Sep 2026 21:15:34",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VLO",
+      "title": "Valero Stock Up 140%, On Track For Best Year In Its History - Valero Energy (NYSE:VLO)",
+      "time": "Tue, 15 Sep 2026 16:07:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VLO",
+      "title": "Valero Energy (VLO) Receives a Rating Update from a Top Analyst",
+      "time": "Tue, 15 Sep 2026 13:58:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VLO",
+      "title": "What Does the Future Hold for Valero Energy's Refining Business?",
+      "time": "Tue, 15 Sep 2026 15:47:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "RMD",
+      "title": "ResMed (NYSE:RMD) Trading 4.5% Higher - Here's What Happened",
+      "time": "Tue, 15 Sep 2026 19:05:07",
+      "sentiment": 0
+    },
+    {
+      "ticker": "RMD",
+      "title": "Is This the Right Time to Retain Resmed Stock in Your Portfolio?",
+      "time": "Tue, 15 Sep 2026 14:10:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "RMD",
+      "title": "Resmed Inc Stock (RMD) Moved Up by 3.05% on Sep 15: A Full Analysis",
+      "time": "Tue, 15 Sep 2026 15:15:26",
       "sentiment": 0
     },
     {
@@ -639,69 +693,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "VLO",
-      "title": "Valero Energy Corp Stock (VLO) Moved Up by 3.83% on Sep 15: A Full Analysis",
-      "time": "Tue, 15 Sep 2026 18:15:28",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
-      "title": "Is Valero Energy Corp (VLO) Overvalued After 3.7% Rally? GF Valu",
-      "time": "Tue, 15 Sep 2026 21:15:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
-      "title": "Valero Stock Up 140%, On Track For Best Year In Its History - Valero Energy (NYSE:VLO)",
-      "time": "Tue, 15 Sep 2026 16:07:58",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
-      "title": "Valero Energy (VLO) Receives a Rating Update from a Top Analyst",
-      "time": "Tue, 15 Sep 2026 13:58:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
-      "title": "What Does the Future Hold for Valero Energy's Refining Business?",
-      "time": "Tue, 15 Sep 2026 15:47:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DXCM",
-      "title": "Dexcom (NASDAQ: DXCM) officer to sell 1,700 shares under Rule 144",
-      "time": "Tue, 15 Sep 2026 20:02:28",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DXCM",
-      "title": "Dexcom Elevates Jereme Sylvain to COO and CFO",
-      "time": "Tue, 15 Sep 2026 21:52:14",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DXCM",
-      "title": "Dexcom (NASDAQ: DXCM) director plans $549,537.56 stock sale",
-      "time": "Tue, 15 Sep 2026 13:53:26",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DXCM",
-      "title": "Dexcom stock heads into the open after a 2.0% gain - ad-hoc-news.de",
-      "time": "Wed, 16 Sep 2026 05:06:26",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DXCM",
-      "title": "Dexcom Inc. stock gains as market cap approaches USD 32 billion - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 21:33:14",
+      "ticker": "CVX",
+      "title": "Chevron (CVX) Rises As Market Takes a Dip: Key Facts",
+      "time": "Tue, 15 Sep 2026 21:45:07",
       "sentiment": 0
     },
     {
       "ticker": "CVX",
-      "title": "Chevron (CVX) Rises As Market Takes a Dip: Key Facts",
-      "time": "Tue, 15 Sep 2026 21:45:07",
+      "title": "Why Did DELL, CRWD, CVX Stocks Jump To 52-Week Highs Today?",
+      "time": "Wed, 16 Sep 2026 03:55:17",
       "sentiment": 0
     },
     {
@@ -720,12 +720,6 @@
       "ticker": "CVX",
       "title": "Chevron Targets Argentina, Mediterranean in Global LNG Push",
       "time": "Tue, 15 Sep 2026 12:02:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CVX",
-      "title": "Why Did DELL, CRWD, CVX Stocks Jump To 52-Week Highs Today?",
-      "time": "Wed, 16 Sep 2026 03:55:17",
       "sentiment": 0
     },
     {
@@ -802,6 +796,12 @@
     },
     {
       "ticker": "ON",
+      "title": "Semiconductor Stocks",
+      "time": "Tue, 15 Sep 2026 14:29:50",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ON",
       "title": "Astera Labs vs. KLA: Which Semiconductor Stock Has More Upside?",
       "time": "Tue, 15 Sep 2026 17:07:00",
       "sentiment": 0
@@ -819,21 +819,39 @@
       "sentiment": 0
     },
     {
-      "ticker": "ON",
-      "title": "Nvidia vs. Micron: Which Is the Better Artificial Intelligence (AI) Semiconductor Stock to Own for the Next 5 Years?",
-      "time": "Tue, 15 Sep 2026 18:53:00",
+      "ticker": "DXCM",
+      "title": "Dexcom (NASDAQ: DXCM) officer to sell 1,700 shares under Rule 144",
+      "time": "Tue, 15 Sep 2026 20:02:28",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DXCM",
+      "title": "Dexcom Elevates Jereme Sylvain to COO and CFO",
+      "time": "Tue, 15 Sep 2026 21:52:14",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DXCM",
+      "title": "Dexcom (NASDAQ: DXCM) director plans $549,537.56 stock sale",
+      "time": "Tue, 15 Sep 2026 13:53:26",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DXCM",
+      "title": "Dexcom stock heads into the open after a 2.0% gain - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 05:06:26",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DXCM",
+      "title": "Dexcom Inc. stock gains as market cap approaches USD 32 billion - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 21:33:14",
       "sentiment": 0
     },
     {
       "ticker": "XOM",
       "title": "Why the Market Dipped But Exxon Mobil Holdings (XOM) Gained Today",
       "time": "Tue, 15 Sep 2026 21:45:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "XOM",
-      "title": "XOM|Exxon Mobil Corp|Price:169.320|Chg%:+4.240",
-      "time": "Wed, 16 Sep 2026 05:08:07",
       "sentiment": 0
     },
     {
@@ -849,33 +867,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "TTD",
-      "title": "Trade Desk (TTD) Climbed, But What Is Driving Attention Now?",
-      "time": "Tue, 15 Sep 2026 22:37:23",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TTD",
-      "title": "Could Trade Desk Stock's Cash Flow Spark the Next Rally?",
-      "time": "Tue, 15 Sep 2026 10:16:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TTD",
-      "title": "Why Did ADBE, CRM, TTD Stocks Hit 52-Week Lows Today?",
-      "time": "Tue, 15 Sep 2026 14:22:52",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TTD",
-      "title": "Trade Desk (NASDAQ: TTD) Grants Chief Legal Officer 398,262 Shares Worth 54.4% of His Total Holdings",
-      "time": "Tue, 15 Sep 2026 18:05:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TTD",
-      "title": "The Trade Desk stock falls after layoffs and S&P 500 exit as growth slows - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 20:42:52",
+      "ticker": "XOM",
+      "title": "Exxon Mobil stock heads into the open after a 2.4% gain - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 06:01:31",
       "sentiment": 0
     },
     {
@@ -894,48 +888,6 @@
       "ticker": "ANET",
       "title": "Jim Cramer on Arista (ANET) CEO: “She Is Money and the Company’s Fantastic”",
       "time": "Tue, 15 Sep 2026 17:23:07",
-      "sentiment": 0
-    },
-    {
-      "ticker": "STLD",
-      "title": "These S&P500 stocks that are showing activity before the opening bell on Tuesday.",
-      "time": "Tue, 15 Sep 2026 12:35:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "STLD",
-      "title": "U.S. Steel and Materials Stocks Swing as U.S.-Canada Trade War Escalates With 50% Tariffs",
-      "time": "Tue, 15 Sep 2026 19:30:08",
-      "sentiment": 0
-    },
-    {
-      "ticker": "STLD",
-      "title": "Steel Dynamics stock slips from recent highs as bearish technical signals emerge - ad-hoc-news.de",
-      "time": "Tue, 15 Sep 2026 09:21:14",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MMM",
-      "title": "Cooling Film Launch Could Matter For 3M Stock (MMM)",
-      "time": "Tue, 15 Sep 2026 08:46:40",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MMM",
-      "title": "3M (MMM) Surpasses Turnaround Goals Amid Dividend Sustainability Concerns",
-      "time": "Tue, 15 Sep 2026 21:15:33",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MMM",
-      "title": "3M stock heads into the open after a 1.8 percent drop - ad-hoc-news.de",
-      "time": "Wed, 16 Sep 2026 06:13:23",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MMM",
-      "title": "3M CEO Touts Data-Center Push, Margin Gains and Progress Toward 2027 Targets",
-      "time": "Tue, 15 Sep 2026 19:02:36",
       "sentiment": 0
     },
     {
@@ -970,8 +922,38 @@
     },
     {
       "ticker": "APP",
-      "title": "The Paid-To-Wait Play On APP Stock: An 8.1% Annualized Yield",
-      "time": "Wed, 16 Sep 2026 04:53:48",
+      "title": "AppLovin: Why I Think The Market Is Wrong After A 43.65% Decline (NASDAQ:APP)",
+      "time": "Tue, 15 Sep 2026 14:00:15",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "Trade Desk (TTD) Climbed, But What Is Driving Attention Now?",
+      "time": "Tue, 15 Sep 2026 22:37:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "Could Trade Desk Stock's Cash Flow Spark the Next Rally?",
+      "time": "Tue, 15 Sep 2026 10:16:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "Why Did ADBE, CRM, TTD Stocks Hit 52-Week Lows Today?",
+      "time": "Tue, 15 Sep 2026 14:22:52",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "Trade Desk (NASDAQ: TTD) Grants Chief Legal Officer 398,262 Shares Worth 54.4% of His Total Holdings",
+      "time": "Tue, 15 Sep 2026 18:05:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TTD",
+      "title": "The Trade Desk stock falls after layoffs and S&P 500 exit as growth slows - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 20:42:52",
       "sentiment": 0
     },
     {
@@ -1024,8 +1006,8 @@
     },
     {
       "ticker": "WFC",
-      "title": "Raymond James reinstates Wells Fargo at Market Perform",
-      "time": "Tue, 15 Sep 2026 16:06:49",
+      "title": "What Is Changing the Conversation Around Wells Fargo (WFC)?",
+      "time": "Tue, 15 Sep 2026 08:24:00",
       "sentiment": 0
     },
     {
@@ -1044,6 +1026,54 @@
       "ticker": "ABBV",
       "title": "3 Dividend Stocks That Are No-Brainer Buys Right Now, Starting With This Healthcare Giant",
       "time": "Tue, 15 Sep 2026 17:15:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "STLD",
+      "title": "These S&P500 stocks that are showing activity before the opening bell on Tuesday.",
+      "time": "Tue, 15 Sep 2026 12:35:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "STLD",
+      "title": "U.S. Steel and Materials Stocks Swing as U.S.-Canada Trade War Escalates With 50% Tariffs",
+      "time": "Tue, 15 Sep 2026 19:30:08",
+      "sentiment": 0
+    },
+    {
+      "ticker": "STLD",
+      "title": "Steel Dynamics stock slips from recent highs as bearish technical signals emerge - ad-hoc-news.de",
+      "time": "Tue, 15 Sep 2026 09:21:14",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SCHW",
+      "title": "Charles Schwab Goes On The AI Offensive (NYSE:SCHW)",
+      "time": "Tue, 15 Sep 2026 16:40:19",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SCHW",
+      "title": "Robinhood vs. Schwab: Which Brokerage Stock is the Better Bet?",
+      "time": "Tue, 15 Sep 2026 13:50:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SCHW",
+      "title": "Charles Schwab core net new assets rise 12% M/M, 46% Y/Y in August (SCHW:NYSE)",
+      "time": "Tue, 15 Sep 2026 13:17:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SCHW",
+      "title": "Why Does Charles Schwab (SCHW) Matter in This Market?",
+      "time": "Tue, 15 Sep 2026 08:25:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SCHW",
+      "title": "Charles Schwab (SCHW) Brings AI Tools To 16,000 Advisors",
+      "time": "Tue, 15 Sep 2026 08:39:31",
       "sentiment": 0
     }
   ]
