@@ -13,7 +13,17 @@
       "price": 648.3599853515625
     }
   },
-  "positions": {},
-  "last_check": "2026-09-16T18:31:36.346121+02:00",
-  "ntfy_last_event_id": "Uk0H4MqvdtAd"
+  "positions": {
+    "TMO": {
+      "entry": 561.4,
+      "qty": 0.36,
+      "stop_pct": 1.5,
+      "target_pct": 2.7,
+      "opened_at": "2026-09-16T16:27:00.000Z",
+      "status": "real_open",
+      "source": "dashboard_manual"
+    }
+  },
+  "last_check": "2026-09-16T18:54:37.317014+02:00",
+  "ntfy_last_event_id": "FtzIdpxI6DuQ"
 }
