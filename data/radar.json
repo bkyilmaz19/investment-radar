@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "16.09.2026 23:14 CEST",
+  "generated_at_local": "16.09.2026 23:30 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "+1.10%",
       "regular_move_pct": "+1.00%",
       "avg_dollar_volume": 1107797729.56,
-      "bar_age_minutes": 29.3,
+      "bar_age_minutes": 45.4,
       "vwap": 647.38,
       "opening_range_high": 648.26,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "-0.51%",
       "regular_move_pct": "+0.04%",
       "avg_dollar_volume": 307065640.4,
-      "bar_age_minutes": 39.3,
+      "bar_age_minutes": 25.4,
       "vwap": 228.17,
       "opening_range_high": 228.64,
       "opening_range_ready": true,
@@ -77,45 +77,6 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 92,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.85x, ATR 4.07%",
-      "catalyst": "Qualcomm (NASDAQ: QCOM) Hits Two-Month High As Amazon AI Chip Deal Reshapes Growth Outlook",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.86%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.5,
-      "target_pct": 4.5,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+4.25%",
-      "change_5d": "+7.88%",
-      "volume_ratio": "0.85x",
-      "atr_pct": "4.07%",
-      "gap_pct": "+0.86%",
-      "premarket_move_pct": "-0.03%",
-      "live_gap_pct": "-1.58%",
-      "regular_move_pct": "-2.35%",
-      "avg_dollar_volume": 1972468163.2,
-      "bar_age_minutes": 4.3,
-      "vwap": 187.48,
-      "opening_range_high": 189.98,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -143,7 +104,7 @@
       "live_gap_pct": "-0.97%",
       "regular_move_pct": "-1.22%",
       "avg_dollar_volume": 2211446627.72,
-      "bar_age_minutes": 9.3,
+      "bar_age_minutes": 9.0,
       "vwap": 349.99,
       "opening_range_high": 355.6,
       "opening_range_ready": true,
@@ -155,6 +116,45 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 88,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.85x, ATR 4.07%",
+      "catalyst": "Premarket-/Momentum-Bestätigung",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.86%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+4.25%",
+      "change_5d": "+7.88%",
+      "volume_ratio": "0.85x",
+      "atr_pct": "4.07%",
+      "gap_pct": "+0.86%",
+      "premarket_move_pct": "-0.03%",
+      "live_gap_pct": "-1.58%",
+      "regular_move_pct": "-2.35%",
+      "avg_dollar_volume": 1972468163.2,
+      "bar_age_minutes": 5.4,
+      "vwap": 187.48,
+      "opening_range_high": 189.98,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -182,7 +182,7 @@
       "live_gap_pct": "-0.45%",
       "regular_move_pct": "+1.90%",
       "avg_dollar_volume": 2546497385.73,
-      "bar_age_minutes": 4.3,
+      "bar_age_minutes": 0.1,
       "vwap": 241.5,
       "opening_range_high": 241.49,
       "opening_range_ready": true,
@@ -237,12 +237,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "QCOM",
-      "title": "Qualcomm (NASDAQ: QCOM) Hits Two-Month High As Amazon AI Chip Deal Reshapes Growth Outlook",
-      "time": "Wed, 16 Sep 2026 09:56:00",
-      "sentiment": 1
-    },
-    {
       "ticker": "MPC",
       "title": "Bank of America Corp DE Takes Position in Marathon Petroleum Corporation $MPC",
       "time": "Wed, 16 Sep 2026 07:41:44",
@@ -253,12 +247,6 @@
       "title": "Marathon Petroleum stock gains as Bank of America builds $621 million stake - ad-hoc-news.de",
       "time": "Wed, 16 Sep 2026 16:15:13",
       "sentiment": -1
-    },
-    {
-      "ticker": "MPC",
-      "title": "Marathon Petroleum: The Focus Should Help (Rating Upgrade) (NYSE:MPC)",
-      "time": "Tue, 15 Sep 2026 21:20:39",
-      "sentiment": 1
     },
     {
       "ticker": "COP",
@@ -333,12 +321,6 @@
       "sentiment": -1
     },
     {
-      "ticker": "DHR",
-      "title": "Danaher Corp (DHR) Shares Surge 3.0% -- What GF Score of 80 Tells Investors",
-      "time": "Tue, 15 Sep 2026 21:15:35",
-      "sentiment": 1
-    },
-    {
       "ticker": "ON",
       "title": "ON Semiconductor Corp. stock underperforms Wednesday when compared to competitors",
       "time": "Wed, 16 Sep 2026 20:30:00",
@@ -361,12 +343,6 @@
       "title": "Arista Stock Holds Up Well Amid Weakness. Here's How To Capitalize.",
       "time": "Wed, 16 Sep 2026 15:26:00",
       "sentiment": -1
-    },
-    {
-      "ticker": "ANET",
-      "title": "Was Arista Networks Stock’s Surge Visible Before It Happened?",
-      "time": "Tue, 15 Sep 2026 21:18:27",
-      "sentiment": 1
     },
     {
       "ticker": "APP",
@@ -411,15 +387,15 @@
       "sentiment": 1
     },
     {
-      "ticker": "TMO",
-      "title": "Top Stock Reports for Cisco, Lam Research & Thermo Fisher",
-      "time": "Wed, 16 Sep 2026 20:41:00",
-      "sentiment": 0
+      "ticker": "STLD",
+      "title": "Steel Dynamics stock gains analyst support as shares trade near record range - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 21:12:03",
+      "sentiment": 1
     },
     {
       "ticker": "TMO",
-      "title": "A Look at Thermo Fisher Scientific Inc (TMO) After 4.5% Gain -- GF Value $598.67 vs Price $641.39",
-      "time": "Tue, 15 Sep 2026 21:15:34",
+      "title": "Top Stock Reports for Cisco, Lam Research & Thermo Fisher",
+      "time": "Wed, 16 Sep 2026 20:00:28",
       "sentiment": 0
     },
     {
@@ -442,8 +418,8 @@
     },
     {
       "ticker": "CRWD",
-      "title": "Why CrowdStrike (CRWD) Stock Is Up Today",
-      "time": "Tue, 15 Sep 2026 22:31:31",
+      "title": "Is CrowdStrike Holdings (CRWD) Priced For Perfection On Sales?",
+      "time": "Wed, 16 Sep 2026 20:10:38",
       "sentiment": 0
     },
     {
@@ -466,8 +442,8 @@
     },
     {
       "ticker": "CRWD",
-      "title": "CrowdStrike (NASDAQ: CRWD) director unloads 50,000 shares after exercising options",
-      "time": "Wed, 16 Sep 2026 00:04:52",
+      "title": "Why CrowdStrike (CRWD) Stock Is Up Today",
+      "time": "Tue, 15 Sep 2026 22:31:31",
       "sentiment": 0
     },
     {
@@ -501,9 +477,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "MPC",
-      "title": "A Look at Marathon Petroleum Corp (MPC) After 3.6% Gain -- GF Va",
-      "time": "Tue, 15 Sep 2026 21:15:35",
+      "ticker": "QCOM",
+      "title": "Qualcomm Breaks Out After Amazon Deal: Chart of the Day",
+      "time": "Wed, 16 Sep 2026 15:05:00",
       "sentiment": 0
     },
     {
@@ -516,6 +492,18 @@
       "ticker": "MPC",
       "title": "The Next Oil Shock Has No Safety Valve — And the Bill Will Land in Your Pantry",
       "time": "Wed, 16 Sep 2026 17:09:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MPC",
+      "title": "Wall Street Freezes Up as Oil Tops $108 and the Ten-Year Clears 5% Ahead of Warsh's First Hike Test",
+      "time": "Wed, 16 Sep 2026 09:11:18",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MPC",
+      "title": "Top Energy Stocks To Buy Now",
+      "time": "Wed, 16 Sep 2026 12:42:00",
       "sentiment": 0
     },
     {
@@ -532,6 +520,12 @@
     },
     {
       "ticker": "COP",
+      "title": "ConocoPhillips Slides as Oil Pulls Back and Fresh Company-Specific Catalyst Appears Limited",
+      "time": "Wed, 16 Sep 2026 14:50:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "COP",
       "title": "Oil Producers Slide as Crude Retreats: EOG Resources Drops 6%, ConocoPhillips and Occidental Petroleum Fall 5%",
       "time": "Wed, 16 Sep 2026 16:03:00",
       "sentiment": 0
@@ -540,12 +534,6 @@
       "ticker": "COP",
       "title": "Here’s How Much You Would Have Made Owning ConocoPhillips Stock In The Last 5 Years",
       "time": "Wed, 16 Sep 2026 20:15:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "COP",
-      "title": "ConocoPhillips (COP) Stock Up 3.3% but GF Value Says Overvalued -- GF Score: 74/100",
-      "time": "Tue, 15 Sep 2026 21:15:34",
       "sentiment": 0
     },
     {
@@ -610,8 +598,8 @@
     },
     {
       "ticker": "VLO",
-      "title": "Is Valero Energy Corp (VLO) Overvalued After 3.7% Rally? GF Valu",
-      "time": "Tue, 15 Sep 2026 21:15:34",
+      "title": "Valero Energy stock hits all-time high at 400.2 USD By Investing.com",
+      "time": "Wed, 16 Sep 2026 14:45:26",
       "sentiment": 0
     },
     {
@@ -712,20 +700,26 @@
     },
     {
       "ticker": "DHR",
+      "title": "DHR Looks 13.9% Undervalued on GF Value™ as Dividend Maintains S",
+      "time": "Wed, 16 Sep 2026 07:44:06",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DHR",
       "title": "Danaher stock heads into the open after a 3.0% gain - ad-hoc-news.de",
       "time": "Wed, 16 Sep 2026 02:37:56",
       "sentiment": 0
     },
     {
       "ticker": "DHR",
-      "title": "Danone (ENXTPA:BN) Stock Could Be Undervalued Despite Its 27% Three Year Gain",
-      "time": "Wed, 16 Sep 2026 14:10:58",
+      "title": "DHR Looks 13.9% Undervalued on GF Value™ as New CRISPR mRNA Prod",
+      "time": "Wed, 16 Sep 2026 12:48:15",
       "sentiment": 0
     },
     {
       "ticker": "DHR",
-      "title": "DHR Looks 13.9% Undervalued on GF Value™ as Dividend Maintains S",
-      "time": "Wed, 16 Sep 2026 07:44:06",
+      "title": "Danone (ENXTPA:BN) Stock Could Be Undervalued Despite Its 27% Three Year Gain",
+      "time": "Wed, 16 Sep 2026 14:10:58",
       "sentiment": 0
     },
     {
@@ -772,6 +766,18 @@
     },
     {
       "ticker": "ON",
+      "title": "ON Semiconductor stock falls after strategy day as investors weigh growth targets - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 21:09:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ON",
+      "title": "ASX vs. TER: Which AI Semiconductor Stock Should You Buy Right Now?",
+      "time": "Wed, 16 Sep 2026 14:04:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ON",
       "title": "AI needs more power in less space. onsemi is building for that.",
       "time": "Wed, 16 Sep 2026 18:30:00",
       "sentiment": 0
@@ -780,18 +786,6 @@
       "ticker": "ON",
       "title": "3 Semiconductor Stocks to Buy Before AI Demand Explodes in September",
       "time": "Wed, 16 Sep 2026 10:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "ASX vs. TER: Which AI Semiconductor Stock Should You Buy Right Now?",
-      "time": "Wed, 16 Sep 2026 13:24:25",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ON",
-      "title": "symbol__ Stock Quote Price and Forecast",
-      "time": "Wed, 16 Sep 2026 07:56:12",
       "sentiment": 0
     },
     {
@@ -868,14 +862,20 @@
     },
     {
       "ticker": "ANET",
+      "title": "Ciena Climbs 4% as $10B Backlog Outlook Outweighs Month-Long Slide; Arista and Cisco Edge Higher",
+      "time": "Wed, 16 Sep 2026 13:45:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ANET",
       "title": "Why the Market Dipped But Arista Networks (ANET) Gained Today",
       "time": "Tue, 15 Sep 2026 21:45:04",
       "sentiment": 0
     },
     {
       "ticker": "ANET",
-      "title": "Ciena Climbs 4% as $10B Backlog Outlook Outweighs Month-Long Slide; Arista and Cisco Edge Higher",
-      "time": "Wed, 16 Sep 2026 13:45:00",
+      "title": "Bull of the Day: Arista Networks, Inc. (ANET)",
+      "time": "Wed, 16 Sep 2026 09:08:00",
       "sentiment": 0
     },
     {
@@ -934,8 +934,8 @@
     },
     {
       "ticker": "TTD",
-      "title": "Why Trade Desk Stock (TTD) Is Rising Today and What Wall Street Sees Next",
-      "time": "Wed, 16 Sep 2026 17:28:30",
+      "title": "Three Stocks Are Joining the S&P 500. Will They Actually Improve VOO’s Returns?",
+      "time": "Wed, 16 Sep 2026 15:55:00",
       "sentiment": 0
     },
     {
@@ -1000,14 +1000,14 @@
     },
     {
       "ticker": "ABBV",
-      "title": "How AbbVie's Neuroscience Portfolio Has Transformed Over the Years",
-      "time": "Wed, 16 Sep 2026 15:31:00",
+      "title": "AbbVie (NYSE:ABBV) Takes Center Stage in healthcare stocks Headlines Today",
+      "time": "Wed, 16 Sep 2026 13:02:00",
       "sentiment": 0
     },
     {
       "ticker": "ABBV",
-      "title": "AbbVie (NYSE:ABBV) Takes Center Stage in healthcare stocks Headlines Today",
-      "time": "Wed, 16 Sep 2026 13:02:00",
+      "title": "How AbbVie's Neuroscience Portfolio Has Transformed Over the Years",
+      "time": "Wed, 16 Sep 2026 15:31:00",
       "sentiment": 0
     },
     {
@@ -1030,14 +1030,14 @@
     },
     {
       "ticker": "SCHW",
-      "title": "Truist Financial Maintains Charles Schwab(SCHW.US) With Buy Rating",
-      "time": "Wed, 16 Sep 2026 16:13:26",
+      "title": "Schwab's Blossoming Wealth Management Foray Provides Intriguing Upside for Investors",
+      "time": "Wed, 16 Sep 2026 00:45:00",
       "sentiment": 0
     },
     {
       "ticker": "SCHW",
-      "title": "Schwab's Blossoming Wealth Management Foray Provides Intriguing Upside for Investors",
-      "time": "Wed, 16 Sep 2026 00:45:00",
+      "title": "Truist Financial Maintains Charles Schwab(SCHW.US) With Buy Rating",
+      "time": "Wed, 16 Sep 2026 16:13:26",
       "sentiment": 0
     },
     {
