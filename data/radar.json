@@ -1,9 +1,9 @@
 {
-  "generated_at_local": "16.09.2026 09:20 CEST",
+  "generated_at_local": "16.09.2026 10:33 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
-  "summary": "Gemischt / selektiv. Früher Morning-Scan; US-Premarket ggf. noch nicht geöffnet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
+  "summary": "Gemischt / selektiv. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
   "candidates": [
     {
       "ticker": "TMO",
@@ -31,85 +31,7 @@
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "RMD",
-      "name": "ResMed",
-      "score": 90,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.37x, ATR 2.90%",
-      "catalyst": "Learn Why The Bull Case For ResMed Stock Could Change Following Earnings Beat",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 1.88,
-      "target_pct": 3.39,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.89%",
-      "change_5d": "+3.80%",
-      "volume_ratio": "1.37x",
-      "atr_pct": "2.90%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 307065640.4,
-      "bar_age_minutes": null,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 87,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.63%, 5T +3.29%, relatives Volumen 1.17x, ATR 3.13%",
-      "catalyst": "Marathon Petroleum: The Focus Should Help (Rating Upgrade) (NYSE:MPC)",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 2.04,
-      "target_pct": 3.66,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.63%",
-      "change_5d": "+3.29%",
-      "volume_ratio": "1.17x",
-      "atr_pct": "3.13%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 919676325.74,
-      "bar_age_minutes": null,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
+      "session_phase": "Premarket",
       "action_status": "WARTEN",
       "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
       "criteria": {
@@ -125,12 +47,12 @@
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 87,
+      "score": 92,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
       "catalyst": "Is CrowdStrike Stock Betting That Its Record Quarter Is The New Normal?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
+      "entry_note": "Premarket-Gap -1.03%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -138,56 +60,56 @@
       "change_5d": "+15.46%",
       "volume_ratio": "1.61x",
       "atr_pct": "6.26%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
+      "gap_pct": "-1.03%",
+      "premarket_move_pct": "-0.01%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 2546035442.27,
-      "bar_age_minutes": null,
+      "bar_age_minutes": 3.5,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
+      "session_phase": "Premarket",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR, Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": false,
         "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     },
     {
-      "ticker": "QCOM",
-      "name": "Qualcomm",
-      "score": 85,
+      "ticker": "XOM",
+      "name": "Exxon Mobil",
+      "score": 92,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.85x, ATR 4.07%",
-      "catalyst": "QCOM Stock Is 7% From Its Record High; Executives To Join Trump In China Visit",
+      "thesis": "1T +2.57%, 5T +5.39%, relatives Volumen 0.91x, ATR 2.15%",
+      "catalyst": "ExxonMobil (XOM) Wins Approval For Rose Carbon Capture Project In Texas",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 2.5,
-      "target_pct": 4.5,
+      "entry_note": "Premarket-Gap -0.18%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.4,
+      "target_pct": 2.52,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+4.25%",
-      "change_5d": "+7.88%",
-      "volume_ratio": "0.85x",
-      "atr_pct": "4.07%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
+      "change_1d": "+2.57%",
+      "change_5d": "+5.39%",
+      "volume_ratio": "0.91x",
+      "atr_pct": "2.15%",
+      "gap_pct": "-0.18%",
+      "premarket_move_pct": "+0.28%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 1972362995.2,
-      "bar_age_minutes": null,
+      "avg_dollar_volume": 2284873898.53,
+      "bar_age_minutes": 26.1,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
+      "session_phase": "Premarket",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
@@ -196,8 +118,86 @@
         "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "name": "Qualcomm",
+      "score": 92,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.85x, ATR 4.07%",
+      "catalyst": "QCOM Stock Is 7% From Its Record High; Executives To Join Trump In China Visit",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.74%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+4.25%",
+      "change_5d": "+7.88%",
+      "volume_ratio": "0.85x",
+      "atr_pct": "4.07%",
+      "gap_pct": "+0.74%",
+      "premarket_move_pct": "-0.15%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 1972362995.2,
+      "bar_age_minutes": 3.5,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "score": 91,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.68%, 5T -1.09%, relatives Volumen 1.14x, ATR 4.06%",
+      "catalyst": "Was Arista Networks Stock’s Surge Visible Before It Happened?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +1.10%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.68%",
+      "change_5d": "-1.09%",
+      "volume_ratio": "1.14x",
+      "atr_pct": "4.06%",
+      "gap_pct": "+1.10%",
+      "premarket_move_pct": "-0.13%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 967304675.16,
+      "bar_age_minutes": 15.9,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": false,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     }
   ],
@@ -250,6 +250,12 @@
     },
     {
       "ticker": "MPC",
+      "title": "Bank of America Corp DE Takes Position in Marathon Petroleum Corporation $MPC",
+      "time": "Wed, 16 Sep 2026 07:41:44",
+      "sentiment": -1
+    },
+    {
+      "ticker": "MPC",
       "title": "Marathon Petroleum: The Focus Should Help (Rating Upgrade) (NYSE:MPC)",
       "time": "Tue, 15 Sep 2026 21:20:39",
       "sentiment": 1
@@ -261,10 +267,10 @@
       "sentiment": 1
     },
     {
-      "ticker": "JPM",
-      "title": "JPMorgan Chase Raises Quarterly Dividend to $1.65 a Share From $1.50, Payable Oct. 31 to Shareholders of Record Oct. 6",
-      "time": "Tue, 15 Sep 2026 20:44:22",
-      "sentiment": 1
+      "ticker": "EOG",
+      "title": "Bank of America Corp DE Acquires New Shares in EOG Resources, Inc. $EOG",
+      "time": "Wed, 16 Sep 2026 07:23:28",
+      "sentiment": -1
     },
     {
       "ticker": "EOG",
@@ -281,7 +287,7 @@
     {
       "ticker": "RMD",
       "title": "Learn Why The Bull Case For ResMed Stock Could Change Following Earnings Beat",
-      "time": "Wed, 16 Sep 2026 05:17:06",
+      "time": "Wed, 16 Sep 2026 05:17:07",
       "sentiment": 1
     },
     {
@@ -294,6 +300,12 @@
       "ticker": "RMD",
       "title": "ResMed (RMD) Stock Surges Following Upgraded Rating and Price Ta",
       "time": "Tue, 15 Sep 2026 18:39:34",
+      "sentiment": 1
+    },
+    {
+      "ticker": "OXY",
+      "title": "OXY, BATL, USO, UCO Stocks Surge Premarket As Brent Breaks Above $94 A Barrel",
+      "time": "Tue, 15 Sep 2026 18:26:15",
       "sentiment": 1
     },
     {
@@ -318,6 +330,12 @@
       "ticker": "DXCM",
       "title": "DexCom Inc. stock outperforms competitors on strong trading day",
       "time": "Tue, 15 Sep 2026 20:56:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "XOM",
+      "title": "ExxonMobil (XOM) Wins Approval For Rose Carbon Capture Project In Texas",
+      "time": "Wed, 16 Sep 2026 07:29:14",
       "sentiment": 1
     },
     {
@@ -466,14 +484,14 @@
     },
     {
       "ticker": "QCOM",
-      "title": "What Was Qualcomm Stock Telling You Before It Ran?",
-      "time": "Tue, 15 Sep 2026 20:26:02",
+      "title": "Qualcomm Inc Stock (QCOM) Opened Up by 4.71% on Sep 15: What Signal Does It Send?",
+      "time": "Tue, 15 Sep 2026 13:47:19",
       "sentiment": 0
     },
     {
       "ticker": "QCOM",
-      "title": "Qualcomm Inc Stock (QCOM) Opened Up by 4.71% on Sep 15: What Signal Does It Send?",
-      "time": "Tue, 15 Sep 2026 13:47:19",
+      "title": "Qualcomm Just Got a ‘Foothold’ in the AI Data Center Race. How to Play QCOM Stock Here.",
+      "time": "Tue, 15 Sep 2026 14:11:10",
       "sentiment": 0
     },
     {
@@ -504,12 +522,6 @@
       "ticker": "MPC",
       "title": "Marathon Petroleum Corp Stock (MPC) Moved Up by 3.44% on Sep 15: Facts Behind the Movement",
       "time": "Tue, 15 Sep 2026 17:15:23",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MPC",
-      "title": "Marathon Petroleum (MPC) Receives a Buy from UBS",
-      "time": "Tue, 15 Sep 2026 14:14:54",
       "sentiment": 0
     },
     {
@@ -550,8 +562,14 @@
     },
     {
       "ticker": "JPM",
-      "title": "JPMorgan Chase & Co. $JPM Shares Purchased by Advisors Capital Management LLC",
-      "time": "Wed, 16 Sep 2026 07:11:42",
+      "title": "JPMorgan Chase (JPM) Stock Looks Undervalued Following Its 161% 5 Year Run",
+      "time": "Wed, 16 Sep 2026 08:27:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "JPM",
+      "title": "JPMorgan Chase & Co. $JPM Shares Purchased by Vise Technologies Inc.",
+      "time": "Wed, 16 Sep 2026 07:31:24",
       "sentiment": 0
     },
     {
@@ -562,26 +580,20 @@
     },
     {
       "ticker": "JPM",
+      "title": "JPM Stock Gains Nearly 3% — Jamie Dimon Succession Dynamics Shift After Marianne Lake Exit",
+      "time": "Tue, 15 Sep 2026 18:00:21",
+      "sentiment": 0
+    },
+    {
+      "ticker": "JPM",
       "title": "Wall Street giants’ trading operations show a tale of two extremes: JPMorgan (JPM.US) expects a surge in Q3 performance, while Bank of America (BAC.US) warns of a slowdown",
       "time": "Wed, 16 Sep 2026 04:40:31",
       "sentiment": 0
     },
     {
       "ticker": "JPM",
-      "title": "Chase Freedom cardmembers can earn 5% back on groceries, meals and Red Cross donations",
-      "time": "Tue, 15 Sep 2026 12:10:24",
-      "sentiment": 0
-    },
-    {
-      "ticker": "JPM",
-      "title": "JPMorgan (NYSE:JPM) Draws Notice As The Market Digests Fresh Signals",
-      "time": "Tue, 15 Sep 2026 21:08:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "EOG",
-      "title": "EOG Resources (NYSE:EOG) Sets New 52-Week High - What's Next?",
-      "time": "Tue, 15 Sep 2026 19:43:16",
+      "title": "JPMorgan Chase & Co. $JPM Shares Purchased by Advisors Capital Management LLC",
+      "time": "Wed, 16 Sep 2026 07:11:42",
       "sentiment": 0
     },
     {
@@ -604,8 +616,8 @@
     },
     {
       "ticker": "EOG",
-      "title": "UBS Keeps Their Buy Rating on EOG Resources (EOG)",
-      "time": "Tue, 15 Sep 2026 09:58:00",
+      "title": "EOG Resources (NYSE:EOG) Sets New 52-Week High - What's Next?",
+      "time": "Tue, 15 Sep 2026 19:43:16",
       "sentiment": 0
     },
     {
@@ -640,8 +652,8 @@
     },
     {
       "ticker": "RMD",
-      "title": "Is This the Right Time to Retain Resmed Stock in Your Portfolio?",
-      "time": "Tue, 15 Sep 2026 14:10:00",
+      "title": "Why ResMed (RMD) Stock Is Up Today",
+      "time": "Tue, 15 Sep 2026 18:36:53",
       "sentiment": 0
     },
     {
@@ -652,14 +664,20 @@
     },
     {
       "ticker": "RMD",
-      "title": "Resmed Inc Stock (RMD) Moved Up by 3.05% on Sep 15: A Full Analysis",
-      "time": "Tue, 15 Sep 2026 15:15:26",
+      "title": "Is This the Right Time to Retain Resmed Stock in Your Portfolio?",
+      "time": "Tue, 15 Sep 2026 14:10:00",
       "sentiment": 0
     },
     {
       "ticker": "OXY",
       "title": "Occidental Petroleum (OXY) Gains As Market Dips: What You Should Know",
       "time": "Tue, 15 Sep 2026 21:50:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "OXY",
+      "title": "NewEdge Advisors LLC Buys 22,183 Shares of Occidental Petroleum Corporation $OXY",
+      "time": "Wed, 16 Sep 2026 07:57:32",
       "sentiment": 0
     },
     {
@@ -676,32 +694,14 @@
     },
     {
       "ticker": "OXY",
-      "title": "UBS Reaffirms Their Hold Rating on Occidental Petroleum (OXY)",
-      "time": "Tue, 15 Sep 2026 09:58:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "OXY",
       "title": "Occidental Petroleum (NYSE:OXY) Draws A Second Wave OF Attention Today",
       "time": "Wed, 16 Sep 2026 00:58:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "OXY",
-      "title": "Analysts Offer Insights on Energy Companies: Murphy Oil (MUR), Occidental Petroleum (OXY) and Delek US Holdings (DK)",
-      "time": "Tue, 15 Sep 2026 10:30:00",
       "sentiment": 0
     },
     {
       "ticker": "CVX",
       "title": "Chevron (CVX) Rises As Market Takes a Dip: Key Facts",
       "time": "Tue, 15 Sep 2026 21:45:07",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CVX",
-      "title": "Why Did DELL, CRWD, CVX Stocks Jump To 52-Week Highs Today?",
-      "time": "Wed, 16 Sep 2026 03:55:17",
       "sentiment": 0
     },
     {
@@ -720,6 +720,12 @@
       "ticker": "CVX",
       "title": "Chevron Targets Argentina, Mediterranean in Global LNG Push",
       "time": "Tue, 15 Sep 2026 12:02:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CVX",
+      "title": "Why Did DELL, CRWD, CVX Stocks Jump To 52-Week Highs Today?",
+      "time": "Wed, 16 Sep 2026 03:55:17",
       "sentiment": 0
     },
     {
@@ -749,7 +755,7 @@
     {
       "ticker": "DHR",
       "title": "Danaher declares $0.40 quarterly dividend By Investing.com",
-      "time": "Tue, 15 Sep 2026 20:50:58",
+      "time": "Tue, 15 Sep 2026 20:31:31",
       "sentiment": 0
     },
     {
@@ -867,9 +873,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "XOM",
-      "title": "ExxonMobil's unit to retire $1.19B debt via cash tender offers: Key details",
-      "time": "Tue, 15 Sep 2026 13:59:48",
+      "ticker": "ANET",
+      "title": "Bull of the Day: Arista Networks, Inc. (ANET)",
+      "time": "Wed, 16 Sep 2026 08:00:00",
       "sentiment": 0
     },
     {
@@ -882,12 +888,6 @@
       "ticker": "ANET",
       "title": "Zacks Investment Ideas feature highlights: Nvidia, Taiwan Semiconductor, Arista Networks, Dell Technologies, Hewlett Packard and Super Micro Computer",
       "time": "Tue, 15 Sep 2026 16:50:45",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ANET",
-      "title": "Jim Cramer on Arista (ANET) CEO: “She Is Money and the Company’s Fantastic”",
-      "time": "Tue, 15 Sep 2026 17:23:07",
       "sentiment": 0
     },
     {
@@ -910,20 +910,20 @@
     },
     {
       "ticker": "APP",
+      "title": "APP Stock Slumps After-Hours Despite Strong Q4 Earnings — Why Does Retail See This As A Buying Opportunity?",
+      "time": "Tue, 15 Sep 2026 18:42:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
+      "title": "AppLovin (APP) Launches Wurl Content Intelligence Platform For Streaming TV Targeting",
+      "time": "Wed, 16 Sep 2026 07:14:53",
+      "sentiment": 0
+    },
+    {
+      "ticker": "APP",
       "title": "AppLovin (APP) Expands Into Streaming TV Ads With New Content Platform",
       "time": "Tue, 15 Sep 2026 22:37:23",
-      "sentiment": 0
-    },
-    {
-      "ticker": "APP",
-      "title": "The Paid-To-Wait Play On APP Stock: An 8.1% Annualized Yield",
-      "time": "Wed, 16 Sep 2026 04:53:48",
-      "sentiment": 0
-    },
-    {
-      "ticker": "APP",
-      "title": "AppLovin: Why I Think The Market Is Wrong After A 43.65% Decline (NASDAQ:APP)",
-      "time": "Tue, 15 Sep 2026 14:00:15",
       "sentiment": 0
     },
     {
@@ -976,14 +976,14 @@
     },
     {
       "ticker": "META",
-      "title": "Why Meta’s $2.4 Billion Legal Tab Could Explode Into a National Regulatory Nightmare",
-      "time": "Tue, 15 Sep 2026 17:15:00",
+      "title": "Meta’s Mark Zuckerberg joins Nvidia’s Huang in pushing back against AI slowdown (META:NASDAQ)",
+      "time": "Wed, 16 Sep 2026 06:00:41",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Meta (NASDAQ:META) Stock Rises as Meta One AI Subscription Launches: What Investors Need to Know",
-      "time": "Tue, 15 Sep 2026 21:58:26",
+      "title": "Why Meta’s $2.4 Billion Legal Tab Could Explode Into a National Regulatory Nightmare",
+      "time": "Tue, 15 Sep 2026 17:15:00",
       "sentiment": 0
     },
     {
@@ -1000,14 +1000,14 @@
     },
     {
       "ticker": "WFC",
-      "title": "Wells Fargo Series DD Vs. AA Pfds, With The Latter A Buy (NYSE:WFC.PR.A)",
-      "time": "Tue, 15 Sep 2026 12:00:00",
+      "title": "WFC Looks 8.0% Overvalued on GF Value™ Amid Dividend Sustainabil",
+      "time": "Tue, 15 Sep 2026 14:45:57",
       "sentiment": 0
     },
     {
       "ticker": "WFC",
-      "title": "What Is Changing the Conversation Around Wells Fargo (WFC)?",
-      "time": "Tue, 15 Sep 2026 08:24:00",
+      "title": "Wells Fargo Series DD Vs. AA Pfds, With The Latter A Buy (NYSE:WFC.PR.A)",
+      "time": "Tue, 15 Sep 2026 12:00:00",
       "sentiment": 0
     },
     {
@@ -1066,8 +1066,8 @@
     },
     {
       "ticker": "SCHW",
-      "title": "Why Does Charles Schwab (SCHW) Matter in This Market?",
-      "time": "Tue, 15 Sep 2026 08:25:00",
+      "title": "Charles Schwab (SCHW) Brings AI Tools to 16,000 Financial Advisors",
+      "time": "Wed, 16 Sep 2026 05:14:00",
       "sentiment": 0
     },
     {
