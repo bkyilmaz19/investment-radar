@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "16.09.2026 17:44 CEST",
+  "generated_at_local": "16.09.2026 17:48 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +4.53%, 5T +6.36%, relatives Volumen 1.63x, ATR 2.34%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Tuesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.44%, seit Open +0.34%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.64%, seit Open +0.54%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.52,
       "target_pct": 2.74,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "2.34%",
       "gap_pct": "+0.17%",
       "premarket_move_pct": "+0.08%",
-      "live_gap_pct": "+0.44%",
-      "regular_move_pct": "+0.34%",
+      "live_gap_pct": "+0.64%",
+      "regular_move_pct": "+0.54%",
       "avg_dollar_volume": 1107797729.56,
-      "bar_age_minutes": 4.5,
-      "vwap": 643.16,
+      "bar_age_minutes": 3.4,
+      "vwap": 643.22,
       "opening_range_high": 648.26,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -52,7 +52,7 @@
       "thesis": "1T +4.25%, 5T +7.88%, relatives Volumen 0.85x, ATR 4.07%",
       "catalyst": "QCOM Stock Is 7% From Its Record High; Executives To Join Trump In China Visit",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.65%, seit Open -0.14%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.02%, seit Open +0.22%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,14 +62,14 @@
       "atr_pct": "4.07%",
       "gap_pct": "+0.86%",
       "premarket_move_pct": "-0.03%",
-      "live_gap_pct": "+0.65%",
-      "regular_move_pct": "-0.14%",
+      "live_gap_pct": "+1.02%",
+      "regular_move_pct": "+0.22%",
       "avg_dollar_volume": 1972362995.2,
-      "bar_age_minutes": 4.5,
-      "vwap": 189.17,
+      "bar_age_minutes": 3.4,
+      "vwap": 189.18,
       "opening_range_high": 189.98,
       "opening_range_ready": true,
-      "breakout_confirmed": false,
+      "breakout_confirmed": true,
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -80,7 +80,7 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": false
+        "confirmation_ok": true
       }
     },
     {
@@ -91,7 +91,7 @@
       "thesis": "1T +2.89%, 5T +3.80%, relatives Volumen 1.37x, ATR 2.90%",
       "catalyst": "ResMed Shares Jump Following RBC Capital Upgrade to Outperform",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.52%, seit Open +0.02%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.39%, seit Open +0.16%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.88,
       "target_pct": 3.39,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +101,11 @@
       "atr_pct": "2.90%",
       "gap_pct": "-1.05%",
       "premarket_move_pct": "+0.00%",
-      "live_gap_pct": "-0.52%",
-      "regular_move_pct": "+0.02%",
+      "live_gap_pct": "-0.39%",
+      "regular_move_pct": "+0.16%",
       "avg_dollar_volume": 307065640.4,
-      "bar_age_minutes": 4.5,
-      "vwap": 228.08,
+      "bar_age_minutes": 3.4,
+      "vwap": 228.09,
       "opening_range_high": 228.64,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -125,12 +125,12 @@
     {
       "ticker": "CRWD",
       "name": "CrowdStrike",
-      "score": 96,
+      "score": 98,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.02%, 5T +15.46%, relatives Volumen 1.61x, ATR 6.26%",
       "catalyst": "CrowdStrike Stock Surges to Record High Amid Growing AI Safety Concerns",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.49%, seit Open +2.85%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.53%, seit Open +2.90%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +140,11 @@
       "atr_pct": "6.26%",
       "gap_pct": "-2.55%",
       "premarket_move_pct": "-1.55%",
-      "live_gap_pct": "+0.49%",
-      "regular_move_pct": "+2.85%",
+      "live_gap_pct": "+0.53%",
+      "regular_move_pct": "+2.90%",
       "avg_dollar_volume": 2546035442.27,
-      "bar_age_minutes": 4.5,
-      "vwap": 241.31,
+      "bar_age_minutes": 3.4,
+      "vwap": 241.35,
       "opening_range_high": 241.49,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -164,12 +164,12 @@
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum",
-      "score": 94,
+      "score": 93,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.63%, 5T +3.29%, relatives Volumen 1.17x, ATR 3.13%",
       "catalyst": "Marathon Petroleum: The Focus Should Help (Rating Upgrade) (NYSE:MPC)",
       "risk_note": "Bank of America Corp DE Takes Position in Marathon Petroleum Corporation $MPC",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.16%, seit Open +2.54%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.52%, seit Open +1.90%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.04,
       "target_pct": 3.66,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +179,11 @@
       "atr_pct": "3.13%",
       "gap_pct": "-1.19%",
       "premarket_move_pct": "-0.65%",
-      "live_gap_pct": "+1.16%",
-      "regular_move_pct": "+2.54%",
+      "live_gap_pct": "+0.52%",
+      "regular_move_pct": "+1.90%",
       "avg_dollar_volume": 919676325.74,
-      "bar_age_minutes": 4.5,
-      "vwap": 410.29,
+      "bar_age_minutes": 3.4,
+      "vwap": 410.48,
       "opening_range_high": 410.76,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -250,14 +250,14 @@
     },
     {
       "ticker": "QCOM",
-      "title": "Qualcomm (NASDAQ: QCOM) Hits Two-Month High As Amazon AI Chip Deal Reshapes Growth Outlook",
-      "time": "Wed, 16 Sep 2026 09:56:00",
+      "title": "Qualcomm Stock Forecast: Can QCOM Hit $200 After Amazon AI Chip Partnership?",
+      "time": "Tue, 15 Sep 2026 21:45:28",
       "sentiment": 1
     },
     {
       "ticker": "QCOM",
-      "title": "Qualcomm Stock Forecast: Can QCOM Hit $200 After Amazon AI Chip Partnership?",
-      "time": "Tue, 15 Sep 2026 21:45:28",
+      "title": "Qualcomm (NASDAQ: QCOM) Hits Two-Month High As Amazon AI Chip Deal Reshapes Growth Outlook",
+      "time": "Wed, 16 Sep 2026 09:56:00",
       "sentiment": 1
     },
     {
@@ -400,9 +400,9 @@
     },
     {
       "ticker": "WFC",
-      "title": "Wells Fargo CFO expects 2026 loan growth to be better than previously guided (WFC:NYSE)",
-      "time": "Tue, 15 Sep 2026 16:11:29",
-      "sentiment": 1
+      "title": "JPMorgan Stock And 2 US Banks Built For Higher Interest Rates",
+      "time": "Wed, 16 Sep 2026 12:35:14",
+      "sentiment": -1
     },
     {
       "ticker": "ABBV",
@@ -622,8 +622,8 @@
     },
     {
       "ticker": "VLO",
-      "title": "What Does the Future Hold for Valero Energy's Refining Business?",
-      "time": "Tue, 15 Sep 2026 15:47:00",
+      "title": "Valero Energy stock heads into the open after a 2.3% gain - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 02:41:50",
       "sentiment": 0
     },
     {
@@ -838,8 +838,8 @@
     },
     {
       "ticker": "XOM",
-      "title": "Will ExxonMobil's Guyana & Permian Assets Power Its Upstream Business?",
-      "time": "Wed, 16 Sep 2026 15:06:00",
+      "title": "Why the Market Dipped But Exxon Mobil Holdings (XOM) Gained Today",
+      "time": "Tue, 15 Sep 2026 21:45:03",
       "sentiment": 0
     },
     {
@@ -852,6 +852,12 @@
       "ticker": "ANET",
       "title": "Arista Networks Inc Stock (ANET) Moved Up by 3.24% on Sep 16: Drivers Behind the Movement",
       "time": "Wed, 16 Sep 2026 15:15:20",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ANET",
+      "title": "Arista Networks highlighted as Zacks Bull and Yum! Brands Bear of the Day",
+      "time": "Wed, 16 Sep 2026 14:05:59",
       "sentiment": 0
     },
     {
@@ -870,12 +876,6 @@
       "ticker": "ANET",
       "title": "Ciena Climbs 4% as $10B Backlog Outlook Outweighs Month-Long Slide; Arista and Cisco Edge Higher",
       "time": "Wed, 16 Sep 2026 13:45:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ANET",
-      "title": "Arista Networks highlighted as Zacks Bull and Yum! Brands Bear of the Day",
-      "time": "Wed, 16 Sep 2026 12:37:00",
       "sentiment": 0
     },
     {
