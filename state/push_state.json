@@ -1,6 +1,22 @@
 {
-  "signals": {},
-  "positions": {},
-  "last_check": "2026-09-16T16:06:59.823547+02:00",
+  "signals": {
+    "2026-09-16:RMD": {
+      "sent_at": "2026-09-16T16:12:40.074567+02:00",
+      "price": 228.3800048828125
+    }
+  },
+  "positions": {
+    "RMD": {
+      "entry": 228.3800048828125,
+      "qty": null,
+      "stop_pct": 1.88,
+      "target_pct": 3.39,
+      "opened_at": "2026-09-16T10:12:39.326113-04:00",
+      "signal_key": "2026-09-16:RMD",
+      "status": "virtual_open",
+      "source": "entry_signal_reference"
+    }
+  },
+  "last_check": "2026-09-16T16:12:40.244003+02:00",
   "ntfy_last_event_id": "mrz8VYLd7kqg"
 }
