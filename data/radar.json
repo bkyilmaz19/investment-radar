@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "17.09.2026 13:40 CEST",
+  "generated_at_local": "17.09.2026 13:47 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -8,12 +8,12 @@
     {
       "ticker": "TMO",
       "name": "Thermo Fisher",
-      "score": 100,
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.10%, 5T +7.06%, relatives Volumen 1.50x, ATR 2.33%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Wednesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.40%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "entry_note": "Premarket-Gap +0.70%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 1.4,
       "target_pct": 2.66,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -21,12 +21,12 @@
       "change_5d": "+7.06%",
       "volume_ratio": "1.50x",
       "atr_pct": "2.33%",
-      "gap_pct": "+0.40%",
-      "premarket_move_pct": "+0.02%",
+      "gap_pct": "+0.70%",
+      "premarket_move_pct": "+0.32%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 1150467087.19,
-      "bar_age_minutes": 16.3,
+      "bar_age_minutes": 8.0,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
@@ -45,38 +45,77 @@
       }
     },
     {
-      "ticker": "HON",
-      "name": "Honeywell",
-      "score": 100,
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "score": 88,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.07%, 5T +1.33%, relatives Volumen 1.82x, ATR 2.23%",
+      "thesis": "1T +4.79%, 5T -2.73%, relatives Volumen 1.88x, ATR 4.18%",
       "catalyst": "Premarket-/Momentum-Bestätigung",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.36%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.34,
-      "target_pct": 2.54,
+      "entry_note": "Premarket-Gap +2.74%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.51,
+      "target_pct": 4.77,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.07%",
-      "change_5d": "+1.33%",
-      "volume_ratio": "1.82x",
-      "atr_pct": "2.23%",
-      "gap_pct": "+0.36%",
-      "premarket_move_pct": "-0.05%",
+      "change_1d": "+4.79%",
+      "change_5d": "-2.73%",
+      "volume_ratio": "1.88x",
+      "atr_pct": "4.18%",
+      "gap_pct": "+2.74%",
+      "premarket_move_pct": "+0.89%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 605684316.07,
-      "bar_age_minutes": 1.7,
+      "avg_dollar_volume": 1968594433.12,
+      "bar_age_minutes": 3.0,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
       "session_phase": "Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": false,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "SYK",
+      "name": "Stryker",
+      "score": 86,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.16%, 5T +3.40%, relatives Volumen 0.89x, ATR 3.80%",
+      "catalyst": "Stryker Corp. stock outperforms competitors on strong trading day",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +1.05%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.28,
+      "target_pct": 4.33,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.16%",
+      "change_5d": "+3.40%",
+      "volume_ratio": "0.89x",
+      "atr_pct": "3.80%",
+      "gap_pct": "+1.05%",
+      "premarket_move_pct": "+0.43%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 868756904.61,
+      "bar_age_minutes": 28.0,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -86,12 +125,12 @@
     {
       "ticker": "LMT",
       "name": "Lockheed Martin",
-      "score": 100,
+      "score": 85,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +0.71%, 5T +2.44%, relatives Volumen 0.82x, ATR 2.18%",
-      "catalyst": "LMT Looks 4.8% Undervalued on GF Value™ with Strong Dividend App",
+      "catalyst": "LMT Looks 5.0% Undervalued on GF Value™ Amid Strong Dividend Pro",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.51%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "entry_note": "Premarket-Gap +0.38%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 1.31,
       "target_pct": 2.48,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -99,12 +138,12 @@
       "change_5d": "+2.44%",
       "volume_ratio": "0.82x",
       "atr_pct": "2.18%",
-      "gap_pct": "+0.51%",
-      "premarket_move_pct": "+0.27%",
+      "gap_pct": "+0.38%",
+      "premarket_move_pct": "+0.14%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 586037963.83,
-      "bar_age_minutes": 15.8,
+      "bar_age_minutes": 16.2,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
@@ -125,7 +164,7 @@
     {
       "ticker": "DXCM",
       "name": "DexCom",
-      "score": 100,
+      "score": 84,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.03%, 5T +4.12%, relatives Volumen 0.96x, ATR 2.95%",
       "catalyst": "DexCom Inc. stock outperforms competitors on strong trading day",
@@ -143,7 +182,7 @@
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 338961531.54,
-      "bar_age_minutes": 25.8,
+      "bar_age_minutes": 33.0,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
@@ -160,67 +199,16 @@
         "gap_ok": true,
         "confirmation_ok": true
       }
-    },
-    {
-      "ticker": "GEV",
-      "name": "GE Vernova",
-      "score": 100,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.79%, 5T -2.73%, relatives Volumen 1.88x, ATR 4.18%",
-      "catalyst": "Premarket-/Momentum-Bestätigung",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +2.91%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.51,
-      "target_pct": 4.77,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+4.79%",
-      "change_5d": "-2.73%",
-      "volume_ratio": "1.88x",
-      "atr_pct": "4.18%",
-      "gap_pct": "+2.91%",
-      "premarket_move_pct": "+1.06%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 1968594433.12,
-      "bar_age_minutes": 5.8,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Premarket",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": false,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
     }
   ],
   "avoid": [
     {
       "ticker": "LCID",
-      "reason": "Schwaches kurzfristiges Setup (Score 13/100; 1T -1.94%, 5T -5.39%)."
+      "reason": "Schwaches kurzfristiges Setup (Score 34/100; 1T -1.94%, 5T -5.39%)."
     },
     {
       "ticker": "STLA",
-      "reason": "Schwaches kurzfristiges Setup (Score 21/100; 1T -3.72%, 5T -6.99%)."
-    },
-    {
-      "ticker": "ENPH",
-      "reason": "Schwaches kurzfristiges Setup (Score 35/100; 1T -3.16%, 5T -3.16%)."
-    },
-    {
-      "ticker": "COIN",
-      "reason": "Schwaches kurzfristiges Setup (Score 36/100; 1T -4.42%, 5T -5.84%)."
-    },
-    {
-      "ticker": "CMG",
-      "reason": "Schwaches kurzfristiges Setup (Score 39/100; 1T -3.30%, 5T -6.52%)."
+      "reason": "Schwaches kurzfristiges Setup (Score 38/100; 1T -3.72%, 5T -6.99%)."
     }
   ],
   "news": [
@@ -269,7 +257,7 @@
     {
       "ticker": "MPC",
       "title": "How Refinery Upgrades At Marathon Petroleum Stock Have Changed Its Investment Story",
-      "time": "Wed, 16 Sep 2026 22:52:53",
+      "time": "Wed, 16 Sep 2026 22:43:59",
       "sentiment": 1
     },
     {
@@ -283,6 +271,12 @@
       "title": "Marathon Petroleum stock gains as Bank of America builds $621 million stake - ad-hoc-news.de",
       "time": "Wed, 16 Sep 2026 16:15:13",
       "sentiment": -1
+    },
+    {
+      "ticker": "GILD",
+      "title": "GILD Looks 38.6% Overvalued on GF Value™ Amid Mixed Growth Signa",
+      "time": "Wed, 16 Sep 2026 15:46:09",
+      "sentiment": 1
     },
     {
       "ticker": "GILD",
@@ -340,8 +334,8 @@
     },
     {
       "ticker": "LMT",
-      "title": "LMT Looks 4.8% Undervalued on GF Value™ with Strong Dividend App",
-      "time": "Wed, 16 Sep 2026 19:07:26",
+      "title": "LMT Looks 5.0% Undervalued on GF Value™ Amid Strong Dividend Pro",
+      "time": "Wed, 16 Sep 2026 15:05:56",
       "sentiment": 1
     },
     {
@@ -417,6 +411,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "LLY",
+      "title": "LLY Shares Dive On Analyst Downgrade Citing Obesity Market Overestimation Concerns, But Retail Dismisses ‘Absurd’ Selloff",
+      "time": "Thu, 17 Sep 2026 00:48:53",
+      "sentiment": -1
+    },
+    {
       "ticker": "PG",
       "title": "80% of people miss a spot brushing. Oral-B iO technology ranked first in a 19-study analysis.",
       "time": "Thu, 17 Sep 2026 10:40:00",
@@ -424,9 +424,9 @@
     },
     {
       "ticker": "PG",
-      "title": "Church & Dwight Co. stock outperforms competitors on strong trading day",
-      "time": "Wed, 16 Sep 2026 21:02:00",
-      "sentiment": 1
+      "title": "Plug Power Inc. stock underperforms Wednesday when compared to competitors",
+      "time": "Wed, 16 Sep 2026 21:26:00",
+      "sentiment": -1
     },
     {
       "ticker": "HON",
@@ -478,14 +478,14 @@
     },
     {
       "ticker": "TMO",
-      "title": "Top Stock Reports for Cisco, Lam Research & Thermo Fisher",
-      "time": "Wed, 16 Sep 2026 20:00:28",
+      "title": "Stifel Maintains Thermo Fisher Scientific(TMO.US) With Buy Rating",
+      "time": "Wed, 16 Sep 2026 14:22:48",
       "sentiment": 0
     },
     {
       "ticker": "TMO",
-      "title": "Stifel Maintains Thermo Fisher Scientific(TMO.US) With Buy Rating",
-      "time": "Wed, 16 Sep 2026 14:22:48",
+      "title": "Top Stock Reports for Cisco, Lam Research & Thermo Fisher",
+      "time": "Wed, 16 Sep 2026 20:00:28",
       "sentiment": 0
     },
     {
@@ -544,6 +544,12 @@
     },
     {
       "ticker": "DIS",
+      "title": "Disney Reportedly Slashes Jobs Again — Investor Calls For ‘Real Change’ At Mouse House",
+      "time": "Wed, 16 Sep 2026 23:33:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DIS",
       "title": "Disney to expand K-pop content through 10-project deal with South Korea's Kakao (DIS:NYSE)",
       "time": "Wed, 16 Sep 2026 14:47:15",
       "sentiment": 0
@@ -552,12 +558,6 @@
       "ticker": "DIS",
       "title": "Entertainment Stocks To Keep An Eye On - September 16th",
       "time": "Wed, 16 Sep 2026 17:10:53",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DIS",
-      "title": "Goldman Sachs Maintains Disney(DIS.US) With Buy Rating, Maintains Target Price $144",
-      "time": "Wed, 16 Sep 2026 14:19:26",
       "sentiment": 0
     },
     {
@@ -670,26 +670,20 @@
     },
     {
       "ticker": "MPC",
-      "title": "High-Yield Pipeline Stocks the Market Keeps Sleeping On",
-      "time": "Wed, 16 Sep 2026 19:15:00",
+      "title": "The Next Oil Shock Has No Safety Valve — And the Bill Will Land in Your Pantry",
+      "time": "Wed, 16 Sep 2026 17:09:57",
       "sentiment": 0
     },
     {
       "ticker": "MPC",
-      "title": "The Next Oil Shock Has No Safety Valve — And the Bill Will Land in Your Pantry",
-      "time": "Wed, 16 Sep 2026 17:09:57",
+      "title": "Top Energy Stocks To Buy Now",
+      "time": "Wed, 16 Sep 2026 12:42:00",
       "sentiment": 0
     },
     {
       "ticker": "GILD",
       "title": "Andrew Dickinson Sells 3,000 Shares of Gilead Sciences (NASDAQ:GILD) Stock",
       "time": "Wed, 16 Sep 2026 21:09:57",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GILD",
-      "title": "Gilead Sciences (GILD) CFO Andrew Dickinson Sells 3,000 Shares a",
-      "time": "Wed, 16 Sep 2026 22:58:59",
       "sentiment": 0
     },
     {
@@ -802,6 +796,12 @@
     },
     {
       "ticker": "SBUX",
+      "title": "Starbucks (SBUX) Has a New Rating from Seaport Global",
+      "time": "Thu, 17 Sep 2026 01:42:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SBUX",
       "title": "Starbucks Is Weighing a Japan Stake Sale. Here’s What It Means for the Turnaround",
       "time": "Thu, 17 Sep 2026 00:08:23",
       "sentiment": 0
@@ -816,12 +816,6 @@
       "ticker": "SBUX",
       "title": "4 stocks to watch on Wednesday: SBUX, MCD, MDLZ, and META (SPX:)",
       "time": "Wed, 16 Sep 2026 13:05:45",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Starbucks at 31.02X P/E Premium: Buy the Brew or Skip the Stock?",
-      "time": "Wed, 16 Sep 2026 15:25:01",
       "sentiment": 0
     },
     {
@@ -1120,14 +1114,14 @@
     },
     {
       "ticker": "META",
-      "title": "Why Is Meta Stock Down In Premarket Today?",
-      "time": "Thu, 17 Sep 2026 00:13:01",
+      "title": "Meta Muse May Be Biggest AI Launch Since ChatGPT. It’s Just One of Many Catalysts for Meta Stock.",
+      "time": "Thu, 17 Sep 2026 11:24:00",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Meta Muse May Be Biggest AI Launch Since ChatGPT. It’s Just One of Many Catalysts for Meta Stock.",
-      "time": "Thu, 17 Sep 2026 11:24:00",
+      "title": "Why Is Meta Stock Down In Premarket Today?",
+      "time": "Thu, 17 Sep 2026 00:13:01",
       "sentiment": 0
     },
     {
@@ -1170,12 +1164,6 @@
       "ticker": "LLY",
       "title": "Eli Lilly (LLY) Stock Could Be A Bargain At This Price",
       "time": "Wed, 16 Sep 2026 12:13:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LLY",
-      "title": "LLY|Eli Lilly and Co|Price:1139.280|Chg%:+3.170",
-      "time": "Wed, 16 Sep 2026 11:46:41",
       "sentiment": 0
     },
     {
@@ -1258,32 +1246,32 @@
     },
     {
       "ticker": "TSM",
-      "title": "Prediction: $1,000 Invested in Taiwan Semiconductor (TSMC) Today Will Be Worth This Much by the End of the Decade",
-      "time": "Wed, 16 Sep 2026 18:45:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSM",
       "title": "$Taiwan Semiconductor (TSM.US)$ Every malaysian has a share!",
       "time": "Thu, 17 Sep 2026 11:28:17",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
-      "title": "ASML vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy in 2026?",
-      "time": "Wed, 16 Sep 2026 11:45:01",
+      "title": "Prediction: $1,000 Invested in Taiwan Semiconductor (TSMC) Today Will Be Worth This Much by the End of the Decade",
+      "time": "Wed, 16 Sep 2026 18:45:00",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
-      "title": "ASML Vs. Taiwan Semiconductor Manufacturing: One Is More Misunderstood",
-      "time": "Wed, 16 Sep 2026 13:40:00",
+      "title": "ASML vs. Taiwan Semiconductor Manufacturing: Which Tech Stock Is a Better Buy in 2026?",
+      "time": "Wed, 16 Sep 2026 12:25:00",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
       "title": "Why Is Taiwan Semiconductor Manufacturing (TSM) Drawing Fresh Attention?",
       "time": "Wed, 16 Sep 2026 17:10:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSM",
+      "title": "Prediction: $1,000 Invested in Taiwan Semiconductor (TSMC) Today Will Be Worth This Much by the End of the Decade",
+      "time": "Wed, 16 Sep 2026 18:05:00",
       "sentiment": 0
     }
   ]
