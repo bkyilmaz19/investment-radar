@@ -1,10 +1,88 @@
 {
-  "generated_at_local": "17.09.2026 16:12 CEST",
+  "generated_at_local": "17.09.2026 16:30 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Risk-on / positives Momentum. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
+    {
+      "ticker": "AZN",
+      "name": "AstraZeneca",
+      "score": 99,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.64%, 5T +3.79%, relatives Volumen 1.28x, ATR 2.09%",
+      "catalyst": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.25%, seit Open +0.20%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.25,
+      "target_pct": 2.38,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.64%",
+      "change_5d": "+3.79%",
+      "volume_ratio": "1.28x",
+      "atr_pct": "2.09%",
+      "gap_pct": "+0.76%",
+      "premarket_move_pct": "+0.16%",
+      "live_gap_pct": "+1.25%",
+      "regular_move_pct": "+0.20%",
+      "avg_dollar_volume": 529482965.82,
+      "bar_age_minutes": 0.9,
+      "vwap": 164.83,
+      "opening_range_high": 165.01,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "score": 96,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.03%, 5T +2.84%, relatives Volumen 0.89x, ATR 4.17%",
+      "catalyst": "Should AI Partnerships Require Action From Palantir Stock Investors?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.69%, seit Open +0.87%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.5,
+      "target_pct": 4.76,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.03%",
+      "change_5d": "+2.84%",
+      "volume_ratio": "0.89x",
+      "atr_pct": "4.17%",
+      "gap_pct": "+0.84%",
+      "premarket_move_pct": "-0.32%",
+      "live_gap_pct": "+1.69%",
+      "regular_move_pct": "+0.87%",
+      "avg_dollar_volume": 5086072524.82,
+      "bar_age_minutes": 0.9,
+      "vwap": 175.62,
+      "opening_range_high": 177.49,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
     {
       "ticker": "DELL",
       "name": "Dell",
@@ -13,7 +91,7 @@
       "thesis": "1T +3.64%, 5T +5.24%, relatives Volumen 1.39x, ATR 6.31%",
       "catalyst": "Premarket-/Momentum-Bestätigung",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +3.06%, seit Open +1.77%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +3.61%, seit Open +2.32%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 3.0,
       "target_pct": 5.7,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +101,11 @@
       "atr_pct": "6.31%",
       "gap_pct": "+1.85%",
       "premarket_move_pct": "-0.22%",
-      "live_gap_pct": "+3.06%",
-      "regular_move_pct": "+1.77%",
+      "live_gap_pct": "+3.61%",
+      "regular_move_pct": "+2.32%",
       "avg_dollar_volume": 4846719259.09,
-      "bar_age_minutes": 2.6,
-      "vwap": 575.49,
+      "bar_age_minutes": 0.9,
+      "vwap": 577.41,
       "opening_range_high": 574.6,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -47,12 +125,12 @@
     {
       "ticker": "NUE",
       "name": "Nucor",
-      "score": 91,
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +0.72%, 5T +1.07%, relatives Volumen 1.16x, ATR 2.78%",
       "catalyst": "These large-cap U.S. stocks have the strongest momentum grades (MU:NASDAQ)",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +2.14%, seit Open +0.76%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +2.33%, seit Open +0.95%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.67,
       "target_pct": 3.17,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +140,11 @@
       "atr_pct": "2.78%",
       "gap_pct": "+1.31%",
       "premarket_move_pct": "+1.30%",
-      "live_gap_pct": "+2.14%",
-      "regular_move_pct": "+0.76%",
+      "live_gap_pct": "+2.33%",
+      "regular_move_pct": "+0.95%",
       "avg_dollar_volume": 344947502.51,
-      "bar_age_minutes": 2.6,
-      "vwap": 266.15,
+      "bar_age_minutes": 0.9,
+      "vwap": 266.26,
       "opening_range_high": 267.29,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -86,12 +164,12 @@
     {
       "ticker": "TMO",
       "name": "Thermo Fisher",
-      "score": 90,
+      "score": 87,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.10%, 5T +7.06%, relatives Volumen 1.50x, ATR 2.33%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Wednesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.79%, seit Open -0.48%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.44%, seit Open -0.83%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.4,
       "target_pct": 2.66,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +179,11 @@
       "atr_pct": "2.33%",
       "gap_pct": "+1.48%",
       "premarket_move_pct": "+1.10%",
-      "live_gap_pct": "+0.79%",
-      "regular_move_pct": "-0.48%",
+      "live_gap_pct": "+0.44%",
+      "regular_move_pct": "-0.83%",
       "avg_dollar_volume": 1150467087.19,
-      "bar_age_minutes": 2.6,
-      "vwap": 653.83,
+      "bar_age_minutes": 0.9,
+      "vwap": 653.45,
       "opening_range_high": 658.4,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -116,84 +194,6 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "AZN",
-      "name": "AstraZeneca",
-      "score": 87,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.64%, 5T +3.79%, relatives Volumen 1.28x, ATR 2.09%",
-      "catalyst": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.96%, seit Open -0.08%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.25,
-      "target_pct": 2.38,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.64%",
-      "change_5d": "+3.79%",
-      "volume_ratio": "1.28x",
-      "atr_pct": "2.09%",
-      "gap_pct": "+0.76%",
-      "premarket_move_pct": "+0.16%",
-      "live_gap_pct": "+0.96%",
-      "regular_move_pct": "-0.08%",
-      "avg_dollar_volume": 529482965.82,
-      "bar_age_minutes": 2.6,
-      "vwap": 164.88,
-      "opening_range_high": 165.01,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "score": 84,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.03%, 5T +2.84%, relatives Volumen 0.89x, ATR 4.17%",
-      "catalyst": "Should AI Partnerships Require Action From Palantir Stock Investors?",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.81%, seit Open +0.00%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 2.5,
-      "target_pct": 4.76,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.03%",
-      "change_5d": "+2.84%",
-      "volume_ratio": "0.89x",
-      "atr_pct": "4.17%",
-      "gap_pct": "+0.84%",
-      "premarket_move_pct": "-0.32%",
-      "live_gap_pct": "+0.81%",
-      "regular_move_pct": "+0.00%",
-      "avg_dollar_volume": 5086072524.82,
-      "bar_age_minutes": 2.6,
-      "vwap": 175.43,
-      "opening_range_high": 177.49,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -225,12 +225,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "TMO",
-      "title": "Thermo Fisher stock nears record after UBS upgrade and upbeat 2026 outlook - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 09:34:09",
-      "sentiment": 1
-    },
-    {
       "ticker": "AZN",
       "title": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
       "time": "Thu, 17 Sep 2026 08:31:00",
@@ -239,6 +233,12 @@
     {
       "ticker": "NUE",
       "title": "These large-cap U.S. stocks have the strongest momentum grades (MU:NASDAQ)",
+      "time": "Thu, 17 Sep 2026 13:35:07",
+      "sentiment": 1
+    },
+    {
+      "ticker": "NUE",
+      "title": "These large-cap U.S. stocks have the strongest momentum grades",
       "time": "Thu, 17 Sep 2026 13:35:07",
       "sentiment": 1
     },
@@ -340,9 +340,9 @@
     },
     {
       "ticker": "LMT",
-      "title": "Can Navy Network Modernization Support Leidos' Growth Outlook?",
-      "time": "Wed, 16 Sep 2026 14:22:00",
-      "sentiment": 1
+      "title": "Lockheed Martin Reports Rapid Delivery of PAC-3 Missile Segment Enhancement Components From GM Defense",
+      "time": "Thu, 17 Sep 2026 14:09:15",
+      "sentiment": -1
     },
     {
       "ticker": "DXCM",
@@ -405,6 +405,12 @@
       "sentiment": -1
     },
     {
+      "ticker": "LLY",
+      "title": "Is CRBP a Good Cannabis Investment After Positive Obesity Study Data?",
+      "time": "Thu, 17 Sep 2026 13:00:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "AAL",
       "title": "American Airlines CEO Says $1 Billion Fuel Cost Hit May Force Route Cuts",
       "time": "Wed, 16 Sep 2026 18:31:00",
@@ -462,6 +468,12 @@
       "ticker": "TMO",
       "title": "Why Is Thermo Fisher Scientific (TMO) Building A Massive Early Disease Data Platform?",
       "time": "Thu, 17 Sep 2026 13:11:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "Three Analysts, Three Verdicts on Thermo Fisher: Here’s Who the Numbers Favor",
+      "time": "Thu, 17 Sep 2026 14:27:05",
       "sentiment": 0
     },
     {
@@ -550,8 +562,8 @@
     },
     {
       "ticker": "DIS",
-      "title": "Walt Disney stock gains analyst support amid parks strength - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 11:49:28",
+      "title": "ESPN extends lead NFL announcer Joe Buck for 6 years (DIS:NYSE)",
+      "time": "Wed, 16 Sep 2026 15:11:27",
       "sentiment": 0
     },
     {
@@ -772,14 +784,14 @@
     },
     {
       "ticker": "VLO",
-      "title": "Think It’s Too Late to Buy Marathon and Valero? Here’s Why Analysts Say Wait Instead",
-      "time": "Thu, 17 Sep 2026 13:15:00",
+      "title": "VLO Stock Heads For Best Year Since 1982 — Michael Burry Says It Has Become A ‘Huge Position’",
+      "time": "Wed, 16 Sep 2026 22:52:24",
       "sentiment": 0
     },
     {
       "ticker": "VLO",
-      "title": "VLO Stock Heads For Best Year Since 1982 — Michael Burry Says It Has Become A ‘Huge Position’",
-      "time": "Wed, 16 Sep 2026 22:52:24",
+      "title": "Think It’s Too Late to Buy Marathon and Valero? Here’s Why Analysts Say Wait Instead",
+      "time": "Thu, 17 Sep 2026 13:15:00",
       "sentiment": 0
     },
     {
@@ -857,7 +869,13 @@
     {
       "ticker": "HCA",
       "title": "Deals tracker: Sword Health confirms plans to acquire Headspace",
-      "time": "Wed, 16 Sep 2026 23:39:00",
+      "time": "Thu, 17 Sep 2026 05:36:47",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LMT",
+      "title": "Earnings Drag and Geopolitical Headwinds Weigh on Lockheed Martin’s (LMT) Performance",
+      "time": "Thu, 17 Sep 2026 11:55:55",
       "sentiment": 0
     },
     {
@@ -870,12 +888,6 @@
       "ticker": "LMT",
       "title": "Lockheed Martin tests networked infrared sensors on F-16 fighters (LMT:NYSE)",
       "time": "Wed, 16 Sep 2026 17:51:24",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LMT",
-      "title": "Earnings Drag and Geopolitical Headwinds Weigh on Lockheed Martin’s (LMT) Performance",
-      "time": "Thu, 17 Sep 2026 11:55:55",
       "sentiment": 0
     },
     {
@@ -1121,7 +1133,7 @@
     {
       "ticker": "META",
       "title": "Meta Muse May Be Biggest AI Launch Since ChatGPT. It’s Just One of Many Catalysts for Meta Stock.",
-      "time": "Thu, 17 Sep 2026 11:31:00",
+      "time": "Thu, 17 Sep 2026 14:06:00",
       "sentiment": 0
     },
     {
@@ -1132,14 +1144,14 @@
     },
     {
       "ticker": "META",
-      "title": "Citi Sees Bigger Opportunity Ahead for Meta Stock",
-      "time": "Wed, 16 Sep 2026 19:20:24",
+      "title": "Why Is Meta Stock Down In Premarket Today?",
+      "time": "Thu, 17 Sep 2026 00:13:01",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Why Is Meta Stock Down In Premarket Today?",
-      "time": "Thu, 17 Sep 2026 00:13:01",
+      "title": "Citi Sees Bigger Opportunity Ahead for Meta Stock",
+      "time": "Wed, 16 Sep 2026 19:20:24",
       "sentiment": 0
     },
     {
@@ -1176,12 +1188,6 @@
       "ticker": "LLY",
       "title": "Beyond Hype: Twist Bioscience Secures Data Pipeline Role In Eli Lilly TuneLab Ecosystem",
       "time": "Wed, 16 Sep 2026 14:59:31",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LLY",
-      "title": "This Trend is Excellent News for Eli Lilly and Its Investors",
-      "time": "Thu, 17 Sep 2026 08:35:01",
       "sentiment": 0
     },
     {
@@ -1258,14 +1264,14 @@
     },
     {
       "ticker": "TSM",
-      "title": "Why Is Taiwan Semiconductor Manufacturing (TSM) Drawing Fresh Attention?",
-      "time": "Wed, 16 Sep 2026 17:10:00",
+      "title": "Why Is Tower Semiconductor Stock Soaring Thursday?",
+      "time": "Thu, 17 Sep 2026 14:07:59",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
-      "title": "Prediction: $1,000 Invested in Taiwan Semiconductor (TSMC) Today Will Be Worth This Much by the End of the Decade",
-      "time": "Wed, 16 Sep 2026 18:05:00",
+      "title": "Why Is Taiwan Semiconductor Manufacturing (TSM) Drawing Fresh Attention?",
+      "time": "Wed, 16 Sep 2026 17:10:00",
       "sentiment": 0
     }
   ]
