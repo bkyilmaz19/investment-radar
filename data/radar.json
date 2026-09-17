@@ -1,10 +1,49 @@
 {
-  "generated_at_local": "17.09.2026 17:11 CEST",
+  "generated_at_local": "17.09.2026 17:28 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Risk-on / positives Momentum. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
+    {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 99,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.72%, 5T +1.07%, relatives Volumen 1.16x, ATR 2.78%",
+      "catalyst": "CF, NUE lead top 10 large-cap U.S. materials stocks with strong momentum grades (XLB:NYSEARCA)",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.49%, seit Open +1.11%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.67,
+      "target_pct": 3.17,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.72%",
+      "change_5d": "+1.07%",
+      "volume_ratio": "1.16x",
+      "atr_pct": "2.78%",
+      "gap_pct": "+1.31%",
+      "premarket_move_pct": "+1.30%",
+      "live_gap_pct": "+2.49%",
+      "regular_move_pct": "+1.11%",
+      "avg_dollar_volume": 344947502.51,
+      "bar_age_minutes": 3.3,
+      "vwap": 266.19,
+      "opening_range_high": 267.29,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
     {
       "ticker": "AZN",
       "name": "AstraZeneca",
@@ -13,7 +52,7 @@
       "thesis": "1T +0.64%, 5T +3.79%, relatives Volumen 1.28x, ATR 2.09%",
       "catalyst": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.36%, seit Open +0.31%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.52%, seit Open +0.47%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.25,
       "target_pct": 2.38,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +62,11 @@
       "atr_pct": "2.09%",
       "gap_pct": "+0.76%",
       "premarket_move_pct": "+0.16%",
-      "live_gap_pct": "+1.36%",
-      "regular_move_pct": "+0.31%",
+      "live_gap_pct": "+1.52%",
+      "regular_move_pct": "+0.47%",
       "avg_dollar_volume": 529482965.82,
-      "bar_age_minutes": 1.8,
-      "vwap": 165.0,
+      "bar_age_minutes": 3.3,
+      "vwap": 165.05,
       "opening_range_high": 165.01,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -45,84 +84,6 @@
       }
     },
     {
-      "ticker": "NUE",
-      "name": "Nucor",
-      "score": 96,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.72%, 5T +1.07%, relatives Volumen 1.16x, ATR 2.78%",
-      "catalyst": "CF, NUE lead top 10 large-cap U.S. materials stocks with strong momentum grades (XLB:NYSEARCA)",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +2.09%, seit Open +0.71%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.67,
-      "target_pct": 3.17,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.72%",
-      "change_5d": "+1.07%",
-      "volume_ratio": "1.16x",
-      "atr_pct": "2.78%",
-      "gap_pct": "+1.31%",
-      "premarket_move_pct": "+1.30%",
-      "live_gap_pct": "+2.09%",
-      "regular_move_pct": "+0.71%",
-      "avg_dollar_volume": 344947502.51,
-      "bar_age_minutes": 1.8,
-      "vwap": 266.18,
-      "opening_range_high": 267.29,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "MPC",
-      "name": "Marathon Petroleum",
-      "score": 94,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.75%, 5T +3.63%, relatives Volumen 1.07x, ATR 3.09%",
-      "catalyst": "How Refinery Upgrades At Marathon Petroleum Stock Have Changed Its Investment Story",
-      "risk_note": "Marathon Petroleum stock gains as Bank of America builds $621 million stake - ad-hoc-news.de",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.09%, seit Open +2.37%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.86,
-      "target_pct": 3.53,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.75%",
-      "change_5d": "+3.63%",
-      "volume_ratio": "1.07x",
-      "atr_pct": "3.09%",
-      "gap_pct": "-1.54%",
-      "premarket_move_pct": "-2.26%",
-      "live_gap_pct": "+1.09%",
-      "regular_move_pct": "+2.37%",
-      "avg_dollar_volume": 941807048.84,
-      "bar_age_minutes": 1.8,
-      "vwap": 414.84,
-      "opening_range_high": 415.81,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
       "ticker": "DELL",
       "name": "Dell",
       "score": 92,
@@ -130,7 +91,7 @@
       "thesis": "1T +3.64%, 5T +5.24%, relatives Volumen 1.39x, ATR 6.31%",
       "catalyst": "Premarket-/Momentum-Bestätigung",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +4.23%, seit Open +2.93%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +4.03%, seit Open +2.73%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 3.0,
       "target_pct": 5.7,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +101,11 @@
       "atr_pct": "6.31%",
       "gap_pct": "+1.85%",
       "premarket_move_pct": "-0.22%",
-      "live_gap_pct": "+4.23%",
-      "regular_move_pct": "+2.93%",
+      "live_gap_pct": "+4.03%",
+      "regular_move_pct": "+2.73%",
       "avg_dollar_volume": 4846719259.09,
-      "bar_age_minutes": 1.8,
-      "vwap": 579.22,
+      "bar_age_minutes": 3.3,
+      "vwap": 579.62,
       "opening_range_high": 574.6,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -169,7 +130,7 @@
       "thesis": "1T +1.10%, 5T +7.06%, relatives Volumen 1.50x, ATR 2.33%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Wednesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.87%, seit Open -0.40%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.26%, seit Open -0.02%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.4,
       "target_pct": 2.66,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +140,11 @@
       "atr_pct": "2.33%",
       "gap_pct": "+1.48%",
       "premarket_move_pct": "+1.10%",
-      "live_gap_pct": "+0.87%",
-      "regular_move_pct": "-0.40%",
+      "live_gap_pct": "+1.26%",
+      "regular_move_pct": "-0.02%",
       "avg_dollar_volume": 1150467087.19,
-      "bar_age_minutes": 1.8,
-      "vwap": 653.39,
+      "bar_age_minutes": 3.3,
+      "vwap": 653.64,
       "opening_range_high": 658.4,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -194,6 +155,45 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.44%, 5T +2.39%, relatives Volumen 1.03x, ATR 3.78%",
+      "catalyst": "Does Raised 2026 Outlook Change The Bull Case For Arista Networks Stock (ANET)?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +3.25%, seit Open +0.42%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 2.27,
+      "target_pct": 4.31,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.44%",
+      "change_5d": "+2.39%",
+      "volume_ratio": "1.03x",
+      "atr_pct": "3.78%",
+      "gap_pct": "+3.34%",
+      "premarket_move_pct": "+1.66%",
+      "live_gap_pct": "+3.25%",
+      "regular_move_pct": "+0.42%",
+      "avg_dollar_volume": 925622226.02,
+      "bar_age_minutes": 3.3,
+      "vwap": 202.62,
+      "opening_range_high": 204.91,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -291,22 +291,10 @@
       "sentiment": -1
     },
     {
-      "ticker": "GILD",
-      "title": "GILD Looks 38.6% Overvalued on GF Value™ Amid Mixed Growth Signa",
-      "time": "Wed, 16 Sep 2026 15:46:09",
-      "sentiment": 1
-    },
-    {
       "ticker": "ANET",
       "title": "Does Raised 2026 Outlook Change The Bull Case For Arista Networks Stock (ANET)?",
       "time": "Thu, 17 Sep 2026 02:34:06",
       "sentiment": 1
-    },
-    {
-      "ticker": "ANET",
-      "title": "Arista Stock Holds Up Well Amid Weakness. Here's How To Capitalize.",
-      "time": "Wed, 16 Sep 2026 15:26:00",
-      "sentiment": -1
     },
     {
       "ticker": "PLTR",
@@ -388,6 +376,12 @@
     },
     {
       "ticker": "CCL",
+      "title": "Carnival Corp. Ltd. stock outperforms competitors on strong trading day",
+      "time": "Wed, 16 Sep 2026 20:55:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "CCL",
       "title": "Goldman Sachs cuts Carnival stock price target on yield concerns",
       "time": "Thu, 17 Sep 2026 11:08:55",
       "sentiment": -1
@@ -418,9 +412,9 @@
     },
     {
       "ticker": "AAL",
-      "title": "Airlines Increase Ticket Prices Amid Fuel Surge: 8 Key Items Shaping the Stock Market Thursday",
-      "time": "Thu, 17 Sep 2026 12:44:00",
-      "sentiment": 1
+      "title": "American Airlines CEO Says $1 Billion Fuel Cost Hit May Force Route Cuts",
+      "time": "Wed, 16 Sep 2026 18:31:00",
+      "sentiment": -1
     },
     {
       "ticker": "PG",
@@ -550,14 +544,14 @@
     },
     {
       "ticker": "DIS",
-      "title": "Disney Reportedly Slashes Jobs Again — Investor Calls For ‘Real Change’ At Mouse House",
-      "time": "Wed, 16 Sep 2026 23:33:04",
+      "title": "Disney's Free Cash Flow Faces Pressure: Can Higher Investment Pay Off?",
+      "time": "Wed, 16 Sep 2026 16:07:27",
       "sentiment": 0
     },
     {
       "ticker": "DIS",
-      "title": "Disney's Free Cash Flow Faces Pressure: Can Higher Investment Pay Off?",
-      "time": "Wed, 16 Sep 2026 16:07:27",
+      "title": "Disney Reportedly Slashes Jobs Again — Investor Calls For ‘Real Change’ At Mouse House",
+      "time": "Wed, 16 Sep 2026 23:33:04",
       "sentiment": 0
     },
     {
@@ -640,8 +634,8 @@
     },
     {
       "ticker": "DELL",
-      "title": "Silver Lake fund plans another Dell (NYSE: DELL) stock sale worth millions",
-      "time": "Wed, 16 Sep 2026 22:53:30",
+      "title": "Here's How Much You'd Have If You Invested $1000 in Dell Technologies a Decade Ago",
+      "time": "Thu, 17 Sep 2026 02:35:48",
       "sentiment": 0
     },
     {
@@ -712,6 +706,12 @@
     },
     {
       "ticker": "GILD",
+      "title": "Gilead Sciences (GILD) CFO Andrew Dickinson Sells 3,000 Shares a",
+      "time": "Wed, 16 Sep 2026 22:58:59",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GILD",
       "title": "Insider Selling: Gilead Sciences (NASDAQ:GILD) Insider Sells $432,660.00 in Stock",
       "time": "Wed, 16 Sep 2026 21:09:58",
       "sentiment": 0
@@ -720,6 +720,12 @@
       "ticker": "ANET",
       "title": "If You Invested $1000 in Arista Networks a Decade Ago, This is How Much It'd Be Worth Now",
       "time": "Thu, 17 Sep 2026 12:30:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ANET",
+      "title": "Arista Networks Inc Stock (ANET) Moved Up by 3.02% on Sep 17: A Full Analysis",
+      "time": "Thu, 17 Sep 2026 15:15:22",
       "sentiment": 0
     },
     {
@@ -736,8 +742,8 @@
     },
     {
       "ticker": "ANET",
-      "title": "Arista Networks Inc Stock (ANET) Moved Up by 3.24% on Sep 16: Drivers Behind the Movement",
-      "time": "Wed, 16 Sep 2026 15:15:20",
+      "title": "Arista Networks highlighted as Zacks Bull and Yum! Brands Bear of the Day",
+      "time": "Wed, 16 Sep 2026 15:44:29",
       "sentiment": 0
     },
     {
@@ -844,14 +850,14 @@
     },
     {
       "ticker": "SYK",
-      "title": "Stryker Expands Foot & Ankle Innovation With Prophecy and smartHEX",
-      "time": "Thu, 17 Sep 2026 15:00:00",
+      "title": "Stryker Facing Promising Setup Next Year, Trading Upside Limited in 2026, RBC Says",
+      "time": "Thu, 17 Sep 2026 15:15:24",
       "sentiment": 0
     },
     {
       "ticker": "SYK",
-      "title": "Medical Stocks To Research - September 16th",
-      "time": "Wed, 16 Sep 2026 17:10:52",
+      "title": "Stryker Expands Foot & Ankle Innovation With Prophecy and smartHEX",
+      "time": "Thu, 17 Sep 2026 15:00:00",
       "sentiment": 0
     },
     {
@@ -881,7 +887,7 @@
     {
       "ticker": "HCA",
       "title": "Deals tracker: Sword Health confirms plans to acquire Headspace",
-      "time": "Thu, 17 Sep 2026 05:36:47",
+      "time": "Wed, 16 Sep 2026 23:39:00",
       "sentiment": 0
     },
     {
@@ -1055,7 +1061,7 @@
     {
       "ticker": "AMD",
       "title": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD.",
-      "time": "Thu, 17 Sep 2026 14:21:51",
+      "time": "Thu, 17 Sep 2026 14:29:00",
       "sentiment": 0
     },
     {
@@ -1066,8 +1072,8 @@
     },
     {
       "ticker": "AMD",
-      "title": "Why Advanced Micro Devices Stock Just Popped",
-      "time": "Wed, 16 Sep 2026 17:57:59",
+      "title": "Advanced Micro Devices Inc Stock (AMD) Opened Up by 4.01% on Sep 17: What Investors Need To Know",
+      "time": "Thu, 17 Sep 2026 13:47:25",
       "sentiment": 0
     },
     {
@@ -1132,20 +1138,26 @@
     },
     {
       "ticker": "SE",
-      "title": "Indonesia to begin e-commerce tax collection from October 1, media reports",
-      "time": "Thu, 17 Sep 2026 04:20:25",
+      "title": "META|Meta Platforms Inc|Price:673.310|Chg%:+3.070",
+      "time": "Thu, 17 Sep 2026 01:02:22",
       "sentiment": 0
     },
     {
       "ticker": "SE",
-      "title": "Sea Ltd (NYSE: SE) COO sells 40,000 shares in preset plan",
-      "time": "Thu, 17 Sep 2026 10:16:33",
+      "title": "Indonesia to begin e-commerce tax collection from October 1, media reports",
+      "time": "Thu, 17 Sep 2026 04:20:25",
       "sentiment": 0
     },
     {
       "ticker": "META",
       "title": "Meta Muse May Be Biggest AI Launch Since ChatGPT. It’s Just One of Many Catalysts for Meta Stock.",
       "time": "Thu, 17 Sep 2026 14:06:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Meta Stock Climbs On Muse AI Excitement. Here's The Next Potential Catalyst.",
+      "time": "Thu, 17 Sep 2026 15:14:00",
       "sentiment": 0
     },
     {
@@ -1173,9 +1185,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "META",
-      "title": "BofA reiterates Buy on Meta stock on custom AI chip plans",
-      "time": "Thu, 17 Sep 2026 09:31:22",
+      "ticker": "LLY",
+      "title": "LLY Stock Down Around 7% in a Month: Buy the Dip or Stay Cautious?",
+      "time": "Thu, 17 Sep 2026 15:08:00",
       "sentiment": 0
     },
     {
@@ -1188,12 +1200,6 @@
       "ticker": "LLY",
       "title": "5 Buy-and-Hold Stocks Built to Weather a Volatile Market",
       "time": "Wed, 16 Sep 2026 16:44:23",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LLY",
-      "title": "Tesla To Hike Price On Cheapest Cybertruck Variant After Feb. 28",
-      "time": "Thu, 17 Sep 2026 00:49:05",
       "sentiment": 0
     },
     {
