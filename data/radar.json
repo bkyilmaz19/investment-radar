@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "17.09.2026 22:12 CEST",
+  "generated_at_local": "17.09.2026 22:28 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "-0.56%",
       "regular_move_pct": "-1.27%",
       "avg_dollar_volume": 605684316.07,
-      "bar_age_minutes": 2.3,
+      "bar_age_minutes": 8.8,
       "vwap": 206.22,
       "opening_range_high": 209.57,
       "opening_range_ready": true,
@@ -65,8 +65,8 @@
       "live_gap_pct": "+1.58%",
       "regular_move_pct": "+0.30%",
       "avg_dollar_volume": 1150467087.19,
-      "bar_age_minutes": 0.8,
-      "vwap": 657.33,
+      "bar_age_minutes": 8.8,
+      "vwap": 657.36,
       "opening_range_high": 658.4,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -104,50 +104,11 @@
       "live_gap_pct": "+1.71%",
       "regular_move_pct": "+0.34%",
       "avg_dollar_volume": 344947502.51,
-      "bar_age_minutes": 0.7,
-      "vwap": 265.93,
+      "bar_age_minutes": 18.8,
+      "vwap": 265.92,
       "opening_range_high": 267.29,
       "opening_range_ready": true,
       "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "AZN",
-      "name": "AstraZeneca",
-      "score": 92,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.64%, 5T +3.79%, relatives Volumen 1.28x, ATR 2.09%",
-      "catalyst": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.76%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.25,
-      "target_pct": 2.38,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.64%",
-      "change_5d": "+3.79%",
-      "volume_ratio": "1.28x",
-      "atr_pct": "2.09%",
-      "gap_pct": "+0.76%",
-      "premarket_move_pct": "+0.16%",
-      "live_gap_pct": "+1.98%",
-      "regular_move_pct": "+0.93%",
-      "avg_dollar_volume": 529482965.82,
-      "bar_age_minutes": 17.3,
-      "vwap": 165.43,
-      "opening_range_high": 165.01,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
       "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
@@ -182,11 +143,50 @@
       "live_gap_pct": "+4.47%",
       "regular_move_pct": "+3.17%",
       "avg_dollar_volume": 4849372354.89,
-      "bar_age_minutes": 2.3,
-      "vwap": 584.19,
+      "bar_age_minutes": 1.8,
+      "vwap": 584.22,
       "opening_range_high": 574.6,
       "opening_range_ready": true,
       "breakout_confirmed": true,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "AZN",
+      "name": "AstraZeneca",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.64%, 5T +3.79%, relatives Volumen 1.28x, ATR 2.09%",
+      "catalyst": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.76%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.25,
+      "target_pct": 2.38,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.64%",
+      "change_5d": "+3.79%",
+      "volume_ratio": "1.28x",
+      "atr_pct": "2.09%",
+      "gap_pct": "+0.76%",
+      "premarket_move_pct": "+0.16%",
+      "live_gap_pct": "+1.99%",
+      "regular_move_pct": "+0.93%",
+      "avg_dollar_volume": 529482965.82,
+      "bar_age_minutes": 23.8,
+      "vwap": 165.44,
+      "opening_range_high": 165.01,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
       "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
@@ -227,7 +227,7 @@
     {
       "ticker": "DELL",
       "title": "Dell’s AI Backlog Surge Positions Stock for $600+ as Server Revenue Doubles",
-      "time": "Thu, 17 Sep 2026 17:00:00",
+      "time": "Thu, 17 Sep 2026 17:00:11",
       "sentiment": 1
     },
     {
@@ -240,12 +240,6 @@
       "ticker": "AZN",
       "title": "AstraZeneca stock gains as Enhertu wins NHS approval and Wuxi investment supports growth - ad-hoc-news.de",
       "time": "Thu, 17 Sep 2026 14:23:11",
-      "sentiment": 1
-    },
-    {
-      "ticker": "AZN",
-      "title": "AstraZeneca (AZN) Wins FDA Approval for its Breast Cancer Pill After Regulators Voiced Doubts",
-      "time": "Thu, 17 Sep 2026 15:53:34",
       "sentiment": 1
     },
     {
@@ -370,12 +364,6 @@
     },
     {
       "ticker": "CCL",
-      "title": "Carnival Corp. Ltd. stock outperforms competitors on strong trading day",
-      "time": "Wed, 16 Sep 2026 20:55:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "CCL",
       "title": "Goldman Sachs cuts Carnival stock price target on yield concerns By Investing.com",
       "time": "Thu, 17 Sep 2026 15:48:36",
       "sentiment": -1
@@ -407,19 +395,13 @@
     {
       "ticker": "TSM",
       "title": "1 AI Stock Poised to Outperform Micron and Sandisk on the Next Infrastructure Surge",
-      "time": "Thu, 17 Sep 2026 11:54:47",
+      "time": "Thu, 17 Sep 2026 11:38:40",
       "sentiment": 1
     },
     {
       "ticker": "TSM",
       "title": "1 AI Stock Poised to Outperform Micron and Sandisk on the Next Infrastructure Surge",
       "time": "Thu, 17 Sep 2026 12:08:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing stock gains as strong Q2 2026 figures and October earnings date s - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 13:38:47",
       "sentiment": 1
     },
     {
@@ -430,14 +412,14 @@
     },
     {
       "ticker": "HON",
-      "title": "Jim Cramer Says He Can’t “Counsel Owning” Honeywell Aerospace (HONA)",
-      "time": "Thu, 17 Sep 2026 11:22:44",
+      "title": "Honeywell stock heads into the open after a 1.02 percent gain - ad-hoc-news.de",
+      "time": "Thu, 17 Sep 2026 05:51:25",
       "sentiment": 0
     },
     {
       "ticker": "HON",
-      "title": "Honeywell stock heads into the open after a 1.02 percent gain - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 05:51:25",
+      "title": "Jim Cramer Says He Can’t “Counsel Owning” Honeywell Aerospace (HONA)",
+      "time": "Thu, 17 Sep 2026 11:22:44",
       "sentiment": 0
     },
     {
@@ -448,8 +430,8 @@
     },
     {
       "ticker": "HON",
-      "title": "GOOGL: Alphabet - Stock Price, Quote and News | NASDAQ",
-      "time": "Thu, 17 Sep 2026 05:25:22",
+      "title": "ABBV: AbbVie - Stock Price, Quote and News | NYSE",
+      "time": "Thu, 17 Sep 2026 07:22:32",
       "sentiment": 0
     },
     {
@@ -502,14 +484,14 @@
     },
     {
       "ticker": "DELL",
-      "title": "DELL 260918 592.50P (DELL260918P592500) Stock Options Chain | Quotes & News",
-      "time": "Thu, 17 Sep 2026 16:06:00",
+      "title": "AI Server Stocks Rally as the Hardware Bid Broadens: Hewlett Packard Enterprise Jumps 9%, Super Micro Climbs 6%, Dell Rises 3%",
+      "time": "Thu, 17 Sep 2026 14:53:00",
       "sentiment": 0
     },
     {
       "ticker": "DELL",
-      "title": "Why Did DELL, CRWD, CVX Stocks Jump To 52-Week Highs Today?",
-      "time": "Thu, 17 Sep 2026 14:00:54",
+      "title": "DELL 260918 592.50P (DELL260918P592500) Stock Options Chain | Quotes & News",
+      "time": "Thu, 17 Sep 2026 16:06:00",
       "sentiment": 0
     },
     {
@@ -592,14 +574,20 @@
     },
     {
       "ticker": "AZN",
+      "title": "Independent Chairman of AstraZeneca Michel Demare Buys 25% More Shares",
+      "time": "Thu, 17 Sep 2026 05:55:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AZN",
       "title": "AstraZeneca stock heads into the open after a 1.2% New York drop - ad-hoc-news.de",
       "time": "Thu, 17 Sep 2026 05:10:01",
       "sentiment": 0
     },
     {
       "ticker": "AZN",
-      "title": "Haleon And 2 British AI Healthcare Stocks To Watch",
-      "time": "Thu, 17 Sep 2026 17:48:29",
+      "title": "AstraZeneca Q2FY26 Results: Revenue rises 6% YoY, core EPS up 11%",
+      "time": "Thu, 17 Sep 2026 11:33:11",
       "sentiment": 0
     },
     {
@@ -664,14 +652,14 @@
     },
     {
       "ticker": "GILD",
-      "title": "Insider Selling: Gilead Sciences (NASDAQ:GILD) Insider Sells $432,660.00 in Stock",
-      "time": "Wed, 16 Sep 2026 21:09:58",
+      "title": "Gilead Sciences (GILD) CFO Andrew Dickinson Sells 3,000 Shares a",
+      "time": "Wed, 16 Sep 2026 22:58:59",
       "sentiment": 0
     },
     {
       "ticker": "GILD",
-      "title": "Gilead Sciences stock heads into the open after a 0.9% gain - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 04:01:16",
+      "title": "Insider Selling: Gilead Sciences (NASDAQ:GILD) Insider Sells $432,660.00 in Stock",
+      "time": "Wed, 16 Sep 2026 21:09:58",
       "sentiment": 0
     },
     {
@@ -910,18 +898,6 @@
     },
     {
       "ticker": "DXCM",
-      "title": "Dexcom (NASDAQ: DXCM) legal chief sells shares, keeps 99,885-share stake",
-      "time": "Wed, 16 Sep 2026 20:26:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DXCM",
-      "title": "Dexcom (NASDAQ: DXCM) director’s trust sells 8,089 shares in preset plan",
-      "time": "Wed, 16 Sep 2026 20:26:36",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DXCM",
       "title": "Dexcom Insider Sold Shares Worth $679,769, According to a Recent SEC Filing",
       "time": "Wed, 16 Sep 2026 20:38:12",
       "sentiment": 0
@@ -933,6 +909,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "DXCM",
+      "title": "Dexcom Inc. stock edges higher as Truist Securities reiterates Buy rating - ad-hoc-news.de",
+      "time": "Thu, 17 Sep 2026 17:12:50",
+      "sentiment": 0
+    },
+    {
       "ticker": "INTC",
       "title": "Intel Stock Jumps 4% on SK Hynix Rumor, But Here’s Why the Real Win Is Years Away",
       "time": "Thu, 17 Sep 2026 16:03:00",
@@ -940,14 +922,14 @@
     },
     {
       "ticker": "INTC",
-      "title": "Why Intel Stock Popped Today",
-      "time": "Thu, 17 Sep 2026 18:48:04",
+      "title": "Why is Intel stock surging today?",
+      "time": "Thu, 17 Sep 2026 14:25:08",
       "sentiment": 0
     },
     {
       "ticker": "INTC",
-      "title": "Why is Intel stock surging today?",
-      "time": "Thu, 17 Sep 2026 14:16:02",
+      "title": "Why Intel (INTC) Stock Is Trading Up Today",
+      "time": "Wed, 16 Sep 2026 22:28:52",
       "sentiment": 0
     },
     {
@@ -958,14 +940,14 @@
     },
     {
       "ticker": "INTC",
-      "title": "Intel Corporation Stock (INTC) Opinions on AI Infrastructure Developments",
-      "time": "Thu, 17 Sep 2026 14:05:00",
+      "title": "Why Intel Stock Popped Today",
+      "time": "Thu, 17 Sep 2026 18:48:04",
       "sentiment": 0
     },
     {
       "ticker": "INTC",
-      "title": "Intel Stock Jumps As AI Turnaround Bets Accelerate",
-      "time": "Thu, 17 Sep 2026 13:19:00",
+      "title": "Intel Corporation Stock (INTC) Opinions on AI Infrastructure Developments",
+      "time": "Thu, 17 Sep 2026 14:05:00",
       "sentiment": 0
     },
     {
@@ -996,6 +978,12 @@
       "ticker": "CCL",
       "title": "A seven-night Denali journey can be added to Seabourn cruises",
       "time": "Thu, 17 Sep 2026 14:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CCL",
+      "title": "Carnival price target lowered to $30 from $35 at Goldman Sachs",
+      "time": "Thu, 17 Sep 2026 11:21:23",
       "sentiment": 0
     },
     {
@@ -1036,14 +1024,14 @@
     },
     {
       "ticker": "MO",
-      "title": "One of These Dividend Kings Pays Out More Than It Earns. Which Dividend Is Safer?",
-      "time": "Thu, 17 Sep 2026 12:35:00",
+      "title": "Altria Just Sued the FDA. Here’s What It Means for Your Dividend Check",
+      "time": "Thu, 17 Sep 2026 07:00:07",
       "sentiment": 0
     },
     {
       "ticker": "MO",
-      "title": "Altria Just Sued the FDA. Here’s What It Means for Your Dividend Check",
-      "time": "Thu, 17 Sep 2026 07:00:07",
+      "title": "One of These Dividend Kings Pays Out More Than It Earns. Which Dividend Is Safer?",
+      "time": "Thu, 17 Sep 2026 12:35:00",
       "sentiment": 0
     },
     {
@@ -1090,8 +1078,8 @@
     },
     {
       "ticker": "SE",
-      "title": "Sea Ltd (NYSE: SE) COO sells 40,000 shares in preset plan",
-      "time": "Thu, 17 Sep 2026 10:16:33",
+      "title": "META|Meta Platforms Inc|Price:673.310|Chg%:+3.070",
+      "time": "Thu, 17 Sep 2026 01:02:22",
       "sentiment": 0
     },
     {
@@ -1126,8 +1114,8 @@
     },
     {
       "ticker": "META",
-      "title": "Why Is Meta Stock Down In Premarket Today?",
-      "time": "Thu, 17 Sep 2026 00:13:01",
+      "title": "Meta Platforms: Get In Before September 23 (NASDAQ:META)",
+      "time": "Thu, 17 Sep 2026 15:09:53",
       "sentiment": 0
     },
     {
@@ -1224,6 +1212,12 @@
       "ticker": "TSM",
       "title": "There's a Good Reason to Choose GLOBALFOUNDRIES Over Taiwan Semiconductor Manufacturing",
       "time": "Thu, 17 Sep 2026 16:02:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSM",
+      "title": "Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Closed Up by 3.00% on Sep 17: A Full Analysis",
+      "time": "Thu, 17 Sep 2026 20:15:27",
       "sentiment": 0
     },
     {
