@@ -1,34 +1,34 @@
 {
-  "generated_at_local": "17.09.2026 21:39 CEST",
+  "generated_at_local": "17.09.2026 21:51 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Risk-on / positives Momentum. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
-      "ticker": "AZN",
-      "name": "AstraZeneca",
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
       "score": 99,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.64%, 5T +3.79%, relatives Volumen 1.28x, ATR 2.09%",
-      "catalyst": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
+      "thesis": "1T +1.10%, 5T +7.06%, relatives Volumen 1.50x, ATR 2.33%",
+      "catalyst": "Thermo Fisher Scientific Inc. stock rises Wednesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.78%, seit Open +0.73%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.25,
-      "target_pct": 2.38,
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.82%, seit Open +0.53%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.4,
+      "target_pct": 2.66,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.64%",
-      "change_5d": "+3.79%",
-      "volume_ratio": "1.28x",
-      "atr_pct": "2.09%",
-      "gap_pct": "+0.76%",
-      "premarket_move_pct": "+0.16%",
-      "live_gap_pct": "+1.78%",
-      "regular_move_pct": "+0.73%",
-      "avg_dollar_volume": 529482965.82,
-      "bar_age_minutes": 4.7,
-      "vwap": 165.36,
-      "opening_range_high": 165.01,
+      "change_1d": "+1.10%",
+      "change_5d": "+7.06%",
+      "volume_ratio": "1.50x",
+      "atr_pct": "2.33%",
+      "gap_pct": "+1.48%",
+      "premarket_move_pct": "+1.10%",
+      "live_gap_pct": "+1.82%",
+      "regular_move_pct": "+0.53%",
+      "avg_dollar_volume": 1150467087.19,
+      "bar_age_minutes": 1.6,
+      "vwap": 657.12,
+      "opening_range_high": 658.4,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -45,29 +45,29 @@
       }
     },
     {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
+      "ticker": "AZN",
+      "name": "AstraZeneca",
       "score": 99,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.10%, 5T +7.06%, relatives Volumen 1.50x, ATR 2.33%",
-      "catalyst": "Thermo Fisher Scientific Inc. stock rises Wednesday, outperforms market",
+      "thesis": "1T +0.64%, 5T +3.79%, relatives Volumen 1.28x, ATR 2.09%",
+      "catalyst": "AstraZeneca stock gains as Enhertu wins NHS approval and Wuxi investment supports growth - ad-hoc-news.de",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.62%, seit Open +0.33%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.4,
-      "target_pct": 2.66,
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.97%, seit Open +0.91%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.25,
+      "target_pct": 2.38,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.10%",
-      "change_5d": "+7.06%",
-      "volume_ratio": "1.50x",
-      "atr_pct": "2.33%",
-      "gap_pct": "+1.48%",
-      "premarket_move_pct": "+1.10%",
-      "live_gap_pct": "+1.62%",
-      "regular_move_pct": "+0.33%",
-      "avg_dollar_volume": 1150467087.19,
-      "bar_age_minutes": 4.8,
-      "vwap": 656.98,
-      "opening_range_high": 658.4,
+      "change_1d": "+0.64%",
+      "change_5d": "+3.79%",
+      "volume_ratio": "1.28x",
+      "atr_pct": "2.09%",
+      "gap_pct": "+0.76%",
+      "premarket_move_pct": "+0.16%",
+      "live_gap_pct": "+1.97%",
+      "regular_move_pct": "+0.91%",
+      "avg_dollar_volume": 529482965.82,
+      "bar_age_minutes": 1.6,
+      "vwap": 165.38,
+      "opening_range_high": 165.01,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -91,7 +91,7 @@
       "thesis": "1T +0.75%, 5T +3.63%, relatives Volumen 1.07x, ATR 3.09%",
       "catalyst": "How Refinery Upgrades At Marathon Petroleum Stock Have Changed Its Investment Story",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.12%, seit Open +3.41%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.21%, seit Open +3.50%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.86,
       "target_pct": 3.53,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +101,11 @@
       "atr_pct": "3.09%",
       "gap_pct": "-1.54%",
       "premarket_move_pct": "-2.26%",
-      "live_gap_pct": "+2.12%",
-      "regular_move_pct": "+3.41%",
+      "live_gap_pct": "+2.21%",
+      "regular_move_pct": "+3.50%",
       "avg_dollar_volume": 941807048.84,
-      "bar_age_minutes": 4.8,
-      "vwap": 418.98,
+      "bar_age_minutes": 1.6,
+      "vwap": 419.15,
       "opening_range_high": 415.81,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -130,7 +130,7 @@
       "thesis": "1T +3.64%, 5T +5.24%, relatives Volumen 1.40x, ATR 6.31%",
       "catalyst": "Dell’s AI Backlog Surge Positions Stock for $600+ as Server Revenue Doubles",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +5.20%, seit Open +3.89%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +5.06%, seit Open +3.75%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 3.0,
       "target_pct": 5.7,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +140,11 @@
       "atr_pct": "6.31%",
       "gap_pct": "+1.85%",
       "premarket_move_pct": "-0.22%",
-      "live_gap_pct": "+5.20%",
-      "regular_move_pct": "+3.89%",
+      "live_gap_pct": "+5.06%",
+      "regular_move_pct": "+3.75%",
       "avg_dollar_volume": 4849372354.89,
-      "bar_age_minutes": 4.8,
-      "vwap": 583.63,
+      "bar_age_minutes": 1.6,
+      "vwap": 583.89,
       "opening_range_high": 574.6,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -169,7 +169,7 @@
       "thesis": "1T +0.96%, 5T -4.05%, relatives Volumen 1.04x, ATR 2.42%",
       "catalyst": "1 AI Stock Poised to Outperform Micron and Sandisk on the Next Infrastructure Surge",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.73%, seit Open +1.12%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.63%, seit Open +1.02%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.45,
       "target_pct": 2.75,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +179,11 @@
       "atr_pct": "2.42%",
       "gap_pct": "+1.87%",
       "premarket_move_pct": "+0.95%",
-      "live_gap_pct": "+2.73%",
-      "regular_move_pct": "+1.12%",
+      "live_gap_pct": "+2.63%",
+      "regular_move_pct": "+1.02%",
       "avg_dollar_volume": 3992292102.07,
-      "bar_age_minutes": 4.8,
-      "vwap": 426.9,
+      "bar_age_minutes": 1.6,
+      "vwap": 426.98,
       "opening_range_high": 426.11,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -232,20 +232,14 @@
     },
     {
       "ticker": "AZN",
-      "title": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
-      "time": "Thu, 17 Sep 2026 08:31:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "AZN",
       "title": "AstraZeneca stock gains as Enhertu wins NHS approval and Wuxi investment supports growth - ad-hoc-news.de",
       "time": "Thu, 17 Sep 2026 14:23:11",
       "sentiment": 1
     },
     {
       "ticker": "AZN",
-      "title": "AstraZeneca (AZN) Wins FDA Approval for its Breast Cancer Pill After Regulators Voiced Doubts",
-      "time": "Thu, 17 Sep 2026 15:53:34",
+      "title": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
+      "time": "Thu, 17 Sep 2026 08:31:00",
       "sentiment": 1
     },
     {
@@ -373,12 +367,6 @@
       "title": "CCL Stock Traders Stare At Sixth Red Week: Analysts Predict Weak Outlook On High Fuel Prices Ahead Of Q3 Earnings",
       "time": "Thu, 17 Sep 2026 05:11:15",
       "sentiment": -1
-    },
-    {
-      "ticker": "CCL",
-      "title": "Carnival Corp. Ltd. stock outperforms competitors on strong trading day",
-      "time": "Wed, 16 Sep 2026 20:55:00",
-      "sentiment": 1
     },
     {
       "ticker": "CCL",
@@ -532,14 +520,14 @@
     },
     {
       "ticker": "GEV",
-      "title": "GEV Stock Plunges After New Sell Rating, But Retail Investors Smell A Buying Opportunity",
-      "time": "Thu, 17 Sep 2026 12:20:39",
+      "title": "Why GE Vernova Stock Crushed it on Wednesday",
+      "time": "Thu, 17 Sep 2026 00:36:00",
       "sentiment": 0
     },
     {
       "ticker": "GEV",
-      "title": "Why GE Vernova Stock Crushed it on Wednesday",
-      "time": "Thu, 17 Sep 2026 00:36:00",
+      "title": "GEV Stock Plunges After New Sell Rating, But Retail Investors Smell A Buying Opportunity",
+      "time": "Thu, 17 Sep 2026 12:20:39",
       "sentiment": 0
     },
     {
@@ -598,14 +586,20 @@
     },
     {
       "ticker": "AZN",
+      "title": "Independent Chairman of AstraZeneca Michel Demare Buys 25% More Shares",
+      "time": "Thu, 17 Sep 2026 05:55:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AZN",
       "title": "AstraZeneca stock heads into the open after a 1.2% New York drop - ad-hoc-news.de",
       "time": "Thu, 17 Sep 2026 05:10:01",
       "sentiment": 0
     },
     {
       "ticker": "AZN",
-      "title": "Haleon And 2 British AI Healthcare Stocks To Watch",
-      "time": "Thu, 17 Sep 2026 17:48:29",
+      "title": "AstraZeneca Q2FY26 Results: Revenue rises 6% YoY, core EPS up 11%",
+      "time": "Thu, 17 Sep 2026 11:33:11",
       "sentiment": 0
     },
     {
@@ -670,14 +664,14 @@
     },
     {
       "ticker": "GILD",
-      "title": "Gilead Sciences (GILD) CFO Andrew Dickinson Sells 3,000 Shares a",
-      "time": "Wed, 16 Sep 2026 22:58:59",
+      "title": "Insider Selling: Gilead Sciences (NASDAQ:GILD) Insider Sells $432,660.00 in Stock",
+      "time": "Wed, 16 Sep 2026 21:09:58",
       "sentiment": 0
     },
     {
       "ticker": "GILD",
-      "title": "Insider Selling: Gilead Sciences (NASDAQ:GILD) Insider Sells $432,660.00 in Stock",
-      "time": "Wed, 16 Sep 2026 21:09:58",
+      "title": "Gilead Sciences stock heads into the open after a 0.9% gain - ad-hoc-news.de",
+      "time": "Thu, 17 Sep 2026 04:01:16",
       "sentiment": 0
     },
     {
@@ -736,8 +730,8 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Why Is Palantir Stock Priced For A Swing This Wide After A Flat Year?",
-      "time": "Wed, 16 Sep 2026 19:51:03",
+      "title": "Analysts Offer Insights on Technology Companies: Palantir Technologies (PLTR), Motorola Solutions (MSI) and Brand Engagement Network (BNAI)",
+      "time": "Thu, 17 Sep 2026 12:30:42",
       "sentiment": 0
     },
     {
@@ -786,12 +780,6 @@
       "ticker": "SBUX",
       "title": "Starbucks Is Weighing a Japan Stake Sale. Here’s What It Means for the Turnaround",
       "time": "Thu, 17 Sep 2026 00:08:23",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SBUX",
-      "title": "Starbucks stock edges higher as Japan stake sale plan tests rich valuation - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 11:01:02",
       "sentiment": 0
     },
     {
@@ -947,7 +935,7 @@
     {
       "ticker": "INTC",
       "title": "Why is Intel stock surging today?",
-      "time": "Thu, 17 Sep 2026 14:25:08",
+      "time": "Thu, 17 Sep 2026 14:16:02",
       "sentiment": 0
     },
     {
@@ -1002,6 +990,12 @@
       "ticker": "CCL",
       "title": "A seven-night Denali journey can be added to Seabourn cruises",
       "time": "Thu, 17 Sep 2026 14:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CCL",
+      "title": "Carnival price target lowered to $30 from $35 at Goldman Sachs",
+      "time": "Thu, 17 Sep 2026 11:21:23",
       "sentiment": 0
     },
     {
@@ -1090,8 +1084,8 @@
     },
     {
       "ticker": "SE",
-      "title": "META|Meta Platforms Inc|Price:673.310|Chg%:+3.070",
-      "time": "Thu, 17 Sep 2026 01:02:22",
+      "title": "Sea Ltd (NYSE: SE) COO sells 40,000 shares in preset plan",
+      "time": "Thu, 17 Sep 2026 10:16:33",
       "sentiment": 0
     },
     {
