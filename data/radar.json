@@ -1,58 +1,19 @@
 {
-  "generated_at_local": "17.09.2026 08:28 CEST",
+  "generated_at_local": "17.09.2026 10:32 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
-  "summary": "Gemischt / selektiv. Früher Morning-Scan; US-Premarket ggf. noch nicht geöffnet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
+  "summary": "Gemischt / selektiv. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
   "candidates": [
-    {
-      "ticker": "HON",
-      "name": "Honeywell",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.07%, 5T +1.33%, relatives Volumen 1.82x, ATR 2.23%",
-      "catalyst": "Honeywell at Morgan Stanley’s 14th annual Laguna Conference: growth reset By Investing.com",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 1.45,
-      "target_pct": 2.61,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.07%",
-      "change_5d": "+1.33%",
-      "volume_ratio": "1.82x",
-      "atr_pct": "2.23%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 605684316.07,
-      "bar_age_minutes": null,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
-      }
-    },
     {
       "ticker": "GEV",
       "name": "GE Vernova",
-      "score": 86,
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +4.79%, 5T -2.73%, relatives Volumen 1.88x, ATR 4.18%",
-      "catalyst": "Relative Stärke + Volumen; Bestätigung erforderlich",
+      "catalyst": "Premarket-/Momentum-Bestätigung",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
+      "entry_note": "Premarket-Gap +2.26%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 2.5,
       "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -60,17 +21,17 @@
       "change_5d": "-2.73%",
       "volume_ratio": "1.88x",
       "atr_pct": "4.18%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
+      "gap_pct": "+2.26%",
+      "premarket_move_pct": "+0.42%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 1968594433.12,
-      "bar_age_minutes": null,
+      "bar_age_minutes": 2.5,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
+      "session_phase": "Premarket",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
@@ -79,19 +40,19 @@
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     },
     {
       "ticker": "TMO",
       "name": "Thermo Fisher",
-      "score": 86,
+      "score": 93,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.10%, 5T +7.06%, relatives Volumen 1.50x, ATR 2.33%",
       "catalyst": "Thermo Fisher Scientific Inc. stock rises Wednesday, outperforms market",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
+      "entry_note": "Premarket-Gap +0.57%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 1.52,
       "target_pct": 2.73,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -99,38 +60,77 @@
       "change_5d": "+7.06%",
       "volume_ratio": "1.50x",
       "atr_pct": "2.33%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
+      "gap_pct": "+0.57%",
+      "premarket_move_pct": "+0.19%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 1150467087.19,
-      "bar_age_minutes": null,
+      "bar_age_minutes": 17.8,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
+      "session_phase": "Premarket",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "HON",
+      "name": "Honeywell",
+      "score": 92,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.07%, 5T +1.33%, relatives Volumen 1.82x, ATR 2.23%",
+      "catalyst": "Honeywell International stock heads into the open after a 2.1% Dow outperformance - ad-hoc-news.de",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.77%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.45,
+      "target_pct": 2.61,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.07%",
+      "change_5d": "+1.33%",
+      "volume_ratio": "1.82x",
+      "atr_pct": "2.23%",
+      "gap_pct": "+0.77%",
+      "premarket_move_pct": "+0.36%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 605684316.07,
+      "bar_age_minutes": 2.8,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     },
     {
       "ticker": "MELI",
       "name": "MercadoLibre",
-      "score": 83,
+      "score": 85,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +0.59%, 5T -1.95%, relatives Volumen 2.01x, ATR 3.30%",
       "catalyst": "MercadoLibre (MELI) Priced $1 Billion of 5.85% Notes. Can Growth Cover the Funding Cost?",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
+      "risk_note": "Bank of America Corp DE Acquires Shares of 171,526 MercadoLibre, Inc. $MELI",
+      "entry_note": "Premarket-Gap +0.48%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 2.14,
       "target_pct": 3.86,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -138,17 +138,17 @@
       "change_5d": "-1.95%",
       "volume_ratio": "2.01x",
       "atr_pct": "3.30%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
+      "gap_pct": "+0.48%",
+      "premarket_move_pct": "+0.09%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 850054283.07,
-      "bar_age_minutes": null,
+      "bar_age_minutes": 2.0,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
+      "session_phase": "Premarket",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
@@ -157,47 +157,47 @@
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     },
     {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
-      "score": 79,
+      "ticker": "DELL",
+      "name": "Dell",
+      "score": 83,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.36%, 5T +8.22%, relatives Volumen 0.79x, ATR 2.94%",
-      "catalyst": "Does CE Mark Approval Change The Bull Case For Intuitive Surgical Stock (ISRG)?",
+      "thesis": "1T +3.64%, 5T +5.24%, relatives Volumen 1.39x, ATR 6.31%",
+      "catalyst": "Premarket-/Momentum-Bestätigung",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 1.91,
-      "target_pct": 3.44,
+      "entry_note": "Premarket-Gap +1.83%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.5,
+      "target_pct": 4.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.36%",
-      "change_5d": "+8.22%",
-      "volume_ratio": "0.79x",
-      "atr_pct": "2.94%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
+      "change_1d": "+3.64%",
+      "change_5d": "+5.24%",
+      "volume_ratio": "1.39x",
+      "atr_pct": "6.31%",
+      "gap_pct": "+1.83%",
+      "premarket_move_pct": "-0.24%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 837543960.07,
-      "bar_age_minutes": null,
+      "avg_dollar_volume": 4846719259.09,
+      "bar_age_minutes": 5.8,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "session_phase": "Premarket",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: ATR",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
+        "volume_ok": true,
+        "volatility_ok": false,
         "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     }
   ],
@@ -226,12 +226,6 @@
   "news": [
     {
       "ticker": "HON",
-      "title": "Honeywell at Morgan Stanley’s 14th annual Laguna Conference: growth reset By Investing.com",
-      "time": "Wed, 16 Sep 2026 07:20:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "HON",
       "title": "Honeywell International stock heads into the open after a 2.1% Dow outperformance - ad-hoc-news.de",
       "time": "Thu, 17 Sep 2026 05:22:53",
       "sentiment": 1
@@ -250,6 +244,12 @@
     },
     {
       "ticker": "MELI",
+      "title": "Bank of America Corp DE Acquires Shares of 171,526 MercadoLibre, Inc. $MELI",
+      "time": "Thu, 17 Sep 2026 07:26:17",
+      "sentiment": -1
+    },
+    {
+      "ticker": "MELI",
       "title": "MercadoLibre (MELI) Priced $1 Billion of 5.85% Notes. Can Growth Cover the Funding Cost?",
       "time": "Wed, 16 Sep 2026 19:52:39",
       "sentiment": 1
@@ -263,7 +263,7 @@
     {
       "ticker": "ANET",
       "title": "Does Raised 2026 Outlook Change The Bull Case For Arista Networks Stock (ANET)?",
-      "time": "Thu, 17 Sep 2026 02:33:58",
+      "time": "Thu, 17 Sep 2026 02:34:06",
       "sentiment": 1
     },
     {
@@ -297,10 +297,10 @@
       "sentiment": 1
     },
     {
-      "ticker": "ISRG",
-      "title": "ISRG Wins EU Nod to Expand da Vinci SP in Gynecologic Procedures",
-      "time": "Wed, 16 Sep 2026 17:16:27",
-      "sentiment": 1
+      "ticker": "SBUX",
+      "title": "WEN, CMG, SBUX, MCD, CAVA Stocks: Seaport Sees One Stock Stand Out Amid Restaurant Traffic Weakness, Valuation Risks",
+      "time": "Wed, 16 Sep 2026 17:33:50",
+      "sentiment": -1
     },
     {
       "ticker": "MPC",
@@ -310,14 +310,14 @@
     },
     {
       "ticker": "MPC",
-      "title": "Bank of America Corp DE Takes Position in Marathon Petroleum Corporation $MPC",
-      "time": "Wed, 16 Sep 2026 07:41:44",
+      "title": "Marathon Petroleum stock gains as Bank of America builds $621 million stake - ad-hoc-news.de",
+      "time": "Wed, 16 Sep 2026 16:15:13",
       "sentiment": -1
     },
     {
-      "ticker": "MPC",
-      "title": "Marathon Petroleum stock gains as Bank of America builds $621 million stake - ad-hoc-news.de",
-      "time": "Wed, 16 Sep 2026 16:15:13",
+      "ticker": "RCL",
+      "title": "1,011,972 Shares in Royal Caribbean Cruises Ltd. $RCL Purchased by Bank of America Corp DE",
+      "time": "Thu, 17 Sep 2026 07:16:16",
       "sentiment": -1
     },
     {
@@ -328,20 +328,14 @@
     },
     {
       "ticker": "HCA",
-      "title": "WINTON GROUP Ltd Cuts Stake in HCA Healthcare, Inc. $HCA",
-      "time": "Wed, 16 Sep 2026 08:27:48",
+      "title": "Bank of America Corp DE Makes New Investment in HCA Healthcare, Inc. $HCA",
+      "time": "Thu, 17 Sep 2026 08:06:23",
       "sentiment": -1
-    },
-    {
-      "ticker": "HCA",
-      "title": "Universal Health Services Inc. Cl B stock outperforms competitors on strong trading day",
-      "time": "Wed, 16 Sep 2026 21:13:00",
-      "sentiment": 1
     },
     {
       "ticker": "INTC",
       "title": "Intel (NASDAQ:INTC) Stock Jumps 5% as SK Hynix Talks Could Fill Its Delayed Ohio Plant",
-      "time": "Wed, 16 Sep 2026 18:49:36",
+      "time": "Wed, 16 Sep 2026 18:49:37",
       "sentiment": -1
     },
     {
@@ -364,12 +358,6 @@
     },
     {
       "ticker": "GILD",
-      "title": "GILD Looks 38.6% Overvalued on GF Value™ Amid Mixed Growth Signa",
-      "time": "Wed, 16 Sep 2026 15:46:09",
-      "sentiment": 1
-    },
-    {
-      "ticker": "GILD",
       "title": "S&P 500 Clocks Best Weekly Rally Since 2023, Dow Hits Fresh Record As US-Iran Peace Hope Boosts Risk Sentiment - UBER, GILD, RDDT, FJET, AMD In Focus",
       "time": "Thu, 17 Sep 2026 00:36:20",
       "sentiment": 1
@@ -382,8 +370,8 @@
     },
     {
       "ticker": "CCL",
-      "title": "Stifel cuts Carnival stock price target on fuel costs, capacity By Investing.com",
-      "time": "Wed, 16 Sep 2026 14:54:55",
+      "title": "Stifel cuts Carnival stock price target on fuel costs, capacity",
+      "time": "Wed, 16 Sep 2026 10:20:49",
       "sentiment": -1
     },
     {
@@ -399,6 +387,12 @@
       "sentiment": -1
     },
     {
+      "ticker": "PLTR",
+      "title": "BofA Analyst Sees 50% Upside For Palantir (NASDAQ: PLTR) As Stock Slips Despite Explosive Revenue Growth",
+      "time": "Wed, 16 Sep 2026 19:26:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "DXCM",
       "title": "DexCom Inc. stock outperforms competitors on strong trading day",
       "time": "Wed, 16 Sep 2026 20:54:00",
@@ -412,14 +406,8 @@
     },
     {
       "ticker": "GEV",
-      "title": "Why GE Vernova Stock Crushed it on Wednesday",
-      "time": "Wed, 16 Sep 2026 23:56:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GEV",
-      "title": "Why GE Vernova Stock Crushed it on Wednesday",
-      "time": "Thu, 17 Sep 2026 00:36:00",
+      "title": "GE Vernova (GEV) Stock Is Up, What You Need To Know",
+      "time": "Wed, 16 Sep 2026 22:20:52",
       "sentiment": 0
     },
     {
@@ -430,8 +418,8 @@
     },
     {
       "ticker": "GEV",
-      "title": "GE Vernova (GEV) Stock Is Up, What You Need To Know",
-      "time": "Wed, 16 Sep 2026 20:47:03",
+      "title": "Why GE Vernova Stock Crushed it on Wednesday",
+      "time": "Thu, 17 Sep 2026 00:36:00",
       "sentiment": 0
     },
     {
@@ -442,14 +430,14 @@
     },
     {
       "ticker": "GEV",
-      "title": "Why GE Vernova (GEV) Stock Is Up Today",
-      "time": "Wed, 16 Sep 2026 15:36:00",
+      "title": "Why GE Vernova Stock Crushed it on Wednesday",
+      "time": "Thu, 17 Sep 2026 00:02:41",
       "sentiment": 0
     },
     {
-      "ticker": "HON",
-      "title": "Honeywell stock heads into the open after a 1.02 percent gain - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 05:51:25",
+      "ticker": "GEV",
+      "title": "Why GE Vernova (GEV) Stock Is Up Today",
+      "time": "Wed, 16 Sep 2026 15:36:00",
       "sentiment": 0
     },
     {
@@ -471,9 +459,21 @@
       "sentiment": 0
     },
     {
+      "ticker": "HON",
+      "title": "Honeywell stock heads into the open after a 1.02 percent gain - ad-hoc-news.de",
+      "time": "Thu, 17 Sep 2026 05:51:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "HON",
+      "title": "We're significantly trimming a stock that has not gone to plan",
+      "time": "Wed, 16 Sep 2026 16:37:22",
+      "sentiment": 0
+    },
+    {
       "ticker": "TMO",
-      "title": "Top Stock Reports for Cisco, Lam Research & Thermo Fisher",
-      "time": "Wed, 16 Sep 2026 20:41:00",
+      "title": "The Zacks Analyst Blog Highlights Cisco, Lam, Thermo Fisher Scientific, Ampco-Pittsburgh and Catalyst",
+      "time": "Thu, 17 Sep 2026 07:45:00",
       "sentiment": 0
     },
     {
@@ -490,8 +490,8 @@
     },
     {
       "ticker": "TMO",
-      "title": "Thermo Fisher Scientific stock hits 52-week high at 647.72 USD",
-      "time": "Wed, 16 Sep 2026 13:39:12",
+      "title": "Top Stock Reports for Cisco, Lam Research & Thermo Fisher",
+      "time": "Wed, 16 Sep 2026 20:41:00",
       "sentiment": 0
     },
     {
@@ -508,14 +508,20 @@
     },
     {
       "ticker": "DELL",
-      "title": "Jim Cramer Says the AI Slowdown Is Fake. Dell Is His Evidence.",
-      "time": "Wed, 16 Sep 2026 19:45:00",
+      "title": "Dell Rises 5% Despite Fresh Silver Lake Share Sale Filings; Super Micro Climbs 3%, Hewlett Packard Enterprise Ticks Up",
+      "time": "Wed, 16 Sep 2026 14:31:00",
       "sentiment": 0
     },
     {
       "ticker": "DELL",
       "title": "Dell (NYSE:DELL) Stock Hits a 52-Week High as Goldman Forecasts a $1.3 Trillion AI Server Market",
-      "time": "Wed, 16 Sep 2026 20:29:29",
+      "time": "Wed, 16 Sep 2026 20:29:30",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DELL",
+      "title": "Goldman's AI Server Forecast Sends Dell Stock Jumping",
+      "time": "Wed, 16 Sep 2026 19:15:05",
       "sentiment": 0
     },
     {
@@ -525,21 +531,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "DELL",
-      "title": "Dell Stock Gains as AI Demand Commentary and Upcoming S&P 100 Entry Support Momentum",
-      "time": "Wed, 16 Sep 2026 14:50:32",
+      "ticker": "MELI",
+      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
+      "time": "Thu, 17 Sep 2026 02:09:13",
       "sentiment": 0
     },
     {
       "ticker": "MELI",
       "title": "MercadoLibre Stock And 2 Digital Trade Platforms Worth Watching",
       "time": "Wed, 16 Sep 2026 16:45:14",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MELI",
-      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
-      "time": "Thu, 17 Sep 2026 02:09:13",
       "sentiment": 0
     },
     {
@@ -604,8 +604,8 @@
     },
     {
       "ticker": "AZN",
-      "title": "Is It Worth Investing in Astrazeneca (AZN) Based on Wall Street's Bullish Views?",
-      "time": "Wed, 16 Sep 2026 13:30:04",
+      "title": "AstraZeneca Shares Rise as J.P. Morgan Stays Overweight",
+      "time": "Wed, 16 Sep 2026 19:03:19",
       "sentiment": 0
     },
     {
@@ -616,8 +616,8 @@
     },
     {
       "ticker": "AZN",
-      "title": "AstraZeneca Shares Rise as J.P. Morgan Stays Overweight",
-      "time": "Wed, 16 Sep 2026 19:03:19",
+      "title": "Is It Worth Investing in Astrazeneca (AZN) Based on Wall Street's Bullish Views?",
+      "time": "Wed, 16 Sep 2026 13:30:04",
       "sentiment": 0
     },
     {
@@ -636,6 +636,12 @@
       "ticker": "ISRG",
       "title": "Intuitive Surgical, Inc. (ISRG) is Attracting Investor Attention: Here is What You Should Know",
       "time": "Wed, 16 Sep 2026 13:00:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ISRG",
+      "title": "3 Cash-Heavy Stocks to Research Further",
+      "time": "Thu, 17 Sep 2026 04:37:00",
       "sentiment": 0
     },
     {
@@ -664,12 +670,6 @@
     },
     {
       "ticker": "DIS",
-      "title": "Disney Reportedly Slashes Jobs Again — Investor Calls For ‘Real Change’ At Mouse House",
-      "time": "Wed, 16 Sep 2026 23:33:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DIS",
       "title": "DIS Looks 7.8% Undervalued on GF Value™ Amid Strategic K-Pop Par",
       "time": "Wed, 16 Sep 2026 15:05:56",
       "sentiment": 0
@@ -678,6 +678,12 @@
       "ticker": "DIS",
       "title": "Disney to expand K-pop content through 10-project deal with South Korea's Kakao (DIS:NYSE)",
       "time": "Wed, 16 Sep 2026 14:47:15",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DIS",
+      "title": "Disney Reportedly Slashes Jobs Again — Investor Calls For ‘Real Change’ At Mouse House",
+      "time": "Wed, 16 Sep 2026 23:33:04",
       "sentiment": 0
     },
     {
@@ -706,20 +712,20 @@
     },
     {
       "ticker": "VLO",
+      "title": "VLO Stock Heads For Best Year Since 1982 — Michael Burry Says It Has Become A ‘Huge Position’",
+      "time": "Wed, 16 Sep 2026 22:52:24",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VLO",
+      "title": "9/16/2026 Market Summary: 55 Stocks Hit Highs Including 5 S&P 500 Components",
+      "time": "Thu, 17 Sep 2026 07:17:34",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VLO",
       "title": "Valero Energy stock heads into the open after a 1.6 percent gain - ad-hoc-news.de",
       "time": "Thu, 17 Sep 2026 05:58:59",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
-      "title": "Valero Energy stock hits all-time high at 400.2 USD By Investing.com",
-      "time": "Wed, 16 Sep 2026 15:09:48",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
-      "title": "The Next Oil Shock Has No Safety Valve — And the Bill Will Land in Your Pantry",
-      "time": "Wed, 16 Sep 2026 17:09:57",
       "sentiment": 0
     },
     {
@@ -748,20 +754,14 @@
     },
     {
       "ticker": "SBUX",
-      "title": "Seaport Global initiates Starbucks stock coverage with Neutral rating",
-      "time": "Wed, 16 Sep 2026 09:20:36",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SBUX",
       "title": "Starbucks at 31.02X P/E Premium: Buy the Brew or Skip the Stock?",
       "time": "Wed, 16 Sep 2026 15:25:01",
       "sentiment": 0
     },
     {
       "ticker": "MPC",
-      "title": "High-Yield Pipeline Stocks the Market Keeps Sleeping On",
-      "time": "Wed, 16 Sep 2026 19:15:00",
+      "title": "9/16/2026 Market Summary: 55 Stocks Hit Highs Including 5 S&P 500 Components",
+      "time": "Thu, 17 Sep 2026 07:17:34",
       "sentiment": 0
     },
     {
@@ -774,6 +774,12 @@
       "ticker": "MPC",
       "title": "Top Energy Stocks To Buy Now",
       "time": "Wed, 16 Sep 2026 12:42:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MPC",
+      "title": "Wall Street Freezes Up as Oil Tops $108 and the Ten-Year Clears 5% Ahead of Warsh's First Hike Test",
+      "time": "Wed, 16 Sep 2026 09:11:18",
       "sentiment": 0
     },
     {
@@ -791,7 +797,7 @@
     {
       "ticker": "HCA",
       "title": "Is HCA Healthcare (HCA) Still Undervalued After Its Health Education Acquisition?",
-      "time": "Thu, 17 Sep 2026 02:08:22",
+      "time": "Thu, 17 Sep 2026 03:09:56",
       "sentiment": 0
     },
     {
@@ -810,6 +816,12 @@
       "ticker": "HCA",
       "title": "HCA Healthcare stock gains as BofA lifts target ahead ex-dividend date - ad-hoc-news.de",
       "time": "Wed, 16 Sep 2026 08:49:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "HCA",
+      "title": "Deals tracker: Sword Health confirms plans to acquire Headspace",
+      "time": "Wed, 16 Sep 2026 23:39:00",
       "sentiment": 0
     },
     {
@@ -868,14 +880,20 @@
     },
     {
       "ticker": "SYK",
+      "title": "Stryker (NYSE: SYK) Scrutinized Amid Disclosure of Persisting Peripheral Vascular Problems -- HBSS",
+      "time": "Wed, 16 Sep 2026 19:27:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SYK",
       "title": "GEHC or SYK: Which Is the Better Value Stock Right Now?",
       "time": "Wed, 16 Sep 2026 15:40:04",
       "sentiment": 0
     },
     {
       "ticker": "SYK",
-      "title": "Stryker (NYSE: SYK) Scrutinized Amid Disclosure of Persisting Peripheral Vascular Problems -- HBSS",
-      "time": "Wed, 16 Sep 2026 19:27:25",
+      "title": "GEHC vs. SYK pairs trade: valuation gap and relative value case",
+      "time": "Thu, 17 Sep 2026 00:35:35",
       "sentiment": 0
     },
     {
@@ -886,14 +904,8 @@
     },
     {
       "ticker": "SYK",
-      "title": "Why Is the Market Reassessing Stryker (SYK)?",
-      "time": "Wed, 16 Sep 2026 08:14:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SYK",
-      "title": "2 Healthcare Stocks to Research Further and 1 We Find Risky",
-      "time": "Wed, 16 Sep 2026 07:00:37",
+      "title": "Stryker showcases Foot & Ankle innovation at AOFAS 2026 with Prophecy® Surgical Planning for Incompass™ and Hoffmann® LRF smartHEX",
+      "time": "Wed, 16 Sep 2026 13:07:08",
       "sentiment": 0
     },
     {
@@ -904,14 +916,20 @@
     },
     {
       "ticker": "GILD",
-      "title": "Should Gilead Sciences (GILD) Reconsider Its Global HIV Case After This PAHO Deal?",
-      "time": "Wed, 16 Sep 2026 07:30:00",
+      "title": "Gilead Sciences (GILD) CFO Andrew Dickinson Sells 3,000 Shares a",
+      "time": "Wed, 16 Sep 2026 22:58:59",
       "sentiment": 0
     },
     {
       "ticker": "GILD",
       "title": "Insider Selling: Gilead Sciences (NASDAQ:GILD) Insider Sells $432,660.00 in Stock",
       "time": "Wed, 16 Sep 2026 21:09:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GILD",
+      "title": "Gilead Expands Lenacapavir Licensing Agreements to Include Once-Yearly HIV Prevention Formulation",
+      "time": "Wed, 16 Sep 2026 13:46:47",
       "sentiment": 0
     },
     {
@@ -924,6 +942,12 @@
       "ticker": "MO",
       "title": "Is Trending Stock Altria Group, Inc. (MO) a Buy Now?",
       "time": "Wed, 16 Sep 2026 13:00:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MO",
+      "title": "Altria Just Sued the FDA. Here’s What It Means for Your Dividend Check",
+      "time": "Thu, 17 Sep 2026 07:00:07",
       "sentiment": 0
     },
     {
@@ -948,12 +972,6 @@
       "ticker": "MO",
       "title": "British American Tobacco vs Altria: Which High-Yield Dividend Stock Is the Better Buy",
       "time": "Wed, 16 Sep 2026 17:38:09",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MO",
-      "title": "2 Monster Stocks Worth Holding for the Next Decade",
-      "time": "Wed, 16 Sep 2026 08:10:44",
       "sentiment": 0
     },
     {
@@ -993,12 +1011,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "PLTR",
-      "title": "Veteran Analyst Doubles Down on Massive Palantir Stock Call",
-      "time": "Wed, 16 Sep 2026 21:03:10",
-      "sentiment": 0
-    },
-    {
       "ticker": "DXCM",
       "title": "DexCom (DXCM) Gives Jereme Sylvain Control of Operations and Quality",
       "time": "Wed, 16 Sep 2026 22:37:18",
@@ -1024,8 +1036,20 @@
     },
     {
       "ticker": "GSK",
-      "title": "GSK (LSE:GSK) Agrees Multiple Myeloma T Cell Deal",
-      "time": "Thu, 17 Sep 2026 01:12:00",
+      "title": "GSK (LSE:GSK) Stock Looks Reasonable As Its 58% Run Continues",
+      "time": "Thu, 17 Sep 2026 08:11:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GSK",
+      "title": "Barclays Reaffirms Their Sell Rating on GlaxoSmithKline (GSK)",
+      "time": "Thu, 17 Sep 2026 06:31:46",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GSK",
+      "title": "GSK stock heads into the open after a 4.08 percent gain - ad-hoc-news.de",
+      "time": "Thu, 17 Sep 2026 06:36:35",
       "sentiment": 0
     },
     {
@@ -1036,26 +1060,14 @@
     },
     {
       "ticker": "GSK",
-      "title": "GSK (LSE:GSK) Signed A $750 Million Oncology Deal",
-      "time": "Wed, 16 Sep 2026 08:37:35",
+      "title": "Gabelli Comstock Capital Value Fund Q2 2026 Commentary (COMVX)",
+      "time": "Thu, 17 Sep 2026 05:10:00",
       "sentiment": 0
     },
     {
       "ticker": "GSK",
-      "title": "Measles claims fourth death in Pennsylvania amid rising vaccine hesitancy",
-      "time": "Wed, 16 Sep 2026 11:02:20",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GSK",
-      "title": "Why Is GSK (LSE:GSK) Turning Its Pipeline Question Into A Pipeline Answer Right Now?",
-      "time": "Wed, 16 Sep 2026 11:13:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GSK",
-      "title": "Company News Archives - Page 1153 of 1153",
-      "time": "Wed, 16 Sep 2026 16:13:11",
+      "title": "GSK (LSE:GSK) Agrees Multiple Myeloma T Cell Deal",
+      "time": "Thu, 17 Sep 2026 01:12:00",
       "sentiment": 0
     }
   ]
