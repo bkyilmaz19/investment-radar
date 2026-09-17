@@ -1,9 +1,9 @@
 {
-  "generated_at_local": "17.09.2026 23:11 CEST",
+  "generated_at_local": "17.09.2026 23:26 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
-  "scanned_count": 200,
-  "summary": "Risk-on / positives Momentum. Premarket-Daten einbezogen, soweit verfügbar. 200 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "scanned_count": 201,
+  "summary": "Risk-on / positives Momentum. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
       "ticker": "TMO",
@@ -26,11 +26,11 @@
       "live_gap_pct": "+1.58%",
       "regular_move_pct": "+0.30%",
       "avg_dollar_volume": 1150467087.19,
-      "bar_age_minutes": 36.5,
+      "bar_age_minutes": 18.3,
       "vwap": 657.36,
       "opening_range_high": 658.4,
       "opening_range_ready": true,
-      "breakout_confirmed": false,
+      "breakout_confirmed": true,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
       "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
@@ -65,7 +65,7 @@
       "live_gap_pct": "-0.56%",
       "regular_move_pct": "-1.27%",
       "avg_dollar_volume": 605684316.07,
-      "bar_age_minutes": 6.5,
+      "bar_age_minutes": 6.7,
       "vwap": 206.22,
       "opening_range_high": 209.57,
       "opening_range_ready": true,
@@ -104,7 +104,7 @@
       "live_gap_pct": "+4.47%",
       "regular_move_pct": "+3.17%",
       "avg_dollar_volume": 4849372354.89,
-      "bar_age_minutes": 6.5,
+      "bar_age_minutes": 1.7,
       "vwap": 584.22,
       "opening_range_high": 574.6,
       "opening_range_ready": true,
@@ -143,7 +143,7 @@
       "live_gap_pct": "+1.99%",
       "regular_move_pct": "+0.93%",
       "avg_dollar_volume": 529482965.82,
-      "bar_age_minutes": 23.8,
+      "bar_age_minutes": 21.2,
       "vwap": 165.44,
       "opening_range_high": 165.01,
       "opening_range_ready": true,
@@ -182,7 +182,7 @@
       "live_gap_pct": "+1.71%",
       "regular_move_pct": "+0.34%",
       "avg_dollar_volume": 344947502.51,
-      "bar_age_minutes": 15.9,
+      "bar_age_minutes": 21.7,
       "vwap": 265.92,
       "opening_range_high": 267.29,
       "opening_range_ready": true,
@@ -291,12 +291,6 @@
       "sentiment": -1
     },
     {
-      "ticker": "GILD",
-      "title": "S&P 500 Clocks Best Weekly Rally Since 2023, Dow Hits Fresh Record As US-Iran Peace Hope Boosts Risk Sentiment - UBER, GILD, RDDT, FJET, AMD In Focus",
-      "time": "Thu, 17 Sep 2026 00:36:20",
-      "sentiment": 1
-    },
-    {
       "ticker": "ANET",
       "title": "Does Raised 2026 Outlook Change The Bull Case For Arista Networks Stock (ANET)?",
       "time": "Thu, 17 Sep 2026 02:34:06",
@@ -382,8 +376,8 @@
     },
     {
       "ticker": "LLY",
-      "title": "LLY Shares Dive On Analyst Downgrade Citing Obesity Market Overestimation Concerns, But Retail Dismisses ‘Absurd’ Selloff",
-      "time": "Thu, 17 Sep 2026 00:48:53",
+      "title": "Can Volume Keep Covering Eli Lilly's Price Cuts?",
+      "time": "Thu, 17 Sep 2026 19:17:26",
       "sentiment": -1
     },
     {
@@ -394,9 +388,9 @@
     },
     {
       "ticker": "AAL",
-      "title": "Delta Air Lines Inc. stock underperforms Thursday when compared to competitors despite daily gains",
-      "time": "Thu, 17 Sep 2026 20:49:00",
-      "sentiment": -1
+      "title": "Southwest Airlines Co. stock outperforms competitors on strong trading day",
+      "time": "Thu, 17 Sep 2026 21:07:00",
+      "sentiment": 1
     },
     {
       "ticker": "TSM",
@@ -408,12 +402,6 @@
       "ticker": "TSM",
       "title": "1 AI Stock Poised to Outperform Micron and Sandisk on the Next Infrastructure Surge",
       "time": "Thu, 17 Sep 2026 11:38:40",
-      "sentiment": 1
-    },
-    {
-      "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing stock gains as strong Q2 2026 figures and October earnings date s - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 13:38:47",
       "sentiment": 1
     },
     {
@@ -442,8 +430,8 @@
     },
     {
       "ticker": "HON",
-      "title": "GOOGL: Alphabet - Stock Price, Quote and News | NASDAQ",
-      "time": "Thu, 17 Sep 2026 05:25:22",
+      "title": "ABBV: AbbVie - Stock Price, Quote and News | NYSE",
+      "time": "Thu, 17 Sep 2026 07:22:32",
       "sentiment": 0
     },
     {
@@ -484,14 +472,14 @@
     },
     {
       "ticker": "DELL",
-      "title": "Did AI Servers Really Quadruple Dell Stock?",
-      "time": "Thu, 17 Sep 2026 01:00:36",
+      "title": "DELL 260918 592.50P (DELL260918P592500) Stock Options Chain | Quotes & News",
+      "time": "Thu, 17 Sep 2026 16:06:00",
       "sentiment": 0
     },
     {
       "ticker": "DELL",
-      "title": "DELL 260918 592.50P (DELL260918P592500) Stock Options Chain | Quotes & News",
-      "time": "Thu, 17 Sep 2026 16:06:00",
+      "title": "Did AI Servers Really Quadruple Dell Stock?",
+      "time": "Thu, 17 Sep 2026 01:00:36",
       "sentiment": 0
     },
     {
@@ -526,8 +514,8 @@
     },
     {
       "ticker": "GEV",
-      "title": "GE Vernova (NYSE: GEV) Stock Holds Zacks Rank #3 As Earnings Estimates Slip And Valuation Concerns Mount",
-      "time": "Wed, 16 Sep 2026 22:54:00",
+      "title": "GE Vernova: No Shortage of Orders, But Lacks a Margin of Safety",
+      "time": "Thu, 17 Sep 2026 14:04:42",
       "sentiment": 0
     },
     {
@@ -562,8 +550,8 @@
     },
     {
       "ticker": "DIS",
-      "title": "Walt Disney stock gains analyst support amid parks strength - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 11:49:28",
+      "title": "The Next $100 Billion of Netflix’s Value Could Come From Here, 98% Upside Ahead",
+      "time": "Thu, 17 Sep 2026 14:30:00",
       "sentiment": 0
     },
     {
@@ -587,7 +575,7 @@
     {
       "ticker": "AZN",
       "title": "Haleon And 2 British AI Healthcare Stocks To Watch",
-      "time": "Thu, 17 Sep 2026 17:48:29",
+      "time": "Thu, 17 Sep 2026 17:48:30",
       "sentiment": 0
     },
     {
@@ -604,6 +592,12 @@
     },
     {
       "ticker": "NUE",
+      "title": "NUE Looks 40.8% Overvalued on GF Value™ as Earnings Forecast Hig",
+      "time": "Thu, 17 Sep 2026 21:14:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NUE",
       "title": "Nucor projects Q3 earnings between $5.55 and $5.65 per share By Investing.com",
       "time": "Thu, 17 Sep 2026 20:47:34",
       "sentiment": 0
@@ -612,12 +606,6 @@
       "ticker": "NUE",
       "title": "Nucor Q3FY26 Results: EPS guidance rises to $5.55-$5.65, up from $2.63",
       "time": "Thu, 17 Sep 2026 20:57:15",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NUE",
-      "title": "Nucor Sets Q3 EPS Forecast; Shares Decline After Hours",
-      "time": "Thu, 17 Sep 2026 21:01:23",
       "sentiment": 0
     },
     {
@@ -664,14 +652,20 @@
     },
     {
       "ticker": "GILD",
-      "title": "Biotech Stocks To Keep An Eye On - September 17th",
-      "time": "Thu, 17 Sep 2026 16:04:56",
+      "title": "GILEAD Sciences (NASDAQ: GILD) Executive Mercier Johanna Disposes of 3,000 Shares in Three Separate Sales",
+      "time": "Thu, 17 Sep 2026 14:24:00",
       "sentiment": 0
     },
     {
       "ticker": "GILD",
-      "title": "Gilead Sciences stock heads into the open after a 0.9% gain - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 04:01:16",
+      "title": "Gilead Sciences (GILD) CFO Andrew Dickinson Sells 3,000 Shares a",
+      "time": "Wed, 16 Sep 2026 22:58:59",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GILD",
+      "title": "Biotech Stocks To Keep An Eye On - September 17th",
+      "time": "Thu, 17 Sep 2026 16:04:56",
       "sentiment": 0
     },
     {
@@ -802,12 +796,6 @@
     },
     {
       "ticker": "SYK",
-      "title": "RBC Capital Maintains Stryker Corp(SYK.US) With Buy Rating, Maintains Target Price $420",
-      "time": "Thu, 17 Sep 2026 16:11:10",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SYK",
       "title": "Stryker Facing Promising Setup Next Year, Trading Upside Limited in 2026, RBC Says",
       "time": "Thu, 17 Sep 2026 15:15:24",
       "sentiment": 0
@@ -816,6 +804,12 @@
       "ticker": "SYK",
       "title": "GEHC vs. SYK pairs trade: valuation gap and relative value case",
       "time": "Thu, 17 Sep 2026 00:35:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SYK",
+      "title": "Stryker Corp stock steadies as RBC flags limited upside for 2026 - ad-hoc-news.de",
+      "time": "Thu, 17 Sep 2026 20:02:51",
       "sentiment": 0
     },
     {
@@ -1072,6 +1066,12 @@
     },
     {
       "ticker": "SE",
+      "title": "Sea Insider Sold Shares Worth $4,158,865, According to a Recent SEC Filing",
+      "time": "Thu, 17 Sep 2026 10:26:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SE",
       "title": "Sea Ltd (NYSE: SE) legal chief still holds 1.13M shares after preset sale",
       "time": "Thu, 17 Sep 2026 10:17:16",
       "sentiment": 0
@@ -1080,12 +1080,6 @@
       "ticker": "SE",
       "title": "Is Trending Stock SLB Limited (SLB) a Buy Now?",
       "time": "Thu, 17 Sep 2026 13:00:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SE",
-      "title": "Sea Ltd (NYSE: SE) COO sells 40,000 shares in preset plan",
-      "time": "Thu, 17 Sep 2026 10:16:33",
       "sentiment": 0
     },
     {
@@ -1102,14 +1096,14 @@
     },
     {
       "ticker": "META",
-      "title": "Meta Can Save $8.5 Billion in 2027 by Using It’s Own MTIA Chips",
-      "time": "Thu, 17 Sep 2026 16:02:50",
+      "title": "Meta Stock Climbs On Muse AI Excitement. Here's The Next Potential Catalyst.",
+      "time": "Thu, 17 Sep 2026 15:14:00",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Meta Stock Climbs On Muse AI Excitement. Here's The Next Potential Catalyst.",
-      "time": "Thu, 17 Sep 2026 15:14:00",
+      "title": "Meta Can Save $8.5 Billion in 2027 by Using It’s Own MTIA Chips",
+      "time": "Thu, 17 Sep 2026 16:02:50",
       "sentiment": 0
     },
     {
@@ -1186,14 +1180,14 @@
     },
     {
       "ticker": "PG",
-      "title": "Stock-option grant at $146.67 for P&G (NYSE: PG) HR chief",
-      "time": "Thu, 17 Sep 2026 17:46:07",
+      "title": "Stock options at $146.67 granted to P&G (NYSE: PG) R&D chief",
+      "time": "Thu, 17 Sep 2026 17:42:13",
       "sentiment": 0
     },
     {
       "ticker": "PG",
-      "title": "Stock options at $146.67 granted to P&G (NYSE: PG) R&D chief",
-      "time": "Thu, 17 Sep 2026 17:42:13",
+      "title": "Stock-option grant at $146.67 for P&G (NYSE: PG) HR chief",
+      "time": "Thu, 17 Sep 2026 17:46:07",
       "sentiment": 0
     },
     {
@@ -1230,6 +1224,12 @@
       "ticker": "TSM",
       "title": "Why Is Tower Semiconductor Stock Soaring Thursday?",
       "time": "Thu, 17 Sep 2026 14:07:59",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSM",
+      "title": "Chinese Stocks Mixed: TSMC (TSM) Rises 3% Amid Fluctuating Marke",
+      "time": "Thu, 17 Sep 2026 21:14:57",
       "sentiment": 0
     }
   ]
