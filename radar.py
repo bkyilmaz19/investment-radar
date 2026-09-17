@@ -514,9 +514,26 @@ def main():
         if market_open and r.get('breakout_confirmed'):
             r['score'] += 12
 
+    # Calibrate the internal raw score to a meaningful 0-100 display score.
+    # The previous hard cap made many strong setups appear as identical 100/100.
+    # This compression keeps the ranking visible and makes 90+ genuinely rare.
     for r in rows:
-        r['score']=int(max(0,min(100,round(r['score']))))
-    rows.sort(key=lambda x:x['score'],reverse=True)
+        raw_score = float(r['score'])
+        r['raw_score'] = round(raw_score, 2)
+        display_score = 0.55 * raw_score + 26.5
+        r['score'] = int(max(0, min(99, round(display_score))))
+
+    # Tie-breakers keep the ordering useful even when two display scores round
+    # to the same integer: raw score first, then relative volume and 1D momentum.
+    rows.sort(
+        key=lambda x: (
+            x['score'],
+            x.get('raw_score', 0),
+            x.get('vr', 0),
+            x.get('c1', 0),
+        ),
+        reverse=True,
+    )
 
     selected=[r for r in rows if r['score']>=68 and r.get('avg_dollar_volume',0) >= 25_000_000 and r.get('prev_close',0) >= 5][:5]
     candidates=[]
