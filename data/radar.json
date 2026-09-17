@@ -1,49 +1,10 @@
 {
-  "generated_at_local": "17.09.2026 23:39 CEST",
+  "generated_at_local": "17.09.2026 23:50 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Risk-on / positives Momentum. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
-      "score": 97,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.10%, 5T +7.06%, relatives Volumen 1.50x, ATR 2.33%",
-      "catalyst": "Thermo Fisher Sees Stronger Demand, Calls 2026 an ‘Outstanding Year’",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +1.48%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.4,
-      "target_pct": 2.66,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.10%",
-      "change_5d": "+7.06%",
-      "volume_ratio": "1.50x",
-      "atr_pct": "2.33%",
-      "gap_pct": "+1.48%",
-      "premarket_move_pct": "+1.10%",
-      "live_gap_pct": "+1.58%",
-      "regular_move_pct": "+0.30%",
-      "avg_dollar_volume": 1150467087.19,
-      "bar_age_minutes": 11.9,
-      "vwap": 657.36,
-      "opening_range_high": 658.4,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
     {
       "ticker": "HON",
       "name": "Honeywell",
@@ -65,9 +26,48 @@
       "live_gap_pct": "-0.56%",
       "regular_move_pct": "-1.27%",
       "avg_dollar_volume": 605684316.07,
-      "bar_age_minutes": 4.5,
+      "bar_age_minutes": 0.7,
       "vwap": 206.22,
       "opening_range_high": 209.57,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
+      "score": 95,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.10%, 5T +7.06%, relatives Volumen 1.50x, ATR 2.33%",
+      "catalyst": "Thermo Fisher stock nears record after UBS upgrade and upbeat 2026 outlook - ad-hoc-news.de",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +1.48%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.4,
+      "target_pct": 2.66,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.10%",
+      "change_5d": "+7.06%",
+      "volume_ratio": "1.50x",
+      "atr_pct": "2.33%",
+      "gap_pct": "+1.48%",
+      "premarket_move_pct": "+1.10%",
+      "live_gap_pct": "+1.58%",
+      "regular_move_pct": "+0.30%",
+      "avg_dollar_volume": 1150467087.19,
+      "bar_age_minutes": 20.9,
+      "vwap": 657.36,
+      "opening_range_high": 658.4,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
@@ -104,7 +104,7 @@
       "live_gap_pct": "+4.47%",
       "regular_move_pct": "+3.17%",
       "avg_dollar_volume": 4849372354.89,
-      "bar_age_minutes": 9.5,
+      "bar_age_minutes": 5.9,
       "vwap": 584.22,
       "opening_range_high": 574.6,
       "opening_range_ready": true,
@@ -128,7 +128,7 @@
       "score": 90,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +0.64%, 5T +3.79%, relatives Volumen 1.28x, ATR 2.09%",
-      "catalyst": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
+      "catalyst": "AstraZeneca stock gains as Enhertu wins NHS approval and Wuxi investment supports growth - ad-hoc-news.de",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
       "entry_note": "Premarket-Gap +0.76%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 1.25,
@@ -143,11 +143,11 @@
       "live_gap_pct": "+1.99%",
       "regular_move_pct": "+0.93%",
       "avg_dollar_volume": 529482965.82,
-      "bar_age_minutes": 11.7,
+      "bar_age_minutes": 25.9,
       "vwap": 165.44,
       "opening_range_high": 165.01,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
       "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
@@ -182,7 +182,7 @@
       "live_gap_pct": "+1.71%",
       "regular_move_pct": "+0.34%",
       "avg_dollar_volume": 344947502.51,
-      "bar_age_minutes": 2.1,
+      "bar_age_minutes": 13.5,
       "vwap": 265.92,
       "opening_range_high": 267.29,
       "opening_range_ready": true,
@@ -220,12 +220,6 @@
     },
     {
       "ticker": "TMO",
-      "title": "Thermo Fisher Sees Stronger Demand, Calls 2026 an ‘Outstanding Year’",
-      "time": "Thu, 17 Sep 2026 10:02:08",
-      "sentiment": 1
-    },
-    {
-      "ticker": "TMO",
       "title": "Thermo Fisher stock nears record after UBS upgrade and upbeat 2026 outlook - ad-hoc-news.de",
       "time": "Thu, 17 Sep 2026 09:34:09",
       "sentiment": 1
@@ -244,14 +238,14 @@
     },
     {
       "ticker": "AZN",
-      "title": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
-      "time": "Thu, 17 Sep 2026 08:31:00",
+      "title": "AstraZeneca stock gains as Enhertu wins NHS approval and Wuxi investment supports growth - ad-hoc-news.de",
+      "time": "Thu, 17 Sep 2026 14:23:11",
       "sentiment": 1
     },
     {
       "ticker": "AZN",
-      "title": "AstraZeneca stock gains as Enhertu wins NHS approval and Wuxi investment supports growth - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 14:23:11",
+      "title": "Enhertu Approved by NICE for NHS, Impact on AstraZeneca (AZN) Un",
+      "time": "Thu, 17 Sep 2026 08:31:00",
       "sentiment": 1
     },
     {
@@ -363,12 +357,6 @@
       "sentiment": -1
     },
     {
-      "ticker": "CCL",
-      "title": "Goldman Sachs cuts Carnival stock price target on yield concerns By Investing.com",
-      "time": "Thu, 17 Sep 2026 15:48:36",
-      "sentiment": -1
-    },
-    {
       "ticker": "AMD",
       "title": "AMD Stock: Growth Is Catching Up With The Valuation (NASDAQ:AMD)",
       "time": "Thu, 17 Sep 2026 12:06:54",
@@ -376,8 +364,8 @@
     },
     {
       "ticker": "LLY",
-      "title": "Novo Falls 5% in a Week: How Should Investors Approach the Stock Now?",
-      "time": "Thu, 17 Sep 2026 14:30:00",
+      "title": "LLY Shares Dive On Analyst Downgrade Citing Obesity Market Overestimation Concerns, But Retail Dismisses ‘Absurd’ Selloff",
+      "time": "Thu, 17 Sep 2026 00:48:53",
       "sentiment": -1
     },
     {
@@ -406,14 +394,14 @@
     },
     {
       "ticker": "HON",
-      "title": "Jim Cramer Says He Can’t “Counsel Owning” Honeywell Aerospace (HONA)",
-      "time": "Thu, 17 Sep 2026 11:22:44",
+      "title": "Honeywell stock heads into the open after a 1.02 percent gain - ad-hoc-news.de",
+      "time": "Thu, 17 Sep 2026 05:51:25",
       "sentiment": 0
     },
     {
       "ticker": "HON",
-      "title": "Honeywell stock heads into the open after a 1.02 percent gain - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 05:51:25",
+      "title": "Jim Cramer Says He Can’t “Counsel Owning” Honeywell Aerospace (HONA)",
+      "time": "Thu, 17 Sep 2026 11:22:44",
       "sentiment": 0
     },
     {
@@ -424,14 +412,20 @@
     },
     {
       "ticker": "HON",
-      "title": "GOOGL: Alphabet - Stock Price, Quote and News | NASDAQ",
-      "time": "Thu, 17 Sep 2026 05:25:22",
+      "title": "What’s Behind the Renewed Focus on Honeywell (NASDAQ) Today?",
+      "time": "Thu, 17 Sep 2026 21:44:00",
       "sentiment": 0
     },
     {
       "ticker": "TMO",
       "title": "Why Is Thermo Fisher Scientific (TMO) Building A Massive Early Disease Data Platform?",
       "time": "Thu, 17 Sep 2026 13:11:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "What Makes Thermo Fisher Scientific (NYSE) Worth Watching Now?",
+      "time": "Thu, 17 Sep 2026 21:34:00",
       "sentiment": 0
     },
     {
@@ -478,8 +472,8 @@
     },
     {
       "ticker": "GEV",
-      "title": "Why GE Vernova Stock Crushed it on Wednesday",
-      "time": "Wed, 16 Sep 2026 23:56:02",
+      "title": "GE Vernova (GEV) Stock Is Up, What You Need To Know",
+      "time": "Wed, 16 Sep 2026 22:20:52",
       "sentiment": 0
     },
     {
@@ -652,14 +646,14 @@
     },
     {
       "ticker": "GILD",
-      "title": "Gilead Sciences (GILD) CFO Andrew Dickinson Sells 3,000 Shares a",
-      "time": "Wed, 16 Sep 2026 22:58:59",
+      "title": "Biotech Stocks To Keep An Eye On - September 17th",
+      "time": "Thu, 17 Sep 2026 16:04:56",
       "sentiment": 0
     },
     {
       "ticker": "GILD",
-      "title": "Biotech Stocks To Keep An Eye On - September 17th",
-      "time": "Thu, 17 Sep 2026 16:04:56",
+      "title": "Gilead Sciences stock heads into the open after a 0.9% gain - ad-hoc-news.de",
+      "time": "Thu, 17 Sep 2026 04:01:16",
       "sentiment": 0
     },
     {
@@ -694,14 +688,14 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Stock Is Flat - But Recent News Suggests Not For Long (NASDAQ:PLTR)",
-      "time": "Thu, 17 Sep 2026 12:41:01",
+      "title": "Mad Money Jim Cramer Sees 40% Upside for Palantir Stock. Does Wall Street Agree?",
+      "time": "Thu, 17 Sep 2026 18:09:47",
       "sentiment": 0
     },
     {
       "ticker": "PLTR",
-      "title": "Mad Money Jim Cramer Sees 40% Upside for Palantir Stock. Does Wall Street Agree?",
-      "time": "Thu, 17 Sep 2026 18:09:00",
+      "title": "Palantir Stock Is Flat - But Recent News Suggests Not For Long (NASDAQ:PLTR)",
+      "time": "Thu, 17 Sep 2026 12:41:01",
       "sentiment": 0
     },
     {
@@ -712,14 +706,14 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Why the Market Dipped But Palantir Technologies Inc. (PLTR) Gained Today",
-      "time": "Wed, 16 Sep 2026 21:45:06",
+      "title": "Palantir Stock: The AI Token Boom Is Hiding A Bigger Opportunity",
+      "time": "Thu, 17 Sep 2026 20:02:45",
       "sentiment": 0
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Stock: The AI Token Boom Is Hiding A Bigger Opportunity",
-      "time": "Thu, 17 Sep 2026 20:02:45",
+      "title": "Analysts Offer Insights on Technology Companies: Palantir Technologies (PLTR), Motorola Solutions (MSI) and Brand Engagement Network (BNAI)",
+      "time": "Thu, 17 Sep 2026 12:30:42",
       "sentiment": 0
     },
     {
@@ -790,6 +784,12 @@
     },
     {
       "ticker": "SYK",
+      "title": "RBC Capital Maintains Stryker Corp(SYK.US) With Buy Rating, Maintains Target Price $420",
+      "time": "Thu, 17 Sep 2026 16:11:10",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SYK",
       "title": "Stryker Facing Promising Setup Next Year, Trading Upside Limited in 2026, RBC Says",
       "time": "Thu, 17 Sep 2026 15:15:24",
       "sentiment": 0
@@ -798,12 +798,6 @@
       "ticker": "SYK",
       "title": "GEHC vs. SYK pairs trade: valuation gap and relative value case",
       "time": "Thu, 17 Sep 2026 00:35:35",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SYK",
-      "title": "Stryker Corp stock steadies as RBC flags limited upside for 2026 - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 20:02:51",
       "sentiment": 0
     },
     {
@@ -910,6 +904,12 @@
     },
     {
       "ticker": "INTC",
+      "title": "Why Intel Stock Popped Today",
+      "time": "Thu, 17 Sep 2026 18:48:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "INTC",
       "title": "Intel Stock Jumps 4% on SK Hynix Rumor, But Here’s Why the Real Win Is Years Away",
       "time": "Thu, 17 Sep 2026 16:03:00",
       "sentiment": 0
@@ -928,20 +928,14 @@
     },
     {
       "ticker": "INTC",
-      "title": "Why Intel (INTC) Stock Is Trading Up Today",
-      "time": "Wed, 16 Sep 2026 22:28:52",
-      "sentiment": 0
-    },
-    {
-      "ticker": "INTC",
       "title": "Intel Stock Jumps As Analysts Boost Targets And AI Bets Grow",
       "time": "Thu, 17 Sep 2026 19:04:00",
       "sentiment": 0
     },
     {
       "ticker": "INTC",
-      "title": "Why Intel Stock Popped Today",
-      "time": "Thu, 17 Sep 2026 18:48:04",
+      "title": "Intel Corporation Stock (INTC) Opinions on AI Infrastructure Developments",
+      "time": "Thu, 17 Sep 2026 14:05:00",
       "sentiment": 0
     },
     {
@@ -988,6 +982,12 @@
     },
     {
       "ticker": "AMD",
+      "title": "Jim Cramer on Advanced Micro Devices (AMD): “Buy It”",
+      "time": "Thu, 17 Sep 2026 11:04:33",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMD",
       "title": "AMD Jumps 7% as Semiconductor Rebound Reaches a Third Session; Broadcom Rises 3%, NVIDIA Edges Higher",
       "time": "Thu, 17 Sep 2026 17:37:00",
       "sentiment": 0
@@ -1002,12 +1002,6 @@
       "ticker": "AMD",
       "title": "Arm, AMD among market cap stock movers on Thursday",
       "time": "Thu, 17 Sep 2026 18:09:21",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMD",
-      "title": "Forget the AI Doom Headlines. Watch This AMD Number Instead.",
-      "time": "Thu, 17 Sep 2026 16:38:35",
       "sentiment": 0
     },
     {
