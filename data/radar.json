@@ -1,49 +1,10 @@
 {
-  "generated_at_local": "17.09.2026 18:53 CEST",
+  "generated_at_local": "17.09.2026 19:09 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Risk-on / positives Momentum. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "NUE",
-      "name": "Nucor",
-      "score": 99,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.72%, 5T +1.07%, relatives Volumen 1.16x, ATR 2.78%",
-      "catalyst": "CF, NUE lead top 10 large-cap U.S. materials stocks with strong momentum grades (XLB:NYSEARCA)",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.63%, seit Open +1.25%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.67,
-      "target_pct": 3.17,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.72%",
-      "change_5d": "+1.07%",
-      "volume_ratio": "1.16x",
-      "atr_pct": "2.78%",
-      "gap_pct": "+1.31%",
-      "premarket_move_pct": "+1.30%",
-      "live_gap_pct": "+2.63%",
-      "regular_move_pct": "+1.25%",
-      "avg_dollar_volume": 344947502.51,
-      "bar_age_minutes": 3.8,
-      "vwap": 266.4,
-      "opening_range_high": 267.29,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
     {
       "ticker": "AZN",
       "name": "AstraZeneca",
@@ -52,7 +13,7 @@
       "thesis": "1T +0.64%, 5T +3.79%, relatives Volumen 1.28x, ATR 2.09%",
       "catalyst": "AstraZeneca stock gains as Enhertu wins NHS approval and Wuxi investment supports growth - ad-hoc-news.de",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.71%, seit Open +0.66%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.66%, seit Open +0.61%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.25,
       "target_pct": 2.38,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +23,11 @@
       "atr_pct": "2.09%",
       "gap_pct": "+0.76%",
       "premarket_move_pct": "+0.16%",
-      "live_gap_pct": "+1.71%",
-      "regular_move_pct": "+0.66%",
+      "live_gap_pct": "+1.66%",
+      "regular_move_pct": "+0.61%",
       "avg_dollar_volume": 529482965.82,
-      "bar_age_minutes": 3.8,
-      "vwap": 165.19,
+      "bar_age_minutes": 4.8,
+      "vwap": 165.2,
       "opening_range_high": 165.01,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -91,7 +52,7 @@
       "thesis": "1T +0.75%, 5T +3.63%, relatives Volumen 1.07x, ATR 3.09%",
       "catalyst": "How Refinery Upgrades At Marathon Petroleum Stock Have Changed Its Investment Story",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.92%, seit Open +3.20%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.03%, seit Open +3.32%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.86,
       "target_pct": 3.53,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +62,11 @@
       "atr_pct": "3.09%",
       "gap_pct": "-1.54%",
       "premarket_move_pct": "-2.26%",
-      "live_gap_pct": "+1.92%",
-      "regular_move_pct": "+3.20%",
+      "live_gap_pct": "+2.03%",
+      "regular_move_pct": "+3.32%",
       "avg_dollar_volume": 941807048.84,
-      "bar_age_minutes": 3.8,
-      "vwap": 417.08,
+      "bar_age_minutes": 4.8,
+      "vwap": 417.62,
       "opening_range_high": 415.81,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -123,29 +84,29 @@
       }
     },
     {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
+      "ticker": "DELL",
+      "name": "Dell",
       "score": 97,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.10%, 5T +7.06%, relatives Volumen 1.50x, ATR 2.33%",
-      "catalyst": "Thermo Fisher Scientific Inc. stock rises Wednesday, outperforms market",
+      "thesis": "1T +3.64%, 5T +5.24%, relatives Volumen 1.39x, ATR 6.31%",
+      "catalyst": "Dell’s AI Backlog Surge Positions Stock for $600+ as Server Revenue Doubles",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.47%, seit Open +0.18%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.4,
-      "target_pct": 2.66,
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +4.51%, seit Open +3.21%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 3.0,
+      "target_pct": 5.7,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.10%",
-      "change_5d": "+7.06%",
-      "volume_ratio": "1.50x",
-      "atr_pct": "2.33%",
-      "gap_pct": "+1.48%",
-      "premarket_move_pct": "+1.10%",
-      "live_gap_pct": "+1.47%",
-      "regular_move_pct": "+0.18%",
-      "avg_dollar_volume": 1150467087.19,
-      "bar_age_minutes": 3.8,
-      "vwap": 654.79,
-      "opening_range_high": 658.4,
+      "change_1d": "+3.64%",
+      "change_5d": "+5.24%",
+      "volume_ratio": "1.39x",
+      "atr_pct": "6.31%",
+      "gap_pct": "+1.85%",
+      "premarket_move_pct": "-0.22%",
+      "live_gap_pct": "+4.51%",
+      "regular_move_pct": "+3.21%",
+      "avg_dollar_volume": 4846719259.09,
+      "bar_age_minutes": 4.8,
+      "vwap": 581.95,
+      "opening_range_high": 574.6,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -162,6 +123,45 @@
       }
     },
     {
+      "ticker": "NUE",
+      "name": "Nucor",
+      "score": 96,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.72%, 5T +1.07%, relatives Volumen 1.16x, ATR 2.78%",
+      "catalyst": "CF, NUE lead top 10 large-cap U.S. materials stocks with strong momentum grades (XLB:NYSEARCA)",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +2.23%, seit Open +0.85%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.67,
+      "target_pct": 3.17,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.72%",
+      "change_5d": "+1.07%",
+      "volume_ratio": "1.16x",
+      "atr_pct": "2.78%",
+      "gap_pct": "+1.31%",
+      "premarket_move_pct": "+1.30%",
+      "live_gap_pct": "+2.23%",
+      "regular_move_pct": "+0.85%",
+      "avg_dollar_volume": 344947502.51,
+      "bar_age_minutes": 4.8,
+      "vwap": 266.48,
+      "opening_range_high": 267.29,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
       "ticker": "VLO",
       "name": "Valero",
       "score": 96,
@@ -169,7 +169,7 @@
       "thesis": "1T +1.57%, 5T +3.68%, relatives Volumen 0.99x, ATR 3.24%",
       "catalyst": "Refiners Lead Oil & Gas as Earnings Growth Accelerates Despite Sector Cooldown",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.70%, seit Open +2.93%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.79%, seit Open +3.03%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.94,
       "target_pct": 3.69,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +179,11 @@
       "atr_pct": "3.24%",
       "gap_pct": "-1.21%",
       "premarket_move_pct": "-1.90%",
-      "live_gap_pct": "+1.70%",
-      "regular_move_pct": "+2.93%",
+      "live_gap_pct": "+1.79%",
+      "regular_move_pct": "+3.03%",
       "avg_dollar_volume": 1015786929.72,
-      "bar_age_minutes": 3.8,
-      "vwap": 404.78,
+      "bar_age_minutes": 4.8,
+      "vwap": 405.01,
       "opening_range_high": 404.11,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -237,6 +237,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "DELL",
+      "title": "Dell’s AI Backlog Surge Positions Stock for $600+ as Server Revenue Doubles",
+      "time": "Thu, 17 Sep 2026 17:00:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "NUE",
       "title": "CF, NUE lead top 10 large-cap U.S. materials stocks with strong momentum grades (XLB:NYSEARCA)",
       "time": "Thu, 17 Sep 2026 15:05:55",
@@ -256,15 +262,15 @@
     },
     {
       "ticker": "MELI",
-      "title": "MercadoLibre (MELI) Priced $1 Billion of 5.85% Notes. Can Growth Cover the Funding Cost?",
-      "time": "Wed, 16 Sep 2026 19:52:39",
-      "sentiment": 1
-    },
-    {
-      "ticker": "MELI",
       "title": "Bank of America Corp DE Acquires Shares of 171,526 MercadoLibre, Inc. $MELI",
       "time": "Thu, 17 Sep 2026 07:26:17",
       "sentiment": -1
+    },
+    {
+      "ticker": "MELI",
+      "title": "MercadoLibre (MELI) Priced $1 Billion of 5.85% Notes. Can Growth Cover the Funding Cost?",
+      "time": "Wed, 16 Sep 2026 19:52:39",
+      "sentiment": 1
     },
     {
       "ticker": "MPC",
@@ -310,12 +316,6 @@
     },
     {
       "ticker": "SBUX",
-      "title": "Starbucks (SBUX) Wins Big in Court, but One Finding Still Sticks",
-      "time": "Thu, 17 Sep 2026 14:47:21",
-      "sentiment": 1
-    },
-    {
-      "ticker": "SBUX",
       "title": "Can Starbucks' 600-650 New Stores Strengthen Its Global Growth?",
       "time": "Thu, 17 Sep 2026 14:49:00",
       "sentiment": 1
@@ -325,6 +325,12 @@
       "title": "WEN, CMG, SBUX, MCD, CAVA Stocks: Seaport Sees One Stock Stand Out Amid Restaurant Traffic Weakness, Valuation Risks",
       "time": "Wed, 16 Sep 2026 17:33:50",
       "sentiment": -1
+    },
+    {
+      "ticker": "SBUX",
+      "title": "Starbucks (SBUX) Wins Big in Court, but One Finding Still Sticks",
+      "time": "Thu, 17 Sep 2026 14:47:21",
+      "sentiment": 1
     },
     {
       "ticker": "SYK",
@@ -337,6 +343,12 @@
       "title": "Bank of America Corp DE Makes New Investment in HCA Healthcare, Inc. $HCA",
       "time": "Thu, 17 Sep 2026 08:06:23",
       "sentiment": -1
+    },
+    {
+      "ticker": "HCA",
+      "title": "Universal Health Services Inc. Cl B stock outperforms competitors on strong trading day",
+      "time": "Wed, 16 Sep 2026 21:13:00",
+      "sentiment": 1
     },
     {
       "ticker": "LMT",
@@ -371,7 +383,7 @@
     {
       "ticker": "CCL",
       "title": "Goldman Sachs cuts Carnival stock price target on yield concerns",
-      "time": "Thu, 17 Sep 2026 11:32:25",
+      "time": "Thu, 17 Sep 2026 11:08:55",
       "sentiment": -1
     },
     {
@@ -379,6 +391,12 @@
       "title": "AMD Stock: Growth Is Catching Up With The Valuation (NASDAQ:AMD)",
       "time": "Thu, 17 Sep 2026 12:06:54",
       "sentiment": 1
+    },
+    {
+      "ticker": "LLY",
+      "title": "LLY Shares Dive On Analyst Downgrade Citing Obesity Market Overestimation Concerns, But Retail Dismisses ‘Absurd’ Selloff",
+      "time": "Thu, 17 Sep 2026 00:48:53",
+      "sentiment": -1
     },
     {
       "ticker": "LLY",
@@ -394,21 +412,21 @@
     },
     {
       "ticker": "PG",
-      "title": "Church & Dwight Co. stock outperforms competitors on strong trading day",
-      "time": "Wed, 16 Sep 2026 21:02:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "PG",
       "title": "80% of people miss a spot brushing. Oral-B iO technology ranked first in a 19-study analysis.",
       "time": "Thu, 17 Sep 2026 10:40:00",
       "sentiment": -1
     },
     {
       "ticker": "PG",
-      "title": "Clorox Co. stock underperforms Wednesday when compared to competitors",
-      "time": "Wed, 16 Sep 2026 21:13:00",
-      "sentiment": -1
+      "title": "Church & Dwight Co. stock outperforms competitors on strong trading day",
+      "time": "Wed, 16 Sep 2026 21:02:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "TSM",
+      "title": "1 AI Stock Poised to Outperform Micron and Sandisk on the Next Infrastructure Surge",
+      "time": "Thu, 17 Sep 2026 12:08:00",
+      "sentiment": 1
     },
     {
       "ticker": "TSM",
@@ -442,8 +460,8 @@
     },
     {
       "ticker": "HON",
-      "title": "ABBV: AbbVie - Stock Price, Quote and News | NYSE",
-      "time": "Thu, 17 Sep 2026 07:22:32",
+      "title": "GOOGL: Alphabet - Stock Price, Quote and News | NASDAQ",
+      "time": "Thu, 17 Sep 2026 05:25:22",
       "sentiment": 0
     },
     {
@@ -532,20 +550,20 @@
     },
     {
       "ticker": "DIS",
-      "title": "Entertainment Stocks To Keep An Eye On - September 16th",
-      "time": "Wed, 16 Sep 2026 17:10:53",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DIS",
       "title": "Walt Disney stock gains analyst support amid parks strength - ad-hoc-news.de",
       "time": "Thu, 17 Sep 2026 11:49:28",
       "sentiment": 0
     },
     {
       "ticker": "DIS",
-      "title": "DUOT Stock Eyes Best Single-Day Gains In 20 Months — Cantor Says $500M Data Center Lease Should Drive A 'Sharp' Revenue Inflection By Q1 Next Year",
-      "time": "Thu, 17 Sep 2026 00:28:08",
+      "title": "Entertainment Stocks To Keep An Eye On - September 16th",
+      "time": "Wed, 16 Sep 2026 17:10:53",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DIS",
+      "title": "PepsiCo (PEP) Breaks Below Its January Low to a New 52-Week Floor",
+      "time": "Wed, 16 Sep 2026 23:49:55",
       "sentiment": 0
     },
     {
@@ -592,12 +610,6 @@
     },
     {
       "ticker": "DELL",
-      "title": "AI Server Stocks Rally as the Hardware Bid Broadens: Hewlett Packard Enterprise Jumps 9%, Super Micro Climbs 6%, Dell Rises 3%",
-      "time": "Thu, 17 Sep 2026 14:53:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DELL",
       "title": "Dell Technologies Inc Stock (DELL) Moved Up by 3.10% on Sep 17: What Investors Need To Know",
       "time": "Thu, 17 Sep 2026 14:15:33",
       "sentiment": 0
@@ -624,12 +636,6 @@
       "ticker": "MELI",
       "title": "1 of Wall Street’s Favorite Stocks with Exciting Potential and 2 Facing Headwinds",
       "time": "Thu, 17 Sep 2026 08:59:32",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MELI",
-      "title": "MercadoLibre Stock And 2 Digital Trade Platforms Worth Watching",
-      "time": "Wed, 16 Sep 2026 17:05:29",
       "sentiment": 0
     },
     {
@@ -676,14 +682,14 @@
     },
     {
       "ticker": "GILD",
-      "title": "Gilead Sciences (GILD) CFO Andrew Dickinson Sells 3,000 Shares a",
-      "time": "Wed, 16 Sep 2026 22:58:59",
+      "title": "Insider Selling: Gilead Sciences (NASDAQ:GILD) Insider Sells $432,660.00 in Stock",
+      "time": "Wed, 16 Sep 2026 21:09:58",
       "sentiment": 0
     },
     {
       "ticker": "GILD",
-      "title": "Insider Selling: Gilead Sciences (NASDAQ:GILD) Insider Sells $432,660.00 in Stock",
-      "time": "Wed, 16 Sep 2026 21:09:58",
+      "title": "Gilead Sciences stock heads into the open after a 0.9% gain - ad-hoc-news.de",
+      "time": "Thu, 17 Sep 2026 04:01:16",
       "sentiment": 0
     },
     {
@@ -784,14 +790,14 @@
     },
     {
       "ticker": "SBUX",
-      "title": "Starbucks Is Weighing a Japan Stake Sale. Here’s What It Means for the Turnaround",
-      "time": "Thu, 17 Sep 2026 00:08:23",
+      "title": "What Could Starbucks (SBUX) Gain From A $3 Billion Japan Stake Deal?",
+      "time": "Wed, 16 Sep 2026 18:09:46",
       "sentiment": 0
     },
     {
       "ticker": "SBUX",
-      "title": "What Could Starbucks (SBUX) Gain From A $3 Billion Japan Stake Deal?",
-      "time": "Wed, 16 Sep 2026 18:09:46",
+      "title": "Starbucks Is Weighing a Japan Stake Sale. Here’s What It Means for the Turnaround",
+      "time": "Thu, 17 Sep 2026 00:08:23",
       "sentiment": 0
     },
     {
@@ -846,12 +852,6 @@
       "ticker": "HCA",
       "title": "Deals tracker: Sword Health confirms plans to acquire Headspace",
       "time": "Thu, 17 Sep 2026 05:36:47",
-      "sentiment": 0
-    },
-    {
-      "ticker": "HCA",
-      "title": "HCA Healthcare stock heads into the open after a 0.0% flat close - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 02:40:10",
       "sentiment": 0
     },
     {
@@ -947,7 +947,7 @@
     {
       "ticker": "INTC",
       "title": "Intel Stock Jumps 4% on SK Hynix Rumor, But Here’s Why the Real Win Is Years Away",
-      "time": "Thu, 17 Sep 2026 16:03:16",
+      "time": "Thu, 17 Sep 2026 16:03:00",
       "sentiment": 0
     },
     {
@@ -970,14 +970,14 @@
     },
     {
       "ticker": "INTC",
-      "title": "Intel Corp Stock (INTC) Opened Up by 5.08% on Sep 17: Facts Behind the Movement",
-      "time": "Thu, 17 Sep 2026 13:47:28",
+      "title": "Why Intel (INTC) Stock Is Trading Up Today",
+      "time": "Wed, 16 Sep 2026 22:28:52",
       "sentiment": 0
     },
     {
       "ticker": "INTC",
-      "title": "Why Intel Stock Jumped Today",
-      "time": "Wed, 16 Sep 2026 22:50:00",
+      "title": "Intel Corp Stock (INTC) Opened Up by 5.08% on Sep 17: Facts Behind the Movement",
+      "time": "Thu, 17 Sep 2026 13:47:28",
       "sentiment": 0
     },
     {
@@ -1018,14 +1018,14 @@
     },
     {
       "ticker": "AMD",
-      "title": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD.",
-      "time": "Thu, 17 Sep 2026 14:21:51",
+      "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
+      "time": "Thu, 17 Sep 2026 16:41:00",
       "sentiment": 0
     },
     {
       "ticker": "AMD",
-      "title": "AMD Stock Leads Chip Stocks Higher Amid Sector Rebound",
-      "time": "Thu, 17 Sep 2026 16:41:00",
+      "title": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD.",
+      "time": "Thu, 17 Sep 2026 14:21:51",
       "sentiment": 0
     },
     {
@@ -1126,14 +1126,14 @@
     },
     {
       "ticker": "META",
-      "title": "Meta Stock Climbs On Muse AI Excitement. Here's The Next Potential Catalyst.",
-      "time": "Thu, 17 Sep 2026 15:14:00",
+      "title": "Goldman Sachs sees major AI catalyst for Meta stock",
+      "time": "Thu, 17 Sep 2026 15:03:00",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Goldman Sachs sees major AI catalyst for Meta stock",
-      "time": "Thu, 17 Sep 2026 15:03:00",
+      "title": "Meta Stock Climbs On Muse AI Excitement. Here's The Next Potential Catalyst.",
+      "time": "Thu, 17 Sep 2026 15:14:00",
       "sentiment": 0
     },
     {
@@ -1179,12 +1179,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "LLY",
-      "title": "Novo Nordisk (NVO) and Eli Lilly (LLY)’s Weight-Loss Drugs Still Work at Smaller Doses, Study Finds",
-      "time": "Thu, 17 Sep 2026 15:46:48",
-      "sentiment": 0
-    },
-    {
       "ticker": "AAL",
       "title": "Does Surging Fuel Costs And Capacity Discipline Change The Bull Case For American Airlines (AAL)?",
       "time": "Thu, 17 Sep 2026 04:28:00",
@@ -1210,8 +1204,8 @@
     },
     {
       "ticker": "AAL",
-      "title": "AAL Looks 16.8% Undervalued on GF Value™ Amid Pressure from Risi",
-      "time": "Wed, 16 Sep 2026 17:41:07",
+      "title": "American, United, Southwest scale back schedules as fuel shock reshapes flying",
+      "time": "Wed, 16 Sep 2026 20:53:33",
       "sentiment": 0
     },
     {
@@ -1233,6 +1227,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "PG",
+      "title": "P&G Health Standalone June 2026 Net Sales at Rs 363.71 crore, up 7.37% Y-o-Y",
+      "time": "Thu, 17 Sep 2026 16:50:06",
+      "sentiment": 0
+    },
+    {
       "ticker": "TSM",
       "title": "There's a Good Reason to Choose GLOBALFOUNDRIES Over Taiwan Semiconductor Manufacturing",
       "time": "Thu, 17 Sep 2026 16:02:00",
@@ -1248,12 +1248,6 @@
       "ticker": "TSM",
       "title": "Prediction: $1,000 Invested in Taiwan Semiconductor (TSMC) Today Will Be Worth This Much by the End of the Decade",
       "time": "Wed, 16 Sep 2026 18:05:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSM",
-      "title": "Prediction: $1,000 Invested in Taiwan Semiconductor (TSMC) Today Will Be Worth This Much by the End of the Decade",
-      "time": "Wed, 16 Sep 2026 18:45:00",
       "sentiment": 0
     },
     {
