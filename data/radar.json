@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "17.09.2026 22:43 CEST",
+  "generated_at_local": "17.09.2026 22:53 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "+1.58%",
       "regular_move_pct": "+0.30%",
       "avg_dollar_volume": 1150467087.19,
-      "bar_age_minutes": 5.2,
+      "bar_age_minutes": 15.4,
       "vwap": 657.36,
       "opening_range_high": 658.4,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "-0.56%",
       "regular_move_pct": "-1.27%",
       "avg_dollar_volume": 605684316.07,
-      "bar_age_minutes": 3.1,
+      "bar_age_minutes": 3.9,
       "vwap": 206.22,
       "opening_range_high": 209.57,
       "opening_range_ready": true,
@@ -104,7 +104,7 @@
       "live_gap_pct": "+4.47%",
       "regular_move_pct": "+3.17%",
       "avg_dollar_volume": 4849372354.89,
-      "bar_age_minutes": 3.2,
+      "bar_age_minutes": 3.3,
       "vwap": 584.22,
       "opening_range_high": 574.6,
       "opening_range_ready": true,
@@ -143,7 +143,7 @@
       "live_gap_pct": "+1.71%",
       "regular_move_pct": "+0.34%",
       "avg_dollar_volume": 344947502.51,
-      "bar_age_minutes": 28.2,
+      "bar_age_minutes": 12.4,
       "vwap": 265.92,
       "opening_range_high": 267.29,
       "opening_range_ready": true,
@@ -182,11 +182,11 @@
       "live_gap_pct": "+1.99%",
       "regular_move_pct": "+0.93%",
       "avg_dollar_volume": 529482965.82,
-      "bar_age_minutes": 17.6,
+      "bar_age_minutes": 28.4,
       "vwap": 165.44,
       "opening_range_high": 165.01,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
       "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
@@ -233,7 +233,7 @@
     {
       "ticker": "DELL",
       "title": "Dell’s AI Backlog Surge Positions Stock for $600+ as Server Revenue Doubles",
-      "time": "Thu, 17 Sep 2026 17:00:11",
+      "time": "Thu, 17 Sep 2026 17:00:00",
       "sentiment": 1
     },
     {
@@ -274,6 +274,12 @@
     },
     {
       "ticker": "MPC",
+      "title": "Marathon Petroleum Corp. stock outperforms competitors on strong trading day",
+      "time": "Thu, 17 Sep 2026 20:37:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "MPC",
       "title": "How Refinery Upgrades At Marathon Petroleum Stock Have Changed Its Investment Story",
       "time": "Wed, 16 Sep 2026 22:43:59",
       "sentiment": 1
@@ -299,7 +305,7 @@
     {
       "ticker": "PLTR",
       "title": "Should AI Partnerships Require Action From Palantir Stock Investors?",
-      "time": "Thu, 17 Sep 2026 02:34:05",
+      "time": "Thu, 17 Sep 2026 02:33:57",
       "sentiment": 1
     },
     {
@@ -319,6 +325,12 @@
       "title": "Starbucks (SBUX) Wins Big in Court, but One Finding Still Sticks",
       "time": "Thu, 17 Sep 2026 14:47:21",
       "sentiment": 1
+    },
+    {
+      "ticker": "SYK",
+      "title": "Stryker Corp. stock underperforms Thursday when compared to competitors",
+      "time": "Thu, 17 Sep 2026 20:38:00",
+      "sentiment": -1
     },
     {
       "ticker": "HCA",
@@ -361,12 +373,6 @@
       "title": "CCL Stock Traders Stare At Sixth Red Week: Analysts Predict Weak Outlook On High Fuel Prices Ahead Of Q3 Earnings",
       "time": "Thu, 17 Sep 2026 05:11:15",
       "sentiment": -1
-    },
-    {
-      "ticker": "CCL",
-      "title": "Carnival Corp. Ltd. stock outperforms competitors on strong trading day",
-      "time": "Wed, 16 Sep 2026 20:55:00",
-      "sentiment": 1
     },
     {
       "ticker": "CCL",
@@ -490,8 +496,8 @@
     },
     {
       "ticker": "DELL",
-      "title": "AI Server Stocks Rally as the Hardware Bid Broadens: Hewlett Packard Enterprise Jumps 9%, Super Micro Climbs 6%, Dell Rises 3%",
-      "time": "Thu, 17 Sep 2026 14:53:00",
+      "title": "DELL 260918 592.50P (DELL260918P592500) Stock Options Chain | Quotes & News",
+      "time": "Thu, 17 Sep 2026 16:06:00",
       "sentiment": 0
     },
     {
@@ -575,7 +581,7 @@
     {
       "ticker": "AZN",
       "title": "Independent Chairman of AstraZeneca Michel Demare Buys 25% More Shares",
-      "time": "Thu, 17 Sep 2026 05:55:16",
+      "time": "Thu, 17 Sep 2026 09:36:55",
       "sentiment": 0
     },
     {
@@ -600,6 +606,12 @@
       "ticker": "NUE",
       "title": "Nucor (NUE) Stock May Be 37% Undervalued On Cash Flow",
       "time": "Thu, 17 Sep 2026 10:09:27",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NUE",
+      "title": "Nucor projects Q3 earnings between $5.55 and $5.65 per share By Investing.com",
+      "time": "Thu, 17 Sep 2026 20:47:34",
       "sentiment": 0
     },
     {
@@ -630,12 +642,6 @@
       "ticker": "MPC",
       "title": "Think It’s Too Late to Buy Marathon and Valero? Here’s Why Analysts Say Wait Instead",
       "time": "Thu, 17 Sep 2026 13:15:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MPC",
-      "title": "5 Relative Price Strength Stocks to Buy Amid Rising Rates",
-      "time": "Thu, 17 Sep 2026 12:41:00",
       "sentiment": 0
     },
     {
@@ -724,8 +730,8 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Analysts Offer Insights on Technology Companies: Palantir Technologies (PLTR), Motorola Solutions (MSI) and Brand Engagement Network (BNAI)",
-      "time": "Thu, 17 Sep 2026 12:30:42",
+      "title": "Palantir Stock: The AI Token Boom Is Hiding A Bigger Opportunity",
+      "time": "Thu, 17 Sep 2026 20:02:45",
       "sentiment": 0
     },
     {
@@ -796,6 +802,12 @@
     },
     {
       "ticker": "SYK",
+      "title": "RBC Capital Maintains Stryker Corp(SYK.US) With Buy Rating, Maintains Target Price $420",
+      "time": "Thu, 17 Sep 2026 16:11:10",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SYK",
       "title": "Stryker Facing Promising Setup Next Year, Trading Upside Limited in 2026, RBC Says",
       "time": "Thu, 17 Sep 2026 15:15:24",
       "sentiment": 0
@@ -804,12 +816,6 @@
       "ticker": "SYK",
       "title": "GEHC vs. SYK pairs trade: valuation gap and relative value case",
       "time": "Thu, 17 Sep 2026 00:35:35",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SYK",
-      "title": "Stryker Corp stock steadies as RBC flags limited upside for 2026 - ad-hoc-news.de",
-      "time": "Thu, 17 Sep 2026 20:02:51",
       "sentiment": 0
     },
     {
@@ -839,7 +845,7 @@
     {
       "ticker": "HCA",
       "title": "Deals tracker: Sword Health confirms plans to acquire Headspace",
-      "time": "Thu, 17 Sep 2026 05:36:47",
+      "time": "Thu, 17 Sep 2026 11:41:08",
       "sentiment": 0
     },
     {
@@ -981,6 +987,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "CCL",
+      "title": "Carnival price target lowered to $30 from $35 at Goldman Sachs",
+      "time": "Thu, 17 Sep 2026 11:21:23",
+      "sentiment": 0
+    },
+    {
       "ticker": "AMD",
       "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
       "time": "Thu, 17 Sep 2026 16:41:00",
@@ -1000,14 +1012,14 @@
     },
     {
       "ticker": "AMD",
-      "title": "Forget the AI Doom Headlines. Watch This AMD Number Instead.",
-      "time": "Thu, 17 Sep 2026 16:38:35",
+      "title": "Arm, AMD among market cap stock movers on Thursday",
+      "time": "Thu, 17 Sep 2026 18:09:21",
       "sentiment": 0
     },
     {
       "ticker": "AMD",
-      "title": "QQQ is up 1.7% today, on AMD stock price movement",
-      "time": "Thu, 17 Sep 2026 16:15:00",
+      "title": "Forget the AI Doom Headlines. Watch This AMD Number Instead.",
+      "time": "Thu, 17 Sep 2026 16:38:35",
       "sentiment": 0
     },
     {
