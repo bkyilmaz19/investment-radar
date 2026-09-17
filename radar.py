@@ -407,23 +407,53 @@ def main():
             atr=atr14(frame_done); atr_pct=(atr/prev_close*100) if atr and prev_close else None
             avg_dollar_volume = float((c_done.iloc[-20:] * v_done.iloc[-20:]).mean()) if len(c_done) >= 20 else float((c_done * v_done).tail(10).mean())
 
-            # Stage 1: cheap quantitative scan across the whole universe.
-            qscore=50
-            qscore += max(-12,min(15,c1*3.2))
-            qscore += max(-10,min(10,c5*0.8))
-            qscore += max(-6,min(14,(vr-1.0)*12))
+            # Stage 1: aggressive but risk-aware short-term momentum scan.
+            # Goal: liquid setups for a few hours up to roughly two trading days.
+            qscore = 35.0
+
+            # 1-day momentum: reward strength, but penalize extreme chase risk.
+            if 0.5 <= c1 <= 3.0: qscore += 14
+            elif 3.0 < c1 <= 6.0: qscore += 18
+            elif 6.0 < c1 <= 9.0: qscore += 13
+            elif 0.0 < c1 < 0.5: qscore += 5
+            elif -1.0 <= c1 <= 0.0: qscore += 1
+            elif c1 < -3.0: qscore -= 12
+            elif c1 > 12.0: qscore -= 8
+
+            # 5-day momentum: prefer an established trend without huge extension.
+            if 1.0 <= c5 <= 8.0: qscore += 12
+            elif 8.0 < c5 <= 15.0: qscore += 8
+            elif 0.0 <= c5 < 1.0: qscore += 4
+            elif -2.0 <= c5 < 0.0: qscore += 1
+            elif c5 < -6.0: qscore -= 10
+            elif c5 > 20.0: qscore -= 6
+
+            # Relative volume is one of the strongest short-term inputs.
+            if vr >= 2.5: qscore += 20
+            elif vr >= 1.8: qscore += 17
+            elif vr >= 1.4: qscore += 13
+            elif vr >= 1.15: qscore += 8
+            elif vr >= 1.0: qscore += 3
+            elif vr < 0.70: qscore -= 7
+
+            # ATR: enough movement for opportunity, but avoid uncontrolled names.
             if atr_pct is not None:
-                if 1.2<=atr_pct<=5.0:qscore+=7
-                elif 0.7<=atr_pct<1.2:qscore+=3
-                elif atr_pct>8:qscore-=8
-            # Penalize obviously tiny price / highly unstable situations.
-            if prev_close < 5:qscore-=10
-            # Liquidity guard: favor names that can realistically be traded with
-            # tight spreads; exclude thin names from final research candidates.
-            if avg_dollar_volume >= 500_000_000: qscore += 6
-            elif avg_dollar_volume >= 100_000_000: qscore += 4
-            elif avg_dollar_volume >= 25_000_000: qscore += 1
-            else: qscore -= 12
+                if 1.5 <= atr_pct <= 4.5: qscore += 12
+                elif 1.0 <= atr_pct < 1.5: qscore += 7
+                elif 4.5 < atr_pct <= 6.5: qscore += 6
+                elif 0.7 <= atr_pct < 1.0: qscore += 2
+                elif atr_pct > 9.0: qscore -= 12
+                elif atr_pct > 6.5: qscore -= 5
+
+            # Liquidity / penny-stock guard.
+            if avg_dollar_volume >= 1_000_000_000: qscore += 10
+            elif avg_dollar_volume >= 500_000_000: qscore += 8
+            elif avg_dollar_volume >= 150_000_000: qscore += 6
+            elif avg_dollar_volume >= 50_000_000: qscore += 3
+            elif avg_dollar_volume < 25_000_000: qscore -= 20
+
+            if prev_close < 5: qscore -= 20
+            elif prev_close < 10: qscore -= 5
             rows.append(dict(ticker=t,name=WATCHLIST[t],score=qscore,c1=c1,c5=c5,vr=vr,
                              atr_pct=atr_pct,prev_close=prev_close,avg_dollar_volume=avg_dollar_volume,news=[],nsent=0))
         except Exception:
@@ -431,18 +461,27 @@ def main():
 
     rows.sort(key=lambda x:x['score'],reverse=True)
 
-    # Stage 2: fetch news only for the strongest 24 quantitative setups.
+    # Stage 2: fresh catalyst/news score for the strongest quantitative setups.
     news_all=[]
-    for r in rows[:24]:
+    for r in rows[:30]:
         ns=get_news(r['ticker'],r['name'])
         r['news']=ns; news_all.extend(ns)
-        r['nsent']=sum(n['sentiment'] for n in ns[:6])
-        r['score'] += r['nsent']*4
+        positive=sum(1 for n in ns[:6] if n['sentiment'] > 0)
+        negative=sum(1 for n in ns[:6] if n['sentiment'] < 0)
+        r['nsent']=positive-negative
+        if positive >= 3 and negative == 0: catalyst_score=18
+        elif positive >= 2 and negative == 0: catalyst_score=14
+        elif positive >= 1 and negative == 0: catalyst_score=9
+        elif positive > negative: catalyst_score=5
+        elif negative > positive: catalyst_score=-10
+        else: catalyst_score=0
+        r['catalyst_score']=catalyst_score
+        r['score'] += catalyst_score
 
     rows.sort(key=lambda x:x['score'],reverse=True)
 
-    # Stage 3: premarket only for top 10. Keeps runtime/API load manageable.
-    for r in rows[:10]:
+    # Stage 3: premarket/live context for the top 12.
+    for r in rows[:12]:
         pm=get_session_context(r['ticker'],r['prev_close']); r.update(pm)
         gp=r.get('gap_pct'); pmove=r.get('premarket_move_pct')
         live_gap=r.get('live_gap_pct'); regular_move=r.get('regular_move_pct')
@@ -452,22 +491,34 @@ def main():
         # current gap vs. yesterday's close so gap recovery can improve a setup.
         rule_gap = live_gap if market_open and live_gap is not None else gp
         if rule_gap is not None:
-            if 0.5<=rule_gap<=4.0:r['score']+=7
-            elif -1.5<=rule_gap<0.5:r['score']+=5
-            elif 4.0<rule_gap<=7.0:r['score']+=3
-            elif rule_gap>10:r['score']-=8
-            elif rule_gap<-3:r['score']-=5
+            if 0.8 <= rule_gap <= 4.0: r['score'] += 12
+            elif 4.0 < rule_gap <= 6.5: r['score'] += 8
+            elif 0.0 <= rule_gap < 0.8: r['score'] += 5
+            elif -1.0 <= rule_gap < 0.0: r['score'] += 2
+            elif 6.5 < rule_gap <= 9.0: r['score'] += 1
+            elif rule_gap > 9.0: r['score'] -= 12
+            elif rule_gap < -3.0: r['score'] -= 10
 
         if market_open and regular_move is not None:
-            r['score'] += max(-5,min(6,regular_move*1.5))
+            if 0.2 <= regular_move <= 3.5: r['score'] += 10
+            elif 3.5 < regular_move <= 6.0: r['score'] += 5
+            elif regular_move < -1.0: r['score'] -= 10
+            elif regular_move > 7.0: r['score'] -= 5
         elif pmove is not None:
-            r['score'] += max(-4,min(5,pmove*1.5))
+            if 0.0 <= pmove <= 4.0: r['score'] += 7
+            elif -0.5 <= pmove < 0.0: r['score'] += 2
+            elif pmove < -2.0: r['score'] -= 7
+            elif pmove > 7.0: r['score'] -= 6
+
+        # Strong bonus only after real regular-session confirmation.
+        if market_open and r.get('breakout_confirmed'):
+            r['score'] += 12
 
     for r in rows:
         r['score']=int(max(0,min(100,round(r['score']))))
     rows.sort(key=lambda x:x['score'],reverse=True)
 
-    selected=[r for r in rows if r['score']>=65 and r.get('avg_dollar_volume',0) >= 25_000_000][:5]
+    selected=[r for r in rows if r['score']>=68 and r.get('avg_dollar_volume',0) >= 25_000_000 and r.get('prev_close',0) >= 5][:5]
     candidates=[]
     for r in selected:
         pos_titles=[n['title'] for n in r['news'] if n['sentiment']>0]
@@ -475,7 +526,8 @@ def main():
         catalyst=pos_titles[0] if pos_titles else ('Premarket-/Momentum-Bestätigung' if r.get('gap_pct') is not None else 'Relative Stärke + Volumen; Bestätigung erforderlich')
         risk=neg_titles[0] if neg_titles else 'Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.'
         ap=r.get('atr_pct') or 2.0
-        stop=max(0.7,min(2.5,ap*0.65)); target=max(1.2,min(5.0,stop*1.8))
+        # Aggressive, but keep a defined invalidation and ~1:1.9 first-target CRV.
+        stop=max(0.9,min(3.0,ap*0.60)); target=max(2.0,min(6.0,stop*1.9))
         gap=r.get('gap_pct')
         live_gap=r.get('live_gap_pct')
         regular_move=r.get('regular_move_pct')
@@ -512,12 +564,12 @@ def main():
             entry=f'Premarket-Gap {gap:+.2f}%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.'
 
         criteria = {
-          'score_ok': r['score'] >= 75,
-          'momentum_ok': r['c1'] > 0 and r['c5'] > -1.0,
-          'volume_ok': r['vr'] >= 1.10,
-          'volatility_ok': (r.get('atr_pct') is not None and 1.0 <= r['atr_pct'] <= 6.0),
+          'score_ok': r['score'] >= 78,
+          'momentum_ok': r['c1'] > 0.25 and r['c5'] > -1.0,
+          'volume_ok': r['vr'] >= 1.15,
+          'volatility_ok': (r.get('atr_pct') is not None and 1.0 <= r['atr_pct'] <= 6.5),
           'news_ok': r.get('nsent',0) >= 0,
-          'gap_ok': (rule_gap is not None and -1.5 <= rule_gap <= 6.0),
+          'gap_ok': (rule_gap is not None and -1.0 <= rule_gap <= 6.5),
           'confirmation_ok': (breakout_confirmed if market_open else (confirmation_move is not None and confirmation_move >= -0.5))
         }
         all_rules = all(criteria.values())
@@ -588,7 +640,7 @@ def main():
       'market_regime':regime,
       'universe_size':len(tickers),
       'scanned_count':len(rows),
-      'summary':f"{regime}. {phase}. {len(rows)} von {len(tickers)} Aktien mit ausreichenden Daten geprüft; {len(candidates)} Top-Kandidaten angezeigt. Ranking: Momentum, relatives Volumen, ATR, News und Premarket soweit verfügbar. Kein Score garantiert einen Kursanstieg.",
+      'summary':f"{regime}. {phase}. {len(rows)} von {len(tickers)} Aktien mit ausreichenden Daten geprüft; {len(candidates)} Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
       'candidates':candidates,'avoid':avoid,
       'news':sorted(news_all,key=lambda x:abs(x['sentiment']),reverse=True)
     }
