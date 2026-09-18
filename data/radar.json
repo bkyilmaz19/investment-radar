@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "18.09.2026 22:51 CEST",
+  "generated_at_local": "18.09.2026 23:10 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "+0.12%",
       "regular_move_pct": "-0.60%",
       "avg_dollar_volume": 450828760.76,
-      "bar_age_minutes": 8.9,
+      "bar_age_minutes": 0.3,
       "vwap": 43.19,
       "opening_range_high": 43.5,
       "opening_range_ready": true,
@@ -45,34 +45,34 @@
       }
     },
     {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
+      "ticker": "PSX",
+      "name": "Phillips 66",
       "score": 90,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.53%, 5T +9.14%, relatives Volumen 2.00x, ATR 2.35%",
-      "catalyst": "Thermo Fisher Scientific (TMO) is Positioned for Resurgence",
+      "thesis": "1T +3.62%, 5T +6.07%, relatives Volumen 1.22x, ATR 2.86%",
+      "catalyst": "Kinder Morgan Inc. stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.50%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 1.41,
-      "target_pct": 2.67,
+      "entry_note": "Premarket-Gap -0.08%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.71,
+      "target_pct": 3.26,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.53%",
-      "change_5d": "+9.14%",
-      "volume_ratio": "2.00x",
-      "atr_pct": "2.35%",
-      "gap_pct": "-0.50%",
-      "premarket_move_pct": "-0.53%",
-      "live_gap_pct": "-1.09%",
-      "regular_move_pct": "-0.83%",
-      "avg_dollar_volume": 1211787750.68,
-      "bar_age_minutes": 14.3,
-      "vwap": 653.43,
-      "opening_range_high": 658.52,
+      "change_1d": "+3.62%",
+      "change_5d": "+6.07%",
+      "volume_ratio": "1.22x",
+      "atr_pct": "2.86%",
+      "gap_pct": "-0.08%",
+      "premarket_move_pct": "+0.95%",
+      "live_gap_pct": "-0.42%",
+      "regular_move_pct": "+0.30%",
+      "avg_dollar_volume": 695125760.37,
+      "bar_age_minutes": 6.0,
+      "vwap": 273.6,
+      "opening_range_high": 274.5,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -80,7 +80,7 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": false
+        "confirmation_ok": true
       }
     },
     {
@@ -104,7 +104,7 @@
       "live_gap_pct": "-0.27%",
       "regular_move_pct": "-0.22%",
       "avg_dollar_volume": 1471765174.74,
-      "bar_age_minutes": 26.6,
+      "bar_age_minutes": 20.9,
       "vwap": 146.62,
       "opening_range_high": 147.84,
       "opening_range_ready": true,
@@ -143,7 +143,7 @@
       "live_gap_pct": "-0.05%",
       "regular_move_pct": "-1.44%",
       "avg_dollar_volume": 943562098.8,
-      "bar_age_minutes": 10.4,
+      "bar_age_minutes": 8.2,
       "vwap": 198.81,
       "opening_range_high": 202.58,
       "opening_range_ready": true,
@@ -162,34 +162,34 @@
       }
     },
     {
-      "ticker": "GILD",
-      "name": "Gilead",
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
       "score": 88,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.17%, 5T +4.20%, relatives Volumen 1.58x, ATR 2.26%",
-      "catalyst": "Gilead Strengthens HIV Growth Platform with Expanded Latin America Access",
+      "thesis": "1T +1.53%, 5T +9.14%, relatives Volumen 2.00x, ATR 2.35%",
+      "catalyst": "Thermo Fisher Scientific (TMO) is Positioned for Resurgence",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.10%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 1.36,
-      "target_pct": 2.58,
+      "entry_note": "Premarket-Gap -0.50%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.41,
+      "target_pct": 2.67,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.17%",
-      "change_5d": "+4.20%",
-      "volume_ratio": "1.58x",
-      "atr_pct": "2.26%",
-      "gap_pct": "-0.10%",
-      "premarket_move_pct": "+0.94%",
-      "live_gap_pct": "-0.56%",
-      "regular_move_pct": "-0.41%",
-      "avg_dollar_volume": 796185787.11,
-      "bar_age_minutes": 16.6,
-      "vwap": 150.91,
-      "opening_range_high": 153.23,
+      "change_1d": "+1.53%",
+      "change_5d": "+9.14%",
+      "volume_ratio": "2.00x",
+      "atr_pct": "2.35%",
+      "gap_pct": "-0.50%",
+      "premarket_move_pct": "-0.53%",
+      "live_gap_pct": "-1.09%",
+      "regular_move_pct": "-0.83%",
+      "avg_dollar_volume": 1211787750.68,
+      "bar_age_minutes": 19.6,
+      "vwap": 653.43,
+      "opening_range_high": 658.52,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -197,7 +197,7 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
       }
     }
   ],
@@ -228,12 +228,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "TMO",
-      "title": "Agilent Technologies Inc. stock outperforms competitors on strong trading day",
-      "time": "Thu, 17 Sep 2026 20:52:00",
-      "sentiment": 1
-    },
-    {
       "ticker": "GILD",
       "title": "Gilead Strengthens HIV Growth Platform with Expanded Latin America Access",
       "time": "Fri, 18 Sep 2026 16:51:22",
@@ -253,8 +247,20 @@
     },
     {
       "ticker": "PSX",
+      "title": "Kinder Morgan Inc. stock outperforms competitors on strong trading day",
+      "time": "Fri, 18 Sep 2026 20:43:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "PSX",
       "title": "Evercore ISI raises Phillips 66 price target to $200",
       "time": "Thu, 17 Sep 2026 22:44:57",
+      "sentiment": 1
+    },
+    {
+      "ticker": "AMD",
+      "title": "Dow Jones Futures: Market Still Choppy; Robinhood, Sandisk, AMD, Moderna Surge Into Buy Areas",
+      "time": "Fri, 18 Sep 2026 20:42:00",
       "sentiment": 1
     },
     {
@@ -282,12 +288,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "ROST",
-      "title": "Ross Stores stock rises after strong Q2 results",
-      "time": "Thu, 17 Sep 2026 21:41:43",
-      "sentiment": 1
-    },
-    {
       "ticker": "MRVL",
       "title": "Morgan Stanley holds Marvell stock with limited upside despite strong AI growth prospects.",
       "time": "Fri, 18 Sep 2026 18:14:42",
@@ -302,7 +302,7 @@
     {
       "ticker": "LULU",
       "title": "Should Investors Wait on LULU as Growth Slows and Valuation Changes?",
-      "time": "Fri, 18 Sep 2026 16:41:37",
+      "time": "Fri, 18 Sep 2026 16:36:48",
       "sentiment": 1
     },
     {
@@ -328,12 +328,6 @@
       "title": "Microsoft Stock Hit My Target. Now I'm Stepping Back (Rating Downgrade)",
       "time": "Fri, 18 Sep 2026 09:30:56",
       "sentiment": -1
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Why Microsoft (MSFT) is a Top Growth Stock for the Long-Term",
-      "time": "Fri, 18 Sep 2026 13:45:03",
-      "sentiment": 1
     },
     {
       "ticker": "PLTR",
@@ -378,12 +372,6 @@
       "sentiment": -1
     },
     {
-      "ticker": "NKE",
-      "title": "Nike Stock Slumps After Mbappe Signs With New Rival",
-      "time": "Fri, 18 Sep 2026 14:12:24",
-      "sentiment": -1
-    },
-    {
       "ticker": "NVO",
       "title": "A weekly shot may become Europe’s first approved growth-hormone treatment for children with unexplained shortness",
       "time": "Fri, 18 Sep 2026 10:36:00",
@@ -414,10 +402,10 @@
       "sentiment": 1
     },
     {
-      "ticker": "AAPL",
-      "title": "Apple Stock Gets Stunning Price Target Hike on Strong iPhone Demand",
-      "time": "Fri, 18 Sep 2026 20:21:20",
-      "sentiment": 1
+      "ticker": "GSK",
+      "title": "GSK plc : Deutsche Bank remains Neutral",
+      "time": "Fri, 18 Sep 2026 08:05:28",
+      "sentiment": -1
     },
     {
       "ticker": "META",
@@ -463,7 +451,7 @@
     },
     {
       "ticker": "MRK",
-      "title": "Merck, Astra win EU drug recommendations this week (Update)",
+      "title": "Merck, Astra, Roche and Corcept among winners of EU drug recommendations this week",
       "time": "Fri, 18 Sep 2026 13:50:17",
       "sentiment": 0
     },
@@ -477,6 +465,12 @@
       "ticker": "TMO",
       "title": "9/17/2026 Market Summary: 93 Stocks Hit Highs Including 14 S&P 500 Components",
       "time": "Fri, 18 Sep 2026 08:18:50",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "Laboratory Information Management System (LIMS) Market Worth $5.84 Billion by 2031 - Exclusive Report by MarketsandMarkets",
+      "time": "Fri, 18 Sep 2026 14:30:00",
       "sentiment": 0
     },
     {
@@ -543,12 +537,6 @@
       "ticker": "PSX",
       "title": "Phillips 66 (PSX): What a GF Score of 55 Says About the Stock",
       "time": "Fri, 18 Sep 2026 15:48:40",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PSX",
-      "title": "Phillips 66 (NYSE: PSX) insider sells stock at about $265 after option exercise",
-      "time": "Thu, 17 Sep 2026 21:09:40",
       "sentiment": 0
     },
     {
@@ -666,12 +654,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "AMD",
-      "title": "AMD stock gains as analysts keep raising targets",
-      "time": "Fri, 18 Sep 2026 11:44:09",
-      "sentiment": 0
-    },
-    {
       "ticker": "JNJ",
       "title": "Is Johnson & Johnson Stock Expensive, Or Is STELARA Hiding The Real Price?",
       "time": "Fri, 18 Sep 2026 20:14:15",
@@ -697,20 +679,26 @@
     },
     {
       "ticker": "JNJ",
-      "title": "Convert 1 JNJ (Johnson & Johnson (Dinari Tokenized Stock)) to IDR (Indonesian Rupiah)",
-      "time": "Fri, 18 Sep 2026 00:00:00",
+      "title": "J&J Up 18% in Three Months: Buy, Sell or Hold the Stock?",
+      "time": "Fri, 18 Sep 2026 13:05:00",
       "sentiment": 0
     },
     {
       "ticker": "CSCO",
       "title": "Cisco Drops 8% in 3 Months: Should You Buy the Stock on the Dip?",
-      "time": "Fri, 18 Sep 2026 16:55:00",
+      "time": "Fri, 18 Sep 2026 17:56:33",
       "sentiment": 0
     },
     {
       "ticker": "CSCO",
       "title": "Could Cisco Systems (NASDAQ:CSCO) Be Setting the Tone for Technology Stocks?",
       "time": "Thu, 17 Sep 2026 23:26:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CSCO",
+      "title": "Can NOK's Network Automation Progress With MSFT Boost Profits?",
+      "time": "Fri, 18 Sep 2026 15:14:00",
       "sentiment": 0
     },
     {
@@ -723,12 +711,6 @@
       "ticker": "CSCO",
       "title": "Kevin Weil's Cisco Systems Insider Award Accounts for 3.5% of His Total Holdings",
       "time": "Fri, 18 Sep 2026 18:01:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CSCO",
-      "title": "Can NOK's Network Automation Progress With MSFT Boost Profits?",
-      "time": "Fri, 18 Sep 2026 15:14:00",
       "sentiment": 0
     },
     {
@@ -775,8 +757,14 @@
     },
     {
       "ticker": "ROST",
+      "title": "Ross Stores stock edges lower as governance changes and insider sale draw attention",
+      "time": "Fri, 18 Sep 2026 20:57:38",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ROST",
       "title": "Ross Stores adds two directors, one board member to retire By Investing.com",
-      "time": "Thu, 17 Sep 2026 23:12:00",
+      "time": "Thu, 17 Sep 2026 22:59:44",
       "sentiment": 0
     },
     {
@@ -901,8 +889,8 @@
     },
     {
       "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 14% Overvalued As 2nm MediaTek Win Lands",
-      "time": "Fri, 18 Sep 2026 03:17:00",
+      "title": "Why Is Taiwan Semiconductor Manufacturing (TSM) Ramping 2nm Production And Spending More?",
+      "time": "Fri, 18 Sep 2026 10:12:22",
       "sentiment": 0
     },
     {
@@ -919,14 +907,14 @@
     },
     {
       "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing stock gains as 2-nanometer win and expansion plans highlight grow",
-      "time": "Fri, 18 Sep 2026 10:32:11",
+      "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 14% Overvalued As 2nm MediaTek Win Lands",
+      "time": "Fri, 18 Sep 2026 03:17:00",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing (TSM) Starts Commercial 2 Nm Production",
-      "time": "Fri, 18 Sep 2026 15:31:56",
+      "title": "Taiwan Semiconductor Manufacturing stock gains as 2-nanometer win and expansion plans highlight grow",
+      "time": "Fri, 18 Sep 2026 10:32:11",
       "sentiment": 0
     },
     {
@@ -939,6 +927,12 @@
       "ticker": "MSFT",
       "title": "Alphabet Rises 3%, Meta and Microsoft Slip: Is This a Momentum Run Rather Than a Tech Rally?",
       "time": "Fri, 18 Sep 2026 13:54:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "3 AI Stocks Stuck in Neutral to Buy Before Their Next Catalysts Hit",
+      "time": "Fri, 18 Sep 2026 16:15:00",
       "sentiment": 0
     },
     {
@@ -1080,6 +1074,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "NKE",
+      "title": "Nike Stock Edges Higher After Appointing LVMH Executive Alexandre Arnault to Board",
+      "time": "Fri, 18 Sep 2026 10:32:40",
+      "sentiment": 0
+    },
+    {
       "ticker": "NVO",
       "title": "Novo Nordisk (NVO) Pulls the Plug on Two More Heart Drug Trials",
       "time": "Thu, 17 Sep 2026 23:37:26",
@@ -1135,12 +1135,6 @@
     },
     {
       "ticker": "GSK",
-      "title": "What Matters Now for GSK plc (LSE:GSK)?",
-      "time": "Fri, 18 Sep 2026 13:36:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GSK",
       "title": "Why is GSK (LSE:GSK) in focus as recent oncology data updates and pharmaceutical pipeline focus?",
       "time": "Fri, 18 Sep 2026 11:19:00",
       "sentiment": 0
@@ -1153,8 +1147,14 @@
     },
     {
       "ticker": "GSK",
-      "title": "Axsome Therapeutics vs. Moderna: Which Healthcare Stock Is a Better Buy in 2026?",
-      "time": "Fri, 18 Sep 2026 19:36:27",
+      "title": "RFK Jr. replaces federal autism panel chair: report",
+      "time": "Fri, 18 Sep 2026 20:56:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Evercore Resets Apple Stock Price Target for 2026",
+      "time": "Fri, 18 Sep 2026 16:14:56",
       "sentiment": 0
     },
     {
@@ -1183,8 +1183,8 @@
     },
     {
       "ticker": "AAPL",
-      "title": "Evercore Resets Apple Stock Price Target for 2026",
-      "time": "Fri, 18 Sep 2026 16:14:56",
+      "title": "Apple Just Announced a Groundbreaking iPhone, but It Has Alienated a Key Market",
+      "time": "Fri, 18 Sep 2026 10:52:00",
       "sentiment": 0
     },
     {
@@ -1201,14 +1201,14 @@
     },
     {
       "ticker": "META",
-      "title": "Meta: Firm Settles Teen Social Media Case for $17 Billion, Lifting Uncertainty",
-      "time": "Fri, 18 Sep 2026 07:19:01",
+      "title": "Meta Platforms Has a Secret Weapon No One Is Talking About",
+      "time": "Fri, 18 Sep 2026 15:48:00",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Meta Platforms Has a Secret Weapon No One Is Talking About",
-      "time": "Fri, 18 Sep 2026 15:48:00",
+      "title": "Meta: Firm Settles Teen Social Media Case for $17 Billion, Lifting Uncertainty",
+      "time": "Fri, 18 Sep 2026 07:19:01",
       "sentiment": 0
     },
     {
