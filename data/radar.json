@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "18.09.2026 17:43 CEST",
+  "generated_at_local": "18.09.2026 17:55 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +3.62%, 5T +6.07%, relatives Volumen 1.22x, ATR 2.86%",
       "catalyst": "Phillips 66 stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.89%, seit Open +1.62%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.76%, seit Open +1.49%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.71,
       "target_pct": 3.26,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,51 +23,12 @@
       "atr_pct": "2.86%",
       "gap_pct": "-0.08%",
       "premarket_move_pct": "+0.95%",
-      "live_gap_pct": "+0.89%",
-      "regular_move_pct": "+1.62%",
+      "live_gap_pct": "+0.76%",
+      "regular_move_pct": "+1.49%",
       "avg_dollar_volume": 695125760.37,
-      "bar_age_minutes": 3.2,
-      "vwap": 274.11,
+      "bar_age_minutes": 0.2,
+      "vwap": 274.2,
       "opening_range_high": 274.5,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "ROST",
-      "name": "Ross Stores",
-      "score": 94,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.08%, 5T +1.77%, relatives Volumen 1.39x, ATR 2.09%",
-      "catalyst": "Ross Stores stock rises after strong Q2 results - ad-hoc-news.de",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.16%, seit Open +0.32%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.25,
-      "target_pct": 2.38,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.08%",
-      "change_5d": "+1.77%",
-      "volume_ratio": "1.39x",
-      "atr_pct": "2.09%",
-      "gap_pct": "-0.25%",
-      "premarket_move_pct": "-0.25%",
-      "live_gap_pct": "-0.16%",
-      "regular_move_pct": "+0.32%",
-      "avg_dollar_volume": 586984439.46,
-      "bar_age_minutes": 3.2,
-      "vwap": 228.98,
-      "opening_range_high": 229.48,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -86,12 +47,12 @@
     {
       "ticker": "TMO",
       "name": "Thermo Fisher",
-      "score": 90,
+      "score": 89,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.53%, 5T +9.14%, relatives Volumen 2.00x, ATR 2.35%",
       "catalyst": "Thermo Fisher Scientific (TMO) is Positioned for Resurgence",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.82%, seit Open -0.56%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -1.03%, seit Open -0.78%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.41,
       "target_pct": 2.67,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,24 +62,24 @@
       "atr_pct": "2.35%",
       "gap_pct": "-0.50%",
       "premarket_move_pct": "-0.53%",
-      "live_gap_pct": "-0.82%",
-      "regular_move_pct": "-0.56%",
+      "live_gap_pct": "-1.03%",
+      "regular_move_pct": "-0.78%",
       "avg_dollar_volume": 1211787750.68,
-      "bar_age_minutes": 3.2,
-      "vwap": 656.07,
+      "bar_age_minutes": 0.2,
+      "vwap": 655.94,
       "opening_range_high": 658.52,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": true,
+        "gap_ok": false,
         "confirmation_ok": false
       }
     },
@@ -130,7 +91,7 @@
       "thesis": "1T +2.17%, 5T +4.20%, relatives Volumen 1.58x, ATR 2.26%",
       "catalyst": "Gilead Sciences Inc. stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.55%, seit Open -0.40%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.46%, seit Open -0.31%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.36,
       "target_pct": 2.58,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +101,11 @@
       "atr_pct": "2.26%",
       "gap_pct": "-0.10%",
       "premarket_move_pct": "+0.94%",
-      "live_gap_pct": "-0.55%",
-      "regular_move_pct": "-0.40%",
+      "live_gap_pct": "-0.46%",
+      "regular_move_pct": "-0.31%",
       "avg_dollar_volume": 796185787.11,
-      "bar_age_minutes": 3.2,
-      "vwap": 151.29,
+      "bar_age_minutes": 0.2,
+      "vwap": 151.25,
       "opening_range_high": 153.23,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -162,29 +123,68 @@
       }
     },
     {
-      "ticker": "DHR",
-      "name": "Danaher",
-      "score": 86,
+      "ticker": "ROST",
+      "name": "Ross Stores",
+      "score": 87,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.99%, 5T +5.97%, relatives Volumen 1.80x, ATR 2.60%",
-      "catalyst": "Danaher Corp. stock outperforms competitors on strong trading day",
+      "thesis": "1T +2.08%, 5T +1.77%, relatives Volumen 1.39x, ATR 2.09%",
+      "catalyst": "Ross Stores stock rises after strong Q2 results",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.64%, seit Open -0.70%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.56,
-      "target_pct": 2.97,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.23%, seit Open +0.25%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.25,
+      "target_pct": 2.38,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.99%",
-      "change_5d": "+5.97%",
-      "volume_ratio": "1.80x",
-      "atr_pct": "2.60%",
-      "gap_pct": "-0.24%",
-      "premarket_move_pct": "-0.24%",
-      "live_gap_pct": "-0.64%",
-      "regular_move_pct": "-0.70%",
-      "avg_dollar_volume": 713553697.06,
-      "bar_age_minutes": 3.2,
-      "vwap": 213.0,
-      "opening_range_high": 212.93,
+      "change_1d": "+2.08%",
+      "change_5d": "+1.77%",
+      "volume_ratio": "1.39x",
+      "atr_pct": "2.09%",
+      "gap_pct": "-0.25%",
+      "premarket_move_pct": "-0.25%",
+      "live_gap_pct": "-0.23%",
+      "regular_move_pct": "+0.25%",
+      "avg_dollar_volume": 586984439.46,
+      "bar_age_minutes": 0.2,
+      "vwap": 228.98,
+      "opening_range_high": 229.48,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck",
+      "score": 85,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.55%, 5T +1.69%, relatives Volumen 1.41x, ATR 2.03%",
+      "catalyst": "Merck (MRK) Outperforms Broader Market: What You Need to Know",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.60%, seit Open -0.55%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.22,
+      "target_pct": 2.31,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.55%",
+      "change_5d": "+1.69%",
+      "volume_ratio": "1.41x",
+      "atr_pct": "2.03%",
+      "gap_pct": "-0.56%",
+      "premarket_move_pct": "-0.41%",
+      "live_gap_pct": "-0.60%",
+      "regular_move_pct": "-0.55%",
+      "avg_dollar_volume": 1471765174.74,
+      "bar_age_minutes": 0.2,
+      "vwap": 146.8,
+      "opening_range_high": 147.84,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -229,7 +229,7 @@
     },
     {
       "ticker": "TMO",
-      "title": "Thermo Fisher Scientific stock gains on strong second-quarter results - ad-hoc-news.de",
+      "title": "Thermo Fisher Scientific stock gains on strong second-quarter results",
       "time": "Fri, 18 Sep 2026 11:58:43",
       "sentiment": 1
     },
@@ -277,7 +277,7 @@
     },
     {
       "ticker": "ROST",
-      "title": "Ross Stores stock rises after strong Q2 results - ad-hoc-news.de",
+      "title": "Ross Stores stock rises after strong Q2 results",
       "time": "Thu, 17 Sep 2026 21:41:43",
       "sentiment": 1
     },
@@ -361,7 +361,7 @@
     },
     {
       "ticker": "DE",
-      "title": "Deere & Co. stock gains on Q3 2026 earnings beat and dividend - ad-hoc-news.de",
+      "title": "Deere & Co. stock gains on Q3 2026 earnings beat and dividend",
       "time": "Fri, 18 Sep 2026 10:31:10",
       "sentiment": 1
     },
@@ -475,7 +475,7 @@
     },
     {
       "ticker": "GILD",
-      "title": "Gilead Sciences stock gains as licensing deal and dividend support outlook - ad-hoc-news.de",
+      "title": "Gilead Sciences stock gains as licensing deal and dividend support outlook",
       "time": "Fri, 18 Sep 2026 11:25:51",
       "sentiment": 0
     },
@@ -529,7 +529,7 @@
     },
     {
       "ticker": "PSX",
-      "title": "Phillips 66 stock holds gains as analyst targets climb before Q3 update - ad-hoc-news.de",
+      "title": "Phillips 66 stock holds gains as analyst targets climb before Q3 update",
       "time": "Fri, 18 Sep 2026 13:31:31",
       "sentiment": 0
     },
@@ -571,8 +571,14 @@
     },
     {
       "ticker": "TGT",
-      "title": "Target stock resistance test: Upside targets to watch",
-      "time": "Thu, 17 Sep 2026 19:11:31",
+      "title": "Target (TGT) Up 1% Since Last Earnings Report: Can It Continue?",
+      "time": "Fri, 18 Sep 2026 15:30:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TJX",
+      "title": "Why Is TJX (TJX) Down 10.1% Since Last Earnings Report?",
+      "time": "Fri, 18 Sep 2026 15:30:03",
       "sentiment": 0
     },
     {
@@ -606,12 +612,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "TJX",
-      "title": "New TJX (NYSE: TJX) director reports zero stock ownership",
-      "time": "Thu, 17 Sep 2026 20:09:30",
-      "sentiment": 0
-    },
-    {
       "ticker": "AMD",
       "title": "Why AMD Stock Jumped Today",
       "time": "Thu, 17 Sep 2026 23:35:49",
@@ -637,8 +637,8 @@
     },
     {
       "ticker": "AMD",
-      "title": "AMD stock gains as analysts keep raising targets - ad-hoc-news.de",
-      "time": "Fri, 18 Sep 2026 11:44:09",
+      "title": "AMD Stock Rises Premarket: Report Flags Chip Price Hike Linked To TSMC Costs",
+      "time": "Fri, 18 Sep 2026 09:28:29",
       "sentiment": 0
     },
     {
@@ -649,19 +649,13 @@
     },
     {
       "ticker": "JNJ",
-      "title": "Johnson & Johnson (JNJ) Advances Sjögren's Therapies With New Biomarker Trial Data",
-      "time": "Fri, 18 Sep 2026 10:34:08",
-      "sentiment": 0
-    },
-    {
-      "ticker": "JNJ",
       "title": "What Is Driving Attention to Johnson & Johnson (NYSE:JNJ)?",
       "time": "Fri, 18 Sep 2026 10:54:00",
       "sentiment": 0
     },
     {
       "ticker": "JNJ",
-      "title": "Johnson & Johnson stock heads into the open after a 1.1 percent gain - ad-hoc-news.de",
+      "title": "Johnson & Johnson stock heads into the open after a 1.1 percent gain",
       "time": "Fri, 18 Sep 2026 06:36:36",
       "sentiment": 0
     },
@@ -669,6 +663,12 @@
       "ticker": "JNJ",
       "title": "The September Scramble: Find Sanctuary in These 3 Defensive Dividend Stocks",
       "time": "Thu, 17 Sep 2026 17:06:43",
+      "sentiment": 0
+    },
+    {
+      "ticker": "JNJ",
+      "title": "J&J Up 18% in Three Months: Buy, Sell or Hold the Stock?",
+      "time": "Fri, 18 Sep 2026 13:05:00",
       "sentiment": 0
     },
     {
@@ -709,13 +709,19 @@
     },
     {
       "ticker": "NXPI",
+      "title": "Is It Worth Investing in NXP (NXPI) Based on Wall Street's Bullish Views?",
+      "time": "Fri, 18 Sep 2026 13:30:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NXPI",
       "title": "ON Semiconductor Has Cratered for 3 Months: This Wall Street Pro Remains Bullish, Citing 120% Returns for Buyers",
       "time": "Fri, 18 Sep 2026 11:25:00",
       "sentiment": 0
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors stock heads into the open after a late-session advance - ad-hoc-news.de",
+      "title": "NXP Semiconductors stock heads into the open after a late-session advance",
       "time": "Fri, 18 Sep 2026 01:50:15",
       "sentiment": 0
     },
@@ -746,7 +752,7 @@
     {
       "ticker": "ROST",
       "title": "Ross Stores CEO & Director James Conroy Sells 27% Of Holding",
-      "time": "Fri, 18 Sep 2026 12:21:55",
+      "time": "Fri, 18 Sep 2026 12:21:54",
       "sentiment": 0
     },
     {
@@ -763,19 +769,13 @@
     },
     {
       "ticker": "AZN",
-      "title": "AstraZeneca's cancer drug cut recurrence or death risk by 53%. EU committee recommends it.",
-      "time": "Fri, 18 Sep 2026 12:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AZN",
       "title": "Why is AstraZeneca (LSE:AZN) in focus as recent late-stage trial update and oncology pipeline focus?",
       "time": "Fri, 18 Sep 2026 08:50:00",
       "sentiment": 0
     },
     {
       "ticker": "AZN",
-      "title": "AstraZeneca stock heads into the open after a 1.2% London gain - ad-hoc-news.de",
+      "title": "AstraZeneca stock heads into the open after a 1.2% London gain",
       "time": "Fri, 18 Sep 2026 01:09:16",
       "sentiment": 0
     },
@@ -783,6 +783,12 @@
       "ticker": "AZN",
       "title": "Could AstraZeneca (LSE:AZN) draw attention as recent late-stage trial update and oncology pipeline focus?",
       "time": "Fri, 18 Sep 2026 08:51:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AZN",
+      "title": "AstraZeneca Gains as Enhertu Clears England's Value Gate",
+      "time": "Thu, 17 Sep 2026 19:16:44",
       "sentiment": 0
     },
     {
@@ -835,14 +841,14 @@
     },
     {
       "ticker": "ARM",
-      "title": "Arm’s CEO Says the Chip Designer Is Even More Confident in Hitting $2B AI Chip Sales Target. The Stock Is Rallying",
-      "time": "Thu, 17 Sep 2026 17:49:51",
+      "title": "Why is Arm stock rising today?",
+      "time": "Fri, 18 Sep 2026 09:49:16",
       "sentiment": 0
     },
     {
       "ticker": "ARM",
-      "title": "Arm Holdings stock heads into the open after an 8.6% Nasdaq jump - ad-hoc-news.de",
-      "time": "Fri, 18 Sep 2026 05:47:31",
+      "title": "Arm’s CEO Says the Chip Designer Is Even More Confident in Hitting $2B AI Chip Sales Target. The Stock Is Rallying",
+      "time": "Thu, 17 Sep 2026 17:49:51",
       "sentiment": 0
     },
     {
@@ -889,19 +895,19 @@
     },
     {
       "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 14% Overvalued As 2nm MediaTek Win Lands",
-      "time": "Fri, 18 Sep 2026 03:17:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSM",
       "title": "There's a Good Reason to Choose GLOBALFOUNDRIES Over Taiwan Semiconductor Manufacturing",
       "time": "Thu, 17 Sep 2026 16:02:00",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing stock gains as 2-nanometer win and expansion plans highlight grow - ad-hoc-news.de",
+      "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 14% Overvalued As 2nm MediaTek Win Lands",
+      "time": "Fri, 18 Sep 2026 03:17:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSM",
+      "title": "Taiwan Semiconductor Manufacturing stock gains as 2-nanometer win and expansion plans highlight grow",
       "time": "Fri, 18 Sep 2026 10:32:11",
       "sentiment": 0
     },
@@ -925,8 +931,8 @@
     },
     {
       "ticker": "MSFT",
-      "title": "Microsoft: Distribution Advantage Worth More Than Another Model Breakthrough (NASDAQ:MSFT)",
-      "time": "Fri, 18 Sep 2026 13:57:28",
+      "title": "Watch 5 Stocks on Recent Dividend Hikes Amid Rising Rates & Volatility",
+      "time": "Fri, 18 Sep 2026 11:42:00",
       "sentiment": 0
     },
     {
@@ -1105,7 +1111,7 @@
     },
     {
       "ticker": "NVO",
-      "title": "Novo Nordisk stock gains as analysts see up to 50 percent upside - ad-hoc-news.de",
+      "title": "Novo Nordisk stock gains as analysts see up to 50 percent upside",
       "time": "Fri, 18 Sep 2026 11:18:05",
       "sentiment": 0
     },
@@ -1129,7 +1135,7 @@
     },
     {
       "ticker": "DE",
-      "title": "Deere stock heads into the open after a modest gain - ad-hoc-news.de",
+      "title": "Deere stock heads into the open after a modest gain",
       "time": "Fri, 18 Sep 2026 03:30:57",
       "sentiment": 0
     },
@@ -1159,7 +1165,7 @@
     },
     {
       "ticker": "GSK",
-      "title": "GSK stock gains as UBS stays Neutral and Berenberg turns Buy - ad-hoc-news.de",
+      "title": "GSK stock gains as UBS stays Neutral and Berenberg turns Buy",
       "time": "Thu, 17 Sep 2026 16:23:26",
       "sentiment": 0
     },
@@ -1173,6 +1179,12 @@
       "ticker": "AAPL",
       "title": "Apple Stock: The $1,999 iPhone Hides A Bigger Problem (NASDAQ:AAPL)",
       "time": "Fri, 18 Sep 2026 13:30:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Apple Stock Has a New Opportunity Investors Can’t Afford to Ignore",
+      "time": "Fri, 18 Sep 2026 15:30:00",
       "sentiment": 0
     },
     {
@@ -1194,9 +1206,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "AAPL",
-      "title": "Apple Stock (AAPL) Opinions on iPhone Launch Event",
-      "time": "Thu, 17 Sep 2026 17:34:00",
+      "ticker": "META",
+      "title": "Meta Platforms Has a Secret Weapon No One Is Talking About",
+      "time": "Fri, 18 Sep 2026 15:48:00",
       "sentiment": 0
     },
     {
@@ -1209,12 +1221,6 @@
       "ticker": "META",
       "title": "Meta stock has struggled this year. Goldman Sachs sees a new catalyst",
       "time": "Fri, 18 Sep 2026 02:55:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Why Meta Could Keep Surprising Wall Street",
-      "time": "Fri, 18 Sep 2026 12:00:00",
       "sentiment": 0
     },
     {
