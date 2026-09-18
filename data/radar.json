@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "18.09.2026 22:11 CEST",
+  "generated_at_local": "18.09.2026 22:26 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "+0.12%",
       "regular_move_pct": "-0.60%",
       "avg_dollar_volume": 450828760.76,
-      "bar_age_minutes": 4.5,
+      "bar_age_minutes": 2.8,
       "vwap": 43.19,
       "opening_range_high": 43.5,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "-0.56%",
       "regular_move_pct": "-0.41%",
       "avg_dollar_volume": 796185787.11,
-      "bar_age_minutes": 0.7,
+      "bar_age_minutes": 6.7,
       "vwap": 150.91,
       "opening_range_high": 153.23,
       "opening_range_ready": true,
@@ -101,11 +101,11 @@
       "atr_pct": "2.35%",
       "gap_pct": "-0.50%",
       "premarket_move_pct": "-0.53%",
-      "live_gap_pct": "-1.11%",
-      "regular_move_pct": "-0.85%",
+      "live_gap_pct": "-1.09%",
+      "regular_move_pct": "-0.83%",
       "avg_dollar_volume": 1211787750.68,
-      "bar_age_minutes": 1.2,
-      "vwap": 653.45,
+      "bar_age_minutes": 5.3,
+      "vwap": 653.43,
       "opening_range_high": 658.52,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -140,11 +140,11 @@
       "atr_pct": "2.86%",
       "gap_pct": "-0.08%",
       "premarket_move_pct": "+0.95%",
-      "live_gap_pct": "-0.44%",
-      "regular_move_pct": "+0.28%",
+      "live_gap_pct": "-0.42%",
+      "regular_move_pct": "+0.30%",
       "avg_dollar_volume": 695125760.37,
-      "bar_age_minutes": 1.2,
-      "vwap": 273.61,
+      "bar_age_minutes": 11.7,
+      "vwap": 273.6,
       "opening_range_high": 274.5,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -162,38 +162,38 @@
       }
     },
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 90,
+      "ticker": "MRK",
+      "name": "Merck",
+      "score": 89,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.30%, 5T +4.43%, relatives Volumen 0.77x, ATR 2.28%",
-      "catalyst": "Alphabet stock jumps as Wall Street raises targets and search rebounds",
+      "thesis": "1T +1.55%, 5T +1.69%, relatives Volumen 1.41x, ATR 2.03%",
+      "catalyst": "Merck Stock Nearly Doubled Without A Change In Its Revenue Growth",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +2.84%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.37,
-      "target_pct": 2.6,
+      "entry_note": "Premarket-Gap -0.56%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.22,
+      "target_pct": 2.31,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.30%",
-      "change_5d": "+4.43%",
-      "volume_ratio": "0.77x",
-      "atr_pct": "2.28%",
-      "gap_pct": "+2.84%",
-      "premarket_move_pct": "+0.76%",
-      "live_gap_pct": "+0.50%",
-      "regular_move_pct": "-2.20%",
-      "avg_dollar_volume": 8176390152.39,
-      "bar_age_minutes": 1.3,
-      "vwap": 353.13,
-      "opening_range_high": 359.44,
+      "change_1d": "+1.55%",
+      "change_5d": "+1.69%",
+      "volume_ratio": "1.41x",
+      "atr_pct": "2.03%",
+      "gap_pct": "-0.56%",
+      "premarket_move_pct": "-0.41%",
+      "live_gap_pct": "-0.27%",
+      "regular_move_pct": "-0.22%",
+      "avg_dollar_volume": 1471765174.74,
+      "bar_age_minutes": 11.7,
+      "vwap": 146.62,
+      "opening_range_high": 147.84,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": false,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -320,7 +320,7 @@
     {
       "ticker": "LULU",
       "title": "Should Investors Wait on LULU as Growth Slows and Valuation Changes?",
-      "time": "Fri, 18 Sep 2026 16:41:37",
+      "time": "Fri, 18 Sep 2026 16:36:48",
       "sentiment": 1
     },
     {
@@ -420,6 +420,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "DE",
+      "title": "10 large-cap industrial stocks with strongest momentum grades (DE:NYSE)",
+      "time": "Fri, 18 Sep 2026 17:35:09",
+      "sentiment": 1
+    },
+    {
       "ticker": "GSK",
       "title": "GSK plc : Deutsche Bank remains Neutral",
       "time": "Fri, 18 Sep 2026 08:05:28",
@@ -438,27 +444,9 @@
       "sentiment": 1
     },
     {
-      "ticker": "GOOGL",
-      "title": "Alphabet Inc. - GOOGL 6 1/4 05/15/29 (NASDAQ:GOOGM) Passes the GARP Screen for Growth at a Reasonable Price",
-      "time": "Fri, 18 Sep 2026 08:11:07",
-      "sentiment": 1
-    },
-    {
-      "ticker": "DHR",
-      "title": "DHR|Danaher Corp|Price:212.500|Chg%:+4.140",
-      "time": "Thu, 17 Sep 2026 20:24:15",
-      "sentiment": 0
-    },
-    {
       "ticker": "DHR",
       "title": "2 Unpopular Stocks That Should Get More Attention and 1 We Question",
       "time": "Fri, 18 Sep 2026 04:40:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DHR",
-      "title": "Illumina Inc Stock (ILMN) Closed Up by 7.10% on Sep 17: What Investors Need To Know",
-      "time": "Thu, 17 Sep 2026 20:15:27",
       "sentiment": 0
     },
     {
@@ -481,8 +469,8 @@
     },
     {
       "ticker": "MRK",
-      "title": "5 Stocks, 5 Different Industries, 1 Thing in Common: Reliable Income",
-      "time": "Fri, 18 Sep 2026 12:00:00",
+      "title": "MRK Looks 21.6% Overvalued on GF Value™ as Dividend Sustainabili",
+      "time": "Fri, 18 Sep 2026 15:02:36",
       "sentiment": 0
     },
     {
@@ -601,14 +589,14 @@
     },
     {
       "ticker": "TGT",
-      "title": "Pokémon has turned 30, and Target is set to cash in on the anniversary craze",
-      "time": "Thu, 17 Sep 2026 20:13:00",
+      "title": "Target Corp stock gains as Q2 earnings and guidance support rally",
+      "time": "Fri, 18 Sep 2026 08:25:49",
       "sentiment": 0
     },
     {
       "ticker": "TGT",
-      "title": "Target Corp stock gains as Q2 earnings and guidance support rally",
-      "time": "Fri, 18 Sep 2026 08:25:49",
+      "title": "Target (TGT) Up 1% Since Last Earnings Report: Can It Continue?",
+      "time": "Fri, 18 Sep 2026 15:30:03",
       "sentiment": 0
     },
     {
@@ -637,14 +625,14 @@
     },
     {
       "ticker": "TJX",
-      "title": "TJX Companies Inc Stock (TJX) Closed Up by 3.01% on Sep 17: What Signal Does It Send?",
-      "time": "Thu, 17 Sep 2026 20:15:25",
+      "title": "TJX Companies stock gains as new director and dividend signal confidence",
+      "time": "Fri, 18 Sep 2026 11:21:05",
       "sentiment": 0
     },
     {
       "ticker": "TJX",
-      "title": "TJX Companies stock gains as new director and dividend signal confidence",
-      "time": "Fri, 18 Sep 2026 11:21:05",
+      "title": "Why Is TJX Companies (NYSE:TJX) in Focus Across S&P 500?",
+      "time": "Fri, 18 Sep 2026 13:16:00",
       "sentiment": 0
     },
     {
@@ -667,14 +655,14 @@
     },
     {
       "ticker": "AMD",
-      "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
-      "time": "Thu, 17 Sep 2026 20:21:00",
+      "title": "AMD Stock Breaks $524 as Helios Demand Puts $548 and $572 in Focus",
+      "time": "Fri, 18 Sep 2026 14:02:11",
       "sentiment": 0
     },
     {
       "ticker": "AMD",
-      "title": "AMD Stock Breaks $524 as Helios Demand Puts $548 and $572 in Focus",
-      "time": "Fri, 18 Sep 2026 14:02:11",
+      "title": "AMD stock gains as analysts keep raising targets",
+      "time": "Fri, 18 Sep 2026 11:44:09",
       "sentiment": 0
     },
     {
@@ -710,7 +698,7 @@
     {
       "ticker": "CSCO",
       "title": "Cisco Drops 8% in 3 Months: Should You Buy the Stock on the Dip?",
-      "time": "Fri, 18 Sep 2026 17:56:33",
+      "time": "Fri, 18 Sep 2026 16:55:00",
       "sentiment": 0
     },
     {
@@ -776,7 +764,7 @@
     {
       "ticker": "ROST",
       "title": "Ross Stores CEO & Director James Conroy Sells 27% Of Holding",
-      "time": "Fri, 18 Sep 2026 12:21:55",
+      "time": "Fri, 18 Sep 2026 12:21:54",
       "sentiment": 0
     },
     {
@@ -805,6 +793,12 @@
     },
     {
       "ticker": "AZN",
+      "title": "AstraZeneca's cancer drug cut recurrence or death risk by 53%. EU committee recommends it.",
+      "time": "Fri, 18 Sep 2026 12:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AZN",
       "title": "AstraZeneca stock heads into the open after a 1.2% London gain",
       "time": "Fri, 18 Sep 2026 01:09:16",
       "sentiment": 0
@@ -813,12 +807,6 @@
       "ticker": "AZN",
       "title": "Could AstraZeneca (LSE:AZN) draw attention as recent late-stage trial update and oncology pipeline focus?",
       "time": "Fri, 18 Sep 2026 08:51:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AZN",
-      "title": "AstraZeneca chief executive buys GBP7 million in shares",
-      "time": "Fri, 18 Sep 2026 10:35:15",
       "sentiment": 0
     },
     {
@@ -913,8 +901,8 @@
     },
     {
       "ticker": "TSM",
-      "title": "What If the AI Boom Cracks? S&P Says Taiwan Semiconductor Is Built to Withstand the Shock",
-      "time": "Fri, 18 Sep 2026 12:07:40",
+      "title": "$3.2T Chip Boom: Which Semiconductor ETFs Get The Biggest Slice?",
+      "time": "Fri, 18 Sep 2026 19:15:33",
       "sentiment": 0
     },
     {
@@ -931,8 +919,14 @@
     },
     {
       "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Closed Up by 3.00% on Sep 17: A Full Analysis",
-      "time": "Thu, 17 Sep 2026 20:15:27",
+      "title": "What If the AI Boom Cracks? S&P Says Taiwan Semiconductor Is Built to Withstand the Shock",
+      "time": "Fri, 18 Sep 2026 12:07:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "What Did Microsoft Tell You Before Its Stock Ran?",
+      "time": "Fri, 18 Sep 2026 13:13:04",
       "sentiment": 0
     },
     {
@@ -951,12 +945,6 @@
       "ticker": "MSFT",
       "title": "Microsoft Corporation (MSFT) is Attracting Investor Attention: Here is What You Should Know",
       "time": "Fri, 18 Sep 2026 13:00:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Alphabet Rises 3%, Meta and Microsoft Slip: Is This a Momentum Run Rather Than a Tech Rally?",
-      "time": "Fri, 18 Sep 2026 13:55:39",
       "sentiment": 0
     },
     {
@@ -1045,44 +1033,44 @@
     },
     {
       "ticker": "MDT",
-      "title": "[SC TO-I/A] Medtronic plc Amended Issuer Tender Offer | MDT SEC Filing - Form SC TO-I/A",
-      "time": "Thu, 17 Sep 2026 20:26:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MDT",
       "title": "Medtronic PLC (MDT) Insider Sale: EVP & President Cardiovascular Harry Kiil Sells 1,483 Shares",
       "time": "Thu, 17 Sep 2026 22:55:08",
       "sentiment": 0
     },
     {
       "ticker": "MDT",
-      "title": "Medtronic (MDT) executive sells 1,483 shares without a 10b5-1 plan",
-      "time": "Thu, 17 Sep 2026 20:18:16",
+      "title": "Two Catalysts for Medtronic: Surgical Robots and Dividend King Run",
+      "time": "Fri, 18 Sep 2026 02:38:30",
       "sentiment": 0
     },
     {
       "ticker": "MDT",
-      "title": "[425] Medtronic plc Business Combination Communication | MDT SEC Filing - Form 425",
-      "time": "Thu, 17 Sep 2026 20:26:11",
+      "title": "Medtronic corrects prospectus for MiniMed exchange offer, clarifies delivery deadline",
+      "time": "Thu, 17 Sep 2026 21:30:53",
       "sentiment": 0
     },
     {
       "ticker": "MDT",
-      "title": "Should You Buy Medtronic Stock as Its Hugo Surgical Robot Gains Ground?",
-      "time": "Thu, 17 Sep 2026 20:23:00",
+      "title": "Medtronic (MDT) Corrects Typographical Error in MiniMed Exchange Offer Prospectus",
+      "time": "Fri, 18 Sep 2026 03:03:53",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDT",
+      "title": "Form 8K Medtronic plc For: 17 September By Investing.com",
+      "time": "Thu, 17 Sep 2026 20:32:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NKE",
+      "title": "NKE Stock Rises Overnight: LVMH Scion Alexandre Arnault Joins Nike Board As Sportswear Giant Struggles To Turn Around",
+      "time": "Fri, 18 Sep 2026 16:48:55",
       "sentiment": 0
     },
     {
       "ticker": "NKE",
       "title": "Nike Stock Edges Higher After Appointing LVMH Executive Alexandre Arnault to Board",
       "time": "Fri, 18 Sep 2026 10:32:40",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NKE",
-      "title": "Why Did OPEN, NKE, CCL Stocks Crash To 52-Week Lows Today?",
-      "time": "Fri, 18 Sep 2026 05:51:47",
       "sentiment": 0
     },
     {
@@ -1134,12 +1122,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "DE",
-      "title": "Why Is Deere (NYSE:DE) Key to S&P 500 Farm Machinery?",
-      "time": "Fri, 18 Sep 2026 05:39:00",
-      "sentiment": 0
-    },
-    {
       "ticker": "GSK",
       "title": "This week in charts: GSK’s China deals, the $300M IPO club and selling the news",
       "time": "Fri, 18 Sep 2026 15:17:47",
@@ -1166,7 +1148,7 @@
     {
       "ticker": "GSK",
       "title": "Axsome Therapeutics vs. Moderna: Which Healthcare Stock Is a Better Buy in 2026?",
-      "time": "Fri, 18 Sep 2026 19:25:17",
+      "time": "Fri, 18 Sep 2026 19:36:27",
       "sentiment": 0
     },
     {
@@ -1231,8 +1213,8 @@
     },
     {
       "ticker": "META",
-      "title": "Step Aside, Nvidia: 1 Reason Why Meta Platforms Could Be the Best AI Stock to Buy in 2026.",
-      "time": "Fri, 18 Sep 2026 13:16:00",
+      "title": "Meta's Muse Just Had a Breakout Launch. Is It a Game Changer for the Stock?",
+      "time": "Fri, 18 Sep 2026 20:21:28",
       "sentiment": 0
     },
     {
@@ -1251,6 +1233,12 @@
       "ticker": "GOOGL",
       "title": "Alphabet Rises 3%, Meta and Microsoft Slip: Is This a Momentum Run Rather Than a Tech Rally?",
       "time": "Fri, 18 Sep 2026 13:54:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "2 Stocks to Buy as Google Starts Selling Its AI Chips",
+      "time": "Fri, 18 Sep 2026 19:42:01",
       "sentiment": 0
     },
     {
