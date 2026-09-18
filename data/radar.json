@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "18.09.2026 23:25 CEST",
+  "generated_at_local": "18.09.2026 23:39 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "+0.12%",
       "regular_move_pct": "-0.60%",
       "avg_dollar_volume": 450828760.76,
-      "bar_age_minutes": 4.2,
+      "bar_age_minutes": 7.5,
       "vwap": 43.19,
       "opening_range_high": 43.5,
       "opening_range_ready": true,
@@ -37,45 +37,6 @@
       "criteria": {
         "score_ok": true,
         "momentum_ok": false,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 90,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.62%, 5T +6.07%, relatives Volumen 1.22x, ATR 2.86%",
-      "catalyst": "Kinder Morgan Inc. stock outperforms competitors on strong trading day",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.08%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 1.71,
-      "target_pct": 3.26,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.62%",
-      "change_5d": "+6.07%",
-      "volume_ratio": "1.22x",
-      "atr_pct": "2.86%",
-      "gap_pct": "-0.08%",
-      "premarket_move_pct": "+0.95%",
-      "live_gap_pct": "-0.42%",
-      "regular_move_pct": "+0.30%",
-      "avg_dollar_volume": 695125760.37,
-      "bar_age_minutes": 15.3,
-      "vwap": 273.6,
-      "opening_range_high": 274.5,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
@@ -104,7 +65,7 @@
       "live_gap_pct": "-0.27%",
       "regular_move_pct": "-0.22%",
       "avg_dollar_volume": 1471765174.74,
-      "bar_age_minutes": 20.3,
+      "bar_age_minutes": 7.4,
       "vwap": 146.62,
       "opening_range_high": 147.84,
       "opening_range_ready": true,
@@ -143,7 +104,7 @@
       "live_gap_pct": "-0.05%",
       "regular_move_pct": "-1.44%",
       "avg_dollar_volume": 943562098.8,
-      "bar_age_minutes": 15.6,
+      "bar_age_minutes": 10.6,
       "vwap": 198.81,
       "opening_range_high": 202.58,
       "opening_range_ready": true,
@@ -162,34 +123,34 @@
       }
     },
     {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
+      "ticker": "GILD",
+      "name": "Gilead",
       "score": 88,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.53%, 5T +9.14%, relatives Volumen 2.00x, ATR 2.35%",
-      "catalyst": "Thermo Fisher Scientific (TMO) is Positioned for Resurgence",
+      "thesis": "1T +2.17%, 5T +4.20%, relatives Volumen 1.58x, ATR 2.26%",
+      "catalyst": "Gilead Strengthens HIV Growth Platform with Expanded Latin America Access",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.50%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 1.41,
-      "target_pct": 2.67,
+      "entry_note": "Premarket-Gap -0.10%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.36,
+      "target_pct": 2.58,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.53%",
-      "change_5d": "+9.14%",
-      "volume_ratio": "2.00x",
-      "atr_pct": "2.35%",
-      "gap_pct": "-0.50%",
-      "premarket_move_pct": "-0.53%",
-      "live_gap_pct": "-1.09%",
-      "regular_move_pct": "-0.83%",
-      "avg_dollar_volume": 1211787750.68,
-      "bar_age_minutes": 16.4,
-      "vwap": 653.43,
-      "opening_range_high": 658.52,
+      "change_1d": "+2.17%",
+      "change_5d": "+4.20%",
+      "volume_ratio": "1.58x",
+      "atr_pct": "2.26%",
+      "gap_pct": "-0.10%",
+      "premarket_move_pct": "+0.94%",
+      "live_gap_pct": "-0.56%",
+      "regular_move_pct": "-0.41%",
+      "avg_dollar_volume": 796185787.11,
+      "bar_age_minutes": 14.5,
+      "vwap": 150.91,
+      "opening_range_high": 153.23,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -197,7 +158,46 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": false
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco",
+      "score": 88,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.32%, 5T +2.61%, relatives Volumen 1.16x, ATR 2.21%",
+      "catalyst": "3 Large Cap Stocks With Strong Balance Sheets for Higher Rate Markets",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.30%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.33,
+      "target_pct": 2.52,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.32%",
+      "change_5d": "+2.61%",
+      "volume_ratio": "1.16x",
+      "atr_pct": "2.21%",
+      "gap_pct": "+0.30%",
+      "premarket_move_pct": "+0.01%",
+      "live_gap_pct": "-0.68%",
+      "regular_move_pct": "-0.93%",
+      "avg_dollar_volume": 1520688310.22,
+      "bar_age_minutes": 2.6,
+      "vwap": 109.57,
+      "opening_range_high": 110.81,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     }
   ],
@@ -228,6 +228,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "TMO",
+      "title": "Bitcoin Falls Below $77K Ahead Of Fed Rate Decision – CLARITY Act Vote Could Add Crypto Volatility, Says Analyst",
+      "time": "Fri, 18 Sep 2026 20:14:34",
+      "sentiment": -1
+    },
+    {
       "ticker": "GILD",
       "title": "Gilead Strengthens HIV Growth Platform with Expanded Latin America Access",
       "time": "Fri, 18 Sep 2026 16:51:22",
@@ -243,12 +249,6 @@
       "ticker": "ANET",
       "title": "Arista Networks (ANET) Raises Full Year Outlook As AI Data Center Demand Stays Strong",
       "time": "Fri, 18 Sep 2026 11:13:25",
-      "sentiment": 1
-    },
-    {
-      "ticker": "PSX",
-      "title": "Kinder Morgan Inc. stock outperforms competitors on strong trading day",
-      "time": "Fri, 18 Sep 2026 20:43:00",
       "sentiment": 1
     },
     {
@@ -302,7 +302,7 @@
     {
       "ticker": "LULU",
       "title": "Should Investors Wait on LULU as Growth Slows and Valuation Changes?",
-      "time": "Fri, 18 Sep 2026 16:41:37",
+      "time": "Fri, 18 Sep 2026 16:36:48",
       "sentiment": 1
     },
     {
@@ -354,6 +354,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "MDT",
+      "title": "Medtronic strengthens robotic surgery position with Cornerstone deal, analysts say",
+      "time": "Fri, 18 Sep 2026 15:53:41",
+      "sentiment": 1
+    },
+    {
       "ticker": "NKE",
       "title": "Nike faces earnings pressure as UBS cuts price target",
       "time": "Fri, 18 Sep 2026 16:22:00",
@@ -367,8 +373,8 @@
     },
     {
       "ticker": "NKE",
-      "title": "CNBC Host Says Berkshire Should Buy Iconic Consumer Brand After Stock Falls 75%",
-      "time": "Fri, 18 Sep 2026 14:41:00",
+      "title": "Nike Stock Slumps After Mbappe Signs With New Rival",
+      "time": "Fri, 18 Sep 2026 14:12:24",
       "sentiment": -1
     },
     {
@@ -393,6 +399,12 @@
       "ticker": "DE",
       "title": "10 large-cap industrial stocks with strongest momentum grades (DE:NYSE)",
       "time": "Fri, 18 Sep 2026 17:35:09",
+      "sentiment": 1
+    },
+    {
+      "ticker": "DE",
+      "title": "Deere & Company stock gains as Evercore ISI lifts price target after strong earnings",
+      "time": "Fri, 18 Sep 2026 18:56:06",
       "sentiment": 1
     },
     {
@@ -451,14 +463,8 @@
     },
     {
       "ticker": "MRK",
-      "title": "Merck, Astra, Roche and Corcept among winners of EU drug recommendations this week",
-      "time": "Fri, 18 Sep 2026 13:50:17",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TMO",
-      "title": "What Makes Thermo Fisher Scientific (NYSE) Worth Watching Now?",
-      "time": "Thu, 17 Sep 2026 21:34:00",
+      "title": "MRK Looks 21.6% Overvalued on GF Value™ as Dividend Sustainabili",
+      "time": "Fri, 18 Sep 2026 15:02:36",
       "sentiment": 0
     },
     {
@@ -469,14 +475,14 @@
     },
     {
       "ticker": "TMO",
-      "title": "Laboratory Information Management System (LIMS) Market Worth $5.84 Billion by 2031 - Exclusive Report by MarketsandMarkets",
-      "time": "Fri, 18 Sep 2026 14:30:00",
+      "title": "9/17/2026 Market Summary: 14 S&P 500 Stocks Hit Highs",
+      "time": "Fri, 18 Sep 2026 08:18:50",
       "sentiment": 0
     },
     {
       "ticker": "TMO",
-      "title": "9/17/2026 Market Summary: 14 S&P 500 Stocks Hit Highs",
-      "time": "Fri, 18 Sep 2026 08:18:50",
+      "title": "The 52-Week-High List: 14 S&P 500 Names On Thursday",
+      "time": "Fri, 18 Sep 2026 07:43:07",
       "sentiment": 0
     },
     {
@@ -558,6 +564,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "PSX",
+      "title": "Harmony Gold Mining Joins IBD Sector Leaders; 18 Other Stocks Graduate To IBD Watchlists",
+      "time": "Thu, 17 Sep 2026 22:22:00",
+      "sentiment": 0
+    },
+    {
       "ticker": "TGT",
       "title": "Target (TGT) Stock Fair Value Rises After Q2 Spurs Higher Analyst Targets",
       "time": "Fri, 18 Sep 2026 11:13:19",
@@ -589,8 +601,8 @@
     },
     {
       "ticker": "TGT",
-      "title": "Target Corp stock gains as Q2 earnings and guidance support rally",
-      "time": "Fri, 18 Sep 2026 08:25:49",
+      "title": "Should You Buy the Instacart Dip Even After Costco Just Let DoorDash In?",
+      "time": "Fri, 18 Sep 2026 20:50:00",
       "sentiment": 0
     },
     {
@@ -644,7 +656,7 @@
     {
       "ticker": "AMD",
       "title": "AMD stock rises on a rumor that could give it a 2027 GPU edge",
-      "time": "Fri, 18 Sep 2026 16:28:44",
+      "time": "Fri, 18 Sep 2026 15:32:40",
       "sentiment": 0
     },
     {
@@ -757,14 +769,14 @@
     },
     {
       "ticker": "ROST",
-      "title": "Ross Stores adds two directors, one board member to retire By Investing.com",
-      "time": "Thu, 17 Sep 2026 23:12:00",
+      "title": "Ross Stores stock edges lower as governance changes and insider sale draw attention",
+      "time": "Fri, 18 Sep 2026 20:57:38",
       "sentiment": 0
     },
     {
       "ticker": "ROST",
-      "title": "Ross Stores stock edges lower as governance changes and insider sale draw attention",
-      "time": "Fri, 18 Sep 2026 20:57:38",
+      "title": "Ross Stores adds two directors, one board member to retire By Investing.com",
+      "time": "Thu, 17 Sep 2026 22:59:44",
       "sentiment": 0
     },
     {
@@ -991,8 +1003,8 @@
     },
     {
       "ticker": "LLY",
-      "title": "FDA fully approves Inluriyo plus Verzenio combo for advanced ER+ breast cancer, doubling progression-free survival.",
-      "time": "Fri, 18 Sep 2026 18:06:27",
+      "title": "Can Eli Lilly’s Two-Drug Obesity Treatment Justify Its $1 Trillion Valuation?",
+      "time": "Fri, 18 Sep 2026 21:15:53",
       "sentiment": 0
     },
     {
@@ -1033,12 +1045,6 @@
     },
     {
       "ticker": "MDT",
-      "title": "Harry Skip Kiil Sells 1,483 Shares of Medtronic (NYSE:MDT) Stock",
-      "time": "Thu, 17 Sep 2026 21:27:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MDT",
       "title": "Medtronic PLC (MDT) Insider Sale: EVP & President Cardiovascular Harry Kiil Sells 1,483 Shares",
       "time": "Thu, 17 Sep 2026 22:55:08",
       "sentiment": 0
@@ -1057,8 +1063,8 @@
     },
     {
       "ticker": "MDT",
-      "title": "Medtronic corrects prospectus for MiniMed exchange offer, clarifies delivery deadline",
-      "time": "Thu, 17 Sep 2026 21:30:53",
+      "title": "Medtronic (MDT) Corrects Typographical Error in MiniMed Exchange Offer Prospectus",
+      "time": "Fri, 18 Sep 2026 03:03:53",
       "sentiment": 0
     },
     {
@@ -1099,8 +1105,8 @@
     },
     {
       "ticker": "NVO",
-      "title": "Congressman Ditches Magnificent Seven Stocks for Consumer Staples: Here's What He Bought",
-      "time": "Fri, 18 Sep 2026 20:12:53",
+      "title": "Can Eli Lilly’s Two-Drug Obesity Treatment Justify Its $1 Trillion Valuation?",
+      "time": "Fri, 18 Sep 2026 21:15:00",
       "sentiment": 0
     },
     {
@@ -1111,20 +1117,14 @@
     },
     {
       "ticker": "DE",
-      "title": "Why Is Deere (NYSE:DE) Back in the Industrial Stocks Spotlight?",
-      "time": "Thu, 17 Sep 2026 21:39:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DE",
       "title": "KUBTY vs. DE: Which Stock Is the Better Value Option?",
       "time": "Fri, 18 Sep 2026 15:40:02",
       "sentiment": 0
     },
     {
       "ticker": "DE",
-      "title": "Deere stock heads into the open after a modest gain",
-      "time": "Fri, 18 Sep 2026 03:30:57",
+      "title": "Why Is Deere (NYSE:DE) Key to S&P 500 Farm Machinery?",
+      "time": "Fri, 18 Sep 2026 05:39:00",
       "sentiment": 0
     },
     {
@@ -1177,14 +1177,14 @@
     },
     {
       "ticker": "AAPL",
-      "title": "AAPL Stock Heads For 5th Straight Weekly Gain: Evercore Sees Better-Than-Expected iPhone Refresh Cycle",
-      "time": "Fri, 18 Sep 2026 12:18:22",
+      "title": "Is Apple Inc. (NASDAQ:AAPL) Entering A New Bluechip Stocks Test?",
+      "time": "Fri, 18 Sep 2026 21:29:00",
       "sentiment": 0
     },
     {
       "ticker": "AAPL",
-      "title": "Apple Just Announced a Groundbreaking iPhone, but It Has Alienated a Key Market",
-      "time": "Fri, 18 Sep 2026 10:52:00",
+      "title": "AAPL Stock Heads For 5th Straight Weekly Gain: Evercore Sees Better-Than-Expected iPhone Refresh Cycle",
+      "time": "Fri, 18 Sep 2026 12:18:22",
       "sentiment": 0
     },
     {
