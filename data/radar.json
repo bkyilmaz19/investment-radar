@@ -1,115 +1,37 @@
 {
-  "generated_at_local": "18.09.2026 15:27 CEST",
-  "market_regime": "Risk-on / positives Momentum",
+  "generated_at_local": "18.09.2026 15:42 CEST",
+  "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
-  "summary": "Risk-on / positives Momentum. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 90,
+      "ticker": "GILD",
+      "name": "Gilead",
+      "score": 95,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.30%, 5T +4.43%, relatives Volumen 0.77x, ATR 2.28%",
-      "catalyst": "Alphabet Stock Holds $341 as Cloud Growth and Ad-Tech Relief Put $350.75 in Focus",
+      "thesis": "1T +2.17%, 5T +4.20%, relatives Volumen 1.58x, ATR 2.26%",
+      "catalyst": "Gilead Sciences Inc. stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +2.51%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.37,
-      "target_pct": 2.6,
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "stop_pct": 1.36,
+      "target_pct": 2.58,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.30%",
-      "change_5d": "+4.43%",
-      "volume_ratio": "0.77x",
-      "atr_pct": "2.28%",
-      "gap_pct": "+2.51%",
-      "premarket_move_pct": "+0.43%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 8175777114.97,
-      "bar_age_minutes": 2.1,
-      "vwap": null,
-      "opening_range_high": null,
+      "change_1d": "+2.17%",
+      "change_5d": "+4.20%",
+      "volume_ratio": "1.58x",
+      "atr_pct": "2.26%",
+      "gap_pct": "-0.10%",
+      "premarket_move_pct": "+0.94%",
+      "live_gap_pct": "+0.93%",
+      "regular_move_pct": "+1.08%",
+      "avg_dollar_volume": 796185787.11,
+      "bar_age_minutes": 2.3,
+      "vwap": 151.88,
+      "opening_range_high": 153.23,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Premarket",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.62%, 5T +6.07%, relatives Volumen 1.22x, ATR 2.86%",
-      "catalyst": "Evercore ISI raises Phillips 66 price target to $200",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.26%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.71,
-      "target_pct": 3.26,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.62%",
-      "change_5d": "+6.07%",
-      "volume_ratio": "1.22x",
-      "atr_pct": "2.86%",
-      "gap_pct": "+0.26%",
-      "premarket_move_pct": "+1.29%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 695125760.37,
-      "bar_age_minutes": 4.8,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
-      "score": 88,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.53%, 5T +9.14%, relatives Volumen 2.00x, ATR 2.35%",
-      "catalyst": "Thermo Fisher Scientific Inc. stock rises Thursday, outperforms market",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.49%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 1.41,
-      "target_pct": 2.67,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.53%",
-      "change_5d": "+9.14%",
-      "volume_ratio": "2.00x",
-      "atr_pct": "2.35%",
-      "gap_pct": "-0.49%",
-      "premarket_move_pct": "-0.52%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 1211787750.68,
-      "bar_age_minutes": 19.8,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Premarket",
+      "session_phase": "US-Handel live",
       "action_status": "WARTEN",
       "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
@@ -123,34 +45,73 @@
       }
     },
     {
-      "ticker": "GILD",
-      "name": "Gilead",
-      "score": 88,
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 92,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.17%, 5T +4.20%, relatives Volumen 1.58x, ATR 2.26%",
-      "catalyst": "Gilead Sciences Inc. stock outperforms competitors on strong trading day",
+      "thesis": "1T +1.30%, 5T +4.43%, relatives Volumen 0.77x, ATR 2.28%",
+      "catalyst": "Alphabet Stock Holds $341 as Cloud Growth and Ad-Tech Relief Put $350.75 in Focus",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.84%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 1.36,
-      "target_pct": 2.58,
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "stop_pct": 1.37,
+      "target_pct": 2.6,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.17%",
-      "change_5d": "+4.20%",
-      "volume_ratio": "1.58x",
-      "atr_pct": "2.26%",
-      "gap_pct": "-0.84%",
-      "premarket_move_pct": "+0.19%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 796185787.11,
-      "bar_age_minutes": 2.1,
-      "vwap": null,
-      "opening_range_high": null,
+      "change_1d": "+1.30%",
+      "change_5d": "+4.43%",
+      "volume_ratio": "0.77x",
+      "atr_pct": "2.28%",
+      "gap_pct": "+2.84%",
+      "premarket_move_pct": "+0.76%",
+      "live_gap_pct": "+3.21%",
+      "regular_move_pct": "+0.44%",
+      "avg_dollar_volume": 8175777114.97,
+      "bar_age_minutes": 2.3,
+      "vwap": 357.23,
+      "opening_range_high": 359.44,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Premarket",
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
+      "score": 88,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.53%, 5T +9.14%, relatives Volumen 2.00x, ATR 2.35%",
+      "catalyst": "Thermo Fisher Scientific Inc. stock rises Thursday, outperforms market",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "stop_pct": 1.41,
+      "target_pct": 2.67,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.53%",
+      "change_5d": "+9.14%",
+      "volume_ratio": "2.00x",
+      "atr_pct": "2.35%",
+      "gap_pct": "-0.50%",
+      "premarket_move_pct": "-0.53%",
+      "live_gap_pct": "-0.42%",
+      "regular_move_pct": "-0.45%",
+      "avg_dollar_volume": 1211787750.68,
+      "bar_age_minutes": 2.3,
+      "vwap": 655.95,
+      "opening_range_high": 658.52,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -158,18 +119,18 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
       }
     },
     {
       "ticker": "DHR",
       "name": "Danaher",
-      "score": 88,
+      "score": 86,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.99%, 5T +5.97%, relatives Volumen 1.80x, ATR 2.60%",
       "catalyst": "Danaher Corp. stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.47%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
       "stop_pct": 1.56,
       "target_pct": 2.97,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,17 +140,17 @@
       "atr_pct": "2.60%",
       "gap_pct": "-0.47%",
       "premarket_move_pct": "-0.47%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
+      "live_gap_pct": "-0.69%",
+      "regular_move_pct": "-0.22%",
       "avg_dollar_volume": 713553697.06,
-      "bar_age_minutes": 22.1,
-      "vwap": null,
-      "opening_range_high": null,
+      "bar_age_minutes": 2.3,
+      "vwap": 212.01,
+      "opening_range_high": 212.61,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Premarket",
+      "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -197,7 +158,46 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 86,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.62%, 5T +6.07%, relatives Volumen 1.22x, ATR 2.86%",
+      "catalyst": "Phillips 66 stock outperforms competitors on strong trading day",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "stop_pct": 1.71,
+      "target_pct": 3.26,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.62%",
+      "change_5d": "+6.07%",
+      "volume_ratio": "1.22x",
+      "atr_pct": "2.86%",
+      "gap_pct": "-0.43%",
+      "premarket_move_pct": "+0.59%",
+      "live_gap_pct": "-0.75%",
+      "regular_move_pct": "+0.06%",
+      "avg_dollar_volume": 695125760.37,
+      "bar_age_minutes": 2.3,
+      "vwap": 272.72,
+      "opening_range_high": 274.42,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
       }
     }
   ],
@@ -241,6 +241,12 @@
     },
     {
       "ticker": "PSX",
+      "title": "Phillips 66 stock outperforms competitors on strong trading day",
+      "time": "Thu, 17 Sep 2026 20:38:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "PSX",
       "title": "Evercore ISI raises Phillips 66 price target to $200",
       "time": "Thu, 17 Sep 2026 22:44:57",
       "sentiment": 1
@@ -276,6 +282,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "MRVL",
+      "title": "Can MRVL's Data Center Business Sustain Its Growth in 2027?",
+      "time": "Thu, 17 Sep 2026 14:17:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "ARM",
       "title": "Arm Holdings Stock Surges 8.6% as AGI CPU Demand Puts $270.39 Breakout in Focus",
       "time": "Fri, 18 Sep 2026 12:14:01",
@@ -286,12 +298,6 @@
       "title": "NKE, LULU, UAA, VFC Stocks In Focus: Apparel Giants Lose Billions As Once-Strong Brands Fight For A Comeback",
       "time": "Thu, 17 Sep 2026 23:06:40",
       "sentiment": 1
-    },
-    {
-      "ticker": "LULU",
-      "title": "KeyBanc notes Lululemon stock promotions rise, newness high By Investing.com",
-      "time": "Fri, 18 Sep 2026 10:23:16",
-      "sentiment": -1
     },
     {
       "ticker": "TSM",
@@ -313,15 +319,15 @@
     },
     {
       "ticker": "LLY",
-      "title": "Guggenheim raises Eli Lilly stock price target to $1,284 on drug growth",
-      "time": "Fri, 18 Sep 2026 11:34:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "LLY",
       "title": "LLY Shares Dive On Analyst Downgrade Citing Obesity Market Overestimation Concerns, But Retail Dismisses ‘Absurd’ Selloff",
       "time": "Thu, 17 Sep 2026 22:00:28",
       "sentiment": -1
+    },
+    {
+      "ticker": "LLY",
+      "title": "Guggenheim raises Eli Lilly stock price target to $1,284 on drug growth",
+      "time": "Fri, 18 Sep 2026 11:39:35",
+      "sentiment": 1
     },
     {
       "ticker": "LLY",
@@ -403,6 +409,12 @@
     },
     {
       "ticker": "MRK",
+      "title": "Nykredit A S Invests $92.32 Million in Merck & Co., Inc. $MRK",
+      "time": "Fri, 18 Sep 2026 07:39:53",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MRK",
       "title": "Merck’s combo cut the risk of progression, recurrence or death by 47% in a trial",
       "time": "Fri, 18 Sep 2026 10:57:21",
       "sentiment": 0
@@ -415,20 +427,14 @@
     },
     {
       "ticker": "MRK",
-      "title": "Nykredit A S Invests $92.32 Million in Merck & Co., Inc. $MRK",
-      "time": "Fri, 18 Sep 2026 07:39:53",
+      "title": "5 Stocks, 5 Different Industries, 1 Thing in Common: Reliable Income",
+      "time": "Fri, 18 Sep 2026 12:00:00",
       "sentiment": 0
     },
     {
       "ticker": "MRK",
       "title": "Why Is Merck (NYSE) Back in Focus Across Healthcare Stocks?",
       "time": "Thu, 17 Sep 2026 21:31:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MRK",
-      "title": "Moderna Stock Is Surging: What's Going On?",
-      "time": "Thu, 17 Sep 2026 17:02:27",
       "sentiment": 0
     },
     {
@@ -537,12 +543,6 @@
       "ticker": "PSX",
       "title": "Phillips 66 Executive Vice President Sold Shares Worth Over $6.2M",
       "time": "Thu, 17 Sep 2026 21:10:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PSX",
-      "title": "Analysts raise Phillips 66 targets to $240 and $235",
-      "time": "Thu, 17 Sep 2026 14:22:19",
       "sentiment": 0
     },
     {
@@ -828,12 +828,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "MRVL",
-      "title": "Marvell Jumps 5.2% as AI Optics Win More U.S. Capacity",
-      "time": "Thu, 17 Sep 2026 18:07:02",
-      "sentiment": 0
-    },
-    {
       "ticker": "ARM",
       "title": "Arm (ARM) Stock May Be Overvalued On Fresh AI Chip Revenue Confidence",
       "time": "Fri, 18 Sep 2026 07:36:03",
@@ -888,6 +882,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "LULU",
+      "title": "Lululemon Athletica Inc (LULU) Stock Up 3.5% and Still Undervalued -- GF Score: 74/100",
+      "time": "Thu, 17 Sep 2026 22:02:24",
+      "sentiment": 0
+    },
+    {
       "ticker": "TSM",
       "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 14% Overvalued As 2nm MediaTek Win Lands",
       "time": "Fri, 18 Sep 2026 03:17:00",
@@ -925,6 +925,12 @@
     },
     {
       "ticker": "MSFT",
+      "title": "What Did Microsoft Tell You Before Its Stock Ran?",
+      "time": "Fri, 18 Sep 2026 13:13:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
       "title": "MSFT Stock Holds Up Amid US-Iran Geopolitical Jitters: Retail Calls It ‘Safest Earnings Play’",
       "time": "Thu, 17 Sep 2026 21:28:11",
       "sentiment": 0
@@ -939,12 +945,6 @@
       "ticker": "MSFT",
       "title": "Watch 5 Stocks on Recent Dividend Hikes Amid Rising Rates & Volatility",
       "time": "Fri, 18 Sep 2026 11:42:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft (MSFT) Brings Governed Scientific Research Into Copilot And Microsoft 365",
-      "time": "Thu, 17 Sep 2026 18:59:15",
       "sentiment": 0
     },
     {
@@ -1135,14 +1135,14 @@
     },
     {
       "ticker": "DE",
-      "title": "Why Is Deere (NYSE:DE) Key to S&P 500 Farm Machinery?",
-      "time": "Fri, 18 Sep 2026 05:39:00",
+      "title": "Why Is Deere (NYSE:DE) Back in the Industrial Stocks Spotlight?",
+      "time": "Thu, 17 Sep 2026 21:39:00",
       "sentiment": 0
     },
     {
       "ticker": "DE",
-      "title": "Why Is Deere (NYSE:DE) Back in the Industrial Stocks Spotlight?",
-      "time": "Thu, 17 Sep 2026 21:39:00",
+      "title": "Why Is Deere (NYSE:DE) Key to S&P 500 Farm Machinery?",
+      "time": "Fri, 18 Sep 2026 05:39:00",
       "sentiment": 0
     },
     {
@@ -1183,6 +1183,12 @@
     },
     {
       "ticker": "AAPL",
+      "title": "Apple Stock: The $1,999 iPhone Hides A Bigger Problem (NASDAQ:AAPL)",
+      "time": "Fri, 18 Sep 2026 13:30:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAPL",
       "title": "Wall Street analyst sets Apple stock price target for 12 months",
       "time": "Thu, 17 Sep 2026 17:11:38",
       "sentiment": 0
@@ -1203,12 +1209,6 @@
       "ticker": "AAPL",
       "title": "Apple Just Announced a Groundbreaking iPhone, but It Has Alienated a Key Market",
       "time": "Fri, 18 Sep 2026 10:25:42",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Apple's Quality Is Tempting, But I'm Put Off By The Valuation (NASDAQ:AAPL)",
-      "time": "Thu, 17 Sep 2026 22:05:33",
       "sentiment": 0
     },
     {
@@ -1256,7 +1256,7 @@
     {
       "ticker": "GOOGL",
       "title": "GOOGL Stock Draws Bullish Targets As AI Bets Scale Up",
-      "time": "Fri, 18 Sep 2026 11:48:00",
+      "time": "Fri, 18 Sep 2026 13:18:00",
       "sentiment": 0
     },
     {
