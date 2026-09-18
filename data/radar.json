@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "18.09.2026 20:30 CEST",
+  "generated_at_local": "18.09.2026 20:44 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +2.17%, 5T +4.20%, relatives Volumen 1.58x, ATR 2.26%",
       "catalyst": "Gilead Strengthens HIV Growth Platform with Expanded Latin America Access",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.47%, seit Open +0.62%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.39%, seit Open +0.54%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.36,
       "target_pct": 2.58,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "2.26%",
       "gap_pct": "-0.10%",
       "premarket_move_pct": "+0.94%",
-      "live_gap_pct": "+0.47%",
-      "regular_move_pct": "+0.62%",
+      "live_gap_pct": "+0.39%",
+      "regular_move_pct": "+0.54%",
       "avg_dollar_volume": 796185787.11,
-      "bar_age_minutes": 0.5,
-      "vwap": 151.07,
+      "bar_age_minutes": 4.9,
+      "vwap": 151.08,
       "opening_range_high": 153.23,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -52,7 +52,7 @@
       "thesis": "1T +1.53%, 5T +9.14%, relatives Volumen 2.00x, ATR 2.35%",
       "catalyst": "Thermo Fisher Scientific (TMO) is Positioned for Resurgence",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.89%, seit Open -0.63%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.76%, seit Open -0.51%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.41,
       "target_pct": 2.67,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,12 +62,51 @@
       "atr_pct": "2.35%",
       "gap_pct": "-0.50%",
       "premarket_move_pct": "-0.53%",
-      "live_gap_pct": "-0.89%",
-      "regular_move_pct": "-0.63%",
+      "live_gap_pct": "-0.76%",
+      "regular_move_pct": "-0.51%",
       "avg_dollar_volume": 1211787750.68,
-      "bar_age_minutes": 0.5,
-      "vwap": 654.76,
+      "bar_age_minutes": 4.8,
+      "vwap": 654.67,
       "opening_range_high": 658.52,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck",
+      "score": 88,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.55%, 5T +1.69%, relatives Volumen 1.41x, ATR 2.03%",
+      "catalyst": "Merck Stock Nearly Doubled Without A Change In Its Revenue Growth",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.39%, seit Open -0.35%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.22,
+      "target_pct": 2.31,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.55%",
+      "change_5d": "+1.69%",
+      "volume_ratio": "1.41x",
+      "atr_pct": "2.03%",
+      "gap_pct": "-0.56%",
+      "premarket_move_pct": "-0.41%",
+      "live_gap_pct": "-0.39%",
+      "regular_move_pct": "-0.35%",
+      "avg_dollar_volume": 1471765174.74,
+      "bar_age_minutes": 4.8,
+      "vwap": 146.63,
+      "opening_range_high": 147.84,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -91,7 +130,7 @@
       "thesis": "1T +1.99%, 5T +5.97%, relatives Volumen 1.80x, ATR 2.60%",
       "catalyst": "Danaher Corp. stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.43%, seit Open -0.50%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.60%, seit Open -0.67%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.56,
       "target_pct": 2.97,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +140,11 @@
       "atr_pct": "2.60%",
       "gap_pct": "-0.24%",
       "premarket_move_pct": "-0.24%",
-      "live_gap_pct": "-0.43%",
-      "regular_move_pct": "-0.50%",
+      "live_gap_pct": "-0.60%",
+      "regular_move_pct": "-0.67%",
       "avg_dollar_volume": 713553697.06,
-      "bar_age_minutes": 0.5,
-      "vwap": 212.51,
+      "bar_age_minutes": 4.9,
+      "vwap": 212.46,
       "opening_range_high": 212.93,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -130,7 +169,7 @@
       "thesis": "1T +3.62%, 5T +6.07%, relatives Volumen 1.22x, ATR 2.86%",
       "catalyst": "Phillips 66 stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.88%, seit Open -0.16%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.82%, seit Open -0.10%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.71,
       "target_pct": 3.26,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,51 +179,12 @@
       "atr_pct": "2.86%",
       "gap_pct": "-0.08%",
       "premarket_move_pct": "+0.95%",
-      "live_gap_pct": "-0.88%",
-      "regular_move_pct": "-0.16%",
+      "live_gap_pct": "-0.82%",
+      "regular_move_pct": "-0.10%",
       "avg_dollar_volume": 695125760.37,
-      "bar_age_minutes": 0.5,
-      "vwap": 273.86,
+      "bar_age_minutes": 4.9,
+      "vwap": 273.82,
       "opening_range_high": 274.5,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "MRK",
-      "name": "Merck",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.55%, 5T +1.69%, relatives Volumen 1.41x, ATR 2.03%",
-      "catalyst": "Merck (MRK) Outperforms Broader Market: What You Need to Know",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.46%, seit Open -0.41%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.22,
-      "target_pct": 2.31,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.55%",
-      "change_5d": "+1.69%",
-      "volume_ratio": "1.41x",
-      "atr_pct": "2.03%",
-      "gap_pct": "-0.56%",
-      "premarket_move_pct": "-0.41%",
-      "live_gap_pct": "-0.46%",
-      "regular_move_pct": "-0.41%",
-      "avg_dollar_volume": 1471765174.74,
-      "bar_age_minutes": 0.5,
-      "vwap": 146.63,
-      "opening_range_high": 147.84,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -207,6 +207,12 @@
       "ticker": "DHR",
       "title": "Danaher Corp. stock outperforms competitors on strong trading day",
       "time": "Thu, 17 Sep 2026 20:36:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "MRK",
+      "title": "Merck Stock Nearly Doubled Without A Change In Its Revenue Growth",
+      "time": "Fri, 18 Sep 2026 18:07:45",
       "sentiment": 1
     },
     {
@@ -283,6 +289,12 @@
     },
     {
       "ticker": "ROST",
+      "title": "ROST Sees Strong Closeout Supply: Is Off-Price Set to Benefit?",
+      "time": "Fri, 18 Sep 2026 14:32:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "ROST",
       "title": "Ross Stores stock rises after strong Q2 results",
       "time": "Thu, 17 Sep 2026 21:41:43",
       "sentiment": 1
@@ -302,7 +314,7 @@
     {
       "ticker": "MRVL",
       "title": "What Do Marvell Technology (MRVL) New Partnerships Mean For AI And Payments?",
-      "time": "Thu, 17 Sep 2026 18:42:55",
+      "time": "Thu, 17 Sep 2026 18:45:15",
       "sentiment": 1
     },
     {
@@ -361,12 +373,6 @@
     },
     {
       "ticker": "NKE",
-      "title": "CNBC Host Says Berkshire Should Buy Iconic Consumer Brand After Stock Falls 75%",
-      "time": "Fri, 18 Sep 2026 14:41:00",
-      "sentiment": -1
-    },
-    {
-      "ticker": "NKE",
       "title": "Nike Stock Slumps After Mbappe Signs With New Rival",
       "time": "Fri, 18 Sep 2026 14:12:24",
       "sentiment": -1
@@ -375,6 +381,12 @@
       "ticker": "NVO",
       "title": "A weekly shot may become Europe’s first approved growth-hormone treatment for children with unexplained shortness",
       "time": "Fri, 18 Sep 2026 10:36:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "NVO",
+      "title": "Novo-Nordisk stock heads into the open after a strong 3.5 percent gain",
+      "time": "Fri, 18 Sep 2026 05:35:03",
       "sentiment": 1
     },
     {
@@ -433,12 +445,6 @@
     },
     {
       "ticker": "MRK",
-      "title": "Nykredit A S Invests $92.32 Million in Merck & Co., Inc. $MRK",
-      "time": "Fri, 18 Sep 2026 07:39:53",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MRK",
       "title": "Merck’s combo cut the risk of progression, recurrence or death by 47% in a trial",
       "time": "Fri, 18 Sep 2026 10:57:21",
       "sentiment": 0
@@ -451,14 +457,14 @@
     },
     {
       "ticker": "MRK",
-      "title": "5 Stocks, 5 Different Industries, 1 Thing in Common: Reliable Income",
-      "time": "Fri, 18 Sep 2026 12:00:00",
+      "title": "Nykredit A S Invests $92.32 Million in Merck & Co., Inc. $MRK",
+      "time": "Fri, 18 Sep 2026 07:39:53",
       "sentiment": 0
     },
     {
       "ticker": "MRK",
-      "title": "MRK Looks 21.6% Overvalued on GF Value™ as Dividend Sustainabili",
-      "time": "Fri, 18 Sep 2026 15:02:36",
+      "title": "Merck, Astra, Roche and Corcept among winners of EU drug recommendations this week",
+      "time": "Fri, 18 Sep 2026 13:50:17",
       "sentiment": 0
     },
     {
@@ -565,8 +571,8 @@
     },
     {
       "ticker": "TGT",
-      "title": "How Investors May Respond To Target (TGT) New Stores And Brand Launches",
-      "time": "Thu, 17 Sep 2026 18:36:36",
+      "title": "Is Target Corp (TGT) Overvalued After 3.3% Rally? GF Value Says",
+      "time": "Thu, 17 Sep 2026 21:41:34",
       "sentiment": 0
     },
     {
@@ -577,8 +583,8 @@
     },
     {
       "ticker": "TGT",
-      "title": "Is Target Corp (TGT) Overvalued After 3.3% Rally? GF Value Says",
-      "time": "Thu, 17 Sep 2026 21:41:34",
+      "title": "Pokémon has turned 30, and Target is set to cash in on the anniversary craze",
+      "time": "Thu, 17 Sep 2026 20:13:00",
       "sentiment": 0
     },
     {
@@ -637,14 +643,14 @@
     },
     {
       "ticker": "AMD",
-      "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
-      "time": "Thu, 17 Sep 2026 20:21:00",
+      "title": "AMD stock rises on a rumor that could give it a 2027 GPU edge",
+      "time": "Fri, 18 Sep 2026 16:28:44",
       "sentiment": 0
     },
     {
       "ticker": "AMD",
-      "title": "AMD stock rises on a rumor that could give it a 2027 GPU edge",
-      "time": "Fri, 18 Sep 2026 16:28:44",
+      "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
+      "time": "Thu, 17 Sep 2026 20:21:00",
       "sentiment": 0
     },
     {
@@ -679,8 +685,8 @@
     },
     {
       "ticker": "JNJ",
-      "title": "J&J Up 18% in Three Months: Buy, Sell or Hold the Stock?",
-      "time": "Fri, 18 Sep 2026 13:05:00",
+      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
+      "time": "Fri, 18 Sep 2026 16:48:46",
       "sentiment": 0
     },
     {
@@ -757,12 +763,6 @@
     },
     {
       "ticker": "ROST",
-      "title": "Long-time Ross Stores (NASDAQ: ROST) director to retire as board expands to 10 seats",
-      "time": "Thu, 17 Sep 2026 20:04:22",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ROST",
       "title": "Ross Stores CEO & Director James Conroy Sells 27% Of Holding",
       "time": "Fri, 18 Sep 2026 12:21:54",
       "sentiment": 0
@@ -823,8 +823,8 @@
     },
     {
       "ticker": "MRVL",
-      "title": "AEHR, INTC, MRVL Stocks Hit 52-Week Highs Today: What's Driving The Rally?",
-      "time": "Thu, 17 Sep 2026 22:20:45",
+      "title": "Why Is Marvell Technology (NASDAQ:MRVL) Back In The AI Stocks Spotlight?",
+      "time": "Thu, 17 Sep 2026 19:05:00",
       "sentiment": 0
     },
     {
@@ -883,8 +883,8 @@
     },
     {
       "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 14% Overvalued As 2nm MediaTek Win Lands",
-      "time": "Fri, 18 Sep 2026 03:17:00",
+      "title": "Why Is Taiwan Semiconductor Manufacturing (TSM) Ramping 2nm Production And Spending More?",
+      "time": "Fri, 18 Sep 2026 10:12:22",
       "sentiment": 0
     },
     {
@@ -901,14 +901,20 @@
     },
     {
       "ticker": "TSM",
+      "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 14% Overvalued As 2nm MediaTek Win Lands",
+      "time": "Fri, 18 Sep 2026 03:17:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSM",
       "title": "Taiwan Semiconductor Manufacturing stock gains as 2-nanometer win and expansion plans highlight grow",
       "time": "Fri, 18 Sep 2026 10:32:11",
       "sentiment": 0
     },
     {
-      "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Closed Up by 3.00% on Sep 17: A Full Analysis",
-      "time": "Thu, 17 Sep 2026 20:15:27",
+      "ticker": "MSFT",
+      "title": "Microsoft Corporation (MSFT) is Attracting Investor Attention: Here is What You Should Know",
+      "time": "Fri, 18 Sep 2026 13:00:04",
       "sentiment": 0
     },
     {
@@ -930,15 +936,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "MSFT",
-      "title": "Microsoft: Distribution Advantage Worth More Than Another Model Breakthrough (NASDAQ:MSFT)",
-      "time": "Fri, 18 Sep 2026 13:57:28",
+      "ticker": "PLTR",
+      "title": "Prediction: This Will Be Palantir's Stock Price 1 Year From Now (Hint: It's a Bigger Move Than You Think)",
+      "time": "Fri, 18 Sep 2026 09:30:00",
       "sentiment": 0
     },
     {
       "ticker": "PLTR",
-      "title": "Prediction: This Will Be Palantir's Stock Price 1 Year From Now (Hint: It's a Bigger Move Than You Think)",
-      "time": "Fri, 18 Sep 2026 09:30:00",
+      "title": "Is Palantir’s Lead Over Its Peers Already Priced In?",
+      "time": "Fri, 18 Sep 2026 18:00:18",
       "sentiment": 0
     },
     {
@@ -957,12 +963,6 @@
       "ticker": "PLTR",
       "title": "Palantir Stock: The AI Token Boom Is Hiding A Bigger Opportunity",
       "time": "Thu, 17 Sep 2026 20:02:45",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Technologies (PLTR) Director Alexander Moore Sells 16,0",
-      "time": "Fri, 18 Sep 2026 04:18:15",
       "sentiment": 0
     },
     {
@@ -1003,26 +1003,26 @@
     },
     {
       "ticker": "INTC",
+      "title": "SK Hynix Negotiates Landmark Memory Chip Manufacturing Deal With Intel",
+      "time": "Fri, 18 Sep 2026 10:32:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "INTC",
       "title": "Why Is Intel Stock Gaining Friday?",
       "time": "Fri, 18 Sep 2026 11:55:33",
       "sentiment": 0
     },
     {
       "ticker": "INTC",
+      "title": "Why Micron Stock Is Jumping as Intel CEO Warns on Memory Chips",
+      "time": "Fri, 18 Sep 2026 00:53:34",
+      "sentiment": 0
+    },
+    {
+      "ticker": "INTC",
       "title": "Nykredit A S Makes New Investment in Intel Corporation $INTC",
       "time": "Fri, 18 Sep 2026 08:23:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "INTC",
-      "title": "Intel advances 8%, adding to prior day's gains (INTC:NASDAQ)",
-      "time": "Thu, 17 Sep 2026 20:26:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "INTC",
-      "title": "Why Micron Stock Is Jumping as Intel CEO Warns on Memory Chips",
-      "time": "Thu, 17 Sep 2026 19:08:00",
       "sentiment": 0
     },
     {
@@ -1069,20 +1069,26 @@
     },
     {
       "ticker": "NKE",
+      "title": "NKE Stock Rises Overnight: LVMH Scion Alexandre Arnault Joins Nike Board As Sportswear Giant Struggles To Turn Around",
+      "time": "Fri, 18 Sep 2026 16:48:55",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NKE",
       "title": "Nike Stock Edges Higher After Appointing LVMH Executive Alexandre Arnault to Board",
       "time": "Fri, 18 Sep 2026 10:32:40",
       "sentiment": 0
     },
     {
       "ticker": "NKE",
-      "title": "Why Did OPEN, NKE, CCL Stocks Crash To 52-Week Lows Today?",
-      "time": "Fri, 18 Sep 2026 05:51:47",
+      "title": "Nike (NKE) Shareholders Side with the Board Over Norway’s Wealth Fund on Climate Disclosure",
+      "time": "Thu, 17 Sep 2026 22:02:54",
       "sentiment": 0
     },
     {
       "ticker": "NKE",
-      "title": "Nike (NKE) Shareholders Side with the Board Over Norway’s Wealth Fund on Climate Disclosure",
-      "time": "Thu, 17 Sep 2026 22:02:54",
+      "title": "NIKE (NYSE: NKE) grants director 5,171 restricted shares",
+      "time": "Thu, 17 Sep 2026 20:34:26",
       "sentiment": 0
     },
     {
@@ -1095,12 +1101,6 @@
       "ticker": "NVO",
       "title": "Is It Too Late to Buy Novo Nordisk AS (NVO) After 3.5% Rally? GF Value Says Undervalued",
       "time": "Thu, 17 Sep 2026 21:24:57",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NVO",
-      "title": "NVO Stock Jumps 4% As European Committee Backs Novo’s Haemophilia Pen",
-      "time": "Thu, 17 Sep 2026 18:38:40",
       "sentiment": 0
     },
     {
@@ -1177,14 +1177,14 @@
     },
     {
       "ticker": "AAPL",
-      "title": "Apple Stock Has a New Opportunity Investors Can’t Afford to Ignore",
-      "time": "Fri, 18 Sep 2026 15:30:00",
+      "title": "Apple Stock: The $1,999 iPhone Hides A Bigger Problem (NASDAQ:AAPL)",
+      "time": "Fri, 18 Sep 2026 13:30:00",
       "sentiment": 0
     },
     {
       "ticker": "AAPL",
-      "title": "Apple Stock: The $1,999 iPhone Hides A Bigger Problem (NASDAQ:AAPL)",
-      "time": "Fri, 18 Sep 2026 13:30:00",
+      "title": "Apple Stock Has a New Opportunity Investors Can’t Afford to Ignore",
+      "time": "Fri, 18 Sep 2026 15:30:00",
       "sentiment": 0
     },
     {
@@ -1225,20 +1225,26 @@
     },
     {
       "ticker": "META",
-      "title": "Meta: Firm Settles Teen Social Media Case for $17 Billion, Lifting Uncertainty",
-      "time": "Fri, 18 Sep 2026 07:19:01",
+      "title": "Step Aside, Nvidia: 1 Reason Why Meta Platforms Could Be the Best AI Stock to Buy in 2026.",
+      "time": "Fri, 18 Sep 2026 13:16:00",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Step Aside, Nvidia: 1 Reason Why Meta Platforms Could Be the Best AI Stock to Buy in 2026.",
-      "time": "Fri, 18 Sep 2026 13:16:00",
+      "title": "Meta's Muse Will Be A Game Changer (NASDAQ:META)",
+      "time": "Fri, 18 Sep 2026 14:55:13",
       "sentiment": 0
     },
     {
       "ticker": "GOOGL",
       "title": "Alphabet Stock Stays Flat - Ideal for GOOGL Short Put and Put Credit Spread Plays",
       "time": "Fri, 18 Sep 2026 13:15:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Why Alphabet Stock Popped This Morning",
+      "time": "Fri, 18 Sep 2026 15:41:41",
       "sentiment": 0
     },
     {
@@ -1251,12 +1257,6 @@
       "ticker": "GOOGL",
       "title": "GOOGL Stock Draws Bullish Targets As AI Bets Scale Up",
       "time": "Fri, 18 Sep 2026 13:18:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "Alphabet GOOGL Stock Draws Fresh AI Price Target Hikes",
-      "time": "Fri, 18 Sep 2026 12:34:00",
       "sentiment": 0
     }
   ]
