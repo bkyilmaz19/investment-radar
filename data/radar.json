@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "18.09.2026 19:51 CEST",
+  "generated_at_local": "18.09.2026 20:12 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -8,12 +8,12 @@
     {
       "ticker": "GILD",
       "name": "Gilead",
-      "score": 89,
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +2.17%, 5T +4.20%, relatives Volumen 1.58x, ATR 2.26%",
       "catalyst": "Gilead Strengthens HIV Growth Platform with Expanded Latin America Access",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.03%, seit Open +0.19%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.13%, seit Open +0.29%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.36,
       "target_pct": 2.58,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,10 +23,10 @@
       "atr_pct": "2.26%",
       "gap_pct": "-0.10%",
       "premarket_move_pct": "+0.94%",
-      "live_gap_pct": "+0.03%",
-      "regular_move_pct": "+0.19%",
+      "live_gap_pct": "+0.13%",
+      "regular_move_pct": "+0.29%",
       "avg_dollar_volume": 796185787.11,
-      "bar_age_minutes": 1.4,
+      "bar_age_minutes": 2.4,
       "vwap": 151.06,
       "opening_range_high": 153.23,
       "opening_range_ready": true,
@@ -45,6 +45,45 @@
       }
     },
     {
+      "ticker": "TMO",
+      "name": "Thermo Fisher",
+      "score": 89,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.53%, 5T +9.14%, relatives Volumen 2.00x, ATR 2.35%",
+      "catalyst": "Thermo Fisher Scientific (TMO) is Positioned for Resurgence",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -1.17%, seit Open -0.91%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.41,
+      "target_pct": 2.67,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.53%",
+      "change_5d": "+9.14%",
+      "volume_ratio": "2.00x",
+      "atr_pct": "2.35%",
+      "gap_pct": "-0.50%",
+      "premarket_move_pct": "-0.53%",
+      "live_gap_pct": "-1.17%",
+      "regular_move_pct": "-0.91%",
+      "avg_dollar_volume": 1211787750.68,
+      "bar_age_minutes": 2.4,
+      "vwap": 654.85,
+      "opening_range_high": 658.52,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": false,
+        "confirmation_ok": false
+      }
+    },
+    {
       "ticker": "DHR",
       "name": "Danaher",
       "score": 86,
@@ -52,7 +91,7 @@
       "thesis": "1T +1.99%, 5T +5.97%, relatives Volumen 1.80x, ATR 2.60%",
       "catalyst": "Danaher Corp. stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.78%, seit Open -0.85%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.64%, seit Open -0.71%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.56,
       "target_pct": 2.97,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +101,11 @@
       "atr_pct": "2.60%",
       "gap_pct": "-0.24%",
       "premarket_move_pct": "-0.24%",
-      "live_gap_pct": "-0.78%",
-      "regular_move_pct": "-0.85%",
+      "live_gap_pct": "-0.64%",
+      "regular_move_pct": "-0.71%",
       "avg_dollar_volume": 713553697.06,
-      "bar_age_minutes": 1.4,
-      "vwap": 212.59,
+      "bar_age_minutes": 2.4,
+      "vwap": 212.55,
       "opening_range_high": 212.93,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -84,29 +123,29 @@
       }
     },
     {
-      "ticker": "MRK",
-      "name": "Merck",
-      "score": 85,
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "score": 86,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.55%, 5T +1.69%, relatives Volumen 1.41x, ATR 2.03%",
-      "catalyst": "Merck (MRK) Outperforms Broader Market: What You Need to Know",
+      "thesis": "1T +3.62%, 5T +6.07%, relatives Volumen 1.22x, ATR 2.86%",
+      "catalyst": "Phillips 66 stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.60%, seit Open -0.56%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.22,
-      "target_pct": 2.31,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.97%, seit Open -0.25%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.71,
+      "target_pct": 3.26,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.55%",
-      "change_5d": "+1.69%",
-      "volume_ratio": "1.41x",
-      "atr_pct": "2.03%",
-      "gap_pct": "-0.56%",
-      "premarket_move_pct": "-0.41%",
-      "live_gap_pct": "-0.60%",
-      "regular_move_pct": "-0.56%",
-      "avg_dollar_volume": 1471765174.74,
-      "bar_age_minutes": 1.4,
-      "vwap": 146.65,
-      "opening_range_high": 147.84,
+      "change_1d": "+3.62%",
+      "change_5d": "+6.07%",
+      "volume_ratio": "1.22x",
+      "atr_pct": "2.86%",
+      "gap_pct": "-0.08%",
+      "premarket_move_pct": "+0.95%",
+      "live_gap_pct": "-0.97%",
+      "regular_move_pct": "-0.25%",
+      "avg_dollar_volume": 695125760.37,
+      "bar_age_minutes": 2.4,
+      "vwap": 273.93,
+      "opening_range_high": 274.5,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -123,29 +162,29 @@
       }
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "score": 84,
+      "ticker": "ARM",
+      "name": "Arm Holdings",
+      "score": 86,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +6.36%, 5T +8.24%, relatives Volumen 1.43x, ATR 4.03%",
-      "catalyst": "Prediction: AMD’s Biggest Growth Opportunity May Still Be Ahead",
+      "thesis": "1T +8.57%, 5T +4.22%, relatives Volumen 1.45x, ATR 5.57%",
+      "catalyst": "Arm Holdings Stock Surges 8.6% as AGI CPU Demand Puts $270.39 Breakout in Focus",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.22%, seit Open -0.23%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 2.42,
-      "target_pct": 4.6,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.02%, seit Open -0.75%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 3.0,
+      "target_pct": 5.7,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+6.36%",
-      "change_5d": "+8.24%",
-      "volume_ratio": "1.43x",
-      "atr_pct": "4.03%",
-      "gap_pct": "+0.46%",
-      "premarket_move_pct": "-1.16%",
-      "live_gap_pct": "+0.22%",
-      "regular_move_pct": "-0.23%",
-      "avg_dollar_volume": 8945511138.32,
-      "bar_age_minutes": 1.4,
-      "vwap": 546.55,
-      "opening_range_high": 550.0,
+      "change_1d": "+8.57%",
+      "change_5d": "+4.22%",
+      "volume_ratio": "1.45x",
+      "atr_pct": "5.57%",
+      "gap_pct": "+1.53%",
+      "premarket_move_pct": "-1.84%",
+      "live_gap_pct": "+1.02%",
+      "regular_move_pct": "-0.75%",
+      "avg_dollar_volume": 963123412.42,
+      "bar_age_minutes": 2.4,
+      "vwap": 266.69,
+      "opening_range_high": 269.99,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -158,45 +197,6 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
-      "score": 84,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.53%, 5T +9.14%, relatives Volumen 2.00x, ATR 2.35%",
-      "catalyst": "Thermo Fisher Scientific (TMO) is Positioned for Resurgence",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -1.27%, seit Open -1.02%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.41,
-      "target_pct": 2.67,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.53%",
-      "change_5d": "+9.14%",
-      "volume_ratio": "2.00x",
-      "atr_pct": "2.35%",
-      "gap_pct": "-0.50%",
-      "premarket_move_pct": "-0.53%",
-      "live_gap_pct": "-1.27%",
-      "regular_move_pct": "-1.02%",
-      "avg_dollar_volume": 1211787750.68,
-      "bar_age_minutes": 1.4,
-      "vwap": 655.01,
-      "opening_range_high": 658.52,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
         "confirmation_ok": false
       }
     }
@@ -261,6 +261,12 @@
       "ticker": "PSX",
       "title": "Phillips 66 stock outperforms competitors on strong trading day",
       "time": "Thu, 17 Sep 2026 20:38:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "PSX",
+      "title": "Evercore ISI raises Phillips 66 price target to $200",
+      "time": "Thu, 17 Sep 2026 22:44:57",
       "sentiment": 1
     },
     {
@@ -337,9 +343,9 @@
     },
     {
       "ticker": "LLY",
-      "title": "Eli Lilly Diabetes Drug Franchise Remains Strong, Analyst Praises Foundayo Trajectory",
-      "time": "Fri, 18 Sep 2026 16:00:23",
-      "sentiment": 1
+      "title": "LLY Shares Dive On Analyst Downgrade Citing Obesity Market Overestimation Concerns, But Retail Dismisses ‘Absurd’ Selloff",
+      "time": "Thu, 17 Sep 2026 22:00:28",
+      "sentiment": -1
     },
     {
       "ticker": "NKE",
@@ -433,14 +439,14 @@
     },
     {
       "ticker": "MRK",
-      "title": "Merck, Astra, Roche and Corcept among winners of EU drug recommendations this week",
-      "time": "Fri, 18 Sep 2026 13:50:17",
+      "title": "5 Stocks, 5 Different Industries, 1 Thing in Common: Reliable Income",
+      "time": "Fri, 18 Sep 2026 12:00:00",
       "sentiment": 0
     },
     {
       "ticker": "MRK",
-      "title": "Why Is Merck (NYSE) Back in Focus Across Healthcare Stocks?",
-      "time": "Thu, 17 Sep 2026 21:31:00",
+      "title": "MRK Looks 21.6% Overvalued on GF Value™ as Dividend Sustainabili",
+      "time": "Fri, 18 Sep 2026 15:02:36",
       "sentiment": 0
     },
     {
@@ -519,12 +525,6 @@
       "ticker": "PSX",
       "title": "Phillips 66 (NYSE: PSX) insider sells stock at about $265 after option exercise",
       "time": "Thu, 17 Sep 2026 21:09:40",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PSX",
-      "title": "Phillips 66 Executive Vice President Sold Shares Worth Over $6.2M",
-      "time": "Thu, 17 Sep 2026 21:10:05",
       "sentiment": 0
     },
     {
@@ -625,14 +625,14 @@
     },
     {
       "ticker": "AMD",
-      "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
-      "time": "Thu, 17 Sep 2026 20:21:00",
+      "title": "AMD stock rises on a rumor that could give it a 2027 GPU edge",
+      "time": "Fri, 18 Sep 2026 16:28:44",
       "sentiment": 0
     },
     {
       "ticker": "AMD",
-      "title": "AMD stock rises on a rumor that could give it a 2027 GPU edge",
-      "time": "Fri, 18 Sep 2026 16:28:44",
+      "title": "AMD Leads Chip Stocks Higher Amid Sector Rebound",
+      "time": "Thu, 17 Sep 2026 20:21:00",
       "sentiment": 0
     },
     {
@@ -709,14 +709,14 @@
     },
     {
       "ticker": "NXPI",
-      "title": "Is It Worth Investing in NXP (NXPI) Based on Wall Street's Bullish Views?",
-      "time": "Fri, 18 Sep 2026 13:30:03",
+      "title": "NXP Semiconductors' COO Sells 1,000 Shares",
+      "time": "Fri, 18 Sep 2026 17:45:01",
       "sentiment": 0
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors' COO Sells 1,000 Shares",
-      "time": "Fri, 18 Sep 2026 17:39:59",
+      "title": "Is It Worth Investing in NXP (NXPI) Based on Wall Street's Bullish Views?",
+      "time": "Fri, 18 Sep 2026 13:30:03",
       "sentiment": 0
     },
     {
@@ -769,12 +769,6 @@
     },
     {
       "ticker": "AZN",
-      "title": "AstraZeneca's cancer drug cut recurrence or death risk by 53%. EU committee recommends it.",
-      "time": "Fri, 18 Sep 2026 12:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AZN",
       "title": "Why is AstraZeneca (LSE:AZN) in focus as recent late-stage trial update and oncology pipeline focus?",
       "time": "Fri, 18 Sep 2026 08:50:00",
       "sentiment": 0
@@ -789,6 +783,18 @@
       "ticker": "AZN",
       "title": "Could AstraZeneca (LSE:AZN) draw attention as recent late-stage trial update and oncology pipeline focus?",
       "time": "Fri, 18 Sep 2026 08:51:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AZN",
+      "title": "AstraZeneca Gains as Enhertu Clears England's Value Gate",
+      "time": "Thu, 17 Sep 2026 19:16:44",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MRVL",
+      "title": "Wall Street analyst sets Marvell (MRVL) stock price target for 12 months",
+      "time": "Fri, 18 Sep 2026 18:02:54",
       "sentiment": 0
     },
     {
@@ -807,12 +813,6 @@
       "ticker": "MRVL",
       "title": "AEHR, INTC, MRVL Stocks Hit 52-Week Highs Today: What's Driving The Rally?",
       "time": "Thu, 17 Sep 2026 22:20:45",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MRVL",
-      "title": "Marvell Jumps 5.2% as AI Optics Win More U.S. Capacity",
-      "time": "Thu, 17 Sep 2026 18:07:02",
       "sentiment": 0
     },
     {
@@ -889,8 +889,8 @@
     },
     {
       "ticker": "TSM",
-      "title": "TSMC (TSM) Stock Forecast: June Revenue Up 68%, Q2 Earnings Tomorrow; Is $438 the Next Stop?",
-      "time": "Fri, 18 Sep 2026 06:27:03",
+      "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 14% Overvalued As 2nm MediaTek Win Lands",
+      "time": "Fri, 18 Sep 2026 03:17:00",
       "sentiment": 0
     },
     {
@@ -901,14 +901,20 @@
     },
     {
       "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 14% Overvalued As 2nm MediaTek Win Lands",
-      "time": "Fri, 18 Sep 2026 03:17:00",
+      "title": "Taiwan Semiconductor Manufacturing stock gains as 2-nanometer win and expansion plans highlight grow",
+      "time": "Fri, 18 Sep 2026 10:32:11",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing stock gains as 2-nanometer win and expansion plans highlight grow",
-      "time": "Fri, 18 Sep 2026 10:32:11",
+      "title": "Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Closed Up by 3.00% on Sep 17: A Full Analysis",
+      "time": "Thu, 17 Sep 2026 20:15:27",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Corporation (MSFT) is Attracting Investor Attention: Here is What You Should Know",
+      "time": "Fri, 18 Sep 2026 13:00:04",
       "sentiment": 0
     },
     {
@@ -927,12 +933,6 @@
       "ticker": "MSFT",
       "title": "Microsoft: Distribution Advantage Worth More Than Another Model Breakthrough (NASDAQ:MSFT)",
       "time": "Fri, 18 Sep 2026 13:57:28",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week: AAPL, MU, MSFT, INFQ, RKLB",
-      "time": "Fri, 18 Sep 2026 00:49:38",
       "sentiment": 0
     },
     {
@@ -997,6 +997,24 @@
     },
     {
       "ticker": "INTC",
+      "title": "Why Intel Stock Jumped 7.6% Today",
+      "time": "Thu, 17 Sep 2026 23:24:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "INTC",
+      "title": "SK Hynix Negotiates Landmark Memory Chip Manufacturing Deal With Intel",
+      "time": "Fri, 18 Sep 2026 10:32:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "INTC",
+      "title": "Arm vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
+      "time": "Fri, 18 Sep 2026 15:29:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "INTC",
       "title": "Why Is Intel Stock Gaining Friday?",
       "time": "Fri, 18 Sep 2026 11:55:33",
       "sentiment": 0
@@ -1005,24 +1023,6 @@
       "ticker": "INTC",
       "title": "Nykredit A S Makes New Investment in Intel Corporation $INTC",
       "time": "Fri, 18 Sep 2026 08:23:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "INTC",
-      "title": "Intel advances 8%, adding to prior day's gains (INTC:NASDAQ)",
-      "time": "Thu, 17 Sep 2026 20:26:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "INTC",
-      "title": "Why Micron Stock Is Jumping as Intel CEO Warns on Memory Chips",
-      "time": "Thu, 17 Sep 2026 19:08:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "INTC",
-      "title": "Why Intel Stock Jumped 7.6% Today",
-      "time": "Thu, 17 Sep 2026 23:24:00",
       "sentiment": 0
     },
     {
@@ -1100,7 +1100,7 @@
     {
       "ticker": "NVO",
       "title": "NVO Stock Jumps 4% As European Committee Backs Novo’s Haemophilia Pen",
-      "time": "Thu, 17 Sep 2026 18:38:40",
+      "time": "Thu, 17 Sep 2026 19:31:54",
       "sentiment": 0
     },
     {
@@ -1147,12 +1147,6 @@
     },
     {
       "ticker": "GSK",
-      "title": "Precigen (PGEN) Stock May Be Fully Valued On Its Current Sales Base",
-      "time": "Fri, 18 Sep 2026 10:10:20",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GSK",
       "title": "What Matters Now for GSK plc (LSE:GSK)?",
       "time": "Fri, 18 Sep 2026 13:36:00",
       "sentiment": 0
@@ -1167,6 +1161,12 @@
       "ticker": "GSK",
       "title": "HUTCHMED (China) Limited stock gains on GSK licensing deal for cancer drug HMPL-A830",
       "time": "Thu, 17 Sep 2026 18:14:37",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GSK",
+      "title": "Precigen (PGEN) Stock May Be Fully Valued On Its Current Sales Base",
+      "time": "Fri, 18 Sep 2026 10:10:20",
       "sentiment": 0
     },
     {
@@ -1189,8 +1189,8 @@
     },
     {
       "ticker": "AAPL",
-      "title": "Apple stock: Analysts see upside as iPhone 18 Pro sales begin",
-      "time": "Fri, 18 Sep 2026 13:55:55",
+      "title": "Apple TV's Emmy Sweep Adds Momentum to AAPL's Services Business",
+      "time": "Fri, 18 Sep 2026 16:20:00",
       "sentiment": 0
     },
     {
