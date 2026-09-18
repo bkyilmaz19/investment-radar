@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "18.09.2026 20:44 CEST",
+  "generated_at_local": "18.09.2026 20:55 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +2.17%, 5T +4.20%, relatives Volumen 1.58x, ATR 2.26%",
       "catalyst": "Gilead Strengthens HIV Growth Platform with Expanded Latin America Access",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.39%, seit Open +0.54%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.42%, seit Open +0.57%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.36,
       "target_pct": 2.58,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "2.26%",
       "gap_pct": "-0.10%",
       "premarket_move_pct": "+0.94%",
-      "live_gap_pct": "+0.39%",
-      "regular_move_pct": "+0.54%",
+      "live_gap_pct": "+0.42%",
+      "regular_move_pct": "+0.57%",
       "avg_dollar_volume": 796185787.11,
-      "bar_age_minutes": 4.9,
-      "vwap": 151.08,
+      "bar_age_minutes": 0.4,
+      "vwap": 151.09,
       "opening_range_high": 153.23,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -45,14 +45,92 @@
       }
     },
     {
+      "ticker": "NVO",
+      "name": "Novo Nordisk",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.55%, 5T -1.86%, relatives Volumen 1.45x, ATR 2.73%",
+      "catalyst": "A weekly shot may become Europe’s first approved growth-hormone treatment for children with unexplained shortness",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.73%, seit Open +0.01%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.64,
+      "target_pct": 3.11,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.55%",
+      "change_5d": "-1.86%",
+      "volume_ratio": "1.45x",
+      "atr_pct": "2.73%",
+      "gap_pct": "+0.90%",
+      "premarket_move_pct": "+1.27%",
+      "live_gap_pct": "+0.73%",
+      "regular_move_pct": "+0.01%",
+      "avg_dollar_volume": 450786434.56,
+      "bar_age_minutes": 0.4,
+      "vwap": 43.15,
+      "opening_range_high": 43.5,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": false,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.28%, 5T +2.62%, relatives Volumen 1.02x, ATR 2.21%",
+      "catalyst": "Guggenheim raises Eli Lilly stock price target to $1,284 on drug growth",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.24%, seit Open +0.45%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.33,
+      "target_pct": 2.52,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.28%",
+      "change_5d": "+2.62%",
+      "volume_ratio": "1.02x",
+      "atr_pct": "2.21%",
+      "gap_pct": "-0.36%",
+      "premarket_move_pct": "-0.38%",
+      "live_gap_pct": "+0.24%",
+      "regular_move_pct": "+0.45%",
+      "avg_dollar_volume": 2664677280.73,
+      "bar_age_minutes": 0.4,
+      "vwap": 1148.67,
+      "opening_range_high": 1157.6,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
       "ticker": "TMO",
       "name": "Thermo Fisher",
-      "score": 90,
+      "score": 89,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.53%, 5T +9.14%, relatives Volumen 2.00x, ATR 2.35%",
       "catalyst": "Thermo Fisher Scientific (TMO) is Positioned for Resurgence",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.76%, seit Open -0.51%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -1.10%, seit Open -0.84%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.41,
       "target_pct": 2.67,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,24 +140,24 @@
       "atr_pct": "2.35%",
       "gap_pct": "-0.50%",
       "premarket_move_pct": "-0.53%",
-      "live_gap_pct": "-0.76%",
-      "regular_move_pct": "-0.51%",
+      "live_gap_pct": "-1.10%",
+      "regular_move_pct": "-0.84%",
       "avg_dollar_volume": 1211787750.68,
-      "bar_age_minutes": 4.8,
-      "vwap": 654.67,
+      "bar_age_minutes": 0.4,
+      "vwap": 654.62,
       "opening_range_high": 658.52,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": true,
+        "gap_ok": false,
         "confirmation_ok": false
       }
     },
@@ -91,7 +169,7 @@
       "thesis": "1T +1.55%, 5T +1.69%, relatives Volumen 1.41x, ATR 2.03%",
       "catalyst": "Merck Stock Nearly Doubled Without A Change In Its Revenue Growth",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.39%, seit Open -0.35%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.29%, seit Open -0.24%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.22,
       "target_pct": 2.31,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,90 +179,12 @@
       "atr_pct": "2.03%",
       "gap_pct": "-0.56%",
       "premarket_move_pct": "-0.41%",
-      "live_gap_pct": "-0.39%",
-      "regular_move_pct": "-0.35%",
+      "live_gap_pct": "-0.29%",
+      "regular_move_pct": "-0.24%",
       "avg_dollar_volume": 1471765174.74,
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 0.4,
       "vwap": 146.63,
       "opening_range_high": 147.84,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "DHR",
-      "name": "Danaher",
-      "score": 86,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.99%, 5T +5.97%, relatives Volumen 1.80x, ATR 2.60%",
-      "catalyst": "Danaher Corp. stock outperforms competitors on strong trading day",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.60%, seit Open -0.67%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.56,
-      "target_pct": 2.97,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.99%",
-      "change_5d": "+5.97%",
-      "volume_ratio": "1.80x",
-      "atr_pct": "2.60%",
-      "gap_pct": "-0.24%",
-      "premarket_move_pct": "-0.24%",
-      "live_gap_pct": "-0.60%",
-      "regular_move_pct": "-0.67%",
-      "avg_dollar_volume": 713553697.06,
-      "bar_age_minutes": 4.9,
-      "vwap": 212.46,
-      "opening_range_high": 212.93,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "PSX",
-      "name": "Phillips 66",
-      "score": 86,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.62%, 5T +6.07%, relatives Volumen 1.22x, ATR 2.86%",
-      "catalyst": "Phillips 66 stock outperforms competitors on strong trading day",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.82%, seit Open -0.10%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.71,
-      "target_pct": 3.26,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.62%",
-      "change_5d": "+6.07%",
-      "volume_ratio": "1.22x",
-      "atr_pct": "2.86%",
-      "gap_pct": "-0.08%",
-      "premarket_move_pct": "+0.95%",
-      "live_gap_pct": "-0.82%",
-      "regular_move_pct": "-0.10%",
-      "avg_dollar_volume": 695125760.37,
-      "bar_age_minutes": 4.9,
-      "vwap": 273.82,
-      "opening_range_high": 274.5,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -312,12 +312,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "MRVL",
-      "title": "What Do Marvell Technology (MRVL) New Partnerships Mean For AI And Payments?",
-      "time": "Thu, 17 Sep 2026 18:45:15",
-      "sentiment": 1
-    },
-    {
       "ticker": "ARM",
       "title": "Arm Holdings Stock Surges 8.6% as AGI CPU Demand Puts $270.39 Breakout in Focus",
       "time": "Fri, 18 Sep 2026 12:14:01",
@@ -326,7 +320,7 @@
     {
       "ticker": "LULU",
       "title": "Should Investors Wait on LULU as Growth Slows and Valuation Changes?",
-      "time": "Fri, 18 Sep 2026 16:41:37",
+      "time": "Fri, 18 Sep 2026 16:36:48",
       "sentiment": 1
     },
     {
@@ -499,14 +493,14 @@
     },
     {
       "ticker": "GILD",
-      "title": "Top Medical Stocks To Watch Today - September 18th",
-      "time": "Fri, 18 Sep 2026 18:04:14",
+      "title": "Gilead Sciences stock gains as licensing deal and dividend support outlook",
+      "time": "Fri, 18 Sep 2026 11:25:51",
       "sentiment": 0
     },
     {
       "ticker": "GILD",
-      "title": "Gilead Sciences stock gains as licensing deal and dividend support outlook",
-      "time": "Fri, 18 Sep 2026 11:25:51",
+      "title": "Top Medical Stocks To Watch Today - September 18th",
+      "time": "Fri, 18 Sep 2026 18:04:14",
       "sentiment": 0
     },
     {
@@ -685,8 +679,8 @@
     },
     {
       "ticker": "JNJ",
-      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
-      "time": "Fri, 18 Sep 2026 16:48:46",
+      "title": "J&J Up 18% in Three Months: Buy, Sell or Hold the Stock?",
+      "time": "Fri, 18 Sep 2026 13:05:00",
       "sentiment": 0
     },
     {
@@ -823,8 +817,14 @@
     },
     {
       "ticker": "MRVL",
-      "title": "Why Is Marvell Technology (NASDAQ:MRVL) Back In The AI Stocks Spotlight?",
-      "time": "Thu, 17 Sep 2026 19:05:00",
+      "title": "AEHR, INTC, MRVL Stocks Hit 52-Week Highs Today: What's Driving The Rally?",
+      "time": "Thu, 17 Sep 2026 22:20:45",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MRVL",
+      "title": "Marvell Jumps as Microsoft Payment Security Launch Opens Door to $5 Billion Market",
+      "time": "Fri, 18 Sep 2026 04:25:00",
       "sentiment": 0
     },
     {
@@ -836,7 +836,7 @@
     {
       "ticker": "ARM",
       "title": "Arm vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
-      "time": "Fri, 18 Sep 2026 15:29:01",
+      "time": "Fri, 18 Sep 2026 15:55:00",
       "sentiment": 0
     },
     {
@@ -919,12 +919,6 @@
     },
     {
       "ticker": "MSFT",
-      "title": "What Did Microsoft Tell You Before Its Stock Ran?",
-      "time": "Fri, 18 Sep 2026 13:13:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
       "title": "Alphabet Rises 3%, Meta and Microsoft Slip: Is This a Momentum Run Rather Than a Tech Rally?",
       "time": "Fri, 18 Sep 2026 13:54:00",
       "sentiment": 0
@@ -933,6 +927,12 @@
       "ticker": "MSFT",
       "title": "Microsoft (NASDAQ: MSFT) EVP gets 29,077-share award vesting over four years",
       "time": "Thu, 17 Sep 2026 22:06:43",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft: Distribution Advantage Worth More Than Another Model Breakthrough (NASDAQ:MSFT)",
+      "time": "Fri, 18 Sep 2026 13:57:28",
       "sentiment": 0
     },
     {
@@ -974,7 +974,7 @@
     {
       "ticker": "LLY",
       "title": "Better Buy for Cautious Investors: Eli Lilly vs Costco",
-      "time": "Fri, 18 Sep 2026 14:49:55",
+      "time": "Fri, 18 Sep 2026 15:15:00",
       "sentiment": 0
     },
     {
@@ -1003,12 +1003,6 @@
     },
     {
       "ticker": "INTC",
-      "title": "SK Hynix Negotiates Landmark Memory Chip Manufacturing Deal With Intel",
-      "time": "Fri, 18 Sep 2026 10:32:40",
-      "sentiment": 0
-    },
-    {
-      "ticker": "INTC",
       "title": "Why Is Intel Stock Gaining Friday?",
       "time": "Fri, 18 Sep 2026 11:55:33",
       "sentiment": 0
@@ -1023,6 +1017,12 @@
       "ticker": "INTC",
       "title": "Nykredit A S Makes New Investment in Intel Corporation $INTC",
       "time": "Fri, 18 Sep 2026 08:23:46",
+      "sentiment": 0
+    },
+    {
+      "ticker": "INTC",
+      "title": "Intel advances 8%, adding to prior day's gains (INTC:NASDAQ)",
+      "time": "Thu, 17 Sep 2026 20:26:03",
       "sentiment": 0
     },
     {
@@ -1081,14 +1081,14 @@
     },
     {
       "ticker": "NKE",
-      "title": "Nike (NKE) Shareholders Side with the Board Over Norway’s Wealth Fund on Climate Disclosure",
-      "time": "Thu, 17 Sep 2026 22:02:54",
+      "title": "On Holding Climbs 5% as Kylian Mbappé Joins Its Football Push; Nike Slips",
+      "time": "Fri, 18 Sep 2026 13:08:00",
       "sentiment": 0
     },
     {
       "ticker": "NKE",
-      "title": "NIKE (NYSE: NKE) grants director 5,171 restricted shares",
-      "time": "Thu, 17 Sep 2026 20:34:26",
+      "title": "Nike (NKE) Shareholders Side with the Board Over Norway’s Wealth Fund on Climate Disclosure",
+      "time": "Thu, 17 Sep 2026 22:02:54",
       "sentiment": 0
     },
     {
@@ -1165,8 +1165,8 @@
     },
     {
       "ticker": "GSK",
-      "title": "Weekly Buzz: RARE, BAYRY Win Approvals; SION Cuts Jobs, GSK Deals; AZN, RHHBY Lead",
-      "time": "Fri, 18 Sep 2026 14:44:00",
+      "title": "RKLB, ASTS, SPCX, RDW Stocks Set For A Boost? Pentagon Confirms Orbital Weapons Use, Ramps Up Golden Dome Plans",
+      "time": "Fri, 18 Sep 2026 17:42:01",
       "sentiment": 0
     },
     {
