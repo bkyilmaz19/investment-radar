@@ -1,49 +1,10 @@
 {
-  "generated_at_local": "18.09.2026 19:10 CEST",
+  "generated_at_local": "18.09.2026 19:24 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "TMO",
-      "name": "Thermo Fisher",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.53%, 5T +9.14%, relatives Volumen 2.00x, ATR 2.35%",
-      "catalyst": "Thermo Fisher Scientific (TMO) is Positioned for Resurgence",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -1.05%, seit Open -0.79%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.41,
-      "target_pct": 2.67,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.53%",
-      "change_5d": "+9.14%",
-      "volume_ratio": "2.00x",
-      "atr_pct": "2.35%",
-      "gap_pct": "-0.50%",
-      "premarket_move_pct": "-0.53%",
-      "live_gap_pct": "-1.05%",
-      "regular_move_pct": "-0.79%",
-      "avg_dollar_volume": 1211787750.68,
-      "bar_age_minutes": 0.4,
-      "vwap": 655.41,
-      "opening_range_high": 658.52,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
-      }
-    },
     {
       "ticker": "GILD",
       "name": "Gilead",
@@ -52,7 +13,7 @@
       "thesis": "1T +2.17%, 5T +4.20%, relatives Volumen 1.58x, ATR 2.26%",
       "catalyst": "Gilead Strengthens HIV Growth Platform with Expanded Latin America Access",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.32%, seit Open -0.17%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.21%, seit Open -0.05%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.36,
       "target_pct": 2.58,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +23,11 @@
       "atr_pct": "2.26%",
       "gap_pct": "-0.10%",
       "premarket_move_pct": "+0.94%",
-      "live_gap_pct": "-0.32%",
-      "regular_move_pct": "-0.17%",
+      "live_gap_pct": "-0.21%",
+      "regular_move_pct": "-0.05%",
       "avg_dollar_volume": 796185787.11,
-      "bar_age_minutes": 0.4,
-      "vwap": 151.08,
+      "bar_age_minutes": 4.4,
+      "vwap": 151.07,
       "opening_range_high": 153.23,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -91,7 +52,7 @@
       "thesis": "1T +1.99%, 5T +5.97%, relatives Volumen 1.80x, ATR 2.60%",
       "catalyst": "Danaher Corp. stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.70%, seit Open -0.77%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.78%, seit Open -0.84%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.56,
       "target_pct": 2.97,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,12 +62,51 @@
       "atr_pct": "2.60%",
       "gap_pct": "-0.24%",
       "premarket_move_pct": "-0.24%",
-      "live_gap_pct": "-0.70%",
-      "regular_move_pct": "-0.77%",
+      "live_gap_pct": "-0.78%",
+      "regular_move_pct": "-0.84%",
       "avg_dollar_volume": 713553697.06,
-      "bar_age_minutes": 5.4,
-      "vwap": 212.7,
+      "bar_age_minutes": 4.4,
+      "vwap": 212.65,
       "opening_range_high": 212.93,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings",
+      "score": 86,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +8.57%, 5T +4.22%, relatives Volumen 1.45x, ATR 5.57%",
+      "catalyst": "Arm Holdings Stock Surges 8.6% as AGI CPU Demand Puts $270.39 Breakout in Focus",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.13%, seit Open -0.65%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 3.0,
+      "target_pct": 5.7,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+8.57%",
+      "change_5d": "+4.22%",
+      "volume_ratio": "1.45x",
+      "atr_pct": "5.57%",
+      "gap_pct": "+1.53%",
+      "premarket_move_pct": "-1.84%",
+      "live_gap_pct": "+1.13%",
+      "regular_move_pct": "-0.65%",
+      "avg_dollar_volume": 963123412.42,
+      "bar_age_minutes": 4.4,
+      "vwap": 266.45,
+      "opening_range_high": 269.99,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -130,7 +130,7 @@
       "thesis": "1T +1.55%, 5T +1.69%, relatives Volumen 1.41x, ATR 2.03%",
       "catalyst": "Merck (MRK) Outperforms Broader Market: What You Need to Know",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.75%, seit Open -0.71%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.72%, seit Open -0.67%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.22,
       "target_pct": 2.31,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +140,11 @@
       "atr_pct": "2.03%",
       "gap_pct": "-0.56%",
       "premarket_move_pct": "-0.41%",
-      "live_gap_pct": "-0.75%",
-      "regular_move_pct": "-0.71%",
+      "live_gap_pct": "-0.72%",
+      "regular_move_pct": "-0.67%",
       "avg_dollar_volume": 1471765174.74,
-      "bar_age_minutes": 0.4,
-      "vwap": 146.69,
+      "bar_age_minutes": 4.4,
+      "vwap": 146.68,
       "opening_range_high": 147.84,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -162,38 +162,38 @@
       }
     },
     {
-      "ticker": "LLY",
-      "name": "Eli Lilly",
-      "score": 85,
+      "ticker": "AMD",
+      "name": "AMD",
+      "score": 84,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.28%, 5T +2.62%, relatives Volumen 1.02x, ATR 2.21%",
-      "catalyst": "Guggenheim raises Eli Lilly stock price target to $1,284 on drug growth",
+      "thesis": "1T +6.36%, 5T +8.24%, relatives Volumen 1.43x, ATR 4.03%",
+      "catalyst": "Prediction: AMD’s Biggest Growth Opportunity May Still Be Ahead",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.71%, seit Open -0.50%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.33,
-      "target_pct": 2.52,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.06%, seit Open -0.39%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 2.42,
+      "target_pct": 4.6,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.28%",
-      "change_5d": "+2.62%",
-      "volume_ratio": "1.02x",
-      "atr_pct": "2.21%",
-      "gap_pct": "-0.36%",
-      "premarket_move_pct": "-0.38%",
-      "live_gap_pct": "-0.71%",
-      "regular_move_pct": "-0.50%",
-      "avg_dollar_volume": 2664677280.73,
-      "bar_age_minutes": 5.4,
-      "vwap": 1148.78,
-      "opening_range_high": 1157.6,
+      "change_1d": "+6.36%",
+      "change_5d": "+8.24%",
+      "volume_ratio": "1.43x",
+      "atr_pct": "4.03%",
+      "gap_pct": "+0.46%",
+      "premarket_move_pct": "-1.16%",
+      "live_gap_pct": "+0.06%",
+      "regular_move_pct": "-0.39%",
+      "avg_dollar_volume": 8945511138.32,
+      "bar_age_minutes": 4.4,
+      "vwap": 546.58,
+      "opening_range_high": 550.0,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": false,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -338,19 +338,19 @@
     {
       "ticker": "LLY",
       "title": "Guggenheim raises Eli Lilly stock price target to $1,284 on drug growth",
-      "time": "Fri, 18 Sep 2026 11:34:00",
+      "time": "Fri, 18 Sep 2026 11:39:35",
       "sentiment": 1
+    },
+    {
+      "ticker": "LLY",
+      "title": "LLY Shares Dive On Analyst Downgrade Citing Obesity Market Overestimation Concerns, But Retail Dismisses ‘Absurd’ Selloff",
+      "time": "Thu, 17 Sep 2026 22:00:28",
+      "sentiment": -1
     },
     {
       "ticker": "LLY",
       "title": "Eli Lilly Diabetes Drug Franchise Remains Strong, Analyst Praises Foundayo Trajectory",
       "time": "Fri, 18 Sep 2026 16:00:23",
-      "sentiment": 1
-    },
-    {
-      "ticker": "LLY",
-      "title": "A Failed Cholesterol Drug Raises the Stakes for Amgen (AMGN) and Eli Lilly (LLY) Too",
-      "time": "Thu, 17 Sep 2026 23:57:24",
       "sentiment": 1
     },
     {
@@ -451,14 +451,14 @@
     },
     {
       "ticker": "MRK",
-      "title": "Merck, Astra, Roche and Corcept among winners of EU drug recommendations this week",
-      "time": "Fri, 18 Sep 2026 13:50:17",
+      "title": "5 Stocks, 5 Different Industries, 1 Thing in Common: Reliable Income",
+      "time": "Fri, 18 Sep 2026 12:00:00",
       "sentiment": 0
     },
     {
       "ticker": "MRK",
-      "title": "Why Is Merck (NYSE) Back in Focus Across Healthcare Stocks?",
-      "time": "Thu, 17 Sep 2026 21:31:00",
+      "title": "Merck, Astra, Roche and Corcept among winners of EU drug recommendations this week",
+      "time": "Fri, 18 Sep 2026 13:50:17",
       "sentiment": 0
     },
     {
@@ -499,6 +499,12 @@
     },
     {
       "ticker": "ANET",
+      "title": "How Much Does Arista Networks Stock Move When The Market Moves?",
+      "time": "Fri, 18 Sep 2026 14:30:39",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ANET",
       "title": "Arista Networks (ANET) Stock Looks Reasonable Despite Fresh AI Demand News",
       "time": "Fri, 18 Sep 2026 03:45:21",
       "sentiment": 0
@@ -513,12 +519,6 @@
       "ticker": "ANET",
       "title": "What Arista Networks (NYSE:ANET) Reveals About the Next Chapter for AI Stocks?",
       "time": "Thu, 17 Sep 2026 19:04:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ANET",
-      "title": "How Much Does Arista Networks Stock Move When The Market Moves?",
-      "time": "Fri, 18 Sep 2026 14:31:01",
       "sentiment": 0
     },
     {
@@ -643,14 +643,14 @@
     },
     {
       "ticker": "AMD",
-      "title": "AMD Stock Breaks $524 as Helios Demand Puts $548 and $572 in Focus",
-      "time": "Fri, 18 Sep 2026 14:02:11",
+      "title": "AMD stock rises on a rumor that could give it a 2027 GPU edge",
+      "time": "Fri, 18 Sep 2026 16:28:44",
       "sentiment": 0
     },
     {
       "ticker": "AMD",
-      "title": "AMD stock rises on a rumor that could give it a 2027 GPU edge",
-      "time": "Fri, 18 Sep 2026 15:32:40",
+      "title": "AMD Stock Breaks $524 as Helios Demand Puts $548 and $572 in Focus",
+      "time": "Fri, 18 Sep 2026 14:02:11",
       "sentiment": 0
     },
     {
@@ -679,8 +679,8 @@
     },
     {
       "ticker": "JNJ",
-      "title": "J&J Up 18% in Three Months: Buy, Sell or Hold the Stock?",
-      "time": "Fri, 18 Sep 2026 13:05:00",
+      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
+      "time": "Fri, 18 Sep 2026 16:48:46",
       "sentiment": 0
     },
     {
@@ -758,7 +758,7 @@
     {
       "ticker": "ROST",
       "title": "Ross Stores CEO & Director James Conroy Sells 27% Of Holding",
-      "time": "Fri, 18 Sep 2026 12:21:54",
+      "time": "Fri, 18 Sep 2026 12:21:55",
       "sentiment": 0
     },
     {
@@ -829,6 +829,12 @@
     },
     {
       "ticker": "ARM",
+      "title": "Jim Cramer Says Selling Arm Holdings (ARM) Early Was a “Big Mistake”",
+      "time": "Fri, 18 Sep 2026 17:10:14",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ARM",
       "title": "Arm vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
       "time": "Fri, 18 Sep 2026 15:29:01",
       "sentiment": 0
@@ -841,20 +847,14 @@
     },
     {
       "ticker": "ARM",
-      "title": "Why Arm Stock Popped Today",
-      "time": "Fri, 18 Sep 2026 02:32:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ARM",
       "title": "Why is Arm stock rising today?",
       "time": "Fri, 18 Sep 2026 09:49:16",
       "sentiment": 0
     },
     {
       "ticker": "ARM",
-      "title": "Arm’s CEO Says the Chip Designer Is Even More Confident in Hitting $2B AI Chip Sales Target. The Stock Is Rallying",
-      "time": "Thu, 17 Sep 2026 17:49:51",
+      "title": "Why Arm Stock Popped Today",
+      "time": "Fri, 18 Sep 2026 02:59:09",
       "sentiment": 0
     },
     {
@@ -895,12 +895,6 @@
     },
     {
       "ticker": "TSM",
-      "title": "TSMC (TSM) Stock Forecast: June Revenue Up 68%, Q2 Earnings Tomorrow; Is $438 the Next Stop?",
-      "time": "Fri, 18 Sep 2026 06:27:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSM",
       "title": "What If the AI Boom Cracks? S&P Says Taiwan Semiconductor Is Built to Withstand the Shock",
       "time": "Fri, 18 Sep 2026 12:07:40",
       "sentiment": 0
@@ -909,6 +903,12 @@
       "ticker": "TSM",
       "title": "Taiwan Semiconductor Manufacturing (TSM) Could Be 14% Overvalued As 2nm MediaTek Win Lands",
       "time": "Fri, 18 Sep 2026 03:17:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSM",
+      "title": "Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Closed Up by 3.00% on Sep 17: A Full Analysis",
+      "time": "Thu, 17 Sep 2026 20:15:27",
       "sentiment": 0
     },
     {
@@ -1142,7 +1142,7 @@
     {
       "ticker": "GSK",
       "title": "This week in charts: GSK’s China deals, the $300M IPO club and selling the news",
-      "time": "Fri, 18 Sep 2026 15:11:15",
+      "time": "Fri, 18 Sep 2026 15:17:47",
       "sentiment": 0
     },
     {
@@ -1189,14 +1189,14 @@
     },
     {
       "ticker": "AAPL",
-      "title": "Apple Just Announced a Groundbreaking iPhone, but It Has Alienated a Key Market",
-      "time": "Fri, 18 Sep 2026 10:52:00",
+      "title": "AAPL Stock Heads For 5th Straight Weekly Gain: Evercore Sees Better-Than-Expected iPhone Refresh Cycle",
+      "time": "Fri, 18 Sep 2026 12:14:00",
       "sentiment": 0
     },
     {
       "ticker": "AAPL",
-      "title": "Apple iPhone Refresh Cycle Better-Than-Expected, Says Evercore As AAPL Stock Heads For 5th Straight Weekly Gain",
-      "time": "Fri, 18 Sep 2026 12:14:23",
+      "title": "Apple Just Announced a Groundbreaking iPhone, but It Has Alienated a Key Market",
+      "time": "Fri, 18 Sep 2026 10:52:00",
       "sentiment": 0
     },
     {
