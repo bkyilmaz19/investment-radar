@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "21.09.2026 23:39 CEST",
+  "generated_at_local": "21.09.2026 23:52 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "+2.01%",
       "regular_move_pct": "+1.85%",
       "avg_dollar_volume": 1175128559.99,
-      "bar_age_minutes": 8.1,
+      "bar_age_minutes": 5.2,
       "vwap": 391.64,
       "opening_range_high": 389.04,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "+2.51%",
       "regular_move_pct": "+1.21%",
       "avg_dollar_volume": 839511393.28,
-      "bar_age_minutes": 44.8,
+      "bar_age_minutes": 57.5,
       "vwap": 434.46,
       "opening_range_high": 431.08,
       "opening_range_ready": true,
@@ -104,48 +104,9 @@
       "live_gap_pct": "+2.13%",
       "regular_move_pct": "+1.99%",
       "avg_dollar_volume": 863702721.03,
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 2.8,
       "vwap": 398.61,
       "opening_range_high": 395.29,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "score": 91,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.79%, 5T +6.22%, relatives Volumen 1.63x, ATR 4.00%",
-      "catalyst": "Palantir (PLTR) Stock Forecast: 85% Revenue Growth, Rule of 40 at 145% - Worth $129?",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.56%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.4,
-      "target_pct": 4.56,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.79%",
-      "change_5d": "+6.22%",
-      "volume_ratio": "1.63x",
-      "atr_pct": "4.00%",
-      "gap_pct": "+0.56%",
-      "premarket_move_pct": "+0.36%",
-      "live_gap_pct": "+3.06%",
-      "regular_move_pct": "+2.44%",
-      "avg_dollar_volume": 5093207228.96,
-      "bar_age_minutes": 4.8,
-      "vwap": 181.39,
-      "opening_range_high": 180.05,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "After-Hours / US-Session beendet",
@@ -182,7 +143,7 @@
       "live_gap_pct": "+1.62%",
       "regular_move_pct": "+1.30%",
       "avg_dollar_volume": 8690684901.53,
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 2.5,
       "vwap": 355.0,
       "opening_range_high": 355.14,
       "opening_range_ready": true,
@@ -197,6 +158,45 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "DXCM",
+      "name": "DexCom",
+      "score": 89,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.61%, 5T +7.61%, relatives Volumen 4.17x, ATR 2.79%",
+      "catalyst": "DexCom, Inc. (DXCM) Stock Analysis: Strong Buy Ratings and Promising Growth in the Medical Device Sector",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -1.04%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.67,
+      "target_pct": 3.18,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.61%",
+      "change_5d": "+7.61%",
+      "volume_ratio": "4.17x",
+      "atr_pct": "2.79%",
+      "gap_pct": "-1.04%",
+      "premarket_move_pct": "-0.77%",
+      "live_gap_pct": "-0.19%",
+      "regular_move_pct": "+0.32%",
+      "avg_dollar_volume": 354230623.95,
+      "bar_age_minutes": 8.7,
+      "vwap": 89.04,
+      "opening_range_high": 89.47,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": false,
         "confirmation_ok": false
       }
     }
@@ -267,12 +267,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "PLTR",
-      "title": "Palantir (PLTR) Stock Forecast: 85% Revenue Growth, Rule of 40 at 145% - Worth $129?",
-      "time": "Mon, 21 Sep 2026 01:11:49",
-      "sentiment": 1
-    },
-    {
       "ticker": "TXN",
       "title": "Texas Instruments price shows more positive signals - Forecast today - 21-09-2026",
       "time": "Mon, 21 Sep 2026 12:51:00",
@@ -324,6 +318,12 @@
       "ticker": "LLY",
       "title": "What Lilly Stock's Breast Cancer Drug Approval Means For Shareholders",
       "time": "Mon, 21 Sep 2026 19:25:31",
+      "sentiment": 1
+    },
+    {
+      "ticker": "LLY",
+      "title": "Eli Lilly CEO Ricks sees more Foundayo growth with foreign markets",
+      "time": "Mon, 21 Sep 2026 18:18:39",
       "sentiment": 1
     },
     {
@@ -508,12 +508,6 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "Alphabet (GOOGL) Stock Price Forecast 2026: Cloud Hit $20B But FCF Collapsed — Buy or Short?",
-      "time": "Mon, 21 Sep 2026 01:10:36",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOGL",
       "title": "GOOG vs GOOGL - which Alphabet share class should you buy?",
       "time": "Mon, 21 Sep 2026 10:29:34",
       "sentiment": 0
@@ -528,6 +522,12 @@
       "ticker": "GOOGL",
       "title": "The Tech Selloff Is Only Strengthening My Belief In Alphabet",
       "time": "Mon, 21 Sep 2026 11:17:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "GOOG or GOOGL? Alphabet’s Voting Shares Cost 1.1% More After the Search Rally",
+      "time": "Mon, 21 Sep 2026 16:20:30",
       "sentiment": 0
     },
     {
@@ -586,8 +586,8 @@
     },
     {
       "ticker": "BABA",
-      "title": "HK Stock Market Moves | Alibaba-W (09988) rises over 2%; Citi expects the company to reiterate its full-stack capabilities at the Apsara Conference, warranting short-term catalyst monitoring",
-      "time": "Mon, 21 Sep 2026 06:01:07",
+      "title": "Alibaba Jumps 4.3% With Qwen's Brief U.S. Government Appearance",
+      "time": "Mon, 21 Sep 2026 15:30:31",
       "sentiment": 0
     },
     {
@@ -646,8 +646,14 @@
     },
     {
       "ticker": "PLTR",
+      "title": "Palantir Technologies Inc Stock (PLTR) Closed Up by 3.06% on Sep 21: What Signal Does It Send?",
+      "time": "Mon, 21 Sep 2026 20:15:41",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PLTR",
       "title": "Palantir Technologies Inc (PLTR) Stock Up 3.1% but GF Value Says Overvalued -- GF Score: 83/100",
-      "time": "Mon, 21 Sep 2026 21:13:14",
+      "time": "Mon, 21 Sep 2026 21:45:00",
       "sentiment": 0
     },
     {
@@ -670,14 +676,20 @@
     },
     {
       "ticker": "TXN",
-      "title": "Texas Instruments (TXN) director receives new stock unit grant",
-      "time": "Mon, 21 Sep 2026 20:38:01",
+      "title": "Texas Instruments (TXN) director gets automatic stock-unit grant",
+      "time": "Mon, 21 Sep 2026 20:46:30",
       "sentiment": 0
     },
     {
       "ticker": "TXN",
       "title": "Texas Instruments (TXN) Soars 3.3%: Is Further Upside Left in the Stock?",
       "time": "Mon, 21 Sep 2026 05:39:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TXN",
+      "title": "Texas Instruments (TXN) director receives new stock unit grant",
+      "time": "Mon, 21 Sep 2026 20:38:01",
       "sentiment": 0
     },
     {
@@ -690,12 +702,6 @@
       "ticker": "TXN",
       "title": "Texas Instruments stock ends the day modestly higher at the closing bell",
       "time": "Mon, 21 Sep 2026 20:29:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TXN",
-      "title": "UBS Names Top Picks Across Technology, Media and Telecom Sectors By Investing.com",
-      "time": "Mon, 21 Sep 2026 16:44:35",
       "sentiment": 0
     },
     {
@@ -838,14 +844,14 @@
     },
     {
       "ticker": "KLAC",
-      "title": "KLA stock ends the day up 3.10 percent at the close on the Nasdaq",
-      "time": "Mon, 21 Sep 2026 21:22:32",
+      "title": "3 Chip Stocks Set to Win TSMC’s Packaging Boom",
+      "time": "Mon, 21 Sep 2026 21:45:00",
       "sentiment": 0
     },
     {
       "ticker": "KLAC",
-      "title": "KLAC DCF Analysis: Intrinsic Value $117 vs Price $177",
-      "time": "Mon, 21 Sep 2026 11:32:28",
+      "title": "KLA stock ends the day up 3.10 percent at the close on the Nasdaq",
+      "time": "Mon, 21 Sep 2026 21:22:32",
       "sentiment": 0
     },
     {
@@ -969,12 +975,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "LLY",
-      "title": "Eli Lilly (LLY) Expands Market Share with Foundayo Amid Growing Demand",
-      "time": "Mon, 21 Sep 2026 19:08:27",
-      "sentiment": 0
-    },
-    {
       "ticker": "ETN",
       "title": "Eaton Corporation stock gains as analysts lift long-term targets",
       "time": "Mon, 21 Sep 2026 12:49:18",
@@ -1018,8 +1018,8 @@
     },
     {
       "ticker": "JNJ",
-      "title": "Johnson & Johnson stock ends the day 0.86 percent higher at the close",
-      "time": "Mon, 21 Sep 2026 20:51:16",
+      "title": "J&J Gains as Caplyta Opens a Mania Expansion Path",
+      "time": "Mon, 21 Sep 2026 19:07:09",
       "sentiment": 0
     },
     {
@@ -1121,7 +1121,7 @@
     {
       "ticker": "PSX",
       "title": "Phillips 66 (PSX) Shares Fall 4.2% -- What GF Score of 55 Tells Investors",
-      "time": "Mon, 21 Sep 2026 21:34:11",
+      "time": "Mon, 21 Sep 2026 21:41:45",
       "sentiment": 0
     },
     {
@@ -1162,6 +1162,12 @@
     },
     {
       "ticker": "LMT",
+      "title": "A U.S. Army missile engaged a moving sea target. Lockheed Martin won a contract worth up to $1.2B.",
+      "time": "Mon, 21 Sep 2026 21:39:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LMT",
       "title": "The Air Force Doesn't Want Lockheed Martin's New Stealth Drone -- but Lockheed Is Building 5 of Them Anyway",
       "time": "Mon, 21 Sep 2026 13:08:00",
       "sentiment": 0
@@ -1188,12 +1194,6 @@
       "ticker": "LMT",
       "title": "RTX, LMT Stocks Head For Weekly Gains After Solid Q2 Performance — Retail Calls Defense 'A Bipartisan Issue'",
       "time": "Mon, 21 Sep 2026 07:58:54",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LMT",
-      "title": "Trump thanks Lockheed Martin CEO as new White House heliport opens (LMT:NYSE)",
-      "time": "Mon, 21 Sep 2026 18:53:05",
       "sentiment": 0
     },
     {
