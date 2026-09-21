@@ -1,9 +1,9 @@
 {
-  "generated_at_local": "21.09.2026 22:11 CEST",
+  "generated_at_local": "21.09.2026 22:27 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
-  "scanned_count": 200,
-  "summary": "Risk-on / positives Momentum. Premarket-Daten einbezogen, soweit verfügbar. 200 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "scanned_count": 201,
+  "summary": "Risk-on / positives Momentum. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
       "ticker": "AMGN",
@@ -26,7 +26,7 @@
       "live_gap_pct": "+2.01%",
       "regular_move_pct": "+1.85%",
       "avg_dollar_volume": 1175128559.99,
-      "bar_age_minutes": 1.4,
+      "bar_age_minutes": 11.5,
       "vwap": 391.64,
       "opening_range_high": 389.04,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "+9.92%",
       "regular_move_pct": "+5.38%",
       "avg_dollar_volume": 9481217018.11,
-      "bar_age_minutes": 1.5,
+      "bar_age_minutes": 2.1,
       "vwap": 606.91,
       "opening_range_high": 604.03,
       "opening_range_ready": true,
@@ -104,7 +104,7 @@
       "live_gap_pct": "+3.94%",
       "regular_move_pct": "+2.64%",
       "avg_dollar_volume": 1692743719.87,
-      "bar_age_minutes": 1.4,
+      "bar_age_minutes": 2.1,
       "vwap": 182.97,
       "opening_range_high": 182.39,
       "opening_range_ready": true,
@@ -143,7 +143,7 @@
       "live_gap_pct": "+2.13%",
       "regular_move_pct": "+1.99%",
       "avg_dollar_volume": 863702721.03,
-      "bar_age_minutes": 0.7,
+      "bar_age_minutes": 2.1,
       "vwap": 398.61,
       "opening_range_high": 395.29,
       "opening_range_ready": true,
@@ -182,7 +182,7 @@
       "live_gap_pct": "+1.56%",
       "regular_move_pct": "+1.04%",
       "avg_dollar_volume": 1545626913.89,
-      "bar_age_minutes": 1.4,
+      "bar_age_minutes": 2.1,
       "vwap": 268.46,
       "opening_range_high": 268.0,
       "opening_range_ready": true,
@@ -264,12 +264,6 @@
       "ticker": "ISRG",
       "title": "Ambulatory Surgery Centers Are Becoming ISRG's New Growth Engine",
       "time": "Mon, 21 Sep 2026 16:07:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir (PLTR) Stock Forecast: 85% Revenue Growth, Rule of 40 at 145% - Worth $129?",
-      "time": "Mon, 21 Sep 2026 01:11:49",
       "sentiment": 1
     },
     {
@@ -364,15 +358,15 @@
     },
     {
       "ticker": "MRK",
-      "title": "Merck: Time To Trim, Overvalued, And Overbought (Rating Downgrade) (NYSE:MRK)",
-      "time": "Mon, 21 Sep 2026 11:27:12",
-      "sentiment": -1
-    },
-    {
-      "ticker": "MRK",
       "title": "AZN vs. MRK: Comparing Keytruda, Pipelines and Growth Strategies",
       "time": "Mon, 21 Sep 2026 15:22:00",
       "sentiment": 1
+    },
+    {
+      "ticker": "MRK",
+      "title": "Merck: Time To Trim, Overvalued, And Overbought (Rating Downgrade) (NYSE:MRK)",
+      "time": "Mon, 21 Sep 2026 11:27:12",
+      "sentiment": -1
     },
     {
       "ticker": "MRK",
@@ -593,7 +587,7 @@
     {
       "ticker": "BABA",
       "title": "Microsoft vs Alibaba: Which Cloud AI Stock Is Better Positioned?",
-      "time": "Mon, 21 Sep 2026 16:36:29",
+      "time": "Mon, 21 Sep 2026 15:32:00",
       "sentiment": 0
     },
     {
@@ -664,6 +658,12 @@
     },
     {
       "ticker": "PLTR",
+      "title": "Palantir Technologies Inc Stock (PLTR) Closed Up by 3.06% on Sep 21: What Signal Does It Send?",
+      "time": "Mon, 21 Sep 2026 20:15:41",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PLTR",
       "title": "Palantir Nearly Doubled Its Revenue. Its Stock Stood Still. Is It Time to Buy the Stock?",
       "time": "Sun, 20 Sep 2026 23:52:00",
       "sentiment": 0
@@ -718,14 +718,14 @@
     },
     {
       "ticker": "ARM",
-      "title": "ARM Stock Extends AI Rally As Wall Street Hikes Targets",
-      "time": "Mon, 21 Sep 2026 16:33:00",
+      "title": "Arm Holdings soars 17% amid broad tech, chip strength (ARM:NASDAQ)",
+      "time": "Mon, 21 Sep 2026 20:16:56",
       "sentiment": 0
     },
     {
       "ticker": "ARM",
-      "title": "Arm Stock Extends AI Rally As Wall Street Hikes Targets",
-      "time": "Mon, 21 Sep 2026 19:02:00",
+      "title": "ARM Stock Extends AI Rally As Wall Street Hikes Targets",
+      "time": "Mon, 21 Sep 2026 16:33:00",
       "sentiment": 0
     },
     {
@@ -922,14 +922,14 @@
     },
     {
       "ticker": "GOOG",
-      "title": "Alphabet's Free Cash Flow Just Went Negative. What It Means for the Google Price Target and 2030 Forecast",
-      "time": "Mon, 21 Sep 2026 16:46:12",
+      "title": "Alphabet C tests $354 resistance on 5h chart: Live levels",
+      "time": "Mon, 21 Sep 2026 20:15:00",
       "sentiment": 0
     },
     {
       "ticker": "GOOG",
-      "title": "Google: The One-Stop AI Shop (NASDAQ:GOOG)",
-      "time": "Mon, 21 Sep 2026 16:31:58",
+      "title": "Alphabet's Free Cash Flow Just Went Negative. What It Means for the Google Price Target and 2030 Forecast",
+      "time": "Mon, 21 Sep 2026 16:46:12",
       "sentiment": 0
     },
     {
@@ -1019,7 +1019,7 @@
     {
       "ticker": "CAT",
       "title": "What Higher Interest Rates Mean for Caterpillar, GE Vernova, and Vertiv",
-      "time": "Mon, 21 Sep 2026 09:35:00",
+      "time": "Mon, 21 Sep 2026 08:55:00",
       "sentiment": 0
     },
     {
@@ -1132,6 +1132,12 @@
     },
     {
       "ticker": "LMT",
+      "title": "The Air Force Doesn't Want Lockheed Martin's New Stealth Drone -- but Lockheed Is Building 5 of Them Anyway",
+      "time": "Mon, 21 Sep 2026 12:28:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LMT",
       "title": "Lockheed Martin vs. RTX: Which Defense Dividend Is the Better Income Buy",
       "time": "Mon, 21 Sep 2026 11:57:00",
       "sentiment": 0
@@ -1152,12 +1158,6 @@
       "ticker": "LMT",
       "title": "Trump thanks Lockheed Martin CEO as new White House heliport opens (LMT:NYSE)",
       "time": "Mon, 21 Sep 2026 18:53:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LMT",
-      "title": "Nykredit A S Invests $9.39 Million in Lockheed Martin Corporation $LMT",
-      "time": "Mon, 21 Sep 2026 07:34:39",
       "sentiment": 0
     },
     {
