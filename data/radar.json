@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "21.09.2026 22:27 CEST",
+  "generated_at_local": "21.09.2026 22:40 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "+2.01%",
       "regular_move_pct": "+1.85%",
       "avg_dollar_volume": 1175128559.99,
-      "bar_age_minutes": 11.5,
+      "bar_age_minutes": 13.1,
       "vwap": 391.64,
       "opening_range_high": 389.04,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "+9.92%",
       "regular_move_pct": "+5.38%",
       "avg_dollar_volume": 9481217018.11,
-      "bar_age_minutes": 2.1,
+      "bar_age_minutes": 0.0,
       "vwap": 606.91,
       "opening_range_high": 604.03,
       "opening_range_ready": true,
@@ -76,45 +76,6 @@
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "KLAC",
-      "name": "KLA",
-      "score": 92,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.74%, 5T -2.02%, relatives Volumen 2.28x, ATR 4.28%",
-      "catalyst": "Information technology stocks with the strongest dividend growth grades",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +1.20%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.57,
-      "target_pct": 4.88,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+4.74%",
-      "change_5d": "-2.02%",
-      "volume_ratio": "2.28x",
-      "atr_pct": "4.28%",
-      "gap_pct": "+1.20%",
-      "premarket_move_pct": "-0.50%",
-      "live_gap_pct": "+3.94%",
-      "regular_move_pct": "+2.64%",
-      "avg_dollar_volume": 1692743719.87,
-      "bar_age_minutes": 2.1,
-      "vwap": 182.97,
-      "opening_range_high": 182.39,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": false,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
@@ -143,7 +104,7 @@
       "live_gap_pct": "+2.13%",
       "regular_move_pct": "+1.99%",
       "avg_dollar_volume": 863702721.03,
-      "bar_age_minutes": 2.1,
+      "bar_age_minutes": 5.2,
       "vwap": 398.61,
       "opening_range_high": 395.29,
       "opening_range_ready": true,
@@ -182,7 +143,7 @@
       "live_gap_pct": "+1.56%",
       "regular_move_pct": "+1.04%",
       "avg_dollar_volume": 1545626913.89,
-      "bar_age_minutes": 2.1,
+      "bar_age_minutes": 1.8,
       "vwap": 268.46,
       "opening_range_high": 268.0,
       "opening_range_ready": true,
@@ -198,6 +159,45 @@
         "news_ok": true,
         "gap_ok": true,
         "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum",
+      "score": 91,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.69%, 5T +7.31%, relatives Volumen 3.43x, ATR 3.17%",
+      "catalyst": "MPC vs. PSX: A Closer Look at Two Strong Refining Powerhouses",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -2.23%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.9,
+      "target_pct": 3.62,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.69%",
+      "change_5d": "+7.31%",
+      "volume_ratio": "3.43x",
+      "atr_pct": "3.17%",
+      "gap_pct": "-2.23%",
+      "premarket_move_pct": "-1.44%",
+      "live_gap_pct": "-5.35%",
+      "regular_move_pct": "-4.02%",
+      "avg_dollar_volume": 1112907868.47,
+      "bar_age_minutes": 11.5,
+      "vwap": 410.84,
+      "opening_range_high": 431.08,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": false,
+        "confirmation_ok": false
       }
     }
   ],
@@ -285,6 +285,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "ADI",
+      "title": "Analog Devices Inc. stock outperforms competitors on strong trading day",
+      "time": "Mon, 21 Sep 2026 20:34:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "AMD",
       "title": "AMD stock soars to new record as semiconductors bounce: Chart of the Day",
       "time": "Mon, 21 Sep 2026 16:16:27",
@@ -295,6 +301,12 @@
       "title": "AMD Stock Hits Fresh Record High, Up 183% This Year - Advanced Micro Devices (NASDAQ:AMD), Oracle (NYSE:O",
       "time": "Mon, 21 Sep 2026 15:33:57",
       "sentiment": 1
+    },
+    {
+      "ticker": "KLAC",
+      "title": "KLA Corp. stock underperforms Monday when compared to competitors despite daily gains",
+      "time": "Mon, 21 Sep 2026 20:33:00",
+      "sentiment": -1
     },
     {
       "ticker": "KLAC",
@@ -324,6 +336,12 @@
       "ticker": "LLY",
       "title": "What Lilly Stock's Breast Cancer Drug Approval Means For Shareholders",
       "time": "Mon, 21 Sep 2026 19:25:31",
+      "sentiment": 1
+    },
+    {
+      "ticker": "LLY",
+      "title": "Eli Lilly CEO Ricks sees more Foundayo growth with foreign markets",
+      "time": "Mon, 21 Sep 2026 18:18:39",
       "sentiment": 1
     },
     {
@@ -419,7 +437,7 @@
     {
       "ticker": "MPC",
       "title": "Marathon Petroleum (MPC) Gains On Tight Fuel Supplies Following A Fair Value Debate",
-      "time": "Mon, 21 Sep 2026 12:26:38",
+      "time": "Mon, 21 Sep 2026 12:32:38",
       "sentiment": 0
     },
     {
@@ -460,8 +478,8 @@
     },
     {
       "ticker": "AMGN",
-      "title": "Biotech ETFs to Buy as Cancer Drug Breakthroughs Accelerate",
-      "time": "Mon, 21 Sep 2026 16:03:00",
+      "title": "Biotech Stocks To Watch And Pharma Industry News",
+      "time": "Mon, 21 Sep 2026 17:49:00",
       "sentiment": 0
     },
     {
@@ -646,12 +664,6 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Michael Burry Doubles Down On Palantir Bear Case: ‘A Lot Of’ Money Still To Be Made Shorting PLTR",
-      "time": "Mon, 21 Sep 2026 08:32:54",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
       "title": "Palantir Stock Gets a Bullish Options Signal as Shares Jump 2.7%",
       "time": "Mon, 21 Sep 2026 19:16:55",
       "sentiment": 0
@@ -681,6 +693,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "PLTR",
+      "title": "What Is Drawing Fresh Attention To Palantir Technologies (PLTR)?",
+      "time": "Sun, 20 Sep 2026 23:32:01",
+      "sentiment": 0
+    },
+    {
       "ticker": "TXN",
       "title": "Texas Instruments (TXN) Soars 3.3%: Is Further Upside Left in the Stock?",
       "time": "Mon, 21 Sep 2026 05:39:00",
@@ -690,6 +708,12 @@
       "ticker": "TXN",
       "title": "Why Texas Instruments Incorporated (NASDAQ:TXN) Is In Focus Now?",
       "time": "Mon, 21 Sep 2026 09:03:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TXN",
+      "title": "Texas Instruments stock ends the day modestly higher at the closing bell",
+      "time": "Mon, 21 Sep 2026 20:29:41",
       "sentiment": 0
     },
     {
@@ -730,6 +754,12 @@
     },
     {
       "ticker": "VLO",
+      "title": "Valero (NYSE: VLO) director adds 924 shares with no sales reported",
+      "time": "Mon, 21 Sep 2026 20:23:43",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VLO",
       "title": "Valero Energy Corp Stock (VLO) Moved Down by 3.65% on Sep 21: Facts Behind the Movement",
       "time": "Mon, 21 Sep 2026 19:15:30",
       "sentiment": 0
@@ -756,12 +786,6 @@
       "ticker": "VLO",
       "title": "Valero Energy Corporation Elects Matt Audette to its Board of Directors",
       "time": "Mon, 21 Sep 2026 11:31:37",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
-      "title": "Phillips 66 Is Minting Money on $102 Diesel Margins. How Long Can It Last?",
-      "time": "Mon, 21 Sep 2026 13:40:00",
       "sentiment": 0
     },
     {
@@ -792,12 +816,6 @@
       "ticker": "ADI",
       "title": "Is ADI Overvalued? DCF Says Worth $260",
       "time": "Mon, 21 Sep 2026 11:32:28",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADI",
-      "title": "Wall Street Bulls Look Optimistic About Modine (MOD): Should You Buy?",
-      "time": "Mon, 21 Sep 2026 13:30:02",
       "sentiment": 0
     },
     {
@@ -957,12 +975,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "LLY",
-      "title": "Eli Lilly Vs. Novo Nordisk Stock: Temporarily Cheap Or Correctly Cheap? (NYSE:LLY)",
-      "time": "Mon, 21 Sep 2026 07:18:56",
-      "sentiment": 0
-    },
-    {
       "ticker": "ETN",
       "title": "Eaton Corporation stock gains as analysts lift long-term targets",
       "time": "Mon, 21 Sep 2026 12:49:18",
@@ -1000,8 +1012,8 @@
     },
     {
       "ticker": "JNJ",
-      "title": "Novo Nordisk Stock Drops 5.6% as 2030 Goals Match Peers",
-      "time": "Mon, 21 Sep 2026 12:20:29",
+      "title": "J&J Gains as Caplyta Opens a Mania Expansion Path",
+      "time": "Mon, 21 Sep 2026 19:07:09",
       "sentiment": 0
     },
     {
