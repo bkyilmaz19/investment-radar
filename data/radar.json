@@ -1,39 +1,39 @@
 {
-  "generated_at_local": "21.09.2026 15:42 CEST",
+  "generated_at_local": "21.09.2026 15:55 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Risk-on / positives Momentum. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
+      "ticker": "AMGN",
+      "name": "Amgen",
       "score": 99,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.64%, 5T +3.26%, relatives Volumen 1.97x, ATR 2.34%",
-      "catalyst": "Alphabet Stock Surges as Google Search Makes a Major Comeback",
+      "thesis": "1T +1.55%, 5T +2.20%, relatives Volumen 3.22x, ATR 2.74%",
+      "catalyst": "Healthcare stocks with the strongest dividend growth grades (XLV:NYSEARCA)",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
-      "stop_pct": 1.4,
-      "target_pct": 2.66,
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.81%, seit Open +0.65%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.65,
+      "target_pct": 3.13,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.64%",
-      "change_5d": "+3.26%",
-      "volume_ratio": "1.97x",
-      "atr_pct": "2.34%",
-      "gap_pct": "+0.18%",
-      "premarket_move_pct": "-0.97%",
-      "live_gap_pct": "+0.90%",
-      "regular_move_pct": "+0.58%",
-      "avg_dollar_volume": 8690684901.53,
-      "bar_age_minutes": 2.5,
-      "vwap": 352.66,
-      "opening_range_high": 354.98,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
+      "change_1d": "+1.55%",
+      "change_5d": "+2.20%",
+      "volume_ratio": "3.22x",
+      "atr_pct": "2.74%",
+      "gap_pct": "+0.01%",
+      "premarket_move_pct": "-0.32%",
+      "live_gap_pct": "+0.81%",
+      "regular_move_pct": "+0.65%",
+      "avg_dollar_volume": 1175128559.99,
+      "bar_age_minutes": 0.6,
+      "vwap": 386.47,
+      "opening_range_high": 389.04,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
       "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -41,7 +41,7 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": false
+        "confirmation_ok": true
       }
     },
     {
@@ -52,7 +52,7 @@
       "thesis": "1T +1.34%, 5T +1.82%, relatives Volumen 1.90x, ATR 2.67%",
       "catalyst": "Prediction: Nvidia's Revenue Growth Will Drive Shares to $400 Next Year",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.87%, seit Open +0.57%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.6,
       "target_pct": 3.05,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,13 +62,91 @@
       "atr_pct": "2.67%",
       "gap_pct": "+0.31%",
       "premarket_move_pct": "-0.36%",
-      "live_gap_pct": "+0.92%",
-      "regular_move_pct": "+0.62%",
+      "live_gap_pct": "+0.87%",
+      "regular_move_pct": "+0.57%",
       "avg_dollar_volume": 29564670876.87,
-      "bar_age_minutes": 2.5,
-      "vwap": 223.01,
-      "opening_range_high": 224.32,
-      "opening_range_ready": false,
+      "bar_age_minutes": 0.6,
+      "vwap": 223.41,
+      "opening_range_high": 224.42,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "score": 99,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.79%, 5T +6.22%, relatives Volumen 1.63x, ATR 4.00%",
+      "catalyst": "Palantir (PLTR) Stock Forecast: 85% Revenue Growth, Rule of 40 at 145% - Worth $129?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.77%, seit Open +1.16%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.4,
+      "target_pct": 4.56,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.79%",
+      "change_5d": "+6.22%",
+      "volume_ratio": "1.63x",
+      "atr_pct": "4.00%",
+      "gap_pct": "+0.56%",
+      "premarket_move_pct": "+0.36%",
+      "live_gap_pct": "+1.77%",
+      "regular_move_pct": "+1.16%",
+      "avg_dollar_volume": 5093207228.96,
+      "bar_age_minutes": 0.6,
+      "vwap": 178.76,
+      "opening_range_high": 180.05,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 99,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.64%, 5T +3.26%, relatives Volumen 1.97x, ATR 2.34%",
+      "catalyst": "Alphabet Stock Surges as Google Search Makes a Major Comeback",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.32%, seit Open +0.99%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.4,
+      "target_pct": 2.66,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.64%",
+      "change_5d": "+3.26%",
+      "volume_ratio": "1.97x",
+      "atr_pct": "2.34%",
+      "gap_pct": "+0.18%",
+      "premarket_move_pct": "-0.97%",
+      "live_gap_pct": "+1.32%",
+      "regular_move_pct": "+0.99%",
+      "avg_dollar_volume": 8690684901.53,
+      "bar_age_minutes": 0.6,
+      "vwap": 353.05,
+      "opening_range_high": 355.14,
+      "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "WARTEN",
@@ -91,7 +169,7 @@
       "thesis": "1T +4.74%, 5T -2.02%, relatives Volumen 2.28x, ATR 4.28%",
       "catalyst": "Information technology stocks with the strongest dividend growth grades (VGT:NYSEARCA)",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +2.57%, seit Open +1.29%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.57,
       "target_pct": 4.88,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,13 +179,13 @@
       "atr_pct": "4.28%",
       "gap_pct": "+1.20%",
       "premarket_move_pct": "-0.50%",
-      "live_gap_pct": "+2.25%",
-      "regular_move_pct": "+0.98%",
+      "live_gap_pct": "+2.57%",
+      "regular_move_pct": "+1.29%",
       "avg_dollar_volume": 1692743719.87,
-      "bar_age_minutes": 2.5,
-      "vwap": 180.64,
+      "bar_age_minutes": 0.6,
+      "vwap": 181.09,
       "opening_range_high": 182.39,
-      "opening_range_ready": false,
+      "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
@@ -115,84 +193,6 @@
       "criteria": {
         "score_ok": true,
         "momentum_ok": false,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen",
-      "score": 96,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.55%, 5T +2.20%, relatives Volumen 3.22x, ATR 2.74%",
-      "catalyst": "Healthcare stocks with the strongest dividend growth grades (XLV:NYSEARCA)",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
-      "stop_pct": 1.65,
-      "target_pct": 3.13,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.55%",
-      "change_5d": "+2.20%",
-      "volume_ratio": "3.22x",
-      "atr_pct": "2.74%",
-      "gap_pct": "+0.01%",
-      "premarket_move_pct": "-0.32%",
-      "live_gap_pct": "+0.71%",
-      "regular_move_pct": "+0.55%",
-      "avg_dollar_volume": 1175128559.99,
-      "bar_age_minutes": 2.5,
-      "vwap": 385.63,
-      "opening_range_high": 388.38,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "DXCM",
-      "name": "DexCom",
-      "score": 92,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.61%, 5T +7.61%, relatives Volumen 4.17x, ATR 2.79%",
-      "catalyst": "Dexcom Inc. stock gains on leadership change and strong recent performance",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
-      "stop_pct": 1.67,
-      "target_pct": 3.18,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.61%",
-      "change_5d": "+7.61%",
-      "volume_ratio": "4.17x",
-      "atr_pct": "2.79%",
-      "gap_pct": "-1.04%",
-      "premarket_move_pct": "-0.77%",
-      "live_gap_pct": "-0.17%",
-      "regular_move_pct": "+0.34%",
-      "avg_dollar_volume": 354230623.95,
-      "bar_age_minutes": 2.5,
-      "vwap": 89.1,
-      "opening_range_high": 89.47,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
@@ -231,12 +231,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "BABA",
-      "title": "【US Pre-Market】Three Major Index Futures Rise as Oil Falls Below $80; Amazon, Alphabet Gain as Market Focuses on PLTR Earnings",
-      "time": "Sun, 20 Sep 2026 18:13:02",
-      "sentiment": -1
-    },
-    {
       "ticker": "DXCM",
       "title": "Dexcom Inc. stock gains on leadership change and strong recent performance",
       "time": "Sun, 20 Sep 2026 16:04:37",
@@ -244,8 +238,8 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Grew Revenue 85% and Raised Full-Year Guidance by 10 Points — So Why Is PLTR Down 26% YTD?",
-      "time": "Sun, 20 Sep 2026 22:53:33",
+      "title": "Palantir (PLTR) Stock Forecast: 85% Revenue Growth, Rule of 40 at 145% - Worth $129?",
+      "time": "Mon, 21 Sep 2026 01:11:49",
       "sentiment": 1
     },
     {
@@ -297,6 +291,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "GOOG",
+      "title": "Alphabet C stock gains on raised earnings estimates and strong Q2 2026 figures",
+      "time": "Mon, 21 Sep 2026 13:42:48",
+      "sentiment": 1
+    },
+    {
       "ticker": "LLY",
       "title": "Novo Nordisk Targets Over Five New Blockbusters By 2030, But NVO Stock Slides On Growth Concerns",
       "time": "Mon, 21 Sep 2026 11:31:08",
@@ -318,6 +318,12 @@
       "ticker": "ASML",
       "title": "ASML reports transactions under its current share buyback program",
       "time": "Mon, 21 Sep 2026 12:00:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "ASML",
+      "title": "ASML reports transactions under its current share buyback program",
+      "time": "Mon, 21 Sep 2026 12:01:54",
       "sentiment": 1
     },
     {
@@ -347,7 +353,7 @@
     {
       "ticker": "MPC",
       "title": "Marathon Petroleum (MPC) Gains On Tight Fuel Supplies Following A Fair Value Debate",
-      "time": "Mon, 21 Sep 2026 12:26:38",
+      "time": "Mon, 21 Sep 2026 12:26:36",
       "sentiment": 0
     },
     {
@@ -413,7 +419,7 @@
     {
       "ticker": "NVDA",
       "title": "Jensen Huang Just Delivered Incredible News for Nvidia Stock Investors",
-      "time": "Mon, 21 Sep 2026 13:25:03",
+      "time": "Mon, 21 Sep 2026 13:47:10",
       "sentiment": 0
     },
     {
@@ -460,14 +466,14 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "Google fined €403M by Irish regulatory board for privacy violations (GOOG:NASDAQ)",
-      "time": "Mon, 21 Sep 2026 12:42:22",
+      "title": "This Energy Storage Stock Jumps on Deal to Power Google Data Centers",
+      "time": "Mon, 21 Sep 2026 10:19:04",
       "sentiment": 0
     },
     {
       "ticker": "GOOGL",
-      "title": "Dan Ives Believes MSFT Is The Most Oversold Large-Cap Stock, Draws Parallels To 'Negative' Narratives Around GOOGL A Year Ago",
-      "time": "Mon, 21 Sep 2026 00:16:58",
+      "title": "Google fined €403M by Irish regulatory board for privacy violations (GOOG:NASDAQ)",
+      "time": "Mon, 21 Sep 2026 12:42:22",
       "sentiment": 0
     },
     {
@@ -478,32 +484,32 @@
     },
     {
       "ticker": "MU",
-      "title": "MU Stock Price Prediction: Can Micron Keep Riding the AI Memory Boom?",
-      "time": "Mon, 21 Sep 2026 11:31:17",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MU",
       "title": "Micron's Stock Could Easily Double (NASDAQ:MU)",
       "time": "Mon, 21 Sep 2026 13:30:00",
       "sentiment": 0
     },
     {
       "ticker": "MU",
-      "title": "Micron Stock Soars 517% in a Year, Jim Cramer Still Calls It ‘Incredibly Cheap’",
+      "title": "MU Stock Price Prediction: Can Micron Keep Riding the AI Memory Boom?",
+      "time": "Mon, 21 Sep 2026 11:31:17",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MU",
+      "title": "What's Going On With Micron Technology Stock Monday? - Micron Technology (NASDAQ:MU)",
       "time": "Mon, 21 Sep 2026 11:15:36",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MU",
+      "title": "Micron Technology Inc Stock (MU) Opened Up by 4.24% on Sep 21: Drivers Behind the Movement",
+      "time": "Mon, 21 Sep 2026 13:48:18",
       "sentiment": 0
     },
     {
       "ticker": "MU",
       "title": "Stifel Maintains Micron Technology(MU.US) With Buy Rating, Maintains Target Price $1,500",
       "time": "Mon, 21 Sep 2026 11:38:39",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MU",
-      "title": "Why Is Micron Stock Rising Nearly 1% Overnight?",
-      "time": "Sun, 20 Sep 2026 17:18:45",
       "sentiment": 0
     },
     {
@@ -534,6 +540,12 @@
       "ticker": "BABA",
       "title": "French Finance Minister Lescure says France’s strategic oil stocks are full",
       "time": "Mon, 21 Sep 2026 06:51:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BABA",
+      "title": "MP, CRML, USAR Stocks In Focus: China Reportedly Blocks Some Rare Earth Shipments To US",
+      "time": "Mon, 21 Sep 2026 03:26:10",
       "sentiment": 0
     },
     {
@@ -580,6 +592,12 @@
     },
     {
       "ticker": "PLTR",
+      "title": "Wall Street Just Gave Palantir Its Highest-Ever Price Target, Right When Europe Started Saying No",
+      "time": "Mon, 21 Sep 2026 08:05:30",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PLTR",
       "title": "Palantir Nearly Doubled Its Revenue. Its Stock Stood Still. Is It Time to Buy the Stock?",
       "time": "Sun, 20 Sep 2026 23:52:00",
       "sentiment": 0
@@ -588,12 +606,6 @@
       "ticker": "PLTR",
       "title": "What Is Drawing Fresh Attention To Palantir Technologies (PLTR)?",
       "time": "Sun, 20 Sep 2026 23:32:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir stock soared 1,676% since its 2020 IPO, with forecasts predicting further gains in 2027.",
-      "time": "Mon, 21 Sep 2026 10:54:32",
       "sentiment": 0
     },
     {
@@ -622,14 +634,14 @@
     },
     {
       "ticker": "ARM",
-      "title": "Better Artificial Intelligence Stock: Arm Holdings vs. ASML",
-      "time": "Mon, 21 Sep 2026 01:52:00",
+      "title": "Intel and Arm Stocks Are Jumping. Thank Meta’s Muse AI Agent.",
+      "time": "Mon, 21 Sep 2026 12:35:00",
       "sentiment": 0
     },
     {
       "ticker": "ARM",
-      "title": "Intel and Arm Stocks Are Jumping. Thank Meta’s Muse AI Agent.",
-      "time": "Mon, 21 Sep 2026 12:35:00",
+      "title": "Better Artificial Intelligence Stock: Arm Holdings vs. ASML",
+      "time": "Mon, 21 Sep 2026 01:52:00",
       "sentiment": 0
     },
     {
@@ -640,14 +652,14 @@
     },
     {
       "ticker": "ARM",
-      "title": "Why Arm Holdings plc (NASDAQ:ARM) Is In Focus Now?",
-      "time": "Mon, 21 Sep 2026 09:23:00",
+      "title": "Arm Holdings stock gains as FY2026 revenue rises more than 22 percent",
+      "time": "Mon, 21 Sep 2026 13:34:21",
       "sentiment": 0
     },
     {
       "ticker": "ARM",
-      "title": "Arm Holdings stock heads into the open after a 4.0 percent jump",
-      "time": "Mon, 21 Sep 2026 05:26:07",
+      "title": "Why Arm Holdings plc (NASDAQ:ARM) Is In Focus Now?",
+      "time": "Mon, 21 Sep 2026 09:23:00",
       "sentiment": 0
     },
     {
@@ -670,6 +682,12 @@
     },
     {
       "ticker": "VLO",
+      "title": "Phillips 66 Is Minting Money on $102 Diesel Margins. How Long Can It Last?",
+      "time": "Mon, 21 Sep 2026 13:40:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VLO",
       "title": "15 AI Stocks Up 100%+: Is It Too Late To Buy?",
       "time": "Sun, 20 Sep 2026 15:38:59",
       "sentiment": 0
@@ -678,12 +696,6 @@
       "ticker": "VLO",
       "title": "2 S&P 500 Stocks Hit 52-Week Highs On Friday",
       "time": "Mon, 21 Sep 2026 07:41:10",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VLO",
-      "title": "3 U.S. Refining Stocks With Diesel And Jet Fuel Margin Upside",
-      "time": "Mon, 21 Sep 2026 02:15:00",
       "sentiment": 0
     },
     {
@@ -711,9 +723,27 @@
       "sentiment": 0
     },
     {
+      "ticker": "ADI",
+      "title": "Wall Street Bulls Look Optimistic About Modine (MOD): Should You Buy?",
+      "time": "Mon, 21 Sep 2026 13:30:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADI",
+      "title": "Analog Devices stock gains on a $1.35 billion AI deal",
+      "time": "Mon, 21 Sep 2026 13:32:34",
+      "sentiment": 0
+    },
+    {
       "ticker": "AMD",
-      "title": "AMD Stock Jumped 8% Last Week. It Could Bring 325% More, Here’s How.",
-      "time": "Mon, 21 Sep 2026 05:06:09",
+      "title": "Amd stock hits all-time high at 584.95 USD",
+      "time": "Mon, 21 Sep 2026 13:34:07",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMD",
+      "title": "AMD Rises 5% as Report Flags 10% Chip Price Increase; NVIDIA and Taiwan Semiconductor Tick Up",
+      "time": "Mon, 21 Sep 2026 13:37:53",
       "sentiment": 0
     },
     {
@@ -735,12 +765,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "AMD",
-      "title": "Amd stock hits all-time high at 584.95 USD By Investing.com",
-      "time": "Mon, 21 Sep 2026 13:37:12",
-      "sentiment": 0
-    },
-    {
       "ticker": "KLAC",
       "title": "KLAC DCF Analysis: Intrinsic Value $117 vs Price $177",
       "time": "Mon, 21 Sep 2026 11:32:28",
@@ -756,6 +780,12 @@
       "ticker": "KLAC",
       "title": "3 AI Infrastructure Stocks Facing Higher Rates and Bigger Chip Spending",
       "time": "Sun, 20 Sep 2026 17:42:52",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NOC",
+      "title": "Why Did PSKY, MCD, NOC Stocks Tumble To 52-Week Lows Today?",
+      "time": "Mon, 21 Sep 2026 06:12:54",
       "sentiment": 0
     },
     {
@@ -790,7 +820,7 @@
     },
     {
       "ticker": "TJX",
-      "title": "Kimco Realty: Buy The Dip On This High Quality REIT (NYSE:KIM)",
+      "title": "Kimco Realty: Buy The Dip On This High-Quality REIT (NYSE:KIM)",
       "time": "Mon, 21 Sep 2026 12:15:00",
       "sentiment": 0
     },
@@ -825,15 +855,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "GOOG",
-      "title": "Alphabet C stock heads into the open after a 0.21% Nasdaq gain",
-      "time": "Mon, 21 Sep 2026 05:56:26",
+      "ticker": "LLY",
+      "title": "Eli Lilly Vs. Novo Nordisk Stock: Temporarily Cheap Or Correctly Cheap? (NYSE:LLY)",
+      "time": "Mon, 21 Sep 2026 07:18:56",
       "sentiment": 0
     },
     {
       "ticker": "LLY",
-      "title": "Eli Lilly Vs. Novo Nordisk Stock: Temporarily Cheap Or Correctly Cheap? (NYSE:LLY)",
-      "time": "Mon, 21 Sep 2026 07:18:56",
+      "title": "Novo Nordisk Falls 7% as Post-Wegovy Growth Plan Fails to Ease Competition Fears; Eli Lilly Slips, Viking Therapeutics Edges Higher",
+      "time": "Mon, 21 Sep 2026 13:45:00",
       "sentiment": 0
     },
     {
@@ -852,12 +882,6 @@
       "ticker": "LLY",
       "title": "Eli Lilly and Company (LLY) Price: Live Chart & Market Cap",
       "time": "Sun, 20 Sep 2026 22:46:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LLY",
-      "title": "Eli Lilly and Co. stock edges higher ahead of the open after a 0.02 percent gain",
-      "time": "Mon, 21 Sep 2026 04:51:51",
       "sentiment": 0
     },
     {
@@ -940,8 +964,8 @@
     },
     {
       "ticker": "MRK",
-      "title": "MRK Looks 21.6% Overvalued on GF Value™ as Dividend Sustainabili",
-      "time": "Mon, 21 Sep 2026 13:08:43",
+      "title": "4 stocks to watch on Monday: HPQ, PFE, MRK, and MRVL (SP500:)",
+      "time": "Mon, 21 Sep 2026 12:46:21",
       "sentiment": 0
     },
     {
@@ -994,20 +1018,20 @@
     },
     {
       "ticker": "ASML",
-      "title": "ASML (NasdaqGS:ASML) Stock May Trade At A Premium Despite High NA EUV News",
-      "time": "Sun, 20 Sep 2026 19:38:58",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
-      "title": "ASML (ASML) Q2 2026 Earnings Preview: $7.94 EPS Expected, 8% Options Swing; Triangle at $1,800",
-      "time": "Sun, 20 Sep 2026 22:12:42",
+      "title": "What company Is ASML? Between ASML and AMD, Which Is a Better Investment?",
+      "time": "Mon, 21 Sep 2026 01:13:16",
       "sentiment": 0
     },
     {
       "ticker": "PSX",
       "title": "BMO Sees Phillips 66 (PSX) Breaking into New Highs",
       "time": "Sun, 20 Sep 2026 16:35:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PSX",
+      "title": "Phillips 66 Is Minting Money on $102 Diesel Margins. How Long Can It Last?",
+      "time": "Mon, 21 Sep 2026 13:40:40",
       "sentiment": 0
     },
     {
@@ -1086,6 +1110,12 @@
       "ticker": "FCX",
       "title": "Freeport-McMoRan stock gains as analyst targets cluster around copper upside",
       "time": "Sun, 20 Sep 2026 17:16:22",
+      "sentiment": 0
+    },
+    {
+      "ticker": "FCX",
+      "title": "Top One and One Green Technologies. Inc Class A Ordinary Shares (YDDL) Competitors 2026",
+      "time": "Mon, 21 Sep 2026 00:09:28",
       "sentiment": 0
     },
     {
