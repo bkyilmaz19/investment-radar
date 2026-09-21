@@ -1,9 +1,9 @@
 {
-  "generated_at_local": "21.09.2026 23:10 CEST",
+  "generated_at_local": "21.09.2026 23:26 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
-  "scanned_count": 201,
-  "summary": "Risk-on / positives Momentum. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "scanned_count": 200,
+  "summary": "Risk-on / positives Momentum. Premarket-Daten einbezogen, soweit verfügbar. 200 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
       "ticker": "AMGN",
@@ -26,7 +26,7 @@
       "live_gap_pct": "+2.01%",
       "regular_move_pct": "+1.85%",
       "avg_dollar_volume": 1175128559.99,
-      "bar_age_minutes": 1.4,
+      "bar_age_minutes": 1.5,
       "vwap": 391.64,
       "opening_range_high": 389.04,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "+2.13%",
       "regular_move_pct": "+1.99%",
       "avg_dollar_volume": 863702721.03,
-      "bar_age_minutes": 10.9,
+      "bar_age_minutes": 6.7,
       "vwap": 398.61,
       "opening_range_high": 395.29,
       "opening_range_ready": true,
@@ -104,7 +104,7 @@
       "live_gap_pct": "-5.35%",
       "regular_move_pct": "-4.02%",
       "avg_dollar_volume": 1112907868.47,
-      "bar_age_minutes": 1.4,
+      "bar_age_minutes": 21.7,
       "vwap": 410.84,
       "opening_range_high": 431.08,
       "opening_range_ready": true,
@@ -123,29 +123,29 @@
       }
     },
     {
-      "ticker": "AMD",
-      "name": "AMD",
-      "score": 90,
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "score": 91,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.70%, 5T +8.46%, relatives Volumen 1.42x, ATR 3.99%",
-      "catalyst": "AMD stock soars to new record as semiconductors bounce: Chart of the Day",
+      "thesis": "1T +0.79%, 5T +6.22%, relatives Volumen 1.63x, ATR 4.00%",
+      "catalyst": "Palantir (PLTR) Stock Forecast: 85% Revenue Growth, Rule of 40 at 145% - Worth $129?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +4.30%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.39,
-      "target_pct": 4.55,
+      "entry_note": "Premarket-Gap +0.56%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.4,
+      "target_pct": 4.56,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.70%",
-      "change_5d": "+8.46%",
-      "volume_ratio": "1.42x",
-      "atr_pct": "3.99%",
-      "gap_pct": "+4.30%",
-      "premarket_move_pct": "+1.92%",
-      "live_gap_pct": "+9.92%",
-      "regular_move_pct": "+5.38%",
-      "avg_dollar_volume": 9481217018.11,
-      "bar_age_minutes": 0.1,
-      "vwap": 606.91,
-      "opening_range_high": 604.03,
+      "change_1d": "+0.79%",
+      "change_5d": "+6.22%",
+      "volume_ratio": "1.63x",
+      "atr_pct": "4.00%",
+      "gap_pct": "+0.56%",
+      "premarket_move_pct": "+0.36%",
+      "live_gap_pct": "+3.06%",
+      "regular_move_pct": "+2.44%",
+      "avg_dollar_volume": 5093207228.96,
+      "bar_age_minutes": 1.7,
+      "vwap": 181.39,
+      "opening_range_high": 180.05,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "After-Hours / US-Session beendet",
@@ -182,7 +182,7 @@
       "live_gap_pct": "+1.62%",
       "regular_move_pct": "+1.30%",
       "avg_dollar_volume": 8690684901.53,
-      "bar_age_minutes": 0.1,
+      "bar_age_minutes": 1.7,
       "vwap": 355.0,
       "opening_range_high": 355.14,
       "opening_range_ready": true,
@@ -237,6 +237,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "NVDA",
+      "title": "NVDA Stock Climbs Over 1% — Nvidia Says Its AI ‘Roadmap Is Intact’ After Report Of Kyber Rack Delay",
+      "time": "Mon, 21 Sep 2026 10:45:02",
+      "sentiment": -1
+    },
+    {
       "ticker": "GOOGL",
       "title": "Alphabet Stock Surges as Google Search Makes a Major Comeback",
       "time": "Mon, 21 Sep 2026 12:28:33",
@@ -264,6 +270,12 @@
       "ticker": "ISRG",
       "title": "Ambulatory Surgery Centers Are Becoming ISRG's New Growth Engine",
       "time": "Mon, 21 Sep 2026 16:07:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir (PLTR) Stock Forecast: 85% Revenue Growth, Rule of 40 at 145% - Worth $129?",
+      "time": "Mon, 21 Sep 2026 01:11:49",
       "sentiment": 1
     },
     {
@@ -327,6 +339,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "LLY",
+      "title": "Eli Lilly CEO Ricks sees more Foundayo growth with foreign markets",
+      "time": "Mon, 21 Sep 2026 18:18:39",
+      "sentiment": 1
+    },
+    {
       "ticker": "ETN",
       "title": "Eaton (ETN) Surges 3.7%: Is This an Indication of Further Gains?",
       "time": "Mon, 21 Sep 2026 12:45:00",
@@ -358,15 +376,15 @@
     },
     {
       "ticker": "MRK",
-      "title": "AZN vs. MRK: Comparing Keytruda, Pipelines and Growth Strategies",
-      "time": "Mon, 21 Sep 2026 15:22:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "MRK",
       "title": "Merck: Time To Trim, Overvalued, And Overbought (Rating Downgrade) (NYSE:MRK)",
       "time": "Mon, 21 Sep 2026 11:27:12",
       "sentiment": -1
+    },
+    {
+      "ticker": "MRK",
+      "title": "AZN vs. MRK: Comparing Keytruda, Pipelines and Growth Strategies",
+      "time": "Mon, 21 Sep 2026 15:22:00",
+      "sentiment": 1
     },
     {
       "ticker": "MRK",
@@ -417,6 +435,12 @@
       "sentiment": -1
     },
     {
+      "ticker": "AAPL",
+      "title": "Apple shares hit record high after iPhone Duo and Siri AI success",
+      "time": "Mon, 21 Sep 2026 20:03:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "MPC",
       "title": "Marathon Petroleum (MPC) Gains On Tight Fuel Supplies Following A Fair Value Debate",
       "time": "Mon, 21 Sep 2026 12:32:38",
@@ -442,6 +466,12 @@
     },
     {
       "ticker": "AMGN",
+      "title": "Biotech ETFs to Buy as Cancer Drug Breakthroughs Accelerate",
+      "time": "Mon, 21 Sep 2026 16:03:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMGN",
       "title": "The Zacks Analyst Blog Highlights AMD, Linde, Amgen and INNOVATE",
       "time": "Mon, 21 Sep 2026 13:00:00",
       "sentiment": 0
@@ -454,14 +484,8 @@
     },
     {
       "ticker": "AMGN",
-      "title": "Amgen stock edges toward analyst targets on solid fundamentals",
-      "time": "Mon, 21 Sep 2026 12:44:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMGN",
-      "title": "Biotech ETFs to Buy as Cancer Drug Breakthroughs Accelerate",
-      "time": "Mon, 21 Sep 2026 16:03:00",
+      "title": "Amgen stock ends the day 1.95 percent higher at the close",
+      "time": "Mon, 21 Sep 2026 21:16:27",
       "sentiment": 0
     },
     {
@@ -504,12 +528,6 @@
       "ticker": "NVDA",
       "title": "NVDA Stock Nears $230 as Nvidia CEO Jensen Huang Sees Chip Sales Doubling",
       "time": "Mon, 21 Sep 2026 20:00:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Jensen Huang Just Gave Nvidia Investors Great News and a Reason Why the Stock May Continue Surging in 2027",
-      "time": "Mon, 21 Sep 2026 19:33:55",
       "sentiment": 0
     },
     {
@@ -568,14 +586,14 @@
     },
     {
       "ticker": "MU",
-      "title": "Wall Street analysts set Micron (MU) stock price target",
-      "time": "Mon, 21 Sep 2026 14:34:02",
+      "title": "Micron Stock Is Back Above $1,000. Is a Stock Split Coming?",
+      "time": "Mon, 21 Sep 2026 21:07:23",
       "sentiment": 0
     },
     {
       "ticker": "MU",
-      "title": "Micron Stock Flashes Signal Before Earnings",
-      "time": "Mon, 21 Sep 2026 18:24:14",
+      "title": "Wall Street analysts set Micron (MU) stock price target",
+      "time": "Mon, 21 Sep 2026 14:34:02",
       "sentiment": 0
     },
     {
@@ -652,8 +670,8 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Technologies Inc Stock (PLTR) Closed Up by 3.06% on Sep 21: What Signal Does It Send?",
-      "time": "Mon, 21 Sep 2026 20:15:41",
+      "title": "Palantir Technologies Inc (PLTR) Stock Up 3.1% but GF Value Says Overvalued -- GF Score: 83/100",
+      "time": "Mon, 21 Sep 2026 21:13:14",
       "sentiment": 0
     },
     {
@@ -675,15 +693,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "PLTR",
-      "title": "Palantir stock soared 1,676% since its 2020 IPO, with forecasts predicting further gains in 2027.",
-      "time": "Mon, 21 Sep 2026 10:54:32",
-      "sentiment": 0
-    },
-    {
       "ticker": "TXN",
-      "title": "Texas Instruments (TXN) director gets automatic stock-unit grant",
-      "time": "Mon, 21 Sep 2026 20:46:30",
+      "title": "Texas Instruments (TXN) director receives new stock unit grant",
+      "time": "Mon, 21 Sep 2026 20:38:01",
       "sentiment": 0
     },
     {
@@ -694,8 +706,8 @@
     },
     {
       "ticker": "TXN",
-      "title": "Texas Instruments (TXN) director receives new stock unit grant",
-      "time": "Mon, 21 Sep 2026 20:38:01",
+      "title": "Why Texas Instruments Incorporated (NASDAQ:TXN) Is In Focus Now?",
+      "time": "Mon, 21 Sep 2026 09:03:00",
       "sentiment": 0
     },
     {
@@ -706,8 +718,8 @@
     },
     {
       "ticker": "TXN",
-      "title": "Why Texas Instruments Incorporated (NASDAQ:TXN) Is In Focus Now?",
-      "time": "Mon, 21 Sep 2026 09:03:00",
+      "title": "UBS Names Top Picks Across Technology, Media and Telecom Sectors By Investing.com",
+      "time": "Mon, 21 Sep 2026 16:44:35",
       "sentiment": 0
     },
     {
@@ -826,14 +838,14 @@
     },
     {
       "ticker": "AMD",
-      "title": "AMD hits a major milestone as AI stocks blaze higher",
-      "time": "Mon, 21 Sep 2026 20:19:00",
+      "title": "AMD joins $1 trillion club as chipmakers rally on AI-driven demand",
+      "time": "Mon, 21 Sep 2026 15:32:11",
       "sentiment": 0
     },
     {
       "ticker": "AMD",
-      "title": "AMD Stock Alert: Advanced Micro Devices Joins the Trillion-Dollar Club",
-      "time": "Mon, 21 Sep 2026 20:51:35",
+      "title": "AMD hits a major milestone as AI stocks blaze higher",
+      "time": "Mon, 21 Sep 2026 20:19:00",
       "sentiment": 0
     },
     {
@@ -846,6 +858,12 @@
       "ticker": "KLAC",
       "title": "KLAC DCF Analysis: Intrinsic Value $117 vs Price $177",
       "time": "Mon, 21 Sep 2026 11:32:28",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KLAC",
+      "title": "Triple Witching Whipsaws Wall Street While Crypto Stocks Steal the Show",
+      "time": "Mon, 21 Sep 2026 08:36:38",
       "sentiment": 0
     },
     {
@@ -966,12 +984,6 @@
       "ticker": "LLY",
       "title": "The Next Chapter of Eli Lilly Could Be Bigger Than Investors Expect",
       "time": "Mon, 21 Sep 2026 17:30:17",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LLY",
-      "title": "Eli Lilly (LLY) Expands Market Share with Foundayo Amid Growing Demand",
-      "time": "Mon, 21 Sep 2026 19:08:27",
       "sentiment": 0
     },
     {
@@ -1127,7 +1139,7 @@
     {
       "ticker": "GILD",
       "title": "THNR's Weight-Loss Index Swaps Hims & Hers for Gilead",
-      "time": "Mon, 21 Sep 2026 19:10:47",
+      "time": "Mon, 21 Sep 2026 19:16:42",
       "sentiment": 0
     },
     {
@@ -1138,8 +1150,8 @@
     },
     {
       "ticker": "GILD",
-      "title": "Lakefront Biotherapeutics - American Depositary Shares (LKFT) Stock Price, News, Quote & History",
-      "time": "Mon, 21 Sep 2026 21:10:00",
+      "title": "Gilead Sciences stock ends the day lower after the close",
+      "time": "Mon, 21 Sep 2026 21:12:25",
       "sentiment": 0
     },
     {
@@ -1162,6 +1174,12 @@
     },
     {
       "ticker": "LMT",
+      "title": "Lockheed Martin stock ends the day little changed at the close",
+      "time": "Mon, 21 Sep 2026 20:50:55",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LMT",
       "title": "RTX, LMT Stocks Head For Weekly Gains After Solid Q2 Performance — Retail Calls Defense 'A Bipartisan Issue'",
       "time": "Mon, 21 Sep 2026 07:58:54",
       "sentiment": 0
@@ -1170,12 +1188,6 @@
       "ticker": "LMT",
       "title": "Trump thanks Lockheed Martin CEO as new White House heliport opens (LMT:NYSE)",
       "time": "Mon, 21 Sep 2026 18:53:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LMT",
-      "title": "Lockheed Martin stock ends the day little changed at the close",
-      "time": "Mon, 21 Sep 2026 20:50:55",
       "sentiment": 0
     },
     {
@@ -1209,15 +1221,33 @@
       "sentiment": 0
     },
     {
-      "ticker": "ITW",
-      "title": "Illinois Tool Works stock edges lower after guidance raise underscores steady 2026 trajectory",
-      "time": "Mon, 21 Sep 2026 17:06:58",
+      "ticker": "AAPL",
+      "title": "If You Invest $500 a Month in Apple Starting Now, This is What You’d Have in 2030",
+      "time": "Mon, 21 Sep 2026 15:00:39",
       "sentiment": 0
     },
     {
-      "ticker": "ITW",
-      "title": "Automotive Stocks To Watch Today - September 21st",
-      "time": "Mon, 21 Sep 2026 16:10:42",
+      "ticker": "AAPL",
+      "title": "Is Apple Stock’s Shrinking Share Count Worth Paying Up For Near The Highs?",
+      "time": "Mon, 21 Sep 2026 19:00:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Apple (AAPL) Stock Climbs as iPhone 18 Pro Goes Greener. Can 40% Recycled Content Reduce Its Carbon Footprint?",
+      "time": "Mon, 21 Sep 2026 16:51:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAPL",
+      "title": "JPMorgan Delivers Bullish Message For Apple Stock Fans",
+      "time": "Mon, 21 Sep 2026 15:05:24",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAPL",
+      "title": "AAPL Stock Bucks Tech Rout: Retail Calls It 'Safe Haven' Ahead Of Q3 Report This Month",
+      "time": "Mon, 21 Sep 2026 05:26:34",
       "sentiment": 0
     }
   ]
