@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "21.09.2026 20:13 CEST",
+  "generated_at_local": "21.09.2026 20:32 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,87 +26,9 @@
       "live_gap_pct": "+2.13%",
       "regular_move_pct": "+1.97%",
       "avg_dollar_volume": 1175128559.99,
-      "bar_age_minutes": 3.2,
-      "vwap": 390.62,
+      "bar_age_minutes": 2.6,
+      "vwap": 390.81,
       "opening_range_high": 389.04,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "TXN",
-      "name": "Texas Instruments",
-      "score": 99,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.29%, 5T -0.77%, relatives Volumen 3.57x, ATR 3.06%",
-      "catalyst": "Texas Instruments price shows more positive signals - Forecast today - 21-09-2026",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.88%, seit Open +0.37%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.84,
-      "target_pct": 3.49,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.29%",
-      "change_5d": "-0.77%",
-      "volume_ratio": "3.57x",
-      "atr_pct": "3.06%",
-      "gap_pct": "+0.23%",
-      "premarket_move_pct": "-0.47%",
-      "live_gap_pct": "+0.88%",
-      "regular_move_pct": "+0.37%",
-      "avg_dollar_volume": 1545626913.89,
-      "bar_age_minutes": 3.2,
-      "vwap": 267.11,
-      "opening_range_high": 268.0,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "Alphabet",
-      "score": 99,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.64%, 5T +3.26%, relatives Volumen 1.97x, ATR 2.34%",
-      "catalyst": "Alphabet Stock Surges as Google Search Makes a Major Comeback",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.82%, seit Open +1.49%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.4,
-      "target_pct": 2.66,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.64%",
-      "change_5d": "+3.26%",
-      "volume_ratio": "1.97x",
-      "atr_pct": "2.34%",
-      "gap_pct": "+0.18%",
-      "premarket_move_pct": "-0.97%",
-      "live_gap_pct": "+1.82%",
-      "regular_move_pct": "+1.49%",
-      "avg_dollar_volume": 8690684901.53,
-      "bar_age_minutes": 3.2,
-      "vwap": 354.84,
-      "opening_range_high": 355.14,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -130,7 +52,7 @@
       "thesis": "1T +2.55%, 5T +6.55%, relatives Volumen 2.00x, ATR 3.10%",
       "catalyst": "Ambulatory Surgery Centers Are Becoming ISRG's New Growth Engine",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.65%, seit Open +1.51%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.85%, seit Open +1.71%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.86,
       "target_pct": 3.53,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +62,11 @@
       "atr_pct": "3.10%",
       "gap_pct": "+0.03%",
       "premarket_move_pct": "+0.30%",
-      "live_gap_pct": "+1.65%",
-      "regular_move_pct": "+1.51%",
+      "live_gap_pct": "+1.85%",
+      "regular_move_pct": "+1.71%",
       "avg_dollar_volume": 863702721.03,
-      "bar_age_minutes": 3.2,
-      "vwap": 396.41,
+      "bar_age_minutes": 2.6,
+      "vwap": 396.6,
       "opening_range_high": 395.29,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -162,6 +84,84 @@
       }
     },
     {
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "score": 99,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.29%, 5T -0.77%, relatives Volumen 3.57x, ATR 3.06%",
+      "catalyst": "Texas Instruments price shows more positive signals - Forecast today - 21-09-2026",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.13%, seit Open +0.62%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.84,
+      "target_pct": 3.49,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.29%",
+      "change_5d": "-0.77%",
+      "volume_ratio": "3.57x",
+      "atr_pct": "3.06%",
+      "gap_pct": "+0.23%",
+      "premarket_move_pct": "-0.47%",
+      "live_gap_pct": "+1.13%",
+      "regular_move_pct": "+0.62%",
+      "avg_dollar_volume": 1545626913.89,
+      "bar_age_minutes": 2.6,
+      "vwap": 267.23,
+      "opening_range_high": 268.0,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "score": 99,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.04%, 5T +3.34%, relatives Volumen 2.46x, ATR 2.21%",
+      "catalyst": "What Lilly Stock's Breast Cancer Drug Approval Means For Shareholders",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.37%, seit Open +2.12%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.33,
+      "target_pct": 2.52,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.04%",
+      "change_5d": "+3.34%",
+      "volume_ratio": "2.46x",
+      "atr_pct": "2.21%",
+      "gap_pct": "-0.69%",
+      "premarket_move_pct": "-0.78%",
+      "live_gap_pct": "+1.37%",
+      "regular_move_pct": "+2.12%",
+      "avg_dollar_volume": 2763438772.63,
+      "bar_age_minutes": 2.7,
+      "vwap": 1160.24,
+      "opening_range_high": 1165.0,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": false,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
       "ticker": "PLTR",
       "name": "Palantir",
       "score": 99,
@@ -169,7 +169,7 @@
       "thesis": "1T +0.79%, 5T +6.22%, relatives Volumen 1.63x, ATR 4.00%",
       "catalyst": "Palantir (PLTR) Stock Forecast: 85% Revenue Growth, Rule of 40 at 145% - Worth $129?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.31%, seit Open +1.69%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.19%, seit Open +1.57%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.4,
       "target_pct": 4.56,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +179,11 @@
       "atr_pct": "4.00%",
       "gap_pct": "+0.56%",
       "premarket_move_pct": "+0.36%",
-      "live_gap_pct": "+2.31%",
-      "regular_move_pct": "+1.69%",
+      "live_gap_pct": "+2.19%",
+      "regular_move_pct": "+1.57%",
       "avg_dollar_volume": 5093207228.96,
-      "bar_age_minutes": 3.2,
-      "vwap": 181.11,
+      "bar_age_minutes": 2.7,
+      "vwap": 181.12,
       "opening_range_high": 180.05,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -249,6 +249,12 @@
       "sentiment": -1
     },
     {
+      "ticker": "BABA",
+      "title": "Alibaba Deadline: BABA Investors Have Opportunity to Lead Alibaba Group Holding Limited Securities Fraud Lawsuit Filed by The Rosen Law Firm",
+      "time": "Mon, 21 Sep 2026 18:17:00",
+      "sentiment": -1
+    },
+    {
       "ticker": "DXCM",
       "title": "DexCom, Inc. (DXCM) Stock Analysis: Strong Buy Ratings and Promising Growth in the Medical Device Sector",
       "time": "Mon, 21 Sep 2026 09:15:46",
@@ -257,7 +263,13 @@
     {
       "ticker": "ISRG",
       "title": "Ambulatory Surgery Centers Are Becoming ISRG's New Growth Engine",
-      "time": "Mon, 21 Sep 2026 15:33:44",
+      "time": "Mon, 21 Sep 2026 17:49:49",
+      "sentiment": 1
+    },
+    {
+      "ticker": "ISRG",
+      "title": "Intuitive Surgical stock gains as analysts see upside after Q2 growth",
+      "time": "Mon, 21 Sep 2026 14:43:44",
       "sentiment": 1
     },
     {
@@ -274,7 +286,7 @@
     },
     {
       "ticker": "TXN",
-      "title": "Texas Instruments stock gains on dividend hike and strong demand - ad-hoc-news.de",
+      "title": "Texas Instruments stock gains on dividend hike and strong demand",
       "time": "Mon, 21 Sep 2026 10:16:20",
       "sentiment": 1
     },
@@ -298,13 +310,19 @@
     },
     {
       "ticker": "KLAC",
-      "title": "KLA Corporation stock gains on AI index inclusion and strong growth scores - ad-hoc-news.de",
+      "title": "KLA Corporation stock gains on AI index inclusion and strong growth scores",
       "time": "Mon, 21 Sep 2026 10:55:12",
       "sentiment": 1
     },
     {
       "ticker": "NOC",
-      "title": "Northrop Grumman stock gains on GHOST-R space contract and strong earnings - ad-hoc-news.de",
+      "title": "Northrop Grumman stock gains on new Pentagon satellite contract",
+      "time": "Mon, 21 Sep 2026 18:17:57",
+      "sentiment": 1
+    },
+    {
+      "ticker": "NOC",
+      "title": "Northrop Grumman stock gains on GHOST-R space contract and strong earnings",
       "time": "Sun, 20 Sep 2026 19:41:32",
       "sentiment": 1
     },
@@ -318,6 +336,12 @@
       "ticker": "LLY",
       "title": "What Lilly Stock's Breast Cancer Drug Approval Means For Shareholders",
       "time": "Mon, 21 Sep 2026 17:34:57",
+      "sentiment": 1
+    },
+    {
+      "ticker": "LLY",
+      "title": "Eli Lilly CEO Ricks sees more Foundayo growth with foreign markets",
+      "time": "Mon, 21 Sep 2026 18:18:39",
       "sentiment": 1
     },
     {
@@ -382,7 +406,7 @@
     },
     {
       "ticker": "PSX",
-      "title": "Phillips 66 stock gains as diesel margins drive strong earnings growth - ad-hoc-news.de",
+      "title": "Phillips 66 stock gains as diesel margins drive strong earnings growth",
       "time": "Mon, 21 Sep 2026 17:30:50",
       "sentiment": 1
     },
@@ -424,7 +448,7 @@
     },
     {
       "ticker": "MPC",
-      "title": "Marathon Petroleum stock heads into the open after a 0.7% Friday gain - ad-hoc-news.de",
+      "title": "Marathon Petroleum stock heads into the open after a 0.7% Friday gain",
       "time": "Mon, 21 Sep 2026 04:36:43",
       "sentiment": 0
     },
@@ -448,19 +472,19 @@
     },
     {
       "ticker": "AMGN",
-      "title": "Amgen stock edges toward analyst targets on solid fundamentals - ad-hoc-news.de",
-      "time": "Mon, 21 Sep 2026 12:44:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMGN",
       "title": "The Zacks Analyst Blog Highlights AMD, Linde, Amgen and INNOVATE",
       "time": "Mon, 21 Sep 2026 13:00:00",
       "sentiment": 0
     },
     {
+      "ticker": "AMGN",
+      "title": "Amgen stock edges toward analyst targets on solid fundamentals",
+      "time": "Mon, 21 Sep 2026 12:44:02",
+      "sentiment": 0
+    },
+    {
       "ticker": "MAR",
-      "title": "Marriott International stock heads into the open after a 1.5 percent gain. - ad-hoc-news.de",
+      "title": "Marriott International stock heads into the open after a 1.5 percent gain.",
       "time": "Mon, 21 Sep 2026 06:34:18",
       "sentiment": 0
     },
@@ -484,8 +508,8 @@
     },
     {
       "ticker": "NVDA",
-      "title": "Worried About An AI Bubble? Buy Nvidia Anyway (NASDAQ:NVDA)",
-      "time": "Mon, 21 Sep 2026 16:02:31",
+      "title": "Nvidia: One Of 5 AI Stocks Down Big (Relative To Earnings) (NASDAQ:NVDA)",
+      "time": "Mon, 21 Sep 2026 16:46:26",
       "sentiment": 0
     },
     {
@@ -520,14 +544,14 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "The Tech Selloff Is Only Strengthening My Belief In Alphabet",
-      "time": "Mon, 21 Sep 2026 11:17:00",
+      "title": "Ackman \"Switches Holdings\" to AI Giants: Sells All Alphabet (GOOGL.US) Shares, Increases Meta (META.US) Holdings—Should Investors Follow?",
+      "time": "Mon, 21 Sep 2026 16:47:46",
       "sentiment": 0
     },
     {
       "ticker": "GOOGL",
-      "title": "Gene Munster Sees GOOGL Q2 Cloud Revenue Jump Over 65% Ahead Of Estimates — But Traders Eye Capex",
-      "time": "Mon, 21 Sep 2026 09:41:14",
+      "title": "The Tech Selloff Is Only Strengthening My Belief In Alphabet",
+      "time": "Mon, 21 Sep 2026 11:17:00",
       "sentiment": 0
     },
     {
@@ -556,14 +580,14 @@
     },
     {
       "ticker": "MU",
-      "title": "Micron Walks Into the Biggest Earnings Setup of the AI Memory Cycle",
-      "time": "Mon, 21 Sep 2026 16:00:00",
+      "title": "Where Will Micron Stock Be in 1 Year?",
+      "time": "Mon, 21 Sep 2026 16:55:03",
       "sentiment": 0
     },
     {
       "ticker": "MU",
       "title": "Why Micron Stock Popped This Morning",
-      "time": "Mon, 21 Sep 2026 14:47:29",
+      "time": "Mon, 21 Sep 2026 14:46:45",
       "sentiment": 0
     },
     {
@@ -588,12 +612,6 @@
       "ticker": "BABA",
       "title": "Alibaba's Damo Shares Source Code for AI Model Capable of Reading CT Scans",
       "time": "Mon, 21 Sep 2026 03:37:33",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BABA",
-      "title": "Alibaba stock heads into the open after a 4.3 percent gain - ad-hoc-news.de",
-      "time": "Mon, 21 Sep 2026 06:51:00",
       "sentiment": 0
     },
     {
@@ -634,13 +652,7 @@
     },
     {
       "ticker": "ISRG",
-      "title": "Intuitive Surgical price dominated by upward correctional trend - Forecast today - 21-09-2026",
-      "time": "Mon, 21 Sep 2026 12:51:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ISRG",
-      "title": "Intuitive Surgical stock heads into the open after a 2.6% gain - ad-hoc-news.de",
+      "title": "Intuitive Surgical stock heads into the open after a 2.6% gain",
       "time": "Mon, 21 Sep 2026 06:18:27",
       "sentiment": 0
     },
@@ -658,6 +670,12 @@
     },
     {
       "ticker": "PLTR",
+      "title": "Wall Street Just Gave Palantir Its Highest-Ever Price Target, Right When Europe Started Saying No",
+      "time": "Mon, 21 Sep 2026 08:05:30",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PLTR",
       "title": "Palantir (NASDAQ: PLTR) Nearly Doubles Revenue As Valuation Compresses Without A Price Drop",
       "time": "Mon, 21 Sep 2026 16:28:00",
       "sentiment": 0
@@ -666,12 +684,6 @@
       "ticker": "PLTR",
       "title": "$10,000 invested in Palantir when it went public is now worth this much",
       "time": "Mon, 21 Sep 2026 10:38:23",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
-      "title": "What Is Drawing Fresh Attention To Palantir Technologies (PLTR)?",
-      "time": "Sun, 20 Sep 2026 23:32:01",
       "sentiment": 0
     },
     {
@@ -760,7 +772,7 @@
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices stock heads into the open after a 3.6 percent jump - ad-hoc-news.de",
+      "title": "Analog Devices stock heads into the open after a 3.6 percent jump",
       "time": "Mon, 21 Sep 2026 04:37:05",
       "sentiment": 0
     },
@@ -802,14 +814,14 @@
     },
     {
       "ticker": "AMD",
-      "title": "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally",
-      "time": "Mon, 21 Sep 2026 14:47:57",
+      "title": "Why AMD Stock Is Rising Fast Today",
+      "time": "Mon, 21 Sep 2026 16:03:00",
       "sentiment": 0
     },
     {
       "ticker": "AMD",
-      "title": "Why AMD Stock Is Rising Fast Today",
-      "time": "Mon, 21 Sep 2026 15:09:18",
+      "title": "AMD hits $1 trillion market cap for the first time as stock rides 5-day rally",
+      "time": "Mon, 21 Sep 2026 14:47:57",
       "sentiment": 0
     },
     {
@@ -820,8 +832,8 @@
     },
     {
       "ticker": "AMD",
-      "title": "AMD joins $1 trillion club as chipmakers rally on AI-driven demand",
-      "time": "Mon, 21 Sep 2026 15:32:11",
+      "title": "Why is Advanced Micro Devices stock surging today?",
+      "time": "Mon, 21 Sep 2026 14:14:43",
       "sentiment": 0
     },
     {
@@ -851,7 +863,7 @@
     {
       "ticker": "NOC",
       "title": "The Air Force Doesn't Want Lockheed Martin's New Stealth Drone -- but Lockheed Is Building 5 of Them Anyway",
-      "time": "Mon, 21 Sep 2026 12:45:23",
+      "time": "Mon, 21 Sep 2026 13:08:00",
       "sentiment": 0
     },
     {
@@ -874,13 +886,13 @@
     },
     {
       "ticker": "TJX",
-      "title": "TJX Companies stock holds recent gains as investors eye off-price momentum - ad-hoc-news.de",
+      "title": "TJX Companies stock holds recent gains as investors eye off-price momentum",
       "time": "Mon, 21 Sep 2026 10:23:50",
       "sentiment": 0
     },
     {
       "ticker": "TJX",
-      "title": "TJX Companies stock heads into the open after a 0.6 percent gain - ad-hoc-news.de",
+      "title": "TJX Companies stock heads into the open after a 0.6 percent gain",
       "time": "Mon, 21 Sep 2026 06:23:48",
       "sentiment": 0
     },
@@ -892,8 +904,8 @@
     },
     {
       "ticker": "TJX",
-      "title": "UBS Maintains TJX Companies(TJX.US) With Buy Rating, Maintains Target Price $198",
-      "time": "Mon, 21 Sep 2026 15:43:02",
+      "title": "DG vs. ROST: Which Stock Is the Better Value Option?",
+      "time": "Mon, 21 Sep 2026 15:40:04",
       "sentiment": 0
     },
     {
@@ -928,14 +940,20 @@
     },
     {
       "ticker": "LLY",
-      "title": "The Next Chapter of Eli Lilly Could Be Bigger Than Investors Expect",
-      "time": "Mon, 21 Sep 2026 17:30:00",
+      "title": "Eli Lilly Stock Is On Track to Do Something It Hasn't Done Since 2016",
+      "time": "Mon, 21 Sep 2026 18:04:26",
       "sentiment": 0
     },
     {
       "ticker": "LLY",
-      "title": "Nvidia vs. Eli Lilly: I’d Choose This Stock for the Next Decade",
-      "time": "Mon, 21 Sep 2026 14:30:10",
+      "title": "Eli Lilly Stock Is On Track to Do Something It Hasn't Done Since 2016",
+      "time": "Mon, 21 Sep 2026 17:51:24",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LLY",
+      "title": "The Next Chapter of Eli Lilly Could Be Bigger Than Investors Expect",
+      "time": "Mon, 21 Sep 2026 17:30:00",
       "sentiment": 0
     },
     {
@@ -945,26 +963,14 @@
       "sentiment": 0
     },
     {
-      "ticker": "LLY",
-      "title": "Eli Lilly Vs. Novo Nordisk Stock: Temporarily Cheap Or Correctly Cheap? (NYSE:LLY)",
-      "time": "Mon, 21 Sep 2026 07:18:56",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LLY",
-      "title": "Why Is LLY Stock Rising Today?",
-      "time": "Mon, 21 Sep 2026 06:16:48",
-      "sentiment": 0
-    },
-    {
       "ticker": "ETN",
-      "title": "Eaton Corporation stock gains as analysts lift long-term targets - ad-hoc-news.de",
+      "title": "Eaton Corporation stock gains as analysts lift long-term targets",
       "time": "Mon, 21 Sep 2026 12:49:18",
       "sentiment": 0
     },
     {
       "ticker": "ETN",
-      "title": "Eaton stock heads into the open after a 3.8 percent gain - ad-hoc-news.de",
+      "title": "Eaton stock heads into the open after a 3.8 percent gain",
       "time": "Mon, 21 Sep 2026 04:32:29",
       "sentiment": 0
     },
@@ -1024,13 +1030,13 @@
     },
     {
       "ticker": "CAT",
-      "title": "Caterpillar stock gains as valuation eases after recent correction - ad-hoc-news.de",
+      "title": "Caterpillar stock gains as valuation eases after recent correction",
       "time": "Mon, 21 Sep 2026 13:02:41",
       "sentiment": 0
     },
     {
       "ticker": "CAT",
-      "title": "Caterpillar stock heads into the open after a 1.3% gain - ad-hoc-news.de",
+      "title": "Caterpillar stock heads into the open after a 1.3% gain",
       "time": "Mon, 21 Sep 2026 07:24:57",
       "sentiment": 0
     },
@@ -1090,8 +1096,8 @@
     },
     {
       "ticker": "PSX",
-      "title": "Tracking William Nygren's Harris Associates Portfolio - Q2 2026 Update (MUTF:OAKMX)",
-      "time": "Mon, 21 Sep 2026 00:50:28",
+      "title": "This Energy Stock Could Give ExxonMobil a Run: Should You Buy?",
+      "time": "Mon, 21 Sep 2026 15:10:00",
       "sentiment": 0
     },
     {
@@ -1114,8 +1120,14 @@
     },
     {
       "ticker": "GILD",
-      "title": "Gilead Sciences stock heads into the open after a 0.52% dip - ad-hoc-news.de",
+      "title": "Gilead Sciences stock heads into the open after a 0.52% dip",
       "time": "Mon, 21 Sep 2026 04:37:49",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LMT",
+      "title": "The Air Force Doesn't Want Lockheed Martin's New Stealth Drone -- but Lockheed Is Building 5 of Them Anyway",
+      "time": "Mon, 21 Sep 2026 13:08:00",
       "sentiment": 0
     },
     {
@@ -1128,12 +1140,6 @@
       "ticker": "LMT",
       "title": "Why Lockheed Martin’s Payout Ratio Hit 225% Before Falling Back Toward 43% in 2026",
       "time": "Mon, 21 Sep 2026 07:21:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LMT",
-      "title": "The Air Force Doesn't Want Lockheed Martin's New Stealth Drone -- but Lockheed Is Building 5 of Them Anyway",
-      "time": "Mon, 21 Sep 2026 12:45:23",
       "sentiment": 0
     },
     {
@@ -1180,13 +1186,13 @@
     },
     {
       "ticker": "FCX",
-      "title": "Inflection Resources adds 2,660 km² copper-gold project with seven undrilled targets in South Australia",
-      "time": "Mon, 21 Sep 2026 10:44:41",
+      "title": "Top One and One Green Technologies. Inc Class A Ordinary Shares (YDDL) Competitors 2026",
+      "time": "Mon, 21 Sep 2026 00:09:28",
       "sentiment": 0
     },
     {
       "ticker": "ITW",
-      "title": "Illinois Tool Works stock edges lower after guidance raise underscores steady 2026 trajectory - ad-hoc-news.de",
+      "title": "Illinois Tool Works stock edges lower after guidance raise underscores steady 2026 trajectory",
       "time": "Mon, 21 Sep 2026 17:06:58",
       "sentiment": 0
     },
