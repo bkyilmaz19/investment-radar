@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "21.09.2026 22:40 CEST",
+  "generated_at_local": "21.09.2026 22:52 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,50 +26,11 @@
       "live_gap_pct": "+2.01%",
       "regular_move_pct": "+1.85%",
       "avg_dollar_volume": 1175128559.99,
-      "bar_age_minutes": 13.1,
+      "bar_age_minutes": 27.0,
       "vwap": 391.64,
       "opening_range_high": 389.04,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "AMD",
-      "name": "AMD",
-      "score": 93,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.70%, 5T +8.46%, relatives Volumen 1.42x, ATR 3.99%",
-      "catalyst": "AMD stock soars to new record as semiconductors bounce: Chart of the Day",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +4.30%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.39,
-      "target_pct": 4.55,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.70%",
-      "change_5d": "+8.46%",
-      "volume_ratio": "1.42x",
-      "atr_pct": "3.99%",
-      "gap_pct": "+4.30%",
-      "premarket_move_pct": "+1.92%",
-      "live_gap_pct": "+9.92%",
-      "regular_move_pct": "+5.38%",
-      "avg_dollar_volume": 9481217018.11,
-      "bar_age_minutes": 0.0,
-      "vwap": 606.91,
-      "opening_range_high": 604.03,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "WARTEN",
       "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
@@ -104,48 +65,9 @@
       "live_gap_pct": "+2.13%",
       "regular_move_pct": "+1.99%",
       "avg_dollar_volume": 863702721.03,
-      "bar_age_minutes": 5.2,
+      "bar_age_minutes": 1.6,
       "vwap": 398.61,
       "opening_range_high": 395.29,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "TXN",
-      "name": "Texas Instruments",
-      "score": 91,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.29%, 5T -0.77%, relatives Volumen 3.57x, ATR 3.06%",
-      "catalyst": "Texas Instruments price shows more positive signals - Forecast today - 21-09-2026",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.23%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.84,
-      "target_pct": 3.49,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.29%",
-      "change_5d": "-0.77%",
-      "volume_ratio": "3.57x",
-      "atr_pct": "3.06%",
-      "gap_pct": "+0.23%",
-      "premarket_move_pct": "-0.47%",
-      "live_gap_pct": "+1.56%",
-      "regular_move_pct": "+1.04%",
-      "avg_dollar_volume": 1545626913.89,
-      "bar_age_minutes": 1.8,
-      "vwap": 268.46,
-      "opening_range_high": 268.0,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "After-Hours / US-Session beendet",
@@ -182,7 +104,7 @@
       "live_gap_pct": "-5.35%",
       "regular_move_pct": "-4.02%",
       "avg_dollar_volume": 1112907868.47,
-      "bar_age_minutes": 11.5,
+      "bar_age_minutes": 27.0,
       "vwap": 410.84,
       "opening_range_high": 431.08,
       "opening_range_ready": true,
@@ -197,6 +119,84 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": false,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.70%, 5T +8.46%, relatives Volumen 1.42x, ATR 3.99%",
+      "catalyst": "AMD stock soars to new record as semiconductors bounce: Chart of the Day",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +4.30%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.39,
+      "target_pct": 4.55,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.70%",
+      "change_5d": "+8.46%",
+      "volume_ratio": "1.42x",
+      "atr_pct": "3.99%",
+      "gap_pct": "+4.30%",
+      "premarket_move_pct": "+1.92%",
+      "live_gap_pct": "+9.92%",
+      "regular_move_pct": "+5.38%",
+      "avg_dollar_volume": 9481217018.11,
+      "bar_age_minutes": 2.1,
+      "vwap": 606.91,
+      "opening_range_high": 604.03,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "score": 89,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.64%, 5T +3.26%, relatives Volumen 1.97x, ATR 2.34%",
+      "catalyst": "Alphabet Stock Surges as Google Search Makes a Major Comeback",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.18%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.4,
+      "target_pct": 2.66,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.64%",
+      "change_5d": "+3.26%",
+      "volume_ratio": "1.97x",
+      "atr_pct": "2.34%",
+      "gap_pct": "+0.18%",
+      "premarket_move_pct": "-0.97%",
+      "live_gap_pct": "+1.62%",
+      "regular_move_pct": "+1.30%",
+      "avg_dollar_volume": 8690684901.53,
+      "bar_age_minutes": 2.1,
+      "vwap": 355.0,
+      "opening_range_high": 355.14,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
         "confirmation_ok": false
       }
     }
@@ -273,12 +273,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "TXN",
-      "title": "Texas Instruments stock gains on dividend hike and strong demand",
-      "time": "Mon, 21 Sep 2026 10:16:20",
-      "sentiment": 1
-    },
-    {
       "ticker": "ARM",
       "title": "Arm Surges 13% as Meta’s Muse Agent Reignites CPU Demand Bet; Intel Jumps 12%, AMD Climbs 9%",
       "time": "Mon, 21 Sep 2026 15:24:10",
@@ -294,12 +288,6 @@
       "ticker": "AMD",
       "title": "AMD stock soars to new record as semiconductors bounce: Chart of the Day",
       "time": "Mon, 21 Sep 2026 16:16:27",
-      "sentiment": 1
-    },
-    {
-      "ticker": "AMD",
-      "title": "AMD Stock Hits Fresh Record High, Up 183% This Year - Advanced Micro Devices (NASDAQ:AMD), Oracle (NYSE:O",
-      "time": "Mon, 21 Sep 2026 15:33:57",
       "sentiment": 1
     },
     {
@@ -336,12 +324,6 @@
       "ticker": "LLY",
       "title": "What Lilly Stock's Breast Cancer Drug Approval Means For Shareholders",
       "time": "Mon, 21 Sep 2026 19:25:31",
-      "sentiment": 1
-    },
-    {
-      "ticker": "LLY",
-      "title": "Eli Lilly CEO Ricks sees more Foundayo growth with foreign markets",
-      "time": "Mon, 21 Sep 2026 18:18:39",
       "sentiment": 1
     },
     {
@@ -478,8 +460,8 @@
     },
     {
       "ticker": "AMGN",
-      "title": "Biotech Stocks To Watch And Pharma Industry News",
-      "time": "Mon, 21 Sep 2026 17:49:00",
+      "title": "Biotech ETFs to Buy as Cancer Drug Breakthroughs Accelerate",
+      "time": "Mon, 21 Sep 2026 16:03:00",
       "sentiment": 0
     },
     {
@@ -700,20 +682,26 @@
     },
     {
       "ticker": "TXN",
+      "title": "Texas Instruments (TXN) director receives new stock unit grant",
+      "time": "Mon, 21 Sep 2026 20:38:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TXN",
       "title": "Texas Instruments (TXN) Soars 3.3%: Is Further Upside Left in the Stock?",
       "time": "Mon, 21 Sep 2026 05:39:00",
       "sentiment": 0
     },
     {
       "ticker": "TXN",
-      "title": "Why Texas Instruments Incorporated (NASDAQ:TXN) Is In Focus Now?",
-      "time": "Mon, 21 Sep 2026 09:03:00",
+      "title": "Texas Instruments stock ends the day modestly higher at the closing bell",
+      "time": "Mon, 21 Sep 2026 20:29:41",
       "sentiment": 0
     },
     {
       "ticker": "TXN",
-      "title": "Texas Instruments stock ends the day modestly higher at the closing bell",
-      "time": "Mon, 21 Sep 2026 20:29:41",
+      "title": "Why Texas Instruments Incorporated (NASDAQ:TXN) Is In Focus Now?",
+      "time": "Mon, 21 Sep 2026 09:03:00",
       "sentiment": 0
     },
     {
@@ -736,14 +724,14 @@
     },
     {
       "ticker": "ARM",
-      "title": "Better Artificial Intelligence Stock: Arm Holdings vs. NVIDIA",
-      "time": "Mon, 21 Sep 2026 17:04:51",
+      "title": "Arm Holdings soars 17% amid broad tech, chip strength (ARM:NASDAQ)",
+      "time": "Mon, 21 Sep 2026 20:16:56",
       "sentiment": 0
     },
     {
       "ticker": "ARM",
-      "title": "Arm Holdings soars 17% amid broad tech, chip strength (ARM:NASDAQ)",
-      "time": "Mon, 21 Sep 2026 20:16:56",
+      "title": "Better Artificial Intelligence Stock: Arm Holdings vs. NVIDIA",
+      "time": "Mon, 21 Sep 2026 17:04:51",
       "sentiment": 0
     },
     {
@@ -790,12 +778,6 @@
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices stock heads into the open after a 3.6 percent jump",
-      "time": "Mon, 21 Sep 2026 04:37:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADI",
       "title": "Analog Devices (ADI) Bets $1.35 Billion on Chips that Let Machines Think for Themselves",
       "time": "Sun, 20 Sep 2026 23:37:05",
       "sentiment": 0
@@ -814,8 +796,14 @@
     },
     {
       "ticker": "ADI",
-      "title": "Is ADI Overvalued? DCF Says Worth $260",
-      "time": "Mon, 21 Sep 2026 11:32:28",
+      "title": "Top Cerebras Systems (CBRS) Competitors 2026",
+      "time": "Mon, 21 Sep 2026 19:31:19",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADI",
+      "title": "Analog Devices stock heads into the open after a 3.6 percent jump",
+      "time": "Mon, 21 Sep 2026 04:37:05",
       "sentiment": 0
     },
     {
@@ -834,6 +822,12 @@
       "ticker": "AMD",
       "title": "AMD stock crosses $1 trillion market cap for first time",
       "time": "Mon, 21 Sep 2026 17:10:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMD",
+      "title": "AMD joins $1 trillion club as chipmakers rally on AI-driven demand",
+      "time": "Mon, 21 Sep 2026 15:32:11",
       "sentiment": 0
     },
     {
@@ -880,8 +874,8 @@
     },
     {
       "ticker": "NOC",
-      "title": "The Air Force Doesn't Want Lockheed Martin's New Stealth Drone -- but Lockheed Is Building 5 of Them Anyway",
-      "time": "Mon, 21 Sep 2026 13:08:00",
+      "title": "General Electric (GE) Looks Fully Valued After Clearing 3 Aerospace Overhangs",
+      "time": "Mon, 21 Sep 2026 20:42:04",
       "sentiment": 0
     },
     {
@@ -934,14 +928,14 @@
     },
     {
       "ticker": "GOOG",
-      "title": "GOOG or GOOGL? Alphabet’s Voting Shares Cost 1.1% More After the Search Rally",
-      "time": "Mon, 21 Sep 2026 16:20:30",
+      "title": "Alphabet C tests $354 resistance on 5h chart: Live levels",
+      "time": "Mon, 21 Sep 2026 20:15:00",
       "sentiment": 0
     },
     {
       "ticker": "GOOG",
-      "title": "Alphabet C tests $354 resistance on 5h chart: Live levels",
-      "time": "Mon, 21 Sep 2026 20:15:00",
+      "title": "GOOG or GOOGL? Alphabet’s Voting Shares Cost 1.1% More After the Search Rally",
+      "time": "Mon, 21 Sep 2026 16:20:30",
       "sentiment": 0
     },
     {
@@ -972,6 +966,12 @@
       "ticker": "LLY",
       "title": "The Next Chapter of Eli Lilly Could Be Bigger Than Investors Expect",
       "time": "Mon, 21 Sep 2026 17:30:17",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LLY",
+      "title": "Eli Lilly (LLY) Expands Market Share with Foundayo Amid Growing Demand",
+      "time": "Mon, 21 Sep 2026 19:08:27",
       "sentiment": 0
     },
     {
@@ -1012,8 +1012,8 @@
     },
     {
       "ticker": "JNJ",
-      "title": "J&J Gains as Caplyta Opens a Mania Expansion Path",
-      "time": "Mon, 21 Sep 2026 19:07:09",
+      "title": "Novo Nordisk Stock Drops 5.6% as 2030 Goals Match Peers",
+      "time": "Mon, 21 Sep 2026 12:20:29",
       "sentiment": 0
     },
     {
@@ -1031,7 +1031,7 @@
     {
       "ticker": "CAT",
       "title": "What Higher Interest Rates Mean for Caterpillar, GE Vernova, and Vertiv",
-      "time": "Mon, 21 Sep 2026 08:55:00",
+      "time": "Mon, 21 Sep 2026 09:35:00",
       "sentiment": 0
     },
     {
@@ -1144,12 +1144,6 @@
     },
     {
       "ticker": "LMT",
-      "title": "The Air Force Doesn't Want Lockheed Martin's New Stealth Drone -- but Lockheed Is Building 5 of Them Anyway",
-      "time": "Mon, 21 Sep 2026 12:28:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LMT",
       "title": "Lockheed Martin vs. RTX: Which Defense Dividend Is the Better Income Buy",
       "time": "Mon, 21 Sep 2026 11:57:00",
       "sentiment": 0
@@ -1170,6 +1164,12 @@
       "ticker": "LMT",
       "title": "Trump thanks Lockheed Martin CEO as new White House heliport opens (LMT:NYSE)",
       "time": "Mon, 21 Sep 2026 18:53:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LMT",
+      "title": "Nykredit A S Invests $9.39 Million in Lockheed Martin Corporation $LMT",
+      "time": "Mon, 21 Sep 2026 07:34:39",
       "sentiment": 0
     },
     {
