@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "22.09.2026 22:11 CEST",
+  "generated_at_local": "22.09.2026 22:26 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -8,7 +8,7 @@
     {
       "ticker": "SHOP",
       "name": "Shopify",
-      "score": 91,
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +7.33%, 5T +3.01%, relatives Volumen 2.17x, ATR 4.56%",
       "catalyst": "Shopify Stock Rallies on Checkout Partnership With Meta’s New Muse AI Agent",
@@ -26,7 +26,7 @@
       "live_gap_pct": "+7.16%",
       "regular_move_pct": "+2.44%",
       "avg_dollar_volume": 1168450856.64,
-      "bar_age_minutes": 0.2,
+      "bar_age_minutes": 0.5,
       "vwap": 148.1,
       "opening_range_high": 149.58,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "+0.09%",
       "regular_move_pct": "-0.24%",
       "avg_dollar_volume": 885309814.97,
-      "bar_age_minutes": 1.0,
+      "bar_age_minutes": 1.6,
       "vwap": 400.94,
       "opening_range_high": 403.97,
       "opening_range_ready": true,
@@ -143,7 +143,7 @@
       "live_gap_pct": "+1.77%",
       "regular_move_pct": "+3.18%",
       "avg_dollar_volume": 3021461244.93,
-      "bar_age_minutes": 0.2,
+      "bar_age_minutes": 1.6,
       "vwap": 466.68,
       "opening_range_high": 463.14,
       "opening_range_ready": true,
@@ -182,7 +182,7 @@
       "live_gap_pct": "+4.37%",
       "regular_move_pct": "+1.70%",
       "avg_dollar_volume": 1185476752.99,
-      "bar_age_minutes": 1.0,
+      "bar_age_minutes": 6.6,
       "vwap": 406.44,
       "opening_range_high": 407.0,
       "opening_range_ready": true,
@@ -224,6 +224,12 @@
       "ticker": "SHOP",
       "title": "Shopify Stock Rallies on Checkout Partnership With Meta’s New Muse AI Agent",
       "time": "Tue, 22 Sep 2026 14:55:12",
+      "sentiment": 1
+    },
+    {
+      "ticker": "SHOP",
+      "title": "Shopify rises 7% on Meta Muse AI partnership (SHOP:NASDAQ)",
+      "time": "Tue, 22 Sep 2026 20:23:08",
       "sentiment": 1
     },
     {
@@ -284,12 +290,6 @@
       "ticker": "LLY",
       "title": "Should Dividend Investors Buy Pfizer Stock for Its High Yield or Invest in Eli Lilly for Its Dividend Growth?",
       "time": "Tue, 22 Sep 2026 16:06:32",
-      "sentiment": 1
-    },
-    {
-      "ticker": "LLY",
-      "title": "Eli Lilly Gets Full FDA Approval for Inluriyo in ESR1-Mutated Breast Cancer",
-      "time": "Tue, 22 Sep 2026 17:43:05",
       "sentiment": 1
     },
     {
@@ -365,6 +365,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "AAPL",
+      "title": "AAPL Stock Hits Record Highs — Apple Reportedly Explores Screenless Health Trackers And Other Wearables Following iPhone Duo Launch",
+      "time": "Tue, 22 Sep 2026 18:08:25",
+      "sentiment": 1
+    },
+    {
       "ticker": "NVDA",
       "title": "Nvidia Stock is Historically Cheap. The Decade-Low Multiple Reflects Risks, But This Looks Like a Can't-Miss Buy Opportunity for NVDA.",
       "time": "Tue, 22 Sep 2026 16:04:06",
@@ -375,6 +381,12 @@
       "title": "NVDA Stock Eyes $236 Record High as 2027 NVIDIA Growth Forecasts Rise",
       "time": "Tue, 22 Sep 2026 19:23:20",
       "sentiment": 1
+    },
+    {
+      "ticker": "NVDA",
+      "title": "NVIDIA (NVDA.US) Stock Flashes a \"Warning Signal\": Valuation Hits Lowest Level in Over a Decade, What Is the Market Worried About?",
+      "time": "Tue, 22 Sep 2026 11:19:12",
+      "sentiment": -1
     },
     {
       "ticker": "AVGO",
@@ -392,12 +404,6 @@
       "ticker": "KLAC",
       "title": "Kimbell Royalty (KRP) Upgraded to Strong Buy: Here's Why",
       "time": "Tue, 22 Sep 2026 16:00:03",
-      "sentiment": 1
-    },
-    {
-      "ticker": "KLAC",
-      "title": "KLA Corp (KLAC): GF Score of 93 Signals Strong Outperformance Po",
-      "time": "Tue, 22 Sep 2026 15:38:24",
       "sentiment": 1
     },
     {
@@ -461,12 +467,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "SHOP",
-      "title": "Why Shopify Stock, Twilio Are Rising On Meta's Muse Rollout",
-      "time": "Tue, 22 Sep 2026 16:31:00",
-      "sentiment": 0
-    },
-    {
       "ticker": "AMZN",
       "title": "As Amazon Stock Prospers, Traders Might Consider This Option Play",
       "time": "Tue, 22 Sep 2026 15:57:00",
@@ -474,14 +474,14 @@
     },
     {
       "ticker": "AMZN",
-      "title": "Trump disclosed $25M Microsoft and Amazon stock sales in July",
-      "time": "Tue, 22 Sep 2026 17:44:26",
+      "title": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
+      "time": "Tue, 22 Sep 2026 17:10:22",
       "sentiment": 0
     },
     {
       "ticker": "AMZN",
-      "title": "AMZN Stock Rises Premarket Ahead Of Results: AWS, CapEx In Focus",
-      "time": "Tue, 22 Sep 2026 09:54:10",
+      "title": "Trump disclosed $25M Microsoft and Amazon stock sales in July",
+      "time": "Tue, 22 Sep 2026 17:44:26",
       "sentiment": 0
     },
     {
@@ -522,8 +522,8 @@
     },
     {
       "ticker": "AMAT",
-      "title": "Applied Materials (AMAT) Stock May Look Reasonable Following Fresh AI Demand Forecasts",
-      "time": "Mon, 21 Sep 2026 20:13:23",
+      "title": "Applied Materials Stock Jumped Nearly 7% in a Chip-Equipment Rally. Its $5 Billion India Plan Is the Longer Story",
+      "time": "Mon, 21 Sep 2026 23:15:50",
       "sentiment": 0
     },
     {
@@ -660,8 +660,8 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "Is Most-Watched Stock Alphabet Inc. (GOOG) Worth Betting on Now?",
-      "time": "Tue, 22 Sep 2026 13:00:02",
+      "title": "GOOGL|Alphabet Inc Class A|Price:353.010|Chg%:-1.960",
+      "time": "Tue, 22 Sep 2026 14:54:56",
       "sentiment": 0
     },
     {
@@ -686,6 +686,12 @@
       "ticker": "LLY",
       "title": "Ken Langone predicts Eli Lilly stock will hit $2,000 in 3-4 years, rivaling his Home Depot gains.",
       "time": "Tue, 22 Sep 2026 14:25:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LLY",
+      "title": "Eli Lilly CEO reveals astonishing shift in GLP-1 pill market",
+      "time": "Tue, 22 Sep 2026 19:17:00",
       "sentiment": 0
     },
     {
@@ -774,14 +780,14 @@
     },
     {
       "ticker": "DAL",
-      "title": "Delta Air Lines stock climbs above its 200 day average",
-      "time": "Tue, 22 Sep 2026 17:02:41",
+      "title": "Air, Cruise Lines Stage Uneven Rally As Oil Ebbs; Are They Ready To Rebound?",
+      "time": "Tue, 22 Sep 2026 13:40:00",
       "sentiment": 0
     },
     {
       "ticker": "DAL",
-      "title": "Air, Cruise Lines Stage Uneven Rally As Oil Ebbs; Are They Ready To Rebound?",
-      "time": "Tue, 22 Sep 2026 13:40:00",
+      "title": "Delta Air Lines stock climbs above its 200 day average",
+      "time": "Tue, 22 Sep 2026 17:02:41",
       "sentiment": 0
     },
     {
@@ -834,6 +840,12 @@
     },
     {
       "ticker": "DHR",
+      "title": "Danaher will webcast its next financial update Oct. 21",
+      "time": "Tue, 22 Sep 2026 20:15:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DHR",
       "title": "DHR vs TMO: valuation spread and pairs trade case By Investing.com",
       "time": "Mon, 21 Sep 2026 21:00:52",
       "sentiment": 0
@@ -858,32 +870,26 @@
     },
     {
       "ticker": "AAPL",
-      "title": "What Will $5,000 Invested in Apple Stock Be Worth in 5 Years?",
-      "time": "Tue, 22 Sep 2026 14:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AAPL",
       "title": "What's Going On With Apple Stock Tuesday? - Apple (NASDAQ:AAPL)",
       "time": "Tue, 22 Sep 2026 16:35:07",
       "sentiment": 0
     },
     {
       "ticker": "AAPL",
-      "title": "Apple is developing screenless fitness tracker: report (AAPL:NASDAQ)",
-      "time": "Tue, 22 Sep 2026 17:08:27",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AAPL",
-      "title": "AAPL Stock Tops Nasdaq’s Modest Gains: Analyst Says Siri Finally Shows ‘AI Chops’ In iOS 27 Beta",
-      "time": "Tue, 22 Sep 2026 08:58:30",
+      "title": "What Will $5,000 Invested in Apple Stock Be Worth in 5 Years?",
+      "time": "Tue, 22 Sep 2026 14:00:00",
       "sentiment": 0
     },
     {
       "ticker": "AAPL",
       "title": "Can Apple Overtake NVIDIA as the World's Most Valuable Company?",
       "time": "Tue, 22 Sep 2026 14:24:31",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAPL",
+      "title": "AAPL Stock: Apple Takes Aim at Nvidia and Microsoft With Cheaper AI",
+      "time": "Tue, 22 Sep 2026 17:09:36",
       "sentiment": 0
     },
     {
@@ -896,12 +902,6 @@
       "ticker": "NVDA",
       "title": "Is NVIDIA Funding Its Own Stock Rally?",
       "time": "Tue, 22 Sep 2026 17:28:47",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NVDA",
-      "title": "EXCLUSIVE: Nvidia Is a Stock And a Token — When ‘Retail No Longer Distinguishes Between Ticker and Rail’",
-      "time": "Tue, 22 Sep 2026 18:48:22",
       "sentiment": 0
     },
     {
@@ -995,6 +995,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "KLAC",
+      "title": "KLA Corporation stock gains 3.94 percent ahead of the open",
+      "time": "Tue, 22 Sep 2026 05:34:56",
+      "sentiment": 0
+    },
+    {
       "ticker": "AMGN",
       "title": "Why Amgen (AMGN) Stock Is Up Today",
       "time": "Tue, 22 Sep 2026 15:33:00",
@@ -1014,14 +1020,14 @@
     },
     {
       "ticker": "AMGN",
-      "title": "AMGN Jumps After Win In Sjögren’s Disease Trial As Citi Flags ‘Open Questions’",
-      "time": "Tue, 22 Sep 2026 18:04:00",
+      "title": "Amgen posts trial win for Sjögren's disease drug (AMGN:NASDAQ)",
+      "time": "Tue, 22 Sep 2026 13:22:45",
       "sentiment": 0
     },
     {
       "ticker": "AMGN",
-      "title": "Amgen posts trial win for Sjögren's disease drug (AMGN:NASDAQ)",
-      "time": "Tue, 22 Sep 2026 13:22:45",
+      "title": "AMGN Jumps After Win In Sjögren’s Disease Trial As Citi Flags ‘Open Questions’",
+      "time": "Tue, 22 Sep 2026 18:04:53",
       "sentiment": 0
     },
     {
@@ -1140,8 +1146,8 @@
     },
     {
       "ticker": "FCX",
-      "title": "Is Freeport-McMoRan (NYSE:FCX) Facing A Copper Demand Shift?",
-      "time": "Mon, 21 Sep 2026 22:14:00",
+      "title": "3 Copper Stocks Compared: Which Is the Best Buy for the AI Boom?",
+      "time": "Tue, 22 Sep 2026 19:36:17",
       "sentiment": 0
     },
     {
@@ -1254,12 +1260,6 @@
     },
     {
       "ticker": "META",
-      "title": "Wall Street expects Meta's AI agent to shape into a new revenue engine",
-      "time": "Tue, 22 Sep 2026 18:25:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
       "title": "Why Muse just added billions to Meta's market cap",
       "time": "Tue, 22 Sep 2026 15:03:47",
       "sentiment": 0
@@ -1280,6 +1280,12 @@
       "ticker": "META",
       "title": "Is Muse Adoption Altering The Investment Case For Meta Stock (META)?",
       "time": "Tue, 22 Sep 2026 19:45:17",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Wall Street expects Meta's AI agent to shape into a new revenue engine",
+      "time": "Tue, 22 Sep 2026 18:25:41",
       "sentiment": 0
     }
   ]
