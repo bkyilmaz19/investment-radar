@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "22.09.2026 18:45 CEST",
+  "generated_at_local": "22.09.2026 18:57 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +1.94%, 5T +3.65%, relatives Volumen 1.18x, ATR 3.41%",
       "catalyst": "NXP Semiconductors (NXPI) Beats Stock Market Upswing: What Investors Need to Know",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.14%, seit Open +1.37%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.47%, seit Open +1.71%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.05,
       "target_pct": 3.89,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,12 +23,51 @@
       "atr_pct": "3.41%",
       "gap_pct": "-0.29%",
       "premarket_move_pct": "+0.48%",
-      "live_gap_pct": "+1.14%",
-      "regular_move_pct": "+1.37%",
+      "live_gap_pct": "+1.47%",
+      "regular_move_pct": "+1.71%",
       "avg_dollar_volume": 767681696.13,
-      "bar_age_minutes": 0.1,
-      "vwap": 233.73,
+      "bar_age_minutes": 2.1,
+      "vwap": 233.79,
       "opening_range_high": 234.9,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 99,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +4.42%, 5T +9.44%, relatives Volumen 1.17x, ATR 4.01%",
+      "catalyst": "Applied Materials: Opportunity Is Brewing Again (Rating Upgrade) (NASDAQ:AMAT)",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.98%, seit Open +2.38%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.41,
+      "target_pct": 4.57,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+4.42%",
+      "change_5d": "+9.44%",
+      "volume_ratio": "1.17x",
+      "atr_pct": "4.01%",
+      "gap_pct": "-2.05%",
+      "premarket_move_pct": "+0.09%",
+      "live_gap_pct": "+0.98%",
+      "regular_move_pct": "+2.38%",
+      "avg_dollar_volume": 3021173416.14,
+      "bar_age_minutes": 2.1,
+      "vwap": 464.26,
+      "opening_range_high": 463.14,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -52,7 +91,7 @@
       "thesis": "1T +1.95%, 5T +3.06%, relatives Volumen 0.74x, ATR 2.80%",
       "catalyst": "Veeva Expands Amgen Partnership With Global Vault CRM Rollout Plan",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +3.54%, seit Open +0.89%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +3.58%, seit Open +0.92%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.68,
       "target_pct": 3.2,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,90 +101,12 @@
       "atr_pct": "2.80%",
       "gap_pct": "+2.71%",
       "premarket_move_pct": "+2.81%",
-      "live_gap_pct": "+3.54%",
-      "regular_move_pct": "+0.89%",
+      "live_gap_pct": "+3.58%",
+      "regular_move_pct": "+0.92%",
       "avg_dollar_volume": 1185476752.99,
-      "bar_age_minutes": 5.2,
-      "vwap": 405.0,
+      "bar_age_minutes": 2.1,
+      "vwap": 405.05,
       "opening_range_high": 407.0,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 96,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.42%, 5T +9.44%, relatives Volumen 1.17x, ATR 4.01%",
-      "catalyst": "Applied Materials: Opportunity Is Brewing Again (Rating Upgrade) (NASDAQ:AMAT)",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.65%, seit Open +2.05%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 2.41,
-      "target_pct": 4.57,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+4.42%",
-      "change_5d": "+9.44%",
-      "volume_ratio": "1.17x",
-      "atr_pct": "4.01%",
-      "gap_pct": "-2.05%",
-      "premarket_move_pct": "+0.09%",
-      "live_gap_pct": "+0.65%",
-      "regular_move_pct": "+2.05%",
-      "avg_dollar_volume": 3021173416.14,
-      "bar_age_minutes": 0.2,
-      "vwap": 464.15,
-      "opening_range_high": 463.14,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "DHR",
-      "name": "Danaher",
-      "score": 96,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.90%, 5T +6.19%, relatives Volumen 1.01x, ATR 2.68%",
-      "catalyst": "Danaher Corp. stock outperforms competitors on strong trading day",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.90%, seit Open +3.25%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.61,
-      "target_pct": 3.05,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.90%",
-      "change_5d": "+6.19%",
-      "volume_ratio": "1.01x",
-      "atr_pct": "2.68%",
-      "gap_pct": "-0.39%",
-      "premarket_move_pct": "+0.74%",
-      "live_gap_pct": "+2.90%",
-      "regular_move_pct": "+3.25%",
-      "avg_dollar_volume": 751939547.75,
-      "bar_age_minutes": 5.2,
-      "vwap": 218.59,
-      "opening_range_high": 215.54,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -164,12 +125,12 @@
     {
       "ticker": "LLY",
       "name": "Eli Lilly",
-      "score": 94,
+      "score": 96,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.04%, 5T +2.34%, relatives Volumen 1.04x, ATR 2.24%",
-      "catalyst": "Eli Lilly Stock Trails the Market, and Its Growth Story Faces a Test Under a High Valuation",
+      "catalyst": "Should Dividend Investors Buy Pfizer Stock for Its High Yield or Invest in Eli Lilly for Its Dividend Growth?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.38%, seit Open +2.02%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.34%, seit Open +1.98%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.35,
       "target_pct": 2.56,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,12 +140,51 @@
       "atr_pct": "2.24%",
       "gap_pct": "-1.18%",
       "premarket_move_pct": "-1.03%",
-      "live_gap_pct": "+0.38%",
-      "regular_move_pct": "+2.02%",
+      "live_gap_pct": "+0.34%",
+      "regular_move_pct": "+1.98%",
       "avg_dollar_volume": 2750931579.09,
-      "bar_age_minutes": 0.2,
-      "vwap": 1161.41,
+      "bar_age_minutes": 2.1,
+      "vwap": 1161.54,
       "opening_range_high": 1153.0,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "DHR",
+      "name": "Danaher",
+      "score": 96,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.90%, 5T +6.19%, relatives Volumen 1.01x, ATR 2.68%",
+      "catalyst": "Danaher Corp. stock outperforms competitors on strong trading day",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.94%, seit Open +3.29%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.61,
+      "target_pct": 3.05,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.90%",
+      "change_5d": "+6.19%",
+      "volume_ratio": "1.01x",
+      "atr_pct": "2.68%",
+      "gap_pct": "-0.39%",
+      "premarket_move_pct": "+0.74%",
+      "live_gap_pct": "+2.94%",
+      "regular_move_pct": "+3.29%",
+      "avg_dollar_volume": 751939547.75,
+      "bar_age_minutes": 2.1,
+      "vwap": 218.81,
+      "opening_range_high": 215.54,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -224,6 +224,12 @@
       "ticker": "SHOP",
       "title": "Shopify Stock Rallies on Checkout Partnership With Meta’s New Muse AI Agent",
       "time": "Tue, 22 Sep 2026 14:55:12",
+      "sentiment": 1
+    },
+    {
+      "ticker": "SHOP",
+      "title": "Shopify Stock Climbs As AI, Analyst Upgrades Fuel Momentum",
+      "time": "Tue, 22 Sep 2026 16:32:00",
       "sentiment": 1
     },
     {
@@ -270,6 +276,12 @@
     },
     {
       "ticker": "LLY",
+      "title": "Should Dividend Investors Buy Pfizer Stock for Its High Yield or Invest in Eli Lilly for Its Dividend Growth?",
+      "time": "Tue, 22 Sep 2026 16:09:22",
+      "sentiment": 1
+    },
+    {
+      "ticker": "LLY",
       "title": "Eli Lilly Stock Trails the Market, and Its Growth Story Faces a Test Under a High Valuation",
       "time": "Tue, 22 Sep 2026 04:54:57",
       "sentiment": 1
@@ -285,6 +297,12 @@
       "title": "Dow Falls 134 Points On Losses For Shares Of Cisco, JPMorgan Chase",
       "time": "Tue, 22 Sep 2026 14:11:00",
       "sentiment": -1
+    },
+    {
+      "ticker": "CSCO",
+      "title": "HPE's Networking Orders Signal Continued Growth: What's Ahead?",
+      "time": "Tue, 22 Sep 2026 15:42:00",
+      "sentiment": 1
     },
     {
       "ticker": "SMCI",
@@ -389,6 +407,12 @@
       "sentiment": -1
     },
     {
+      "ticker": "WBD",
+      "title": "Warner Bros. Discovery (WBD) Surges 10.8%: Is This an Indication of Further Gains?",
+      "time": "Tue, 22 Sep 2026 08:25:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "FCX",
       "title": "Freeport-McMoRan's Low-Cost Secret to Take Advantage of Record Copper Prices",
       "time": "Tue, 22 Sep 2026 11:13:57",
@@ -419,9 +443,21 @@
       "sentiment": 1
     },
     {
+      "ticker": "META",
+      "title": "Meta stocks surge after Muse launch",
+      "time": "Tue, 22 Sep 2026 16:29:32",
+      "sentiment": 1
+    },
+    {
       "ticker": "SHOP",
       "title": "Why Is Shopify Stock Surging on Tuesday?",
       "time": "Tue, 22 Sep 2026 12:03:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SHOP",
+      "title": "Why Shopify Stock, Twilio Are Rising On Meta's Muse Rollout",
+      "time": "Tue, 22 Sep 2026 16:31:00",
       "sentiment": 0
     },
     {
@@ -434,18 +470,6 @@
       "ticker": "SHOP",
       "title": "Shopify Spikes 7%, Meta Eases as Muse Agent Gains Shop Pay Checkout; Amazon Sits Out the Rally",
       "time": "Tue, 22 Sep 2026 12:43:12",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SHOP",
-      "title": "Why Shopify Stock, Twilio Are Rising On Meta's Muse Rollout",
-      "time": "Tue, 22 Sep 2026 16:31:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SHOP",
-      "title": "SHOP Stock Jumps 7% as Meta’s Muse Starts Shopping for Users",
-      "time": "Tue, 22 Sep 2026 16:10:27",
       "sentiment": 0
     },
     {
@@ -492,14 +516,14 @@
     },
     {
       "ticker": "UAL",
-      "title": "3 Consumer Stocks We Steer Clear Of",
-      "time": "Tue, 22 Sep 2026 09:56:41",
+      "title": "AAL, UAL, DAL Get Fresh Rothschild Targets — Firm Sees Domestic Revenue Strength Extending Into 2027",
+      "time": "Mon, 21 Sep 2026 18:02:09",
       "sentiment": 0
     },
     {
       "ticker": "UAL",
-      "title": "AAL, UAL, DAL Get Fresh Rothschild Targets — Firm Sees Domestic Revenue Strength Extending Into 2027",
-      "time": "Mon, 21 Sep 2026 18:02:09",
+      "title": "United Airlines stock gains 5.22 percent as fuel costs ease - ad-hoc-news.de",
+      "time": "Tue, 22 Sep 2026 08:40:35",
       "sentiment": 0
     },
     {
@@ -510,13 +534,13 @@
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors stock steadies as Bernstein sticks with Hold and Q2 2026 figures support valuatio",
+      "title": "NXP Semiconductors stock steadies as Bernstein sticks with Hold and Q2 2026 figures support valuatio - ad-hoc-news.de",
       "time": "Tue, 22 Sep 2026 12:07:25",
       "sentiment": 0
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors stock steadies after Bernstein keeps Hold",
+      "title": "NXP Semiconductors stock steadies after Bernstein keeps Hold - ad-hoc-news.de",
       "time": "Mon, 21 Sep 2026 21:02:15",
       "sentiment": 0
     },
@@ -552,7 +576,7 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Golden Cross Brings This Key Level Into Focus",
+      "title": "Palantir Golden Cross Brings This Key Level Into Focus - Palantir Technologies (NASDAQ:PLTR)",
       "time": "Tue, 22 Sep 2026 16:36:37",
       "sentiment": 0
     },
@@ -677,15 +701,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "LLY",
-      "title": "TD Cowen reiterates Buy rating on Eli Lilly, $1250 price target",
-      "time": "Tue, 22 Sep 2026 15:02:53",
-      "sentiment": 0
-    },
-    {
       "ticker": "BABA",
-      "title": "Alibaba Group Holding (BABA) Could Be 52% Undervalued After AI Chip And Cloud Push",
-      "time": "Tue, 22 Sep 2026 11:14:36",
+      "title": "3 Reasons to Hold Alibaba Stock Despite Its High Premium P/S",
+      "time": "Tue, 22 Sep 2026 15:38:00",
       "sentiment": 0
     },
     {
@@ -702,6 +720,12 @@
     },
     {
       "ticker": "BABA",
+      "title": "Alibaba Group (NYSE:BABA) Shares Gap Up - Time to Buy?",
+      "time": "Tue, 22 Sep 2026 16:47:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BABA",
       "title": "ALIBABA GROUP HOLDING LIMITED (BABA) SHAREHOLDER ALERT",
       "time": "Tue, 22 Sep 2026 14:43:31",
       "sentiment": 0
@@ -710,12 +734,6 @@
       "ticker": "BABA",
       "title": "Alibaba Jumps 4% as Zhenwu V900 Chip Targets the Gap NVIDIA Left in China; Baidu Sits Tight",
       "time": "Tue, 22 Sep 2026 13:43:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BABA",
-      "title": "Why Is BABA Stock Rising In Overnight Trading?",
-      "time": "Mon, 21 Sep 2026 23:48:30",
       "sentiment": 0
     },
     {
@@ -732,14 +750,8 @@
     },
     {
       "ticker": "CSCO",
-      "title": "Cisco Systems stock gains 1.8 percent ahead of the open",
-      "time": "Tue, 22 Sep 2026 05:04:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CSCO",
-      "title": "Cisco Moves Higher as Splunk Takes Agents Behind the Firewall",
-      "time": "Mon, 21 Sep 2026 18:45:16",
+      "title": "Piper Sandler Adjusts Price Target on Cisco Systems to $125 From $132, Keeps Neutral Rating",
+      "time": "Tue, 22 Sep 2026 09:34:20",
       "sentiment": 0
     },
     {
@@ -750,7 +762,7 @@
     },
     {
       "ticker": "SMCI",
-      "title": "Super Micro Computer stock rises as AI backlog reaches $60 billion",
+      "title": "Super Micro Computer stock rises as AI backlog reaches $60 billion - ad-hoc-news.de",
       "time": "Tue, 22 Sep 2026 11:08:29",
       "sentiment": 0
     },
@@ -834,25 +846,25 @@
     },
     {
       "ticker": "ISRG",
-      "title": "Intuitive Surgical stock ends the day little changed at the close on Nasdaq",
+      "title": "Intuitive Surgical stock ends the day little changed at the close on Nasdaq - ad-hoc-news.de",
       "time": "Mon, 21 Sep 2026 21:21:29",
       "sentiment": 0
     },
     {
       "ticker": "DHR",
-      "title": "DHR vs TMO: valuation spread and pairs trade case",
-      "time": "Mon, 21 Sep 2026 16:49:57",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DHR",
-      "title": "Danaher stock ends the day 1.97 percent higher at the close",
+      "title": "Danaher stock ends the day 1.97 percent higher at the close - ad-hoc-news.de",
       "time": "Mon, 21 Sep 2026 20:28:28",
       "sentiment": 0
     },
     {
       "ticker": "DHR",
-      "title": "Danaher Corp. stock gains as valuation stays above fair value",
+      "title": "DHR vs TMO: valuation spread and pairs trade case By Investing.com",
+      "time": "Mon, 21 Sep 2026 17:07:09",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DHR",
+      "title": "Danaher Corp. stock gains as valuation stays above fair value - ad-hoc-news.de",
       "time": "Tue, 22 Sep 2026 12:15:35",
       "sentiment": 0
     },
@@ -972,14 +984,14 @@
     },
     {
       "ticker": "AVGO",
-      "title": "Price Prediction: Marvell, AMD & Broadcom- Our Bold Price Predictions for 2027",
-      "time": "Tue, 22 Sep 2026 16:00:00",
+      "title": "Is Broadcom (NASDAQ:AVGO) Stock Worth Watching Today?",
+      "time": "Tue, 22 Sep 2026 12:39:00",
       "sentiment": 0
     },
     {
       "ticker": "AVGO",
-      "title": "Is Broadcom (NASDAQ:AVGO) Stock Worth Watching Today?",
-      "time": "Tue, 22 Sep 2026 12:39:00",
+      "title": "Broadcom Stock Forecast: AVGO Rebounds as AI Demand Supports Recovery",
+      "time": "Tue, 22 Sep 2026 06:12:30",
       "sentiment": 0
     },
     {
@@ -1002,7 +1014,7 @@
     },
     {
       "ticker": "KLAC",
-      "title": "KLA Corporation stock gains 3.94 percent ahead of the open",
+      "title": "KLA Corporation stock gains 3.94 percent ahead of the open - ad-hoc-news.de",
       "time": "Tue, 22 Sep 2026 05:34:56",
       "sentiment": 0
     },
@@ -1032,7 +1044,7 @@
     },
     {
       "ticker": "TMO",
-      "title": "Thermo Fisher Scientific stock heads into the open after a 0.51 percent gain",
+      "title": "Thermo Fisher Scientific stock heads into the open after a 0.51 percent gain - ad-hoc-news.de",
       "time": "Tue, 22 Sep 2026 04:36:38",
       "sentiment": 0
     },
@@ -1044,7 +1056,7 @@
     },
     {
       "ticker": "TMO",
-      "title": "Thermo Fisher Scientific stock rises 1.23 percent near its yearly high",
+      "title": "Thermo Fisher Scientific stock rises 1.23 percent near its yearly high - ad-hoc-news.de",
       "time": "Tue, 22 Sep 2026 10:29:25",
       "sentiment": 0
     },
@@ -1057,7 +1069,7 @@
     {
       "ticker": "TJX",
       "title": "The TJX Companies, Inc. (TJX) Latest Stock News & Headlines",
-      "time": "Mon, 21 Sep 2026 18:35:24",
+      "time": "Tue, 22 Sep 2026 13:52:08",
       "sentiment": 0
     },
     {
@@ -1068,7 +1080,7 @@
     },
     {
       "ticker": "TJX",
-      "title": "TJX Companies stock gains as quarterly sales reach USD 15.2 billion",
+      "title": "TJX Companies stock gains as quarterly sales reach USD 15.2 billion - ad-hoc-news.de",
       "time": "Tue, 22 Sep 2026 12:33:05",
       "sentiment": 0
     },
@@ -1080,13 +1092,13 @@
     },
     {
       "ticker": "TJX",
-      "title": "TJX Companies stock rises 2.97 percent ahead of the open",
+      "title": "TJX Companies stock rises 2.97 percent ahead of the open - ad-hoc-news.de",
       "time": "Tue, 22 Sep 2026 06:27:07",
       "sentiment": 0
     },
     {
       "ticker": "TJX",
-      "title": "TJX Companies stock ends the day slightly higher at the close",
+      "title": "TJX Companies stock ends the day slightly higher at the close - ad-hoc-news.de",
       "time": "Mon, 21 Sep 2026 21:03:42",
       "sentiment": 0
     },
@@ -1100,12 +1112,6 @@
       "ticker": "WBD",
       "title": "Warner Bros. Discovery (WBD) Stock May Be 17% Undervalued After Merger Clearance",
       "time": "Tue, 22 Sep 2026 09:56:24",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WBD",
-      "title": "Paramount Skydance Rises 4% on 12-State Settlement, Warner Bros. Discovery Holds Flat as $110B Deal Nears Its Close",
-      "time": "Tue, 22 Sep 2026 15:00:00",
       "sentiment": 0
     },
     {
@@ -1134,7 +1140,7 @@
     },
     {
       "ticker": "FCX",
-      "title": "Freeport-McMoRan stock gains 0.6 percent ahead of the open",
+      "title": "Freeport-McMoRan stock gains 0.6 percent ahead of the open - ad-hoc-news.de",
       "time": "Tue, 22 Sep 2026 04:34:49",
       "sentiment": 0
     },
@@ -1164,7 +1170,7 @@
     },
     {
       "ticker": "TSM",
-      "title": "TSM stock gains as earnings estimates rise",
+      "title": "TSM stock gains as earnings estimates rise - ad-hoc-news.de",
       "time": "Tue, 22 Sep 2026 12:27:21",
       "sentiment": 0
     },
@@ -1182,7 +1188,7 @@
     },
     {
       "ticker": "TSM",
-      "title": "TSM stock ends the day 3.52 percent lower at the close",
+      "title": "TSM stock ends the day 3.52 percent lower at the close - ad-hoc-news.de",
       "time": "Mon, 21 Sep 2026 21:41:41",
       "sentiment": 0
     },
@@ -1200,7 +1206,7 @@
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices stock ends the day 3.6 percent higher at the close",
+      "title": "Analog Devices stock ends the day 3.6 percent higher at the close - ad-hoc-news.de",
       "time": "Mon, 21 Sep 2026 20:51:47",
       "sentiment": 0
     },
@@ -1230,7 +1236,7 @@
     },
     {
       "ticker": "TXN",
-      "title": "Texas Instruments stock ends the day modestly higher at the closing bell",
+      "title": "Texas Instruments stock ends the day modestly higher at the closing bell - ad-hoc-news.de",
       "time": "Mon, 21 Sep 2026 20:29:41",
       "sentiment": 0
     },
@@ -1268,12 +1274,6 @@
       "ticker": "META",
       "title": "Meta stock rallied 20% since Muse AI launch: Is META the best Mag 7 buy now?",
       "time": "Tue, 22 Sep 2026 13:01:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Wall Street expects Meta's AI agent to shape into a new revenue engine",
-      "time": "Tue, 22 Sep 2026 13:40:59",
       "sentiment": 0
     }
   ]
