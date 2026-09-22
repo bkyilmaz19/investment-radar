@@ -1,19 +1,19 @@
 {
-  "generated_at_local": "22.09.2026 08:26 CEST",
+  "generated_at_local": "22.09.2026 10:32 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
-  "summary": "Risk-on / positives Momentum. Früher Morning-Scan; US-Premarket ggf. noch nicht geöffnet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "summary": "Risk-on / positives Momentum. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
       "ticker": "SHOP",
       "name": "Shopify",
-      "score": 85,
+      "score": 89,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +7.33%, 5T +3.01%, relatives Volumen 2.16x, ATR 4.56%",
-      "catalyst": "Mark Zuckerberg Says 'More Partnerships' Coming as Meta Teams With Shopify to Power AI Purchases: 'Shoppe",
+      "catalyst": "Meta announces AI shopping partnership with Shopify",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
+      "entry_note": "Premarket-Gap +0.79%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 2.74,
       "target_pct": 5.2,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -21,173 +21,56 @@
       "change_5d": "+3.01%",
       "volume_ratio": "2.16x",
       "atr_pct": "4.56%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
+      "gap_pct": "+0.79%",
+      "premarket_move_pct": "-0.38%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 1168021925.45,
-      "bar_age_minutes": null,
+      "bar_age_minutes": 2.1,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
+      "session_phase": "Premarket",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 84,
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "score": 89,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.42%, 5T +9.44%, relatives Volumen 1.17x, ATR 4.01%",
-      "catalyst": "Applied Materials Inc (AMAT) Shares Surge 4.4% -- What GF Score of 85 Tells Investors",
+      "thesis": "1T +1.04%, 5T +2.34%, relatives Volumen 1.04x, ATR 2.24%",
+      "catalyst": "Eli Lilly Stock Trails the Market, and Its Growth Story Faces a Test Under a High Valuation",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 2.41,
-      "target_pct": 4.57,
+      "entry_note": "Premarket-Gap -0.15%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.35,
+      "target_pct": 2.56,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+4.42%",
-      "change_5d": "+9.44%",
-      "volume_ratio": "1.17x",
-      "atr_pct": "4.01%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
+      "change_1d": "+1.04%",
+      "change_5d": "+2.34%",
+      "volume_ratio": "1.04x",
+      "atr_pct": "2.24%",
+      "gap_pct": "-0.15%",
+      "premarket_move_pct": "+0.00%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 3021173416.14,
-      "bar_age_minutes": null,
+      "avg_dollar_volume": 2750931579.09,
+      "bar_age_minutes": 32.1,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "NXPI",
-      "name": "NXP",
-      "score": 83,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.94%, 5T +3.65%, relatives Volumen 1.18x, ATR 3.41%",
-      "catalyst": "NXP Semiconductors (NXPI) Beats Stock Market Upswing: What Investors Need to Know",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 2.05,
-      "target_pct": 3.89,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.94%",
-      "change_5d": "+3.65%",
-      "volume_ratio": "1.18x",
-      "atr_pct": "3.41%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 767681696.13,
-      "bar_age_minutes": null,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "SMCI",
-      "name": "Super Micro Computer",
-      "score": 81,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +5.40%, 5T +12.14%, relatives Volumen 1.15x, ATR 5.89%",
-      "catalyst": "Super Micro Computer Inc. stock outperforms competitors on strong trading day",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 3.0,
-      "target_pct": 5.7,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+5.40%",
-      "change_5d": "+12.14%",
-      "volume_ratio": "1.15x",
-      "atr_pct": "5.89%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 1472065152.93,
-      "bar_age_minutes": null,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
-      "score": 80,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.12%, 5T +6.27%, relatives Volumen 1.07x, ATR 3.04%",
-      "catalyst": "Ambulatory Surgery Centers Are Becoming ISRG's New Growth Engine",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 1.82,
-      "target_pct": 3.47,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.12%",
-      "change_5d": "+6.27%",
-      "volume_ratio": "1.07x",
-      "atr_pct": "3.04%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 885309814.97,
-      "bar_age_minutes": null,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
+      "session_phase": "Premarket",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
@@ -196,8 +79,125 @@
         "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 88,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +4.42%, 5T +9.44%, relatives Volumen 1.17x, ATR 4.01%",
+      "catalyst": "Applied Materials Inc (AMAT) Shares Surge 4.4% -- What GF Score of 85 Tells Investors",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -2.09%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 2.41,
+      "target_pct": 4.57,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+4.42%",
+      "change_5d": "+9.44%",
+      "volume_ratio": "1.17x",
+      "atr_pct": "4.01%",
+      "gap_pct": "-2.09%",
+      "premarket_move_pct": "+0.06%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 3021173416.14,
+      "bar_age_minutes": 2.1,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
         "gap_ok": false,
-        "confirmation_ok": false
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP",
+      "score": 85,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.94%, 5T +3.65%, relatives Volumen 1.18x, ATR 3.41%",
+      "catalyst": "NXP Semiconductors (NXPI) Beats Stock Market Upswing: What Investors Need to Know",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -0.86%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 2.05,
+      "target_pct": 3.89,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.94%",
+      "change_5d": "+3.65%",
+      "volume_ratio": "1.18x",
+      "atr_pct": "3.41%",
+      "gap_pct": "-0.86%",
+      "premarket_move_pct": "-0.09%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 767681696.13,
+      "bar_age_minutes": 2.0,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple",
+      "score": 84,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.85%, 5T +1.77%, relatives Volumen 0.76x, ATR 2.23%",
+      "catalyst": "Apple shares hit record high after iPhone Duo and Siri AI success",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.26%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.34,
+      "target_pct": 2.55,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.85%",
+      "change_5d": "+1.77%",
+      "volume_ratio": "0.76x",
+      "atr_pct": "2.23%",
+      "gap_pct": "+0.26%",
+      "premarket_move_pct": "+0.05%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 13936646073.02,
+      "bar_age_minutes": 2.1,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     }
   ],
@@ -222,14 +222,14 @@
   "news": [
     {
       "ticker": "SHOP",
-      "title": "Mark Zuckerberg Says 'More Partnerships' Coming as Meta Teams With Shopify to Power AI Purchases: 'Shoppe",
-      "time": "Tue, 22 Sep 2026 04:59:18",
+      "title": "Meta announces AI shopping partnership with Shopify",
+      "time": "Tue, 22 Sep 2026 03:06:26",
       "sentiment": 1
     },
     {
       "ticker": "SHOP",
-      "title": "Shopify Inc (SHOP) Shares Surge 7.3% -- What GF Score of 85 Tells Investors",
-      "time": "Mon, 21 Sep 2026 21:33:24",
+      "title": "Mark Zuckerberg Says 'More Partnerships' Coming as Meta Teams With Shopify to Power AI Purchases: 'Shoppe",
+      "time": "Tue, 22 Sep 2026 04:59:18",
       "sentiment": 1
     },
     {
@@ -275,9 +275,15 @@
       "sentiment": 1
     },
     {
+      "ticker": "PLTR",
+      "title": "Dan Ives Dismisses Michael Burry’s Bearish Palantir Take: Retail Says ‘Charge Burry For Manipulation’",
+      "time": "Mon, 21 Sep 2026 23:12:44",
+      "sentiment": -1
+    },
+    {
       "ticker": "AMZN",
-      "title": "AMZN Stock Drops For Second Day — Amazon Reportedly Cuts Jobs In Artificial General Intelligence Unit Amid Strategic Realignment",
-      "time": "Mon, 21 Sep 2026 08:26:26",
+      "title": "UPS Stock Under Pressure As Wall Street Weighs Amazon Shipping Cuts — But Retail Bulls Remain Unfazed",
+      "time": "Mon, 21 Sep 2026 23:19:55",
       "sentiment": -1
     },
     {
@@ -294,26 +300,20 @@
     },
     {
       "ticker": "LLY",
+      "title": "Eli Lilly Makes Another Biotech Bet Ahead Of Retatrutide Data – LLY Stock Surges To Highest In Over 2 Months",
+      "time": "Tue, 22 Sep 2026 01:59:24",
+      "sentiment": 1
+    },
+    {
+      "ticker": "LLY",
       "title": "What Lilly Stock's Breast Cancer Drug Approval Means For Shareholders",
       "time": "Mon, 21 Sep 2026 19:25:31",
       "sentiment": 1
     },
     {
-      "ticker": "LLY",
-      "title": "Eli Lilly (LLY) Increases Yet Falls Behind Market: What Investors Need to Know",
-      "time": "Mon, 21 Sep 2026 21:45:02",
-      "sentiment": -1
-    },
-    {
       "ticker": "SMCI",
       "title": "Super Micro Computer Inc. stock outperforms competitors on strong trading day",
       "time": "Mon, 21 Sep 2026 20:30:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "SMCI",
-      "title": "Super Micro Computer (NASDAQ:SMCI) Combines Strong Growth With a High-Quality Technical Setup",
-      "time": "Mon, 21 Sep 2026 09:41:23",
       "sentiment": 1
     },
     {
@@ -431,10 +431,10 @@
       "sentiment": -1
     },
     {
-      "ticker": "TSM",
-      "title": "AMD Stock Hits Record High, Briefly Joins $1 Trillion Club Amid Chip Sector Rally",
-      "time": "Mon, 21 Sep 2026 15:01:00",
-      "sentiment": 1
+      "ticker": "ADI",
+      "title": "How To Bank 8.4% A Year On ADI Stock Before Buying A Single Share",
+      "time": "Tue, 22 Sep 2026 06:32:50",
+      "sentiment": -1
     },
     {
       "ticker": "ADI",
@@ -451,7 +451,7 @@
     {
       "ticker": "SHOP",
       "title": "Shopify to Use Meta’s Muse for Agentic Checkout",
-      "time": "Mon, 21 Sep 2026 22:31:56",
+      "time": "Mon, 21 Sep 2026 22:30:00",
       "sentiment": 0
     },
     {
@@ -462,14 +462,14 @@
     },
     {
       "ticker": "SHOP",
-      "title": "SHOP: Shopify - Stock Price, Quote and News | TSX",
-      "time": "Tue, 22 Sep 2026 05:03:05",
+      "title": "Shopify Inc Stock (SHOP) Moved Up by 5.22% on Sep 21: What Investors Need To Know",
+      "time": "Mon, 21 Sep 2026 18:15:34",
       "sentiment": 0
     },
     {
       "ticker": "SHOP",
-      "title": "Shopify Inc Stock (SHOP) Moved Up by 5.22% on Sep 21: What Investors Need To Know",
-      "time": "Mon, 21 Sep 2026 18:15:34",
+      "title": "SHOP: Shopify - Stock Price, Quote and News | TSX",
+      "time": "Tue, 22 Sep 2026 05:03:05",
       "sentiment": 0
     },
     {
@@ -528,6 +528,12 @@
     },
     {
       "ticker": "NXPI",
+      "title": "Inside the NXP Semiconductors (NXPI) Story Reshaping Technology Stocks Sentiment",
+      "time": "Tue, 22 Sep 2026 06:22:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NXPI",
       "title": "NXP Semiconductors stock steadies after Bernstein keeps Hold",
       "time": "Mon, 21 Sep 2026 21:02:15",
       "sentiment": 0
@@ -582,12 +588,6 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Why Did MSTR, PLTR, NFLX Stocks Plummet To 52-Week Lows?",
-      "time": "Mon, 21 Sep 2026 23:21:36",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
       "title": "Prediction: This Will Be Palantir’s Stock Price in a Year (Hint: It Implies Upside)",
       "time": "Mon, 21 Sep 2026 08:32:01",
       "sentiment": 0
@@ -618,8 +618,8 @@
     },
     {
       "ticker": "AMZN",
-      "title": "Amazon (AMZN) Stock May Still Have Upside Following AI Infrastructure Deals",
-      "time": "Mon, 21 Sep 2026 09:24:07",
+      "title": "19,624 Shares in Amazon.com, Inc. $AMZN Acquired by D.B. Root & Company LLC",
+      "time": "Tue, 22 Sep 2026 07:36:06",
       "sentiment": 0
     },
     {
@@ -636,6 +636,12 @@
     },
     {
       "ticker": "GOOGL",
+      "title": "Got $5,000?: 2 Magnificent AI Cloud Stocks to Buy Before the Anthropic IPO",
+      "time": "Tue, 22 Sep 2026 07:09:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOGL",
       "title": "Gene Munster Sees GOOGL Q2 Cloud Revenue Jump Over 65% Ahead Of Estimates — But Traders Eye Capex",
       "time": "Mon, 21 Sep 2026 18:00:28",
       "sentiment": 0
@@ -644,12 +650,6 @@
       "ticker": "GOOGL",
       "title": "Alphabet Inc. (GOOGL) Price: Live Chart & Market Cap",
       "time": "Mon, 21 Sep 2026 19:53:43",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOGL",
-      "title": "GOOG vs GOOGL - which Alphabet share class should you buy?",
-      "time": "Mon, 21 Sep 2026 10:29:34",
       "sentiment": 0
     },
     {
@@ -690,20 +690,20 @@
     },
     {
       "ticker": "BABA",
-      "title": "Alibaba vs. MercadoLibre: Which Consumer Stock Is a Better Buy in 2026?",
-      "time": "Tue, 22 Sep 2026 00:59:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BABA",
-      "title": "Tencent unveils AI image model to narrow gap with ByteDance, Alibaba; shares rise (TCEHY:OTCMKTS)",
-      "time": "Tue, 22 Sep 2026 06:19:14",
+      "title": "Alibaba steps up AI push with V900 chip, 20 GW data center target (BABA:NYSE)",
+      "time": "Tue, 22 Sep 2026 05:09:55",
       "sentiment": 0
     },
     {
       "ticker": "BABA",
       "title": "BABA Stockholders: Robbins LLP Reminds Alibaba Group Holding Limited Stockholders with Large Losses to Seek Information About Leading the Class Action Before the October 5, 2026 Deadline",
       "time": "Mon, 21 Sep 2026 19:24:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BABA",
+      "title": "Alibaba Group (NYSE:BABA) Shares Up 2.4% - Here's What Happened",
+      "time": "Mon, 21 Sep 2026 21:44:25",
       "sentiment": 0
     },
     {
@@ -714,14 +714,14 @@
     },
     {
       "ticker": "CSCO",
-      "title": "Cisco Moves Higher as Splunk Takes Agents Behind the Firewall",
-      "time": "Mon, 21 Sep 2026 18:45:16",
+      "title": "Broadcom, Cisco, Arista Networks And A Financial Stock On CNBC’s ‘Final Trades’",
+      "time": "Mon, 21 Sep 2026 12:04:36",
       "sentiment": 0
     },
     {
       "ticker": "CSCO",
-      "title": "Broadcom, Cisco, Arista Networks And A Financial Stock On CNBC’s ‘Final Trades’",
-      "time": "Mon, 21 Sep 2026 12:04:36",
+      "title": "Cisco Moves Higher as Splunk Takes Agents Behind the Firewall",
+      "time": "Mon, 21 Sep 2026 18:45:16",
       "sentiment": 0
     },
     {
@@ -752,6 +752,12 @@
       "ticker": "SMCI",
       "title": "Super Micro Computer Looks Very Intriguing Right Now",
       "time": "Mon, 21 Sep 2026 15:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SMCI",
+      "title": "GRRR Stock Slides Premarket Despite A $2B AI Deal With Supermicro — Here's Why",
+      "time": "Tue, 22 Sep 2026 02:50:31",
       "sentiment": 0
     },
     {
@@ -834,8 +840,8 @@
     },
     {
       "ticker": "ISRG",
-      "title": "Abbott Laboratories vs. Intuitive Surgical: Recent Quarterly Revenue Trends Reveal a Classic Investing Truth",
-      "time": "Mon, 21 Sep 2026 20:07:00",
+      "title": "1 S&P 500 Stock with Exciting Potential and 2 We Ignore",
+      "time": "Tue, 22 Sep 2026 04:36:00",
       "sentiment": 0
     },
     {
@@ -876,14 +882,14 @@
     },
     {
       "ticker": "AAPL",
-      "title": "AAPL Stock Dips Premarket: Report Says Apple Is 'Concerned' Over Tata Data Leak Exposing Confidential iPhone Files",
-      "time": "Mon, 21 Sep 2026 23:54:17",
+      "title": "Is Apple Stock’s Shrinking Share Count Worth Paying Up For Near The Highs?",
+      "time": "Mon, 21 Sep 2026 19:00:04",
       "sentiment": 0
     },
     {
       "ticker": "AAPL",
-      "title": "Is Apple Stock’s Shrinking Share Count Worth Paying Up For Near The Highs?",
-      "time": "Mon, 21 Sep 2026 19:00:04",
+      "title": "AAPL Stock Dips Premarket: Report Says Apple Is 'Concerned' Over Tata Data Leak Exposing Confidential iPhone Files",
+      "time": "Mon, 21 Sep 2026 23:54:17",
       "sentiment": 0
     },
     {
@@ -924,8 +930,14 @@
     },
     {
       "ticker": "NVDA",
-      "title": "Jensen Huang Just Delivered Incredible News for Nvidia Stock Investors",
-      "time": "Mon, 21 Sep 2026 13:39:00",
+      "title": "Not Micron. Not Alphabet. Here's My Top Artificial Intelligence (AI) Stock Pick for the Next 3 Years.",
+      "time": "Tue, 22 Sep 2026 06:59:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOG",
+      "title": "Alphabet: An Undervalued Stock to Buy That Even Warren Buffett Likes | Morningstar Nordics",
+      "time": "Tue, 22 Sep 2026 06:18:21",
       "sentiment": 0
     },
     {
@@ -953,12 +965,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "GOOG",
-      "title": "Gene Munster Sees GOOGL Q2 Cloud Revenue Jump Over 65% Ahead Of Estimates — But Traders Eye Capex",
-      "time": "Mon, 21 Sep 2026 18:00:28",
-      "sentiment": 0
-    },
-    {
       "ticker": "AVGO",
       "title": "Broadcom’s AI Opportunity Is Bigger Than Its Stock Price Suggests",
       "time": "Mon, 21 Sep 2026 15:30:16",
@@ -966,20 +972,20 @@
     },
     {
       "ticker": "AVGO",
-      "title": "Is Broadcom a Buy After 12.59% Crash? Broadcom (AVGO) Stock Price Target and Analyst Consensus Explained",
-      "time": "Mon, 21 Sep 2026 22:34:45",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AVGO",
       "title": "History Says a $1,000 Investment in Broadcom Will Be Worth This Much by 2028",
-      "time": "Tue, 22 Sep 2026 06:20:23",
+      "time": "Tue, 22 Sep 2026 06:48:03",
       "sentiment": 0
     },
     {
       "ticker": "AVGO",
       "title": "Broadcom Stock Forecast: AVGO Rebounds as AI Demand Supports Recovery",
       "time": "Tue, 22 Sep 2026 06:12:30",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AVGO",
+      "title": "Is Broadcom a Buy After 12.59% Crash? Broadcom (AVGO) Stock Price Target and Analyst Consensus Explained",
+      "time": "Mon, 21 Sep 2026 22:34:45",
       "sentiment": 0
     },
     {
@@ -1020,12 +1026,6 @@
     },
     {
       "ticker": "AMGN",
-      "title": "The Zacks Analyst Blog Highlights AMD, Linde, Amgen and INNOVATE",
-      "time": "Mon, 21 Sep 2026 13:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMGN",
       "title": "Morgan Stanley flags Amgen’s edge after heart-drug rival stumbles",
       "time": "Tue, 22 Sep 2026 00:07:00",
       "sentiment": 0
@@ -1034,6 +1034,12 @@
       "ticker": "AMGN",
       "title": "Is AMGN Overvalued? DCF Says Worth $296",
       "time": "Mon, 21 Sep 2026 11:32:28",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMGN",
+      "title": "Amgen stock heads into the open after a 1.95 percent gain",
+      "time": "Tue, 22 Sep 2026 06:18:05",
       "sentiment": 0
     },
     {
@@ -1068,8 +1074,8 @@
     },
     {
       "ticker": "TJX",
-      "title": "The TJX Companies Stock Trading at a Discount: Buy or Hold?",
-      "time": "Mon, 21 Sep 2026 14:59:00",
+      "title": "Jim Cramer Notes He Is Buying The Pullback In TJX",
+      "time": "Mon, 21 Sep 2026 18:20:48",
       "sentiment": 0
     },
     {
@@ -1080,14 +1086,20 @@
     },
     {
       "ticker": "TJX",
+      "title": "TJX Companies stock rises 2.97 percent ahead of the open",
+      "time": "Tue, 22 Sep 2026 06:27:07",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TJX",
       "title": "The TJX Companies Stock Trading at a Discount: Buy or Hold?",
       "time": "Mon, 21 Sep 2026 14:05:12",
       "sentiment": 0
     },
     {
       "ticker": "TJX",
-      "title": "Jim Cramer Notes He Is Buying The Pullback In TJX",
-      "time": "Mon, 21 Sep 2026 18:20:48",
+      "title": "The TJX Companies Stock Trading at a Discount: Buy or Hold?",
+      "time": "Mon, 21 Sep 2026 14:59:00",
       "sentiment": 0
     },
     {
@@ -1097,15 +1109,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "TJX",
-      "title": "TJX Companies stock holds recent gains as investors eye off-price momentum",
-      "time": "Mon, 21 Sep 2026 10:23:50",
+      "ticker": "WBD",
+      "title": "Warner Bros. Discovery (WBD) Shares Skyrocket, What You Need To Know",
+      "time": "Mon, 21 Sep 2026 23:34:25",
       "sentiment": 0
     },
     {
       "ticker": "WBD",
-      "title": "Warner Bros. Discovery (WBD) Shares Skyrocket, What You Need To Know",
-      "time": "Mon, 21 Sep 2026 23:34:25",
+      "title": "Paramount Could Acquire Warner Bros. Discovery Sooner Than Expected. Here’s What That Means for Netflix Investors.",
+      "time": "Tue, 22 Sep 2026 02:23:00",
       "sentiment": 0
     },
     {
@@ -1121,12 +1133,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "WBD",
-      "title": "Could You Have Seen Warner Bros Discovery Stock’s Run Coming?",
-      "time": "Mon, 21 Sep 2026 13:18:21",
-      "sentiment": 0
-    },
-    {
       "ticker": "FCX",
       "title": "Is Freeport-McMoRan (NYSE:FCX) Facing A Copper Demand Shift?",
       "time": "Mon, 21 Sep 2026 22:14:00",
@@ -1134,14 +1140,14 @@
     },
     {
       "ticker": "FCX",
-      "title": "Nykredit A S Purchases New Shares in Freeport-McMoRan Inc. $FCX",
-      "time": "Mon, 21 Sep 2026 07:34:39",
+      "title": "Freeport-McMoRan stock gains 0.6 percent ahead of the open",
+      "time": "Tue, 22 Sep 2026 04:34:49",
       "sentiment": 0
     },
     {
       "ticker": "FCX",
-      "title": "Freeport-McMoRan stock gains 0.6 percent ahead of the open",
-      "time": "Tue, 22 Sep 2026 04:34:49",
+      "title": "Gold Stocks To Add to Your Watchlist - September 21st",
+      "time": "Mon, 21 Sep 2026 17:05:03",
       "sentiment": 0
     },
     {
@@ -1187,6 +1193,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "TSM",
+      "title": "Nasdaq, S&P 500 Futures Fall Ahead Of CPI Data, Oracle Earnings: Why SMCI, TSM, CRWV, YYGH Are Keeping Traders Engaged Today",
+      "time": "Mon, 21 Sep 2026 20:03:02",
+      "sentiment": 0
+    },
+    {
       "ticker": "ADI",
       "title": "Analog Devices (ADI) chief donates 19,200 shares to family foundation",
       "time": "Mon, 21 Sep 2026 21:16:11",
@@ -1208,12 +1220,6 @@
       "ticker": "ADI",
       "title": "Analog Devices price pierces downward correctional trend line - Forecast today - 21-09-2026",
       "time": "Mon, 21 Sep 2026 12:52:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADI",
-      "title": "Jev Goes Viral, What Related Targets Are There in the US Stock Market?",
-      "time": "Mon, 21 Sep 2026 08:12:44",
       "sentiment": 0
     },
     {
@@ -1254,32 +1260,32 @@
     },
     {
       "ticker": "META",
+      "title": "Meta Stock Is Still Too Cheap",
+      "time": "Tue, 22 Sep 2026 05:30:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "META Stock Jumped 11% Monday. Here’s Where Shares Could Go Further in 2026.",
+      "time": "Tue, 22 Sep 2026 08:01:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
       "title": "Here’s How Much Traders See Meta Stock Moving After Connect Event This Week",
       "time": "Mon, 21 Sep 2026 20:50:56",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Meta’s stock is enjoying its best month in 13 years thanks to the company’s hot new AI assistant",
-      "time": "Mon, 21 Sep 2026 22:01:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Meta Stock Is Still Too Cheap",
-      "time": "Tue, 22 Sep 2026 04:56:28",
+      "title": "Meta stock is surging toward its best month in over two years as its AI agent Muse tops the App Store",
+      "time": "Mon, 21 Sep 2026 17:54:58",
       "sentiment": 0
     },
     {
       "ticker": "META",
       "title": "Why Is Meta Stock Down In Premarket Today?",
       "time": "Mon, 21 Sep 2026 23:47:30",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Meta stock is surging toward its best month in over two years as its AI agent Muse tops the App Store",
-      "time": "Mon, 21 Sep 2026 17:54:58",
       "sentiment": 0
     }
   ]
