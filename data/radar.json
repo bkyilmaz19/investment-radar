@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "22.09.2026 22:26 CEST",
+  "generated_at_local": "22.09.2026 22:41 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -8,7 +8,7 @@
     {
       "ticker": "SHOP",
       "name": "Shopify",
-      "score": 94,
+      "score": 91,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +7.33%, 5T +3.01%, relatives Volumen 2.17x, ATR 4.56%",
       "catalyst": "Shopify Stock Rallies on Checkout Partnership With Meta’s New Muse AI Agent",
@@ -26,7 +26,7 @@
       "live_gap_pct": "+7.16%",
       "regular_move_pct": "+2.44%",
       "avg_dollar_volume": 1168450856.64,
-      "bar_age_minutes": 0.5,
+      "bar_age_minutes": 0.8,
       "vwap": 148.1,
       "opening_range_high": 149.58,
       "opening_range_ready": true,
@@ -38,45 +38,6 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.12%, 5T +6.27%, relatives Volumen 1.07x, ATR 3.04%",
-      "catalyst": "Why Intuitive Surgical (ISRG) Is Up 6.5% After New da Vinci SP Transvaginal Approval – And What's Next",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.46%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.82,
-      "target_pct": 3.47,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.12%",
-      "change_5d": "+6.27%",
-      "volume_ratio": "1.07x",
-      "atr_pct": "3.04%",
-      "gap_pct": "+0.46%",
-      "premarket_move_pct": "+0.50%",
-      "live_gap_pct": "+0.09%",
-      "regular_move_pct": "-0.24%",
-      "avg_dollar_volume": 885309814.97,
-      "bar_age_minutes": 1.6,
-      "vwap": 400.94,
-      "opening_range_high": 403.97,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -104,7 +65,7 @@
       "live_gap_pct": "+0.19%",
       "regular_move_pct": "-3.26%",
       "avg_dollar_volume": 910338042.98,
-      "bar_age_minutes": 1.0,
+      "bar_age_minutes": 0.1,
       "vwap": 13.65,
       "opening_range_high": 14.05,
       "opening_range_ready": true,
@@ -182,11 +143,50 @@
       "live_gap_pct": "+4.37%",
       "regular_move_pct": "+1.70%",
       "avg_dollar_volume": 1185476752.99,
-      "bar_age_minutes": 6.6,
+      "bar_age_minutes": 1.1,
       "vwap": 406.44,
       "opening_range_high": 407.0,
       "opening_range_ready": true,
       "breakout_confirmed": true,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "score": 87,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.12%, 5T +6.27%, relatives Volumen 1.07x, ATR 3.04%",
+      "catalyst": "Why Intuitive Surgical (ISRG) Is Up 6.5% After New da Vinci SP Transvaginal Approval – And What's Next",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.46%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.82,
+      "target_pct": 3.47,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.12%",
+      "change_5d": "+6.27%",
+      "volume_ratio": "1.07x",
+      "atr_pct": "3.04%",
+      "gap_pct": "+0.46%",
+      "premarket_move_pct": "+0.50%",
+      "live_gap_pct": "+0.09%",
+      "regular_move_pct": "-0.24%",
+      "avg_dollar_volume": 885309814.97,
+      "bar_age_minutes": 6.6,
+      "vwap": 400.94,
+      "opening_range_high": 403.97,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -227,12 +227,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "SHOP",
-      "title": "Shopify rises 7% on Meta Muse AI partnership (SHOP:NASDAQ)",
-      "time": "Tue, 22 Sep 2026 20:23:08",
-      "sentiment": 1
-    },
-    {
       "ticker": "AMAT",
       "title": "Applied Materials: Opportunity Is Brewing Again (Rating Upgrade) (NASDAQ:AMAT)",
       "time": "Tue, 22 Sep 2026 16:14:55",
@@ -251,9 +245,9 @@
       "sentiment": -1
     },
     {
-      "ticker": "UAL",
-      "title": "United Airlines Holdings Inc. stock outperforms competitors on strong trading day",
-      "time": "Mon, 21 Sep 2026 20:30:00",
+      "ticker": "NXPI",
+      "title": "NXP Semiconductors (NXPI) Beats Stock Market Upswing: What Investors Need to Know",
+      "time": "Mon, 21 Sep 2026 22:15:04",
       "sentiment": 1
     },
     {
@@ -267,12 +261,6 @@
       "title": "NXP Semiconductors N.V. stock underperforms Monday when compared to competitors despite daily gains",
       "time": "Mon, 21 Sep 2026 20:47:00",
       "sentiment": -1
-    },
-    {
-      "ticker": "NXPI",
-      "title": "NXP Semiconductors (NXPI) Beats Stock Market Upswing: What Investors Need to Know",
-      "time": "Mon, 21 Sep 2026 22:15:04",
-      "sentiment": 1
     },
     {
       "ticker": "TSLA",
@@ -318,8 +306,8 @@
     },
     {
       "ticker": "SMCI",
-      "title": "Super Micro Computer Inc. stock outperforms competitors on strong trading day",
-      "time": "Mon, 21 Sep 2026 20:30:00",
+      "title": "Super Micro Computer (SMCI) Is Up 12.1% After Record AI Backlog Sparks Major Capacity Expansion",
+      "time": "Mon, 21 Sep 2026 22:18:02",
       "sentiment": 1
     },
     {
@@ -348,20 +336,8 @@
     },
     {
       "ticker": "ISRG",
-      "title": "Intuitive Surgical Inc. stock outperforms competitors on strong trading day",
-      "time": "Mon, 21 Sep 2026 20:36:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "ISRG",
       "title": "Abbott vs. Intuitive Surgical: Two Healthcare Titans on Diverging Growth Curves",
       "time": "Tue, 22 Sep 2026 03:13:55",
-      "sentiment": 1
-    },
-    {
-      "ticker": "DHR",
-      "title": "Danaher Corp. stock outperforms competitors on strong trading day",
-      "time": "Mon, 21 Sep 2026 20:36:00",
       "sentiment": 1
     },
     {
@@ -396,14 +372,14 @@
     },
     {
       "ticker": "KLAC",
-      "title": "KLA Corp. stock underperforms Monday when compared to competitors despite daily gains",
-      "time": "Mon, 21 Sep 2026 20:33:00",
-      "sentiment": -1
+      "title": "Kimbell Royalty (KRP) Upgraded to Strong Buy: Here's Why",
+      "time": "Tue, 22 Sep 2026 16:00:03",
+      "sentiment": 1
     },
     {
       "ticker": "KLAC",
-      "title": "Kimbell Royalty (KRP) Upgraded to Strong Buy: Here's Why",
-      "time": "Tue, 22 Sep 2026 16:00:03",
+      "title": "KLA Corp (KLAC): GF Score of 93 Signals Strong Outperformance Po",
+      "time": "Tue, 22 Sep 2026 15:38:24",
       "sentiment": 1
     },
     {
@@ -411,12 +387,6 @@
       "title": "Amgen Hits Primary Endpoint In Sjögren's Trial, But Approval Filing Awaits Another Trial Data",
       "time": "Tue, 22 Sep 2026 17:56:19",
       "sentiment": 1
-    },
-    {
-      "ticker": "TMO",
-      "title": "Thermo Fisher Scientific Inc. stock rises Monday, still underperforms market",
-      "time": "Mon, 21 Sep 2026 20:32:00",
-      "sentiment": -1
     },
     {
       "ticker": "WBD",
@@ -467,6 +437,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "SHOP",
+      "title": "Why Shopify Stock, Twilio Are Rising On Meta's Muse Rollout",
+      "time": "Tue, 22 Sep 2026 16:31:00",
+      "sentiment": 0
+    },
+    {
       "ticker": "AMZN",
       "title": "As Amazon Stock Prospers, Traders Might Consider This Option Play",
       "time": "Tue, 22 Sep 2026 15:57:00",
@@ -486,6 +462,12 @@
     },
     {
       "ticker": "AMZN",
+      "title": "AMZN Stock Rises Premarket Ahead Of Results: AWS, CapEx In Focus",
+      "time": "Tue, 22 Sep 2026 09:54:10",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMZN",
       "title": "Amazon (AMZN) Laps the Stock Market: Here's Why",
       "time": "Mon, 21 Sep 2026 21:45:05",
       "sentiment": 0
@@ -494,12 +476,6 @@
       "ticker": "AMZN",
       "title": "Dow Jones Tech Titan Amazon Eyes Buy Point Amid Battle With Key Support Level",
       "time": "Tue, 22 Sep 2026 17:26:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Has The Price For Amazon Stock Already Peaked?",
-      "time": "Mon, 21 Sep 2026 20:43:04",
       "sentiment": 0
     },
     {
@@ -548,6 +524,12 @@
       "ticker": "UAL",
       "title": "United Airlines stock gains 5.22 percent as fuel costs ease",
       "time": "Tue, 22 Sep 2026 08:40:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "UAL",
+      "title": "US says new air traffic control system will not suffer disruptions",
+      "time": "Tue, 22 Sep 2026 15:39:23",
       "sentiment": 0
     },
     {
@@ -618,14 +600,14 @@
     },
     {
       "ticker": "PLTR",
-      "title": "PLTR Stock Heads for Worst Month Ever: Retail Awaits Dip Below $100, Michael Burry Takes Victory Lap",
-      "time": "Tue, 22 Sep 2026 03:37:23",
+      "title": "Palantir Technologies Inc. (PLTR) Price: Live Chart & Market Cap",
+      "time": "Tue, 22 Sep 2026 16:05:29",
       "sentiment": 0
     },
     {
       "ticker": "PLTR",
-      "title": "Investors Heavily Search Palantir Technologies Inc. (PLTR): Here is What You Need to Know",
-      "time": "Tue, 22 Sep 2026 13:00:03",
+      "title": "PLTR Stock Heads for Worst Month Ever: Retail Awaits Dip Below $100, Michael Burry Takes Victory Lap",
+      "time": "Tue, 22 Sep 2026 03:37:23",
       "sentiment": 0
     },
     {
@@ -660,8 +642,8 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "GOOGL|Alphabet Inc Class A|Price:353.010|Chg%:-1.960",
-      "time": "Tue, 22 Sep 2026 14:54:56",
+      "title": "Is Most-Watched Stock Alphabet Inc. (GOOG) Worth Betting on Now?",
+      "time": "Tue, 22 Sep 2026 13:00:02",
       "sentiment": 0
     },
     {
@@ -780,14 +762,14 @@
     },
     {
       "ticker": "DAL",
-      "title": "Air, Cruise Lines Stage Uneven Rally As Oil Ebbs; Are They Ready To Rebound?",
-      "time": "Tue, 22 Sep 2026 13:40:00",
+      "title": "Delta Air Lines stock climbs above its 200 day average",
+      "time": "Tue, 22 Sep 2026 17:02:41",
       "sentiment": 0
     },
     {
       "ticker": "DAL",
-      "title": "Delta Air Lines stock climbs above its 200 day average",
-      "time": "Tue, 22 Sep 2026 17:02:41",
+      "title": "Air, Cruise Lines Stage Uneven Rally As Oil Ebbs; Are They Ready To Rebound?",
+      "time": "Tue, 22 Sep 2026 13:40:00",
       "sentiment": 0
     },
     {
@@ -848,12 +830,6 @@
       "ticker": "DHR",
       "title": "DHR vs TMO: valuation spread and pairs trade case By Investing.com",
       "time": "Mon, 21 Sep 2026 21:00:52",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DHR",
-      "title": "Danaher stock ends the day 1.97 percent higher at the close",
-      "time": "Mon, 21 Sep 2026 20:28:28",
       "sentiment": 0
     },
     {
@@ -942,8 +918,8 @@
     },
     {
       "ticker": "GOOG",
-      "title": "GOOGL|Alphabet Inc Class A|Price:353.010|Chg%:-1.960",
-      "time": "Tue, 22 Sep 2026 14:54:56",
+      "title": "$Alphabet-C (GOOG.US)$ opened a new position on 9/11 and it’s been good 🚀🌕",
+      "time": "Tue, 22 Sep 2026 06:05:25",
       "sentiment": 0
     },
     {
@@ -978,6 +954,12 @@
     },
     {
       "ticker": "KLAC",
+      "title": "KLA CORP SEC Filing (Sep 22, 2026)",
+      "time": "Tue, 22 Sep 2026 20:29:53",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KLAC",
       "title": "A Look at KLA Corp (KLAC) After 3.9% Gain -- GF Value $112.08 vs Price $183.97",
       "time": "Mon, 21 Sep 2026 21:33:24",
       "sentiment": 0
@@ -992,12 +974,6 @@
       "ticker": "KLAC",
       "title": "LRCX Eyes Mid-40s Operating Margin: Is the Long-Term Goal Achievable?",
       "time": "Tue, 22 Sep 2026 12:37:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KLAC",
-      "title": "KLA Corporation stock gains 3.94 percent ahead of the open",
-      "time": "Tue, 22 Sep 2026 05:34:56",
       "sentiment": 0
     },
     {
@@ -1026,8 +1002,8 @@
     },
     {
       "ticker": "AMGN",
-      "title": "AMGN Jumps After Win In Sjögren’s Disease Trial As Citi Flags ‘Open Questions’",
-      "time": "Tue, 22 Sep 2026 18:04:53",
+      "title": "Amgen Boasts Success In Sjogren's; Shares Bound Higher",
+      "time": "Tue, 22 Sep 2026 15:10:00",
       "sentiment": 0
     },
     {
@@ -1050,14 +1026,20 @@
     },
     {
       "ticker": "TMO",
-      "title": "3 Reasons to Sell TMO and 1 Stock to Buy Instead",
-      "time": "Mon, 21 Sep 2026 20:30:25",
+      "title": "8 S&P 500 Stocks Hit 52-Week Highs On Monday",
+      "time": "Tue, 22 Sep 2026 12:18:28",
       "sentiment": 0
     },
     {
       "ticker": "TMO",
-      "title": "8 S&P 500 Stocks Hit 52-Week Highs On Monday",
-      "time": "Tue, 22 Sep 2026 12:18:28",
+      "title": "Natera Inc Stock (NTRA) Moved Up by 5.67% on Sep 22: Facts Behind the Movement",
+      "time": "Tue, 22 Sep 2026 18:15:24",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "DHR vs TMO: valuation spread and pairs trade case By Investing.com",
+      "time": "Mon, 21 Sep 2026 21:00:52",
       "sentiment": 0
     },
     {
@@ -1254,8 +1236,14 @@
     },
     {
       "ticker": "TXN",
-      "title": "Texas Instruments stock ends the day modestly higher at the closing bell",
-      "time": "Mon, 21 Sep 2026 20:29:41",
+      "title": "Texas Instruments stock gains as dividend rises 7 percent",
+      "time": "Tue, 22 Sep 2026 12:38:22",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Wall Street expects Meta's AI agent to shape into a new revenue engine",
+      "time": "Tue, 22 Sep 2026 18:25:41",
       "sentiment": 0
     },
     {
@@ -1272,20 +1260,14 @@
     },
     {
       "ticker": "META",
-      "title": "Meta Stock Scores Price Target Hike. Analyst Says Muse 'Flips The Narrative' On AI Concerns.",
-      "time": "Tue, 22 Sep 2026 14:18:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
       "title": "Is Muse Adoption Altering The Investment Case For Meta Stock (META)?",
       "time": "Tue, 22 Sep 2026 19:45:17",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Wall Street expects Meta's AI agent to shape into a new revenue engine",
-      "time": "Tue, 22 Sep 2026 18:25:41",
+      "title": "Meta Stock Scores Price Target Hike. Analyst Says Muse 'Flips The Narrative' On AI Concerns.",
+      "time": "Tue, 22 Sep 2026 14:18:00",
       "sentiment": 0
     }
   ]
