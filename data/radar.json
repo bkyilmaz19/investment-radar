@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "23.09.2026 17:45 CEST",
+  "generated_at_local": "23.09.2026 17:56 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +2.92%, 5T +3.94%, relatives Volumen 0.95x, ATR 2.08%",
       "catalyst": "TJX Companies stock holds near USD 127 as earnings beat estimates",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.58%, seit Open +1.30%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.64%, seit Open +1.36%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.25,
       "target_pct": 2.37,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "2.08%",
       "gap_pct": "-0.20%",
       "premarket_move_pct": "-0.33%",
-      "live_gap_pct": "+0.58%",
-      "regular_move_pct": "+1.30%",
+      "live_gap_pct": "+0.64%",
+      "regular_move_pct": "+1.36%",
       "avg_dollar_volume": 1185422515.96,
-      "bar_age_minutes": 0.1,
-      "vwap": 131.32,
+      "bar_age_minutes": 1.9,
+      "vwap": 131.34,
       "opening_range_high": 131.58,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -45,29 +45,29 @@
       }
     },
     {
-      "ticker": "NXPI",
-      "name": "NXP",
-      "score": 90,
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "score": 91,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.94%, 5T +3.65%, relatives Volumen 1.18x, ATR 3.41%",
-      "catalyst": "NXP Semiconductors N.V. stock outperforms competitors on strong trading day",
+      "thesis": "1T +4.42%, 5T +9.44%, relatives Volumen 1.17x, ATR 4.01%",
+      "catalyst": "Is Applied Materials (AMAT) A Bargain Following Analyst Upgrades And Its India Expansion Plan?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.19%, seit Open -0.50%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 2.05,
-      "target_pct": 3.89,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.82%, seit Open -0.84%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 2.41,
+      "target_pct": 4.57,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.94%",
-      "change_5d": "+3.65%",
-      "volume_ratio": "1.18x",
-      "atr_pct": "3.41%",
-      "gap_pct": "+1.77%",
-      "premarket_move_pct": "+0.22%",
-      "live_gap_pct": "+1.19%",
-      "regular_move_pct": "-0.50%",
-      "avg_dollar_volume": 767681696.13,
-      "bar_age_minutes": 0.1,
-      "vwap": 233.94,
-      "opening_range_high": 236.56,
+      "change_1d": "+4.42%",
+      "change_5d": "+9.44%",
+      "volume_ratio": "1.17x",
+      "atr_pct": "4.01%",
+      "gap_pct": "+1.89%",
+      "premarket_move_pct": "+0.81%",
+      "live_gap_pct": "+0.82%",
+      "regular_move_pct": "-0.84%",
+      "avg_dollar_volume": 3021461244.93,
+      "bar_age_minutes": 1.9,
+      "vwap": 468.39,
+      "opening_range_high": 474.9,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -84,45 +84,6 @@
       }
     },
     {
-      "ticker": "KLAC",
-      "name": "KLA",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.94%, 5T +8.80%, relatives Volumen 0.85x, ATR 4.34%",
-      "catalyst": "KLA (KLAC) Stock Looks Expensive Despite Strong Semiconductor Growth",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.88%, seit Open +0.58%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 2.6,
-      "target_pct": 4.94,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.94%",
-      "change_5d": "+8.80%",
-      "volume_ratio": "0.85x",
-      "atr_pct": "4.34%",
-      "gap_pct": "+1.45%",
-      "premarket_move_pct": "-0.45%",
-      "live_gap_pct": "+1.88%",
-      "regular_move_pct": "+0.58%",
-      "avg_dollar_volume": 1699730532.51,
-      "bar_age_minutes": 5.1,
-      "vwap": 184.77,
-      "opening_range_high": 187.87,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
       "ticker": "PLTR",
       "name": "Palantir",
       "score": 89,
@@ -130,7 +91,7 @@
       "thesis": "1T +3.07%, 5T +5.64%, relatives Volumen 0.76x, ATR 3.98%",
       "catalyst": "Palantir Stock Forecast: PLTR Holds Near $185 as AI Growth Drives Rally",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +4.95%, seit Open +3.19%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +4.60%, seit Open +2.84%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.39,
       "target_pct": 4.54,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +101,11 @@
       "atr_pct": "3.98%",
       "gap_pct": "+1.53%",
       "premarket_move_pct": "+0.49%",
-      "live_gap_pct": "+4.95%",
-      "regular_move_pct": "+3.19%",
+      "live_gap_pct": "+4.60%",
+      "regular_move_pct": "+2.84%",
       "avg_dollar_volume": 4925763139.86,
-      "bar_age_minutes": 0.1,
-      "vwap": 190.51,
+      "bar_age_minutes": 1.9,
+      "vwap": 190.55,
       "opening_range_high": 193.33,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -169,7 +130,7 @@
       "thesis": "1T +7.33%, 5T +3.01%, relatives Volumen 2.17x, ATR 4.56%",
       "catalyst": "SHOP Stock Jumps as Meta Expands Shopify Partnership",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +3.76%, seit Open -2.40%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +3.06%, seit Open -3.06%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.74,
       "target_pct": 5.2,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,12 +140,51 @@
       "atr_pct": "4.56%",
       "gap_pct": "+6.23%",
       "premarket_move_pct": "-1.13%",
-      "live_gap_pct": "+3.76%",
-      "regular_move_pct": "-2.40%",
+      "live_gap_pct": "+3.06%",
+      "regular_move_pct": "-3.06%",
       "avg_dollar_volume": 1168450856.64,
-      "bar_age_minutes": 0.1,
-      "vwap": 142.52,
+      "bar_age_minutes": 1.9,
+      "vwap": 142.54,
       "opening_range_high": 151.26,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP",
+      "score": 86,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.94%, 5T +3.65%, relatives Volumen 1.18x, ATR 3.41%",
+      "catalyst": "NXP Semiconductors N.V. stock outperforms competitors on strong trading day",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.74%, seit Open -0.94%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 2.05,
+      "target_pct": 3.89,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.94%",
+      "change_5d": "+3.65%",
+      "volume_ratio": "1.18x",
+      "atr_pct": "3.41%",
+      "gap_pct": "+1.77%",
+      "premarket_move_pct": "+0.22%",
+      "live_gap_pct": "+0.74%",
+      "regular_move_pct": "-0.94%",
+      "avg_dollar_volume": 767681696.13,
+      "bar_age_minutes": 1.9,
+      "vwap": 233.95,
+      "opening_range_high": 236.56,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -234,15 +234,15 @@
     },
     {
       "ticker": "AMAT",
-      "title": "Applied Materials: Opportunity Is Brewing Again (Rating Upgrade) (NASDAQ:AMAT)",
-      "time": "Tue, 22 Sep 2026 16:14:55",
+      "title": "Is Applied Materials (AMAT) A Bargain Following Analyst Upgrades And Its India Expansion Plan?",
+      "time": "Wed, 23 Sep 2026 15:51:08",
       "sentiment": 1
     },
     {
       "ticker": "AMAT",
-      "title": "What Are AMAT Stock Bears Missing?",
-      "time": "Tue, 22 Sep 2026 17:12:35",
-      "sentiment": -1
+      "title": "Applied Materials: Opportunity Is Brewing Again (Rating Upgrade) (NASDAQ:AMAT)",
+      "time": "Tue, 22 Sep 2026 16:14:55",
+      "sentiment": 1
     },
     {
       "ticker": "UAL",
@@ -395,6 +395,12 @@
       "sentiment": -1
     },
     {
+      "ticker": "GOOG",
+      "title": "Nvidia Stock Falls. It Has a Google AI Chip Conundrum. -- Barrons.com",
+      "time": "Wed, 23 Sep 2026 14:01:55",
+      "sentiment": -1
+    },
+    {
       "ticker": "AVGO",
       "title": "AVGO Stock Falls Premarket: China Reportedly Audits Broadcom’s Grip On State-Backed Data Centers",
       "time": "Wed, 23 Sep 2026 08:23:49",
@@ -405,12 +411,6 @@
       "title": "2 Undervalued Semiconductor Stocks to Watch While the Market Is Skeptical of AI Growth",
       "time": "Wed, 23 Sep 2026 06:06:20",
       "sentiment": 1
-    },
-    {
-      "ticker": "AVGO",
-      "title": "AVGO Stock Falls Premarket: China Reportedly Audits Broadcom’s Grip On State-Backed Data Centers",
-      "time": "Wed, 23 Sep 2026 08:23:49",
-      "sentiment": -1
     },
     {
       "ticker": "KLAC",
@@ -438,8 +438,8 @@
     },
     {
       "ticker": "WBD",
-      "title": "Warner Bros Discovery Stock Surges on Settlement Progress in Paramount Merger Suit",
-      "time": "Wed, 23 Sep 2026 12:39:36",
+      "title": "WBD Stock Surges as Paramount Deal Takes an Unexpected Turn",
+      "time": "Tue, 22 Sep 2026 16:47:46",
       "sentiment": 1
     },
     {
@@ -480,14 +480,20 @@
     },
     {
       "ticker": "AMZN",
-      "title": "Amazon (AMZN) Stock May Be 41% Undervalued As AI Spending Climbs",
-      "time": "Wed, 23 Sep 2026 13:18:40",
+      "title": "Amazon.com, Inc. (AMZN) Stock Price, News, Quote & History",
+      "time": "Wed, 23 Sep 2026 10:22:21",
       "sentiment": 0
     },
     {
       "ticker": "AMZN",
       "title": "What's Going On With Amazon Stock Wednesday?",
       "time": "Wed, 23 Sep 2026 10:37:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Amazon (AMZN) Stock May Be 41% Undervalued As AI Spending Climbs",
+      "time": "Wed, 23 Sep 2026 13:18:40",
       "sentiment": 0
     },
     {
@@ -504,20 +510,8 @@
     },
     {
       "ticker": "AMZN",
-      "title": "Canada Pension Plan Investment Board Takes Position in Amazon.com, Inc. $AMZN",
-      "time": "Wed, 23 Sep 2026 07:09:27",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Dow Jones Tech Titan Amazon Eyes Buy Point Amid Battle With Key Support Level",
-      "time": "Tue, 22 Sep 2026 17:26:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMAT",
-      "title": "Applied Materials (AMAT) Stock Moves 1.77%: What You Should Know",
-      "time": "Tue, 22 Sep 2026 21:45:02",
+      "title": "President Trump Sells Millions in Microsoft and Amazon, Buys Nvidia Stock",
+      "time": "Wed, 23 Sep 2026 12:10:57",
       "sentiment": 0
     },
     {
@@ -528,14 +522,20 @@
     },
     {
       "ticker": "AMAT",
+      "title": "Wall Street Bulls Look Optimistic About Applied Materials (AMAT): Should You Buy?",
+      "time": "Wed, 23 Sep 2026 13:30:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMAT",
       "title": "$100 Invested In Applied Materials 20 Years Ago Would Be Worth This Much Today",
       "time": "Wed, 23 Sep 2026 15:30:24",
       "sentiment": 0
     },
     {
       "ticker": "AMAT",
-      "title": "Wall Street Bulls Look Optimistic About Applied Materials (AMAT): Should You Buy?",
-      "time": "Wed, 23 Sep 2026 13:30:03",
+      "title": "Applied Materials (AMAT) Stock Moves 1.77%: What You Should Know",
+      "time": "Tue, 22 Sep 2026 21:45:02",
       "sentiment": 0
     },
     {
@@ -612,6 +612,12 @@
     },
     {
       "ticker": "PLTR",
+      "title": "Palantir Could Be Big Winner as Air Traffic Control Goes AI. The Stock Is Today’s Best in S&P 500.",
+      "time": "Wed, 23 Sep 2026 15:12:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PLTR",
       "title": "Palantir Technologies Inc Stock (PLTR) Opened Up by 3.58% on Sep 23: Key Drivers Unveiled",
       "time": "Wed, 23 Sep 2026 13:47:20",
       "sentiment": 0
@@ -626,12 +632,6 @@
       "ticker": "PLTR",
       "title": "Not Palantir. Not Micron. The $325 Billion Nvidia Partner That Jim Cramer Just Called a \"Must Buy\" Stock",
       "time": "Wed, 23 Sep 2026 14:36:13",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir Could Be a Major Winner as Air Traffic Control Goes AI. The Stock Rises.",
-      "time": "Wed, 23 Sep 2026 14:02:00",
       "sentiment": 0
     },
     {
@@ -684,14 +684,14 @@
     },
     {
       "ticker": "LLY",
-      "title": "Is Eli Lilly (NYSE:LLY) Worth Watching as Tech Strength Meets Broader Market Caution?",
-      "time": "Wed, 23 Sep 2026 12:30:00",
+      "title": "Eli Lilly Vs. Pfizer in 2027: One Is a Much Better Place to Park Your Pharmaceutical Capital Next Year",
+      "time": "Wed, 23 Sep 2026 15:32:35",
       "sentiment": 0
     },
     {
       "ticker": "LLY",
-      "title": "Eli Lilly CEO reveals astonishing shift in GLP-1 pill market",
-      "time": "Tue, 22 Sep 2026 19:17:00",
+      "title": "Is Eli Lilly (NYSE:LLY) Worth Watching as Tech Strength Meets Broader Market Caution?",
+      "time": "Wed, 23 Sep 2026 12:30:00",
       "sentiment": 0
     },
     {
@@ -702,20 +702,20 @@
     },
     {
       "ticker": "BABA",
+      "title": "Why Polaris Capital Continues Watching Alibaba (BABA) Amid AI Opportunity and China Market Challenges",
+      "time": "Wed, 23 Sep 2026 13:57:38",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BABA",
       "title": "Alibaba Stock Jumps After Unveiling New Zhenwu V900 AI Chip and Cloud Expansion",
-      "time": "Wed, 23 Sep 2026 14:10:32",
+      "time": "Wed, 23 Sep 2026 14:23:45",
       "sentiment": 0
     },
     {
       "ticker": "BABA",
       "title": "BABA Deadline Alert: Levi & Korsinsky Reminds Alibaba Group Holding Limited (BABA) Investors of Securities Class Action Deadline on October 5, 2026",
       "time": "Wed, 23 Sep 2026 14:07:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BABA",
-      "title": "Alibaba Group Holding Ltd Stock (BABA) Opened Down by 4.04% on Sep 23: What Signal Does It Send?",
-      "time": "Wed, 23 Sep 2026 13:47:20",
       "sentiment": 0
     },
     {
@@ -739,7 +739,7 @@
     {
       "ticker": "CSCO",
       "title": "Cisco Stock Price Forecast: Piper Sandler Price Target Cut Triggers Sell-Off, Can CSCO Stock Still Rise?",
-      "time": "Wed, 23 Sep 2026 09:45:00",
+      "time": "Wed, 23 Sep 2026 09:48:10",
       "sentiment": 0
     },
     {
@@ -858,6 +858,12 @@
     },
     {
       "ticker": "DHR",
+      "title": "Medtronic plc (MDT) latest stock news and headlines",
+      "time": "Wed, 23 Sep 2026 09:52:31",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DHR",
       "title": "Danaher Corp. stock holds near USD 200 before October results",
       "time": "Wed, 23 Sep 2026 10:05:46",
       "sentiment": 0
@@ -869,27 +875,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "DHR",
-      "title": "Medtronic plc (MDT) latest stock news and headlines",
-      "time": "Wed, 23 Sep 2026 09:52:31",
-      "sentiment": 0
-    },
-    {
       "ticker": "AAPL",
-      "title": "Apple Inc. (AAPL) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 11:05:55",
+      "title": "What Is Going on with Apple Stock on Wednesday?",
+      "time": "Wed, 23 Sep 2026 15:46:45",
       "sentiment": 0
     },
     {
       "ticker": "AAPL",
       "title": "Apple Stock Hits New High, Briefly Lifting AAPL Back Above $5 Trillion",
       "time": "Wed, 23 Sep 2026 15:02:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Recent Filing Shows That Rep. Pete Sessions Sold Over $100K Worth of Apple Stock",
-      "time": "Wed, 23 Sep 2026 15:00:20",
       "sentiment": 0
     },
     {
@@ -902,6 +896,12 @@
       "ticker": "AAPL",
       "title": "Concord Investment Counsel Inc. Acquires New Shares in Apple Inc. $AAPL",
       "time": "Wed, 23 Sep 2026 07:35:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAPL",
+      "title": "Recent Filing Shows That Rep. Pete Sessions Sold Over $100K Worth of Apple Stock",
+      "time": "Wed, 23 Sep 2026 15:00:20",
       "sentiment": 0
     },
     {
@@ -918,8 +918,8 @@
     },
     {
       "ticker": "NVDA",
-      "title": "Insider Alert: Nvidia Director Dumps $300 Million in Stock",
-      "time": "Wed, 23 Sep 2026 12:24:58",
+      "title": "Nvidia (NVDA) Stock Could Be A Bargain After AI Expansion",
+      "time": "Wed, 23 Sep 2026 09:36:05",
       "sentiment": 0
     },
     {
@@ -930,20 +930,14 @@
     },
     {
       "ticker": "GOOG",
-      "title": "Meta Platforms, Inc. (META) stock price, news, quote and history",
-      "time": "Wed, 23 Sep 2026 13:21:12",
+      "title": "Apple Inc. (AAPL) Stock Price, News, Quote & History",
+      "time": "Wed, 23 Sep 2026 11:05:55",
       "sentiment": 0
     },
     {
       "ticker": "GOOG",
       "title": "Key facts: NASDAQ:GOOG Gemini breach; Search leads; Cloud/AI +52%",
       "time": "Wed, 23 Sep 2026 07:15:31",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOG",
-      "title": "Ahead of the midterm elections, US lawmakers' stock holdings are disclosed: Differing investment choices between Democrats and Republicans, exploring opportunities from AI and semiconductors to power infrastructure",
-      "time": "Wed, 23 Sep 2026 09:20:22",
       "sentiment": 0
     },
     {
@@ -966,8 +960,14 @@
     },
     {
       "ticker": "AVGO",
-      "title": "Two Chip Giants, Two Very Different Dividends. Which One Pays You Better?",
-      "time": "Wed, 23 Sep 2026 14:30:00",
+      "title": "Broadcom Just Made a Move That Further Solidifies My Decision to Buy on Repeat",
+      "time": "Wed, 23 Sep 2026 15:45:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AVGO",
+      "title": "A top chip stock analyst sees big things for Nvidia, Broadcom. How his case aligns with ours",
+      "time": "Tue, 22 Sep 2026 20:39:06",
       "sentiment": 0
     },
     {
@@ -1056,8 +1056,8 @@
     },
     {
       "ticker": "TMO",
-      "title": "TMO Stock Price Today",
-      "time": "Tue, 22 Sep 2026 17:00:00",
+      "title": "Revvity, Inc. (RVTY) stock price, news, quote and history",
+      "time": "Tue, 22 Sep 2026 22:37:13",
       "sentiment": 0
     },
     {
@@ -1092,14 +1092,14 @@
     },
     {
       "ticker": "WBD",
-      "title": "State Street Corp Purchases 934,964 Shares of Warner Bros. Discovery, Inc. $WBD",
-      "time": "Wed, 23 Sep 2026 08:17:55",
+      "title": "WBD Stock Is Running. Is There Fuel Left?",
+      "time": "Wed, 23 Sep 2026 15:18:27",
       "sentiment": 0
     },
     {
       "ticker": "WBD",
-      "title": "WBD Stock Is Running. Is There Fuel Left?",
-      "time": "Wed, 23 Sep 2026 15:18:27",
+      "title": "State Street Corp Purchases 934,964 Shares of Warner Bros. Discovery, Inc. $WBD",
+      "time": "Wed, 23 Sep 2026 08:17:55",
       "sentiment": 0
     },
     {
@@ -1266,6 +1266,12 @@
     },
     {
       "ticker": "META",
+      "title": "Meta Platforms, Inc. (META) Stock Price, News, Quote & History",
+      "time": "Wed, 23 Sep 2026 10:41:59",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
       "title": "Meta Stock Added $200 Billion But Its New AI May Not Scale",
       "time": "Wed, 23 Sep 2026 14:57:56",
       "sentiment": 0
@@ -1280,12 +1286,6 @@
       "ticker": "META",
       "title": "Meta stock reaches 52-week high at $761.27",
       "time": "Wed, 23 Sep 2026 14:00:08",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "What's Going On With Meta Platforms Stock Wednesday?",
-      "time": "Wed, 23 Sep 2026 13:19:53",
       "sentiment": 0
     }
   ]
