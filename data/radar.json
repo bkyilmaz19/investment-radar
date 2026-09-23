@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "23.09.2026 15:30 CEST",
+  "generated_at_local": "23.09.2026 15:54 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -8,12 +8,12 @@
     {
       "ticker": "SHOP",
       "name": "Shopify",
-      "score": 92,
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +7.33%, 5T +3.01%, relatives Volumen 2.17x, ATR 4.56%",
       "catalyst": "SHOP Stock Jumps as Meta Expands Shopify Partnership",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +7.08%, seit Open +0.72%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.74,
       "target_pct": 5.2,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,60 +23,60 @@
       "atr_pct": "4.56%",
       "gap_pct": "+6.23%",
       "premarket_move_pct": "-1.13%",
-      "live_gap_pct": "+5.23%",
-      "regular_move_pct": "+0.00%",
+      "live_gap_pct": "+7.08%",
+      "regular_move_pct": "+0.72%",
       "avg_dollar_volume": 1168450856.64,
-      "bar_age_minutes": 0.7,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
+      "bar_age_minutes": 4.2,
+      "vwap": 148.63,
+      "opening_range_high": 151.26,
+      "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": true,
+        "gap_ok": false,
         "confirmation_ok": false
       }
     },
     {
-      "ticker": "NXPI",
-      "name": "NXP",
-      "score": 90,
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "score": 91,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.94%, 5T +3.65%, relatives Volumen 1.18x, ATR 3.41%",
-      "catalyst": "NXP Semiconductors stock rises as earnings beat estimates",
+      "thesis": "1T +2.12%, 5T +6.27%, relatives Volumen 1.07x, ATR 3.04%",
+      "catalyst": "Why Intuitive Surgical (ISRG) Is Up 6.5% After New da Vinci SP Transvaginal Approval – And What's Next",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
-      "stop_pct": 2.05,
-      "target_pct": 3.89,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.26%, seit Open +0.45%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.82,
+      "target_pct": 3.47,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.94%",
-      "change_5d": "+3.65%",
-      "volume_ratio": "1.18x",
-      "atr_pct": "3.41%",
-      "gap_pct": "+1.77%",
-      "premarket_move_pct": "+0.22%",
-      "live_gap_pct": "+1.41%",
-      "regular_move_pct": "+0.00%",
-      "avg_dollar_volume": 767681696.13,
-      "bar_age_minutes": 0.7,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
+      "change_1d": "+2.12%",
+      "change_5d": "+6.27%",
+      "volume_ratio": "1.07x",
+      "atr_pct": "3.04%",
+      "gap_pct": "-0.47%",
+      "premarket_move_pct": "-0.69%",
+      "live_gap_pct": "+0.26%",
+      "regular_move_pct": "+0.45%",
+      "avg_dollar_volume": 885309814.97,
+      "bar_age_minutes": 4.2,
+      "vwap": 402.49,
+      "opening_range_high": 404.44,
+      "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -86,12 +86,12 @@
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "score": 86,
+      "score": 89,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.07%, 5T +5.64%, relatives Volumen 0.76x, ATR 3.98%",
       "catalyst": "Palantir Stock Forecast: PLTR Holds Near $185 as AI Growth Drives Rally",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +5.08%, seit Open +3.32%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.39,
       "target_pct": 4.54,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,13 +101,13 @@
       "atr_pct": "3.98%",
       "gap_pct": "+1.53%",
       "premarket_move_pct": "+0.49%",
-      "live_gap_pct": "+2.22%",
-      "regular_move_pct": "+0.00%",
+      "live_gap_pct": "+5.08%",
+      "regular_move_pct": "+3.32%",
       "avg_dollar_volume": 4925763139.86,
-      "bar_age_minutes": 0.7,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
+      "bar_age_minutes": 4.2,
+      "vwap": 190.0,
+      "opening_range_high": 193.33,
+      "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
@@ -130,7 +130,7 @@
       "thesis": "1T +2.30%, 5T +7.78%, relatives Volumen 0.91x, ATR 2.67%",
       "catalyst": "2 Undervalued Semiconductor Stocks to Watch While the Market Is Skeptical of AI Growth",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.25%, seit Open -0.06%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.6,
       "target_pct": 3.04,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,13 +140,13 @@
       "atr_pct": "2.67%",
       "gap_pct": "+0.30%",
       "premarket_move_pct": "-0.35%",
-      "live_gap_pct": "+0.39%",
-      "regular_move_pct": "+0.00%",
+      "live_gap_pct": "+0.25%",
+      "regular_move_pct": "-0.06%",
       "avg_dollar_volume": 29758307086.53,
-      "bar_age_minutes": 0.7,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
+      "bar_age_minutes": 4.2,
+      "vwap": 228.34,
+      "opening_range_high": 228.95,
+      "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
@@ -169,7 +169,7 @@
       "thesis": "1T +1.95%, 5T +3.06%, relatives Volumen 0.74x, ATR 2.80%",
       "catalyst": "Amgen Stock Gains After Announcing Positive Phase 3 Sjögren’s Disease Trial Results",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +4.14%, seit Open -0.13%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.68,
       "target_pct": 3.2,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,13 +179,13 @@
       "atr_pct": "2.80%",
       "gap_pct": "+5.05%",
       "premarket_move_pct": "+0.45%",
-      "live_gap_pct": "+4.12%",
-      "regular_move_pct": "+0.00%",
+      "live_gap_pct": "+4.14%",
+      "regular_move_pct": "-0.13%",
       "avg_dollar_volume": 1185476752.99,
-      "bar_age_minutes": 0.7,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
+      "bar_age_minutes": 4.2,
+      "vwap": 411.75,
+      "opening_range_high": 414.8,
+      "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
@@ -264,14 +264,14 @@
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors stock rises as earnings beat estimates",
-      "time": "Wed, 23 Sep 2026 11:11:08",
+      "title": "NXP Semiconductors N.V. stock outperforms competitors on strong trading day",
+      "time": "Tue, 22 Sep 2026 20:47:00",
       "sentiment": 1
     },
     {
       "ticker": "NXPI",
-      "title": "BE Semiconductor Industries (ENXTAM:BESI) Stock Looks Pricey Even With Strong Cash Flow Hopes",
-      "time": "Wed, 23 Sep 2026 01:14:00",
+      "title": "NXP Semiconductors stock rises as earnings beat estimates",
+      "time": "Wed, 23 Sep 2026 11:11:08",
       "sentiment": 1
     },
     {
@@ -284,18 +284,6 @@
       "ticker": "TSLA",
       "title": "\"Tesla: Finally, Time To Say Enough Is Enough (Downgrade)\"",
       "time": "Tue, 22 Sep 2026 16:37:24",
-      "sentiment": -1
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Tesla And 2 Other Insider Backed Growth Stocks",
-      "time": "Tue, 22 Sep 2026 16:02:56",
-      "sentiment": 1
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Tesla’s Delivery Warning Barely Moved the Stock—Here’s What Investors Care About",
-      "time": "Tue, 22 Sep 2026 13:49:55",
       "sentiment": -1
     },
     {
@@ -312,12 +300,6 @@
     },
     {
       "ticker": "LLY",
-      "title": "Why Viking Stock Jumped On Obesity Data. Novo Falls.",
-      "time": "Tue, 22 Sep 2026 20:21:00",
-      "sentiment": -1
-    },
-    {
-      "ticker": "LLY",
       "title": "Should Dividend Investors Buy Pfizer Stock for Its High Yield or Invest in Eli Lilly for Its Dividend Growth?",
       "time": "Tue, 22 Sep 2026 17:02:00",
       "sentiment": 1
@@ -326,6 +308,18 @@
       "ticker": "BABA",
       "title": "Alibaba Falls 4% as Reported Beijing AI Probe Undercuts Chip Rally; Baidu Eases, JD.com Dips",
       "time": "Wed, 23 Sep 2026 13:24:00",
+      "sentiment": -1
+    },
+    {
+      "ticker": "BABA",
+      "title": "BABA Stock Slides As AI Lawsuit And Military Links Rattle Traders",
+      "time": "Wed, 23 Sep 2026 13:18:00",
+      "sentiment": -1
+    },
+    {
+      "ticker": "BABA",
+      "title": "BABA Stock Slides As AI Lawsuit And Military Ties Cloud Outlook",
+      "time": "Wed, 23 Sep 2026 13:19:00",
       "sentiment": -1
     },
     {
@@ -401,21 +395,9 @@
       "sentiment": -1
     },
     {
-      "ticker": "AAPL",
-      "title": "AAPL Stock Hits Record Highs — Apple Reportedly Explores Screenless Health Trackers And Other Wearables Following iPhone Duo Launch",
-      "time": "Wed, 23 Sep 2026 05:50:36",
-      "sentiment": 1
-    },
-    {
       "ticker": "NVDA",
       "title": "2 Undervalued Semiconductor Stocks to Watch While the Market Is Skeptical of AI Growth",
       "time": "Wed, 23 Sep 2026 06:06:20",
-      "sentiment": 1
-    },
-    {
-      "ticker": "NVDA",
-      "title": "NVDA Stock Looks 'Remarkably Cheap', Says Wall Street After Beat-And-Raise Q1 — Analyst Sees Nvidia Market Cap Soaring Past $10 Trillion",
-      "time": "Wed, 23 Sep 2026 10:28:11",
       "sentiment": 1
     },
     {
@@ -426,8 +408,14 @@
     },
     {
       "ticker": "NVDA",
-      "title": "NVDA Stock Eyes the $236 Record High as 2027 NVIDIA Growth Forecasts Rise",
-      "time": "Wed, 23 Sep 2026 02:33:30",
+      "title": "NVDA Stock Looks 'Remarkably Cheap', Says Wall Street After Beat-And-Raise Q1 — Analyst Sees Nvidia Market Cap Soaring Past $10 Trillion",
+      "time": "Wed, 23 Sep 2026 10:28:11",
+      "sentiment": 1
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Nvidia Stock Could Surge by 2028: Here's How Beginners Can Get In Now According to Motley Fool's Price Estimates",
+      "time": "Wed, 23 Sep 2026 05:00:00",
       "sentiment": 1
     },
     {
@@ -451,7 +439,7 @@
     {
       "ticker": "KLAC",
       "title": "KLA (KLAC) Stock Looks Expensive Despite Strong Semiconductor Growth",
-      "time": "Wed, 23 Sep 2026 09:38:47",
+      "time": "Wed, 23 Sep 2026 09:38:43",
       "sentiment": 1
     },
     {
@@ -491,6 +479,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "META",
+      "title": "Cantor Fitzgerald raises Meta stock price target on AI agent potential",
+      "time": "Wed, 23 Sep 2026 11:47:09",
+      "sentiment": 1
+    },
+    {
       "ticker": "SHOP",
       "title": "Shopify Stock Jumps on Meta Muse Deal: Time to Buy?",
       "time": "Tue, 22 Sep 2026 23:27:00",
@@ -504,8 +498,8 @@
     },
     {
       "ticker": "SHOP",
-      "title": "Why Shopify Stock Rocketed Higher Today",
-      "time": "Tue, 22 Sep 2026 17:25:00",
+      "title": "Shopify (NASDAQ:SHOP) Stock Jumps 7% as Meta Muse AI Brings Agentic Checkout to Shop Pay",
+      "time": "Tue, 22 Sep 2026 19:13:24",
       "sentiment": 0
     },
     {
@@ -588,8 +582,8 @@
     },
     {
       "ticker": "UAL",
-      "title": "Air, Cruise Lines Stage Uneven Rally As Oil Ebbs; Are They Ready To Rebound?",
-      "time": "Tue, 22 Sep 2026 13:40:00",
+      "title": "Alaska Air Group, Inc. (ALK) Stock Price, News, Quote & History",
+      "time": "Wed, 23 Sep 2026 04:21:45",
       "sentiment": 0
     },
     {
@@ -618,8 +612,20 @@
     },
     {
       "ticker": "TSLA",
+      "title": "Tesla Gains as BBB Rating Meets a $25 Billion AI Bill",
+      "time": "Tue, 22 Sep 2026 22:27:07",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSLA",
       "title": "TSLA Stock Rises Overnight On Germany Ramp Ahead Of Q2: Analyst Sees 10% Delivery Jump This Year, Improving Margins",
       "time": "Wed, 23 Sep 2026 10:21:28",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Why is Tesla (NASDAQ:TSLA) in focus amid today’s automobile stocks discussion?",
+      "time": "Wed, 23 Sep 2026 08:30:00",
       "sentiment": 0
     },
     {
@@ -630,14 +636,14 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Technologies Inc. (PLTR) stock price, news, quote and history",
-      "time": "Wed, 23 Sep 2026 10:40:09",
+      "title": "Could Palantir Be the Next Stock Added to the Dow Jones?",
+      "time": "Wed, 23 Sep 2026 09:10:59",
       "sentiment": 0
     },
     {
       "ticker": "PLTR",
-      "title": "Could Palantir Be the Next Stock Added to the Dow Jones?",
-      "time": "Wed, 23 Sep 2026 09:10:59",
+      "title": "Palantir Technologies Inc Stock (PLTR) Opened Up by 3.58% on Sep 23: Key Drivers Unveiled",
+      "time": "Wed, 23 Sep 2026 13:47:20",
       "sentiment": 0
     },
     {
@@ -648,14 +654,14 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir: The $10 Billion Inflection Is Bigger Than It Looks (NASDAQ:PLTR)",
-      "time": "Tue, 22 Sep 2026 20:21:13",
+      "title": "Why Is Palantir Technologies (NASDAQ:PLTR) Drawing Attention as AI Momentum Meets Shifting Oil Prices?",
+      "time": "Wed, 23 Sep 2026 12:30:00",
       "sentiment": 0
     },
     {
       "ticker": "PLTR",
-      "title": "Why Is Palantir Technologies (NASDAQ:PLTR) Drawing Attention as AI Momentum Meets Shifting Oil Prices?",
-      "time": "Wed, 23 Sep 2026 12:30:00",
+      "title": "Palantir: The $10 Billion Inflection Is Bigger Than It Looks (NASDAQ:PLTR)",
+      "time": "Tue, 22 Sep 2026 20:21:13",
       "sentiment": 0
     },
     {
@@ -666,8 +672,8 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "Cathie Wood Trims Alphabet Even as Google Regains Search Share, Ark Bets Big on This Space Stock",
-      "time": "Wed, 23 Sep 2026 02:16:26",
+      "title": "Prediction: The Cheapest Mega Cap in the AI Trade, Alphabet Could Hit $600 in 2027",
+      "time": "Wed, 23 Sep 2026 13:30:00",
       "sentiment": 0
     },
     {
@@ -678,20 +684,14 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "Cathie Wood’s ARK sells Alphabet stock, buys Rocket Lab",
-      "time": "Wed, 23 Sep 2026 00:21:56",
+      "title": "Cathie Wood Trims Alphabet Even as Google Regains Search Share, Ark Bets Big on This Space Stock",
+      "time": "Wed, 23 Sep 2026 02:16:26",
       "sentiment": 0
     },
     {
       "ticker": "GOOGL",
-      "title": "If I Had $10,000 to Invest Today, Here's the Trillion-Dollar Stock I'd Buy Instead of SpaceX",
-      "time": "Wed, 23 Sep 2026 09:41:09",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LLY",
-      "title": "Eli Lilly Could Be a ‘$2,000 Stock’ in the Next 3 to 4 Years, Says Home Depot Co-Founder Ken Langone",
-      "time": "Wed, 23 Sep 2026 07:50:16",
+      "title": "Cathie Wood’s ARK sells Alphabet stock, buys Rocket Lab",
+      "time": "Wed, 23 Sep 2026 00:21:56",
       "sentiment": 0
     },
     {
@@ -702,14 +702,26 @@
     },
     {
       "ticker": "LLY",
+      "title": "Eli Lilly Could Be a ‘$2,000 Stock’ in the Next 3 to 4 Years, Says Home Depot Co-Founder Ken Langone",
+      "time": "Wed, 23 Sep 2026 07:50:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LLY",
+      "title": "Build Your List Of Stocks To Watch With Weight-Loss Giant Lilly, Others On These Top IBD Screens",
+      "time": "Tue, 22 Sep 2026 22:57:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LLY",
       "title": "His Bet On Home Depot Made Ken Langone A Billionaire. Now He Sees Eli Lilly Stock Hitting $2,000",
       "time": "Tue, 22 Sep 2026 14:09:24",
       "sentiment": 0
     },
     {
       "ticker": "LLY",
-      "title": "Why is Eli Lilly (NYSE:LLY) in focus amid today’s healthcare stocks discussion?",
-      "time": "Wed, 23 Sep 2026 11:12:00",
+      "title": "Is Eli Lilly (NYSE:LLY) Worth Watching as Tech Strength Meets Broader Market Caution?",
+      "time": "Wed, 23 Sep 2026 12:30:00",
       "sentiment": 0
     },
     {
@@ -720,26 +732,14 @@
     },
     {
       "ticker": "BABA",
-      "title": "Alibaba Group Holding (BABA) Is Up 6.4% After Major In-House AI Chip And Cloud Investment Push",
-      "time": "Tue, 22 Sep 2026 23:25:09",
+      "title": "3 Reasons to Hold Alibaba Stock Despite Its High Premium P/S",
+      "time": "Tue, 22 Sep 2026 15:38:00",
       "sentiment": 0
     },
     {
       "ticker": "BABA",
       "title": "Analysts Offer Insights on Consumer Cyclical Companies: Alibaba (BABA) and PUMA SE NPV (OtherPMMAF)",
       "time": "Wed, 23 Sep 2026 09:31:26",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BABA",
-      "title": "Alibaba in focus as Citi weighs in accelerating AI momentum, ups spending forecast (BABA:NYSE)",
-      "time": "Wed, 23 Sep 2026 12:40:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BABA",
-      "title": "What Does Alibaba (BABA) Unveiling A New AI Chip Mean For Investors?",
-      "time": "Tue, 22 Sep 2026 19:45:16",
       "sentiment": 0
     },
     {
@@ -822,8 +822,8 @@
     },
     {
       "ticker": "DAL",
-      "title": "Air, Cruise Lines Stage Uneven Rally As Oil Ebbs; Are They Ready To Rebound?",
-      "time": "Tue, 22 Sep 2026 13:40:00",
+      "title": "Alaska Air Group, Inc. (ALK) stock price, news, quote and history",
+      "time": "Wed, 23 Sep 2026 07:18:09",
       "sentiment": 0
     },
     {
@@ -846,8 +846,8 @@
     },
     {
       "ticker": "AAL",
-      "title": "Air, Cruise Lines Stage Uneven Rally As Oil Ebbs; Are They Ready To Rebound?",
-      "time": "Tue, 22 Sep 2026 13:40:00",
+      "title": "Alaska Air Group, Inc. (ALK) stock price, news, quote and history",
+      "time": "Wed, 23 Sep 2026 07:18:09",
       "sentiment": 0
     },
     {
@@ -888,8 +888,8 @@
     },
     {
       "ticker": "AAPL",
-      "title": "What Will $5,000 Invested in Apple Stock Be Worth in 5 Years?",
-      "time": "Tue, 22 Sep 2026 14:00:49",
+      "title": "Apple Inc. (AAPL) Stock Price, News, Quote & History",
+      "time": "Wed, 23 Sep 2026 09:59:43",
       "sentiment": 0
     },
     {
@@ -902,6 +902,12 @@
       "ticker": "AAPL",
       "title": "Concord Investment Counsel Inc. Acquires New Shares in Apple Inc. $AAPL",
       "time": "Wed, 23 Sep 2026 07:35:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAPL",
+      "title": "What Will $5,000 Invested in Apple Stock Be Worth in 5 Years?",
+      "time": "Tue, 22 Sep 2026 14:00:49",
       "sentiment": 0
     },
     {
@@ -924,6 +930,18 @@
     },
     {
       "ticker": "GOOG",
+      "title": "Prediction: The Cheapest Mega Cap in the AI Trade, Alphabet Could Hit $600 in 2027",
+      "time": "Wed, 23 Sep 2026 13:30:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOG",
+      "title": "Apple Inc. (AAPL) Stock Price, News, Quote & History",
+      "time": "Wed, 23 Sep 2026 09:59:43",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOG",
       "title": "Key facts: NASDAQ:GOOG Gemini breach; Search leads; Cloud/AI +52%",
       "time": "Wed, 23 Sep 2026 07:15:31",
       "sentiment": 0
@@ -936,20 +954,8 @@
     },
     {
       "ticker": "GOOG",
-      "title": "Move Over, Alphabet! Warren Buffett's Successor, Greg Abel, Has Nearly $47 Billion Devoted to This Top Investment Idea",
-      "time": "Wed, 23 Sep 2026 09:26:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOG",
       "title": "UK watchdog wants Google to offer broader search choices, including AI (GOOG:NASDAQ)",
       "time": "Wed, 23 Sep 2026 10:00:28",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOG",
-      "title": "What's Going On With Alibaba Stock Wednesday? - Alibaba Gr Hldgs (NYSE:BABA)",
-      "time": "Wed, 23 Sep 2026 11:43:32",
       "sentiment": 0
     },
     {
@@ -972,8 +978,8 @@
     },
     {
       "ticker": "AVGO",
-      "title": "Why is Broadcom (NASDAQ:AVGO) in focus amid today’s technology stocks discussion?",
-      "time": "Wed, 23 Sep 2026 11:33:00",
+      "title": "Why Is Broadcom (NASDAQ:AVGO) in Focus as Sector Rotation Shapes the US Session?",
+      "time": "Wed, 23 Sep 2026 12:30:00",
       "sentiment": 0
     },
     {
@@ -1128,8 +1134,8 @@
     },
     {
       "ticker": "FCX",
-      "title": "Why is Freeport-McMoRan (NYSE:FCX) in focus amid today’s metals and mining stocks discussion?",
-      "time": "Wed, 23 Sep 2026 11:13:00",
+      "title": "Freeport-McMoRan Inc. (FCX) is Attracting Investor Attention: Here is What You Should Know",
+      "time": "Wed, 23 Sep 2026 13:00:08",
       "sentiment": 0
     },
     {
@@ -1146,14 +1152,14 @@
     },
     {
       "ticker": "FCX",
-      "title": "Freeport-McMoRan Inc. (FCX) is Attracting Investor Attention: Here is What You Should Know",
-      "time": "Wed, 23 Sep 2026 13:00:08",
+      "title": "Freeport Declares Quarterly Cash Dividends on Common Stock",
+      "time": "Wed, 23 Sep 2026 12:00:00",
       "sentiment": 0
     },
     {
       "ticker": "FCX",
-      "title": "Freeport Declares Quarterly Cash Dividends on Common Stock",
-      "time": "Wed, 23 Sep 2026 12:00:00",
+      "title": "Why is Freeport-McMoRan (NYSE:FCX) in focus amid today’s metals and mining stocks discussion?",
+      "time": "Wed, 23 Sep 2026 11:13:00",
       "sentiment": 0
     },
     {
@@ -1182,8 +1188,8 @@
     },
     {
       "ticker": "TSM",
-      "title": "What's Going On With Qualcomm Stock Wednesday? - Qualcomm (NASDAQ:QCOM)",
-      "time": "Wed, 23 Sep 2026 09:36:54",
+      "title": "TSM stock closes 0.4 percent higher at the close",
+      "time": "Tue, 22 Sep 2026 21:24:35",
       "sentiment": 0
     },
     {
@@ -1236,12 +1242,6 @@
     },
     {
       "ticker": "TXN",
-      "title": "Texas Instruments vs. Cerebras Systems: Which Chip Stock Has the Edge?",
-      "time": "Tue, 22 Sep 2026 13:40:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TXN",
       "title": "Texas Instruments stock gains 1.68 percent at the close",
       "time": "Tue, 22 Sep 2026 21:33:19",
       "sentiment": 0
@@ -1250,6 +1250,12 @@
       "ticker": "TXN",
       "title": "AI infrastructure Boom Fuels Texas Instruments’ (TXN) Rally",
       "time": "Tue, 22 Sep 2026 14:18:12",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TXN",
+      "title": "Old Dogs, New Tech: 3 Legacy Stocks Powering the AI Boom",
+      "time": "Wed, 23 Sep 2026 12:42:30",
       "sentiment": 0
     },
     {
@@ -1266,20 +1272,14 @@
     },
     {
       "ticker": "META",
-      "title": "Meta’s Muse Comes for Financial Stocks",
-      "time": "Tue, 22 Sep 2026 20:47:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
       "title": "What's Going On With Meta Platforms Stock Wednesday?",
       "time": "Wed, 23 Sep 2026 13:19:53",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "KeyBanc raises Meta stock price target to $900 on AI momentum",
-      "time": "Wed, 23 Sep 2026 09:47:16",
+      "title": "Meta’s Muse Comes for Financial Stocks",
+      "time": "Tue, 22 Sep 2026 20:47:00",
       "sentiment": 0
     },
     {
@@ -1290,8 +1290,8 @@
     },
     {
       "ticker": "META",
-      "title": "Meta Just Leapfrogged Everyone In The AI Race",
-      "time": "Wed, 23 Sep 2026 12:37:40",
+      "title": "Meta is breaking out after introducing Muse AI agent. Where the stock is going, according to the charts",
+      "time": "Tue, 22 Sep 2026 19:46:16",
       "sentiment": 0
     }
   ]
