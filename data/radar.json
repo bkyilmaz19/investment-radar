@@ -1,175 +1,19 @@
 {
-  "generated_at_local": "23.09.2026 08:27 CEST",
+  "generated_at_local": "23.09.2026 10:32 CEST",
   "market_regime": "Risk-on / positives Momentum",
   "universe_size": 204,
   "scanned_count": 201,
-  "summary": "Risk-on / positives Momentum. Früher Morning-Scan; US-Premarket ggf. noch nicht geöffnet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "summary": "Risk-on / positives Momentum. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "SHOP",
-      "name": "Shopify",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +7.33%, 5T +3.01%, relatives Volumen 2.67x, ATR 4.56%",
-      "catalyst": "SHOP Stock Jumps as Meta Expands Shopify Partnership",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 2.74,
-      "target_pct": 5.2,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+7.33%",
-      "change_5d": "+3.01%",
-      "volume_ratio": "2.67x",
-      "atr_pct": "4.56%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 1186112058.73,
-      "bar_age_minutes": null,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "LLY",
-      "name": "Eli Lilly",
-      "score": 82,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.04%, 5T +2.34%, relatives Volumen 0.99x, ATR 2.24%",
-      "catalyst": "Guggenheim Boosts Eli Lilly Price Target Amid Strong Weight Loss Drug Demand",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 1.35,
-      "target_pct": 2.56,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.04%",
-      "change_5d": "+2.34%",
-      "volume_ratio": "0.99x",
-      "atr_pct": "2.24%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 2786473253.39,
-      "bar_age_minutes": null,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "UAL",
-      "name": "United Airlines",
-      "score": 82,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +5.22%, 5T +4.98%, relatives Volumen 1.21x, ATR 3.31%",
-      "catalyst": "AAL, UAL, DAL, LUV Stocks Surge Overnight: Airline Stocks Catch A Tailwind As US-Iran Deal Cools Fuel Fears",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 1.99,
-      "target_pct": 3.78,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+5.22%",
-      "change_5d": "+4.98%",
-      "volume_ratio": "1.21x",
-      "atr_pct": "3.31%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 401180209.73,
-      "bar_age_minutes": null,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "AAL",
-      "name": "American Airlines",
-      "score": 81,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.71%, 5T +3.59%, relatives Volumen 0.84x, ATR 3.12%",
-      "catalyst": "AAL, UAL, DAL, LUV Stocks Surge Overnight: Airline Stocks Catch A Tailwind As US-Iran Deal Cools Fuel Fears",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 1.87,
-      "target_pct": 3.55,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+4.71%",
-      "change_5d": "+3.59%",
-      "volume_ratio": "0.84x",
-      "atr_pct": "3.12%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 918213880.96,
-      "bar_age_minutes": null,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
-      }
-    },
     {
       "ticker": "DAL",
       "name": "Delta Air Lines",
-      "score": 81,
+      "score": 91,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.62%, 5T +3.38%, relatives Volumen 0.81x, ATR 2.65%",
       "catalyst": "Delta Air Lines Inc. stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
+      "entry_note": "Premarket-Gap +1.82%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 1.59,
       "target_pct": 3.02,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -177,17 +21,17 @@
       "change_5d": "+3.38%",
       "volume_ratio": "0.81x",
       "atr_pct": "2.65%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
+      "gap_pct": "+1.82%",
+      "premarket_move_pct": "+0.00%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 529750737.52,
-      "bar_age_minutes": null,
+      "bar_age_minutes": 19.0,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Vor US-Premarket",
+      "session_phase": "Premarket",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
@@ -196,8 +40,164 @@
         "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify",
+      "score": 91,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +7.33%, 5T +3.01%, relatives Volumen 2.67x, ATR 4.56%",
+      "catalyst": "SHOP Stock Jumps as Meta Expands Shopify Partnership",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +7.02%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.74,
+      "target_pct": 5.2,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+7.33%",
+      "change_5d": "+3.01%",
+      "volume_ratio": "2.67x",
+      "atr_pct": "4.56%",
+      "gap_pct": "+7.02%",
+      "premarket_move_pct": "-0.40%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 1186112058.73,
+      "bar_age_minutes": 2.0,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
         "gap_ok": false,
-        "confirmation_ok": false
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.04%, 5T +2.34%, relatives Volumen 0.99x, ATR 2.24%",
+      "catalyst": "Guggenheim Boosts Eli Lilly Price Target Amid Strong Weight Loss Drug Demand",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.98%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.35,
+      "target_pct": 2.56,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.04%",
+      "change_5d": "+2.34%",
+      "volume_ratio": "0.99x",
+      "atr_pct": "2.24%",
+      "gap_pct": "+0.98%",
+      "premarket_move_pct": "+0.11%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 2786473253.39,
+      "bar_age_minutes": 17.1,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.30%, 5T +7.78%, relatives Volumen 0.81x, ATR 2.67%",
+      "catalyst": "2 Undervalued Semiconductor Stocks to Watch While the Market Is Skeptical of AI Growth",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.80%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.6,
+      "target_pct": 3.04,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.30%",
+      "change_5d": "+7.78%",
+      "volume_ratio": "0.81x",
+      "atr_pct": "2.67%",
+      "gap_pct": "+0.80%",
+      "premarket_move_pct": "+0.14%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 29841173368.64,
+      "bar_age_minutes": 2.1,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.07%, 5T +5.64%, relatives Volumen 0.80x, ATR 3.98%",
+      "catalyst": "Palantir Technologies (NASDAQ:PLTR): High Growth Momentum Meets Breakout Setup",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +1.21%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.39,
+      "target_pct": 4.54,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.07%",
+      "change_5d": "+5.64%",
+      "volume_ratio": "0.80x",
+      "atr_pct": "3.98%",
+      "gap_pct": "+1.21%",
+      "premarket_move_pct": "+0.18%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 4859936711.77,
+      "bar_age_minutes": 2.1,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     }
   ],
@@ -271,10 +271,22 @@
       "sentiment": 1
     },
     {
+      "ticker": "RCL",
+      "title": "Royal Caribbean Falls as Investors Weigh Reported Sandals Deal",
+      "time": "Tue, 22 Sep 2026 21:20:00",
+      "sentiment": -1
+    },
+    {
       "ticker": "TSLA",
       "title": "Tesla Wins Over Another Skeptic: JPMorgan Raises TSLA Stock Price Target By More Than 200%",
       "time": "Tue, 22 Sep 2026 15:43:43",
       "sentiment": 1
+    },
+    {
+      "ticker": "TSLA",
+      "title": "\"Tesla: Finally, Time To Say Enough Is Enough (Downgrade)\"",
+      "time": "Tue, 22 Sep 2026 16:37:24",
+      "sentiment": -1
     },
     {
       "ticker": "TSLA",
@@ -314,8 +326,8 @@
     },
     {
       "ticker": "GOOG",
-      "title": "Sirius XM Holdings Inc. stock underperforms Tuesday when compared to competitors",
-      "time": "Tue, 22 Sep 2026 21:29:00",
+      "title": "Alphabet C stock falls 1.0 percent ahead of the open",
+      "time": "Wed, 23 Sep 2026 06:34:02",
       "sentiment": -1
     },
     {
@@ -349,9 +361,15 @@
       "sentiment": 1
     },
     {
-      "ticker": "AAL",
-      "title": "Delta Air Lines Inc. stock outperforms competitors on strong trading day",
-      "time": "Tue, 22 Sep 2026 20:48:00",
+      "ticker": "AAPL",
+      "title": "AAPL Stock Slides 6% On Forecast Miss: Retail Mood Turns Dim But Traders Urge A Closer Look",
+      "time": "Tue, 22 Sep 2026 20:06:58",
+      "sentiment": -1
+    },
+    {
+      "ticker": "NVDA",
+      "title": "2 Undervalued Semiconductor Stocks to Watch While the Market Is Skeptical of AI Growth",
+      "time": "Wed, 23 Sep 2026 06:06:20",
       "sentiment": 1
     },
     {
@@ -359,12 +377,6 @@
       "title": "NVDA Stock Eyes the $236 Record High as 2027 NVIDIA Growth Forecasts Rise",
       "time": "Wed, 23 Sep 2026 02:33:30",
       "sentiment": 1
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Nvidia Stock is Historically Cheap. The Decade-Low Multiple Reflects Risks, But This Looks Like a Can't-Miss Buy Opportunity for NVDA.",
-      "time": "Tue, 22 Sep 2026 16:04:06",
-      "sentiment": -1
     },
     {
       "ticker": "AVGO",
@@ -397,12 +409,6 @@
       "sentiment": -1
     },
     {
-      "ticker": "SCHW",
-      "title": "Charles Schwab stock falls 5.8 percent at the close",
-      "time": "Tue, 22 Sep 2026 21:40:43",
-      "sentiment": -1
-    },
-    {
       "ticker": "LLY",
       "title": "Guggenheim Boosts Eli Lilly Price Target Amid Strong Weight Loss Drug Demand",
       "time": "Tue, 22 Sep 2026 09:47:02",
@@ -412,12 +418,6 @@
       "ticker": "LLY",
       "title": "Should Dividend Investors Buy Pfizer Stock for Its High Yield or Invest in Eli Lilly for Its Dividend Growth?",
       "time": "Tue, 22 Sep 2026 17:02:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "LLY",
-      "title": "VKTX Stock On Track To Beat LLY, NVO This Month After Obesity Drug Data — Can Viking Win Over Wegovy And Zepbound Users?",
-      "time": "Wed, 23 Sep 2026 02:22:00",
       "sentiment": 1
     },
     {
@@ -431,12 +431,6 @@
       "title": "Sjögren’s disease has no FDA-approved medicines. Amgen’s treatment improved disease activity in a trial.",
       "time": "Tue, 22 Sep 2026 13:02:30",
       "sentiment": 1
-    },
-    {
-      "ticker": "ADI",
-      "title": "How To Bank 8.4% A Year On ADI Stock Before Buying A Single Share",
-      "time": "Tue, 22 Sep 2026 06:32:50",
-      "sentiment": -1
     },
     {
       "ticker": "SHOP",
@@ -464,26 +458,26 @@
     },
     {
       "ticker": "BABA",
-      "title": "3 Reasons to Hold Alibaba Stock Despite Its High Premium P/S",
-      "time": "Tue, 22 Sep 2026 16:52:39",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BABA",
       "title": "What Does Alibaba (BABA) Unveiling A New AI Chip Mean For Investors?",
       "time": "Tue, 22 Sep 2026 19:45:16",
       "sentiment": 0
     },
     {
       "ticker": "BABA",
-      "title": "Alibaba cloud expands in Europe and Middle East with new data centers",
-      "time": "Wed, 23 Sep 2026 05:43:42",
+      "title": "Stocks making the biggest moves premarket: Alibaba, Quest Diagnostics, On Holding, GameStop & more",
+      "time": "Tue, 22 Sep 2026 11:49:33",
       "sentiment": 0
     },
     {
       "ticker": "BABA",
-      "title": "Stocks making the biggest moves premarket: Alibaba, Quest Diagnostics, On Holding, GameStop & more",
-      "time": "Tue, 22 Sep 2026 11:49:33",
+      "title": "CEO casts votes on 297M silent ADS for Alibaba (BABA)",
+      "time": "Tue, 22 Sep 2026 20:02:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BABA",
+      "title": "3 Reasons to Hold Alibaba Stock Despite Its High Premium P/S",
+      "time": "Tue, 22 Sep 2026 15:38:00",
       "sentiment": 0
     },
     {
@@ -512,20 +506,26 @@
     },
     {
       "ticker": "UAL",
+      "title": "United Airlines Holdings, Inc. (UAL) latest stock news and headlines – Yahoo Finance",
+      "time": "Wed, 23 Sep 2026 07:02:54",
+      "sentiment": 0
+    },
+    {
+      "ticker": "UAL",
+      "title": "United Airlines Holdings Inc $UAL Shares Bought by State Street Corp",
+      "time": "Wed, 23 Sep 2026 08:17:55",
+      "sentiment": 0
+    },
+    {
+      "ticker": "UAL",
+      "title": "Nykredit A S Makes New Investment in United Airlines Holdings Inc $UAL",
+      "time": "Wed, 23 Sep 2026 07:35:34",
+      "sentiment": 0
+    },
+    {
+      "ticker": "UAL",
       "title": "United Airlines stock heads into the open after a 3.7 percent gain",
       "time": "Wed, 23 Sep 2026 00:17:21",
-      "sentiment": 0
-    },
-    {
-      "ticker": "UAL",
-      "title": "American Airlines Group Inc. (AAL) stock price, news, quote and history",
-      "time": "Tue, 22 Sep 2026 12:31:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "UAL",
-      "title": "3 Consumer Stocks We Steer Clear Of",
-      "time": "Tue, 22 Sep 2026 09:56:41",
       "sentiment": 0
     },
     {
@@ -535,27 +535,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "UAL",
-      "title": "Flight Disruptions in NYC and Philadelphia After Verizon Fiber C",
-      "time": "Tue, 22 Sep 2026 13:53:33",
-      "sentiment": 0
-    },
-    {
       "ticker": "RCL",
-      "title": "RCL Stock Drops To Worst Day In Six Months — Royal Caribbean Reportedly Nears $6B Deal For Sandals Resorts",
-      "time": "Tue, 22 Sep 2026 23:23:45",
+      "title": "State Street Corp Acquires 270,930 Shares of Royal Caribbean Cruises Ltd. $RCL",
+      "time": "Wed, 23 Sep 2026 08:07:43",
       "sentiment": 0
     },
     {
       "ticker": "RCL",
       "title": "Royal Caribbean Cruises Ltd Stock (RCL) Moved Down by 6.99% on Sep 22: What Signal Does It Send?",
-      "time": "Tue, 22 Sep 2026 19:15:26",
-      "sentiment": 0
-    },
-    {
-      "ticker": "RCL",
-      "title": "Royal Caribbean Cruises (NYSE:RCL) Trading Down 5.4% - Here's Why",
-      "time": "Tue, 22 Sep 2026 18:52:04",
+      "time": "Tue, 22 Sep 2026 20:07:07",
       "sentiment": 0
     },
     {
@@ -566,20 +554,14 @@
     },
     {
       "ticker": "TSLA",
-      "title": "Tesla Gains as BBB Rating Meets a $25 Billion AI Bill",
-      "time": "Tue, 22 Sep 2026 22:27:07",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSLA",
       "title": "Why Is Tesla (NASDAQ:TSLA) Stock Up Today? Roadster Reservations Reopen Ahead of the 1 October Reveal",
       "time": "Tue, 22 Sep 2026 20:45:04",
       "sentiment": 0
     },
     {
       "ticker": "TSLA",
-      "title": "Tesla: Trump Might Sink This Stock; Here's How (NASDAQ:TSLA)",
-      "time": "Tue, 22 Sep 2026 16:06:16",
+      "title": "Tesla Stock Forecast: TSLA Rallies 3% Ahead of Roadster Reveal and Semi Event",
+      "time": "Tue, 22 Sep 2026 13:02:58",
       "sentiment": 0
     },
     {
@@ -632,6 +614,12 @@
     },
     {
       "ticker": "MDB",
+      "title": "Datadog, Inc. (DDOG) stock price, news, quote and history",
+      "time": "Tue, 22 Sep 2026 18:41:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDB",
       "title": "MongoDB Jumps As Atlas Power Sparks Fresh AI Hopes",
       "time": "Tue, 22 Sep 2026 17:08:21",
       "sentiment": 0
@@ -644,26 +632,26 @@
     },
     {
       "ticker": "AMZN",
+      "title": "Canada Pension Plan Investment Board Takes Position in Amazon.com, Inc. $AMZN",
+      "time": "Wed, 23 Sep 2026 07:09:27",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMZN",
       "title": "As Amazon Stock Prospers, Traders Might Consider This Option Play",
       "time": "Tue, 22 Sep 2026 15:57:00",
       "sentiment": 0
     },
     {
       "ticker": "AMZN",
-      "title": "Trump disclosed $25M Microsoft and Amazon stock sales in July",
-      "time": "Tue, 22 Sep 2026 17:44:26",
+      "title": "730,635 Shares in Amazon.com, Inc. $AMZN Purchased by Park Presidio Capital LLC",
+      "time": "Wed, 23 Sep 2026 07:35:35",
       "sentiment": 0
     },
     {
       "ticker": "AMZN",
-      "title": "Amazon.com, Inc. (AMZN) Price: Live Chart & Market Cap",
-      "time": "Wed, 23 Sep 2026 02:27:43",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMZN",
-      "title": "Amazon.com (NASDAQ:AMZN) Stock Price Down 1.3% - Here's What Happened",
-      "time": "Tue, 22 Sep 2026 21:49:05",
+      "title": "Dow Jones Tech Titan Amazon Eyes Buy Point Amid Battle With Key Support Level",
+      "time": "Tue, 22 Sep 2026 17:26:00",
       "sentiment": 0
     },
     {
@@ -686,14 +674,14 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "A Powerful Voice Just Reaffirmed My Confidence in My Non-Stop Alphabet Accumulation",
-      "time": "Tue, 22 Sep 2026 14:41:00",
+      "title": "Google Owner Alphabet Prices Upsized $84.75B Capital Raise – A Look At Some Of The Key Numbers",
+      "time": "Tue, 22 Sep 2026 19:26:40",
       "sentiment": 0
     },
     {
       "ticker": "GOOGL",
-      "title": "Alphabet Inc. (GOOGL) is Attracting Investor Attention: Here is What You Should Know",
-      "time": "Tue, 22 Sep 2026 13:00:05",
+      "title": "A Powerful Voice Just Reaffirmed My Confidence in My Non-Stop Alphabet Accumulation",
+      "time": "Tue, 22 Sep 2026 14:41:00",
       "sentiment": 0
     },
     {
@@ -704,20 +692,20 @@
     },
     {
       "ticker": "GOOG",
+      "title": "Key facts: NASDAQ:GOOG Gemini breach; Search leads; Cloud/AI +52%",
+      "time": "Wed, 23 Sep 2026 07:15:31",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOG",
+      "title": "Should You Forget Palantir and Buy These 3 Quantum Computing Stocks Instead?",
+      "time": "Wed, 23 Sep 2026 07:22:42",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOG",
       "title": "3 Big Tech Stocks With the Most Upside Right Now",
       "time": "Tue, 22 Sep 2026 18:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOG",
-      "title": "Alphabet Inc. (GOOGL) is Attracting Investor Attention: Here is What You Should Know",
-      "time": "Tue, 22 Sep 2026 13:00:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOG",
-      "title": "Melania Trump to Ring NYSE Bell, Launch Female CEO Initiative - Intercontinental Exchange (NYSE:ICE)",
-      "time": "Wed, 23 Sep 2026 03:54:22",
       "sentiment": 0
     },
     {
@@ -740,14 +728,14 @@
     },
     {
       "ticker": "TSM",
-      "title": "TSM stock heads into the open after a 0.4 percent gain",
-      "time": "Wed, 23 Sep 2026 05:40:16",
+      "title": "What Makes TSM a Key NYSE Composite Semiconductor Stock?",
+      "time": "Wed, 23 Sep 2026 04:46:00",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
-      "title": "Intel Is Up 25% in 5 Days. The $145 Price Target Just Moved Too",
-      "time": "Tue, 22 Sep 2026 19:05:00",
+      "title": "TSM stock heads into the open after a 0.4 percent gain",
+      "time": "Wed, 23 Sep 2026 05:40:16",
       "sentiment": 0
     },
     {
@@ -770,14 +758,14 @@
     },
     {
       "ticker": "SNOW",
-      "title": "Snowflake (NYSE:SNOW) Director Frank Slootman Sells 102,791 Shares",
-      "time": "Wed, 23 Sep 2026 01:16:30",
+      "title": "Snowflake (NYSE: SNOW) withholds CRO shares at $332.43 for RSU taxes",
+      "time": "Tue, 22 Sep 2026 23:10:11",
       "sentiment": 0
     },
     {
       "ticker": "SNOW",
-      "title": "Snowflake (NYSE: SNOW) withholds CRO shares at $332.43 for RSU taxes",
-      "time": "Tue, 22 Sep 2026 23:10:11",
+      "title": "Snowflake (NYSE:SNOW) Director Frank Slootman Sells 102,791 Shares",
+      "time": "Wed, 23 Sep 2026 01:16:30",
       "sentiment": 0
     },
     {
@@ -800,12 +788,6 @@
     },
     {
       "ticker": "CCL",
-      "title": "RCL, NCLH, CCL: Cruise Stocks Get Hit As Rare Hantavirus Outbreak Sparks Travel Fears",
-      "time": "Tue, 22 Sep 2026 08:24:50",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CCL",
       "title": "Carnival stock may move 6.2% on upcoming earnings release",
       "time": "Tue, 22 Sep 2026 16:12:14",
       "sentiment": 0
@@ -814,6 +796,12 @@
       "ticker": "CCL",
       "title": "Carnival Corp Stock Looks Cheap to Value Investors Ahead of Earnings Next Week",
       "time": "Tue, 22 Sep 2026 13:15:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CCL",
+      "title": "Carnival stock may move 6.2% on upcoming earnings release By Investing.com",
+      "time": "Tue, 22 Sep 2026 16:06:57",
       "sentiment": 0
     },
     {
@@ -830,14 +818,20 @@
     },
     {
       "ticker": "DAL",
+      "title": "Air, Cruise Lines Stage Uneven Rally As Oil Ebbs; Are They Ready To Rebound?",
+      "time": "Tue, 22 Sep 2026 13:40:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DAL",
       "title": "Delta Air Lines stock climbs above its 200 day average",
       "time": "Tue, 22 Sep 2026 17:02:41",
       "sentiment": 0
     },
     {
-      "ticker": "DAL",
-      "title": "American Airlines Group Inc. (AAL) stock price, news, quote and history",
-      "time": "Tue, 22 Sep 2026 12:31:02",
+      "ticker": "AAL",
+      "title": "American Airlines Group Inc. (AAL) Stock Price, News, Quote & History",
+      "time": "Tue, 22 Sep 2026 14:22:47",
       "sentiment": 0
     },
     {
@@ -914,8 +908,8 @@
     },
     {
       "ticker": "AAPL",
-      "title": "AAPL Stock Slips — Why This Analyst Turned Bearish On Apple After The iPhone Maker Hit An All-Time High",
-      "time": "Tue, 22 Sep 2026 18:57:05",
+      "title": "Laidlaw Wealth Management LLC Acquires Shares of 7,597 Apple Inc. $AAPL",
+      "time": "Wed, 23 Sep 2026 07:15:41",
       "sentiment": 0
     },
     {
@@ -926,14 +920,14 @@
     },
     {
       "ticker": "AAPL",
-      "title": "What Will $5,000 Invested in Apple Stock Be Worth in 5 Years?",
-      "time": "Tue, 22 Sep 2026 14:00:00",
+      "title": "Why Did AAPL, OKTA, AMD Stocks Jump To 52-Week Highs Today?",
+      "time": "Wed, 23 Sep 2026 03:05:00",
       "sentiment": 0
     },
     {
-      "ticker": "AAPL",
-      "title": "Apple (NASDAQ: AAPL) executive lines up new stock sale under a preset trading plan",
-      "time": "Tue, 22 Sep 2026 20:13:12",
+      "ticker": "NVDA",
+      "title": "AMD Stock Has Blown Past Nvidia This Year. Is It Still the Better Buy?",
+      "time": "Tue, 22 Sep 2026 21:00:00",
       "sentiment": 0
     },
     {
@@ -944,8 +938,8 @@
     },
     {
       "ticker": "NVDA",
-      "title": "Is NVIDIA Funding Its Own Stock Rally?",
-      "time": "Tue, 22 Sep 2026 17:28:47",
+      "title": "NVIDIA (NVDA) at $205: Why Jensen Huang’s $1 Trillion Blackwell-Rubin Vision Matters More Than the Pullback",
+      "time": "Tue, 22 Sep 2026 20:28:14",
       "sentiment": 0
     },
     {
@@ -955,9 +949,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "NVDA",
-      "title": "Nvidia In Correction Territory? Investors Parse Fresh Risks From Chinese Rival",
-      "time": "Tue, 22 Sep 2026 14:35:43",
+      "ticker": "AVGO",
+      "title": "Broadcom: Hard To Ignore The Numbers, Buy Before The Market Catches Up",
+      "time": "Wed, 23 Sep 2026 07:21:08",
       "sentiment": 0
     },
     {
@@ -974,14 +968,8 @@
     },
     {
       "ticker": "AVGO",
-      "title": "Collect 9.1% A Year On AVGO Stock Now, Own It 30% Cheaper If It Dips",
-      "time": "Tue, 22 Sep 2026 14:29:32",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AVGO",
-      "title": "Broadcom’s ASIC Business Is About to Explode, A $1,000 Investment Could Double by 2028",
-      "time": "Tue, 22 Sep 2026 07:18:44",
+      "title": "Can execution catch up with expectations at Broadcom (NASDAQ:AVGO)?",
+      "time": "Wed, 23 Sep 2026 06:48:00",
       "sentiment": 0
     },
     {
@@ -1004,14 +992,14 @@
     },
     {
       "ticker": "KLAC",
-      "title": "Board seats, pay and climate goals face a vote at KLA Corporation (KLAC)",
-      "time": "Tue, 22 Sep 2026 20:06:57",
+      "title": "KLA Corporation (KLAC) stock price, news, quote and history - Yahoo Finance",
+      "time": "Tue, 22 Sep 2026 22:34:58",
       "sentiment": 0
     },
     {
       "ticker": "KLAC",
-      "title": "Want KLAC Stock 50% Cheaper? Get Paid 8.5% A Year While You Wait",
-      "time": "Tue, 22 Sep 2026 18:30:04",
+      "title": "Board seats, pay and climate goals face a vote at KLA Corporation (KLAC)",
+      "time": "Tue, 22 Sep 2026 20:06:57",
       "sentiment": 0
     },
     {
@@ -1030,6 +1018,18 @@
       "ticker": "SCHW",
       "title": "WEX, Raymond James, Sallie Mae, Voya Financial, and Charles Schwab Shares Plummet, What You Need To Know",
       "time": "Tue, 22 Sep 2026 19:31:27",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SCHW",
+      "title": "Charles Schwab (NYSE:SCHW) Stock Price Down 4.4% - Time to Sell?",
+      "time": "Tue, 22 Sep 2026 15:22:34",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LLY",
+      "title": "Eli Lilly Could Be a ‘$2,000 Stock’ in the Next 3 to 4 Years, Says Home Depot Co-Founder Ken Langone",
+      "time": "Wed, 23 Sep 2026 07:50:16",
       "sentiment": 0
     },
     {
@@ -1100,44 +1100,44 @@
     },
     {
       "ticker": "AMGN",
+      "title": "Amgen Inc. (NASDAQ:AMGN) Given Consensus Rating of \"Hold\" by Brokerages",
+      "time": "Wed, 23 Sep 2026 06:33:19",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMGN",
       "title": "State Street Corp Increases Position in Amgen Inc. $AMGN",
       "time": "Tue, 22 Sep 2026 17:33:11",
       "sentiment": 0
     },
     {
-      "ticker": "AMGN",
-      "title": "Amgen Boasts Success In Sjogren's; Shares Bound Higher",
-      "time": "Tue, 22 Sep 2026 20:21:00",
+      "ticker": "CAT",
+      "title": "Caterpillar Inc. (CAT) stock price, news, quote and history",
+      "time": "Tue, 22 Sep 2026 20:06:47",
       "sentiment": 0
     },
     {
       "ticker": "CAT",
-      "title": "Caterpillar Inc. (CAT) latest stock news and headlines – Yahoo Finance",
-      "time": "Tue, 22 Sep 2026 14:17:52",
+      "title": "Can execution catch up with expectations at Caterpillar (NYSE:CAT)?",
+      "time": "Wed, 23 Sep 2026 07:35:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CAT",
+      "title": "CAT 260925 860.00P (CAT260925P860000) Stock Community & Discussion",
+      "time": "Tue, 22 Sep 2026 09:49:26",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CAT",
+      "title": "Caterpillar Inc. (CAT) interactive stock chart – Yahoo Finance",
+      "time": "Tue, 22 Sep 2026 13:43:39",
       "sentiment": 0
     },
     {
       "ticker": "CAT",
       "title": "Is Caterpillar (NYSE:CAT) Stock Worth Watching Today?",
       "time": "Tue, 22 Sep 2026 13:08:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CAT",
-      "title": "Bernstein Sticks to Its Hold Rating for Caterpillar (CAT)",
-      "time": "Tue, 22 Sep 2026 10:53:45",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CAT",
-      "title": "Caterpillar stock gains 0.93 percent as earnings top estimates",
-      "time": "Tue, 22 Sep 2026 09:42:17",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CAT",
-      "title": "Get Paid 8.0% A Year To Wait For CAT Stock To Go On Sale",
-      "time": "Tue, 22 Sep 2026 06:31:38",
       "sentiment": 0
     },
     {
@@ -1150,6 +1150,12 @@
       "ticker": "TJX",
       "title": "3 Retail Stocks Investors Are Watching As Tariffs Reshape Discount Shopping",
       "time": "Tue, 22 Sep 2026 18:57:13",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TJX",
+      "title": "TJX Companies stock rises ahead of the open after a 1.5 percent gain",
+      "time": "Wed, 23 Sep 2026 06:28:05",
       "sentiment": 0
     },
     {
@@ -1172,20 +1178,26 @@
     },
     {
       "ticker": "TJX",
-      "title": "TJX Companies' Digital Reach: Can Engagement Lift Store Traffic?",
-      "time": "Tue, 22 Sep 2026 23:43:24",
+      "title": "Analysts Offer Insights on Consumer Cyclical Companies: Yeti Holdings (YETI) and TJX Companies (TJX)",
+      "time": "Tue, 22 Sep 2026 14:14:00",
       "sentiment": 0
     },
     {
-      "ticker": "TJX",
-      "title": "State Street Corp Has $7.53 Billion Position in The TJX Companies, Inc. $TJX",
-      "time": "Tue, 22 Sep 2026 17:05:36",
+      "ticker": "ADI",
+      "title": "Analog Devices: A More Constructive Backdrop Here (NASDAQ:ADI)",
+      "time": "Wed, 23 Sep 2026 07:49:04",
       "sentiment": 0
     },
     {
       "ticker": "ADI",
       "title": "Analog Devices (NASDAQ: ADI) officer plans 1,500-share Rule 144 sale",
       "time": "Tue, 22 Sep 2026 17:00:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADI",
+      "title": "Analog Devices, Inc. (ADI) stock price, news, quote and history - Yahoo Finance",
+      "time": "Tue, 22 Sep 2026 15:55:38",
       "sentiment": 0
     },
     {
@@ -1204,12 +1216,6 @@
       "ticker": "ADI",
       "title": "Analog Devices stock gains as AI demand lifts industry performance",
       "time": "Tue, 22 Sep 2026 11:55:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADI",
-      "title": "Microchip Rises 17% YTD: Should You Buy, Sell or Hold the Stock?",
-      "time": "Tue, 22 Sep 2026 16:52:00",
       "sentiment": 0
     },
     {
@@ -1232,26 +1238,20 @@
     },
     {
       "ticker": "TXN",
+      "title": "Texas Instruments stock gains 1.68 percent ahead of the open",
+      "time": "Wed, 23 Sep 2026 06:46:26",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TXN",
       "title": "Texas Instruments stock gains 1.68 percent at the close",
       "time": "Tue, 22 Sep 2026 21:33:19",
       "sentiment": 0
     },
     {
       "ticker": "TXN",
-      "title": "Microchip Rises 17% YTD: Should You Buy, Sell or Hold the Stock?",
-      "time": "Tue, 22 Sep 2026 15:36:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TXN",
       "title": "AI infrastructure Boom Fuels Texas Instruments’ (TXN) Rally",
       "time": "Tue, 22 Sep 2026 14:18:12",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MU",
-      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
-      "time": "Wed, 23 Sep 2026 03:23:44",
       "sentiment": 0
     },
     {
@@ -1274,14 +1274,20 @@
     },
     {
       "ticker": "MU",
+      "title": "Micron: Big Earnings, Big Money, But Maybe Big Disappointment (NASDAQ:MU)",
+      "time": "Tue, 22 Sep 2026 15:53:10",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MU",
       "title": "Micron Is Facing a Potential Strike at Major Taiwan Chip Factory. The Stock Is Rising Anyway.",
       "time": "Tue, 22 Sep 2026 16:13:00",
       "sentiment": 0
     },
     {
       "ticker": "MU",
-      "title": "Micron: Big Earnings, Big Money, But Maybe Big Disappointment (NASDAQ:MU)",
-      "time": "Tue, 22 Sep 2026 15:53:10",
+      "title": "Should You Buy Micron Before Sept. 30?",
+      "time": "Wed, 23 Sep 2026 08:15:03",
       "sentiment": 0
     }
   ]
