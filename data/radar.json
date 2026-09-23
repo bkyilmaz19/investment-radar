@@ -1,49 +1,10 @@
 {
-  "generated_at_local": "23.09.2026 16:30 CEST",
+  "generated_at_local": "23.09.2026 16:46 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "AMGN",
-      "name": "Amgen",
-      "score": 96,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.95%, 5T +3.06%, relatives Volumen 0.74x, ATR 2.80%",
-      "catalyst": "Amgen Stock Gains After Announcing Positive Phase 3 Sjögren’s Disease Trial Results",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +5.37%, seit Open +1.04%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.68,
-      "target_pct": 3.2,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.95%",
-      "change_5d": "+3.06%",
-      "volume_ratio": "0.74x",
-      "atr_pct": "2.80%",
-      "gap_pct": "+5.05%",
-      "premarket_move_pct": "+0.45%",
-      "live_gap_pct": "+5.37%",
-      "regular_move_pct": "+1.04%",
-      "avg_dollar_volume": 1185476752.99,
-      "bar_age_minutes": 5.0,
-      "vwap": 412.5,
-      "opening_range_high": 414.8,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
     {
       "ticker": "TJX",
       "name": "TJX",
@@ -52,7 +13,7 @@
       "thesis": "1T +2.92%, 5T +3.94%, relatives Volumen 0.95x, ATR 2.08%",
       "catalyst": "TJX Companies stock holds near USD 127 as earnings beat estimates",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.44%, seit Open +1.16%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.57%, seit Open +1.28%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.25,
       "target_pct": 2.37,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +23,11 @@
       "atr_pct": "2.08%",
       "gap_pct": "-0.20%",
       "premarket_move_pct": "-0.33%",
-      "live_gap_pct": "+0.44%",
-      "regular_move_pct": "+1.16%",
+      "live_gap_pct": "+0.57%",
+      "regular_move_pct": "+1.28%",
       "avg_dollar_volume": 1185422515.96,
-      "bar_age_minutes": 0.0,
-      "vwap": 130.89,
+      "bar_age_minutes": 1.9,
+      "vwap": 131.03,
       "opening_range_high": 131.58,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -91,7 +52,7 @@
       "thesis": "1T +3.07%, 5T +5.64%, relatives Volumen 0.76x, ATR 3.98%",
       "catalyst": "Palantir Stock Forecast: PLTR Holds Near $185 as AI Growth Drives Rally",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +3.23%, seit Open +1.49%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +3.89%, seit Open +2.15%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.39,
       "target_pct": 4.54,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +62,11 @@
       "atr_pct": "3.98%",
       "gap_pct": "+1.53%",
       "premarket_move_pct": "+0.49%",
-      "live_gap_pct": "+3.23%",
-      "regular_move_pct": "+1.49%",
+      "live_gap_pct": "+3.89%",
+      "regular_move_pct": "+2.15%",
       "avg_dollar_volume": 4925763139.86,
-      "bar_age_minutes": 5.0,
-      "vwap": 189.86,
+      "bar_age_minutes": 1.9,
+      "vwap": 189.85,
       "opening_range_high": 193.33,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -123,14 +84,53 @@
       }
     },
     {
+      "ticker": "WBD",
+      "name": "Warner Bros. Discovery",
+      "score": 86,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +10.79%, 5T +9.61%, relatives Volumen 9.74x, ATR 1.72%",
+      "catalyst": "WBD Stock Surges as Paramount Deal Takes an Unexpected Turn",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.02%, seit Open +0.00%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.03,
+      "target_pct": 2.0,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+10.79%",
+      "change_5d": "+9.61%",
+      "volume_ratio": "9.74x",
+      "atr_pct": "1.72%",
+      "gap_pct": "+0.03%",
+      "premarket_move_pct": "+0.45%",
+      "live_gap_pct": "+0.02%",
+      "regular_move_pct": "+0.00%",
+      "avg_dollar_volume": 868740767.58,
+      "bar_age_minutes": 1.9,
+      "vwap": 30.8,
+      "opening_range_high": 30.82,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
       "ticker": "SHOP",
       "name": "Shopify",
-      "score": 89,
+      "score": 85,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +7.33%, 5T +3.01%, relatives Volumen 2.17x, ATR 4.56%",
       "catalyst": "SHOP Stock Jumps as Meta Expands Shopify Partnership",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.87%, seit Open -5.12%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.53%, seit Open -5.44%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.74,
       "target_pct": 5.2,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +140,11 @@
       "atr_pct": "4.56%",
       "gap_pct": "+6.23%",
       "premarket_move_pct": "-1.13%",
-      "live_gap_pct": "+0.87%",
-      "regular_move_pct": "-5.12%",
+      "live_gap_pct": "+0.53%",
+      "regular_move_pct": "-5.44%",
       "avg_dollar_volume": 1168450856.64,
-      "bar_age_minutes": 5.0,
-      "vwap": 143.28,
+      "bar_age_minutes": 1.9,
+      "vwap": 142.87,
       "opening_range_high": 151.26,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -162,29 +162,29 @@
       }
     },
     {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
+      "ticker": "AMGN",
+      "name": "Amgen",
       "score": 84,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.12%, 5T +6.27%, relatives Volumen 1.07x, ATR 3.04%",
-      "catalyst": "Why Intuitive Surgical (ISRG) Is Up 6.5% After New da Vinci SP Transvaginal Approval – And What's Next",
+      "thesis": "1T +1.95%, 5T +3.06%, relatives Volumen 0.74x, ATR 2.80%",
+      "catalyst": "Amgen Stock Gains After Announcing Positive Phase 3 Sjögren’s Disease Trial Results",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.12%, seit Open +0.07%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.82,
-      "target_pct": 3.47,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +4.12%, seit Open -0.16%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.68,
+      "target_pct": 3.2,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.12%",
-      "change_5d": "+6.27%",
-      "volume_ratio": "1.07x",
-      "atr_pct": "3.04%",
-      "gap_pct": "-0.47%",
-      "premarket_move_pct": "-0.69%",
-      "live_gap_pct": "-0.12%",
-      "regular_move_pct": "+0.07%",
-      "avg_dollar_volume": 885309814.97,
-      "bar_age_minutes": 5.0,
-      "vwap": 402.6,
-      "opening_range_high": 404.44,
+      "change_1d": "+1.95%",
+      "change_5d": "+3.06%",
+      "volume_ratio": "0.74x",
+      "atr_pct": "2.80%",
+      "gap_pct": "+5.05%",
+      "premarket_move_pct": "+0.45%",
+      "live_gap_pct": "+4.12%",
+      "regular_move_pct": "-0.16%",
+      "avg_dollar_volume": 1185476752.99,
+      "bar_age_minutes": 1.9,
+      "vwap": 412.41,
+      "opening_range_high": 414.8,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -497,6 +497,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "META",
+      "title": "Bank of America backs Meta stock after Muse surprise",
+      "time": "Wed, 23 Sep 2026 00:14:00",
+      "sentiment": -1
+    },
+    {
       "ticker": "SHOP",
       "title": "Shopify Stock Jumps on Meta Muse Deal: Time to Buy?",
       "time": "Tue, 22 Sep 2026 23:27:00",
@@ -516,12 +522,6 @@
     },
     {
       "ticker": "AMZN",
-      "title": "Amazon (AMZN) Stock May Be 41% Undervalued As AI Spending Climbs",
-      "time": "Wed, 23 Sep 2026 13:18:40",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMZN",
       "title": "What's Going On With Amazon Stock Wednesday?",
       "time": "Wed, 23 Sep 2026 10:37:58",
       "sentiment": 0
@@ -534,20 +534,26 @@
     },
     {
       "ticker": "AMZN",
-      "title": "President Trump Sells Millions in Microsoft and Amazon, Buys Nvidia Stock",
-      "time": "Wed, 23 Sep 2026 12:10:57",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMZN",
       "title": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
       "time": "Tue, 22 Sep 2026 17:10:22",
       "sentiment": 0
     },
     {
       "ticker": "AMZN",
+      "title": "President Trump Sells Millions in Microsoft and Amazon, Buys Nvidia Stock",
+      "time": "Wed, 23 Sep 2026 12:10:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMZN",
       "title": "Canada Pension Plan Investment Board Takes Position in Amazon.com, Inc. $AMZN",
       "time": "Wed, 23 Sep 2026 07:09:27",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMZN",
+      "title": "Dow Jones Tech Titan Amazon Eyes Buy Point Amid Battle With Key Support Level",
+      "time": "Tue, 22 Sep 2026 17:26:00",
       "sentiment": 0
     },
     {
@@ -588,8 +594,8 @@
     },
     {
       "ticker": "UAL",
-      "title": "Alaska Air Group, Inc. (ALK) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 05:21:36",
+      "title": "SkyWest, Inc. (SKYW) Stock Price, News, Quote & History",
+      "time": "Tue, 22 Sep 2026 22:28:07",
       "sentiment": 0
     },
     {
@@ -630,8 +636,8 @@
     },
     {
       "ticker": "TSLA",
-      "title": "Elon Musk Touts Grok in Tesla Vehicles: Here’s What It Can Do",
-      "time": "Wed, 23 Sep 2026 09:05:23",
+      "title": "Why Is Tesla (NASDAQ:TSLA) Stock Up Today? Roadster Reservations Reopen Ahead of the 1 October Reveal",
+      "time": "Tue, 22 Sep 2026 20:45:06",
       "sentiment": 0
     },
     {
@@ -642,14 +648,14 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Not Palantir. Not Micron. The $325 Billion Nvidia Partner That Jim Cramer Just Called a \"Must Buy\" Stock",
-      "time": "Wed, 23 Sep 2026 13:52:17",
+      "title": "Palantir Technologies Inc Stock (PLTR) Opened Up by 3.58% on Sep 23: Key Drivers Unveiled",
+      "time": "Wed, 23 Sep 2026 13:47:20",
       "sentiment": 0
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Technologies Inc Stock (PLTR) Opened Up by 3.58% on Sep 23: Key Drivers Unveiled",
-      "time": "Wed, 23 Sep 2026 13:47:20",
+      "title": "Not Palantir. Not Micron. The $325 Billion Nvidia Partner That Jim Cramer Just Called a \"Must Buy\" Stock",
+      "time": "Wed, 23 Sep 2026 13:52:17",
       "sentiment": 0
     },
     {
@@ -744,8 +750,8 @@
     },
     {
       "ticker": "BABA",
-      "title": "Alibaba in focus as Citi weighs in accelerating AI momentum, ups spending forecast (BABA:NYSE)",
-      "time": "Wed, 23 Sep 2026 12:40:02",
+      "title": "Alibaba Group Holding Ltd Stock (BABA) Opened Down by 4.04% on Sep 23: What Signal Does It Send?",
+      "time": "Wed, 23 Sep 2026 13:47:20",
       "sentiment": 0
     },
     {
@@ -756,14 +762,14 @@
     },
     {
       "ticker": "CSCO",
-      "title": "Cisco Sinks 6% While the Tech Sector Rises; Arista and Ciena Hold Flat",
-      "time": "Tue, 22 Sep 2026 17:06:44",
+      "title": "Piper Sandler cuts Cisco price target to $125 on growth peak fears",
+      "time": "Wed, 23 Sep 2026 14:02:05",
       "sentiment": 0
     },
     {
       "ticker": "CSCO",
-      "title": "Piper Sandler cuts Cisco price target to $125 on growth peak fears",
-      "time": "Wed, 23 Sep 2026 14:02:05",
+      "title": "Cisco Sinks 6% While the Tech Sector Rises; Arista and Ciena Hold Flat",
+      "time": "Tue, 22 Sep 2026 17:06:44",
       "sentiment": 0
     },
     {
@@ -895,13 +901,13 @@
     {
       "ticker": "AAPL",
       "title": "Apple Inc. (AAPL) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 11:15:12",
+      "time": "Wed, 23 Sep 2026 09:59:43",
       "sentiment": 0
     },
     {
       "ticker": "AAPL",
       "title": "AAPL: Apple Nears $5 Trillion on a Different AI Bet. It’s Macs Against Data Centers.",
-      "time": "Wed, 23 Sep 2026 06:07:00",
+      "time": "Wed, 23 Sep 2026 06:07:49",
       "sentiment": 0
     },
     {
@@ -930,20 +936,20 @@
     },
     {
       "ticker": "NVDA",
-      "title": "Insider Alert: Nvidia Director Dumps $300 Million in Stock",
-      "time": "Wed, 23 Sep 2026 12:24:58",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NVDA",
       "title": "Not Palantir. Not Micron. The $325 Billion Nvidia Partner That Jim Cramer Just Called a \"Must Buy\" Stock",
       "time": "Wed, 23 Sep 2026 13:52:17",
       "sentiment": 0
     },
     {
+      "ticker": "NVDA",
+      "title": "Insider Alert: Nvidia Director Dumps $300 Million in Stock",
+      "time": "Wed, 23 Sep 2026 12:24:58",
+      "sentiment": 0
+    },
+    {
       "ticker": "GOOG",
-      "title": "Meta Platforms, Inc. (META) stock price, news, quote and history",
-      "time": "Wed, 23 Sep 2026 13:21:12",
+      "title": "Prediction: The Cheapest Mega Cap in the AI Trade, Alphabet Could Hit $600 in 2027",
+      "time": "Wed, 23 Sep 2026 13:30:31",
       "sentiment": 0
     },
     {
@@ -960,8 +966,8 @@
     },
     {
       "ticker": "GOOG",
-      "title": "Prediction: The Cheapest Mega Cap in the AI Trade, Alphabet Could Hit $600 in 2027",
-      "time": "Wed, 23 Sep 2026 13:30:31",
+      "title": "UK watchdog wants Google to offer broader search choices, including AI (GOOG:NASDAQ)",
+      "time": "Wed, 23 Sep 2026 10:00:28",
       "sentiment": 0
     },
     {
@@ -978,8 +984,8 @@
     },
     {
       "ticker": "AVGO",
-      "title": "A top chip stock analyst sees big things for Nvidia, Broadcom. How his case aligns with ours",
-      "time": "Tue, 22 Sep 2026 20:39:06",
+      "title": "Two Chip Giants, Two Very Different Dividends. Which One Pays You Better?",
+      "time": "Wed, 23 Sep 2026 14:30:00",
       "sentiment": 0
     },
     {
@@ -1038,6 +1044,12 @@
     },
     {
       "ticker": "TMO",
+      "title": "Some new cell-culture mixes showed up to 73% higher protein concentration than tested benchmarks.",
+      "time": "Wed, 23 Sep 2026 12:30:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
       "title": "Thermo Fisher Scientific stock holds near its yearly high",
       "time": "Wed, 23 Sep 2026 12:32:10",
       "sentiment": 0
@@ -1052,12 +1064,6 @@
       "ticker": "TMO",
       "title": "Thermo Fisher stock rises 0.30 percent at the close",
       "time": "Tue, 22 Sep 2026 20:37:12",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TMO",
-      "title": "Thermo Fisher Scientific Launches Gibco™ CHO-K1 Catalog Panel Media and Feed to Accelerate Biologics Development",
-      "time": "Wed, 23 Sep 2026 12:30:00",
       "sentiment": 0
     },
     {
@@ -1266,14 +1272,14 @@
     },
     {
       "ticker": "META",
-      "title": "What's Going On With Meta Platforms Stock Wednesday?",
-      "time": "Wed, 23 Sep 2026 13:19:53",
+      "title": "Meta stock reaches 52-week high at $761.27",
+      "time": "Wed, 23 Sep 2026 14:00:08",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Meta stock reaches 52-week high at $761.27",
-      "time": "Wed, 23 Sep 2026 14:00:08",
+      "title": "What's Going On With Meta Platforms Stock Wednesday?",
+      "time": "Wed, 23 Sep 2026 13:19:53",
       "sentiment": 0
     },
     {
@@ -1286,12 +1292,6 @@
       "ticker": "META",
       "title": "Meta Stock Price Forecast: Stalled Twice at $750, Is the Rally Over?",
       "time": "Wed, 23 Sep 2026 13:13:23",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Meta is breaking out after introducing Muse AI agent. Where the stock is going, according to the charts",
-      "time": "Tue, 22 Sep 2026 19:46:16",
       "sentiment": 0
     }
   ]
