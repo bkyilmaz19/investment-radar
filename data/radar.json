@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "23.09.2026 23:27 CEST",
+  "generated_at_local": "23.09.2026 23:41 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -11,7 +11,7 @@
       "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.94%, 5T +3.65%, relatives Volumen 1.18x, ATR 3.41%",
-      "catalyst": "Nasdaq 100 (QQQ) Hits All-Time High As Chipmakers Surge While Financial And Energy Stocks Drag",
+      "catalyst": "NXP Semiconductors stock rises as earnings beat estimates",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
       "entry_note": "Premarket-Gap +1.77%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 2.05,
@@ -26,7 +26,7 @@
       "live_gap_pct": "+1.32%",
       "regular_move_pct": "-0.37%",
       "avg_dollar_volume": 767681696.13,
-      "bar_age_minutes": 37.4,
+      "bar_age_minutes": 10.5,
       "vwap": 234.61,
       "opening_range_high": 236.56,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "+3.29%",
       "regular_move_pct": "-0.95%",
       "avg_dollar_volume": 1185476752.99,
-      "bar_age_minutes": 2.1,
+      "bar_age_minutes": 16.5,
       "vwap": 408.74,
       "opening_range_high": 414.8,
       "opening_range_ready": true,
@@ -104,7 +104,7 @@
       "live_gap_pct": "+2.07%",
       "regular_move_pct": "+0.76%",
       "avg_dollar_volume": 1699730532.51,
-      "bar_age_minutes": 2.4,
+      "bar_age_minutes": 6.8,
       "vwap": 185.95,
       "opening_range_high": 187.87,
       "opening_range_ready": true,
@@ -123,29 +123,29 @@
       }
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
+      "ticker": "WBD",
+      "name": "Warner Bros. Discovery",
       "score": 84,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +5.00%, 5T +18.17%, relatives Volumen 1.15x, ATR 4.18%",
-      "catalyst": "Micron Price Target Raised to $1,300 by Citi on Stronger DRAM Pricing, Undersupply",
+      "thesis": "1T +10.79%, 5T +9.61%, relatives Volumen 9.74x, ATR 1.72%",
+      "catalyst": "Warner Bros Discovery Stock Surges on Settlement Progress in Paramount Merger Suit",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.38%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.51,
-      "target_pct": 4.76,
+      "entry_note": "Premarket-Gap +0.03%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.03,
+      "target_pct": 2.0,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+5.00%",
-      "change_5d": "+18.17%",
-      "volume_ratio": "1.15x",
-      "atr_pct": "4.18%",
-      "gap_pct": "+0.38%",
-      "premarket_move_pct": "+0.71%",
-      "live_gap_pct": "-2.26%",
-      "regular_move_pct": "-2.59%",
-      "avg_dollar_volume": 24544384832.6,
-      "bar_age_minutes": 2.4,
-      "vwap": 1078.97,
-      "opening_range_high": 1105.5,
+      "change_1d": "+10.79%",
+      "change_5d": "+9.61%",
+      "volume_ratio": "9.74x",
+      "atr_pct": "1.72%",
+      "gap_pct": "+0.03%",
+      "premarket_move_pct": "+0.45%",
+      "live_gap_pct": "-0.16%",
+      "regular_move_pct": "-0.18%",
+      "avg_dollar_volume": 868740767.58,
+      "bar_age_minutes": 6.0,
+      "vwap": 30.75,
+      "opening_range_high": 30.82,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
@@ -182,7 +182,7 @@
       "live_gap_pct": "+3.67%",
       "regular_move_pct": "+2.98%",
       "avg_dollar_volume": 4820352111.37,
-      "bar_age_minutes": 2.4,
+      "bar_age_minutes": 1.8,
       "vwap": 190.8,
       "opening_range_high": 193.33,
       "opening_range_ready": true,
@@ -232,14 +232,14 @@
     },
     {
       "ticker": "NXPI",
-      "title": "Nasdaq 100 (QQQ) Hits All-Time High As Chipmakers Surge While Financial And Energy Stocks Drag",
-      "time": "Wed, 23 Sep 2026 19:36:00",
+      "title": "NXP Semiconductors stock rises as earnings beat estimates",
+      "time": "Wed, 23 Sep 2026 11:11:08",
       "sentiment": 1
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors stock rises as earnings beat estimates",
-      "time": "Wed, 23 Sep 2026 11:11:08",
+      "title": "Nasdaq 100 (QQQ) Hits All-Time High As Chipmakers Surge While Financial And Energy Stocks Drag",
+      "time": "Wed, 23 Sep 2026 19:36:00",
       "sentiment": 1
     },
     {
@@ -255,9 +255,15 @@
       "sentiment": 1
     },
     {
+      "ticker": "BABA",
+      "title": "What Does Alibaba (BABA) Facing A Securities Fraud Probe Mean Now?",
+      "time": "Wed, 23 Sep 2026 21:18:06",
+      "sentiment": -1
+    },
+    {
       "ticker": "DAL",
-      "title": "Delta Air Lines Inc. stock underperforms Wednesday when compared to competitors",
-      "time": "Wed, 23 Sep 2026 20:48:00",
+      "title": "United Airlines Holdings Inc. stock underperforms Wednesday when compared to competitors",
+      "time": "Wed, 23 Sep 2026 20:30:00",
       "sentiment": -1
     },
     {
@@ -321,12 +327,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "MU",
-      "title": "Micron Price Target Raised to $1,300 by Citi on Stronger DRAM Pricing, Undersupply",
-      "time": "Wed, 23 Sep 2026 17:15:00",
-      "sentiment": 1
-    },
-    {
       "ticker": "KLAC",
       "title": "KLA (KLAC) Stock Looks Expensive Despite Strong Semiconductor Growth",
       "time": "Wed, 23 Sep 2026 09:38:43",
@@ -372,6 +372,12 @@
       "ticker": "ADI",
       "title": "Analog Devices stock rises as data center growth broadens",
       "time": "Wed, 23 Sep 2026 12:05:06",
+      "sentiment": 1
+    },
+    {
+      "ticker": "TXN",
+      "title": "Satellite Bluetooth startup Hubble Network raises $200 million at $1.6 billion valuation",
+      "time": "Wed, 23 Sep 2026 18:14:24",
       "sentiment": 1
     },
     {
@@ -430,26 +436,20 @@
     },
     {
       "ticker": "SHOP",
+      "title": "SHOP Stock Drops Over 7% On Meta Pay-Muse Image — Why Rosenblatt Says Shopify Selloff Is Unjustified",
+      "time": "Wed, 23 Sep 2026 18:18:51",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SHOP",
       "title": "Why Is Shopify Stock Falling on Wednesday?",
       "time": "Wed, 23 Sep 2026 17:49:54",
       "sentiment": 0
     },
     {
       "ticker": "SHOP",
-      "title": "Shopify (SHOP) Moves 7.1% Higher: Will This Strength Last?",
-      "time": "Wed, 23 Sep 2026 17:54:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SHOP",
       "title": "Shopify to Use Meta’s Muse for Agentic Checkout",
       "time": "Wed, 23 Sep 2026 19:26:53",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SHOP",
-      "title": "SHOP Stock Drops Over 7% On Meta Pay-Muse Image — Why Rosenblatt Says Shopify Selloff Is Unjustified",
-      "time": "Wed, 23 Sep 2026 18:18:51",
       "sentiment": 0
     },
     {
@@ -462,6 +462,12 @@
       "ticker": "SHOP",
       "title": "Shopify Sinks 5%, Meta Ticks Up as Muse Deal Rally Unwinds; Amazon Slips",
       "time": "Wed, 23 Sep 2026 15:06:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SHOP",
+      "title": "Shopify (SHOP) Moves 7.1% Higher: Will This Strength Last?",
+      "time": "Wed, 23 Sep 2026 17:54:00",
       "sentiment": 0
     },
     {
@@ -549,6 +555,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "NXPI",
+      "title": "GOLD,DAR,SPFI,NXPI,PWR,IT,BYD,PRGO,FSK | Stock Prices | Quote Comparison - Yahoo Finance",
+      "time": "Wed, 23 Sep 2026 08:51:26",
+      "sentiment": 0
+    },
+    {
       "ticker": "PYPL",
       "title": "PYPL Showered Owners With Cash. The Stock Still Lagged The Market",
       "time": "Wed, 23 Sep 2026 19:36:49",
@@ -564,12 +576,6 @@
       "ticker": "PYPL",
       "title": "PayPal (NASDAQ: PYPL) Stock Faces Prolonged Recovery Risk As Turnaround Stretches To 2028",
       "time": "Wed, 23 Sep 2026 12:38:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BABA",
-      "title": "Citi Revamps Alibaba Stock Forecast",
-      "time": "Wed, 23 Sep 2026 17:35:59",
       "sentiment": 0
     },
     {
@@ -592,8 +598,8 @@
     },
     {
       "ticker": "BABA",
-      "title": "Citi Doubles Down on Alibaba Stock as AI Ambitions Accelerate",
-      "time": "Wed, 23 Sep 2026 19:28:56",
+      "title": "Citi Revamps Alibaba Stock Forecast",
+      "time": "Wed, 23 Sep 2026 17:35:59",
       "sentiment": 0
     },
     {
@@ -604,14 +610,14 @@
     },
     {
       "ticker": "LLY",
-      "title": "Eli Lilly Keeps Pulling Ahead—Can Novo Nordisk Catch Up?",
-      "time": "Wed, 23 Sep 2026 13:18:14",
+      "title": "Eli Lilly Vs. Pfizer in 2027: One Is a Much Better Place to Park Your Pharmaceutical Capital Next Year",
+      "time": "Wed, 23 Sep 2026 15:32:35",
       "sentiment": 0
     },
     {
       "ticker": "LLY",
-      "title": "Eli Lilly Vs. Pfizer in 2027: One Is a Much Better Place to Park Your Pharmaceutical Capital Next Year",
-      "time": "Wed, 23 Sep 2026 15:32:35",
+      "title": "Eli Lilly Keeps Pulling Ahead—Can Novo Nordisk Catch Up?",
+      "time": "Wed, 23 Sep 2026 13:18:14",
       "sentiment": 0
     },
     {
@@ -652,6 +658,12 @@
     },
     {
       "ticker": "DAL",
+      "title": "Redburn Says Its Southwest Sell Thesis Has “Played Out.” So Why Does It Still Prefer Delta and United?",
+      "time": "Wed, 23 Sep 2026 19:38:47",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DAL",
       "title": "Delta Air Lines, Inc. (DAL) stock price, news, quote and history - Yahoo Finance",
       "time": "Wed, 23 Sep 2026 03:48:38",
       "sentiment": 0
@@ -660,12 +672,6 @@
       "ticker": "DAL",
       "title": "Transportation Stocks Worth Watching - September 23rd",
       "time": "Wed, 23 Sep 2026 19:13:55",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DAL",
-      "title": "Delta Air Lines stock gains 1.72 percent as earnings near",
-      "time": "Wed, 23 Sep 2026 10:13:06",
       "sentiment": 0
     },
     {
@@ -688,20 +694,26 @@
     },
     {
       "ticker": "DHR",
-      "title": "Danaher Corp. stock holds near USD 200 before October results",
-      "time": "Wed, 23 Sep 2026 10:05:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DHR",
       "title": "Danaher stock rises 0.16 percent ahead of the open",
       "time": "Wed, 23 Sep 2026 05:15:33",
       "sentiment": 0
     },
     {
+      "ticker": "DHR",
+      "title": "Danaher stock ends the day 2.43 percent higher at USD 221.09",
+      "time": "Wed, 23 Sep 2026 21:29:20",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DHR",
+      "title": "Huge News For Novo Nordisk Fans",
+      "time": "Wed, 23 Sep 2026 15:09:21",
+      "sentiment": 0
+    },
+    {
       "ticker": "NVDA",
       "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 14:23:04",
+      "time": "Wed, 23 Sep 2026 14:19:39",
       "sentiment": 0
     },
     {
@@ -712,20 +724,20 @@
     },
     {
       "ticker": "NVDA",
-      "title": "Forget Waiting for a Dip: Nvidia (NVDA) Is Worth Buying Today Based on The Motley Fool's Long-Term Conviction Ratings",
-      "time": "Wed, 23 Sep 2026 20:34:06",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NVDA",
       "title": "Not Palantir. Not Micron. The $325 Billion Nvidia Partner That Jim Cramer Just Called a \"Must Buy\" Stock",
       "time": "Wed, 23 Sep 2026 14:47:00",
       "sentiment": 0
     },
     {
       "ticker": "NVDA",
-      "title": "Nvidia Scores Winning Streak: Trump-Xi Meeting, China Sales Outlook In Focus",
-      "time": "Wed, 23 Sep 2026 17:00:00",
+      "title": "Forget Waiting for a Dip: Nvidia (NVDA) Is Worth Buying Today Based on The Motley Fool's Long-Term Conviction Ratings",
+      "time": "Wed, 23 Sep 2026 20:34:06",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NVDA",
+      "title": "NVIDIA(NVDA.US) Officer Sells US$6.79 Million in Common Stock",
+      "time": "Wed, 23 Sep 2026 21:06:13",
       "sentiment": 0
     },
     {
@@ -798,6 +810,12 @@
       "ticker": "MU",
       "title": "Here's A Way To Cut Risk On This Top-Performing Stock",
       "time": "Wed, 23 Sep 2026 16:11:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MU",
+      "title": "Up 275% This Year, Micron (MU) Is Still a No-Brainer Buy Before September 30",
+      "time": "Wed, 23 Sep 2026 15:35:00",
       "sentiment": 0
     },
     {
@@ -916,8 +934,8 @@
     },
     {
       "ticker": "TMO",
-      "title": "Healthcare Stocks To Add to Your Watchlist - September 23rd",
-      "time": "Wed, 23 Sep 2026 18:13:37",
+      "title": "Thermo Fisher, Bird, BRS at 52-Week Highs on News",
+      "time": "Wed, 23 Sep 2026 15:13:00",
       "sentiment": 0
     },
     {
@@ -930,6 +948,12 @@
       "ticker": "WMT",
       "title": "Walmart's new Mesquite store creates more than 150 jobs.",
       "time": "Wed, 23 Sep 2026 17:01:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "WMT",
+      "title": "Walmart Just Posted Its Lowest Operating Margin in Nine Years. Here’s What to Expect Next.",
+      "time": "Wed, 23 Sep 2026 12:15:11",
       "sentiment": 0
     },
     {
@@ -948,12 +972,6 @@
       "ticker": "WMT",
       "title": "Walmart Inc. (WMT) Stock Forecasts",
       "time": "Wed, 23 Sep 2026 19:23:42",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WMT",
-      "title": "3 Stocks to Buy and Hold Even if There's a Stock Market Sell-Off This Fall",
-      "time": "Wed, 23 Sep 2026 03:00:00",
       "sentiment": 0
     },
     {
@@ -994,14 +1012,14 @@
     },
     {
       "ticker": "WBD",
-      "title": "Let's take a look at the S&P500 stocks that are experiencing unusual volume in today's session.",
-      "time": "Wed, 23 Sep 2026 17:05:00",
+      "title": "How Wall Street Won the Paramount–WBD Deal",
+      "time": "Wed, 23 Sep 2026 20:37:03",
       "sentiment": 0
     },
     {
       "ticker": "WBD",
-      "title": "Paramount Eyes Elon Musk Investment During Warner Bros. Deal Talks - Warner Bros. Discovery (NASDAQ:WBD)",
-      "time": "Wed, 23 Sep 2026 17:38:28",
+      "title": "Let's take a look at the S&P500 stocks that are experiencing unusual volume in today's session.",
+      "time": "Wed, 23 Sep 2026 17:05:00",
       "sentiment": 0
     },
     {
@@ -1078,8 +1096,8 @@
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices stock gains 1.94 percent at the close",
-      "time": "Tue, 22 Sep 2026 21:38:16",
+      "title": "Analog Devices Insider Sold Shares Worth $573,285, According to a Recent SEC Filing",
+      "time": "Wed, 23 Sep 2026 20:39:30",
       "sentiment": 0
     },
     {
@@ -1092,12 +1110,6 @@
       "ticker": "TXN",
       "title": "Texas Instruments stock gains 1.68 percent ahead of the open",
       "time": "Wed, 23 Sep 2026 06:46:26",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TXN",
-      "title": "Texas Instruments stock gains 1.68 percent at the close",
-      "time": "Tue, 22 Sep 2026 21:33:19",
       "sentiment": 0
     },
     {
@@ -1210,8 +1222,8 @@
     },
     {
       "ticker": "BLK",
-      "title": "BlackRock reports 3.42% stake in Public Policy Holding By Investing.com",
-      "time": "Wed, 23 Sep 2026 16:12:31",
+      "title": "GCash owner Mynt secures over 20 cornerstone investors for potentially biggest Philippine IPO",
+      "time": "Wed, 23 Sep 2026 15:49:51",
       "sentiment": 0
     },
     {
