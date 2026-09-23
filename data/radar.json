@@ -1,9 +1,9 @@
 {
-  "generated_at_local": "23.09.2026 22:43 CEST",
+  "generated_at_local": "23.09.2026 22:55 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
-  "scanned_count": 201,
-  "summary": "Gemischt / selektiv. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "scanned_count": 200,
+  "summary": "Gemischt / selektiv. Premarket-Daten einbezogen, soweit verfügbar. 200 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
       "ticker": "NXPI",
@@ -11,7 +11,7 @@
       "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.94%, 5T +3.65%, relatives Volumen 1.18x, ATR 3.41%",
-      "catalyst": "NXP Semiconductors N.V. stock outperforms competitors on strong trading day",
+      "catalyst": "NXP Semiconductors stock rises as earnings beat estimates",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
       "entry_note": "Premarket-Gap +1.77%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 2.05,
@@ -26,7 +26,7 @@
       "live_gap_pct": "+1.32%",
       "regular_move_pct": "-0.37%",
       "avg_dollar_volume": 767681696.13,
-      "bar_age_minutes": 4.7,
+      "bar_age_minutes": 16.4,
       "vwap": 234.61,
       "opening_range_high": 236.56,
       "opening_range_ready": true,
@@ -38,45 +38,6 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "ADI",
-      "name": "Analog Devices",
-      "score": 90,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.94%, 5T +6.09%, relatives Volumen 0.98x, ATR 2.90%",
-      "catalyst": "Analog Devices stock rises as data center growth broadens",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +2.01%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.74,
-      "target_pct": 3.31,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.94%",
-      "change_5d": "+6.09%",
-      "volume_ratio": "0.98x",
-      "atr_pct": "2.90%",
-      "gap_pct": "+2.01%",
-      "premarket_move_pct": "+0.58%",
-      "live_gap_pct": "+0.61%",
-      "regular_move_pct": "-0.93%",
-      "avg_dollar_volume": 1303033575.13,
-      "bar_age_minutes": 8.4,
-      "vwap": 383.46,
-      "opening_range_high": 390.06,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -104,7 +65,7 @@
       "live_gap_pct": "+5.27%",
       "regular_move_pct": "+4.18%",
       "avg_dollar_volume": 2892809045.09,
-      "bar_age_minutes": 3.4,
+      "bar_age_minutes": 5.1,
       "vwap": 258.81,
       "opening_range_high": 254.16,
       "opening_range_ready": true,
@@ -143,7 +104,7 @@
       "live_gap_pct": "+3.29%",
       "regular_move_pct": "-0.95%",
       "avg_dollar_volume": 1185476752.99,
-      "bar_age_minutes": 8.4,
+      "bar_age_minutes": 9.9,
       "vwap": 408.74,
       "opening_range_high": 414.8,
       "opening_range_ready": true,
@@ -182,7 +143,7 @@
       "live_gap_pct": "+2.07%",
       "regular_move_pct": "+0.76%",
       "avg_dollar_volume": 1699730532.51,
-      "bar_age_minutes": 3.4,
+      "bar_age_minutes": 3.1,
       "vwap": 185.95,
       "opening_range_high": 187.87,
       "opening_range_ready": true,
@@ -194,6 +155,45 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 84,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +5.00%, 5T +18.17%, relatives Volumen 1.15x, ATR 4.18%",
+      "catalyst": "Micron Price Target Raised to $1,300 by Citi on Stronger DRAM Pricing, Undersupply",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.38%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.51,
+      "target_pct": 4.76,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+5.00%",
+      "change_5d": "+18.17%",
+      "volume_ratio": "1.15x",
+      "atr_pct": "4.18%",
+      "gap_pct": "+0.38%",
+      "premarket_move_pct": "+0.71%",
+      "live_gap_pct": "-2.26%",
+      "regular_move_pct": "-2.59%",
+      "avg_dollar_volume": 24544384832.6,
+      "bar_age_minutes": 5.1,
+      "vwap": 1078.97,
+      "opening_range_high": 1105.5,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -232,14 +232,14 @@
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors N.V. stock outperforms competitors on strong trading day",
-      "time": "Tue, 22 Sep 2026 20:47:00",
+      "title": "NXP Semiconductors stock rises as earnings beat estimates",
+      "time": "Wed, 23 Sep 2026 11:11:08",
       "sentiment": 1
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors stock rises as earnings beat estimates",
-      "time": "Wed, 23 Sep 2026 11:11:08",
+      "title": "Nasdaq 100 (QQQ) Hits All-Time High As Chipmakers Surge While Financial And Energy Stocks Drag",
+      "time": "Wed, 23 Sep 2026 19:36:00",
       "sentiment": 1
     },
     {
@@ -256,9 +256,9 @@
     },
     {
       "ticker": "DAL",
-      "title": "Delta Air Lines Inc. stock outperforms competitors on strong trading day",
-      "time": "Tue, 22 Sep 2026 20:48:00",
-      "sentiment": 1
+      "title": "United Airlines Holdings Inc. stock underperforms Wednesday when compared to competitors",
+      "time": "Wed, 23 Sep 2026 20:30:00",
+      "sentiment": -1
     },
     {
       "ticker": "ISRG",
@@ -282,6 +282,12 @@
       "ticker": "DHR",
       "title": "Is Revvity Stock Outperforming the Dow?",
       "time": "Wed, 23 Sep 2026 10:33:13",
+      "sentiment": 1
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Nvidia Stock Set For 40% Surge: 3 Catalysts That Could Drive the Next Big Move",
+      "time": "Wed, 23 Sep 2026 13:00:24",
       "sentiment": 1
     },
     {
@@ -366,12 +372,6 @@
       "ticker": "ADI",
       "title": "Analog Devices stock rises as data center growth broadens",
       "time": "Wed, 23 Sep 2026 12:05:06",
-      "sentiment": 1
-    },
-    {
-      "ticker": "ADI",
-      "title": "Microchip Technology Inc. stock outperforms competitors on strong trading day",
-      "time": "Tue, 22 Sep 2026 20:52:00",
       "sentiment": 1
     },
     {
@@ -526,6 +526,12 @@
     },
     {
       "ticker": "SOFI",
+      "title": "SOFI Stock Slips As Insider Files Form 144 To Sell",
+      "time": "Wed, 23 Sep 2026 20:47:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SOFI",
       "title": "72% of Americans would accept slower financial progress for family time and vacations.",
       "time": "Wed, 23 Sep 2026 13:20:26",
       "sentiment": 0
@@ -537,12 +543,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "SOFI",
-      "title": "SoFi Technologies Tokenized Stock (Robinhood): Latest News, Social Media Updates and Insights",
-      "time": "Wed, 23 Sep 2026 17:27:27",
-      "sentiment": 0
-    },
-    {
       "ticker": "NXPI",
       "title": "State Street Corp Boosts Position in NXP Semiconductors N.V. $NXPI",
       "time": "Wed, 23 Sep 2026 07:41:38",
@@ -550,14 +550,14 @@
     },
     {
       "ticker": "NXPI",
-      "title": "Ambarella speculated to have a rival suitor - Betaville",
-      "time": "Wed, 23 Sep 2026 17:56:15",
+      "title": "The Technical Signals Behind (NXPI) That Institutions Follow",
+      "time": "Tue, 22 Sep 2026 21:14:01",
       "sentiment": 0
     },
     {
       "ticker": "NXPI",
-      "title": "The Technical Signals Behind (NXPI) That Institutions Follow",
-      "time": "Tue, 22 Sep 2026 21:14:01",
+      "title": "Ambarella speculated to have a rival suitor - Betaville",
+      "time": "Wed, 23 Sep 2026 17:56:15",
       "sentiment": 0
     },
     {
@@ -582,12 +582,6 @@
       "ticker": "PYPL",
       "title": "PayPal (NASDAQ: PYPL) Stock Faces Prolonged Recovery Risk As Turnaround Stretches To 2028",
       "time": "Wed, 23 Sep 2026 12:38:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PYPL",
-      "title": "Mark Zuckerberg Buying PayPal Could Save Meta '5-10 Years' in Super-App Race Against Elon Musk, Says Hedge Fund Manager",
-      "time": "Wed, 23 Sep 2026 12:29:04",
       "sentiment": 0
     },
     {
@@ -676,8 +670,8 @@
     },
     {
       "ticker": "DAL",
-      "title": "Delta Air Lines (DAL) Stock Moves 1.72%: What You Should Know",
-      "time": "Tue, 22 Sep 2026 21:50:05",
+      "title": "Delta Air Lines, Inc. (DAL) stock price, news, quote and history - Yahoo Finance",
+      "time": "Wed, 23 Sep 2026 03:48:38",
       "sentiment": 0
     },
     {
@@ -736,26 +730,20 @@
     },
     {
       "ticker": "NVDA",
-      "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 14:19:39",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NVDA",
       "title": "President Trump Sells Millions in Microsoft and Amazon, Buys Nvidia Stock",
       "time": "Wed, 23 Sep 2026 12:10:57",
       "sentiment": 0
     },
     {
       "ticker": "NVDA",
-      "title": "Nvidia Scores Winning Streak: Trump-Xi Meeting, China Sales Outlook In Focus",
-      "time": "Wed, 23 Sep 2026 17:00:00",
+      "title": "Not Palantir. Not Micron. The $325 Billion Nvidia Partner That Jim Cramer Just Called a \"Must Buy\" Stock",
+      "time": "Wed, 23 Sep 2026 14:47:00",
       "sentiment": 0
     },
     {
       "ticker": "NVDA",
-      "title": "Not Palantir. Not Micron. The $325 Billion Nvidia Partner That Jim Cramer Just Called a \"Must Buy\" Stock",
-      "time": "Wed, 23 Sep 2026 14:47:00",
+      "title": "Nvidia Scores Winning Streak: Trump-Xi Meeting, China Sales Outlook In Focus",
+      "time": "Wed, 23 Sep 2026 17:00:00",
       "sentiment": 0
     },
     {
@@ -802,14 +790,14 @@
     },
     {
       "ticker": "AVGO",
-      "title": "AVGO Stock Jumps — JPMorgan Says Investors Should Be ‘Aggressive Buyers’ Of Broadcom At Current Levels",
-      "time": "Wed, 23 Sep 2026 07:09:42",
+      "title": "Broadcom: Hard To Ignore The Numbers, Buy Before The Market Catches Up",
+      "time": "Wed, 23 Sep 2026 07:21:08",
       "sentiment": 0
     },
     {
       "ticker": "AVGO",
-      "title": "Broadcom: Hard To Ignore The Numbers, Buy Before The Market Catches Up",
-      "time": "Wed, 23 Sep 2026 07:21:08",
+      "title": "Two Chip Giants, Two Very Different Dividends. Which One Pays You Better?",
+      "time": "Wed, 23 Sep 2026 14:30:00",
       "sentiment": 0
     },
     {
@@ -928,6 +916,12 @@
     },
     {
       "ticker": "TMO",
+      "title": "Thermo Fisher Scientific stock gains at the close",
+      "time": "Wed, 23 Sep 2026 20:30:08",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
       "title": "Thermo Fisher Scientific stock holds near its yearly high",
       "time": "Wed, 23 Sep 2026 12:32:10",
       "sentiment": 0
@@ -948,12 +942,6 @@
       "ticker": "TMO",
       "title": "Healthcare Stocks To Add to Your Watchlist - September 23rd",
       "time": "Wed, 23 Sep 2026 18:13:37",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TMO",
-      "title": "Thermo Fisher, Bird, BRS at 52-Week Highs on News",
-      "time": "Wed, 23 Sep 2026 15:13:00",
       "sentiment": 0
     },
     {
@@ -982,14 +970,14 @@
     },
     {
       "ticker": "WMT",
-      "title": "Walmart Just Posted Its Lowest Operating Margin in Nine Years. Here’s What to Expect Next.",
-      "time": "Wed, 23 Sep 2026 12:15:11",
+      "title": "Walmart Inc. (WMT) Stock Forecasts",
+      "time": "Wed, 23 Sep 2026 19:23:42",
       "sentiment": 0
     },
     {
       "ticker": "WMT",
-      "title": "Walmart Inc. (WMT) Stock Forecasts",
-      "time": "Wed, 23 Sep 2026 19:23:42",
+      "title": "3 Stocks to Buy and Hold Even if There's a Stock Market Sell-Off This Fall",
+      "time": "Wed, 23 Sep 2026 03:00:00",
       "sentiment": 0
     },
     {
@@ -1014,12 +1002,6 @@
       "ticker": "TJX",
       "title": "TJX Companies stock rises ahead of the open after a 1.5 percent gain",
       "time": "Wed, 23 Sep 2026 06:28:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TJX",
-      "title": "TJX Companies stock ends the day higher at the close",
-      "time": "Tue, 22 Sep 2026 20:51:33",
       "sentiment": 0
     },
     {
@@ -1110,6 +1092,12 @@
       "ticker": "ADI",
       "title": "Analog Devices stock gains 1.94 percent at the close",
       "time": "Tue, 22 Sep 2026 21:38:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADI",
+      "title": "Analog Devices Insider Sold Shares Worth $573,285, According to a Recent SEC Filing",
+      "time": "Wed, 23 Sep 2026 20:39:30",
       "sentiment": 0
     },
     {
@@ -1204,12 +1192,6 @@
     },
     {
       "ticker": "BLK",
-      "title": "BLK Stock Gains After-Hours — US Treasury To Offer Two BlackRock ETFs As Options In Trump Accounts",
-      "time": "Tue, 22 Sep 2026 20:49:47",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BLK",
       "title": "Stocks, Bonds Slip as Oil Jump Fuels Fed-Hike Bets",
       "time": "Wed, 23 Sep 2026 18:18:04",
       "sentiment": 0
@@ -1224,6 +1206,12 @@
       "ticker": "BLK",
       "title": "Cox Capital launches tender offers for shares of Blackstone, BlackRock private credit funds at discount to NAV",
       "time": "Wed, 23 Sep 2026 13:05:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BLK",
+      "title": "GCash owner Mynt secures over 20 cornerstone investors for potentially biggest Philippine IPO",
+      "time": "Wed, 23 Sep 2026 15:49:51",
       "sentiment": 0
     },
     {
@@ -1264,8 +1252,8 @@
     },
     {
       "ticker": "ANET",
-      "title": "Cisco Stock Price Forecast: Piper Sandler Price Target Cut Triggers Sell-Off, Can CSCO Stock Still Rise?",
-      "time": "Wed, 23 Sep 2026 09:48:10",
+      "title": "Arista Networks stock gains 2.81 percent at the close",
+      "time": "Wed, 23 Sep 2026 20:32:18",
       "sentiment": 0
     }
   ]
