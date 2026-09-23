@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "23.09.2026 23:11 CEST",
+  "generated_at_local": "23.09.2026 23:27 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -8,10 +8,10 @@
     {
       "ticker": "NXPI",
       "name": "NXP",
-      "score": 91,
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.94%, 5T +3.65%, relatives Volumen 1.18x, ATR 3.41%",
-      "catalyst": "NXP Semiconductors stock rises as earnings beat estimates",
+      "catalyst": "Nasdaq 100 (QQQ) Hits All-Time High As Chipmakers Surge While Financial And Energy Stocks Drag",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
       "entry_note": "Premarket-Gap +1.77%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 2.05,
@@ -26,7 +26,7 @@
       "live_gap_pct": "+1.32%",
       "regular_move_pct": "-0.37%",
       "avg_dollar_volume": 767681696.13,
-      "bar_age_minutes": 41.4,
+      "bar_age_minutes": 37.4,
       "vwap": 234.61,
       "opening_range_high": 236.56,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "+3.29%",
       "regular_move_pct": "-0.95%",
       "avg_dollar_volume": 1185476752.99,
-      "bar_age_minutes": 0.6,
+      "bar_age_minutes": 2.1,
       "vwap": 408.74,
       "opening_range_high": 414.8,
       "opening_range_ready": true,
@@ -104,7 +104,7 @@
       "live_gap_pct": "+2.07%",
       "regular_move_pct": "+0.76%",
       "avg_dollar_volume": 1699730532.51,
-      "bar_age_minutes": 11.4,
+      "bar_age_minutes": 2.4,
       "vwap": 185.95,
       "opening_range_high": 187.87,
       "opening_range_ready": true,
@@ -143,7 +143,7 @@
       "live_gap_pct": "-2.26%",
       "regular_move_pct": "-2.59%",
       "avg_dollar_volume": 24544384832.6,
-      "bar_age_minutes": 1.4,
+      "bar_age_minutes": 2.4,
       "vwap": 1078.97,
       "opening_range_high": 1105.5,
       "opening_range_ready": true,
@@ -182,7 +182,7 @@
       "live_gap_pct": "+3.67%",
       "regular_move_pct": "+2.98%",
       "avg_dollar_volume": 4820352111.37,
-      "bar_age_minutes": 1.4,
+      "bar_age_minutes": 2.4,
       "vwap": 190.8,
       "opening_range_high": 193.33,
       "opening_range_ready": true,
@@ -232,6 +232,12 @@
     },
     {
       "ticker": "NXPI",
+      "title": "Nasdaq 100 (QQQ) Hits All-Time High As Chipmakers Surge While Financial And Energy Stocks Drag",
+      "time": "Wed, 23 Sep 2026 19:36:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "NXPI",
       "title": "NXP Semiconductors stock rises as earnings beat estimates",
       "time": "Wed, 23 Sep 2026 11:11:08",
       "sentiment": 1
@@ -249,12 +255,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "BABA",
-      "title": "Alibaba Falls 4% as Reported Beijing AI Probe Undercuts Chip Rally; Baidu Eases, JD.com Dips",
-      "time": "Wed, 23 Sep 2026 13:24:00",
-      "sentiment": -1
-    },
-    {
       "ticker": "DAL",
       "title": "Delta Air Lines Inc. stock underperforms Wednesday when compared to competitors",
       "time": "Wed, 23 Sep 2026 20:48:00",
@@ -264,6 +264,12 @@
       "ticker": "ISRG",
       "title": "2 Beaten-Down Stocks to Buy Before They Bounce Back",
       "time": "Tue, 22 Sep 2026 23:33:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "ISRG",
+      "title": "Intuitive Surgical stock gains on new da Vinci approvals",
+      "time": "Wed, 23 Sep 2026 09:12:52",
       "sentiment": 1
     },
     {
@@ -304,14 +310,14 @@
     },
     {
       "ticker": "AVGO",
-      "title": "Broadcom AVGO Stock Reverses to $355 as China Data-Centre Raises $300 Downside Threat",
-      "time": "Wed, 23 Sep 2026 19:19:13",
+      "title": "2 Undervalued Semiconductor Stocks to Watch While the Market Is Skeptical of AI Growth",
+      "time": "Wed, 23 Sep 2026 06:06:20",
       "sentiment": 1
     },
     {
       "ticker": "AVGO",
-      "title": "2 Undervalued Semiconductor Stocks to Watch While the Market Is Skeptical of AI Growth",
-      "time": "Wed, 23 Sep 2026 06:06:20",
+      "title": "Broadcom AVGO Stock Reverses to $355 as China Data-Centre Raises $300 Downside Threat",
+      "time": "Wed, 23 Sep 2026 19:19:13",
       "sentiment": 1
     },
     {
@@ -430,14 +436,20 @@
     },
     {
       "ticker": "SHOP",
-      "title": "SHOP Stock Drops Over 7% On Meta Pay-Muse Image — Why Rosenblatt Says Shopify Selloff Is Unjustified",
-      "time": "Wed, 23 Sep 2026 18:18:51",
+      "title": "Shopify (SHOP) Moves 7.1% Higher: Will This Strength Last?",
+      "time": "Wed, 23 Sep 2026 17:54:00",
       "sentiment": 0
     },
     {
       "ticker": "SHOP",
       "title": "Shopify to Use Meta’s Muse for Agentic Checkout",
       "time": "Wed, 23 Sep 2026 19:26:53",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SHOP",
+      "title": "SHOP Stock Drops Over 7% On Meta Pay-Muse Image — Why Rosenblatt Says Shopify Selloff Is Unjustified",
+      "time": "Wed, 23 Sep 2026 18:18:51",
       "sentiment": 0
     },
     {
@@ -450,12 +462,6 @@
       "ticker": "SHOP",
       "title": "Shopify Sinks 5%, Meta Ticks Up as Muse Deal Rally Unwinds; Amazon Slips",
       "time": "Wed, 23 Sep 2026 15:06:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SHOP",
-      "title": "Shopify (SHOP) Moves 7.1% Higher: Will This Strength Last?",
-      "time": "Wed, 23 Sep 2026 17:54:00",
       "sentiment": 0
     },
     {
@@ -538,20 +544,8 @@
     },
     {
       "ticker": "NXPI",
-      "title": "The Technical Signals Behind (NXPI) That Institutions Follow",
-      "time": "Tue, 22 Sep 2026 21:14:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NXPI",
       "title": "Ambarella speculated to have a rival suitor - Betaville",
       "time": "Wed, 23 Sep 2026 17:56:15",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NXPI",
-      "title": "GOLD,DAR,SPFI,NXPI,PWR,IT,BYD,PRGO,FSK | Stock Prices | Quote Comparison - Yahoo Finance",
-      "time": "Wed, 23 Sep 2026 08:51:26",
       "sentiment": 0
     },
     {
@@ -573,12 +567,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "PYPL",
-      "title": "Mark Zuckerberg Buying PayPal Could Save Meta '5-10 Years' in Super-App Race Against Elon Musk, Says Hedge Fund Manager",
-      "time": "Wed, 23 Sep 2026 12:29:04",
-      "sentiment": 0
-    },
-    {
       "ticker": "BABA",
       "title": "Citi Revamps Alibaba Stock Forecast",
       "time": "Wed, 23 Sep 2026 17:35:59",
@@ -594,6 +582,12 @@
       "ticker": "BABA",
       "title": "Alibaba Stock Jumps After Unveiling New Zhenwu V900 AI Chip and Cloud Expansion",
       "time": "Wed, 23 Sep 2026 14:23:45",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BABA",
+      "title": "Alibaba Group (NYSE:BABA) Shares Down 4.7% - What's Next?",
+      "time": "Wed, 23 Sep 2026 21:25:50",
       "sentiment": 0
     },
     {
@@ -628,14 +622,14 @@
     },
     {
       "ticker": "LLY",
-      "title": "Is Eli Lilly (NYSE:LLY) Worth Watching as Tech Strength Meets Broader Market Caution?",
-      "time": "Wed, 23 Sep 2026 12:30:00",
+      "title": "Eli Lilly stock ends the day 1.64 percent lower",
+      "time": "Wed, 23 Sep 2026 21:05:23",
       "sentiment": 0
     },
     {
       "ticker": "LLY",
-      "title": "Build Your List Of Stocks To Watch With Weight-Loss Giant Lilly, Others On These Top IBD Screens",
-      "time": "Tue, 22 Sep 2026 22:57:00",
+      "title": "Is Eli Lilly (NYSE:LLY) Worth Watching as Tech Strength Meets Broader Market Caution?",
+      "time": "Wed, 23 Sep 2026 12:30:00",
       "sentiment": 0
     },
     {
@@ -693,12 +687,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "ISRG",
-      "title": "Intuitive Surgical stock gains 2.12 percent at the close",
-      "time": "Tue, 22 Sep 2026 21:18:49",
-      "sentiment": 0
-    },
-    {
       "ticker": "DHR",
       "title": "Danaher Corp. stock holds near USD 200 before October results",
       "time": "Wed, 23 Sep 2026 10:05:46",
@@ -708,12 +696,6 @@
       "ticker": "DHR",
       "title": "Danaher stock rises 0.16 percent ahead of the open",
       "time": "Wed, 23 Sep 2026 05:15:33",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DHR",
-      "title": "Huge News For Novo Nordisk Fans",
-      "time": "Wed, 23 Sep 2026 15:09:21",
       "sentiment": 0
     },
     {
@@ -790,8 +772,8 @@
     },
     {
       "ticker": "AVGO",
-      "title": "Broadcom: Hard To Ignore The Numbers, Buy Before The Market Catches Up",
-      "time": "Wed, 23 Sep 2026 07:21:08",
+      "title": "Broadcom (NASDAQ:AVGO) Shares Down 2.6% - Should You Sell?",
+      "time": "Wed, 23 Sep 2026 21:23:41",
       "sentiment": 0
     },
     {
@@ -802,8 +784,8 @@
     },
     {
       "ticker": "MU",
-      "title": "Micron (MU) vs Western Digital (WDC): Which is a Better Stock to Buy",
-      "time": "Wed, 23 Sep 2026 19:41:15",
+      "title": "Jim Cramer Explains Why He Has a “Giant Position” in Micron (MU) for the Charitable Trust",
+      "time": "Wed, 23 Sep 2026 17:44:38",
       "sentiment": 0
     },
     {
@@ -868,14 +850,14 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Technologies Inc Stock (PLTR) Opened Up by 3.58% on Sep 23: Key Drivers Unveiled",
-      "time": "Wed, 23 Sep 2026 13:47:20",
+      "title": "Palantir Stock Rises 3% Despite Losing $875 Million FAA AI Deal: Here’s Why",
+      "time": "Wed, 23 Sep 2026 20:05:29",
       "sentiment": 0
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Stock Rises 3% Despite Losing $875 Million FAA AI Deal: Here’s Why",
-      "time": "Wed, 23 Sep 2026 20:05:29",
+      "title": "Palantir Technologies Inc Stock (PLTR) Opened Up by 3.58% on Sep 23: Key Drivers Unveiled",
+      "time": "Wed, 23 Sep 2026 13:47:20",
       "sentiment": 0
     },
     {
@@ -1012,14 +994,14 @@
     },
     {
       "ticker": "WBD",
-      "title": "How Wall Street Won the Paramount–WBD Deal",
-      "time": "Wed, 23 Sep 2026 20:37:03",
+      "title": "Let's take a look at the S&P500 stocks that are experiencing unusual volume in today's session.",
+      "time": "Wed, 23 Sep 2026 17:05:00",
       "sentiment": 0
     },
     {
       "ticker": "WBD",
-      "title": "Let's take a look at the S&P500 stocks that are experiencing unusual volume in today's session.",
-      "time": "Wed, 23 Sep 2026 17:05:00",
+      "title": "Paramount Eyes Elon Musk Investment During Warner Bros. Deal Talks - Warner Bros. Discovery (NASDAQ:WBD)",
+      "time": "Wed, 23 Sep 2026 17:38:28",
       "sentiment": 0
     },
     {
@@ -1036,8 +1018,8 @@
     },
     {
       "ticker": "FCX",
-      "title": "Freeport-McMoRan Inc. (FCX) latest stock news and headlines",
-      "time": "Wed, 23 Sep 2026 20:57:31",
+      "title": "Freeport-McMoRan Inc. (FCX) Stock Price, News, Quote & History",
+      "time": "Wed, 23 Sep 2026 12:17:08",
       "sentiment": 0
     },
     {
@@ -1054,8 +1036,8 @@
     },
     {
       "ticker": "FCX",
-      "title": "Freeport-McMoRan Inc. (FCX) is Attracting Investor Attention: Here is What You Should Know",
-      "time": "Wed, 23 Sep 2026 13:00:08",
+      "title": "Freeport-McMoRan Inc. (FCX) latest stock news and headlines",
+      "time": "Wed, 23 Sep 2026 20:57:31",
       "sentiment": 0
     },
     {
@@ -1078,6 +1060,12 @@
     },
     {
       "ticker": "ADI",
+      "title": "Analog Devices (NASDAQ:ADI) CFO Sells $573,285.00 in Stock",
+      "time": "Wed, 23 Sep 2026 21:11:31",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADI",
       "title": "After a planned share sale, Analog Devices (ADI) CFO holds 51,177 shares.",
       "time": "Wed, 23 Sep 2026 20:18:49",
       "sentiment": 0
@@ -1092,12 +1080,6 @@
       "ticker": "ADI",
       "title": "Analog Devices stock gains 1.94 percent at the close",
       "time": "Tue, 22 Sep 2026 21:38:16",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADI",
-      "title": "Analog Devices Insider Sold Shares Worth $573,285, According to a Recent SEC Filing",
-      "time": "Wed, 23 Sep 2026 20:39:30",
       "sentiment": 0
     },
     {
@@ -1138,14 +1120,14 @@
     },
     {
       "ticker": "TSM",
-      "title": "Richard W. Allen buys Broadcom and Taiwan Semiconductor, sells Rollins stock",
-      "time": "Wed, 23 Sep 2026 17:10:16",
+      "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Price Down 1.2% - Here's What Happened",
+      "time": "Wed, 23 Sep 2026 21:23:42",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Up 1.6% - Here's Why",
-      "time": "Tue, 22 Sep 2026 21:49:07",
+      "title": "Arm vs. Taiwan Semiconductor Manufacturing: Which Chip Stock Is a Better Buy in 2026?",
+      "time": "Wed, 23 Sep 2026 21:24:43",
       "sentiment": 0
     },
     {
@@ -1162,8 +1144,8 @@
     },
     {
       "ticker": "TSM",
-      "title": "TSM stock heads into the open after a 0.4 percent gain",
-      "time": "Wed, 23 Sep 2026 05:40:16",
+      "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Up 1.6% - Here's Why",
+      "time": "Tue, 22 Sep 2026 21:49:07",
       "sentiment": 0
     },
     {
@@ -1216,14 +1198,14 @@
     },
     {
       "ticker": "BLK",
-      "title": "Cox Capital launches tender offers for shares of Blackstone, BlackRock private credit funds at discount to NAV",
-      "time": "Wed, 23 Sep 2026 13:05:05",
+      "title": "BlackRock stock ends the day 1.98 percent higher at USD 1,090.92",
+      "time": "Wed, 23 Sep 2026 21:08:30",
       "sentiment": 0
     },
     {
       "ticker": "BLK",
-      "title": "GCash owner Mynt secures over 20 cornerstone investors for potentially biggest Philippine IPO",
-      "time": "Wed, 23 Sep 2026 15:49:51",
+      "title": "Cox Capital launches tender offers for shares of Blackstone, BlackRock private credit funds at discount to NAV",
+      "time": "Wed, 23 Sep 2026 13:05:05",
       "sentiment": 0
     },
     {
