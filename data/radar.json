@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "23.09.2026 16:12 CEST",
+  "generated_at_local": "23.09.2026 16:30 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +1.95%, 5T +3.06%, relatives Volumen 0.74x, ATR 2.80%",
       "catalyst": "Amgen Stock Gains After Announcing Positive Phase 3 Sjögren’s Disease Trial Results",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +5.38%, seit Open +1.05%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +5.37%, seit Open +1.04%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.68,
       "target_pct": 3.2,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,12 +23,51 @@
       "atr_pct": "2.80%",
       "gap_pct": "+5.05%",
       "premarket_move_pct": "+0.45%",
-      "live_gap_pct": "+5.38%",
-      "regular_move_pct": "+1.05%",
+      "live_gap_pct": "+5.37%",
+      "regular_move_pct": "+1.04%",
       "avg_dollar_volume": 1185476752.99,
-      "bar_age_minutes": 2.3,
-      "vwap": 411.92,
+      "bar_age_minutes": 5.0,
+      "vwap": 412.5,
       "opening_range_high": 414.8,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "TJX",
+      "name": "TJX",
+      "score": 92,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.92%, 5T +3.94%, relatives Volumen 0.95x, ATR 2.08%",
+      "catalyst": "TJX Companies stock holds near USD 127 as earnings beat estimates",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.44%, seit Open +1.16%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.25,
+      "target_pct": 2.37,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.92%",
+      "change_5d": "+3.94%",
+      "volume_ratio": "0.95x",
+      "atr_pct": "2.08%",
+      "gap_pct": "-0.20%",
+      "premarket_move_pct": "-0.33%",
+      "live_gap_pct": "+0.44%",
+      "regular_move_pct": "+1.16%",
+      "avg_dollar_volume": 1185422515.96,
+      "bar_age_minutes": 0.0,
+      "vwap": 130.89,
+      "opening_range_high": 131.58,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -52,7 +91,7 @@
       "thesis": "1T +3.07%, 5T +5.64%, relatives Volumen 0.76x, ATR 3.98%",
       "catalyst": "Palantir Stock Forecast: PLTR Holds Near $185 as AI Growth Drives Rally",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +3.04%, seit Open +1.31%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +3.23%, seit Open +1.49%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.39,
       "target_pct": 4.54,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,90 +101,12 @@
       "atr_pct": "3.98%",
       "gap_pct": "+1.53%",
       "premarket_move_pct": "+0.49%",
-      "live_gap_pct": "+3.04%",
-      "regular_move_pct": "+1.31%",
+      "live_gap_pct": "+3.23%",
+      "regular_move_pct": "+1.49%",
       "avg_dollar_volume": 4925763139.86,
-      "bar_age_minutes": 2.3,
-      "vwap": 190.03,
+      "bar_age_minutes": 5.0,
+      "vwap": 189.86,
       "opening_range_high": 193.33,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "ISRG",
-      "name": "Intuitive Surgical",
-      "score": 91,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.12%, 5T +6.27%, relatives Volumen 1.07x, ATR 3.04%",
-      "catalyst": "Why Intuitive Surgical (ISRG) Is Up 6.5% After New da Vinci SP Transvaginal Approval – And What's Next",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.31%, seit Open +0.51%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.82,
-      "target_pct": 3.47,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.12%",
-      "change_5d": "+6.27%",
-      "volume_ratio": "1.07x",
-      "atr_pct": "3.04%",
-      "gap_pct": "-0.47%",
-      "premarket_move_pct": "-0.69%",
-      "live_gap_pct": "+0.31%",
-      "regular_move_pct": "+0.51%",
-      "avg_dollar_volume": 885309814.97,
-      "bar_age_minutes": 2.3,
-      "vwap": 402.63,
-      "opening_range_high": 404.44,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "TJX",
-      "name": "TJX",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.92%, 5T +3.94%, relatives Volumen 0.95x, ATR 2.08%",
-      "catalyst": "TJX Companies stock holds near USD 127 as earnings beat estimates",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.02%, seit Open +0.73%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.25,
-      "target_pct": 2.37,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.92%",
-      "change_5d": "+3.94%",
-      "volume_ratio": "0.95x",
-      "atr_pct": "2.08%",
-      "gap_pct": "-0.20%",
-      "premarket_move_pct": "-0.33%",
-      "live_gap_pct": "+0.02%",
-      "regular_move_pct": "+0.73%",
-      "avg_dollar_volume": 1185422515.96,
-      "bar_age_minutes": 2.3,
-      "vwap": 130.79,
-      "opening_range_high": 131.58,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -164,12 +125,12 @@
     {
       "ticker": "SHOP",
       "name": "Shopify",
-      "score": 83,
+      "score": 89,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +7.33%, 5T +3.01%, relatives Volumen 2.17x, ATR 4.56%",
       "catalyst": "SHOP Stock Jumps as Meta Expands Shopify Partnership",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.42%, seit Open -6.33%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.87%, seit Open -5.12%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.74,
       "target_pct": 5.2,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +140,11 @@
       "atr_pct": "4.56%",
       "gap_pct": "+6.23%",
       "premarket_move_pct": "-1.13%",
-      "live_gap_pct": "-0.42%",
-      "regular_move_pct": "-6.33%",
+      "live_gap_pct": "+0.87%",
+      "regular_move_pct": "-5.12%",
       "avg_dollar_volume": 1168450856.64,
-      "bar_age_minutes": 2.3,
-      "vwap": 144.69,
+      "bar_age_minutes": 5.0,
+      "vwap": 143.28,
       "opening_range_high": 151.26,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -194,6 +155,45 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical",
+      "score": 84,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.12%, 5T +6.27%, relatives Volumen 1.07x, ATR 3.04%",
+      "catalyst": "Why Intuitive Surgical (ISRG) Is Up 6.5% After New da Vinci SP Transvaginal Approval – And What's Next",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.12%, seit Open +0.07%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.82,
+      "target_pct": 3.47,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.12%",
+      "change_5d": "+6.27%",
+      "volume_ratio": "1.07x",
+      "atr_pct": "3.04%",
+      "gap_pct": "-0.47%",
+      "premarket_move_pct": "-0.69%",
+      "live_gap_pct": "-0.12%",
+      "regular_move_pct": "+0.07%",
+      "avg_dollar_volume": 885309814.97,
+      "bar_age_minutes": 5.0,
+      "vwap": 402.6,
+      "opening_range_high": 404.44,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -425,6 +425,12 @@
       "sentiment": -1
     },
     {
+      "ticker": "GOOG",
+      "title": "Alphabet’s Spark Agentic AI Will Beat Meta’s Muse in the Long Run",
+      "time": "Wed, 23 Sep 2026 14:26:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "AVGO",
       "title": "AVGO Stock Falls Premarket: China Reportedly Audits Broadcom’s Grip On State-Backed Data Centers",
       "time": "Wed, 23 Sep 2026 08:23:49",
@@ -435,6 +441,12 @@
       "title": "2 Undervalued Semiconductor Stocks to Watch While the Market Is Skeptical of AI Growth",
       "time": "Wed, 23 Sep 2026 06:06:20",
       "sentiment": 1
+    },
+    {
+      "ticker": "AVGO",
+      "title": "AVGO Stock Falls Premarket: China Reportedly Audits Broadcom’s Grip On State-Backed Data Centers",
+      "time": "Wed, 23 Sep 2026 08:23:49",
+      "sentiment": -1
     },
     {
       "ticker": "KLAC",
@@ -479,9 +491,9 @@
       "sentiment": 1
     },
     {
-      "ticker": "META",
-      "title": "Cantor Fitzgerald raises Meta stock price target on AI agent potential",
-      "time": "Wed, 23 Sep 2026 11:47:09",
+      "ticker": "TXN",
+      "title": "Texas Instruments stock gains 1.68 percent as earnings beat estimates",
+      "time": "Wed, 23 Sep 2026 13:05:26",
       "sentiment": 1
     },
     {
@@ -492,14 +504,20 @@
     },
     {
       "ticker": "SHOP",
+      "title": "Shopify Inc Stock (SHOP) Moved Down by 7.21% on Sep 23: Facts Behind the Movement",
+      "time": "Wed, 23 Sep 2026 14:15:20",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SHOP",
       "title": "Why Are Shopify (SHOP) Shares Soaring Today",
       "time": "Tue, 22 Sep 2026 17:50:24",
       "sentiment": 0
     },
     {
-      "ticker": "SHOP",
-      "title": "Why Shopify Stock, Twilio Are Rising On Meta's Muse Rollout",
-      "time": "Tue, 22 Sep 2026 16:31:00",
+      "ticker": "AMZN",
+      "title": "Amazon (AMZN) Stock May Be 41% Undervalued As AI Spending Climbs",
+      "time": "Wed, 23 Sep 2026 13:18:40",
       "sentiment": 0
     },
     {
@@ -516,26 +534,20 @@
     },
     {
       "ticker": "AMZN",
-      "title": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
-      "time": "Tue, 22 Sep 2026 17:10:22",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMZN",
       "title": "President Trump Sells Millions in Microsoft and Amazon, Buys Nvidia Stock",
       "time": "Wed, 23 Sep 2026 12:10:57",
       "sentiment": 0
     },
     {
       "ticker": "AMZN",
-      "title": "Canada Pension Plan Investment Board Takes Position in Amazon.com, Inc. $AMZN",
-      "time": "Wed, 23 Sep 2026 07:09:27",
+      "title": "Trump discloses more than 1,100 July trades, including up to $25 million each in sales of Microsoft, Amazon",
+      "time": "Tue, 22 Sep 2026 17:10:22",
       "sentiment": 0
     },
     {
       "ticker": "AMZN",
-      "title": "Dow Jones Tech Titan Amazon Eyes Buy Point Amid Battle With Key Support Level",
-      "time": "Tue, 22 Sep 2026 17:26:00",
+      "title": "Canada Pension Plan Investment Board Takes Position in Amazon.com, Inc. $AMZN",
+      "time": "Wed, 23 Sep 2026 07:09:27",
       "sentiment": 0
     },
     {
@@ -576,8 +588,8 @@
     },
     {
       "ticker": "UAL",
-      "title": "US says new air traffic control system will not suffer disruptions",
-      "time": "Tue, 22 Sep 2026 15:39:23",
+      "title": "Alaska Air Group, Inc. (ALK) Stock Price, News, Quote & History",
+      "time": "Wed, 23 Sep 2026 05:21:36",
       "sentiment": 0
     },
     {
@@ -618,14 +630,14 @@
     },
     {
       "ticker": "TSLA",
-      "title": "Why is Tesla (NASDAQ:TSLA) in focus amid today’s automobile stocks discussion?",
-      "time": "Wed, 23 Sep 2026 08:30:00",
+      "title": "Elon Musk Touts Grok in Tesla Vehicles: Here’s What It Can Do",
+      "time": "Wed, 23 Sep 2026 09:05:23",
       "sentiment": 0
     },
     {
       "ticker": "TSLA",
-      "title": "Why Is Tesla (NASDAQ:TSLA) Stock Up Today? Roadster Reservations Reopen Ahead of the 1 October Reveal",
-      "time": "Tue, 22 Sep 2026 20:45:06",
+      "title": "Why is Tesla (NASDAQ:TSLA) in focus amid today’s automobile stocks discussion?",
+      "time": "Wed, 23 Sep 2026 08:30:00",
       "sentiment": 0
     },
     {
@@ -642,6 +654,12 @@
     },
     {
       "ticker": "PLTR",
+      "title": "Palantir Gains 2%, Nebius Pulls Back, Micron Barely Budges as Michael Burry Adds to Shorts in All Three",
+      "time": "Wed, 23 Sep 2026 14:12:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PLTR",
       "title": "Could Palantir Be the Next Stock Added to the Dow Jones?",
       "time": "Wed, 23 Sep 2026 09:51:09",
       "sentiment": 0
@@ -650,12 +668,6 @@
       "ticker": "PLTR",
       "title": "Why Is Palantir Technologies (NASDAQ:PLTR) Drawing Attention as AI Momentum Meets Shifting Oil Prices?",
       "time": "Wed, 23 Sep 2026 12:30:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
-      "title": "Palantir: The $10 Billion Inflection Is Bigger Than It Looks (NASDAQ:PLTR)",
-      "time": "Tue, 22 Sep 2026 20:21:13",
       "sentiment": 0
     },
     {
@@ -714,14 +726,14 @@
     },
     {
       "ticker": "BABA",
-      "title": "What's Going On With Alibaba Stock Wednesday? - Alibaba Gr Hldgs (NYSE:BABA)",
-      "time": "Wed, 23 Sep 2026 11:43:32",
+      "title": "Alibaba Stock Jumps After Unveiling New Zhenwu V900 AI Chip and Cloud Expansion",
+      "time": "Wed, 23 Sep 2026 14:10:32",
       "sentiment": 0
     },
     {
       "ticker": "BABA",
-      "title": "Why Polaris Capital Continues Watching Alibaba (BABA) Amid AI Opportunity and China Market Challenges",
-      "time": "Wed, 23 Sep 2026 13:57:38",
+      "title": "What's Going On With Alibaba Stock Wednesday? - Alibaba Gr Hldgs (NYSE:BABA)",
+      "time": "Wed, 23 Sep 2026 11:43:32",
       "sentiment": 0
     },
     {
@@ -732,8 +744,8 @@
     },
     {
       "ticker": "BABA",
-      "title": "Analysts Offer Insights on Consumer Cyclical Companies: Alibaba (BABA) and PUMA SE NPV (OtherPMMAF)",
-      "time": "Wed, 23 Sep 2026 09:31:26",
+      "title": "Alibaba in focus as Citi weighs in accelerating AI momentum, ups spending forecast (BABA:NYSE)",
+      "time": "Wed, 23 Sep 2026 12:40:02",
       "sentiment": 0
     },
     {
@@ -816,8 +828,8 @@
     },
     {
       "ticker": "DAL",
-      "title": "Stocks Supported as Crude Oil Prices Ease",
-      "time": "Tue, 22 Sep 2026 14:15:06",
+      "title": "SkyWest (SKYW) Stock Still Looks Like A Bargain Today",
+      "time": "Tue, 22 Sep 2026 22:44:43",
       "sentiment": 0
     },
     {
@@ -840,8 +852,8 @@
     },
     {
       "ticker": "AAL",
-      "title": "Stocks Supported as Crude Oil Prices Ease",
-      "time": "Tue, 22 Sep 2026 14:15:06",
+      "title": "DE: Deere & Company - Stock Price, Quote and News | NYSE",
+      "time": "Wed, 23 Sep 2026 09:13:00",
       "sentiment": 0
     },
     {
@@ -883,7 +895,7 @@
     {
       "ticker": "AAPL",
       "title": "Apple Inc. (AAPL) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 09:59:43",
+      "time": "Wed, 23 Sep 2026 11:15:12",
       "sentiment": 0
     },
     {
@@ -918,20 +930,20 @@
     },
     {
       "ticker": "NVDA",
+      "title": "Insider Alert: Nvidia Director Dumps $300 Million in Stock",
+      "time": "Wed, 23 Sep 2026 12:24:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NVDA",
       "title": "Not Palantir. Not Micron. The $325 Billion Nvidia Partner That Jim Cramer Just Called a \"Must Buy\" Stock",
       "time": "Wed, 23 Sep 2026 13:52:17",
       "sentiment": 0
     },
     {
-      "ticker": "NVDA",
-      "title": "Nvidia (NVDA) Stock Could Be A Bargain After AI Expansion",
-      "time": "Wed, 23 Sep 2026 09:36:05",
-      "sentiment": 0
-    },
-    {
       "ticker": "GOOG",
-      "title": "Apple Inc. (AAPL) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 11:15:12",
+      "title": "Meta Platforms, Inc. (META) stock price, news, quote and history",
+      "time": "Wed, 23 Sep 2026 13:21:12",
       "sentiment": 0
     },
     {
@@ -944,12 +956,6 @@
       "ticker": "GOOG",
       "title": "Ahead of the midterm elections, US lawmakers' stock holdings are disclosed: Differing investment choices between Democrats and Republicans, exploring opportunities from AI and semiconductors to power infrastructure",
       "time": "Wed, 23 Sep 2026 09:20:22",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOG",
-      "title": "UK watchdog wants Google to offer broader search choices, including AI (GOOG:NASDAQ)",
-      "time": "Wed, 23 Sep 2026 10:00:28",
       "sentiment": 0
     },
     {
@@ -974,12 +980,6 @@
       "ticker": "AVGO",
       "title": "A top chip stock analyst sees big things for Nvidia, Broadcom. How his case aligns with ours",
       "time": "Tue, 22 Sep 2026 20:39:06",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AVGO",
-      "title": "Why Is Broadcom (NASDAQ:AVGO) in Focus as Sector Rotation Shapes the US Session?",
-      "time": "Wed, 23 Sep 2026 12:30:00",
       "sentiment": 0
     },
     {
@@ -1164,6 +1164,12 @@
     },
     {
       "ticker": "TSM",
+      "title": "TSMC's A14 Gains Customer Traction Ahead of 2028 Volume Production",
+      "time": "Wed, 23 Sep 2026 12:45:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSM",
       "title": "Taiwan Semiconductor Manufacturing (NYSE:TSM) Shares Up 1.6% - Here's Why",
       "time": "Tue, 22 Sep 2026 21:49:07",
       "sentiment": 0
@@ -1184,12 +1190,6 @@
       "ticker": "TSM",
       "title": "TSM stock heads into the open after a 0.4 percent gain",
       "time": "Wed, 23 Sep 2026 05:40:16",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSM",
-      "title": "TSM stock closes 0.4 percent higher at the close",
-      "time": "Tue, 22 Sep 2026 21:24:35",
       "sentiment": 0
     },
     {
@@ -1248,12 +1248,6 @@
     },
     {
       "ticker": "TXN",
-      "title": "AI infrastructure Boom Fuels Texas Instruments’ (TXN) Rally",
-      "time": "Tue, 22 Sep 2026 14:18:12",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TXN",
       "title": "Old Dogs, New Tech: 3 Legacy Stocks Powering the AI Boom",
       "time": "Wed, 23 Sep 2026 12:42:30",
       "sentiment": 0
@@ -1274,6 +1268,12 @@
       "ticker": "META",
       "title": "What's Going On With Meta Platforms Stock Wednesday?",
       "time": "Wed, 23 Sep 2026 13:19:53",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Meta stock reaches 52-week high at $761.27",
+      "time": "Wed, 23 Sep 2026 14:00:08",
       "sentiment": 0
     },
     {
