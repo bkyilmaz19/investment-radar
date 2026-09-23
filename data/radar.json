@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "23.09.2026 22:12 CEST",
+  "generated_at_local": "23.09.2026 22:29 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "+1.32%",
       "regular_move_pct": "-0.37%",
       "avg_dollar_volume": 767681696.13,
-      "bar_age_minutes": 2.5,
+      "bar_age_minutes": 3.6,
       "vwap": 234.61,
       "opening_range_high": 236.56,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "+0.61%",
       "regular_move_pct": "-0.93%",
       "avg_dollar_volume": 1303033575.13,
-      "bar_age_minutes": 2.5,
+      "bar_age_minutes": 9.0,
       "vwap": 383.46,
       "opening_range_high": 390.06,
       "opening_range_ready": true,
@@ -104,7 +104,7 @@
       "live_gap_pct": "+5.27%",
       "regular_move_pct": "+4.18%",
       "avg_dollar_volume": 2892809045.09,
-      "bar_age_minutes": 2.5,
+      "bar_age_minutes": 4.0,
       "vwap": 258.81,
       "opening_range_high": 254.16,
       "opening_range_ready": true,
@@ -143,7 +143,7 @@
       "live_gap_pct": "+3.29%",
       "regular_move_pct": "-0.95%",
       "avg_dollar_volume": 1185476752.99,
-      "bar_age_minutes": 2.5,
+      "bar_age_minutes": 0.1,
       "vwap": 408.74,
       "opening_range_high": 414.8,
       "opening_range_ready": true,
@@ -162,29 +162,29 @@
       }
     },
     {
-      "ticker": "KLAC",
-      "name": "KLA",
-      "score": 85,
+      "ticker": "TXN",
+      "name": "Texas Instruments",
+      "score": 86,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.94%, 5T +8.80%, relatives Volumen 0.85x, ATR 4.34%",
-      "catalyst": "KLA (KLAC) Stock Looks Expensive Despite Strong Semiconductor Growth",
+      "thesis": "1T +1.59%, 5T +2.83%, relatives Volumen 0.98x, ATR 3.17%",
+      "catalyst": "Satellite Bluetooth startup Hubble Network raises $200 million at $1.6 billion valuation",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +1.45%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.6,
-      "target_pct": 4.94,
+      "entry_note": "Premarket-Gap +0.63%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.9,
+      "target_pct": 3.61,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.94%",
-      "change_5d": "+8.80%",
-      "volume_ratio": "0.85x",
-      "atr_pct": "4.34%",
-      "gap_pct": "+1.45%",
-      "premarket_move_pct": "-0.45%",
-      "live_gap_pct": "+2.07%",
-      "regular_move_pct": "+0.76%",
-      "avg_dollar_volume": 1699730532.51,
-      "bar_age_minutes": 1.6,
-      "vwap": 185.95,
-      "opening_range_high": 187.87,
+      "change_1d": "+1.59%",
+      "change_5d": "+2.83%",
+      "volume_ratio": "0.98x",
+      "atr_pct": "3.17%",
+      "gap_pct": "+0.63%",
+      "premarket_move_pct": "+0.59%",
+      "live_gap_pct": "+0.62%",
+      "regular_move_pct": "+0.39%",
+      "avg_dollar_volume": 1579751509.5,
+      "bar_age_minutes": 4.0,
+      "vwap": 270.82,
+      "opening_range_high": 272.41,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "After-Hours / US-Session beendet",
@@ -225,6 +225,12 @@
   ],
   "news": [
     {
+      "ticker": "UAL",
+      "title": "MU, SNDK, SKHY, DRAM: Memory Chip Stocks Surge In Relief Rally As U.S.-Iran Reportedly Halt Strikes",
+      "time": "Wed, 23 Sep 2026 00:35:45",
+      "sentiment": 1
+    },
+    {
       "ticker": "NXPI",
       "title": "NXP Semiconductors N.V. stock outperforms competitors on strong trading day",
       "time": "Tue, 22 Sep 2026 20:47:00",
@@ -249,12 +255,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "LLY",
-      "title": "Why Viking Stock Jumped On Obesity Data. Novo Falls.",
-      "time": "Tue, 22 Sep 2026 20:21:00",
-      "sentiment": -1
-    },
-    {
       "ticker": "DAL",
       "title": "Delta Air Lines Inc. stock outperforms competitors on strong trading day",
       "time": "Tue, 22 Sep 2026 20:48:00",
@@ -270,6 +270,12 @@
       "ticker": "DHR",
       "title": "Danaher Corp. stock outperforms competitors on strong trading day",
       "time": "Tue, 22 Sep 2026 20:36:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "DHR",
+      "title": "Is Revvity Stock Outperforming the Dow?",
+      "time": "Wed, 23 Sep 2026 10:33:13",
       "sentiment": 1
     },
     {
@@ -322,6 +328,12 @@
     },
     {
       "ticker": "MU",
+      "title": "Micron Technology (MU) Draws Michael Burry Short As Memory Price Warning Grows",
+      "time": "Wed, 23 Sep 2026 17:14:41",
+      "sentiment": -1
+    },
+    {
+      "ticker": "MU",
       "title": "Micron Price Target Raised to $1,300 by Citi on Stronger DRAM Pricing, Undersupply",
       "time": "Wed, 23 Sep 2026 17:15:00",
       "sentiment": 1
@@ -336,6 +348,12 @@
       "ticker": "PLTR",
       "title": "Palantir Stock Forecast: $225 Target Meets FAA Contract Reality",
       "time": "Wed, 23 Sep 2026 16:43:51",
+      "sentiment": 1
+    },
+    {
+      "ticker": "PLTR",
+      "title": "Palantir Stock Gains 4.4%; ASI, Not PLTR, Holds the FAA’s $875 Million SMART Contract",
+      "time": "Wed, 23 Sep 2026 15:29:52",
       "sentiment": 1
     },
     {
@@ -378,6 +396,12 @@
       "ticker": "TXN",
       "title": "Satellite Bluetooth startup Hubble Network raises $200 million at $1.6 billion valuation",
       "time": "Wed, 23 Sep 2026 18:14:24",
+      "sentiment": 1
+    },
+    {
+      "ticker": "TXN",
+      "title": "NXP Semiconductors N.V. stock outperforms competitors on strong trading day",
+      "time": "Tue, 22 Sep 2026 20:47:00",
       "sentiment": 1
     },
     {
@@ -504,12 +528,6 @@
       "ticker": "UAL",
       "title": "Iran \"Offered\" to Reopen the Strait of Hormuz. These Stocks Could Be the Biggest Winners",
       "time": "Wed, 23 Sep 2026 16:07:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "UAL",
-      "title": "Alaska Air Group, Inc. (ALK) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 10:43:37",
       "sentiment": 0
     },
     {
@@ -658,6 +676,12 @@
     },
     {
       "ticker": "LLY",
+      "title": "Build Your List Of Stocks To Watch With Weight-Loss Giant Lilly, Others On These Top IBD Screens",
+      "time": "Tue, 22 Sep 2026 22:57:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LLY",
       "title": "Why is Eli Lilly (NYSE:LLY) in focus amid today’s healthcare stocks discussion?",
       "time": "Wed, 23 Sep 2026 11:12:00",
       "sentiment": 0
@@ -718,8 +742,8 @@
     },
     {
       "ticker": "DHR",
-      "title": "Danaher will webcast its next financial update Oct. 21",
-      "time": "Tue, 22 Sep 2026 20:15:00",
+      "title": "Danaher stock rises 0.16 percent ahead of the open",
+      "time": "Wed, 23 Sep 2026 05:15:33",
       "sentiment": 0
     },
     {
@@ -729,9 +753,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "DHR",
-      "title": "Danaher Corp. stock holds near USD 200 before October results",
-      "time": "Wed, 23 Sep 2026 10:05:46",
+      "ticker": "NVDA",
+      "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History",
+      "time": "Wed, 23 Sep 2026 14:19:39",
       "sentiment": 0
     },
     {
@@ -753,21 +777,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "NVDA",
-      "title": "Nvidia Stock Faces Earnings Test: Analysts Expect Another Blowout Report, But Some Investors Sold Off Shares Anyway",
-      "time": "Wed, 23 Sep 2026 10:18:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Tesla Rises as BBB Rating Meets a $25 Billion Buildout",
-      "time": "Wed, 23 Sep 2026 18:34:09",
-      "sentiment": 0
-    },
-    {
       "ticker": "TSLA",
       "title": "If You Invested $1000 In Tesla Stock 10 Years Ago, You Would Have This Much Today",
       "time": "Wed, 23 Sep 2026 16:30:43",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSLA",
+      "title": "I Speculated That Stanley Druckenmiller's Tesla Buy Was About FSD. Billionaire Investor Ron Baron Just Confirmed My Thesis.",
+      "time": "Wed, 23 Sep 2026 16:27:00",
       "sentiment": 0
     },
     {
@@ -804,12 +822,6 @@
       "ticker": "AVGO",
       "title": "Broadcom: Hard To Ignore The Numbers, Buy Before The Market Catches Up",
       "time": "Wed, 23 Sep 2026 07:21:08",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MU",
-      "title": "Micron Technology, Inc. (MU) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 18:09:41",
       "sentiment": 0
     },
     {
@@ -856,12 +868,6 @@
     },
     {
       "ticker": "KLAC",
-      "title": "What's going on in today's pre-market session: S&P500 movers",
-      "time": "Wed, 23 Sep 2026 12:35:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KLAC",
       "title": "Beyond Nvidia: 3 AI Infrastructure Stocks to Watch - Broadcom (NASDAQ:AVGO)",
       "time": "Wed, 23 Sep 2026 17:09:32",
       "sentiment": 0
@@ -874,20 +880,14 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Why Palantir Stock Popped Today",
-      "time": "Wed, 23 Sep 2026 15:49:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
       "title": "Palantir Technologies Inc Stock (PLTR) Opened Up by 3.58% on Sep 23: Key Drivers Unveiled",
       "time": "Wed, 23 Sep 2026 13:47:20",
       "sentiment": 0
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir Stock Flips $188 Into Support, Eyes $200 Next",
-      "time": "Wed, 23 Sep 2026 16:15:47",
+      "title": "Palantir Stock Rises 3% Despite Losing $875 Million FAA AI Deal: Here’s Why",
+      "time": "Wed, 23 Sep 2026 20:05:29",
       "sentiment": 0
     },
     {
@@ -928,8 +928,20 @@
     },
     {
       "ticker": "TMO",
-      "title": "Healthcare Stocks To Add to Your Watchlist - September 23rd",
-      "time": "Wed, 23 Sep 2026 18:13:37",
+      "title": "Thermo Fisher Scientific stock holds near its yearly high",
+      "time": "Wed, 23 Sep 2026 12:32:10",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "Thermo Fisher Scientific stock slips 0.20 percent ahead of the open",
+      "time": "Wed, 23 Sep 2026 05:01:09",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "Thermo Fisher stock rises 0.30 percent at the close",
+      "time": "Tue, 22 Sep 2026 20:37:12",
       "sentiment": 0
     },
     {
@@ -940,20 +952,8 @@
     },
     {
       "ticker": "TMO",
-      "title": "Thermo Fisher launches CHO-K1 cell culture media panel By Investing.com",
-      "time": "Wed, 23 Sep 2026 12:41:24",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TMO",
-      "title": "Thermo Fisher Scientific stock holds near its yearly high",
-      "time": "Wed, 23 Sep 2026 12:32:10",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TMO",
-      "title": "Thermo Fisher Scientific stock slips 0.20 percent ahead of the open",
-      "time": "Wed, 23 Sep 2026 05:01:09",
+      "title": "Healthcare Stocks To Add to Your Watchlist - September 23rd",
+      "time": "Wed, 23 Sep 2026 18:13:37",
       "sentiment": 0
     },
     {
@@ -988,8 +988,8 @@
     },
     {
       "ticker": "WMT",
-      "title": "3 Stocks to Buy and Hold Even if There's a Stock Market Sell-Off This Fall",
-      "time": "Wed, 23 Sep 2026 03:00:00",
+      "title": "Walmart Inc. (WMT) Stock Forecasts",
+      "time": "Wed, 23 Sep 2026 19:23:42",
       "sentiment": 0
     },
     {
@@ -1048,8 +1048,8 @@
     },
     {
       "ticker": "FCX",
-      "title": "Freeport-McMoRan Inc. (FCXS.TO) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 13:32:05",
+      "title": "Freeport-McMoRan Inc. (FCX) is Attracting Investor Attention: Here is What You Should Know",
+      "time": "Wed, 23 Sep 2026 13:00:08",
       "sentiment": 0
     },
     {
@@ -1066,8 +1066,8 @@
     },
     {
       "ticker": "FCX",
-      "title": "Freeport-McMoRan Inc. (FCX) is Attracting Investor Attention: Here is What You Should Know",
-      "time": "Wed, 23 Sep 2026 13:00:08",
+      "title": "Freeport-McMoRan Inc. (FCX) latest stock news and headlines – Yahoo Finance",
+      "time": "Wed, 23 Sep 2026 13:01:34",
       "sentiment": 0
     },
     {
@@ -1096,14 +1096,14 @@
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices, Inc. (ADI) stock price, news, quote and history - Yahoo Finance",
-      "time": "Wed, 23 Sep 2026 10:10:49",
+      "title": "Analog Devices stock gains 1.94 percent at the close",
+      "time": "Tue, 22 Sep 2026 21:38:16",
       "sentiment": 0
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices stock gains 1.94 percent at the close",
-      "time": "Tue, 22 Sep 2026 21:38:16",
+      "title": "Brokers Suggest Investing in Cadence (CDNS): Read This Before Placing a Bet",
+      "time": "Wed, 23 Sep 2026 13:30:03",
       "sentiment": 0
     },
     {
@@ -1121,7 +1121,7 @@
     {
       "ticker": "TXN",
       "title": "Two Chip Giants, Two Very Different Dividends. Which One Pays You Better?",
-      "time": "Wed, 23 Sep 2026 14:30:00",
+      "time": "Wed, 23 Sep 2026 14:30:14",
       "sentiment": 0
     },
     {
@@ -1131,15 +1131,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "TXN",
-      "title": "Analog Devices, Inc. (ADI) stock price, news, quote and history - Yahoo Finance",
-      "time": "Wed, 23 Sep 2026 10:10:49",
-      "sentiment": 0
-    },
-    {
       "ticker": "TSM",
       "title": "Not Intel. Not Nvidia. This Chip Giant Holds an Unbreakable Moat in Next-Gen Data Centers.",
-      "time": "Wed, 23 Sep 2026 17:35:57",
+      "time": "Wed, 23 Sep 2026 17:41:54",
       "sentiment": 0
     },
     {
