@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "24.09.2026 23:26 CEST",
+  "generated_at_local": "24.09.2026 23:40 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "-0.52%",
       "regular_move_pct": "-0.22%",
       "avg_dollar_volume": 330227927.94,
-      "bar_age_minutes": 81.4,
+      "bar_age_minutes": 5.0,
       "vwap": 271.8,
       "opening_range_high": 273.85,
       "opening_range_ready": true,
@@ -63,10 +63,10 @@
       "gap_pct": "-0.36%",
       "premarket_move_pct": "-0.55%",
       "live_gap_pct": "-0.48%",
-      "regular_move_pct": "-0.16%",
+      "regular_move_pct": "+0.02%",
       "avg_dollar_volume": 188644184.44,
-      "bar_age_minutes": 31.4,
-      "vwap": 226.76,
+      "bar_age_minutes": 5.0,
+      "vwap": 226.75,
       "opening_range_high": 227.79,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -80,6 +80,45 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "score": 84,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.68%, 5T +10.01%, relatives Volumen 1.37x, ATR 3.55%",
+      "catalyst": "Does Palantir (PLTR) Have a Moat Strong Enough to Protect Its AI Dominance?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -1.33%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 2.13,
+      "target_pct": 4.05,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.68%",
+      "change_5d": "+10.01%",
+      "volume_ratio": "1.37x",
+      "atr_pct": "3.55%",
+      "gap_pct": "-1.33%",
+      "premarket_move_pct": "-0.52%",
+      "live_gap_pct": "+0.43%",
+      "regular_move_pct": "+1.80%",
+      "avg_dollar_volume": 4945032023.78,
+      "bar_age_minutes": 5.0,
+      "vwap": 192.0,
+      "opening_range_high": 192.76,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": false,
         "confirmation_ok": false
       }
     },
@@ -104,7 +143,7 @@
       "live_gap_pct": "+0.35%",
       "regular_move_pct": "-0.47%",
       "avg_dollar_volume": 802800576.54,
-      "bar_age_minutes": 36.4,
+      "bar_age_minutes": 50.0,
       "vwap": 192.38,
       "opening_range_high": 193.99,
       "opening_range_ready": true,
@@ -143,50 +182,11 @@
       "live_gap_pct": "-0.00%",
       "regular_move_pct": "+0.03%",
       "avg_dollar_volume": 1188120650.58,
-      "bar_age_minutes": 26.4,
+      "bar_age_minutes": 5.0,
       "vwap": 406.59,
       "opening_range_high": 408.95,
       "opening_range_ready": true,
       "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "META",
-      "name": "Meta",
-      "score": 83,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.02%, 5T +10.51%, relatives Volumen 1.12x, ATR 3.70%",
-      "catalyst": "Meta's stock surges as it moves from AI laggard to leader",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.12%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.22,
-      "target_pct": 4.21,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.02%",
-      "change_5d": "+10.51%",
-      "volume_ratio": "1.12x",
-      "atr_pct": "3.70%",
-      "gap_pct": "+0.12%",
-      "premarket_move_pct": "+1.12%",
-      "live_gap_pct": "+4.48%",
-      "regular_move_pct": "+4.45%",
-      "avg_dollar_volume": 14551563133.26,
-      "bar_age_minutes": 1.4,
-      "vwap": 766.3,
-      "opening_range_high": 764.0,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -244,6 +244,12 @@
     },
     {
       "ticker": "PLTR",
+      "title": "Does Palantir (PLTR) Have a Moat Strong Enough to Protect Its AI Dominance?",
+      "time": "Thu, 24 Sep 2026 21:18:58",
+      "sentiment": 1
+    },
+    {
+      "ticker": "PLTR",
       "title": "Palantir Stock Has a Growth Story Few Companies Can Match",
       "time": "Thu, 24 Sep 2026 15:30:00",
       "sentiment": 1
@@ -282,12 +288,6 @@
       "ticker": "PM",
       "title": "3 Reasons Growth Investors Will Love Philip Morris (PM)",
       "time": "Thu, 24 Sep 2026 15:45:02",
-      "sentiment": 1
-    },
-    {
-      "ticker": "MMM",
-      "title": "3M stock reports Q2 growth below its yearly high",
-      "time": "Thu, 24 Sep 2026 14:02:17",
       "sentiment": 1
     },
     {
@@ -375,6 +375,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "KLAC",
+      "title": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
+      "time": "Thu, 24 Sep 2026 15:33:22",
+      "sentiment": 1
+    },
+    {
       "ticker": "ASML",
       "title": "With 2 Big Chip Stocks Offering Value, These ETFs Are Worth a Look",
       "time": "Thu, 24 Sep 2026 14:26:09",
@@ -399,9 +405,9 @@
       "sentiment": 1
     },
     {
-      "ticker": "RBLX",
-      "title": "Roblox (RBLX) Record User Spike Puts Its Valuation Debate Back In Focus",
-      "time": "Wed, 23 Sep 2026 21:34:29",
+      "ticker": "TMO",
+      "title": "Thermo Fisher Scientific Inc. stock rises Thursday, outperforms market",
+      "time": "Thu, 24 Sep 2026 20:34:00",
       "sentiment": 1
     },
     {
@@ -436,12 +442,6 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Does Palantir Stock Make Your Bad Market Days Worse?",
-      "time": "Thu, 24 Sep 2026 15:09:09",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PLTR",
       "title": "Prediction: This Will Be Palantir Technologies’ Stock Price by the End of 2028",
       "time": "Thu, 24 Sep 2026 18:41:39",
       "sentiment": 0
@@ -454,8 +454,8 @@
     },
     {
       "ticker": "PLTR",
-      "title": "PLTR Stock Gains 2% — Japan Weighs Palantir AI Defense System For Military Command Network, Says Report",
-      "time": "Thu, 24 Sep 2026 11:11:15",
+      "title": "Does Palantir Stock Make Your Bad Market Days Worse?",
+      "time": "Thu, 24 Sep 2026 15:09:09",
       "sentiment": 0
     },
     {
@@ -478,8 +478,8 @@
     },
     {
       "ticker": "BIIB",
-      "title": "Ginkgo Bioworks Holdings, Inc. (DNA) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 18:27:25",
+      "title": "Biogen stock adds 3.40 percent ahead of the open",
+      "time": "Thu, 24 Sep 2026 02:03:24",
       "sentiment": 0
     },
     {
@@ -616,6 +616,12 @@
     },
     {
       "ticker": "MMM",
+      "title": "3M Company (MMM) stock price, news, quote and history - Yahoo Finance",
+      "time": "Thu, 24 Sep 2026 12:35:44",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MMM",
       "title": "Stay informed with the top movers within the dow jones index on Thursday.",
       "time": "Thu, 24 Sep 2026 19:10:10",
       "sentiment": 0
@@ -676,14 +682,14 @@
     },
     {
       "ticker": "META",
-      "title": "Why Meta Stock Won’t Care If New Muse AI Gadget Flops",
-      "time": "Thu, 24 Sep 2026 18:36:00",
+      "title": "Meta (META) Stock Is Up, What You Need To Know",
+      "time": "Thu, 24 Sep 2026 20:08:13",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Meta (META) Stock Is Up, What You Need To Know",
-      "time": "Thu, 24 Sep 2026 19:50:00",
+      "title": "Why Meta Stock Won’t Care If New Muse AI Gadget Flops",
+      "time": "Thu, 24 Sep 2026 18:36:00",
       "sentiment": 0
     },
     {
@@ -696,6 +702,12 @@
       "ticker": "META",
       "title": "Is Meta’s (META) Stock Still Cheap After Its AI-Fueled Rally?",
       "time": "Thu, 24 Sep 2026 20:57:14",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EMR",
+      "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 13:32:49",
       "sentiment": 0
     },
     {
@@ -719,19 +731,13 @@
     {
       "ticker": "EMR",
       "title": "Emerson Electric Co. (EMR) latest stock news and headlines",
-      "time": "Thu, 24 Sep 2026 13:18:30",
+      "time": "Thu, 24 Sep 2026 13:25:16",
       "sentiment": 0
     },
     {
       "ticker": "EMR",
       "title": "Is New Qatar Service Center Altering The Investment Case For Emerson Electric (EMR)?",
       "time": "Thu, 24 Sep 2026 13:49:10",
-      "sentiment": 0
-    },
-    {
-      "ticker": "EMR",
-      "title": "Emerson Electric stock heads into the open after a 0.2 percent gain",
-      "time": "Thu, 24 Sep 2026 01:00:54",
       "sentiment": 0
     },
     {
@@ -911,7 +917,7 @@
     {
       "ticker": "LIN",
       "title": "Linde plc (LIN.DE) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 10:59:08",
+      "time": "Thu, 24 Sep 2026 13:00:03",
       "sentiment": 0
     },
     {
@@ -940,14 +946,14 @@
     },
     {
       "ticker": "FCX",
-      "title": "Freeport-McMoRan Inc. (FCX) stock price, news, quote and history",
-      "time": "Thu, 24 Sep 2026 11:29:37",
+      "title": "Freeport-McMoRan (FCX) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "time": "Wed, 23 Sep 2026 21:50:03",
       "sentiment": 0
     },
     {
       "ticker": "FCX",
-      "title": "Freeport-McMoRan (FCX) Registers a Bigger Fall Than the Market: Important Facts to Note",
-      "time": "Wed, 23 Sep 2026 21:50:03",
+      "title": "Freeport-McMoRan Inc. (FCX) stock price, news, quote and history",
+      "time": "Wed, 23 Sep 2026 22:38:58",
       "sentiment": 0
     },
     {
@@ -1012,6 +1018,12 @@
     },
     {
       "ticker": "GIS",
+      "title": "Analysts Offer Insights on NA Companies: General Mills (GIS) and SK Hynix (SKHY)",
+      "time": "Thu, 24 Sep 2026 21:13:06",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GIS",
       "title": "Piper Sandler reiterates General Mills stock rating on innovation",
       "time": "Thu, 24 Sep 2026 14:41:32",
       "sentiment": 0
@@ -1020,12 +1032,6 @@
       "ticker": "GIS",
       "title": "General Mills (GIS) Stock Faces Profit Rebuild Questions After Loss Swing",
       "time": "Wed, 23 Sep 2026 22:33:21",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GIS",
-      "title": "GIS Q1 Earnings Call Highlights Innovation and Inflation",
-      "time": "Thu, 24 Sep 2026 13:00:00",
       "sentiment": 0
     },
     {
@@ -1050,12 +1056,6 @@
       "ticker": "KLAC",
       "title": "KLA Corporation stock slips 1.40 percent before the bell",
       "time": "Thu, 24 Sep 2026 07:02:39",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KLAC",
-      "title": "KLA Corporation stock trades 38.83 percent below its yearly high",
-      "time": "Thu, 24 Sep 2026 12:18:16",
       "sentiment": 0
     },
     {
@@ -1180,6 +1180,12 @@
     },
     {
       "ticker": "RBLX",
+      "title": "Roblox Corporation (RBLX) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 19:09:33",
+      "sentiment": 0
+    },
+    {
+      "ticker": "RBLX",
       "title": "RBLX Stock Headed For Lowest Level In 21 Months — Wall Street Warns Roblox Platform May Be Entering 'Lifecycle Decline'",
       "time": "Thu, 24 Sep 2026 15:48:30",
       "sentiment": 0
@@ -1198,14 +1204,14 @@
     },
     {
       "ticker": "RBLX",
-      "title": "Unity Software Inc. (U) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 10:44:25",
+      "title": "Meta Launches AI Game Development Tools, Triggering Decline in Competitors' Stock Prices",
+      "time": "Thu, 24 Sep 2026 20:41:23",
       "sentiment": 0
     },
     {
       "ticker": "RBLX",
-      "title": "Meta Launches AI Game Development Tools, Triggering Decline in Competitors' Stock Prices",
-      "time": "Thu, 24 Sep 2026 20:41:23",
+      "title": "Coupang, Inc. (CPNG) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 05:43:30",
       "sentiment": 0
     },
     {
@@ -1266,12 +1272,6 @@
       "ticker": "TMO",
       "title": "Thermo Fisher Scientific stock gains 1.03 percent on results",
       "time": "Thu, 24 Sep 2026 12:33:09",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TMO",
-      "title": "Thermo Fisher Scientific (TMO) Rolls Out New Media Panel For Biologics Development",
-      "time": "Thu, 24 Sep 2026 06:14:00",
       "sentiment": 0
     }
   ]
