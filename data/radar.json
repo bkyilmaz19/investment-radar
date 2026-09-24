@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "24.09.2026 22:59 CEST",
+  "generated_at_local": "24.09.2026 23:11 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "-0.52%",
       "regular_move_pct": "-0.22%",
       "avg_dollar_volume": 330227927.94,
-      "bar_age_minutes": 54.8,
+      "bar_age_minutes": 66.0,
       "vwap": 271.8,
       "opening_range_high": 273.85,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "-0.48%",
       "regular_move_pct": "+0.02%",
       "avg_dollar_volume": 188644184.44,
-      "bar_age_minutes": 1.7,
+      "bar_age_minutes": 12.9,
       "vwap": 226.75,
       "opening_range_high": 227.79,
       "opening_range_ready": true,
@@ -104,7 +104,7 @@
       "live_gap_pct": "+0.35%",
       "regular_move_pct": "-0.47%",
       "avg_dollar_volume": 802800576.54,
-      "bar_age_minutes": 49.8,
+      "bar_age_minutes": 21.1,
       "vwap": 192.38,
       "opening_range_high": 193.99,
       "opening_range_ready": true,
@@ -116,6 +116,45 @@
         "score_ok": true,
         "momentum_ok": false,
         "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "score": 84,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +5.79%, 5T +4.85%, relatives Volumen 0.84x, ATR 4.92%",
+      "catalyst": "Palo Alto Networks, IBD Stock Of The Day, Is In Buy Area. Acquisitions Fuel AI Growth Path.",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -0.08%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 2.95,
+      "target_pct": 5.61,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+5.79%",
+      "change_5d": "+4.85%",
+      "volume_ratio": "0.84x",
+      "atr_pct": "4.92%",
+      "gap_pct": "-0.08%",
+      "premarket_move_pct": "+0.84%",
+      "live_gap_pct": "-0.88%",
+      "regular_move_pct": "-0.67%",
+      "avg_dollar_volume": 2538789703.56,
+      "bar_age_minutes": 0.7,
+      "vwap": 391.71,
+      "opening_range_high": 396.3,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -143,50 +182,11 @@
       "live_gap_pct": "-0.00%",
       "regular_move_pct": "+0.03%",
       "avg_dollar_volume": 1188120650.58,
-      "bar_age_minutes": 7.5,
+      "bar_age_minutes": 8.6,
       "vwap": 406.59,
       "opening_range_high": 408.95,
       "opening_range_ready": true,
       "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "META",
-      "name": "Meta",
-      "score": 83,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.02%, 5T +10.51%, relatives Volumen 1.12x, ATR 3.70%",
-      "catalyst": "Meta's stock surges as it moves from AI laggard to leader",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.12%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.22,
-      "target_pct": 4.21,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.02%",
-      "change_5d": "+10.51%",
-      "volume_ratio": "1.12x",
-      "atr_pct": "3.70%",
-      "gap_pct": "+0.12%",
-      "premarket_move_pct": "+1.12%",
-      "live_gap_pct": "+4.48%",
-      "regular_move_pct": "+2.72%",
-      "avg_dollar_volume": 14551563133.26,
-      "bar_age_minutes": 4.8,
-      "vwap": 766.52,
-      "opening_range_high": 764.0,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -291,15 +291,15 @@
       "sentiment": 1
     },
     {
-      "ticker": "META",
-      "title": "Meta's stock surges as it moves from AI laggard to leader",
-      "time": "Thu, 24 Sep 2026 19:40:25",
+      "ticker": "PANW",
+      "title": "Palo Alto Networks, IBD Stock Of The Day, Is In Buy Area. Acquisitions Fuel AI Growth Path.",
+      "time": "Thu, 24 Sep 2026 17:17:00",
       "sentiment": 1
     },
     {
       "ticker": "PANW",
-      "title": "Palo Alto Networks, IBD Stock Of The Day, Is In Buy Area. Acquisitions Fuel AI Growth Path.",
-      "time": "Thu, 24 Sep 2026 17:17:00",
+      "title": "Why Did ATAI, PANW, TRV Stocks Surge To 52-Week Highs Last Week?",
+      "time": "Thu, 24 Sep 2026 17:51:36",
       "sentiment": 1
     },
     {
@@ -491,7 +491,7 @@
     {
       "ticker": "ITW",
       "title": "Want Reliable Dividend Income? These 2 Industrial Stocks Deliver",
-      "time": "Thu, 24 Sep 2026 17:10:25",
+      "time": "Thu, 24 Sep 2026 16:39:22",
       "sentiment": 0
     },
     {
@@ -664,6 +664,12 @@
     },
     {
       "ticker": "META",
+      "title": "Is Meta’s (META) Stock Still Cheap After Its AI-Fueled Rally?",
+      "time": "Thu, 24 Sep 2026 20:57:14",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
       "title": "News About Muse Drove a 1-Day 11% Jump in Meta Stock. But the AI Agent Could Be Even More Valuable Than the Market Is Giving It Credit For.",
       "time": "Thu, 24 Sep 2026 17:32:00",
       "sentiment": 0
@@ -694,12 +700,6 @@
     },
     {
       "ticker": "EMR",
-      "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 13:32:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "EMR",
       "title": "Emerson Electric Co. (EMR) stock price, news, quote and history",
       "time": "Thu, 24 Sep 2026 14:43:13",
       "sentiment": 0
@@ -719,13 +719,19 @@
     {
       "ticker": "EMR",
       "title": "Emerson Electric Co. (EMR) latest stock news and headlines",
-      "time": "Thu, 24 Sep 2026 13:25:16",
+      "time": "Thu, 24 Sep 2026 13:18:30",
       "sentiment": 0
     },
     {
       "ticker": "EMR",
       "title": "Is New Qatar Service Center Altering The Investment Case For Emerson Electric (EMR)?",
       "time": "Thu, 24 Sep 2026 13:49:10",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EMR",
+      "title": "Emerson Electric stock heads into the open after a 0.2 percent gain",
+      "time": "Thu, 24 Sep 2026 01:00:54",
       "sentiment": 0
     },
     {
@@ -744,12 +750,6 @@
       "ticker": "PANW",
       "title": "35,000 shares acquired through stock awards are proposed for sale by a Palo Alto Networks (PANW) officer.",
       "time": "Thu, 24 Sep 2026 20:41:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PANW",
-      "title": "What's Going On with Palo Alto Networks Stock Thursday?",
-      "time": "Thu, 24 Sep 2026 15:02:41",
       "sentiment": 0
     },
     {
@@ -911,7 +911,7 @@
     {
       "ticker": "LIN",
       "title": "Linde plc (LIN.DE) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 10:59:08",
+      "time": "Thu, 24 Sep 2026 13:00:03",
       "sentiment": 0
     },
     {
@@ -940,8 +940,14 @@
     },
     {
       "ticker": "FCX",
+      "title": "Freeport-McMoRan Inc. (FCX) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 06:07:33",
+      "sentiment": 0
+    },
+    {
+      "ticker": "FCX",
       "title": "Freeport-McMoRan Inc. (FCX) stock price, news, quote and history",
-      "time": "Thu, 24 Sep 2026 11:29:37",
+      "time": "Thu, 24 Sep 2026 11:25:14",
       "sentiment": 0
     },
     {
@@ -954,12 +960,6 @@
       "ticker": "FCX",
       "title": "Freeport-McMoRan Inc. (NYSE:FCX) Plans $0.07 Quarterly Dividend",
       "time": "Wed, 23 Sep 2026 22:50:58",
-      "sentiment": 0
-    },
-    {
-      "ticker": "FCX",
-      "title": "FCX vs. SCCO: Which Copper Mining Giant Should You Bet on?",
-      "time": "Thu, 24 Sep 2026 10:27:00",
       "sentiment": 0
     },
     {
@@ -1060,14 +1060,14 @@
     },
     {
       "ticker": "WBD",
-      "title": "Judge delays deal settlement approval in Warner Bros/Paramount Skydance deal (WBD:NASDAQ)",
-      "time": "Thu, 24 Sep 2026 17:14:12",
+      "title": "WBD Stock Posts Best Day In Nearly 8 Months — Governor Newsom Reportedly Seeks Out-Of-Court Resolution In Paramount Antitrust Suit",
+      "time": "Thu, 24 Sep 2026 09:26:35",
       "sentiment": 0
     },
     {
       "ticker": "WBD",
-      "title": "WBD Stock Posts Best Day In Nearly 8 Months — Governor Newsom Reportedly Seeks Out-Of-Court Resolution In Paramount Antitrust Suit",
-      "time": "Thu, 24 Sep 2026 09:26:35",
+      "title": "Judge delays deal settlement approval in Warner Bros/Paramount Skydance deal (WBD:NASDAQ)",
+      "time": "Thu, 24 Sep 2026 17:14:12",
       "sentiment": 0
     },
     {
@@ -1103,13 +1103,13 @@
     {
       "ticker": "ASML",
       "title": "ASML Drops 1.8% as $400 Million High-NA Tools Reach More Fabs",
-      "time": "Thu, 24 Sep 2026 19:41:15",
+      "time": "Thu, 24 Sep 2026 19:18:25",
       "sentiment": 0
     },
     {
       "ticker": "ASML",
-      "title": "ASML Oct 2026 1430.000 put (ASML261023P01430000) interactive stock chart",
-      "time": "Thu, 24 Sep 2026 13:17:39",
+      "title": "ASML Drops 1.8% as $400 Million High-NA Tools Reach More Fabs",
+      "time": "Thu, 24 Sep 2026 19:41:15",
       "sentiment": 0
     },
     {
@@ -1163,7 +1163,7 @@
     {
       "ticker": "DDOG",
       "title": "Datadog, Inc. (DDOG) Stock Forecasts",
-      "time": "Thu, 24 Sep 2026 02:08:40",
+      "time": "Wed, 23 Sep 2026 23:18:24",
       "sentiment": 0
     },
     {
@@ -1174,8 +1174,14 @@
     },
     {
       "ticker": "DDOG",
-      "title": "Datadog, Inc. (DDOG) Stock Forecasts",
-      "time": "Wed, 23 Sep 2026 23:18:24",
+      "title": "QRG Capital Management Inc. Has $40.09 Million Holdings in Datadog, Inc. $DDOG",
+      "time": "Wed, 23 Sep 2026 23:08:12",
+      "sentiment": 0
+    },
+    {
+      "ticker": "RBLX",
+      "title": "Roblox Corporation (RBLX) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 19:09:33",
       "sentiment": 0
     },
     {
@@ -1198,14 +1204,8 @@
     },
     {
       "ticker": "RBLX",
-      "title": "Coupang, Inc. (CPNG) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 05:43:30",
-      "sentiment": 0
-    },
-    {
-      "ticker": "RBLX",
-      "title": "Meta Launches AI Game Development Tools, Triggering Decline in Competitors' Stock Prices",
-      "time": "Thu, 24 Sep 2026 20:41:23",
+      "title": "Unity Software Inc. (U) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 09:37:54",
       "sentiment": 0
     },
     {
