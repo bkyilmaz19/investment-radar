@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "24.09.2026 21:11 CEST",
+  "generated_at_local": "24.09.2026 21:26 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -8,12 +8,12 @@
     {
       "ticker": "BIIB",
       "name": "Biogen",
-      "score": 99,
+      "score": 97,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.86%, 5T +5.26%, relatives Volumen 1.30x, ATR 2.73%",
       "catalyst": "The executive who helped bring Duchenne muscular dystrophy's first FDA-approved treatments joins Stoke's board.",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.13%, seit Open +0.63%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.04%, seit Open +0.47%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.64,
       "target_pct": 3.11,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "2.73%",
       "gap_pct": "-0.36%",
       "premarket_move_pct": "-0.55%",
-      "live_gap_pct": "+0.13%",
-      "regular_move_pct": "+0.63%",
+      "live_gap_pct": "-0.04%",
+      "regular_move_pct": "+0.47%",
       "avg_dollar_volume": 188644184.44,
       "bar_age_minutes": 1.6,
-      "vwap": 226.63,
+      "vwap": 226.67,
       "opening_range_high": 227.79,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -45,6 +45,84 @@
       }
     },
     {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "score": 96,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.68%, 5T +10.01%, relatives Volumen 1.37x, ATR 3.55%",
+      "catalyst": "Palantir Stock Has a Growth Story Few Companies Can Match",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.54%, seit Open +1.91%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.13,
+      "target_pct": 4.05,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.68%",
+      "change_5d": "+10.01%",
+      "volume_ratio": "1.37x",
+      "atr_pct": "3.55%",
+      "gap_pct": "-1.33%",
+      "premarket_move_pct": "-0.52%",
+      "live_gap_pct": "+0.54%",
+      "regular_move_pct": "+1.91%",
+      "avg_dollar_volume": 4945032023.78,
+      "bar_age_minutes": 1.6,
+      "vwap": 191.94,
+      "opening_range_high": 192.76,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "FCX",
+      "name": "Freeport-McMoRan",
+      "score": 92,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.58%, 5T +4.61%, relatives Volumen 0.81x, ATR 4.14%",
+      "catalyst": "QRG Capital Management Inc. Raises Stock Holdings in Freeport-McMoRan Inc. $FCX",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.89%, seit Open +0.54%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.48,
+      "target_pct": 4.72,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.58%",
+      "change_5d": "+4.61%",
+      "volume_ratio": "0.81x",
+      "atr_pct": "4.14%",
+      "gap_pct": "-0.63%",
+      "premarket_move_pct": "-0.04%",
+      "live_gap_pct": "-0.89%",
+      "regular_move_pct": "+0.54%",
+      "avg_dollar_volume": 960253253.67,
+      "bar_age_minutes": 1.7,
+      "vwap": 71.93,
+      "opening_range_high": 71.77,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
       "ticker": "PH",
       "name": "Parker-Hannifin",
       "score": 91,
@@ -52,7 +130,7 @@
       "thesis": "1T +1.36%, 5T +5.00%, relatives Volumen 0.88x, ATR 2.22%",
       "catalyst": "Parker-Hannifin stock reports record fiscal 2026 results",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.22%, seit Open +0.86%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.14%, seit Open +0.78%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.33,
       "target_pct": 2.53,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +140,11 @@
       "atr_pct": "2.22%",
       "gap_pct": "noch nicht verfügbar",
       "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "+0.22%",
-      "regular_move_pct": "+0.86%",
+      "live_gap_pct": "+0.14%",
+      "regular_move_pct": "+0.78%",
       "avg_dollar_volume": 602390231.88,
-      "bar_age_minutes": 1.6,
-      "vwap": 972.13,
+      "bar_age_minutes": 1.7,
+      "vwap": 972.15,
       "opening_range_high": 966.54,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -88,24 +166,24 @@
       "name": "Microsoft",
       "score": 90,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.52%, 5T +2.10%, relatives Volumen 0.78x, ATR 2.17%",
+      "thesis": "1T +0.52%, 5T +2.10%, relatives Volumen 0.79x, ATR 2.17%",
       "catalyst": "Prediction: Microsoft’s Best Growth Opportunity May Still Be Ahead",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.62%, seit Open +1.11%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.53%, seit Open +1.20%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.3,
       "target_pct": 2.48,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
       "change_1d": "+0.52%",
       "change_5d": "+2.10%",
-      "volume_ratio": "0.78x",
+      "volume_ratio": "0.79x",
       "atr_pct": "2.17%",
       "gap_pct": "-1.22%",
       "premarket_move_pct": "-0.72%",
-      "live_gap_pct": "-0.62%",
-      "regular_move_pct": "+1.11%",
-      "avg_dollar_volume": 10776456420.9,
-      "bar_age_minutes": 1.6,
-      "vwap": 494.64,
+      "live_gap_pct": "-0.53%",
+      "regular_move_pct": "+1.20%",
+      "avg_dollar_volume": 10777209808.85,
+      "bar_age_minutes": 1.7,
+      "vwap": 494.73,
       "opening_range_high": 495.63,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -120,84 +198,6 @@
         "news_ok": true,
         "gap_ok": true,
         "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "score": 90,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.68%, 5T +10.01%, relatives Volumen 1.37x, ATR 3.55%",
-      "catalyst": "Palantir Stock Has a Growth Story Few Companies Can Match",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.19%, seit Open +1.56%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 2.13,
-      "target_pct": 4.05,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.68%",
-      "change_5d": "+10.01%",
-      "volume_ratio": "1.37x",
-      "atr_pct": "3.55%",
-      "gap_pct": "-1.33%",
-      "premarket_move_pct": "-0.52%",
-      "live_gap_pct": "+0.19%",
-      "regular_move_pct": "+1.56%",
-      "avg_dollar_volume": 4944167050.91,
-      "bar_age_minutes": 1.6,
-      "vwap": 191.93,
-      "opening_range_high": 192.76,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "FCX",
-      "name": "Freeport-McMoRan",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.58%, 5T +4.61%, relatives Volumen 0.81x, ATR 4.14%",
-      "catalyst": "QRG Capital Management Inc. Raises Stock Holdings in Freeport-McMoRan Inc. $FCX",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.90%, seit Open +0.52%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 2.48,
-      "target_pct": 4.72,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.58%",
-      "change_5d": "+4.61%",
-      "volume_ratio": "0.81x",
-      "atr_pct": "4.14%",
-      "gap_pct": "-0.63%",
-      "premarket_move_pct": "-0.04%",
-      "live_gap_pct": "-0.90%",
-      "regular_move_pct": "+0.52%",
-      "avg_dollar_volume": 960253253.67,
-      "bar_age_minutes": 1.6,
-      "vwap": 71.93,
-      "opening_range_high": 71.77,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
       }
     }
   ],
@@ -292,14 +292,8 @@
     },
     {
       "ticker": "PANW",
-      "title": "Stock Of The Day Palo Alto In Buy Zone. Takeovers Fuel AI Growth Path.",
+      "title": "Palo Alto Networks, IBD Stock Of The Day, Is In Buy Area. Acquisitions Fuel AI Growth Path.",
       "time": "Thu, 24 Sep 2026 17:17:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "PANW",
-      "title": "Why Did ATAI, PANW, TRV Stocks Surge To 52-Week Highs Last Week?",
-      "time": "Thu, 24 Sep 2026 17:51:36",
       "sentiment": 1
     },
     {
@@ -358,15 +352,15 @@
     },
     {
       "ticker": "NXPI",
-      "title": "Nasdaq 100 (QQQ) Hits All-Time High As Chipmakers Surge While Financial And Energy Stocks Drag",
-      "time": "Wed, 23 Sep 2026 19:36:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "NXPI",
       "title": "NXP Semiconductors stock falls 0.48 percent ahead of the open",
       "time": "Thu, 24 Sep 2026 06:42:48",
       "sentiment": -1
+    },
+    {
+      "ticker": "NXPI",
+      "title": "Nasdaq 100 (QQQ) Hits All-Time High As Chipmakers Surge While Financial And Energy Stocks Drag",
+      "time": "Wed, 23 Sep 2026 19:36:00",
+      "sentiment": 1
     },
     {
       "ticker": "CEG",
@@ -509,7 +503,7 @@
     {
       "ticker": "ITW",
       "title": "Want Reliable Dividend Income? These 2 Industrial Stocks Deliver",
-      "time": "Thu, 24 Sep 2026 17:10:25",
+      "time": "Thu, 24 Sep 2026 16:39:22",
       "sentiment": 0
     },
     {
@@ -532,6 +526,12 @@
     },
     {
       "ticker": "MSFT",
+      "title": "Why These Wall Street Analysts Think Microsoft Stock Is ‘Getting Back on Track",
+      "time": "Thu, 24 Sep 2026 18:49:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
       "title": "MSFT Stock Bucks Iran-Linked Sell-Off: Microsoft Releases Mac-Style Search On Windows 11",
       "time": "Thu, 24 Sep 2026 16:23:53",
       "sentiment": 0
@@ -546,12 +546,6 @@
       "ticker": "MSFT",
       "title": "Microsoft Stock: Buy This Early Recovery (NASDAQ:MSFT)",
       "time": "Thu, 24 Sep 2026 01:09:40",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Has More Irons in the Fire and Continues to Be an Attractive Big Tech Name",
-      "time": "Thu, 24 Sep 2026 12:26:02",
       "sentiment": 0
     },
     {
@@ -694,14 +688,14 @@
     },
     {
       "ticker": "META",
-      "title": "What's Going On With Meta Platforms Stock Thursday? - Meta Platforms (NASDAQ:META)",
-      "time": "Thu, 24 Sep 2026 10:42:20",
+      "title": "Why Meta Stock Won’t Care If New Muse AI Gadget Flops",
+      "time": "Thu, 24 Sep 2026 12:29:00",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Why Meta Stock Won’t Care If New Muse AI Gadget Flops",
-      "time": "Thu, 24 Sep 2026 12:29:00",
+      "title": "What's Going On With Meta Platforms Stock Thursday? - Meta Platforms (NASDAQ:META)",
+      "time": "Thu, 24 Sep 2026 10:42:20",
       "sentiment": 0
     },
     {
@@ -736,12 +730,6 @@
     },
     {
       "ticker": "EMR",
-      "title": "Emerson Electric Co (EMR.SG) stock price, news, quote and history",
-      "time": "Thu, 24 Sep 2026 14:46:15",
-      "sentiment": 0
-    },
-    {
-      "ticker": "EMR",
       "title": "Emerson Electric Co. (EMR) latest stock news and headlines",
       "time": "Thu, 24 Sep 2026 14:16:20",
       "sentiment": 0
@@ -750,6 +738,12 @@
       "ticker": "EMR",
       "title": "Is New Qatar Service Center Altering The Investment Case For Emerson Electric (EMR)?",
       "time": "Thu, 24 Sep 2026 13:49:10",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EMR",
+      "title": "Emerson Electric stock heads into the open after a 0.2 percent gain",
+      "time": "Thu, 24 Sep 2026 01:00:54",
       "sentiment": 0
     },
     {
@@ -768,6 +762,12 @@
       "ticker": "PANW",
       "title": "Palo Alto Is Knocking on $400 as Wall Street Rushes Into Cyber. Buy, Hold, or Sell?",
       "time": "Thu, 24 Sep 2026 17:35:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PANW",
+      "title": "CRWD, PANW, NET, ZS: One Cybersecurity Stock Won Over Retail Investors – But Another Tops Wall Street’s List",
+      "time": "Thu, 24 Sep 2026 08:32:15",
       "sentiment": 0
     },
     {
@@ -832,8 +832,8 @@
     },
     {
       "ticker": "BSX",
-      "title": "Why Did SPCX, IBM, BSX Drop To 52-Week Lows Today?",
-      "time": "Wed, 23 Sep 2026 19:12:22",
+      "title": "Wells Fargo Adjusts Price Target on Boston Scientific to $48 From $50, Keeps Equalweight Rating",
+      "time": "Thu, 24 Sep 2026 09:44:43",
       "sentiment": 0
     },
     {
@@ -858,12 +858,6 @@
       "ticker": "PH",
       "title": "Envestnet Asset Management Inc. Sells 24,095 Shares of Parker-Hannifin Corporation $PH",
       "time": "Wed, 23 Sep 2026 23:08:11",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PH",
-      "title": "Emerson Electric Co. (EMR) stock price, news, quote and history",
-      "time": "Thu, 24 Sep 2026 13:39:46",
       "sentiment": 0
     },
     {
@@ -946,6 +940,12 @@
     },
     {
       "ticker": "FCX",
+      "title": "Freeport-McMoRan Inc. (FCX) stock price, news, quote and history",
+      "time": "Thu, 24 Sep 2026 11:25:14",
+      "sentiment": 0
+    },
+    {
+      "ticker": "FCX",
       "title": "Freeport-McMoRan (FCX) Registers a Bigger Fall Than the Market: Important Facts to Note",
       "time": "Wed, 23 Sep 2026 21:50:03",
       "sentiment": 0
@@ -957,15 +957,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "FCX",
-      "title": "FCX vs. SCCO: Which Copper Mining Giant Should You Bet on?",
-      "time": "Thu, 24 Sep 2026 10:27:00",
-      "sentiment": 0
-    },
-    {
       "ticker": "NXPI",
       "title": "Microchip Technology Incorporated (MCHP) interactive stock chart",
-      "time": "Thu, 24 Sep 2026 12:22:03",
+      "time": "Thu, 24 Sep 2026 11:22:46",
       "sentiment": 0
     },
     {
@@ -1108,14 +1102,14 @@
     },
     {
       "ticker": "ASML",
-      "title": "SKHY, MU, Samsung's Memory Technology Lead Over China’s CXMT Unlikely To Narrow Soon, Says Futurum Analyst",
-      "time": "Thu, 24 Sep 2026 14:05:34",
+      "title": "ASML Drops 1.8% as $400 Million High-NA Tools Reach More Fabs",
+      "time": "Thu, 24 Sep 2026 19:24:38",
       "sentiment": 0
     },
     {
       "ticker": "ASML",
-      "title": "ASML Oct 2026 1240.000 put (ASML261009P01240000) stock price, news, quote and history",
-      "time": "Thu, 24 Sep 2026 12:32:46",
+      "title": "SKHY, MU, Samsung's Memory Technology Lead Over China’s CXMT Unlikely To Narrow Soon, Says Futurum Analyst",
+      "time": "Thu, 24 Sep 2026 14:05:34",
       "sentiment": 0
     },
     {
@@ -1205,7 +1199,7 @@
     {
       "ticker": "RBLX",
       "title": "Unity Software Inc. (U) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 08:35:31",
+      "time": "Thu, 24 Sep 2026 09:37:54",
       "sentiment": 0
     },
     {
