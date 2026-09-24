@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "24.09.2026 22:12 CEST",
+  "generated_at_local": "24.09.2026 22:30 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -23,11 +23,11 @@
       "atr_pct": "1.73%",
       "gap_pct": "+0.08%",
       "premarket_move_pct": "+0.42%",
-      "live_gap_pct": "-0.55%",
-      "regular_move_pct": "-0.25%",
+      "live_gap_pct": "-0.52%",
+      "regular_move_pct": "-0.22%",
       "avg_dollar_volume": 330227927.94,
-      "bar_age_minutes": 4.6,
-      "vwap": 271.79,
+      "bar_age_minutes": 25.4,
+      "vwap": 271.8,
       "opening_range_high": 273.85,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -45,51 +45,12 @@
       }
     },
     {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks",
-      "score": 86,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +5.79%, 5T +4.85%, relatives Volumen 0.84x, ATR 4.92%",
-      "catalyst": "Palo Alto Networks, IBD Stock Of The Day, Is In Buy Area. Acquisitions Fuel AI Growth Path.",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.08%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 2.95,
-      "target_pct": 5.61,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+5.79%",
-      "change_5d": "+4.85%",
-      "volume_ratio": "0.84x",
-      "atr_pct": "4.92%",
-      "gap_pct": "-0.08%",
-      "premarket_move_pct": "+0.84%",
-      "live_gap_pct": "-0.88%",
-      "regular_move_pct": "-0.67%",
-      "avg_dollar_volume": 2538789703.56,
-      "bar_age_minutes": 2.3,
-      "vwap": 391.71,
-      "opening_range_high": 396.3,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
       "ticker": "BIIB",
       "name": "Biogen",
       "score": 85,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +3.86%, 5T +5.26%, relatives Volumen 1.30x, ATR 2.73%",
-      "catalyst": "The executive who helped bring Duchenne muscular dystrophy's first FDA-approved treatments joins Stoke's board.",
+      "catalyst": "Biogen stock trades near its 52-week high on growth bets",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
       "entry_note": "Premarket-Gap -0.36%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
       "stop_pct": 1.64,
@@ -104,7 +65,7 @@
       "live_gap_pct": "-0.48%",
       "regular_move_pct": "+0.02%",
       "avg_dollar_volume": 188644184.44,
-      "bar_age_minutes": 2.3,
+      "bar_age_minutes": 15.4,
       "vwap": 226.75,
       "opening_range_high": 227.79,
       "opening_range_ready": true,
@@ -140,11 +101,11 @@
       "atr_pct": "2.39%",
       "gap_pct": "+0.79%",
       "premarket_move_pct": "+1.13%",
-      "live_gap_pct": "+0.37%",
-      "regular_move_pct": "-0.45%",
+      "live_gap_pct": "+0.35%",
+      "regular_move_pct": "-0.47%",
       "avg_dollar_volume": 802800576.54,
-      "bar_age_minutes": 6.7,
-      "vwap": 192.39,
+      "bar_age_minutes": 17.2,
+      "vwap": 192.38,
       "opening_range_high": 193.99,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -155,6 +116,45 @@
         "score_ok": true,
         "momentum_ok": false,
         "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "score": 84,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +5.79%, 5T +4.85%, relatives Volumen 0.84x, ATR 4.92%",
+      "catalyst": "Palo Alto Networks, IBD Stock Of The Day, Is In Buy Area. Acquisitions Fuel AI Growth Path.",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -0.08%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 2.95,
+      "target_pct": 5.61,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+5.79%",
+      "change_5d": "+4.85%",
+      "volume_ratio": "0.84x",
+      "atr_pct": "4.92%",
+      "gap_pct": "-0.08%",
+      "premarket_move_pct": "+0.84%",
+      "live_gap_pct": "-0.88%",
+      "regular_move_pct": "-0.67%",
+      "avg_dollar_volume": 2538789703.56,
+      "bar_age_minutes": 5.4,
+      "vwap": 391.71,
+      "opening_range_high": 396.3,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -182,7 +182,7 @@
       "live_gap_pct": "-0.00%",
       "regular_move_pct": "+0.03%",
       "avg_dollar_volume": 1188120650.58,
-      "bar_age_minutes": 2.2,
+      "bar_age_minutes": 5.4,
       "vwap": 406.59,
       "opening_range_high": 408.95,
       "opening_range_ready": true,
@@ -244,8 +244,8 @@
     },
     {
       "ticker": "BIIB",
-      "title": "The executive who helped bring Duchenne muscular dystrophy's first FDA-approved treatments joins Stoke's board.",
-      "time": "Wed, 23 Sep 2026 20:16:19",
+      "title": "Biogen stock trades near its 52-week high on growth bets",
+      "time": "Thu, 24 Sep 2026 19:11:22",
       "sentiment": 1
     },
     {
@@ -258,6 +258,12 @@
       "ticker": "ITW",
       "title": "Illinois Tool Works stock reports 6.1 percent revenue growth",
       "time": "Thu, 24 Sep 2026 12:05:25",
+      "sentiment": 1
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Prediction: Microsoft’s Best Growth Opportunity May Still Be Ahead",
+      "time": "Thu, 24 Sep 2026 12:30:00",
       "sentiment": 1
     },
     {
@@ -279,6 +285,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "META",
+      "title": "Meta's stock surges as it moves from AI laggard to leader",
+      "time": "Thu, 24 Sep 2026 19:40:25",
+      "sentiment": 1
+    },
+    {
       "ticker": "PANW",
       "title": "Palo Alto Networks, IBD Stock Of The Day, Is In Buy Area. Acquisitions Fuel AI Growth Path.",
       "time": "Thu, 24 Sep 2026 17:17:00",
@@ -288,12 +300,6 @@
       "ticker": "PANW",
       "title": "Why Did ATAI, PANW, TRV Stocks Surge To 52-Week Highs Last Week?",
       "time": "Thu, 24 Sep 2026 17:51:36",
-      "sentiment": 1
-    },
-    {
-      "ticker": "PANW",
-      "title": "What Drove Palo Alto Networks' (NASDAQ:PANW) Fiscal Year Platform Growth?",
-      "time": "Thu, 24 Sep 2026 12:30:00",
       "sentiment": 1
     },
     {
@@ -351,6 +357,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "GIS",
+      "title": "General Mills Posts Q1 Beat; There’s Still ‘More Work To Be Done,’ Analysts Say",
+      "time": "Thu, 24 Sep 2026 15:35:35",
+      "sentiment": 1
+    },
+    {
       "ticker": "KLAC",
       "title": "Teradyne Strengthens AI Test Portfolio: Can It Beat KLAC & COHU?",
       "time": "Thu, 24 Sep 2026 15:16:00",
@@ -359,7 +371,7 @@
     {
       "ticker": "ASML",
       "title": "With 2 Big Chip Stocks Offering Value, These ETFs Are Worth a Look",
-      "time": "Thu, 24 Sep 2026 14:22:39",
+      "time": "Thu, 24 Sep 2026 14:26:09",
       "sentiment": -1
     },
     {
@@ -454,12 +466,6 @@
     },
     {
       "ticker": "BIIB",
-      "title": "Biogen stock adds 3.40 percent ahead of the open",
-      "time": "Thu, 24 Sep 2026 02:03:24",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BIIB",
       "title": "10 Health Care Stocks Whale Activity In Today’s Session",
       "time": "Thu, 24 Sep 2026 17:35:10",
       "sentiment": 0
@@ -468,6 +474,12 @@
       "ticker": "BIIB",
       "title": "Winners And Losers Of Q2: Amgen (NASDAQ:AMGN) Vs The Rest Of The Therapeutics Stocks",
       "time": "Thu, 24 Sep 2026 03:31:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BIIB",
+      "title": "Biogen stock adds 3.40 percent ahead of the open",
+      "time": "Thu, 24 Sep 2026 02:03:24",
       "sentiment": 0
     },
     {
@@ -528,12 +540,6 @@
       "ticker": "MSFT",
       "title": "Microsoft Stock: Buy This Early Recovery (NASDAQ:MSFT)",
       "time": "Thu, 24 Sep 2026 01:09:40",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
-      "title": "Microsoft Has More Irons in the Fire and Continues to Be an Attractive Big Tech Name",
-      "time": "Thu, 24 Sep 2026 12:26:02",
       "sentiment": 0
     },
     {
@@ -610,6 +616,12 @@
     },
     {
       "ticker": "MMM",
+      "title": "Stay informed with the top movers within the dow jones index on Thursday.",
+      "time": "Thu, 24 Sep 2026 19:10:10",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MMM",
       "title": "These Dow Jones Stocks Buck Index's Dud Performance",
       "time": "Thu, 24 Sep 2026 18:14:00",
       "sentiment": 0
@@ -618,12 +630,6 @@
       "ticker": "MMM",
       "title": "S&P 500, Dow Snap Three-Day Losses, Nasdaq Ends Best Day In Three Weeks As Earnings Take Centerstage — GOOGL, AAPL, AMD, TSLA, DIS In Focus",
       "time": "Thu, 24 Sep 2026 10:48:36",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MMM",
-      "title": "3M stock heads into the open after a 0.02 percent dip",
-      "time": "Thu, 24 Sep 2026 04:57:03",
       "sentiment": 0
     },
     {
@@ -646,12 +652,6 @@
     },
     {
       "ticker": "ADI",
-      "title": "After a planned share sale, Analog Devices (ADI) CFO holds 51,177 shares.",
-      "time": "Wed, 23 Sep 2026 20:18:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADI",
       "title": "Analog Devices stock heads into the open after a 1.32 percent drop",
       "time": "Thu, 24 Sep 2026 04:37:52",
       "sentiment": 0
@@ -660,6 +660,12 @@
       "ticker": "ADI",
       "title": "Analog Devices, Inc. $ADI Shares Purchased by QRG Capital Management Inc.",
       "time": "Wed, 23 Sep 2026 23:08:14",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADI",
+      "title": "Envestnet Portfolio Solutions Inc. Purchases 3,096 Shares of Analog Devices, Inc. $ADI",
+      "time": "Wed, 23 Sep 2026 23:08:13",
       "sentiment": 0
     },
     {
@@ -676,12 +682,6 @@
     },
     {
       "ticker": "META",
-      "title": "Meta Rises 3% as Its Month-Long Run Extends on Muse Buzz; Reddit Nudges Higher",
-      "time": "Thu, 24 Sep 2026 16:53:06",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
       "title": "Meta (META) Stock Is Up, What You Need To Know",
       "time": "Thu, 24 Sep 2026 19:50:00",
       "sentiment": 0
@@ -694,8 +694,14 @@
     },
     {
       "ticker": "META",
-      "title": "Why Meta Platforms Stock Keeps Going Up",
-      "time": "Thu, 24 Sep 2026 16:25:57",
+      "title": "Meta Made a Number of AI Announcements Last Night. Here’s What Analysts Have to Say About Them",
+      "time": "Thu, 24 Sep 2026 16:06:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EMR",
+      "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 13:32:49",
       "sentiment": 0
     },
     {
@@ -719,7 +725,7 @@
     {
       "ticker": "EMR",
       "title": "Emerson Electric Co. (EMR) latest stock news and headlines",
-      "time": "Thu, 24 Sep 2026 13:18:30",
+      "time": "Thu, 24 Sep 2026 13:25:16",
       "sentiment": 0
     },
     {
@@ -729,9 +735,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "EMR",
-      "title": "Emerson Electric stock heads into the open after a 0.2 percent gain",
-      "time": "Thu, 24 Sep 2026 01:00:54",
+      "ticker": "PANW",
+      "title": "Here’s How Much You Would Have Made Owning Palo Alto Networks Stock In The Last 5 Years",
+      "time": "Thu, 24 Sep 2026 20:15:20",
       "sentiment": 0
     },
     {
@@ -742,14 +748,14 @@
     },
     {
       "ticker": "PANW",
-      "title": "What's Going On with Palo Alto Networks Stock Thursday?",
-      "time": "Thu, 24 Sep 2026 15:02:41",
+      "title": "Palo Alto Is Knocking on $400 as Wall Street Rushes Into Cyber. Buy, Hold, or Sell?",
+      "time": "Thu, 24 Sep 2026 17:35:00",
       "sentiment": 0
     },
     {
       "ticker": "PANW",
-      "title": "Palo Alto Is Knocking on $400 as Wall Street Rushes Into Cyber. Buy, Hold, or Sell?",
-      "time": "Thu, 24 Sep 2026 17:35:00",
+      "title": "What's Going On with Palo Alto Networks Stock Thursday?",
+      "time": "Thu, 24 Sep 2026 15:02:41",
       "sentiment": 0
     },
     {
@@ -881,7 +887,7 @@
     {
       "ticker": "MAR",
       "title": "LG Electronics Inc. (066575.KS) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 10:29:01",
+      "time": "Thu, 24 Sep 2026 07:31:15",
       "sentiment": 0
     },
     {
@@ -935,7 +941,7 @@
     {
       "ticker": "FCX",
       "title": "Freeport-McMoRan Inc. (FCX) stock price, news, quote and history",
-      "time": "Thu, 24 Sep 2026 11:25:14",
+      "time": "Thu, 24 Sep 2026 11:29:37",
       "sentiment": 0
     },
     {
@@ -953,7 +959,7 @@
     {
       "ticker": "NXPI",
       "title": "Microchip Technology Incorporated (MCHP) interactive stock chart",
-      "time": "Thu, 24 Sep 2026 11:22:46",
+      "time": "Thu, 24 Sep 2026 11:23:56",
       "sentiment": 0
     },
     {
@@ -984,6 +990,36 @@
       "ticker": "CEG",
       "title": "GE Vernova vs. Duke Energy: Which Power Stock Is a Better Pick Today?",
       "time": "Thu, 24 Sep 2026 15:45:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GIS",
+      "title": "Company News for Sep 24, 2026",
+      "time": "Thu, 24 Sep 2026 12:39:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GIS",
+      "title": "The Case for Buying High-Yield General Mills Just Strengthened",
+      "time": "Thu, 24 Sep 2026 17:17:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GIS",
+      "title": "Piper Sandler reiterates General Mills stock rating on innovation",
+      "time": "Thu, 24 Sep 2026 14:41:32",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GIS",
+      "title": "General Mills (GIS) Stock Faces Profit Rebuild Questions After Loss Swing",
+      "time": "Wed, 23 Sep 2026 22:33:21",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GIS",
+      "title": "GIS Q1 Earnings Call Highlights Innovation and Inflation",
+      "time": "Thu, 24 Sep 2026 13:00:00",
       "sentiment": 0
     },
     {
@@ -1060,12 +1096,6 @@
     },
     {
       "ticker": "ASML",
-      "title": "5 AI Semiconductor Stocks to Buy and Hold Through 2031",
-      "time": "Thu, 24 Sep 2026 19:06:44",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
       "title": "ASML Oct 2026 2160.000 put (ASML261030P02160000) Interactive Stock Chart - Yahoo Finance",
       "time": "Thu, 24 Sep 2026 14:42:34",
       "sentiment": 0
@@ -1074,6 +1104,12 @@
       "ticker": "ASML",
       "title": "ASML Drops 1.8% as $400 Million High-NA Tools Reach More Fabs",
       "time": "Thu, 24 Sep 2026 19:41:15",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
+      "title": "5 AI Semiconductor Stocks to Buy and Hold Through 2031",
+      "time": "Thu, 24 Sep 2026 19:06:44",
       "sentiment": 0
     },
     {
@@ -1133,7 +1169,7 @@
     {
       "ticker": "DDOG",
       "title": "Datadog, Inc. (DDOG) Stock Forecasts",
-      "time": "Thu, 24 Sep 2026 02:08:40",
+      "time": "Wed, 23 Sep 2026 23:18:24",
       "sentiment": 0
     },
     {
