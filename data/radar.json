@@ -1,49 +1,10 @@
 {
-  "generated_at_local": "24.09.2026 19:52 CEST",
+  "generated_at_local": "24.09.2026 20:13 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "PLTR",
-      "name": "Palantir",
-      "score": 96,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.68%, 5T +10.01%, relatives Volumen 1.37x, ATR 3.55%",
-      "catalyst": "Palantir Stock Has a Growth Story Few Companies Can Match",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.41%, seit Open +1.79%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 2.13,
-      "target_pct": 4.05,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.68%",
-      "change_5d": "+10.01%",
-      "volume_ratio": "1.37x",
-      "atr_pct": "3.55%",
-      "gap_pct": "-1.33%",
-      "premarket_move_pct": "-0.52%",
-      "live_gap_pct": "+0.41%",
-      "regular_move_pct": "+1.79%",
-      "avg_dollar_volume": 4944167050.91,
-      "bar_age_minutes": 2.8,
-      "vwap": 191.86,
-      "opening_range_high": 192.76,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
     {
       "ticker": "FCX",
       "name": "Freeport-McMoRan",
@@ -52,7 +13,7 @@
       "thesis": "1T +0.58%, 5T +4.61%, relatives Volumen 0.81x, ATR 4.14%",
       "catalyst": "QRG Capital Management Inc. Raises Stock Holdings in Freeport-McMoRan Inc. $FCX",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.68%, seit Open +0.75%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.50%, seit Open +0.94%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.48,
       "target_pct": 4.72,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +23,11 @@
       "atr_pct": "4.14%",
       "gap_pct": "-0.63%",
       "premarket_move_pct": "-0.04%",
-      "live_gap_pct": "-0.68%",
-      "regular_move_pct": "+0.75%",
+      "live_gap_pct": "-0.50%",
+      "regular_move_pct": "+0.94%",
       "avg_dollar_volume": 960253253.67,
-      "bar_age_minutes": 2.8,
-      "vwap": 71.86,
+      "bar_age_minutes": 3.7,
+      "vwap": 71.87,
       "opening_range_high": 71.77,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -91,7 +52,7 @@
       "thesis": "1T +1.89%, 5T +5.16%, relatives Volumen 1.08x, ATR 2.36%",
       "catalyst": "Emerson Electric stock reports 7 percent Q3 revenue growth",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.24%, seit Open +1.46%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.22%, seit Open +1.44%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.42,
       "target_pct": 2.69,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,10 +62,10 @@
       "atr_pct": "2.36%",
       "gap_pct": "+0.28%",
       "premarket_move_pct": "+0.51%",
-      "live_gap_pct": "+0.24%",
-      "regular_move_pct": "+1.46%",
+      "live_gap_pct": "+0.22%",
+      "regular_move_pct": "+1.44%",
       "avg_dollar_volume": 345918539.97,
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.7,
       "vwap": 154.8,
       "opening_range_high": 153.98,
       "opening_range_ready": true,
@@ -123,70 +84,109 @@
       }
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike",
-      "score": 91,
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "score": 90,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +5.27%, 5T +8.25%, relatives Volumen 0.89x, ATR 5.00%",
-      "catalyst": "Can Strong Momentum in Next-Gen SIEM Drive CRWD's Platform Expansion?",
+      "thesis": "1T +3.68%, 5T +10.01%, relatives Volumen 1.37x, ATR 3.55%",
+      "catalyst": "Palantir Stock Has a Growth Story Few Companies Can Match",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.06%, seit Open +0.33%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 3.0,
-      "target_pct": 5.7,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.27%, seit Open +1.64%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 2.13,
+      "target_pct": 4.05,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+5.27%",
-      "change_5d": "+8.25%",
-      "volume_ratio": "0.89x",
-      "atr_pct": "5.00%",
-      "gap_pct": "-0.26%",
-      "premarket_move_pct": "+0.67%",
-      "live_gap_pct": "+0.06%",
-      "regular_move_pct": "+0.33%",
-      "avg_dollar_volume": 2997024076.44,
-      "bar_age_minutes": 2.8,
-      "vwap": 261.37,
-      "opening_range_high": 262.48,
+      "change_1d": "+3.68%",
+      "change_5d": "+10.01%",
+      "volume_ratio": "1.37x",
+      "atr_pct": "3.55%",
+      "gap_pct": "-1.33%",
+      "premarket_move_pct": "-0.52%",
+      "live_gap_pct": "+0.27%",
+      "regular_move_pct": "+1.64%",
+      "avg_dollar_volume": 4944167050.91,
+      "bar_age_minutes": 3.7,
+      "vwap": 191.87,
+      "opening_range_high": 192.76,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
       "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": false,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
       }
     },
     {
-      "ticker": "CEG",
-      "name": "Constellation Energy",
-      "score": 89,
+      "ticker": "BIIB",
+      "name": "Biogen",
+      "score": 85,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.68%, 5T +1.54%, relatives Volumen 0.78x, ATR 4.08%",
-      "catalyst": "Constellation Energy stock tracks a raised 2026 earnings guide",
+      "thesis": "1T +3.86%, 5T +5.26%, relatives Volumen 1.30x, ATR 2.73%",
+      "catalyst": "The executive who helped bring Duchenne muscular dystrophy's first FDA-approved treatments joins Stoke's board.",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.55%, seit Open +0.27%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 2.45,
-      "target_pct": 4.65,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.20%, seit Open +0.12%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.64,
+      "target_pct": 3.11,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.68%",
-      "change_5d": "+1.54%",
-      "volume_ratio": "0.78x",
-      "atr_pct": "4.08%",
-      "gap_pct": "-0.72%",
-      "premarket_move_pct": "-0.81%",
-      "live_gap_pct": "-0.55%",
-      "regular_move_pct": "+0.27%",
-      "avg_dollar_volume": 794793547.31,
-      "bar_age_minutes": 2.8,
-      "vwap": 260.72,
-      "opening_range_high": 261.72,
+      "change_1d": "+3.86%",
+      "change_5d": "+5.26%",
+      "volume_ratio": "1.30x",
+      "atr_pct": "2.73%",
+      "gap_pct": "-0.36%",
+      "premarket_move_pct": "-0.55%",
+      "live_gap_pct": "-0.20%",
+      "regular_move_pct": "+0.12%",
+      "avg_dollar_volume": 188644184.44,
+      "bar_age_minutes": 3.7,
+      "vwap": 226.42,
+      "opening_range_high": 227.79,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "score": 85,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.29%, 5T +8.10%, relatives Volumen 0.72x, ATR 2.96%",
+      "catalyst": "Amgen (AMGN) Is Up 7.9% After Positive Phase 3 Dazodalibep Data in Systemic Sjögren’s Disease",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.18%, seit Open +0.22%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.77,
+      "target_pct": 3.37,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.29%",
+      "change_5d": "+8.10%",
+      "volume_ratio": "0.72x",
+      "atr_pct": "2.96%",
+      "gap_pct": "+0.29%",
+      "premarket_move_pct": "+0.40%",
+      "live_gap_pct": "+0.18%",
+      "regular_move_pct": "+0.22%",
+      "avg_dollar_volume": 1188120650.58,
+      "bar_age_minutes": 3.7,
+      "vwap": 406.23,
+      "opening_range_high": 408.95,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -197,7 +197,7 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
       }
     }
   ],
@@ -228,12 +228,6 @@
       "ticker": "DE",
       "title": "Deere: Time To Take Some Profits (Downgrade To Sell) (NYSE:DE)",
       "time": "Wed, 23 Sep 2026 19:26:55",
-      "sentiment": -1
-    },
-    {
-      "ticker": "DE",
-      "title": "Bank of America Increases Deere & Company (NYSE:DE) Price Target to $715.00",
-      "time": "Thu, 24 Sep 2026 13:21:14",
       "sentiment": -1
     },
     {
@@ -288,6 +282,12 @@
       "ticker": "AMGN",
       "title": "Amgen (AMGN) Is Up 7.9% After Positive Phase 3 Dazodalibep Data in Systemic Sjögren’s Disease",
       "time": "Thu, 24 Sep 2026 01:14:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "PM",
+      "title": "3 Reasons Growth Investors Will Love Philip Morris (PM)",
+      "time": "Thu, 24 Sep 2026 15:45:02",
       "sentiment": 1
     },
     {
@@ -352,14 +352,14 @@
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors stock reports 19.5 percent revenue growth",
-      "time": "Thu, 24 Sep 2026 10:22:57",
+      "title": "Nasdaq 100 (QQQ) Hits All-Time High As Chipmakers Surge While Financial And Energy Stocks Drag",
+      "time": "Wed, 23 Sep 2026 19:36:00",
       "sentiment": 1
     },
     {
       "ticker": "NXPI",
-      "title": "Nasdaq 100 (QQQ) Hits All-Time High As Chipmakers Surge While Financial And Energy Stocks Drag",
-      "time": "Wed, 23 Sep 2026 19:36:00",
+      "title": "NXP Semiconductors stock reports 19.5 percent revenue growth",
+      "time": "Thu, 24 Sep 2026 10:22:57",
       "sentiment": 1
     },
     {
@@ -411,12 +411,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "RBLX",
-      "title": "RKLB, RDW, FLY, VSAT Climb Overnight: $981M Space Force IDIQ Contract Opens Fresh Pentagon Opportunity",
-      "time": "Thu, 24 Sep 2026 06:50:14",
-      "sentiment": 1
-    },
-    {
       "ticker": "TMO",
       "title": "Thermo Fisher Stock Hits Record High: What's Happening?",
       "time": "Thu, 24 Sep 2026 15:53:33",
@@ -430,20 +424,26 @@
     },
     {
       "ticker": "DE",
+      "title": "Deere & Co. stock advances 2.37 percent ahead of the open",
+      "time": "Thu, 24 Sep 2026 06:15:36",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DE",
+      "title": "Deere & Company stock trades near its yearly high",
+      "time": "Wed, 23 Sep 2026 20:39:55",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DE",
       "title": "Warehouses De Pauw (ENXTBR:WDP) Stock Looks Undervalued Following Its 31% Five Year Decline",
       "time": "Wed, 23 Sep 2026 23:15:35",
       "sentiment": 0
     },
     {
       "ticker": "DE",
-      "title": "BofA Securities Adjusts Price Target on Deere & Company to $715 From $667",
-      "time": "Thu, 24 Sep 2026 12:50:48",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DE",
-      "title": "Deere & Co. stock advances 2.37 percent ahead of the open",
-      "time": "Thu, 24 Sep 2026 06:15:36",
+      "title": "Deere stock gains 1.30 percent at the close",
+      "time": "Wed, 23 Sep 2026 20:37:20",
       "sentiment": 0
     },
     {
@@ -538,20 +538,20 @@
     },
     {
       "ticker": "MSFT",
+      "title": "Microsoft Corporation (MSFT) stock price, news, quote and history",
+      "time": "Thu, 24 Sep 2026 14:11:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
       "title": "Microsoft Stock: Buy This Early Recovery (NASDAQ:MSFT)",
       "time": "Thu, 24 Sep 2026 01:09:40",
       "sentiment": 0
     },
     {
-      "ticker": "MSFT",
-      "title": "Microsoft, Howmet Aerospace, FTAI Aviation And An Energy Stock On CNBC’s ‘Final Trades’",
-      "time": "Thu, 24 Sep 2026 12:12:47",
-      "sentiment": 0
-    },
-    {
       "ticker": "AMGN",
       "title": "Amgen (AMGN) Stock Could Be 40% Undervalued On Phase 3 Sjögren’s Data",
-      "time": "Thu, 24 Sep 2026 12:55:10",
+      "time": "Thu, 24 Sep 2026 12:55:09",
       "sentiment": 0
     },
     {
@@ -579,6 +579,36 @@
       "sentiment": 0
     },
     {
+      "ticker": "PM",
+      "title": "Learn Why The Bull Case For Philip Morris International Stock Could Change Following Dividend Hike",
+      "time": "Thu, 24 Sep 2026 01:40:59",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PM",
+      "title": "Envestnet Asset Management Inc. Has $1.12 Billion Holdings in Philip Morris International Inc. $PM",
+      "time": "Wed, 23 Sep 2026 23:08:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PM",
+      "title": "Philip Morris stock reports an 8.8 percent dividend increase",
+      "time": "Thu, 24 Sep 2026 17:23:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PM",
+      "title": "QRG Capital Management Inc. Has $44.54 Million Position in Philip Morris International Inc. $PM",
+      "time": "Wed, 23 Sep 2026 23:08:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PM",
+      "title": "Philip Morris stock gains 0.20 percent ahead of the open",
+      "time": "Thu, 24 Sep 2026 05:09:38",
+      "sentiment": 0
+    },
+    {
       "ticker": "MMM",
       "title": "3M Company (MMM) stock price, news, quote and history",
       "time": "Thu, 24 Sep 2026 03:45:39",
@@ -598,14 +628,14 @@
     },
     {
       "ticker": "MMM",
-      "title": "United Parcel Service, Inc. (UPS) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 14:20:46",
+      "title": "Wednesday's session: top gainers and losers in the dow jones index",
+      "time": "Wed, 23 Sep 2026 19:10:09",
       "sentiment": 0
     },
     {
       "ticker": "MMM",
-      "title": "Wednesday's session: top gainers and losers in the dow jones index",
-      "time": "Wed, 23 Sep 2026 19:10:09",
+      "title": "3M stock heads into the open after a 0.02 percent dip",
+      "time": "Thu, 24 Sep 2026 04:57:03",
       "sentiment": 0
     },
     {
@@ -658,20 +688,20 @@
     },
     {
       "ticker": "META",
-      "title": "Why Meta Stock Won’t Care If New Muse AI Gadget Flops",
-      "time": "Thu, 24 Sep 2026 12:29:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
       "title": "What's Going On With Meta Platforms Stock Thursday? - Meta Platforms (NASDAQ:META)",
       "time": "Thu, 24 Sep 2026 10:42:20",
       "sentiment": 0
     },
     {
       "ticker": "META",
+      "title": "Why Meta Stock Won’t Care If New Muse AI Gadget Flops",
+      "time": "Thu, 24 Sep 2026 12:29:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
       "title": "Why Meta Platforms Stock Keeps Going Up",
-      "time": "Thu, 24 Sep 2026 16:25:57",
+      "time": "Thu, 24 Sep 2026 16:25:18",
       "sentiment": 0
     },
     {
@@ -695,7 +725,7 @@
     {
       "ticker": "EMR",
       "title": "Is New Qatar Service Center Altering The Investment Case For Emerson Electric (EMR)?",
-      "time": "Thu, 24 Sep 2026 13:49:10",
+      "time": "Thu, 24 Sep 2026 14:03:45",
       "sentiment": 0
     },
     {
@@ -736,12 +766,6 @@
     },
     {
       "ticker": "PFE",
-      "title": "Bristol Myers Squibb vs. Pfizer: Which Healthcare Stock Is a Better Buy in 2026?",
-      "time": "Thu, 24 Sep 2026 12:56:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PFE",
       "title": "Pfizer (NYSE:PFE) Nears Breakout as Technical Strength and Setup Quality Reach Top Marks",
       "time": "Thu, 24 Sep 2026 09:50:58",
       "sentiment": 0
@@ -755,7 +779,7 @@
     {
       "ticker": "PFE",
       "title": "Bristol Myers Squibb vs. Pfizer: Which Healthcare Stock Is a Better Buy in 2026?",
-      "time": "Thu, 24 Sep 2026 12:45:40",
+      "time": "Thu, 24 Sep 2026 12:56:00",
       "sentiment": 0
     },
     {
@@ -765,15 +789,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "PFE",
-      "title": "Pfizer stock ends the day at USD 27.94 at the close",
-      "time": "Wed, 23 Sep 2026 20:56:35",
-      "sentiment": 0
-    },
-    {
       "ticker": "GILD",
-      "title": "GILD Stock Price Today",
-      "time": "Wed, 23 Sep 2026 22:37:48",
+      "title": "Does Expanded HIV Prevention Access Change The Bull Case For Gilead Stock (GILD)?",
+      "time": "Thu, 24 Sep 2026 17:54:54",
       "sentiment": 0
     },
     {
@@ -887,7 +905,7 @@
     {
       "ticker": "LIN",
       "title": "Linde plc (LIN.DE) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 18:57:18",
+      "time": "Thu, 24 Sep 2026 10:59:08",
       "sentiment": 0
     },
     {
@@ -916,6 +934,12 @@
     },
     {
       "ticker": "FCX",
+      "title": "Freeport-McMoRan Inc. (FCX) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 05:01:42",
+      "sentiment": 0
+    },
+    {
+      "ticker": "FCX",
       "title": "Freeport-McMoRan Inc. (FCX) stock price, news, quote and history",
       "time": "Thu, 24 Sep 2026 11:22:05",
       "sentiment": 0
@@ -933,27 +957,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "FCX",
-      "title": "FCX vs. SCCO: Which Copper Mining Giant Should You Bet on?",
-      "time": "Thu, 24 Sep 2026 10:27:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NXPI",
-      "title": "Ambarella speculated to have a rival suitor - Betaville",
-      "time": "Wed, 23 Sep 2026 17:56:15",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NXPI",
-      "title": "Ambarella speculated to have a rival suitor - Betaville",
-      "time": "Wed, 23 Sep 2026 17:56:15",
-      "sentiment": 0
-    },
-    {
       "ticker": "NXPI",
       "title": "Microchip Technology Incorporated (MCHP) interactive stock chart – Yahoo Finance",
       "time": "Thu, 24 Sep 2026 11:23:49",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NXPI",
+      "title": "Infineon Technologies AG (IFNNY) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 08:29:24",
       "sentiment": 0
     },
     {
@@ -1170,6 +1182,12 @@
       "ticker": "DDOG",
       "title": "Insider Selling: Datadog (NASDAQ:DDOG) CFO Sells 10,000 Shares of Stock",
       "time": "Wed, 23 Sep 2026 21:11:32",
+      "sentiment": 0
+    },
+    {
+      "ticker": "RBLX",
+      "title": "RBLX Stock Headed For Lowest Level In 21 Months — Wall Street Warns Roblox Platform May Be Entering 'Lifecycle Decline'",
+      "time": "Thu, 24 Sep 2026 15:48:30",
       "sentiment": 0
     },
     {
