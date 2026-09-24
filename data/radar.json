@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "24.09.2026 19:10 CEST",
+  "generated_at_local": "24.09.2026 19:26 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +3.68%, 5T +10.01%, relatives Volumen 1.37x, ATR 3.55%",
       "catalyst": "Palantir Stock Has a Growth Story Few Companies Can Match",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.77%, seit Open +2.15%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.59%, seit Open +1.97%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.13,
       "target_pct": 4.05,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "3.55%",
       "gap_pct": "-1.33%",
       "premarket_move_pct": "-0.52%",
-      "live_gap_pct": "+0.77%",
-      "regular_move_pct": "+2.15%",
+      "live_gap_pct": "+0.59%",
+      "regular_move_pct": "+1.97%",
       "avg_dollar_volume": 4944167050.91,
-      "bar_age_minutes": 0.7,
-      "vwap": 191.75,
+      "bar_age_minutes": 1.5,
+      "vwap": 191.81,
       "opening_range_high": 192.76,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -52,7 +52,7 @@
       "thesis": "1T +0.58%, 5T +4.61%, relatives Volumen 0.81x, ATR 4.14%",
       "catalyst": "QRG Capital Management Inc. Raises Stock Holdings in Freeport-McMoRan Inc. $FCX",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.33%, seit Open +1.10%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.41%, seit Open +1.02%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.48,
       "target_pct": 4.72,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +62,11 @@
       "atr_pct": "4.14%",
       "gap_pct": "-0.63%",
       "premarket_move_pct": "-0.04%",
-      "live_gap_pct": "-0.33%",
-      "regular_move_pct": "+1.10%",
+      "live_gap_pct": "-0.41%",
+      "regular_move_pct": "+1.02%",
       "avg_dollar_volume": 960253253.67,
-      "bar_age_minutes": 0.7,
-      "vwap": 71.83,
+      "bar_age_minutes": 1.5,
+      "vwap": 71.85,
       "opening_range_high": 71.77,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -91,7 +91,7 @@
       "thesis": "1T +1.89%, 5T +5.16%, relatives Volumen 1.08x, ATR 2.36%",
       "catalyst": "Emerson Electric stock reports 7 percent Q3 revenue growth",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.53%, seit Open +1.76%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.39%, seit Open +1.61%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.42,
       "target_pct": 2.69,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,12 +101,51 @@
       "atr_pct": "2.36%",
       "gap_pct": "+0.28%",
       "premarket_move_pct": "+0.51%",
-      "live_gap_pct": "+0.53%",
-      "regular_move_pct": "+1.76%",
+      "live_gap_pct": "+0.39%",
+      "regular_move_pct": "+1.61%",
       "avg_dollar_volume": 345918539.97,
-      "bar_age_minutes": 0.7,
-      "vwap": 154.76,
+      "bar_age_minutes": 1.5,
+      "vwap": 154.78,
       "opening_range_high": 153.98,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +5.27%, 5T +8.25%, relatives Volumen 0.89x, ATR 5.00%",
+      "catalyst": "Can Strong Momentum in Next-Gen SIEM Drive CRWD's Platform Expansion?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.07%, seit Open +0.21%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 3.0,
+      "target_pct": 5.7,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+5.27%",
+      "change_5d": "+8.25%",
+      "volume_ratio": "0.89x",
+      "atr_pct": "5.00%",
+      "gap_pct": "-0.26%",
+      "premarket_move_pct": "+0.67%",
+      "live_gap_pct": "-0.07%",
+      "regular_move_pct": "+0.21%",
+      "avg_dollar_volume": 2997024076.44,
+      "bar_age_minutes": 1.5,
+      "vwap": 261.32,
+      "opening_range_high": 262.48,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -130,7 +169,7 @@
       "thesis": "1T +3.86%, 5T +5.26%, relatives Volumen 1.30x, ATR 2.73%",
       "catalyst": "The executive who helped bring Duchenne muscular dystrophy's first FDA-approved treatments joins Stoke's board.",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.91%, seit Open -0.42%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.63%, seit Open -0.31%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.64,
       "target_pct": 3.11,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,51 +179,12 @@
       "atr_pct": "2.73%",
       "gap_pct": "-0.36%",
       "premarket_move_pct": "-0.55%",
-      "live_gap_pct": "-0.91%",
-      "regular_move_pct": "-0.42%",
+      "live_gap_pct": "-0.63%",
+      "regular_move_pct": "-0.31%",
       "avg_dollar_volume": 188644184.44,
-      "bar_age_minutes": 0.7,
-      "vwap": 226.43,
+      "bar_age_minutes": 1.5,
+      "vwap": 226.37,
       "opening_range_high": 227.79,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "ITW",
-      "name": "Illinois Tool Works",
-      "score": 83,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.21%, 5T +1.79%, relatives Volumen 1.20x, ATR 1.73%",
-      "catalyst": "Illinois Tool Works Inc. stock outperforms competitors on strong trading day",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.82%, seit Open -0.52%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.04,
-      "target_pct": 2.0,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.21%",
-      "change_5d": "+1.79%",
-      "volume_ratio": "1.20x",
-      "atr_pct": "1.73%",
-      "gap_pct": "+0.08%",
-      "premarket_move_pct": "+0.42%",
-      "live_gap_pct": "-0.82%",
-      "regular_move_pct": "-0.52%",
-      "avg_dollar_volume": 330227927.94,
-      "bar_age_minutes": 0.7,
-      "vwap": 272.26,
-      "opening_range_high": 273.85,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -232,12 +232,6 @@
     },
     {
       "ticker": "DE",
-      "title": "Bank of America Increases Deere & Company (NYSE:DE) Price Target to $715.00",
-      "time": "Thu, 24 Sep 2026 13:21:14",
-      "sentiment": -1
-    },
-    {
-      "ticker": "DE",
       "title": "Deere & Company stock falls 1.61 percent below yearly high",
       "time": "Thu, 24 Sep 2026 14:37:23",
       "sentiment": -1
@@ -258,12 +252,6 @@
       "ticker": "BIIB",
       "title": "QTTB Stock Clocks Best Day In A Year Following Positive Alopecia Data — Analyst Sees Further 200% Upside",
       "time": "Thu, 24 Sep 2026 14:06:24",
-      "sentiment": 1
-    },
-    {
-      "ticker": "ITW",
-      "title": "Illinois Tool Works Inc. stock outperforms competitors on strong trading day",
-      "time": "Wed, 23 Sep 2026 20:43:00",
       "sentiment": 1
     },
     {
@@ -345,12 +333,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "LIN",
-      "title": "FCEL Targets Hydrogen Growth With Versatile Tri-gen Platform",
-      "time": "Thu, 24 Sep 2026 12:19:00",
-      "sentiment": 1
-    },
-    {
       "ticker": "FCX",
       "title": "QRG Capital Management Inc. Raises Stock Holdings in Freeport-McMoRan Inc. $FCX",
       "time": "Thu, 24 Sep 2026 08:05:57",
@@ -390,12 +372,6 @@
       "ticker": "GIS",
       "title": "General Mills Posts Q1 Beat; There’s Still ‘More Work To Be Done,’ Analysts Say",
       "time": "Thu, 24 Sep 2026 15:35:35",
-      "sentiment": 1
-    },
-    {
-      "ticker": "GIS",
-      "title": "TD Cowen Raises General Mills (NYSE:GIS) Price Target to $33.00",
-      "time": "Thu, 24 Sep 2026 13:29:06",
       "sentiment": 1
     },
     {
@@ -448,20 +424,26 @@
     },
     {
       "ticker": "DE",
+      "title": "Deere & Co. stock advances 2.37 percent ahead of the open",
+      "time": "Thu, 24 Sep 2026 06:15:36",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DE",
+      "title": "Deere & Company stock trades near its yearly high",
+      "time": "Wed, 23 Sep 2026 20:39:55",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DE",
       "title": "Warehouses De Pauw (ENXTBR:WDP) Stock Looks Undervalued Following Its 31% Five Year Decline",
       "time": "Wed, 23 Sep 2026 23:15:35",
       "sentiment": 0
     },
     {
       "ticker": "DE",
-      "title": "BofA Securities Adjusts Price Target on Deere & Company to $715 From $667",
-      "time": "Thu, 24 Sep 2026 12:50:48",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DE",
-      "title": "Deere & Co. stock advances 2.37 percent ahead of the open",
-      "time": "Thu, 24 Sep 2026 06:15:36",
+      "title": "Deere stock gains 1.30 percent at the close",
+      "time": "Wed, 23 Sep 2026 20:37:20",
       "sentiment": 0
     },
     {
@@ -484,14 +466,14 @@
     },
     {
       "ticker": "PLTR",
-      "title": "Palantir: Expect Another Leg Higher (NASDAQ:PLTR)",
-      "time": "Thu, 24 Sep 2026 11:19:24",
+      "title": "PLTR Stock Gains 2% — Japan Weighs Palantir AI Defense System For Military Command Network, Says Report",
+      "time": "Thu, 24 Sep 2026 11:11:15",
       "sentiment": 0
     },
     {
       "ticker": "PLTR",
-      "title": "PLTR Stock Gains 2% — Japan Weighs Palantir AI Defense System For Military Command Network, Says Report",
-      "time": "Thu, 24 Sep 2026 11:11:15",
+      "title": "Palantir: Expect Another Leg Higher (NASDAQ:PLTR)",
+      "time": "Thu, 24 Sep 2026 11:19:24",
       "sentiment": 0
     },
     {
@@ -539,7 +521,13 @@
     {
       "ticker": "ITW",
       "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 13:23:23",
+      "time": "Thu, 24 Sep 2026 14:25:17",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ITW",
+      "title": "Dover Corporation (DOV) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 10:00:44",
       "sentiment": 0
     },
     {
@@ -694,6 +682,12 @@
     },
     {
       "ticker": "META",
+      "title": "Meta Rises 3% as Its Month-Long Run Extends on Muse Buzz; Reddit Nudges Higher",
+      "time": "Thu, 24 Sep 2026 16:53:06",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
       "title": "Why Meta Stock Won’t Care If New Muse AI Gadget Flops",
       "time": "Thu, 24 Sep 2026 12:29:00",
       "sentiment": 0
@@ -706,14 +700,8 @@
     },
     {
       "ticker": "META",
-      "title": "Veteran Analyst Resets Meta Stock Price Target For 2027",
-      "time": "Thu, 24 Sep 2026 12:45:58",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
       "title": "Why Meta Platforms Stock Keeps Going Up",
-      "time": "Thu, 24 Sep 2026 16:25:18",
+      "time": "Thu, 24 Sep 2026 16:25:57",
       "sentiment": 0
     },
     {
@@ -725,7 +713,7 @@
     {
       "ticker": "EMR",
       "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 13:23:23",
+      "time": "Thu, 24 Sep 2026 14:25:17",
       "sentiment": 0
     },
     {
@@ -784,12 +772,6 @@
     },
     {
       "ticker": "PFE",
-      "title": "Pfizer or AbbVie: Which Big Pharma Stock Is the Better Pick?",
-      "time": "Thu, 24 Sep 2026 14:45:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PFE",
       "title": "Bristol Myers Squibb vs. Pfizer: Which Healthcare Stock Is a Better Buy in 2026?",
       "time": "Thu, 24 Sep 2026 12:56:00",
       "sentiment": 0
@@ -802,6 +784,12 @@
     },
     {
       "ticker": "PFE",
+      "title": "Pfizer or AbbVie: Which Big Pharma Stock Is the Better Pick?",
+      "time": "Thu, 24 Sep 2026 14:45:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PFE",
       "title": "Bristol Myers Squibb vs. Pfizer: Which Healthcare Stock Is a Better Buy in 2026?",
       "time": "Thu, 24 Sep 2026 12:45:40",
       "sentiment": 0
@@ -810,12 +798,6 @@
       "ticker": "PFE",
       "title": "3 AI Healthcare Stocks To Watch In September 2026",
       "time": "Thu, 24 Sep 2026 07:40:51",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PFE",
-      "title": "Pfizer stock heads into the open after a 0.23 percent gain",
-      "time": "Thu, 24 Sep 2026 05:14:13",
       "sentiment": 0
     },
     {
@@ -904,12 +886,6 @@
     },
     {
       "ticker": "MAR",
-      "title": "Marriott vs. Hilton: MAR leads on value, margin, and momentum",
-      "time": "Wed, 23 Sep 2026 17:20:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MAR",
       "title": "Marriott International stock gains 1.03 percent ahead of the open",
       "time": "Thu, 24 Sep 2026 05:25:08",
       "sentiment": 0
@@ -927,9 +903,21 @@
       "sentiment": 0
     },
     {
+      "ticker": "MAR",
+      "title": "LG Electronics Inc. (066570.KS) stock price, news, quote and history",
+      "time": "Thu, 24 Sep 2026 10:55:38",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LIN",
+      "title": "Linde plc (LIN) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 13:05:51",
+      "sentiment": 0
+    },
+    {
       "ticker": "LIN",
       "title": "Linde plc (LIN.DE) Stock Price, News, Quote & History",
-      "time": "Wed, 23 Sep 2026 18:57:18",
+      "time": "Thu, 24 Sep 2026 10:59:08",
       "sentiment": 0
     },
     {
@@ -958,14 +946,14 @@
     },
     {
       "ticker": "FCX",
-      "title": "Freeport-McMoRan (FCX) Registers a Bigger Fall Than the Market: Important Facts to Note",
-      "time": "Wed, 23 Sep 2026 21:50:03",
+      "title": "Freeport-McMoRan Inc. (FCX) stock price, news, quote and history",
+      "time": "Thu, 24 Sep 2026 11:22:05",
       "sentiment": 0
     },
     {
       "ticker": "FCX",
-      "title": "Freeport-McMoRan Inc Stock (FCX) Moved Down by 3.44% on Sep 23: What Signal Does It Send?",
-      "time": "Wed, 23 Sep 2026 17:15:22",
+      "title": "Freeport-McMoRan (FCX) Registers a Bigger Fall Than the Market: Important Facts to Note",
+      "time": "Wed, 23 Sep 2026 21:50:03",
       "sentiment": 0
     },
     {
@@ -988,14 +976,14 @@
     },
     {
       "ticker": "NXPI",
-      "title": "Microchip Technology Incorporated (MCHP) interactive stock chart",
-      "time": "Thu, 24 Sep 2026 12:23:49",
+      "title": "Ambarella speculated to have a rival suitor - Betaville",
+      "time": "Wed, 23 Sep 2026 17:56:15",
       "sentiment": 0
     },
     {
       "ticker": "NXPI",
-      "title": "Ambarella speculated to have a rival suitor - Betaville",
-      "time": "Wed, 23 Sep 2026 17:56:15",
+      "title": "Microchip Technology Incorporated (MCHP) interactive stock chart – Yahoo Finance",
+      "time": "Thu, 24 Sep 2026 11:23:26",
       "sentiment": 0
     },
     {
@@ -1018,20 +1006,26 @@
     },
     {
       "ticker": "CEG",
-      "title": "GE Vernova vs. Duke Energy: Which Power Stock Is a Better Pick Today?",
-      "time": "Thu, 24 Sep 2026 15:45:00",
+      "title": "SLS Stock Sees Worst Day In Over A Month — But Prediction Market Flashes 83% Odds For November AML Trial Success",
+      "time": "Thu, 24 Sep 2026 13:08:15",
       "sentiment": 0
     },
     {
       "ticker": "CEG",
-      "title": "Top Nuclear Power Stocks For September 2026",
-      "time": "Wed, 23 Sep 2026 17:38:07",
+      "title": "GE Vernova vs. Duke Energy: Which Power Stock Is a Better Pick Today?",
+      "time": "Thu, 24 Sep 2026 15:45:00",
       "sentiment": 0
     },
     {
       "ticker": "GIS",
       "title": "General Mills, Inc. (GIS) Stock Price, News, Quote & History",
       "time": "Thu, 24 Sep 2026 02:31:08",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GIS",
+      "title": "The Case for Buying High-Yield General Mills Just Strengthened",
+      "time": "Thu, 24 Sep 2026 17:16:55",
       "sentiment": 0
     },
     {
@@ -1096,6 +1090,12 @@
     },
     {
       "ticker": "WBD",
+      "title": "Warner Bros. ticks lower as judge delays deal settlment approval",
+      "time": "Thu, 24 Sep 2026 17:14:12",
+      "sentiment": 0
+    },
+    {
+      "ticker": "WBD",
       "title": "3 Low-Volatility Stocks with Open Questions",
       "time": "Thu, 24 Sep 2026 08:08:13",
       "sentiment": 0
@@ -1104,12 +1104,6 @@
       "ticker": "WBD",
       "title": "(WBD) Risk Channels and Responsive Allocation",
       "time": "Thu, 24 Sep 2026 10:20:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WBD",
-      "title": "White House defies court order, bars reporters from CNN, Politico, MS Now (WBD:NASDAQ)",
-      "time": "Thu, 24 Sep 2026 13:20:07",
       "sentiment": 0
     },
     {
@@ -1150,6 +1144,12 @@
     },
     {
       "ticker": "CRWD",
+      "title": "A company topped Forrester's strategy rankings: CrowdStrike. It earned maximum scores in four criteria.",
+      "time": "Thu, 24 Sep 2026 14:54:42",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
       "title": "Why CrowdStrike (CRWD) Stock Is Up Today",
       "time": "Wed, 23 Sep 2026 19:05:16",
       "sentiment": 0
@@ -1158,12 +1158,6 @@
       "ticker": "CRWD",
       "title": "CRWD, PANW, NET, ZS: One Cybersecurity Stock Won Over Retail Investors – But Another Tops Wall Street’s List",
       "time": "Thu, 24 Sep 2026 08:32:15",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRWD",
-      "title": "CrowdStrike Stock Hits 52-Week High - Here's Why",
-      "time": "Wed, 23 Sep 2026 17:12:11",
       "sentiment": 0
     },
     {
@@ -1222,14 +1216,14 @@
     },
     {
       "ticker": "RBLX",
-      "title": "Unity Software Inc. (U) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 07:28:21",
+      "title": "Coupang, Inc. (CPNG) Stock Price, News, Quote & History",
+      "time": "Thu, 24 Sep 2026 05:43:30",
       "sentiment": 0
     },
     {
       "ticker": "RBLX",
-      "title": "Coupang, Inc. (CPNG) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 05:43:30",
+      "title": "SNDK, WDC Stocks Topple As Blowout Memory Earnings Don’t Surprise Enough — Retail Pounces On The Dip",
+      "time": "Thu, 24 Sep 2026 06:47:22",
       "sentiment": 0
     },
     {
