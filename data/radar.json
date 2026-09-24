@@ -1,88 +1,10 @@
 {
-  "generated_at_local": "24.09.2026 15:55 CEST",
+  "generated_at_local": "24.09.2026 16:12 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "AMGN",
-      "name": "Amgen",
-      "score": 99,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.29%, 5T +8.10%, relatives Volumen 0.72x, ATR 2.96%",
-      "catalyst": "Amgen (AMGN) Is Up 7.9% After Positive Phase 3 Dazodalibep Data in Systemic Sjögren’s Disease",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.91%, seit Open +0.95%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.77,
-      "target_pct": 3.37,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.29%",
-      "change_5d": "+8.10%",
-      "volume_ratio": "0.72x",
-      "atr_pct": "2.96%",
-      "gap_pct": "+0.29%",
-      "premarket_move_pct": "+0.40%",
-      "live_gap_pct": "+0.91%",
-      "regular_move_pct": "+0.95%",
-      "avg_dollar_volume": 1188120650.58,
-      "bar_age_minutes": 0.4,
-      "vwap": 407.66,
-      "opening_range_high": 408.95,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "ITW",
-      "name": "Illinois Tool Works",
-      "score": 97,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.21%, 5T +1.79%, relatives Volumen 1.20x, ATR 1.73%",
-      "catalyst": "Illinois Tool Works Inc. stock outperforms competitors on strong trading day",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.10%, seit Open +0.40%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.04,
-      "target_pct": 2.0,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.21%",
-      "change_5d": "+1.79%",
-      "volume_ratio": "1.20x",
-      "atr_pct": "1.73%",
-      "gap_pct": "+0.08%",
-      "premarket_move_pct": "+0.42%",
-      "live_gap_pct": "+0.10%",
-      "regular_move_pct": "+0.40%",
-      "avg_dollar_volume": 330227927.94,
-      "bar_age_minutes": 0.4,
-      "vwap": 272.7,
-      "opening_range_high": 273.85,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
     {
       "ticker": "BIIB",
       "name": "Biogen",
@@ -91,7 +13,7 @@
       "thesis": "1T +3.86%, 5T +5.26%, relatives Volumen 1.30x, ATR 2.73%",
       "catalyst": "The executive who helped bring Duchenne muscular dystrophy's first FDA-approved treatments joins Stoke's board.",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.14%, seit Open +0.64%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.23%, seit Open +0.55%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.64,
       "target_pct": 3.11,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +23,11 @@
       "atr_pct": "2.73%",
       "gap_pct": "-0.36%",
       "premarket_move_pct": "-0.55%",
-      "live_gap_pct": "+0.14%",
-      "regular_move_pct": "+0.64%",
+      "live_gap_pct": "+0.23%",
+      "regular_move_pct": "+0.55%",
       "avg_dollar_volume": 188644184.44,
-      "bar_age_minutes": 0.4,
-      "vwap": 226.45,
+      "bar_age_minutes": 2.1,
+      "vwap": 227.04,
       "opening_range_high": 227.79,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -130,7 +52,7 @@
       "thesis": "1T +1.79%, 5T -1.68%, relatives Volumen 1.55x, ATR 2.39%",
       "catalyst": "UBS raises Philip Morris stock price target to $193 on ZYN pricing",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.92%, seit Open +1.09%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.82%, seit Open +0.99%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.43,
       "target_pct": 2.72,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +62,11 @@
       "atr_pct": "2.39%",
       "gap_pct": "+0.79%",
       "premarket_move_pct": "+1.13%",
-      "live_gap_pct": "+1.92%",
-      "regular_move_pct": "+1.09%",
+      "live_gap_pct": "+1.82%",
+      "regular_move_pct": "+0.99%",
       "avg_dollar_volume": 802800576.54,
-      "bar_age_minutes": 0.4,
-      "vwap": 193.26,
+      "bar_age_minutes": 2.1,
+      "vwap": 193.55,
       "opening_range_high": 193.99,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -162,14 +84,53 @@
       }
     },
     {
+      "ticker": "META",
+      "name": "Meta",
+      "score": 95,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.02%, 5T +10.51%, relatives Volumen 1.10x, ATR 3.70%",
+      "catalyst": "JPMorgan raises Meta stock price target to $920 on AI progress",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.72%, seit Open +2.69%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.22,
+      "target_pct": 4.21,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.02%",
+      "change_5d": "+10.51%",
+      "volume_ratio": "1.10x",
+      "atr_pct": "3.70%",
+      "gap_pct": "+0.12%",
+      "premarket_move_pct": "+1.12%",
+      "live_gap_pct": "+2.72%",
+      "regular_move_pct": "+2.69%",
+      "avg_dollar_volume": 14533585677.85,
+      "bar_age_minutes": 2.1,
+      "vwap": 757.24,
+      "opening_range_high": 764.0,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
       "ticker": "EMR",
       "name": "Emerson",
       "score": 91,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.89%, 5T +5.16%, relatives Volumen 1.08x, ATR 2.36%",
-      "catalyst": "Emerson Electric stock reports 7 percent Q3 revenue growth - ad-hoc-news.de",
+      "catalyst": "Emerson Electric stock reports 7 percent Q3 revenue growth",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.25%, seit Open +1.47%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.56%, seit Open +1.78%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.42,
       "target_pct": 2.69,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,12 +140,51 @@
       "atr_pct": "2.36%",
       "gap_pct": "+0.28%",
       "premarket_move_pct": "+0.51%",
-      "live_gap_pct": "+0.25%",
-      "regular_move_pct": "+1.47%",
+      "live_gap_pct": "+0.56%",
+      "regular_move_pct": "+1.78%",
       "avg_dollar_volume": 345918539.97,
-      "bar_age_minutes": 0.4,
-      "vwap": 153.57,
+      "bar_age_minutes": 2.1,
+      "vwap": 154.41,
       "opening_range_high": 153.98,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "PH",
+      "name": "Parker-Hannifin",
+      "score": 91,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.36%, 5T +5.00%, relatives Volumen 0.88x, ATR 2.22%",
+      "catalyst": "Parker-Hannifin stock reports record fiscal 2026 results",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.42%, seit Open +1.06%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.33,
+      "target_pct": 2.53,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.36%",
+      "change_5d": "+5.00%",
+      "volume_ratio": "0.88x",
+      "atr_pct": "2.22%",
+      "gap_pct": "noch nicht verfügbar",
+      "premarket_move_pct": "noch nicht verfügbar",
+      "live_gap_pct": "+0.42%",
+      "regular_move_pct": "+1.06%",
+      "avg_dollar_volume": 602390231.88,
+      "bar_age_minutes": 2.1,
+      "vwap": 968.42,
+      "opening_range_high": 966.54,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -244,7 +244,7 @@
     },
     {
       "ticker": "ITW",
-      "title": "Illinois Tool Works stock reports 6.1 percent revenue growth - ad-hoc-news.de",
+      "title": "Illinois Tool Works stock reports 6.1 percent revenue growth",
       "time": "Thu, 24 Sep 2026 12:05:25",
       "sentiment": 1
     },
@@ -273,18 +273,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "AMGN",
-      "title": "Amgen's price target raised after successful Sj...",
-      "time": "Wed, 23 Sep 2026 14:07:54",
-      "sentiment": 1
-    },
-    {
-      "ticker": "AMGN",
-      "title": "Jefferies raises Amgen stock price target on drug trial success By Investing.com",
-      "time": "Wed, 23 Sep 2026 15:04:27",
-      "sentiment": 1
-    },
-    {
       "ticker": "PM",
       "title": "UBS raises Philip Morris stock price target to $193 on ZYN pricing",
       "time": "Wed, 23 Sep 2026 14:16:58",
@@ -297,8 +285,14 @@
       "sentiment": -1
     },
     {
+      "ticker": "META",
+      "title": "JPMorgan raises Meta stock price target to $920 on AI progress",
+      "time": "Thu, 24 Sep 2026 13:47:17",
+      "sentiment": 1
+    },
+    {
       "ticker": "EMR",
-      "title": "Emerson Electric stock reports 7 percent Q3 revenue growth - ad-hoc-news.de",
+      "title": "Emerson Electric stock reports 7 percent Q3 revenue growth",
       "time": "Thu, 24 Sep 2026 10:12:23",
       "sentiment": 1
     },
@@ -328,13 +322,13 @@
     },
     {
       "ticker": "PH",
-      "title": "Parker-Hannifin stock reports record fiscal 2026 results - ad-hoc-news.de",
+      "title": "Parker-Hannifin stock reports record fiscal 2026 results",
       "time": "Thu, 24 Sep 2026 09:30:57",
       "sentiment": 1
     },
     {
       "ticker": "LIN",
-      "title": "Linde stock gains 1.62 percent after earnings beat estimates - ad-hoc-news.de",
+      "title": "Linde stock gains 1.62 percent after earnings beat estimates",
       "time": "Wed, 23 Sep 2026 14:23:54",
       "sentiment": 1
     },
@@ -345,14 +339,20 @@
       "sentiment": 1
     },
     {
+      "ticker": "FCX",
+      "title": "Freeport-McMoRan Falls as Copper Pulls Back Despite New Dividend Declaration",
+      "time": "Wed, 23 Sep 2026 14:49:00",
+      "sentiment": -1
+    },
+    {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors stock reports 19.5 percent revenue growth - ad-hoc-news.de",
+      "title": "NXP Semiconductors stock reports 19.5 percent revenue growth",
       "time": "Thu, 24 Sep 2026 10:22:57",
       "sentiment": 1
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors stock falls 0.48 percent ahead of the open - ad-hoc-news.de",
+      "title": "NXP Semiconductors stock falls 0.48 percent ahead of the open",
       "time": "Thu, 24 Sep 2026 06:42:48",
       "sentiment": -1
     },
@@ -364,7 +364,7 @@
     },
     {
       "ticker": "CEG",
-      "title": "Constellation Energy stock tracks a raised 2026 earnings guide - ad-hoc-news.de",
+      "title": "Constellation Energy stock tracks a raised 2026 earnings guide",
       "time": "Thu, 24 Sep 2026 11:23:41",
       "sentiment": 1
     },
@@ -406,6 +406,12 @@
     },
     {
       "ticker": "DE",
+      "title": "Deere & Co. stock advances 2.37 percent ahead of the open",
+      "time": "Thu, 24 Sep 2026 06:15:36",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DE",
       "title": "BofA Securities Adjusts Price Target on Deere & Company to $715 From $667",
       "time": "Thu, 24 Sep 2026 12:50:48",
       "sentiment": 0
@@ -414,12 +420,6 @@
       "ticker": "DE",
       "title": "Deere & Company Stock Price Today (DE) | NYSE",
       "time": "Wed, 23 Sep 2026 14:56:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DE",
-      "title": "Deere & Co. stock advances 2.37 percent ahead of the open - ad-hoc-news.de",
-      "time": "Thu, 24 Sep 2026 06:15:36",
       "sentiment": 0
     },
     {
@@ -460,13 +460,7 @@
     },
     {
       "ticker": "BIIB",
-      "title": "Biogen Inc. (BIIB) stock price, news, quote and history",
-      "time": "Thu, 24 Sep 2026 02:49:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BIIB",
-      "title": "Biogen stock adds 3.40 percent ahead of the open - ad-hoc-news.de",
+      "title": "Biogen stock adds 3.40 percent ahead of the open",
       "time": "Thu, 24 Sep 2026 02:03:24",
       "sentiment": 0
     },
@@ -490,14 +484,14 @@
     },
     {
       "ticker": "ITW",
-      "title": "Cummins Inc. (CMI) stock price, news, quote and history",
-      "time": "Thu, 24 Sep 2026 07:18:18",
+      "title": "Henkel Teroson MS 940: Isocyanate-Free Adhesive for Rail Bonding - News and Statistics",
+      "time": "Thu, 24 Sep 2026 12:02:57",
       "sentiment": 0
     },
     {
       "ticker": "ITW",
-      "title": "W.W. Grainger, Inc. (GWW) Stock Price, News, Quote & History",
-      "time": "Thu, 24 Sep 2026 07:25:01",
+      "title": "Cummins Inc. (CMI) stock price, news, quote and history",
+      "time": "Thu, 24 Sep 2026 07:18:18",
       "sentiment": 0
     },
     {
@@ -543,6 +537,18 @@
       "sentiment": 0
     },
     {
+      "ticker": "AMGN",
+      "title": "Amgen stock heads into the open after a 4.34 percent gain",
+      "time": "Thu, 24 Sep 2026 05:43:22",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMGN",
+      "title": "AMGN's Dazodalibep Meets Goal in Systemic Sjogren's Disease Study",
+      "time": "Wed, 23 Sep 2026 14:38:00",
+      "sentiment": 0
+    },
+    {
       "ticker": "PM",
       "title": "Learn Why The Bull Case For Philip Morris International Stock Could Change Following Dividend Hike",
       "time": "Thu, 24 Sep 2026 01:40:59",
@@ -556,7 +562,7 @@
     },
     {
       "ticker": "PM",
-      "title": "Philip Morris stock gains 0.20 percent ahead of the open - ad-hoc-news.de",
+      "title": "Philip Morris stock gains 0.20 percent ahead of the open",
       "time": "Thu, 24 Sep 2026 05:09:38",
       "sentiment": 0
     },
@@ -580,7 +586,7 @@
     },
     {
       "ticker": "MMM",
-      "title": "3M stock heads into the open after a 0.02 percent dip - ad-hoc-news.de",
+      "title": "3M stock heads into the open after a 0.02 percent dip",
       "time": "Thu, 24 Sep 2026 04:57:03",
       "sentiment": 0
     },
@@ -622,7 +628,7 @@
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices stock heads into the open after a 1.32 percent drop - ad-hoc-news.de",
+      "title": "Analog Devices stock heads into the open after a 1.32 percent drop",
       "time": "Thu, 24 Sep 2026 04:37:52",
       "sentiment": 0
     },
@@ -658,20 +664,14 @@
     },
     {
       "ticker": "META",
-      "title": "BofA Securities reiterates Buy on Meta stock, $810 price target",
-      "time": "Thu, 24 Sep 2026 09:05:55",
+      "title": "Meta Platforms Stock (META) Opinions on AI Progress and Muse Launch",
+      "time": "Thu, 24 Sep 2026 14:04:00",
       "sentiment": 0
     },
     {
       "ticker": "META",
       "title": "Meta Rallies Into Connect Conference. Why The Muse AI Agent Is Sending Some Stocks Lower.",
       "time": "Wed, 23 Sep 2026 19:32:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Meta's standoff with Amazon over Muse could be a sign of things to come",
-      "time": "Wed, 23 Sep 2026 21:04:47",
       "sentiment": 0
     },
     {
@@ -682,20 +682,20 @@
     },
     {
       "ticker": "EMR",
-      "title": "Emerson Electric Co. (EMR) Options Chain - Yahoo Finance",
-      "time": "Wed, 23 Sep 2026 18:30:13",
-      "sentiment": 0
-    },
-    {
-      "ticker": "EMR",
-      "title": "Emerson Electric stock heads into the open after a 0.2 percent gain - ad-hoc-news.de",
-      "time": "Thu, 24 Sep 2026 01:00:54",
+      "title": "Is New Qatar Service Center Altering The Investment Case For Emerson Electric (EMR)?",
+      "time": "Thu, 24 Sep 2026 14:03:45",
       "sentiment": 0
     },
     {
       "ticker": "EMR",
       "title": "Cummins Inc. (CMI) stock price, news, quote and history",
       "time": "Thu, 24 Sep 2026 07:18:18",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EMR",
+      "title": "Emerson Electric stock heads into the open after a 0.2 percent gain",
+      "time": "Thu, 24 Sep 2026 01:00:54",
       "sentiment": 0
     },
     {
@@ -766,18 +766,6 @@
     },
     {
       "ticker": "GILD",
-      "title": "GILD Stock Price Today",
-      "time": "Wed, 23 Sep 2026 22:37:48",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GILD",
-      "title": "Biogen Inc. (BIIB) stock price, news, quote and history",
-      "time": "Thu, 24 Sep 2026 02:49:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GILD",
       "title": "Barron's 400 ETF (BFOR) Adds Energy and Materials, Reduces Utilities and Consumer Discretionary in Fall Rebalance",
       "time": "Thu, 24 Sep 2026 13:45:00",
       "sentiment": 0
@@ -790,14 +778,20 @@
     },
     {
       "ticker": "GILD",
-      "title": "Gilead Sciences stock slips 0.85 percent ahead of the open - ad-hoc-news.de",
+      "title": "Teva Pharmaceutical Industries Limited (TEVA) stock price, news, quote and history",
+      "time": "Thu, 24 Sep 2026 01:13:46",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GILD",
+      "title": "Gilead Sciences stock slips 0.85 percent ahead of the open",
       "time": "Thu, 24 Sep 2026 05:54:33",
       "sentiment": 0
     },
     {
-      "ticker": "BSX",
-      "title": "Why Did BSX Cut FY26 Guidance? CEO Details Three Unanticipated Factors At Bernstein Conference",
-      "time": "Thu, 24 Sep 2026 03:05:53",
+      "ticker": "GILD",
+      "title": "AI Investing Insights - Official Homepage - Intellectia AI™",
+      "time": "Thu, 24 Sep 2026 06:49:46",
       "sentiment": 0
     },
     {
@@ -808,7 +802,7 @@
     },
     {
       "ticker": "BSX",
-      "title": "Boston Scientific stock slips before the bell after September 23 decline - ad-hoc-news.de",
+      "title": "Boston Scientific stock slips before the bell after September 23 decline",
       "time": "Thu, 24 Sep 2026 05:27:16",
       "sentiment": 0
     },
@@ -820,14 +814,26 @@
     },
     {
       "ticker": "PH",
+      "title": "If You Invested $100 In Parker Hannifin Stock 5 Years Ago, You Would Have This Much Today",
+      "time": "Thu, 24 Sep 2026 14:00:37",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PH",
       "title": "Envestnet Asset Management Inc. Sells 24,095 Shares of Parker-Hannifin Corporation $PH",
       "time": "Wed, 23 Sep 2026 23:08:11",
       "sentiment": 0
     },
     {
       "ticker": "PH",
+      "title": "Generac Holdings Inc. (GNRC) Interactive Stock Chart",
+      "time": "Thu, 24 Sep 2026 10:36:24",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PH",
       "title": "Generac Holdings Inc. (GNRC) interactive stock chart – Yahoo Finance",
-      "time": "Thu, 24 Sep 2026 09:31:17",
+      "time": "Thu, 24 Sep 2026 10:31:23",
       "sentiment": 0
     },
     {
@@ -862,7 +868,7 @@
     },
     {
       "ticker": "MAR",
-      "title": "Marriott International stock gains 1.03 percent ahead of the open - ad-hoc-news.de",
+      "title": "Marriott International stock gains 1.03 percent ahead of the open",
       "time": "Thu, 24 Sep 2026 05:25:08",
       "sentiment": 0
     },
@@ -898,14 +904,14 @@
     },
     {
       "ticker": "LIN",
-      "title": "Linde stock gains 1.03 percent as UBS holds USD 612 target - ad-hoc-news.de",
+      "title": "Linde stock gains 1.03 percent as UBS holds USD 612 target",
       "time": "Thu, 24 Sep 2026 13:13:02",
       "sentiment": 0
     },
     {
       "ticker": "FCX",
       "title": "Freeport-McMoRan Inc. (FCX) stock price, news, quote and history",
-      "time": "Thu, 24 Sep 2026 13:06:36",
+      "time": "Thu, 24 Sep 2026 10:06:40",
       "sentiment": 0
     },
     {
@@ -918,12 +924,6 @@
       "ticker": "FCX",
       "title": "Freeport-McMoRan (FCX) Registers a Bigger Fall Than the Market: Important Facts to Note",
       "time": "Wed, 23 Sep 2026 21:50:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "FCX",
-      "title": "Did Copper Output Expansion Just Shift Freeport McMoRan Stock Investment Narrative?",
-      "time": "Wed, 23 Sep 2026 13:56:08",
       "sentiment": 0
     },
     {
@@ -946,7 +946,7 @@
     },
     {
       "ticker": "CEG",
-      "title": "Constellation Energy stock trades 36.28 percent below its yearly high - ad-hoc-news.de",
+      "title": "Constellation Energy stock trades 36.28 percent below its yearly high",
       "time": "Wed, 23 Sep 2026 18:56:03",
       "sentiment": 0
     },
@@ -994,20 +994,20 @@
     },
     {
       "ticker": "GIS",
+      "title": "Company News for Sep 24, 2026",
+      "time": "Thu, 24 Sep 2026 12:39:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GIS",
       "title": "What's Going On With General Mills Stock Wednesday? - General Mills (NYSE:GIS)",
       "time": "Wed, 23 Sep 2026 17:09:52",
       "sentiment": 0
     },
     {
       "ticker": "GIS",
-      "title": "General Mills Q1 fiscal 2027 earnings beat estimates, stock falls",
-      "time": "Wed, 23 Sep 2026 17:55:14",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GIS",
-      "title": "General Mills Reaffirms Full-Year Guidance as International Profit Jumps 14%. Is the Turnaround Finally Working?",
-      "time": "Wed, 23 Sep 2026 22:33:00",
+      "title": "Piper Sandler reiterates General Mills stock rating on innovation By Investing.com",
+      "time": "Thu, 24 Sep 2026 14:08:43",
       "sentiment": 0
     },
     {
@@ -1042,7 +1042,7 @@
     },
     {
       "ticker": "KLAC",
-      "title": "KLA Corporation stock slips 1.40 percent before the bell - ad-hoc-news.de",
+      "title": "KLA Corporation stock slips 1.40 percent before the bell",
       "time": "Thu, 24 Sep 2026 07:02:39",
       "sentiment": 0
     },
@@ -1084,8 +1084,8 @@
     },
     {
       "ticker": "ASML",
-      "title": "Applied Materials, Inc. (AMAT) stock price, news, quote and history",
-      "time": "Thu, 24 Sep 2026 10:33:31",
+      "title": "ASML Oct 2026 1380.000 call (ASML261002C01380000) interactive stock chart",
+      "time": "Thu, 24 Sep 2026 04:34:05",
       "sentiment": 0
     },
     {
@@ -1096,13 +1096,7 @@
     },
     {
       "ticker": "ASML",
-      "title": "AMD, TER Stocks Jump After Goldman Sachs Lifts Price Targets",
-      "time": "Thu, 24 Sep 2026 12:09:06",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
-      "title": "ASML Holding stock reports EUR 9.3 billion Q2 revenue - ad-hoc-news.de",
+      "title": "ASML Holding stock reports EUR 9.3 billion Q2 revenue",
       "time": "Thu, 24 Sep 2026 12:48:01",
       "sentiment": 0
     },
@@ -1110,6 +1104,12 @@
       "ticker": "ASML",
       "title": "REG - Leverage Shares PLC Leverage Inc Gold $ Leverage Inc NVDA $ Leverage Inc Tesla $ Leverage Inc S&P500$ - IncomeShares Interest Notification Calendar",
       "time": "Thu, 24 Sep 2026 10:49:12",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
+      "title": "ASML261218C02140000 Interactive Stock Chart | ASML Dec 2026 2140.000 call Stock",
+      "time": "Thu, 24 Sep 2026 01:33:59",
       "sentiment": 0
     },
     {
@@ -1192,12 +1192,6 @@
     },
     {
       "ticker": "RBLX",
-      "title": "Roblox Stock: AI Could Build A Trillion-Dollar Entertainment Platform (NYSE:RBLX)",
-      "time": "Wed, 23 Sep 2026 14:02:12",
-      "sentiment": 0
-    },
-    {
-      "ticker": "RBLX",
       "title": "Unity Software Inc. (U) Stock Price, News, Quote & History",
       "time": "Wed, 23 Sep 2026 16:20:26",
       "sentiment": 0
@@ -1264,13 +1258,13 @@
     },
     {
       "ticker": "TMO",
-      "title": "Thermo Fisher Scientific stock gains 1.03 percent on results - ad-hoc-news.de",
+      "title": "Thermo Fisher Scientific stock gains 1.03 percent on results",
       "time": "Thu, 24 Sep 2026 12:33:09",
       "sentiment": 0
     },
     {
       "ticker": "TMO",
-      "title": "Thermo Fisher Scientific stock gains before the bell - ad-hoc-news.de",
+      "title": "Thermo Fisher Scientific stock gains before the bell",
       "time": "Thu, 24 Sep 2026 05:20:08",
       "sentiment": 0
     }
