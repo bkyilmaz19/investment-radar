@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "25.09.2026 21:39 CEST",
+  "generated_at_local": "25.09.2026 21:52 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +3.77%, 5T -4.31%, relatives Volumen 1.18x, ATR 3.95%",
       "catalyst": "Royal Caribbean Group (RCL) Shares Surge 3.8% -- What GF Score o",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.67%, seit Open +0.49%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.70%, seit Open +0.52%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.37,
       "target_pct": 4.51,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "3.95%",
       "gap_pct": "+2.14%",
       "premarket_move_pct": "+1.70%",
-      "live_gap_pct": "+1.67%",
-      "regular_move_pct": "+0.49%",
+      "live_gap_pct": "+1.70%",
+      "regular_move_pct": "+0.52%",
       "avg_dollar_volume": 710779817.88,
-      "bar_age_minutes": 0.3,
-      "vwap": 242.39,
+      "bar_age_minutes": 3.0,
+      "vwap": 242.44,
       "opening_range_high": 242.4,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -45,6 +45,45 @@
       }
     },
     {
+      "ticker": "HLT",
+      "name": "Hilton",
+      "score": 95,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.60%, 5T +3.17%, relatives Volumen 0.83x, ATR 1.90%",
+      "catalyst": "Hilton Worldwide Holdings Inc. stock outperforms competitors on strong trading day",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.85%, seit Open +0.55%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.14,
+      "target_pct": 2.16,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.60%",
+      "change_5d": "+3.17%",
+      "volume_ratio": "0.83x",
+      "atr_pct": "1.90%",
+      "gap_pct": "noch nicht verfügbar",
+      "premarket_move_pct": "noch nicht verfügbar",
+      "live_gap_pct": "+0.85%",
+      "regular_move_pct": "+0.55%",
+      "avg_dollar_volume": 524605473.88,
+      "bar_age_minutes": 3.0,
+      "vwap": 313.0,
+      "opening_range_high": 315.28,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
       "ticker": "VRTX",
       "name": "Vertex",
       "score": 94,
@@ -52,7 +91,7 @@
       "thesis": "1T +1.17%, 5T +1.17%, relatives Volumen 0.69x, ATR 2.40%",
       "catalyst": "Vertex Pharmaceuticals Inc. stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.83%, seit Open +0.80%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.90%, seit Open +0.87%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.44,
       "target_pct": 2.73,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +101,11 @@
       "atr_pct": "2.40%",
       "gap_pct": "+0.46%",
       "premarket_move_pct": "+0.51%",
-      "live_gap_pct": "+0.83%",
-      "regular_move_pct": "+0.80%",
+      "live_gap_pct": "+0.90%",
+      "regular_move_pct": "+0.87%",
       "avg_dollar_volume": 549743536.16,
-      "bar_age_minutes": 4.3,
-      "vwap": 522.49,
+      "bar_age_minutes": 3.0,
+      "vwap": 522.88,
       "opening_range_high": 525.19,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -91,7 +130,7 @@
       "thesis": "1T +0.75%, 5T -0.95%, relatives Volumen 1.10x, ATR 2.13%",
       "catalyst": "Why AstraZeneca Still Looks Underrated Despite Strong EPS Momentum (NYSE:AZN)",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.25%, seit Open +0.27%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.29%, seit Open +0.32%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.28,
       "target_pct": 2.42,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +140,11 @@
       "atr_pct": "2.13%",
       "gap_pct": "+0.72%",
       "premarket_move_pct": "+0.07%",
-      "live_gap_pct": "+1.25%",
-      "regular_move_pct": "+0.27%",
+      "live_gap_pct": "+1.29%",
+      "regular_move_pct": "+0.32%",
       "avg_dollar_volume": 501625025.37,
-      "bar_age_minutes": 4.3,
-      "vwap": 165.77,
+      "bar_age_minutes": 3.0,
+      "vwap": 165.8,
       "opening_range_high": 166.32,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -130,7 +169,7 @@
       "thesis": "1T +0.82%, 5T +2.79%, relatives Volumen 0.90x, ATR 1.59%",
       "catalyst": "What Could Pfizer (PFE) Unlock From Faster FDA Reviews And Orphan Drug Growth?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.35%, seit Open +0.21%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.65%, seit Open +0.51%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 0.95,
       "target_pct": 2.0,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +179,11 @@
       "atr_pct": "1.59%",
       "gap_pct": "-0.09%",
       "premarket_move_pct": "+0.01%",
-      "live_gap_pct": "+0.35%",
-      "regular_move_pct": "+0.21%",
+      "live_gap_pct": "+0.65%",
+      "regular_move_pct": "+0.51%",
       "avg_dollar_volume": 946722586.32,
-      "bar_age_minutes": 4.3,
-      "vwap": 28.34,
+      "bar_age_minutes": 3.0,
+      "vwap": 28.36,
       "opening_range_high": 28.51,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -159,45 +198,6 @@
         "news_ok": true,
         "gap_ok": true,
         "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "EMR",
-      "name": "Emerson",
-      "score": 87,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.00%, 5T +5.93%, relatives Volumen 0.82x, ATR 2.23%",
-      "catalyst": "Wells Fargo initiates Emerson stock with overweight rating on growth",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.56%, seit Open +0.57%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.34,
-      "target_pct": 2.55,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.00%",
-      "change_5d": "+5.93%",
-      "volume_ratio": "0.82x",
-      "atr_pct": "2.23%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "+1.56%",
-      "regular_move_pct": "+0.57%",
-      "avg_dollar_volume": 336018857.68,
-      "bar_age_minutes": 4.3,
-      "vwap": 158.68,
-      "opening_range_high": 158.55,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
       }
     }
   ],
@@ -272,6 +272,12 @@
     },
     {
       "ticker": "MU",
+      "title": "Q4 Earnings Are Likely to Boost the ‘Strong Buy’ Case for Micron Stock",
+      "time": "Fri, 25 Sep 2026 19:25:41",
+      "sentiment": 1
+    },
+    {
+      "ticker": "MU",
       "title": "Micron Earnings: 80% Odds Of Beating Every Estimate - Micron Technology (NASDAQ:MU)",
       "time": "Fri, 25 Sep 2026 14:15:58",
       "sentiment": 1
@@ -286,6 +292,12 @@
       "ticker": "EMR",
       "title": "Wells Fargo initiates Emerson stock with overweight rating on growth",
       "time": "Fri, 25 Sep 2026 10:29:38",
+      "sentiment": 1
+    },
+    {
+      "ticker": "EMR",
+      "title": "TD Cowen raises Emerson stock price target on power buildout outlook",
+      "time": "Fri, 25 Sep 2026 11:04:29",
       "sentiment": 1
     },
     {
@@ -407,6 +419,12 @@
       "title": "AstraZeneca's Rare Disease Setback Is A 'Clear Positive' For Omeros, Says This Analyst – A Look At Some Key Highlights",
       "time": "Thu, 24 Sep 2026 22:36:28",
       "sentiment": 1
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "GOOGL Stock Falls Out Of Favor In June – Analysts See More Upside In These Big Tech",
+      "time": "Fri, 25 Sep 2026 17:25:03",
+      "sentiment": -1
     },
     {
       "ticker": "GOOGL",
@@ -560,12 +578,6 @@
     },
     {
       "ticker": "PFE",
-      "title": "Pfizer: Poised For Gains With A New Drug Pipeline And Cost-Cutting Plans (NYSE:PFE)",
-      "time": "Thu, 24 Sep 2026 19:48:10",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PFE",
       "title": "PFE 270319 27.00C (PFE270319C27000) Stock Options Chain | Quotes & News",
       "time": "Fri, 25 Sep 2026 14:29:46",
       "sentiment": 0
@@ -574,6 +586,12 @@
       "ticker": "PFE",
       "title": "RBC Capital Remains a Hold on Pfizer (PFE)",
       "time": "Fri, 25 Sep 2026 02:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PFE",
+      "title": "Could a New Vaccine Formula XFG Give Pfizer (PFE) and BioNTech (BNTX) a Post-Pandemic Revenue Boost?",
+      "time": "Thu, 24 Sep 2026 20:27:15",
       "sentiment": 0
     },
     {
@@ -709,12 +727,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "MU",
-      "title": "Could Micron Stock Reach $2,000? 1 Reason to Believe It -- and 1 Reason to Be Skeptical",
-      "time": "Fri, 25 Sep 2026 14:59:58",
-      "sentiment": 0
-    },
-    {
       "ticker": "LYV",
       "title": "NewEdge Advisors LLC Reduces Position in Live Nation Entertainment, Inc. $LYV",
       "time": "Fri, 25 Sep 2026 07:31:07",
@@ -746,20 +758,14 @@
     },
     {
       "ticker": "EMR",
-      "title": "Emerson Electric Co (EMR.SG) stock price, news, quote and history",
-      "time": "Fri, 25 Sep 2026 08:49:30",
+      "title": "Emerson Electric (EMR) Advances While Market Declines: Some Information for Investors",
+      "time": "Thu, 24 Sep 2026 20:50:04",
       "sentiment": 0
     },
     {
       "ticker": "EMR",
       "title": "Emerson Electric Co. $EMR Holdings Increased by Envestnet Portfolio Solutions Inc.",
       "time": "Fri, 25 Sep 2026 07:08:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "EMR",
-      "title": "Emerson Electric (EMR) Advances While Market Declines: Some Information for Investors",
-      "time": "Thu, 24 Sep 2026 20:50:04",
       "sentiment": 0
     },
     {
@@ -866,6 +872,12 @@
     },
     {
       "ticker": "AAL",
+      "title": "American Airlines Stock Climbs Friday: What's Happening?",
+      "time": "Fri, 25 Sep 2026 19:36:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAL",
       "title": "American Airlines (AAL) Stock Looks Below Fair Value Following A 35% Five Year Fall",
       "time": "Fri, 25 Sep 2026 07:12:22",
       "sentiment": 0
@@ -880,12 +892,6 @@
       "ticker": "AAL",
       "title": "American Airlines Rises as Lower Oil and Demand Optimism Support Airline Shares",
       "time": "Fri, 25 Sep 2026 17:36:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AAL",
-      "title": "U.S. airlines offer flight flexibility ahead of Northeast nor’easter (JBLU:NASDAQ)",
-      "time": "Fri, 25 Sep 2026 15:11:09",
       "sentiment": 0
     },
     {
@@ -938,14 +944,14 @@
     },
     {
       "ticker": "JNJ",
-      "title": "JNJ Stock Advances After Hours On $5.5B Proposal To Resolve Talc Litigation",
-      "time": "Thu, 24 Sep 2026 21:35:37",
+      "title": "Convert 1 JNJ (Johnson & Johnson (Dinari Tokenized Stock)) to CHF (Swiss Franc)",
+      "time": "Fri, 25 Sep 2026 00:00:00",
       "sentiment": 0
     },
     {
       "ticker": "JNJ",
-      "title": "Convert 1 JNJ (Johnson & Johnson (Dinari Tokenized Stock)) to CHF (Swiss Franc)",
-      "time": "Fri, 25 Sep 2026 00:00:00",
+      "title": "Johnson & Johnson (JNJ) Phase 3 Myeloma Data Recasts Long Term Survival Expectations",
+      "time": "Fri, 25 Sep 2026 09:33:15",
       "sentiment": 0
     },
     {
@@ -974,14 +980,14 @@
     },
     {
       "ticker": "DAL",
-      "title": "Delta Air Lines, Inc. (DAL) Stock Forecasts",
-      "time": "Fri, 25 Sep 2026 12:21:50",
+      "title": "Delta Air Lines Stock Rises Friday: What's Going On?",
+      "time": "Fri, 25 Sep 2026 19:48:37",
       "sentiment": 0
     },
     {
       "ticker": "DAL",
-      "title": "10 Industrials Stocks Whale Activity In Today’s Session",
-      "time": "Fri, 25 Sep 2026 17:35:11",
+      "title": "Delta Air Lines, Inc. (DAL) Stock Forecasts",
+      "time": "Fri, 25 Sep 2026 12:21:50",
       "sentiment": 0
     },
     {
@@ -998,14 +1004,14 @@
     },
     {
       "ticker": "DAL",
-      "title": "Delta Air Lines stock gains 1.24 percent to USD 82.76",
-      "time": "Fri, 25 Sep 2026 12:59:38",
+      "title": "10 Industrials Stocks Whale Activity In Today’s Session",
+      "time": "Fri, 25 Sep 2026 17:35:11",
       "sentiment": 0
     },
     {
       "ticker": "DAL",
-      "title": "Delta Air Lines stock gains 1.17 percent ahead of the open",
-      "time": "Fri, 25 Sep 2026 05:26:51",
+      "title": "Delta Air Lines stock gains 1.24 percent to USD 82.76",
+      "time": "Fri, 25 Sep 2026 12:59:38",
       "sentiment": 0
     },
     {
@@ -1171,12 +1177,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "GOOGL",
-      "title": "The \"Magnificent Seven\" Stocks: Here's the 1 I'm Buying Hand Over Fist Right Now",
-      "time": "Fri, 25 Sep 2026 15:00:00",
-      "sentiment": 0
-    },
-    {
       "ticker": "GOOG",
       "title": "Why It’s Time to Buy Alphabet Stock",
       "time": "Fri, 25 Sep 2026 17:57:32",
@@ -1214,6 +1214,12 @@
     },
     {
       "ticker": "UNH",
+      "title": "UnitedHealth Group Incorporated (UNH) stock price, news, quote and history",
+      "time": "Fri, 25 Sep 2026 18:19:50",
+      "sentiment": 0
+    },
+    {
+      "ticker": "UNH",
       "title": "UNH Stock Tracks Hot Monthly Streak: Wall Street Cheers ‘Impressive’ Q2 And Sees Over 20% More Room To Run",
       "time": "Fri, 25 Sep 2026 16:25:58",
       "sentiment": 0
@@ -1234,12 +1240,6 @@
       "ticker": "UNH",
       "title": "UnitedHealth (UNH) CEO holds 177,690 shares directly after receiving 50 dividend shares.",
       "time": "Thu, 24 Sep 2026 20:13:45",
-      "sentiment": 0
-    },
-    {
-      "ticker": "UNH",
-      "title": "After a stock-award dividend payment, a UnitedHealth Group (UNH) executive reports holding 15,654 shares.",
-      "time": "Thu, 24 Sep 2026 20:12:41",
       "sentiment": 0
     },
     {
