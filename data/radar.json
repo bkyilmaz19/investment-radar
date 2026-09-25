@@ -1,49 +1,10 @@
 {
-  "generated_at_local": "25.09.2026 22:11 CEST",
+  "generated_at_local": "25.09.2026 22:26 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 88,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.81%, 5T +10.54%, relatives Volumen 0.81x, ATR 4.28%",
-      "catalyst": "Q4 Earnings Are Likely to Boost the ‘Strong Buy’ Case for Micron Stock",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +1.42%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.57,
-      "target_pct": 4.88,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.81%",
-      "change_5d": "+10.54%",
-      "volume_ratio": "0.81x",
-      "atr_pct": "4.28%",
-      "gap_pct": "+1.42%",
-      "premarket_move_pct": "+0.50%",
-      "live_gap_pct": "+0.11%",
-      "regular_move_pct": "-1.26%",
-      "avg_dollar_volume": 25120560271.76,
-      "bar_age_minutes": 1.0,
-      "vwap": 1087.22,
-      "opening_range_high": 1108.72,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
     {
       "ticker": "RCL",
       "name": "Royal Caribbean",
@@ -62,11 +23,11 @@
       "atr_pct": "3.95%",
       "gap_pct": "+2.14%",
       "premarket_move_pct": "+1.70%",
-      "live_gap_pct": "+1.58%",
+      "live_gap_pct": "+1.59%",
       "regular_move_pct": "+0.40%",
       "avg_dollar_volume": 710779817.88,
-      "bar_age_minutes": 2.0,
-      "vwap": 242.56,
+      "bar_age_minutes": 16.9,
+      "vwap": 242.57,
       "opening_range_high": 242.4,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -101,10 +62,10 @@
       "atr_pct": "6.12%",
       "gap_pct": "+0.91%",
       "premarket_move_pct": "-0.34%",
-      "live_gap_pct": "-0.91%",
-      "regular_move_pct": "-1.12%",
+      "live_gap_pct": "-0.90%",
+      "regular_move_pct": "-1.10%",
       "avg_dollar_volume": 1588225794.58,
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 6.9,
       "vwap": 63.96,
       "opening_range_high": 65.65,
       "opening_range_ready": true,
@@ -123,31 +84,70 @@
       }
     },
     {
-      "ticker": "PFE",
-      "name": "Pfizer",
+      "ticker": "MU",
+      "name": "Micron",
+      "score": 85,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.81%, 5T +10.54%, relatives Volumen 0.81x, ATR 4.28%",
+      "catalyst": "Q4 Earnings Are Likely to Boost the ‘Strong Buy’ Case for Micron Stock",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +1.42%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.57,
+      "target_pct": 4.88,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.81%",
+      "change_5d": "+10.54%",
+      "volume_ratio": "0.81x",
+      "atr_pct": "4.28%",
+      "gap_pct": "+1.42%",
+      "premarket_move_pct": "+0.50%",
+      "live_gap_pct": "+0.11%",
+      "regular_move_pct": "-1.26%",
+      "avg_dollar_volume": 25120560271.76,
+      "bar_age_minutes": 1.9,
+      "vwap": 1087.22,
+      "opening_range_high": 1108.72,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor",
       "score": 84,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.82%, 5T +2.79%, relatives Volumen 0.90x, ATR 1.59%",
-      "catalyst": "What Could Pfizer (PFE) Unlock From Faster FDA Reviews And Orphan Drug Growth?",
+      "thesis": "1T +1.03%, 5T +4.86%, relatives Volumen 0.68x, ATR 2.37%",
+      "catalyst": "Taiwan Semiconductor: AI Hiccups Lately, But Strong Growth Persists",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.09%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 0.95,
-      "target_pct": 2.0,
+      "entry_note": "Premarket-Gap +0.85%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.42,
+      "target_pct": 2.7,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.82%",
-      "change_5d": "+2.79%",
-      "volume_ratio": "0.90x",
-      "atr_pct": "1.59%",
-      "gap_pct": "-0.09%",
-      "premarket_move_pct": "+0.01%",
-      "live_gap_pct": "+0.97%",
-      "regular_move_pct": "+0.83%",
-      "avg_dollar_volume": 946722586.32,
-      "bar_age_minutes": 4.6,
-      "vwap": 28.42,
-      "opening_range_high": 28.51,
+      "change_1d": "+1.03%",
+      "change_5d": "+4.86%",
+      "volume_ratio": "0.68x",
+      "atr_pct": "2.37%",
+      "gap_pct": "+0.85%",
+      "premarket_move_pct": "+0.55%",
+      "live_gap_pct": "-0.13%",
+      "regular_move_pct": "-0.40%",
+      "avg_dollar_volume": 4318394530.4,
+      "bar_age_minutes": 6.9,
+      "vwap": 451.65,
+      "opening_range_high": 453.6,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -182,7 +182,7 @@
       "live_gap_pct": "-3.30%",
       "regular_move_pct": "-2.20%",
       "avg_dollar_volume": 14999890878.64,
-      "bar_age_minutes": 1.0,
+      "bar_age_minutes": 1.9,
       "vwap": 753.18,
       "opening_range_high": 769.57,
       "opening_range_ready": true,
@@ -235,18 +235,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "PFE",
-      "title": "What Could Pfizer (PFE) Unlock From Faster FDA Reviews And Orphan Drug Growth?",
-      "time": "Fri, 25 Sep 2026 04:25:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "PFE",
-      "title": "Pfizer stock reports a Q2 earnings beat at USD 28.43",
-      "time": "Fri, 25 Sep 2026 10:20:48",
-      "sentiment": 1
-    },
-    {
       "ticker": "HLT",
       "title": "Hilton Worldwide Holdings Inc. stock outperforms competitors on strong trading day",
       "time": "Thu, 24 Sep 2026 20:44:00",
@@ -274,12 +262,6 @@
       "ticker": "MU",
       "title": "Q4 Earnings Are Likely to Boost the ‘Strong Buy’ Case for Micron Stock",
       "time": "Fri, 25 Sep 2026 19:25:41",
-      "sentiment": 1
-    },
-    {
-      "ticker": "MU",
-      "title": "Micron Earnings: 80% Odds Of Beating Every Estimate - Micron Technology (NASDAQ:MU)",
-      "time": "Fri, 25 Sep 2026 14:15:58",
       "sentiment": 1
     },
     {
@@ -331,6 +313,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "RBLX",
+      "title": "ASTS, RKLB, FLY, LUNR Stocks Rally As FCC Opens Door To Faster Satellite Broadband Networks",
+      "time": "Thu, 24 Sep 2026 22:24:38",
+      "sentiment": -1
+    },
+    {
       "ticker": "TMO",
       "title": "Thermo Fisher Scientific Inc. stock rises Thursday, outperforms market",
       "time": "Thu, 24 Sep 2026 20:34:00",
@@ -361,10 +349,16 @@
       "sentiment": 1
     },
     {
-      "ticker": "SOFI",
-      "title": "SoFi, Mastercard activate stablecoin settlement for SoFi Bank card programme",
-      "time": "Fri, 25 Sep 2026 11:48:04",
-      "sentiment": -1
+      "ticker": "VRTX",
+      "title": "Vertex Pharmaceuticals Inc. stock outperforms competitors on strong trading day",
+      "time": "Thu, 24 Sep 2026 20:36:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "VRTX",
+      "title": "Why Did CRNX, D, BCRX Stocks Surge To 52-Week Highs Today?",
+      "time": "Thu, 24 Sep 2026 23:28:15",
+      "sentiment": 1
     },
     {
       "ticker": "DIS",
@@ -415,12 +409,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "PH",
-      "title": "J.P. Morgan Downgrades Parker Hannifin(PH.US) to Hold Rating, Cuts Target Price to $1,050",
-      "time": "Fri, 25 Sep 2026 12:00:01",
-      "sentiment": -1
-    },
-    {
       "ticker": "META",
       "title": "This Meta stock stat doesn't make sense after the Muse mic drop",
       "time": "Fri, 25 Sep 2026 16:00:00",
@@ -428,14 +416,14 @@
     },
     {
       "ticker": "META",
-      "title": "Why Meta Platforms Stock Reversed Today",
-      "time": "Fri, 25 Sep 2026 16:03:00",
+      "title": "Why Meta Stock Could Spike if It Crosses This Price Target",
+      "time": "Fri, 25 Sep 2026 17:13:00",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Why Meta Stock Could Spike if It Crosses This Price Target",
-      "time": "Fri, 25 Sep 2026 14:13:35",
+      "title": "Why Meta Platforms Stock Reversed Today",
+      "time": "Fri, 25 Sep 2026 16:03:00",
       "sentiment": 0
     },
     {
@@ -538,30 +526,6 @@
       "ticker": "BLK",
       "title": "REG - BlackRock Group Pollen Street Group - Form 8.3 - Pollen Street Group Limited",
       "time": "Fri, 25 Sep 2026 14:20:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PFE",
-      "title": "Pfizer Stock Paid Out $49B: So Why Did Investors Lose Money?",
-      "time": "Fri, 25 Sep 2026 17:03:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PFE",
-      "title": "PFE Stock Reacts To Mixed Topline Results For Seagen-Origin Cancer Drug",
-      "time": "Fri, 25 Sep 2026 14:37:17",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PFE",
-      "title": "PFE 270319 27.00C (PFE270319C27000) Stock Options Chain | Quotes & News",
-      "time": "Fri, 25 Sep 2026 14:29:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PFE",
-      "title": "RBC Capital Remains a Hold on Pfizer (PFE)",
-      "time": "Fri, 25 Sep 2026 02:00:00",
       "sentiment": 0
     },
     {
@@ -709,6 +673,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "MU",
+      "title": "Could Micron Stock Reach $2,000? 1 Reason to Believe It -- and 1 Reason to Be Skeptical",
+      "time": "Fri, 25 Sep 2026 14:59:58",
+      "sentiment": 0
+    },
+    {
       "ticker": "LYV",
       "title": "NewEdge Advisors LLC Reduces Position in Live Nation Entertainment, Inc. $LYV",
       "time": "Fri, 25 Sep 2026 07:31:07",
@@ -723,7 +693,7 @@
     {
       "ticker": "LYV",
       "title": "Cinemark Holdings, Inc. (CNK) Stock Price, News, Quote & History",
-      "time": "Fri, 25 Sep 2026 07:45:04",
+      "time": "Fri, 25 Sep 2026 08:50:12",
       "sentiment": 0
     },
     {
@@ -820,12 +790,6 @@
       "ticker": "RBLX",
       "title": "Chevron Posts Highest Revenue In Four Years On Energy Rally – CVX Stock Heads for Best Month Since October 2022",
       "time": "Fri, 25 Sep 2026 13:04:38",
-      "sentiment": 0
-    },
-    {
-      "ticker": "RBLX",
-      "title": "Meta Launches AI Game Development Tools, Triggering Decline in Competitors' Stock Prices",
-      "time": "Thu, 24 Sep 2026 20:41:23",
       "sentiment": 0
     },
     {
@@ -943,6 +907,30 @@
       "sentiment": 0
     },
     {
+      "ticker": "VRTX",
+      "title": "Vertex Pharmaceuticals (VRTX) Increases Despite Market Slip: Here's What You Need to Know",
+      "time": "Thu, 24 Sep 2026 20:50:06",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VRTX",
+      "title": "Stock Market Split As Nasdaq Hits High, Dow Jones Slides Amid Surging Treasury Yields: Weekly Review",
+      "time": "Fri, 25 Sep 2026 14:18:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VRTX",
+      "title": "Biogen (NASDAQ:BIIB) Q2 Earnings: Leading The Therapeutics Pack",
+      "time": "Fri, 25 Sep 2026 03:31:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VRTX",
+      "title": "Illumina, Inc. (ILMN) Stock Price, News, Quote & History",
+      "time": "Fri, 25 Sep 2026 08:27:37",
+      "sentiment": 0
+    },
+    {
       "ticker": "DAL",
       "title": "Delta Air Lines Stock Rises Friday: What's Going On?",
       "time": "Fri, 25 Sep 2026 19:48:37",
@@ -1015,36 +1003,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "SOFI",
-      "title": "Is SoFi a Buy After This 40% Drop? Here's My Honest Take",
-      "time": "Fri, 25 Sep 2026 19:25:49",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SOFI",
-      "title": "Should You Buy SoFi Stock Before Oct. 27?",
-      "time": "Thu, 24 Sep 2026 22:25:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SOFI",
-      "title": "US Stock Futures Slip As Iran Targets American Forces Ahead Of Big Tech Earnings: SKHY, SNDK, BE, SOFI In Focus",
-      "time": "Fri, 25 Sep 2026 06:27:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SOFI",
-      "title": "Mastercard Stock Holds Flat as $25 Billion Stablecoin Settlement Goes Live",
-      "time": "Fri, 25 Sep 2026 16:53:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SOFI",
-      "title": "SoFi Technologies (NASDAQ:SOFI) Stock Jumps 1.5% - Here's Why",
-      "time": "Thu, 24 Sep 2026 21:24:19",
-      "sentiment": 0
-    },
-    {
       "ticker": "DIS",
       "title": "393 shares went toward taxes, not a sale, when a Walt Disney Co (DIS) executive's stock award vested.",
       "time": "Fri, 25 Sep 2026 17:19:38",
@@ -1088,8 +1046,8 @@
     },
     {
       "ticker": "T",
-      "title": "Should You Bet on TMUS After Dividend Hike Amid Macro Uncertainty?",
-      "time": "Fri, 25 Sep 2026 13:56:00",
+      "title": "Should CCOI Be in Your Portfolio After Plummeting 80.7% in a Year?",
+      "time": "Fri, 25 Sep 2026 13:55:00",
       "sentiment": 0
     },
     {
@@ -1112,14 +1070,14 @@
     },
     {
       "ticker": "AZN",
-      "title": "AstraZeneca & Fevertree Drinks: Big director share deals",
-      "time": "Fri, 25 Sep 2026 14:21:50",
+      "title": "Priority review for AstraZeneca's Imfinzi in bladder cancer",
+      "time": "Fri, 25 Sep 2026 08:22:46",
       "sentiment": 0
     },
     {
       "ticker": "GOOGL",
-      "title": "Why It’s Time to Buy Alphabet Stock",
-      "time": "Fri, 25 Sep 2026 17:57:32",
+      "title": "Alphabet Inc. (GOOG) Stock Price, News, Quote & History",
+      "time": "Fri, 25 Sep 2026 19:11:38",
       "sentiment": 0
     },
     {
@@ -1142,14 +1100,20 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "Alphabet vs. Meta: Which AI Advertising Giant Is the Better Stock to Buy?",
-      "time": "Fri, 25 Sep 2026 04:34:00",
+      "title": "The \"Magnificent Seven\" Stocks: Here's the 1 I'm Buying Hand Over Fist Right Now",
+      "time": "Fri, 25 Sep 2026 15:00:00",
       "sentiment": 0
     },
     {
       "ticker": "GOOG",
-      "title": "Alphabet Inc. (GOOG) Stock Price, News, Quote & History",
-      "time": "Fri, 25 Sep 2026 19:11:38",
+      "title": "Why It’s Time to Buy Alphabet Stock",
+      "time": "Fri, 25 Sep 2026 17:57:32",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOG",
+      "title": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History",
+      "time": "Fri, 25 Sep 2026 15:04:32",
       "sentiment": 0
     },
     {
@@ -1172,14 +1136,14 @@
     },
     {
       "ticker": "GOOG",
-      "title": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History",
-      "time": "Fri, 25 Sep 2026 15:04:32",
+      "title": "Alphabet stock last at USD 339.41, up 0.12 percent in New York trading",
+      "time": "Fri, 25 Sep 2026 15:59:19",
       "sentiment": 0
     },
     {
-      "ticker": "GOOG",
-      "title": "Elon Musk Responds With Two Emojis as Google CEO Sundar Pichai Says Project Suncatcher Heads to Space: 'C",
-      "time": "Fri, 25 Sep 2026 13:29:54",
+      "ticker": "UNH",
+      "title": "UnitedHealth Group Incorporated (UNH) stock price, news, quote and history",
+      "time": "Fri, 25 Sep 2026 18:19:50",
       "sentiment": 0
     },
     {
@@ -1190,26 +1154,20 @@
     },
     {
       "ticker": "UNH",
-      "title": "A UnitedHealth (NYSE: UNH) executive received 84 shares tied to stock awards that may not vest.",
-      "time": "Thu, 24 Sep 2026 20:13:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "UNH",
       "title": "UNH Vs. HUM: Which Insurer Stock Has More Upside After CMS Reverses Wall Street’s Biggest Medicare Rate Fear?",
       "time": "Fri, 25 Sep 2026 15:39:44",
       "sentiment": 0
     },
     {
       "ticker": "UNH",
-      "title": "UnitedHealth (UNH) CEO holds 177,690 shares directly after receiving 50 dividend shares.",
-      "time": "Thu, 24 Sep 2026 20:13:45",
+      "title": "Does UnitedHealth’s New CAO Hire Reveal a Deeper Shift in Efficiency Strategy for UNH?",
+      "time": "Thu, 24 Sep 2026 23:12:34",
       "sentiment": 0
     },
     {
       "ticker": "UNH",
-      "title": "After a stock-award dividend payment, a UnitedHealth Group (UNH) executive reports holding 15,654 shares.",
-      "time": "Thu, 24 Sep 2026 20:12:41",
+      "title": "UnitedHealth Group Director Frederick McNabb Acquires 57 Shares Via Dividend Equivalents",
+      "time": "Thu, 24 Sep 2026 22:55:03",
       "sentiment": 0
     },
     {
