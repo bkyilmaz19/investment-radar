@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "25.09.2026 16:12 CEST",
+  "generated_at_local": "25.09.2026 16:31 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -8,12 +8,12 @@
     {
       "ticker": "EMR",
       "name": "Emerson",
-      "score": 94,
+      "score": 87,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.00%, 5T +5.93%, relatives Volumen 0.82x, ATR 2.23%",
       "catalyst": "Wells Fargo initiates Emerson stock with overweight rating on growth",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.37%, seit Open +0.38%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.29%, seit Open +0.30%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.34,
       "target_pct": 2.55,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,14 +23,14 @@
       "atr_pct": "2.23%",
       "gap_pct": "noch nicht verfügbar",
       "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "+1.37%",
-      "regular_move_pct": "+0.38%",
+      "live_gap_pct": "+1.29%",
+      "regular_move_pct": "+0.30%",
       "avg_dollar_volume": 336018857.68,
-      "bar_age_minutes": 2.7,
-      "vwap": 158.17,
+      "bar_age_minutes": 1.0,
+      "vwap": 158.28,
       "opening_range_high": 158.55,
       "opening_range_ready": true,
-      "breakout_confirmed": true,
+      "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -41,7 +41,7 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
       }
     },
     {
@@ -52,7 +52,7 @@
       "thesis": "1T +0.51%, 5T -2.97%, relatives Volumen 1.25x, ATR 2.60%",
       "catalyst": "CSCO Stock Hits Record Highs, Launches Tools To Protect IT Systems From AI Agents",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.43%, seit Open +0.41%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.59%, seit Open +0.57%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.56,
       "target_pct": 2.96,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +62,11 @@
       "atr_pct": "2.60%",
       "gap_pct": "-0.16%",
       "premarket_move_pct": "-0.09%",
-      "live_gap_pct": "+0.43%",
-      "regular_move_pct": "+0.41%",
+      "live_gap_pct": "+0.59%",
+      "regular_move_pct": "+0.57%",
       "avg_dollar_volume": 1944294785.98,
-      "bar_age_minutes": 2.7,
-      "vwap": 107.84,
+      "bar_age_minutes": 1.0,
+      "vwap": 107.79,
       "opening_range_high": 108.22,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -84,36 +84,75 @@
       }
     },
     {
-      "ticker": "MU",
-      "name": "Micron",
-      "score": 82,
+      "ticker": "AZN",
+      "name": "AstraZeneca",
+      "score": 77,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.81%, 5T +10.54%, relatives Volumen 0.80x, ATR 4.28%",
-      "catalyst": "Micron Likely to Beat Q4 Earnings Estimates: How to Play MU Stock?",
+      "thesis": "1T +0.75%, 5T -0.95%, relatives Volumen 1.10x, ATR 2.13%",
+      "catalyst": "Why AstraZeneca Still Looks Underrated Despite Strong EPS Momentum (NYSE:AZN)",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +1.02%, seit Open -0.36%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 2.57,
-      "target_pct": 4.88,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.31%, seit Open -0.65%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.28,
+      "target_pct": 2.42,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.81%",
-      "change_5d": "+10.54%",
-      "volume_ratio": "0.80x",
-      "atr_pct": "4.28%",
-      "gap_pct": "+1.42%",
-      "premarket_move_pct": "+0.50%",
-      "live_gap_pct": "+1.02%",
-      "regular_move_pct": "-0.36%",
-      "avg_dollar_volume": 25116870261.71,
-      "bar_age_minutes": 2.7,
-      "vwap": 1097.99,
-      "opening_range_high": 1108.72,
+      "change_1d": "+0.75%",
+      "change_5d": "-0.95%",
+      "volume_ratio": "1.10x",
+      "atr_pct": "2.13%",
+      "gap_pct": "+0.72%",
+      "premarket_move_pct": "+0.07%",
+      "live_gap_pct": "+0.31%",
+      "regular_move_pct": "-0.65%",
+      "avg_dollar_volume": 501625025.37,
+      "bar_age_minutes": 1.0,
+      "vwap": 165.39,
+      "opening_range_high": 166.32,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
-        "score_ok": true,
+        "score_ok": false,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "score": 77,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.82%, 5T +2.79%, relatives Volumen 0.90x, ATR 1.59%",
+      "catalyst": "What Could Pfizer (PFE) Unlock From Faster FDA Reviews And Orphan Drug Growth?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.72%, seit Open -0.86%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 0.95,
+      "target_pct": 2.0,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.82%",
+      "change_5d": "+2.79%",
+      "volume_ratio": "0.90x",
+      "atr_pct": "1.59%",
+      "gap_pct": "-0.09%",
+      "premarket_move_pct": "+0.01%",
+      "live_gap_pct": "-0.72%",
+      "regular_move_pct": "-0.86%",
+      "avg_dollar_volume": 946681675.92,
+      "bar_age_minutes": 1.0,
+      "vwap": 28.31,
+      "opening_range_high": 28.51,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": false,
         "momentum_ok": true,
         "volume_ok": false,
         "volatility_ok": true,
@@ -125,12 +164,12 @@
     {
       "ticker": "HLT",
       "name": "Hilton",
-      "score": 79,
+      "score": 77,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.60%, 5T +3.17%, relatives Volumen 0.83x, ATR 1.90%",
       "catalyst": "Hilton Worldwide Holdings Inc. stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.15%, seit Open -0.15%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.01%, seit Open -0.30%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.14,
       "target_pct": 2.16,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +179,11 @@
       "atr_pct": "1.90%",
       "gap_pct": "noch nicht verfügbar",
       "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "+0.15%",
-      "regular_move_pct": "-0.15%",
+      "live_gap_pct": "-0.01%",
+      "regular_move_pct": "-0.30%",
       "avg_dollar_volume": 524605473.88,
-      "bar_age_minutes": 2.6,
-      "vwap": 312.85,
+      "bar_age_minutes": 1.0,
+      "vwap": 312.78,
       "opening_range_high": 315.28,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -152,46 +191,7 @@
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "VRTX",
-      "name": "Vertex",
-      "score": 78,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.17%, 5T +1.17%, relatives Volumen 0.69x, ATR 2.40%",
-      "catalyst": "Vertex Pharmaceuticals Inc. stock outperforms competitors on strong trading day",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.50%, seit Open -0.53%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.44,
-      "target_pct": 2.73,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.17%",
-      "change_5d": "+1.17%",
-      "volume_ratio": "0.69x",
-      "atr_pct": "2.40%",
-      "gap_pct": "+0.46%",
-      "premarket_move_pct": "+0.51%",
-      "live_gap_pct": "-0.50%",
-      "regular_move_pct": "-0.53%",
-      "avg_dollar_volume": 549743536.16,
-      "bar_age_minutes": 2.6,
-      "vwap": 520.78,
-      "opening_range_high": 525.19,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
+        "score_ok": false,
         "momentum_ok": true,
         "volume_ok": false,
         "volatility_ok": true,
@@ -216,6 +216,12 @@
     }
   ],
   "news": [
+    {
+      "ticker": "LLY",
+      "title": "Lilly Wins FDA Nod For Weekly Insulin, Signs $3.25 Billion InnoCare Pact",
+      "time": "Thu, 24 Sep 2026 16:06:38",
+      "sentiment": 1
+    },
     {
       "ticker": "BLK",
       "title": "BLK Stock: BlackRock Reportedly Cuts 200 Jobs As CEO Larry Fink Locks In Continuous Downsizing Cycle",
@@ -253,12 +259,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "RCL",
-      "title": "Royal Caribbean Cruises (NYSE:RCL) Shares Up 4.6% Following Analyst Upgrade",
-      "time": "Thu, 24 Sep 2026 16:43:57",
-      "sentiment": 1
-    },
-    {
       "ticker": "HPE",
       "title": "HPE Stock Forecast: Record High Breakout Awaits Confirmation",
       "time": "Fri, 25 Sep 2026 03:43:00",
@@ -273,7 +273,13 @@
     {
       "ticker": "MU",
       "title": "Micron Likely to Beat Q4 Earnings Estimates: How to Play MU Stock?",
-      "time": "Fri, 25 Sep 2026 11:20:00",
+      "time": "Fri, 25 Sep 2026 13:36:43",
+      "sentiment": 1
+    },
+    {
+      "ticker": "MU",
+      "title": "Micron Earnings: 80% Odds Of Beating Every Estimate - Micron Technology (NASDAQ:MU)",
+      "time": "Fri, 25 Sep 2026 14:15:58",
       "sentiment": 1
     },
     {
@@ -325,12 +331,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "JNJ",
-      "title": "JNJ Looks 39.8% Overvalued on GF Value™ Amid Strong Dividend Fun",
-      "time": "Fri, 25 Sep 2026 12:03:34",
-      "sentiment": 1
-    },
-    {
       "ticker": "VRTX",
       "title": "Vertex Pharmaceuticals Inc. stock outperforms competitors on strong trading day",
       "time": "Thu, 24 Sep 2026 20:36:00",
@@ -340,12 +340,6 @@
       "ticker": "VRTX",
       "title": "Why Did CRNX, D, BCRX Stocks Surge To 52-Week Highs Today?",
       "time": "Thu, 24 Sep 2026 23:28:15",
-      "sentiment": 1
-    },
-    {
-      "ticker": "VRTX",
-      "title": "Will Vertex's Kidney Disease Pipeline Be a New Growth Engine?",
-      "time": "Thu, 24 Sep 2026 14:27:00",
       "sentiment": 1
     },
     {
@@ -403,6 +397,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "GOOG",
+      "title": "Alphabet-C Options Spot-On: On September 24th, 199.21K Contracts Were Traded, With 1.79 Million Open Interest",
+      "time": "Thu, 24 Sep 2026 20:34:12",
+      "sentiment": 1
+    },
+    {
       "ticker": "UNH",
       "title": "Q2 Earnings Outperformers: UnitedHealth (NYSE:UNH) And The Rest Of The Health Insurance Providers Stocks",
       "time": "Thu, 24 Sep 2026 16:56:58",
@@ -411,19 +411,19 @@
     {
       "ticker": "META",
       "title": "Why Meta Stock Could Spike if It Crosses This Price Target",
-      "time": "Fri, 25 Sep 2026 12:47:23",
+      "time": "Fri, 25 Sep 2026 13:54:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "Meta (META) Stock Looks Cheap Enough To Back Its Cash Flow Story",
+      "time": "Fri, 25 Sep 2026 11:11:38",
       "sentiment": 0
     },
     {
       "ticker": "META",
       "title": "Meta's Stock May Plunge As Credit Market Warns Against Massive Rally (NASDAQ:META)",
       "time": "Fri, 25 Sep 2026 13:10:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "'Meta is having its moment' as stock's monster rally vindicates the bulls: Chart of the Day",
-      "time": "Fri, 25 Sep 2026 12:45:09",
       "sentiment": 0
     },
     {
@@ -440,8 +440,8 @@
     },
     {
       "ticker": "META",
-      "title": "Why Meta Stock Could Spike If It Crosses This Price Target -- Barrons.com",
-      "time": "Fri, 25 Sep 2026 12:50:40",
+      "title": "Meta Connect Just Started and the Stock Is Already at a 52 Week High",
+      "time": "Fri, 25 Sep 2026 14:00:00",
       "sentiment": 0
     },
     {
@@ -508,12 +508,6 @@
       "ticker": "LLY",
       "title": "ATAI Stock Eyes Rocketing Back To 4-Year Highs: VC Sees Up to 105% Takeover Premium From Eli Lilly",
       "time": "Fri, 25 Sep 2026 04:57:07",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LLY",
-      "title": "Eli Lilly and Co Stock (LLY) Moved Up by 3.73% on Sep 24: A Full Analysis",
-      "time": "Thu, 24 Sep 2026 14:15:18",
       "sentiment": 0
     },
     {
@@ -602,6 +596,12 @@
     },
     {
       "ticker": "RCL",
+      "title": "What Does Royal Caribbean Group's (RCL) Latest Move Mean for Bluechip Stocks Investors?",
+      "time": "Fri, 25 Sep 2026 12:30:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "RCL",
       "title": "Royal Caribbean Cruises Ltd Stock (RCL) Moved Up by 5.34% on Sep 24: Drivers Behind the Movement",
       "time": "Thu, 24 Sep 2026 17:15:22",
       "sentiment": 0
@@ -620,14 +620,14 @@
     },
     {
       "ticker": "DDOG",
-      "title": "Can Execution Lift Datadog (NASDAQ:DDOG) From Here?",
-      "time": "Fri, 25 Sep 2026 08:54:00",
+      "title": "Datadog's Global Expansion Accelerates: Can It Drive More Revenues?",
+      "time": "Fri, 25 Sep 2026 11:37:00",
       "sentiment": 0
     },
     {
       "ticker": "DDOG",
-      "title": "Datadog's Global Expansion Accelerates: Can It Drive More Revenues?",
-      "time": "Fri, 25 Sep 2026 11:37:00",
+      "title": "Can Execution Lift Datadog (NASDAQ:DDOG) From Here?",
+      "time": "Fri, 25 Sep 2026 08:54:00",
       "sentiment": 0
     },
     {
@@ -662,8 +662,8 @@
     },
     {
       "ticker": "HPE",
-      "title": "HPE vs. Super Micro: Which AI Server Stock Offers the Better Risk-Reward?",
-      "time": "Fri, 25 Sep 2026 04:27:00",
+      "title": "Hewlett Packard Enterprise (NYSE:HPE) Shares Climb 1.9% - Here's Why",
+      "time": "Thu, 24 Sep 2026 21:24:19",
       "sentiment": 0
     },
     {
@@ -674,26 +674,20 @@
     },
     {
       "ticker": "MU",
-      "title": "Micron Stock Could Rise Another 50%. Here's How.",
-      "time": "Thu, 24 Sep 2026 19:37:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MU",
       "title": "Prediction: $5,000 Invested in Micron Today Will Be Worth This Much by 2030",
       "time": "Fri, 25 Sep 2026 01:20:00",
       "sentiment": 0
     },
     {
       "ticker": "MU",
-      "title": "Micron Stock Gets a Big Wall Street Boost Ahead of Earnings",
-      "time": "Thu, 24 Sep 2026 17:15:00",
+      "title": "Micron Stock Could Rise Another 50%. Here's How.",
+      "time": "Thu, 24 Sep 2026 19:37:00",
       "sentiment": 0
     },
     {
       "ticker": "MU",
-      "title": "Are AI Memory Stocks Ready For Another Run? Micron, Sandisk Attempt To Clear New Buy Points",
-      "time": "Fri, 25 Sep 2026 12:00:00",
+      "title": "Micron Stock Gets a Big Wall Street Boost Ahead of Earnings",
+      "time": "Thu, 24 Sep 2026 17:15:00",
       "sentiment": 0
     },
     {
@@ -715,12 +709,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "LYV",
-      "title": "Cinemark Holdings, Inc. (CNK) Stock Price, News, Quote & History",
-      "time": "Fri, 25 Sep 2026 01:08:06",
-      "sentiment": 0
-    },
-    {
       "ticker": "EMR",
       "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History",
       "time": "Fri, 25 Sep 2026 09:02:11",
@@ -729,7 +717,7 @@
     {
       "ticker": "EMR",
       "title": "Emerson Electric Co. (EMR) latest stock news and headlines",
-      "time": "Fri, 25 Sep 2026 08:50:12",
+      "time": "Fri, 25 Sep 2026 09:46:28",
       "sentiment": 0
     },
     {
@@ -776,8 +764,8 @@
     },
     {
       "ticker": "CSCO",
-      "title": "Cisco Drops as 1,000 Switches Build an AI Campus",
-      "time": "Thu, 24 Sep 2026 18:10:58",
+      "title": "CSCO Looks 41.4% Overvalued on GF Value™ as Dividend Sustainabil",
+      "time": "Thu, 24 Sep 2026 18:06:08",
       "sentiment": 0
     },
     {
@@ -812,6 +800,12 @@
     },
     {
       "ticker": "RBLX",
+      "title": "Why Did RBLX, HTZ, MYGN Stocks Plunge To 52-Week Lows Last Week?",
+      "time": "Fri, 25 Sep 2026 08:29:49",
+      "sentiment": 0
+    },
+    {
+      "ticker": "RBLX",
       "title": "Roblox Corporation (RBLX) latest stock news and headlines",
       "time": "Thu, 24 Sep 2026 19:57:19",
       "sentiment": 0
@@ -835,12 +829,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "RBLX",
-      "title": "Meta Launches AI Game Development Tools, Triggering Decline in Competitors' Stock Prices",
-      "time": "Thu, 24 Sep 2026 20:41:23",
-      "sentiment": 0
-    },
-    {
       "ticker": "TMO",
       "title": "Here's How Much a $1000 Investment in Thermo Fisher Scientific Made 10 Years Ago Would Be Worth Today",
       "time": "Fri, 25 Sep 2026 11:30:02",
@@ -860,8 +848,8 @@
     },
     {
       "ticker": "TMO",
-      "title": "Dodge and Cox’s Bullish Stance on Thermo Fisher Scientific (TMO)",
-      "time": "Thu, 24 Sep 2026 14:19:27",
+      "title": "Thermo Fisher Scientific stock gains 1.97 percent near yearly high",
+      "time": "Fri, 25 Sep 2026 09:17:30",
       "sentiment": 0
     },
     {
@@ -938,6 +926,12 @@
     },
     {
       "ticker": "JNJ",
+      "title": "The 1 Number That Decides Whether a Dividend Lasts Your Whole Retirement",
+      "time": "Fri, 25 Sep 2026 14:00:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "JNJ",
       "title": "Johnson & Johnson (JNJ) Phase 3 Myeloma Data Recasts Long Term Survival Expectations",
       "time": "Fri, 25 Sep 2026 09:33:15",
       "sentiment": 0
@@ -964,6 +958,12 @@
       "ticker": "VRTX",
       "title": "Vertex Pharmaceuticals (VRTX) Increases Despite Market Slip: Here's What You Need to Know",
       "time": "Thu, 24 Sep 2026 20:50:06",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VRTX",
+      "title": "Stock Market Split As Nasdaq Hits High, Dow Jones Slides Amid Surging Treasury Yields: Weekly Review",
+      "time": "Fri, 25 Sep 2026 14:18:00",
       "sentiment": 0
     },
     {
@@ -1186,12 +1186,6 @@
       "ticker": "GOOG",
       "title": "Elon Musk Responds With Two Emojis as Google CEO Sundar Pichai Says Project Suncatcher Heads to Space: 'C",
       "time": "Fri, 25 Sep 2026 13:29:54",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOG",
-      "title": "GOOG 260925 300.00C (GOOG260925C300000) Stock Options Chain | Quotes & News",
-      "time": "Thu, 24 Sep 2026 14:28:27",
       "sentiment": 0
     },
     {
