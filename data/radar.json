@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "25.09.2026 23:27 CEST",
+  "generated_at_local": "25.09.2026 23:43 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,87 +26,9 @@
       "live_gap_pct": "+0.11%",
       "regular_move_pct": "-1.26%",
       "avg_dollar_volume": 25120560271.76,
-      "bar_age_minutes": 2.8,
+      "bar_age_minutes": 3.7,
       "vwap": 1087.22,
       "opening_range_high": 1108.72,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "RCL",
-      "name": "Royal Caribbean",
-      "score": 86,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.77%, 5T -4.31%, relatives Volumen 1.18x, ATR 3.95%",
-      "catalyst": "Royal Caribbean Group (RCL) Shares Surge 3.8% -- What GF Score o",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +2.14%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.37,
-      "target_pct": 4.51,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.77%",
-      "change_5d": "-4.31%",
-      "volume_ratio": "1.18x",
-      "atr_pct": "3.95%",
-      "gap_pct": "+2.14%",
-      "premarket_move_pct": "+1.70%",
-      "live_gap_pct": "+1.59%",
-      "regular_move_pct": "+0.40%",
-      "avg_dollar_volume": 710779817.88,
-      "bar_age_minutes": 7.8,
-      "vwap": 242.57,
-      "opening_range_high": 242.4,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": false,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor",
-      "score": 84,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.03%, 5T +4.86%, relatives Volumen 0.68x, ATR 2.37%",
-      "catalyst": "Taiwan Semiconductor: AI Hiccups Lately, But Strong Growth Persists",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.85%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.42,
-      "target_pct": 2.7,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.03%",
-      "change_5d": "+4.86%",
-      "volume_ratio": "0.68x",
-      "atr_pct": "2.37%",
-      "gap_pct": "+0.85%",
-      "premarket_move_pct": "+0.55%",
-      "live_gap_pct": "-0.13%",
-      "regular_move_pct": "-0.40%",
-      "avg_dollar_volume": 4318394530.4,
-      "bar_age_minutes": 9.8,
-      "vwap": 451.65,
-      "opening_range_high": 453.6,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
@@ -143,11 +65,11 @@
       "live_gap_pct": "+0.78%",
       "regular_move_pct": "+0.74%",
       "avg_dollar_volume": 549743536.16,
-      "bar_age_minutes": 27.8,
+      "bar_age_minutes": 12.7,
       "vwap": 523.6,
       "opening_range_high": 525.19,
       "opening_range_ready": true,
-      "breakout_confirmed": false,
+      "breakout_confirmed": true,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -182,11 +104,89 @@
       "live_gap_pct": "+1.24%",
       "regular_move_pct": "+0.26%",
       "avg_dollar_volume": 501625025.37,
-      "bar_age_minutes": 87.8,
+      "bar_age_minutes": 103.8,
       "vwap": 165.86,
       "opening_range_high": 166.32,
       "opening_range_ready": true,
       "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "HPE",
+      "name": "HPE",
+      "score": 81,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.91%, 5T +4.06%, relatives Volumen 1.03x, ATR 6.12%",
+      "catalyst": "HPE (HPE) Stock May Be 31% Undervalued Following Record AI Server Orders",
+      "risk_note": "HPE Stock Drops 11% To Worst Day In Over A Year After Evercore Downgrades On Lack Of Near-Term Catalysts",
+      "entry_note": "Premarket-Gap +0.91%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 3.0,
+      "target_pct": 5.7,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.91%",
+      "change_5d": "+4.06%",
+      "volume_ratio": "1.03x",
+      "atr_pct": "6.12%",
+      "gap_pct": "+0.91%",
+      "premarket_move_pct": "-0.34%",
+      "live_gap_pct": "-0.90%",
+      "regular_move_pct": "-1.10%",
+      "avg_dollar_volume": 1588225794.58,
+      "bar_age_minutes": 1.8,
+      "vwap": 63.96,
+      "opening_range_high": 65.65,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "PFE",
+      "name": "Pfizer",
+      "score": 81,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.82%, 5T +2.79%, relatives Volumen 0.90x, ATR 1.59%",
+      "catalyst": "What Could Pfizer (PFE) Unlock From Faster FDA Reviews And Orphan Drug Growth?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -0.09%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 0.95,
+      "target_pct": 2.0,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.82%",
+      "change_5d": "+2.79%",
+      "volume_ratio": "0.90x",
+      "atr_pct": "1.59%",
+      "gap_pct": "-0.09%",
+      "premarket_move_pct": "+0.01%",
+      "live_gap_pct": "+0.97%",
+      "regular_move_pct": "+0.83%",
+      "avg_dollar_volume": 946722586.32,
+      "bar_age_minutes": 2.9,
+      "vwap": 28.42,
+      "opening_range_high": 28.51,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -229,12 +229,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "RCL",
-      "title": "Royal Caribbean Group (RCL) Shares Surge 3.8% -- What GF Score o",
-      "time": "Thu, 24 Sep 2026 21:33:29",
-      "sentiment": 1
-    },
-    {
       "ticker": "HPE",
       "title": "HPE (HPE) Stock May Be 31% Undervalued Following Record AI Server Orders",
       "time": "Fri, 25 Sep 2026 18:31:11",
@@ -268,12 +262,6 @@
       "ticker": "EMR",
       "title": "Wells Fargo initiates Emerson stock with overweight rating on growth",
       "time": "Fri, 25 Sep 2026 10:29:38",
-      "sentiment": 1
-    },
-    {
-      "ticker": "EMR",
-      "title": "TD Cowen raises Emerson stock price target on power buildout outlook",
-      "time": "Fri, 25 Sep 2026 11:04:29",
       "sentiment": 1
     },
     {
@@ -325,12 +313,6 @@
       "sentiment": -1
     },
     {
-      "ticker": "TSM",
-      "title": "Taiwan Semiconductor: AI Hiccups Lately, But Strong Growth Persists",
-      "time": "Fri, 25 Sep 2026 01:31:24",
-      "sentiment": 1
-    },
-    {
       "ticker": "JNJ",
       "title": "Johnson & Johnson stock follows raised 2026 guidance",
       "time": "Fri, 25 Sep 2026 11:14:30",
@@ -379,6 +361,12 @@
       "sentiment": -1
     },
     {
+      "ticker": "T",
+      "title": "Compared to AT&T and Verizon, T-Mobile is flashing a serious warning sign",
+      "time": "Fri, 25 Sep 2026 19:47:25",
+      "sentiment": -1
+    },
+    {
       "ticker": "AZN",
       "title": "Why AstraZeneca Still Looks Underrated Despite Strong EPS Momentum (NYSE:AZN)",
       "time": "Fri, 25 Sep 2026 13:15:45",
@@ -409,6 +397,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "PH",
+      "title": "J.P. Morgan Downgrades Parker Hannifin(PH.US) to Hold Rating, Cuts Target Price to $1,050",
+      "time": "Fri, 25 Sep 2026 12:00:01",
+      "sentiment": -1
+    },
+    {
       "ticker": "META",
       "title": "This Meta stock stat doesn't make sense after the Muse mic drop",
       "time": "Fri, 25 Sep 2026 16:00:00",
@@ -428,6 +422,12 @@
     },
     {
       "ticker": "META",
+      "title": "Meta's Muse Shakes Up The AI Battle. Here's What Investors Should Know.",
+      "time": "Fri, 25 Sep 2026 14:12:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
       "title": "Meta Stock Hits $779.82 High as Muse AI Ships",
       "time": "Fri, 25 Sep 2026 20:26:15",
       "sentiment": 0
@@ -436,12 +436,6 @@
       "ticker": "META",
       "title": "Meta's Stock May Plunge As Credit Market Warns Against Massive Rally (NASDAQ:META)",
       "time": "Fri, 25 Sep 2026 13:10:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "Meta's Muse Shakes Up The AI Battle. Here's What Investors Should Know.",
-      "time": "Fri, 25 Sep 2026 14:12:00",
       "sentiment": 0
     },
     {
@@ -524,6 +518,12 @@
     },
     {
       "ticker": "BLK",
+      "title": "Morgan Stanley Maintains Blackrock(BLK.US) With Buy Rating, Maintains Target Price $1,488",
+      "time": "Fri, 25 Sep 2026 13:41:12",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BLK",
       "title": "Can't Say 60/40 Is Back: Rosenberg",
       "time": "Fri, 25 Sep 2026 20:23:10",
       "sentiment": 0
@@ -532,12 +532,6 @@
       "ticker": "BLK",
       "title": "REG - BlackRock Group Pollen Street Group - Form 8.3 - Pollen Street Group Limited",
       "time": "Fri, 25 Sep 2026 14:20:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BLK",
-      "title": "BLK Maintained by Morgan Stanley -- Price Target Lowered to $147",
-      "time": "Fri, 25 Sep 2026 14:00:50",
       "sentiment": 0
     },
     {
@@ -555,7 +549,7 @@
     {
       "ticker": "PFE",
       "title": "AbbVie vs. Pfizer: Which Healthcare Stock Makes Your Portfolio Healthier in 2026?",
-      "time": "Fri, 25 Sep 2026 21:06:59",
+      "time": "Fri, 25 Sep 2026 21:26:42",
       "sentiment": 0
     },
     {
@@ -631,6 +625,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "RCL",
+      "title": "Royal Caribbean (RCL) Moves 3.8% Higher: Will This Strength Last?",
+      "time": "Fri, 25 Sep 2026 10:49:00",
+      "sentiment": 0
+    },
+    {
       "ticker": "DDOG",
       "title": "Datadog (DDOG) Shares Rise 4.3% Amid Mixed Economic Data and Mar",
       "time": "Fri, 25 Sep 2026 21:18:24",
@@ -686,8 +686,8 @@
     },
     {
       "ticker": "MU",
-      "title": "Micron Stock Gets Another Vote of Confidence From Top Analyst",
-      "time": "Fri, 25 Sep 2026 17:52:56",
+      "title": "$1,000 Invested in Micron Before Sept. 30 Could Be Worth This Much by 2028",
+      "time": "Fri, 25 Sep 2026 08:20:00",
       "sentiment": 0
     },
     {
@@ -704,8 +704,8 @@
     },
     {
       "ticker": "MU",
-      "title": "Micron Stock Flashes Unmistakable Signal Before Earnings",
-      "time": "Fri, 25 Sep 2026 16:48:09",
+      "title": "Micron Stock Gets Another Vote of Confidence From Top Analyst",
+      "time": "Fri, 25 Sep 2026 17:52:56",
       "sentiment": 0
     },
     {
@@ -729,7 +729,13 @@
     {
       "ticker": "EMR",
       "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History",
-      "time": "Fri, 25 Sep 2026 17:26:57",
+      "time": "Fri, 25 Sep 2026 16:21:42",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EMR",
+      "title": "Emerson Electric Co. (EMR) stock price, news, quote and history",
+      "time": "Fri, 25 Sep 2026 16:16:57",
       "sentiment": 0
     },
     {
@@ -740,8 +746,8 @@
     },
     {
       "ticker": "EMR",
-      "title": "Emerson Electric Co. (EMR) stock price, news, quote and history",
-      "time": "Fri, 25 Sep 2026 08:16:21",
+      "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History",
+      "time": "Fri, 25 Sep 2026 17:26:57",
       "sentiment": 0
     },
     {
@@ -896,6 +902,12 @@
     },
     {
       "ticker": "TSM",
+      "title": "Taiwan Semiconductor: AI CapEx Keeps Climbing, And TSMC Looks Undervalued (NYSE:TSM)",
+      "time": "Fri, 25 Sep 2026 12:30:39",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSM",
       "title": "Is Taiwan Semiconductor Stock an Undervalued AI Stock to Buy Right Now?",
       "time": "Fri, 25 Sep 2026 01:37:28",
       "sentiment": 0
@@ -980,14 +992,14 @@
     },
     {
       "ticker": "DAL",
-      "title": "$1000 Invested In Delta Air Lines 15 Years Ago Would Be Worth This Much Today",
-      "time": "Fri, 25 Sep 2026 21:00:23",
+      "title": "UAL, DAL, AAL Stocks In Focus: United Airlines’ Mega Merger Hunt Reportedly Took Aim At Delta Before American",
+      "time": "Fri, 25 Sep 2026 00:44:11",
       "sentiment": 0
     },
     {
       "ticker": "DAL",
-      "title": "UAL, DAL, AAL Stocks In Focus: United Airlines’ Mega Merger Hunt Reportedly Took Aim At Delta Before American",
-      "time": "Fri, 25 Sep 2026 00:44:11",
+      "title": "10 Industrials Stocks Whale Activity In Today’s Session",
+      "time": "Fri, 25 Sep 2026 17:35:11",
       "sentiment": 0
     },
     {
@@ -998,20 +1010,14 @@
     },
     {
       "ticker": "DAL",
-      "title": "10 Industrials Stocks Whale Activity In Today’s Session",
-      "time": "Fri, 25 Sep 2026 17:35:11",
+      "title": "Delta Air Lines stock gains 1.17 percent ahead of the open",
+      "time": "Fri, 25 Sep 2026 05:26:51",
       "sentiment": 0
     },
     {
       "ticker": "ANET",
       "title": "Arista Networks (ANET) Draws Fresh AI Attention, Is The Stock Still Cheap?",
       "time": "Fri, 25 Sep 2026 14:10:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ANET",
-      "title": "Arista Networks Inc (ANET) Stock Price Today: $206.73",
-      "time": "Fri, 25 Sep 2026 16:09:28",
       "sentiment": 0
     },
     {
@@ -1036,6 +1042,12 @@
       "ticker": "ANET",
       "title": "What Comes Next for Arista Networks (NYSE:ANET)?",
       "time": "Fri, 25 Sep 2026 08:24:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ANET",
+      "title": "Are Computer and Technology Stocks Lagging Arista Networks (ANET) This Year?",
+      "time": "Fri, 25 Sep 2026 12:40:04",
       "sentiment": 0
     },
     {
@@ -1082,14 +1094,14 @@
     },
     {
       "ticker": "DIS",
-      "title": "Will Price Hikes Change Disney's (DIS) Narrative",
-      "time": "Fri, 25 Sep 2026 07:46:30",
+      "title": "Walt Disney vs. Netflix: Which Stock Is a Better Buy in 2026?",
+      "time": "Fri, 25 Sep 2026 21:30:42",
       "sentiment": 0
     },
     {
       "ticker": "DIS",
-      "title": "Comcast vs. Walt Disney: Comparing Recent Revenue Trends Between These Media Companies",
-      "time": "Fri, 25 Sep 2026 21:26:42",
+      "title": "Will Price Hikes Change Disney's (DIS) Narrative",
+      "time": "Fri, 25 Sep 2026 07:46:30",
       "sentiment": 0
     },
     {
@@ -1108,12 +1120,6 @@
       "ticker": "T",
       "title": "Does AT&T’s Dividend Reaffirmation And Cowboys Deal Signal A Stable Strategy For T’s Future?",
       "time": "Fri, 25 Sep 2026 14:10:51",
-      "sentiment": 0
-    },
-    {
-      "ticker": "T",
-      "title": "Should CCOI Be in Your Portfolio After Plummeting 80.7% in a Year?",
-      "time": "Fri, 25 Sep 2026 13:55:00",
       "sentiment": 0
     },
     {
@@ -1202,20 +1208,8 @@
     },
     {
       "ticker": "UNH",
-      "title": "UnitedHealth Group Incorporated (UNH) stock price, news, quote and history",
-      "time": "Fri, 25 Sep 2026 18:19:50",
-      "sentiment": 0
-    },
-    {
-      "ticker": "UNH",
       "title": "UNH Stock Tracks Hot Monthly Streak: Wall Street Cheers ‘Impressive’ Q2 And Sees Over 20% More Room To Run",
       "time": "Fri, 25 Sep 2026 16:25:58",
-      "sentiment": 0
-    },
-    {
-      "ticker": "UNH",
-      "title": "UNH Vs. HUM: Which Insurer Stock Has More Upside After CMS Reverses Wall Street’s Biggest Medicare Rate Fear?",
-      "time": "Fri, 25 Sep 2026 15:39:44",
       "sentiment": 0
     },
     {
@@ -1226,8 +1220,20 @@
     },
     {
       "ticker": "UNH",
+      "title": "UNH Vs. HUM: Which Insurer Stock Has More Upside After CMS Reverses Wall Street’s Biggest Medicare Rate Fear?",
+      "time": "Fri, 25 Sep 2026 15:39:44",
+      "sentiment": 0
+    },
+    {
+      "ticker": "UNH",
       "title": "UnitedHealth Group Director Frederick McNabb Acquires 57 Shares Via Dividend Equivalents",
       "time": "Thu, 24 Sep 2026 22:55:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "UNH",
+      "title": "Is UnitedHealth Stock an Undervalued Stock to Buy Right Now?",
+      "time": "Fri, 25 Sep 2026 02:01:34",
       "sentiment": 0
     },
     {
