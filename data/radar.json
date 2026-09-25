@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "25.09.2026 18:54 CEST",
+  "generated_at_local": "25.09.2026 19:10 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +3.77%, 5T -4.31%, relatives Volumen 1.18x, ATR 3.95%",
       "catalyst": "RCL Stock Sees Best Day In Two Months — JPMorgan, Citi Bullish On Royal Caribbean's Sandals Partnership",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.27%, seit Open +1.08%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.30%, seit Open +1.11%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.37,
       "target_pct": 4.51,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "3.95%",
       "gap_pct": "+2.14%",
       "premarket_move_pct": "+1.70%",
-      "live_gap_pct": "+2.27%",
-      "regular_move_pct": "+1.08%",
+      "live_gap_pct": "+2.30%",
+      "regular_move_pct": "+1.11%",
       "avg_dollar_volume": 710779817.88,
-      "bar_age_minutes": 4.4,
-      "vwap": 241.92,
+      "bar_age_minutes": 0.6,
+      "vwap": 242.06,
       "opening_range_high": 242.4,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -52,7 +52,7 @@
       "thesis": "1T +0.75%, 5T -0.95%, relatives Volumen 1.10x, ATR 2.13%",
       "catalyst": "Why AstraZeneca Still Looks Underrated Despite Strong EPS Momentum (NYSE:AZN)",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.01%, seit Open +0.04%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.05%, seit Open +0.08%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.28,
       "target_pct": 2.42,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +62,11 @@
       "atr_pct": "2.13%",
       "gap_pct": "+0.72%",
       "premarket_move_pct": "+0.07%",
-      "live_gap_pct": "+1.01%",
-      "regular_move_pct": "+0.04%",
+      "live_gap_pct": "+1.05%",
+      "regular_move_pct": "+0.08%",
       "avg_dollar_volume": 501625025.37,
-      "bar_age_minutes": 4.4,
-      "vwap": 165.58,
+      "bar_age_minutes": 0.6,
+      "vwap": 165.61,
       "opening_range_high": 166.32,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -84,6 +84,45 @@
       }
     },
     {
+      "ticker": "HPE",
+      "name": "HPE",
+      "score": 88,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.91%, 5T +4.06%, relatives Volumen 1.02x, ATR 6.12%",
+      "catalyst": "HPE Stock Forecast: Record High Breakout Awaits Confirmation",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.97%, seit Open +0.76%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 3.0,
+      "target_pct": 5.7,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.91%",
+      "change_5d": "+4.06%",
+      "volume_ratio": "1.02x",
+      "atr_pct": "6.12%",
+      "gap_pct": "+0.91%",
+      "premarket_move_pct": "-0.34%",
+      "live_gap_pct": "+0.97%",
+      "regular_move_pct": "+0.76%",
+      "avg_dollar_volume": 1588079698.58,
+      "bar_age_minutes": 0.6,
+      "vwap": 64.23,
+      "opening_range_high": 65.65,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
       "ticker": "CSCO",
       "name": "Cisco",
       "score": 86,
@@ -91,7 +130,7 @@
       "thesis": "1T +0.51%, 5T -2.97%, relatives Volumen 1.25x, ATR 2.60%",
       "catalyst": "CSCO Stock Hits Record Highs, Launches Tools To Protect IT Systems From AI Agents",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.52%, seit Open +0.50%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.55%, seit Open +0.53%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.56,
       "target_pct": 2.96,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +140,11 @@
       "atr_pct": "2.60%",
       "gap_pct": "-0.16%",
       "premarket_move_pct": "-0.09%",
-      "live_gap_pct": "+0.52%",
-      "regular_move_pct": "+0.50%",
+      "live_gap_pct": "+0.55%",
+      "regular_move_pct": "+0.53%",
       "avg_dollar_volume": 1944294785.98,
-      "bar_age_minutes": 4.4,
-      "vwap": 107.73,
+      "bar_age_minutes": 0.6,
+      "vwap": 107.72,
       "opening_range_high": 108.22,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -130,7 +169,7 @@
       "thesis": "1T +1.60%, 5T +3.17%, relatives Volumen 0.83x, ATR 1.90%",
       "catalyst": "Hilton Worldwide Holdings Inc. stock outperforms competitors on strong trading day",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.57%, seit Open +0.28%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.51%, seit Open +0.21%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.14,
       "target_pct": 2.16,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,51 +179,12 @@
       "atr_pct": "1.90%",
       "gap_pct": "noch nicht verfügbar",
       "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "+0.57%",
-      "regular_move_pct": "+0.28%",
+      "live_gap_pct": "+0.51%",
+      "regular_move_pct": "+0.21%",
       "avg_dollar_volume": 524605473.88,
-      "bar_age_minutes": 4.4,
-      "vwap": 312.26,
+      "bar_age_minutes": 0.6,
+      "vwap": 312.31,
       "opening_range_high": 315.28,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "HPE",
-      "name": "HPE",
-      "score": 84,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.91%, 5T +4.06%, relatives Volumen 1.02x, ATR 6.12%",
-      "catalyst": "HPE Stock Forecast: Record High Breakout Awaits Confirmation",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.76%, seit Open +0.56%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 3.0,
-      "target_pct": 5.7,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.91%",
-      "change_5d": "+4.06%",
-      "volume_ratio": "1.02x",
-      "atr_pct": "6.12%",
-      "gap_pct": "+0.91%",
-      "premarket_move_pct": "-0.34%",
-      "live_gap_pct": "+0.76%",
-      "regular_move_pct": "+0.56%",
-      "avg_dollar_volume": 1588079698.58,
-      "bar_age_minutes": 4.4,
-      "vwap": 64.23,
-      "opening_range_high": 65.65,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -216,12 +216,6 @@
     }
   ],
   "news": [
-    {
-      "ticker": "META",
-      "title": "Jensen Huang Praises Meta, Says ‘Nobody Uses AI Better’ – META Stock Rebounds In Premarket",
-      "time": "Fri, 25 Sep 2026 12:43:33",
-      "sentiment": 1
-    },
     {
       "ticker": "BLK",
       "title": "BLK Stock: BlackRock Reportedly Cuts 200 Jobs As CEO Larry Fink Locks In Continuous Downsizing Cycle",
@@ -343,6 +337,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "DAL",
+      "title": "AAL, UAL, DAL, LUV Stocks Surge Overnight: Airline Stocks Catch A Tailwind As US-Iran Deal Cools Fuel Fears",
+      "time": "Thu, 24 Sep 2026 23:36:35",
+      "sentiment": 1
+    },
+    {
       "ticker": "SOFI",
       "title": "SoFi, Mastercard activate stablecoin settlement for SoFi Bank card programme",
       "time": "Fri, 25 Sep 2026 11:48:04",
@@ -385,9 +385,9 @@
       "sentiment": -1
     },
     {
-      "ticker": "UNH",
-      "title": "Q2 Earnings Outperformers: UnitedHealth (NYSE:UNH) And The Rest Of The Health Insurance Providers Stocks",
-      "time": "Thu, 24 Sep 2026 16:56:58",
+      "ticker": "GOOG",
+      "title": "Alphabet remains a strong buy despite cost and regulatory challenges ahead.",
+      "time": "Fri, 25 Sep 2026 12:24:21",
       "sentiment": 1
     },
     {
@@ -398,20 +398,26 @@
     },
     {
       "ticker": "META",
+      "title": "Why Meta Platforms Stock Reversed Today",
+      "time": "Fri, 25 Sep 2026 15:11:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
       "title": "Why Meta Stock Could Spike if It Crosses This Price Target",
       "time": "Fri, 25 Sep 2026 13:54:00",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Meta's Muse Shakes Up The AI Battle. Here's What Investors Should Know.",
-      "time": "Fri, 25 Sep 2026 14:12:00",
+      "title": "Meta's Stock May Plunge As Credit Market Warns Against Massive Rally (NASDAQ:META)",
+      "time": "Fri, 25 Sep 2026 13:10:34",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Meta's Stock May Plunge As Credit Market Warns Against Massive Rally (NASDAQ:META)",
-      "time": "Fri, 25 Sep 2026 13:10:34",
+      "title": "Meta's Muse Shakes Up The AI Battle. Here's What Investors Should Know.",
+      "time": "Fri, 25 Sep 2026 14:12:00",
       "sentiment": 0
     },
     {
@@ -512,6 +518,18 @@
     },
     {
       "ticker": "PFE",
+      "title": "Pfizer Stock Paid Out $49B: So Why Did Investors Lose Money?",
+      "time": "Fri, 25 Sep 2026 17:03:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PFE",
+      "title": "PFE Stock Reacts To Mixed Topline Results For Seagen-Origin Cancer Drug",
+      "time": "Fri, 25 Sep 2026 14:37:17",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PFE",
       "title": "Pfizer: Poised For Gains With A New Drug Pipeline And Cost-Cutting Plans (NYSE:PFE)",
       "time": "Thu, 24 Sep 2026 19:48:10",
       "sentiment": 0
@@ -524,20 +542,8 @@
     },
     {
       "ticker": "PFE",
-      "title": "PFE 270319 27.00C (PFE270319C27000) Stock Options Chain | Quotes & News",
-      "time": "Fri, 25 Sep 2026 14:29:46",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PFE",
-      "title": "These S&P500 stocks are the most active in today's session",
-      "time": "Thu, 24 Sep 2026 18:05:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PFE",
-      "title": "Could a New Vaccine Formula XFG Give Pfizer (PFE) and BioNTech (BNTX) a Post-Pandemic Revenue Boost?",
-      "time": "Thu, 24 Sep 2026 20:27:15",
+      "title": "RBC Capital Remains a Hold on Pfizer (PFE)",
+      "time": "Fri, 25 Sep 2026 02:00:00",
       "sentiment": 0
     },
     {
@@ -711,13 +717,13 @@
     {
       "ticker": "LYV",
       "title": "Cinemark Holdings, Inc. (CNK) Stock Price, News, Quote & History",
-      "time": "Fri, 25 Sep 2026 05:14:18",
+      "time": "Fri, 25 Sep 2026 04:12:14",
       "sentiment": 0
     },
     {
       "ticker": "EMR",
       "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History",
-      "time": "Fri, 25 Sep 2026 12:07:19",
+      "time": "Fri, 25 Sep 2026 09:07:20",
       "sentiment": 0
     },
     {
@@ -728,14 +734,14 @@
     },
     {
       "ticker": "EMR",
-      "title": "Emerson Electric Co. (EMR) latest stock news and headlines",
-      "time": "Fri, 25 Sep 2026 08:45:53",
+      "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History",
+      "time": "Fri, 25 Sep 2026 12:07:19",
       "sentiment": 0
     },
     {
       "ticker": "EMR",
-      "title": "Emerson Electric Co (EMR.SG) stock price, news, quote and history",
-      "time": "Fri, 25 Sep 2026 08:48:56",
+      "title": "Emerson Electric Co. (EMR) latest stock news and headlines",
+      "time": "Fri, 25 Sep 2026 08:45:53",
       "sentiment": 0
     },
     {
@@ -746,8 +752,8 @@
     },
     {
       "ticker": "EMR",
-      "title": "Emerson Electric (EMR) Advances While Market Declines: Some Information for Investors",
-      "time": "Thu, 24 Sep 2026 20:50:04",
+      "title": "Emerson Electric Co (EMR.SG) stock price, news, quote and history",
+      "time": "Fri, 25 Sep 2026 08:48:56",
       "sentiment": 0
     },
     {
@@ -782,8 +788,8 @@
     },
     {
       "ticker": "NET",
-      "title": "Why the Market Dipped But Cloudflare (NET) Gained Today",
-      "time": "Thu, 24 Sep 2026 20:50:04",
+      "title": "Is Cloudflare (NET) Overvalued On Its New AI Controls Launch?",
+      "time": "Fri, 25 Sep 2026 12:10:16",
       "sentiment": 0
     },
     {
@@ -794,8 +800,8 @@
     },
     {
       "ticker": "NET",
-      "title": "Do Cloudflare’s (NET) New AI Crawler Controls Quietly Strengthen Its Data-Moat Narrative?",
-      "time": "Fri, 25 Sep 2026 06:09:00",
+      "title": "Why the Market Dipped But Cloudflare (NET) Gained Today",
+      "time": "Thu, 24 Sep 2026 20:50:04",
       "sentiment": 0
     },
     {
@@ -866,14 +872,8 @@
     },
     {
       "ticker": "AAL",
-      "title": "AAL Stock In Spotlight Ahead Of Q2 Earnings – Analysts Expect ‘A Constructive Setup’ For Airlines Amid Favorable Demand",
-      "time": "Thu, 24 Sep 2026 21:20:10",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AAL",
-      "title": "Airline Stocks To Watch And Industry News",
-      "time": "Thu, 24 Sep 2026 17:06:00",
+      "title": "UAL, DAL, AAL Stocks In Focus: United Airlines’ Mega Merger Hunt Reportedly Took Aim At Delta Before American",
+      "time": "Fri, 25 Sep 2026 00:44:11",
       "sentiment": 0
     },
     {
@@ -884,14 +884,20 @@
     },
     {
       "ticker": "AAL",
-      "title": "UAL, DAL, AAL Stocks In Focus: United Airlines’ Mega Merger Hunt Reportedly Took Aim At Delta Before American",
-      "time": "Fri, 25 Sep 2026 00:44:11",
+      "title": "AAL Stock Advances After-Hours Following Report Of UAL CEO Combining His Past And Present Companies",
+      "time": "Fri, 25 Sep 2026 06:56:54",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAL",
+      "title": "American Airlines stock heads into the open after a 1.91 percent drop",
+      "time": "Fri, 25 Sep 2026 00:05:55",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
       "title": "Advanced Micro Devices vs. Taiwan Semiconductor Manufacturing: Which Technology Stock Is a Better Buy in 2026?",
-      "time": "Fri, 25 Sep 2026 12:47:16",
+      "time": "Fri, 25 Sep 2026 13:43:00",
       "sentiment": 0
     },
     {
@@ -992,12 +998,6 @@
     },
     {
       "ticker": "DAL",
-      "title": "Airline Stocks To Watch And Industry News",
-      "time": "Thu, 24 Sep 2026 17:06:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DAL",
       "title": "Delta Air Lines stock gains 1.24 percent to USD 82.76",
       "time": "Fri, 25 Sep 2026 12:59:38",
       "sentiment": 0
@@ -1082,12 +1082,6 @@
     },
     {
       "ticker": "DIS",
-      "title": "DIS Stock Gains After Disney Announces Plan To Move Merchandise Business Closer To Pixar, Marvel, Star Wars Studios",
-      "time": "Fri, 25 Sep 2026 04:46:48",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DIS",
       "title": "3 Consumer Stocks That Concern Us",
       "time": "Fri, 25 Sep 2026 04:38:00",
       "sentiment": 0
@@ -1096,6 +1090,12 @@
       "ticker": "DIS",
       "title": "Walt Disney stock gains 2.03 percent ahead of the open",
       "time": "Fri, 25 Sep 2026 04:53:22",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DIS",
+      "title": "Disney Reportedly Slashes Jobs Again — Investor Calls For ‘Real Change’ At Mouse House",
+      "time": "Fri, 25 Sep 2026 13:26:39",
       "sentiment": 0
     },
     {
@@ -1112,12 +1112,6 @@
     },
     {
       "ticker": "T",
-      "title": "Does AT&T’s Dividend Reaffirmation And Cowboys Deal Signal A Stable Strategy For T’s Future?",
-      "time": "Fri, 25 Sep 2026 14:10:51",
-      "sentiment": 0
-    },
-    {
-      "ticker": "T",
       "title": "AT&T Inc. (NYSE:T) Plans Quarterly Dividend of $0.28",
       "time": "Fri, 25 Sep 2026 13:54:00",
       "sentiment": 0
@@ -1126,6 +1120,12 @@
       "ticker": "T",
       "title": "Should CCOI Be in Your Portfolio After Plummeting 80.7% in a Year?",
       "time": "Fri, 25 Sep 2026 13:55:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "T",
+      "title": "AT&T stock gains 0.59 percent ahead of the open",
+      "time": "Fri, 25 Sep 2026 04:50:17",
       "sentiment": 0
     },
     {
@@ -1148,8 +1148,14 @@
     },
     {
       "ticker": "AZN",
-      "title": "Priority review for AstraZeneca's Imfinzi in bladder cancer",
-      "time": "Fri, 25 Sep 2026 08:22:46",
+      "title": "AstraZeneca & Fevertree Drinks: Big director share deals",
+      "time": "Fri, 25 Sep 2026 14:21:50",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet Inc. (GOOG.TO) Stock Price, News, Quote & History",
+      "time": "Fri, 25 Sep 2026 13:42:23",
       "sentiment": 0
     },
     {
@@ -1166,26 +1172,20 @@
     },
     {
       "ticker": "GOOGL",
-      "title": "Alphabet vs. Meta: Which AI Advertising Giant Is the Better Stock to Buy?",
-      "time": "Fri, 25 Sep 2026 04:34:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOGL",
       "title": "The \"Magnificent Seven\" Stocks: Here's the 1 I'm Buying Hand Over Fist Right Now",
       "time": "Fri, 25 Sep 2026 14:06:47",
       "sentiment": 0
     },
     {
       "ticker": "GOOGL",
-      "title": "GOOGL, NFLX Stocks In Focus — Alphabet's YouTube Reportedly Rolls Out Fresh Tools To Prevent Creators From Defecting To Netflix",
-      "time": "Fri, 25 Sep 2026 09:32:14",
+      "title": "Meta Vs. Alphabet: The Agentic AI Each Builds Will Be Very Different in 2027",
+      "time": "Fri, 25 Sep 2026 16:45:00",
       "sentiment": 0
     },
     {
       "ticker": "GOOG",
-      "title": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History",
-      "time": "Fri, 25 Sep 2026 13:57:46",
+      "title": "Alphabet Trades for 17 Times Earnings. The S&P 500 Trades for 25 Times Earnings. Is This the Best Stock to Buy in the Market?",
+      "time": "Fri, 25 Sep 2026 11:35:00",
       "sentiment": 0
     },
     {
@@ -1202,20 +1202,14 @@
     },
     {
       "ticker": "GOOG",
+      "title": "Google's Answer To Meta’s Muse AI? DeepMind Chief Says Gemini 4 Launch Is Coming 'Much Earlier'",
+      "time": "Fri, 25 Sep 2026 12:04:22",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GOOG",
       "title": "Alphabet stock last at USD 339.41, up 0.12 percent in New York trading",
       "time": "Fri, 25 Sep 2026 15:59:19",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOG",
-      "title": "Elon Musk Responds With Two Emojis as Google CEO Sundar Pichai Says Project Suncatcher Heads to Space: 'C",
-      "time": "Fri, 25 Sep 2026 13:29:54",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GOOG",
-      "title": "Alphabet Trades for 17 Times Earnings. The S&P 500 Trades for 25 Times Earnings. Is This the Best Stock to Buy in the Market?",
-      "time": "Fri, 25 Sep 2026 11:35:00",
       "sentiment": 0
     },
     {
@@ -1249,15 +1243,21 @@
       "sentiment": 0
     },
     {
-      "ticker": "PH",
-      "title": "PH Initiates Coverage On Wells Fargo -- Rating Set to Equal-Weig",
-      "time": "Fri, 25 Sep 2026 14:30:57",
+      "ticker": "UNH",
+      "title": "Does UnitedHealth’s New CAO Hire Reveal a Deeper Shift in Efficiency Strategy for UNH?",
+      "time": "Thu, 24 Sep 2026 23:12:34",
       "sentiment": 0
     },
     {
       "ticker": "PH",
       "title": "Parker-Hannifin stock reports USD 5.75 billion quarterly revenue",
       "time": "Fri, 25 Sep 2026 14:58:47",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PH",
+      "title": "PH Initiates Coverage On Wells Fargo -- Rating Set to Equal-Weig",
+      "time": "Fri, 25 Sep 2026 14:30:57",
       "sentiment": 0
     }
   ]
