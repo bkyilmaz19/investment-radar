@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "28.09.2026 23:43 CEST",
+  "generated_at_local": "28.09.2026 23:56 CEST",
   "market_regime": "Risk-off / erhöhte Vorsicht",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "-2.70%",
       "regular_move_pct": "-1.00%",
       "avg_dollar_volume": 1355436632.59,
-      "bar_age_minutes": 18.7,
+      "bar_age_minutes": 6.1,
       "vwap": 318.45,
       "opening_range_high": 323.0,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "-0.27%",
       "regular_move_pct": "-0.21%",
       "avg_dollar_volume": 1935703430.41,
-      "bar_age_minutes": 20.2,
+      "bar_age_minutes": 36.1,
       "vwap": 819.28,
       "opening_range_high": 824.09,
       "opening_range_ready": true,
@@ -104,7 +104,7 @@
       "live_gap_pct": "+2.40%",
       "regular_move_pct": "+2.40%",
       "avg_dollar_volume": 913299526.62,
-      "bar_age_minutes": 0.1,
+      "bar_age_minutes": 0.2,
       "vwap": 413.42,
       "opening_range_high": 410.54,
       "opening_range_ready": true,
@@ -143,7 +143,7 @@
       "live_gap_pct": "+0.02%",
       "regular_move_pct": "-0.21%",
       "avg_dollar_volume": 2116448973.62,
-      "bar_age_minutes": 3.7,
+      "bar_age_minutes": 0.6,
       "vwap": 924.44,
       "opening_range_high": 925.92,
       "opening_range_ready": true,
@@ -167,7 +167,7 @@
       "score": 78,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.53%, 5T +1.47%, relatives Volumen 0.68x, ATR 2.00%",
-      "catalyst": "A US Jury Orders Apple (AAPL) to Pay a Record $5.7 Billion in a Patent Case",
+      "catalyst": "Apple: I Was Wrong, Margin Math Is Now In Its Favor (Rating Upgrade) (NASDAQ:AAPL)",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
       "entry_note": "Premarket-Gap -0.17%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
       "stop_pct": 1.2,
@@ -182,7 +182,7 @@
       "live_gap_pct": "-0.79%",
       "regular_move_pct": "-0.59%",
       "avg_dollar_volume": 14106578713.77,
-      "bar_age_minutes": 3.7,
+      "bar_age_minutes": 0.2,
       "vwap": 340.43,
       "opening_range_high": 342.89,
       "opening_range_ready": true,
@@ -367,27 +367,21 @@
       "sentiment": 1
     },
     {
-      "ticker": "NXPI",
-      "title": "Embedded Systems Growth Might Change The Case For Investing In NXP Semiconductors (NXPI)",
-      "time": "Sun, 27 Sep 2026 21:45:00",
-      "sentiment": 1
-    },
-    {
       "ticker": "TSLA",
-      "title": "Tesla (NASDAQ:TSLA) Shares Down 3.9% After Analyst Downgrade",
-      "time": "Mon, 28 Sep 2026 21:02:35",
+      "title": "Why Is Tesla (NASDAQ:TSLA) Stock Falling? JPMorgan Cuts Its Target Before Friday’s Delivery Report",
+      "time": "Mon, 28 Sep 2026 21:07:03",
       "sentiment": -1
-    },
-    {
-      "ticker": "AAPL",
-      "title": "A US Jury Orders Apple (AAPL) to Pay a Record $5.7 Billion in a Patent Case",
-      "time": "Mon, 28 Sep 2026 19:33:43",
-      "sentiment": 1
     },
     {
       "ticker": "AAPL",
       "title": "Apple: I Was Wrong, Margin Math Is Now In Its Favor (Rating Upgrade) (NASDAQ:AAPL)",
       "time": "Mon, 28 Sep 2026 12:56:13",
+      "sentiment": 1
+    },
+    {
+      "ticker": "AAPL",
+      "title": "A US Jury Orders Apple (AAPL) to Pay a Record $5.7 Billion in a Patent Case",
+      "time": "Mon, 28 Sep 2026 19:33:43",
       "sentiment": 1
     },
     {
@@ -427,6 +421,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "TXN",
+      "title": "TE Connectivity PLC stock outperforms competitors despite losses on the day",
+      "time": "Mon, 28 Sep 2026 20:47:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "MSFT",
       "title": "Microsoft Corporation (MSFT) stock price, news, quote and history",
       "time": "Mon, 28 Sep 2026 14:24:22",
@@ -452,8 +452,8 @@
     },
     {
       "ticker": "MSFT",
-      "title": "Microsoft: Why The $3.8T Fortress Won't Deliver An AI Moonshot (NASDAQ:MSFT)",
-      "time": "Mon, 28 Sep 2026 14:25:07",
+      "title": "Microsoft: At 5% Yields, It's A $4 Trillion AI Haven To Own (NASDAQ:MSFT)",
+      "time": "Mon, 28 Sep 2026 15:39:42",
       "sentiment": 0
     },
     {
@@ -488,8 +488,8 @@
     },
     {
       "ticker": "PYPL",
-      "title": "Is PayPal a Deep Value Play Right Now?",
-      "time": "Mon, 28 Sep 2026 10:50:00",
+      "title": "This Small-Cap Fintech Stock Is Crushing PayPal, SoFi, Klarna In 2026: Analyst Says Rally Isn't Over Yet",
+      "time": "Sun, 27 Sep 2026 22:53:24",
       "sentiment": 0
     },
     {
@@ -602,8 +602,8 @@
     },
     {
       "ticker": "SMCI",
-      "title": "Wall Street Sees Super Micro’s Revenue Jumping 72% This Fiscal Year. Here’s Why Earnings May Rise Only 20%",
-      "time": "Mon, 28 Sep 2026 15:14:41",
+      "title": "Super Micro Computer Inc (SMCI) Shares Fall 3.4% -- What GF Scor",
+      "time": "Mon, 28 Sep 2026 21:47:26",
       "sentiment": 0
     },
     {
@@ -734,8 +734,8 @@
     },
     {
       "ticker": "ISRG",
-      "title": "Healthcare Equipment and Supplies Stocks Q2 Highlights: GE HealthCare (NASDAQ:GEHC)",
-      "time": "Mon, 28 Sep 2026 19:34:36",
+      "title": "ADRX (ADRX) Share Price, News, Stock Market Cap NYSE",
+      "time": "Mon, 28 Sep 2026 20:19:27",
       "sentiment": 0
     },
     {
@@ -771,19 +771,19 @@
     {
       "ticker": "CCL",
       "title": "Buy Carnival (CCL) Stock Near 52-Week Lows as Q3 Earnings Approach?",
-      "time": "Mon, 28 Sep 2026 18:13:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CCL",
-      "title": "Carnival Cruise Stock Hits 16-Month Low: ‘Higher Fuel Prices’ Could Mean More Trouble",
-      "time": "Mon, 28 Sep 2026 16:14:07",
+      "time": "Mon, 28 Sep 2026 18:31:32",
       "sentiment": 0
     },
     {
       "ticker": "CCL",
       "title": "Dear Carnival Stock Fans, Mark Your Calendars for September 29",
       "time": "Mon, 28 Sep 2026 14:12:46",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CCL",
+      "title": "Carnival Cruise Stock Hits 16-Month Low: ‘Higher Fuel Prices’ Could Mean More Trouble",
+      "time": "Mon, 28 Sep 2026 16:14:07",
       "sentiment": 0
     },
     {
@@ -800,8 +800,8 @@
     },
     {
       "ticker": "CCL",
-      "title": "Earnings Preview: What To Expect From Carnival’s Report",
-      "time": "Mon, 28 Sep 2026 08:47:41",
+      "title": "Carnival (CCL) Reports Q3: Everything You Need To Know Ahead Of Earnings",
+      "time": "Mon, 28 Sep 2026 15:10:36",
       "sentiment": 0
     },
     {
@@ -818,7 +818,7 @@
     },
     {
       "ticker": "DIS",
-      "title": "Ex-Disney CEO Bob Chapek advises startups, open to PE fund: Bloomberg",
+      "title": "Ex-Disney CEO Bob Chapek advises startups, open to PE fund: Bloomberg (DIS:NYSE)",
       "time": "Mon, 28 Sep 2026 10:41:30",
       "sentiment": 0
     },
@@ -890,8 +890,8 @@
     },
     {
       "ticker": "UAL",
-      "title": "American Airlines Group Inc. (AAL) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 01:55:42",
+      "title": "Why Boeing Stock Just Dropped",
+      "time": "Mon, 28 Sep 2026 16:24:00",
       "sentiment": 0
     },
     {
@@ -950,14 +950,14 @@
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors, Vanguard International Joint Venture Opens Semiconductor Fab in Singapore",
-      "time": "Mon, 28 Sep 2026 08:13:11",
+      "title": "VisionPower Semiconductor Opens New 12-Inch Fab in Singapore, Bo",
+      "time": "Mon, 28 Sep 2026 06:12:49",
       "sentiment": 0
     },
     {
       "ticker": "NXPI",
-      "title": "VisionPower Semiconductor Opens New 12-Inch Fab in Singapore, Bo",
-      "time": "Mon, 28 Sep 2026 06:12:49",
+      "title": "NXP Semiconductors, Vanguard International Joint Venture Opens Semiconductor Fab in Singapore",
+      "time": "Mon, 28 Sep 2026 08:13:11",
       "sentiment": 0
     },
     {
@@ -970,6 +970,12 @@
       "ticker": "NXPI",
       "title": "NXP Semiconductors, Vanguard International Joint Venture Opens Semiconductor Fab in Singapore",
       "time": "Mon, 28 Sep 2026 08:29:39",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NXPI",
+      "title": "Qualcomm Just Locked In Apple. Our Target Sits Above Wall Street’s",
+      "time": "Mon, 28 Sep 2026 13:30:00",
       "sentiment": 0
     },
     {
@@ -987,7 +993,7 @@
     {
       "ticker": "TSLA",
       "title": "Could This Be the Catalyst That Supercharges Tesla Stock Before the End of 2026?",
-      "time": "Mon, 28 Sep 2026 18:05:26",
+      "time": "Mon, 28 Sep 2026 19:00:00",
       "sentiment": 0
     },
     {
@@ -1270,12 +1276,6 @@
       "ticker": "TXN",
       "title": "Spotting Winners: Western Digital (NASDAQ:WDC) And Semiconductors Stocks In Q2",
       "time": "Mon, 28 Sep 2026 19:26:36",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TXN",
-      "title": "SPCX Price Today: Space Exploration Technologies Corp. Stock Price, Quote & Chart | MEXC",
-      "time": "Mon, 28 Sep 2026 16:09:12",
       "sentiment": 0
     }
   ]
