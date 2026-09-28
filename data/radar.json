@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "28.09.2026 22:46 CEST",
+  "generated_at_local": "28.09.2026 23:11 CEST",
   "market_regime": "Risk-off / erhöhte Vorsicht",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,11 +26,50 @@
       "live_gap_pct": "-0.72%",
       "regular_move_pct": "-0.81%",
       "avg_dollar_volume": 828047895.76,
-      "bar_age_minutes": 0.6,
+      "bar_age_minutes": 1.3,
       "vwap": 236.02,
       "opening_range_high": 239.39,
       "opening_range_ready": true,
       "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML",
+      "score": 83,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.24%, 5T +3.81%, relatives Volumen 0.53x, ATR 3.00%",
+      "catalyst": "ASML reports transactions under its current share buyback program",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.32%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.8,
+      "target_pct": 3.42,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.24%",
+      "change_5d": "+3.81%",
+      "volume_ratio": "0.53x",
+      "atr_pct": "3.00%",
+      "gap_pct": "+0.32%",
+      "premarket_move_pct": "+1.95%",
+      "live_gap_pct": "+1.58%",
+      "regular_move_pct": "+1.35%",
+      "avg_dollar_volume": 2188623143.25,
+      "bar_age_minutes": 0.7,
+      "vwap": 1762.96,
+      "opening_range_high": 1765.72,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
       "session_phase": "After-Hours / US-Session beendet",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
@@ -65,7 +104,7 @@
       "live_gap_pct": "-2.70%",
       "regular_move_pct": "-1.00%",
       "avg_dollar_volume": 1355436632.59,
-      "bar_age_minutes": 26.5,
+      "bar_age_minutes": 11.6,
       "vwap": 318.45,
       "opening_range_high": 323.0,
       "opening_range_ready": true,
@@ -104,7 +143,7 @@
       "live_gap_pct": "-0.27%",
       "regular_move_pct": "-0.21%",
       "avg_dollar_volume": 1935703430.41,
-      "bar_age_minutes": 21.5,
+      "bar_age_minutes": 46.7,
       "vwap": 819.28,
       "opening_range_high": 824.09,
       "opening_range_ready": true,
@@ -143,7 +182,7 @@
       "live_gap_pct": "+2.40%",
       "regular_move_pct": "+2.40%",
       "avg_dollar_volume": 913299526.62,
-      "bar_age_minutes": 6.5,
+      "bar_age_minutes": 6.7,
       "vwap": 413.42,
       "opening_range_high": 410.54,
       "opening_range_ready": true,
@@ -155,45 +194,6 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "COST",
-      "name": "Costco",
-      "score": 80,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.93%, 5T +3.07%, relatives Volumen 1.72x, ATR 1.49%",
-      "catalyst": "COST Stock Wrapped Its Best Week Since May: Analysts Still See Multiple Growth Drivers For Costco Despite Trimming Price Targets",
-      "risk_note": "Costco cuts prices on everyday items as inflation wallops shoppers",
-      "entry_note": "Premarket-Gap +0.24%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 0.9,
-      "target_pct": 2.0,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.93%",
-      "change_5d": "+3.07%",
-      "volume_ratio": "1.72x",
-      "atr_pct": "1.49%",
-      "gap_pct": "+0.24%",
-      "premarket_move_pct": "-0.11%",
-      "live_gap_pct": "+0.02%",
-      "regular_move_pct": "-0.21%",
-      "avg_dollar_volume": 2116448973.62,
-      "bar_age_minutes": 1.5,
-      "vwap": 924.44,
-      "opening_range_high": 925.92,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -278,14 +278,14 @@
     },
     {
       "ticker": "SMCI",
-      "title": "Super Micro and Dell Drop 5% as AI Server Rally Reverses; Hewlett Packard Enterprise Falls 3%",
-      "time": "Mon, 28 Sep 2026 16:01:00",
+      "title": "Super Micro Computer Inc. stock underperforms Monday when compared to competitors",
+      "time": "Mon, 28 Sep 2026 20:30:00",
       "sentiment": -1
     },
     {
       "ticker": "SMCI",
-      "title": "Super Micro Computer Inc. stock underperforms Monday when compared to competitors",
-      "time": "Mon, 28 Sep 2026 20:30:00",
+      "title": "Super Micro and Dell Drop 5% as AI Server Rally Reverses; Hewlett Packard Enterprise Falls 3%",
+      "time": "Mon, 28 Sep 2026 16:01:00",
       "sentiment": -1
     },
     {
@@ -356,12 +356,6 @@
     },
     {
       "ticker": "UAL",
-      "title": "BMO Capital Maintains United Airlines(UAL.US) With Buy Rating, Cuts Target Price to $140",
-      "time": "Mon, 28 Sep 2026 12:06:28",
-      "sentiment": -1
-    },
-    {
-      "ticker": "UAL",
       "title": "BMO Capital Adjusts PT on United Airlines to $140 From $157.50, Keeps Outperform Rating",
       "time": "Mon, 28 Sep 2026 09:52:34",
       "sentiment": 1
@@ -415,21 +409,15 @@
       "sentiment": 1
     },
     {
-      "ticker": "C",
-      "title": "Citi (C) Partners with Coinbase to Bridge Traditional Banking an",
-      "time": "Mon, 28 Sep 2026 15:27:29",
-      "sentiment": -1
+      "ticker": "AMGN",
+      "title": "Take the Zacks Approach to Beat the Markets: Bloom Energy, Microsoft & Amgen in Focus",
+      "time": "Mon, 28 Sep 2026 12:12:00",
+      "sentiment": 1
     },
     {
       "ticker": "AMGN",
       "title": "Scotiabank Raises Amgen Price Target to $500 From $450, Sector Outperform Rating Kept",
       "time": "Mon, 28 Sep 2026 17:34:42",
-      "sentiment": 1
-    },
-    {
-      "ticker": "AMGN",
-      "title": "Take the Zacks Approach to Beat the Markets: Bloom Energy, Microsoft & Amgen in Focus",
-      "time": "Mon, 28 Sep 2026 13:41:15",
       "sentiment": 1
     },
     {
@@ -439,15 +427,15 @@
       "sentiment": 1
     },
     {
-      "ticker": "TXN",
-      "title": "Texas Instruments stock rises 2.74 percent on Q2 growth",
-      "time": "Mon, 28 Sep 2026 13:25:03",
+      "ticker": "ASML",
+      "title": "JP Morgan maintains Overweight on ASML Holding, raises target to $2400",
+      "time": "Mon, 28 Sep 2026 15:40:26",
       "sentiment": 1
     },
     {
       "ticker": "MSFT",
       "title": "Microsoft Corporation (MSFT) stock price, news, quote and history",
-      "time": "Mon, 28 Sep 2026 11:18:54",
+      "time": "Mon, 28 Sep 2026 14:56:54",
       "sentiment": 0
     },
     {
@@ -500,6 +488,12 @@
     },
     {
       "ticker": "PYPL",
+      "title": "PayPal’s Turnaround Plan Depends on Venmo’s Monetization and Operational Efficiencies",
+      "time": "Mon, 28 Sep 2026 13:00:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PYPL",
       "title": "This Small-Cap Fintech Stock Is Crushing PayPal, SoFi, Klarna In 2026: Analyst Says Rally Isn't Over Yet",
       "time": "Sun, 27 Sep 2026 22:53:24",
       "sentiment": 0
@@ -508,12 +502,6 @@
       "ticker": "PYPL",
       "title": "Is PayPal a Deep Value Play Right Now?",
       "time": "Mon, 28 Sep 2026 10:50:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PYPL",
-      "title": "4 stocks to watch on Monday: PYPL, BA, SKHY, and SPCX (SPX:)",
-      "time": "Mon, 28 Sep 2026 12:50:39",
       "sentiment": 0
     },
     {
@@ -536,8 +524,8 @@
     },
     {
       "ticker": "CVS",
-      "title": "UnitedHealth Group Incorporated (UNH) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 11:13:04",
+      "title": "Oscar Health, Inc. (OSCR) stock price, news, quote and history",
+      "time": "Mon, 28 Sep 2026 09:52:34",
       "sentiment": 0
     },
     {
@@ -548,8 +536,8 @@
     },
     {
       "ticker": "CVS",
-      "title": "S&P 500 Movers | Winners: BE, ON, MCHP | Losers: GEN, CHTR, DVN",
-      "time": "Mon, 28 Sep 2026 05:04:28",
+      "title": "UnitedHealth Group Incorporated (UNH) Stock Price, News, Quote & History",
+      "time": "Mon, 28 Sep 2026 11:13:04",
       "sentiment": 0
     },
     {
@@ -598,12 +586,6 @@
       "ticker": "DDOG",
       "title": "William O'Neil Initiates Datadog at Buy",
       "time": "Mon, 28 Sep 2026 09:33:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DDOG",
-      "title": "Here Are Monday’s Top Wall Street Analyst Research Calls: Applied Digital, Autodesk, Datadog, First Solar, L3Harris Technologies, PepsiCo, Roblox, Snowflake, TeraWulf and More",
-      "time": "Mon, 28 Sep 2026 12:12:00",
       "sentiment": 0
     },
     {
@@ -662,14 +644,14 @@
     },
     {
       "ticker": "CAT",
-      "title": "Can Caterpillar (NYSE:CAT) Keep Riding the Data-Center Power Wave?",
-      "time": "Mon, 28 Sep 2026 17:20:00",
+      "title": "Caterpillar stock at USD 819.95 on September 28, 2026",
+      "time": "Mon, 28 Sep 2026 20:50:57",
       "sentiment": 0
     },
     {
       "ticker": "CAT",
-      "title": "BofA Securities Maintains Caterpillar(CAT.US) With Buy Rating, Announces Target Price $989",
-      "time": "Mon, 28 Sep 2026 13:19:33",
+      "title": "Michael Burry Swaps MU, NBIS, NVDA, PLTR Shorts For Puts — Says AI Bubble May Burst ‘Sooner Than Later’",
+      "time": "Mon, 28 Sep 2026 20:42:43",
       "sentiment": 0
     },
     {
@@ -704,8 +686,14 @@
     },
     {
       "ticker": "BLK",
-      "title": "Buy These 3 BlackRock Mutual Funds for Marvelous Returns",
-      "time": "Mon, 28 Sep 2026 09:02:00",
+      "title": "How Retirement Expansion At BlackRock (BLK) Has Changed Its Investment Story",
+      "time": "Mon, 28 Sep 2026 21:02:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BLK",
+      "title": "The Blackstone Group L.P. (BX) stock price, news, quote and history",
+      "time": "Mon, 28 Sep 2026 14:23:39",
       "sentiment": 0
     },
     {
@@ -715,21 +703,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "BLK",
-      "title": "Dillard's deepens ties to the Lone Star State with a move to the Texas Stock Exchange",
-      "time": "Mon, 28 Sep 2026 10:30:32",
-      "sentiment": 0
-    },
-    {
       "ticker": "ISRG",
       "title": "Gilead vs. Intuitive Surgical: Which Healthcare Stock Offers the Better Risk-Adjusted Upside?",
       "time": "Mon, 28 Sep 2026 19:27:25",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ISRG",
-      "title": "Intuitive Surgical (ISRG) Down 30% This Year; Can Tonight’s Q2 Earnings Reverse the Bearish Channel?",
-      "time": "Sun, 27 Sep 2026 21:10:55",
       "sentiment": 0
     },
     {
@@ -748,6 +724,12 @@
       "ticker": "ISRG",
       "title": "Which S&P500 stocks are moving on Monday?",
       "time": "Mon, 28 Sep 2026 16:35:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ISRG",
+      "title": "ADRX (ADRX) Share Price, News, Stock Market Cap NYSE",
+      "time": "Mon, 28 Sep 2026 20:19:27",
       "sentiment": 0
     },
     {
@@ -848,8 +830,8 @@
     },
     {
       "ticker": "DIS",
-      "title": "Walt Disney stock at USD 106.16 on September 25, 2026",
-      "time": "Mon, 28 Sep 2026 06:09:31",
+      "title": "Walt Disney stock at USD 105.70 on September 28, 2026, down 0.42 percent",
+      "time": "Mon, 28 Sep 2026 21:00:16",
       "sentiment": 0
     },
     {
@@ -898,6 +880,12 @@
       "ticker": "UAL",
       "title": "UAL Maintained by BMO Capital -- Price Target Lowered to $140",
       "time": "Mon, 28 Sep 2026 17:28:06",
+      "sentiment": 0
+    },
+    {
+      "ticker": "UAL",
+      "title": "American Airlines Group Inc. (AAL) Stock Price, News, Quote & History",
+      "time": "Mon, 28 Sep 2026 01:55:42",
       "sentiment": 0
     },
     {
@@ -1016,6 +1004,12 @@
     },
     {
       "ticker": "QCOM",
+      "title": "Qualcomm (NASDAQ:QCOM) Shares Down 7.2% on Insider Selling",
+      "time": "Mon, 28 Sep 2026 21:02:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "QCOM",
       "title": "Why Qualcomm (QCOM) Stock Is Down Today",
       "time": "Mon, 28 Sep 2026 17:26:06",
       "sentiment": 0
@@ -1030,12 +1024,6 @@
       "ticker": "QCOM",
       "title": "Qualcomm Inc Stock (QCOM) Moved Down by 6.30% on Sep 28: What Signal Does It Send?",
       "time": "Mon, 28 Sep 2026 15:15:27",
-      "sentiment": 0
-    },
-    {
-      "ticker": "QCOM",
-      "title": "Qualcomm Just Locked In Apple. Our Target Sits Above Wall Street’s",
-      "time": "Mon, 28 Sep 2026 13:30:00",
       "sentiment": 0
     },
     {
@@ -1112,6 +1100,12 @@
     },
     {
       "ticker": "C",
+      "title": "Citigroup stock last trades at USD 131.34 on September 28, 2026",
+      "time": "Mon, 28 Sep 2026 20:52:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "C",
       "title": "How Is Citigroup (NYSE:C) Changing Its Role Within the S&P 500?",
       "time": "Mon, 28 Sep 2026 15:17:00",
       "sentiment": 0
@@ -1155,19 +1149,19 @@
     {
       "ticker": "AMGN",
       "title": "Amgen Stock Forecast: Sjögren’s Trial Success Tests AMGN’s Pipeline Outlook",
-      "time": "Mon, 28 Sep 2026 13:04:59",
+      "time": "Mon, 28 Sep 2026 15:02:49",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMGN",
+      "title": "Top dow jones movers in Monday's session",
+      "time": "Mon, 28 Sep 2026 19:10:15",
       "sentiment": 0
     },
     {
       "ticker": "AMGN",
       "title": "AAPL vs AMGN: US Stock Price & Performance Comparison 2026 | MEXC",
       "time": "Mon, 28 Sep 2026 08:29:54",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMGN",
-      "title": "Uncover the latest developments among dow jones stocks in today's session.",
-      "time": "Mon, 28 Sep 2026 16:40:14",
       "sentiment": 0
     },
     {
@@ -1190,20 +1184,14 @@
     },
     {
       "ticker": "ASML",
-      "title": "What company Is ASML? Between ASML and AMD, Which Is a Better Investment?",
-      "time": "Sun, 27 Sep 2026 21:09:01",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
       "title": "ASML Holding N.V. : UBS reiterates its Buy rating",
       "time": "Mon, 28 Sep 2026 12:17:44",
       "sentiment": 0
     },
     {
       "ticker": "ASML",
-      "title": "ASML CEO Highlights Barriers in EUV Lithography Market",
-      "time": "Mon, 28 Sep 2026 08:38:07",
+      "title": "Why ASML is a buy After Terafab Deal?",
+      "time": "Sun, 27 Sep 2026 21:40:56",
       "sentiment": 0
     },
     {
@@ -1258,6 +1246,12 @@
       "ticker": "TXN",
       "title": "Here's How Much $100 Invested In Texas Instruments 10 Years Ago Would Be Worth Today",
       "time": "Mon, 28 Sep 2026 14:30:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TXN",
+      "title": "Texas Instruments stock last trades at USD 278.31 on September 28, 2026",
+      "time": "Mon, 28 Sep 2026 20:40:24",
       "sentiment": 0
     },
     {
