@@ -1,10 +1,49 @@
 {
-  "generated_at_local": "28.09.2026 22:11 CEST",
+  "generated_at_local": "28.09.2026 22:28 CEST",
   "market_regime": "Risk-off / erhöhte Vorsicht",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Risk-off / erhöhte Vorsicht. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
+    {
+      "ticker": "COST",
+      "name": "Costco",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.93%, 5T +3.07%, relatives Volumen 1.72x, ATR 1.49%",
+      "catalyst": "COST Stock Wrapped Its Best Week Since May: Analysts Still See Multiple Growth Drivers For Costco Despite Trimming Price Targets",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.24%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 0.9,
+      "target_pct": 2.0,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.93%",
+      "change_5d": "+3.07%",
+      "volume_ratio": "1.72x",
+      "atr_pct": "1.49%",
+      "gap_pct": "+0.24%",
+      "premarket_move_pct": "-0.11%",
+      "live_gap_pct": "+0.02%",
+      "regular_move_pct": "-0.21%",
+      "avg_dollar_volume": 2116448973.62,
+      "bar_age_minutes": 3.8,
+      "vwap": 924.44,
+      "opening_range_high": 925.92,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
     {
       "ticker": "NXPI",
       "name": "NXP",
@@ -26,7 +65,7 @@
       "live_gap_pct": "-0.72%",
       "regular_move_pct": "-0.81%",
       "avg_dollar_volume": 828047895.76,
-      "bar_age_minutes": 1.7,
+      "bar_age_minutes": 8.8,
       "vwap": 236.02,
       "opening_range_high": 239.39,
       "opening_range_ready": true,
@@ -38,45 +77,6 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "COST",
-      "name": "Costco",
-      "score": 83,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.93%, 5T +3.07%, relatives Volumen 1.72x, ATR 1.49%",
-      "catalyst": "COST Stock Wrapped Its Best Week Since May: Analysts Still See Multiple Growth Drivers For Costco Despite Trimming Price Targets",
-      "risk_note": "Costco Wholesale (NASDAQ:COST) Stock Price Target Cut by Deutsche Bank Aktiengesellschaft",
-      "entry_note": "Premarket-Gap +0.24%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 0.9,
-      "target_pct": 2.0,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.93%",
-      "change_5d": "+3.07%",
-      "volume_ratio": "1.72x",
-      "atr_pct": "1.49%",
-      "gap_pct": "+0.24%",
-      "premarket_move_pct": "-0.11%",
-      "live_gap_pct": "+0.02%",
-      "regular_move_pct": "-0.21%",
-      "avg_dollar_volume": 2116448973.62,
-      "bar_age_minutes": 1.8,
-      "vwap": 924.44,
-      "opening_range_high": 925.92,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -101,10 +101,10 @@
       "atr_pct": "2.76%",
       "gap_pct": "-0.79%",
       "premarket_move_pct": "-0.40%",
-      "live_gap_pct": "-2.71%",
+      "live_gap_pct": "-2.70%",
       "regular_move_pct": "-1.00%",
       "avg_dollar_volume": 1355436632.59,
-      "bar_age_minutes": 4.8,
+      "bar_age_minutes": 8.8,
       "vwap": 318.45,
       "opening_range_high": 323.0,
       "opening_range_ready": true,
@@ -140,11 +140,11 @@
       "atr_pct": "2.49%",
       "gap_pct": "-0.74%",
       "premarket_move_pct": "+0.72%",
-      "live_gap_pct": "-0.21%",
-      "regular_move_pct": "-0.15%",
+      "live_gap_pct": "-0.27%",
+      "regular_move_pct": "-0.21%",
       "avg_dollar_volume": 1935703430.41,
-      "bar_age_minutes": 6.8,
-      "vwap": 819.29,
+      "bar_age_minutes": 1.6,
+      "vwap": 819.28,
       "opening_range_high": 824.09,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -182,7 +182,7 @@
       "live_gap_pct": "+2.40%",
       "regular_move_pct": "+2.40%",
       "avg_dollar_volume": 913299526.62,
-      "bar_age_minutes": 1.8,
+      "bar_age_minutes": 8.4,
       "vwap": 413.42,
       "opening_range_high": 410.54,
       "opening_range_ready": true,
@@ -230,12 +230,6 @@
     },
     {
       "ticker": "COST",
-      "title": "Costco Wholesale (NASDAQ:COST) Stock Price Target Cut by Deutsche Bank Aktiengesellschaft",
-      "time": "Mon, 28 Sep 2026 13:35:26",
-      "sentiment": -1
-    },
-    {
-      "ticker": "COST",
       "title": "COST Stock Wrapped Its Best Week Since May: Analysts Still See Multiple Growth Drivers For Costco Despite Trimming Price Targets",
       "time": "Mon, 28 Sep 2026 08:41:01",
       "sentiment": 1
@@ -266,9 +260,21 @@
     },
     {
       "ticker": "SMCI",
+      "title": "Rating Upgrade: Super Micro Computer Presents A Rare Value Opportunity (NASDAQ:SMCI)",
+      "time": "Mon, 28 Sep 2026 20:09:04",
+      "sentiment": 1
+    },
+    {
+      "ticker": "SMCI",
       "title": "Super Micro and Dell Drop 5% as AI Server Rally Reverses; Hewlett Packard Enterprise Falls 3%",
       "time": "Mon, 28 Sep 2026 16:01:00",
       "sentiment": -1
+    },
+    {
+      "ticker": "SMCI",
+      "title": "Super Micro Computer offers a strong buy opport...",
+      "time": "Mon, 28 Sep 2026 20:24:49",
+      "sentiment": 1
     },
     {
       "ticker": "SNOW",
@@ -416,12 +422,6 @@
     },
     {
       "ticker": "TXN",
-      "title": "Texas Instruments Extends Dividend Growth Streak to 23 Years with 7% Raise",
-      "time": "Sun, 27 Sep 2026 20:19:10",
-      "sentiment": 1
-    },
-    {
-      "ticker": "TXN",
       "title": "Texas Instruments stock rises 2.74 percent on Q2 growth - ad-hoc-news.de",
       "time": "Mon, 28 Sep 2026 13:25:03",
       "sentiment": 1
@@ -446,20 +446,20 @@
     },
     {
       "ticker": "MSFT",
-      "title": "Microsoft: At 5% Yields, It's A $4 Trillion AI Haven To Own (NASDAQ:MSFT)",
-      "time": "Mon, 28 Sep 2026 15:39:42",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
       "title": "'An AI Operating System, Not a Chatbot': Oppenheimer Hails Microsoft's Enterprise Advantage",
       "time": "Mon, 28 Sep 2026 15:36:42",
       "sentiment": 0
     },
     {
       "ticker": "MSFT",
-      "title": "Microsoft (MSFT) Stock Soars with AI-Focused Strategy",
-      "time": "Mon, 28 Sep 2026 07:11:41",
+      "title": "Microsoft: Why The $3.8T Fortress Won't Deliver An AI Moonshot (NASDAQ:MSFT)",
+      "time": "Mon, 28 Sep 2026 14:25:07",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft's New Copilot Push Gets a $550 Vote From Wall Street",
+      "time": "Mon, 28 Sep 2026 14:54:30",
       "sentiment": 0
     },
     {
@@ -482,8 +482,8 @@
     },
     {
       "ticker": "PYPL",
-      "title": "This Small-Cap Fintech Stock Is Crushing PayPal, SoFi, Klarna In 2026: Analyst Says Rally Isn't Over Yet",
-      "time": "Sun, 27 Sep 2026 22:53:24",
+      "title": "PayPal’s Turnaround Plan Depends on Venmo’s Monetization and Operational Efficiencies",
+      "time": "Mon, 28 Sep 2026 13:00:02",
       "sentiment": 0
     },
     {
@@ -511,9 +511,15 @@
       "sentiment": 0
     },
     {
+      "ticker": "COST",
+      "title": "BTIG Research Reaffirms Buy Rating for Costco Wholesale (NASDAQ:COST)",
+      "time": "Mon, 28 Sep 2026 18:32:20",
+      "sentiment": 0
+    },
+    {
       "ticker": "CVS",
-      "title": "UnitedHealth Group Incorporated (UNH.DE) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 11:13:25",
+      "title": "UnitedHealth Group Incorporated (UNH) Stock Price, News, Quote & History",
+      "time": "Mon, 28 Sep 2026 11:13:04",
       "sentiment": 0
     },
     {
@@ -536,8 +542,8 @@
     },
     {
       "ticker": "CVS",
-      "title": "UnitedHealth Group Incorporated (UNH) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 11:13:04",
+      "title": "UnitedHealth Group Incorporated (UNH) stock price, news, quote and history",
+      "time": "Sun, 27 Sep 2026 23:55:53",
       "sentiment": 0
     },
     {
@@ -589,6 +595,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "DDOG",
+      "title": "Here Are Monday’s Top Wall Street Analyst Research Calls: Applied Digital, Autodesk, Datadog, First Solar, L3Harris Technologies, PepsiCo, Roblox, Snowflake, TeraWulf and More",
+      "time": "Mon, 28 Sep 2026 12:12:00",
+      "sentiment": 0
+    },
+    {
       "ticker": "SMCI",
       "title": "What's Going On With Super Micro Computer Stock Monday?",
       "time": "Mon, 28 Sep 2026 17:52:14",
@@ -607,18 +619,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "SMCI",
-      "title": "How Is Super Micro Computer (NASDAQ:SMCI) Capturing AI Server Demand?",
-      "time": "Mon, 28 Sep 2026 17:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SMCI",
-      "title": "Super Micro Stock Outlook: Is SMCI a Value Trap or a Buy After the Taiwan Raid?",
-      "time": "Mon, 28 Sep 2026 01:33:05",
-      "sentiment": 0
-    },
-    {
       "ticker": "SNOW",
       "title": "Why Are Snowflake Shares Trading Lower On Monday?",
       "time": "Mon, 28 Sep 2026 15:45:38",
@@ -627,7 +627,7 @@
     {
       "ticker": "SNOW",
       "title": "Why Snowflake (SNOW) Stock Is Falling Today",
-      "time": "Mon, 28 Sep 2026 14:10:46",
+      "time": "Mon, 28 Sep 2026 14:10:00",
       "sentiment": 0
     },
     {
@@ -644,8 +644,14 @@
     },
     {
       "ticker": "CAT",
-      "title": "Caterpillar (CAT) CFO gets 18 share-linked units that settle in cash at retirement or departure.",
-      "time": "Mon, 28 Sep 2026 19:01:55",
+      "title": "Caterpillar (CAT) group president Jason Kaiser holds 5,449 units, generally settled in cash when he leaves.",
+      "time": "Mon, 28 Sep 2026 19:02:34",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CAT",
+      "title": "Can Caterpillar (NYSE:CAT) Keep Riding the Data-Center Power Wave?",
+      "time": "Mon, 28 Sep 2026 17:20:00",
       "sentiment": 0
     },
     {
@@ -658,12 +664,6 @@
       "ticker": "CAT",
       "title": "5 Industrials Stocks With Whale Alerts In Today’s Session",
       "time": "Mon, 28 Sep 2026 17:35:08",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CAT",
-      "title": "Dell To Officially Join Tesla, Oracle, Caterpillar In Texas As Stock Eyes Best Year Since Returning To Public Markets",
-      "time": "Mon, 28 Sep 2026 02:31:57",
       "sentiment": 0
     },
     {
@@ -693,13 +693,13 @@
     {
       "ticker": "BLK",
       "title": "Weekly market commentary",
-      "time": "Mon, 28 Sep 2026 17:08:15",
+      "time": "Mon, 28 Sep 2026 18:51:25",
       "sentiment": 0
     },
     {
       "ticker": "BLK",
-      "title": "Buy These 3 BlackRock Mutual Funds for Marvelous Returns",
-      "time": "Mon, 28 Sep 2026 09:02:00",
+      "title": "The Blackstone Group L.P. (BX) stock price, news, quote and history",
+      "time": "Mon, 28 Sep 2026 14:23:39",
       "sentiment": 0
     },
     {
@@ -754,12 +754,6 @@
       "ticker": "HLT",
       "title": "Here's How Much $1000 Invested In Hilton Worldwide Holdings 5 Years Ago Would Be Worth Today",
       "time": "Mon, 28 Sep 2026 15:30:29",
-      "sentiment": 0
-    },
-    {
-      "ticker": "HLT",
-      "title": "Hilton Worldwide Holdings Inc Stock Price Live, Charts & News",
-      "time": "Mon, 28 Sep 2026 05:52:00",
       "sentiment": 0
     },
     {
@@ -842,14 +836,14 @@
     },
     {
       "ticker": "DIS",
-      "title": "Goldman Sachs lowers Disney stock price target to $140 on EBITDA",
-      "time": "Mon, 28 Sep 2026 10:08:00",
+      "title": "Walt Disney stock at USD 106.16 on September 25, 2026 - ad-hoc-news.de",
+      "time": "Mon, 28 Sep 2026 06:09:31",
       "sentiment": 0
     },
     {
       "ticker": "DKNG",
-      "title": "DKNG Stock Gets A Cheer From Wall Street – Retail Sees Headlines Shifting From ‘Prediction Market Doom To Prediction Market Boom’",
-      "time": "Mon, 28 Sep 2026 02:47:59",
+      "title": "DraftKings Named Exclusive Sportsbook and Online Casino Integration Sponsor of NHL on Prime’s Wednesday Night Hockey for the 2026-27 Season",
+      "time": "Mon, 28 Sep 2026 20:21:06",
       "sentiment": 0
     },
     {
@@ -861,7 +855,7 @@
     {
       "ticker": "DKNG",
       "title": "Citizens reiterates Flutter Entertainment stock rating on NFL pricing data By Investing.com",
-      "time": "Mon, 28 Sep 2026 09:37:32",
+      "time": "Mon, 28 Sep 2026 10:18:52",
       "sentiment": 0
     },
     {
@@ -938,14 +932,14 @@
     },
     {
       "ticker": "NXPI",
-      "title": "NXP Semiconductors, Vanguard International Joint Venture Opens Semiconductor Fab in Singapore",
-      "time": "Mon, 28 Sep 2026 08:13:11",
+      "title": "VisionPower Semiconductor Opens New 12-Inch Fab in Singapore, Bo",
+      "time": "Mon, 28 Sep 2026 06:12:49",
       "sentiment": 0
     },
     {
       "ticker": "NXPI",
-      "title": "VisionPower Semiconductor Opens New 12-Inch Fab in Singapore, Bo",
-      "time": "Mon, 28 Sep 2026 06:12:49",
+      "title": "NXP Semiconductors, Vanguard International Joint Venture Opens Semiconductor Fab in Singapore",
+      "time": "Mon, 28 Sep 2026 08:13:11",
       "sentiment": 0
     },
     {
@@ -1016,20 +1010,20 @@
     },
     {
       "ticker": "QCOM",
+      "title": "Intel vs. Qualcomm: Which Chip Stock Is a Better Buy in 2026?",
+      "time": "Mon, 28 Sep 2026 19:25:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "QCOM",
       "title": "Qualcomm Inc Stock (QCOM) Moved Down by 6.30% on Sep 28: What Signal Does It Send?",
       "time": "Mon, 28 Sep 2026 15:15:27",
       "sentiment": 0
     },
     {
       "ticker": "QCOM",
-      "title": "Qualcomm Just Agreed to Acquire Robotics Software Firm Picknik. How to Approach the Stock Now.",
-      "time": "Mon, 28 Sep 2026 13:00:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "QCOM",
-      "title": "Intel vs. Qualcomm: Which Chip Stock Is a Better Buy in 2026?",
-      "time": "Mon, 28 Sep 2026 19:25:11",
+      "title": "Qualcomm Just Locked In Apple. Our Target Sits Above Wall Street’s",
+      "time": "Mon, 28 Sep 2026 13:30:00",
       "sentiment": 0
     },
     {
@@ -1046,6 +1040,12 @@
     },
     {
       "ticker": "NEE",
+      "title": "Rolls Royce Stock And 2 Top Nuclear Power Stocks",
+      "time": "Mon, 28 Sep 2026 20:13:53",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NEE",
       "title": "41 New 4-Star Stocks This Week",
       "time": "Mon, 28 Sep 2026 13:40:23",
       "sentiment": 0
@@ -1054,12 +1054,6 @@
       "ticker": "NEE",
       "title": "Top 3 Nuclear Stocks To Watch In September 2026",
       "time": "Mon, 28 Sep 2026 10:31:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NEE",
-      "title": "3 Great Nuclear Stocks To Own In September 2026",
-      "time": "Mon, 28 Sep 2026 10:09:33",
       "sentiment": 0
     },
     {
@@ -1173,7 +1167,7 @@
     {
       "ticker": "ASML",
       "title": "ASML Holding N.V. (ASML) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 12:27:36",
+      "time": "Mon, 28 Sep 2026 12:41:44",
       "sentiment": 0
     },
     {
@@ -1252,6 +1246,12 @@
       "ticker": "TXN",
       "title": "Here's How Much $100 Invested In Texas Instruments 10 Years Ago Would Be Worth Today",
       "time": "Mon, 28 Sep 2026 14:30:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TXN",
+      "title": "Spotting Winners: Western Digital (NASDAQ:WDC) And Semiconductors Stocks In Q2",
+      "time": "Mon, 28 Sep 2026 19:26:36",
       "sentiment": 0
     },
     {
