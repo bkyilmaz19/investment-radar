@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "28.09.2026 19:55 CEST",
+  "generated_at_local": "28.09.2026 20:14 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +3.66%, 5T +4.53%, relatives Volumen 1.52x, ATR 2.12%",
       "catalyst": "Microsoft Stock Outlook: Azure Growth and New Copilot Features Face a $50 Billion Spending Test",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.76%, seit Open +1.35%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.86%, seit Open +1.25%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.27,
       "target_pct": 2.42,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "2.12%",
       "gap_pct": "-2.08%",
       "premarket_move_pct": "-2.11%",
-      "live_gap_pct": "-0.76%",
-      "regular_move_pct": "+1.35%",
+      "live_gap_pct": "-0.86%",
+      "regular_move_pct": "+1.25%",
       "avg_dollar_volume": 10936945361.76,
-      "bar_age_minutes": 0.8,
-      "vwap": 507.9,
+      "bar_age_minutes": 4.5,
+      "vwap": 508.01,
       "opening_range_high": 506.49,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -52,7 +52,7 @@
       "thesis": "1T +0.59%, 5T +2.69%, relatives Volumen 0.76x, ATR 1.89%",
       "catalyst": "Hilton’s Asset-Light Model Keeps Room For Growth",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.87%, seit Open +2.32%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.04%, seit Open +2.48%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.13,
       "target_pct": 2.15,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,51 +62,12 @@
       "atr_pct": "1.89%",
       "gap_pct": "noch nicht verfügbar",
       "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "+1.87%",
-      "regular_move_pct": "+2.32%",
+      "live_gap_pct": "+2.04%",
+      "regular_move_pct": "+2.48%",
       "avg_dollar_volume": 526399056.73,
-      "bar_age_minutes": 0.8,
-      "vwap": 316.59,
+      "bar_age_minutes": 4.5,
+      "vwap": 316.84,
       "opening_range_high": 313.62,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "ASML",
-      "name": "ASML",
-      "score": 92,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.24%, 5T +3.81%, relatives Volumen 0.53x, ATR 3.00%",
-      "catalyst": "ASML reports transactions under its current share buyback program",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.07%, seit Open +1.85%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.8,
-      "target_pct": 3.42,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.24%",
-      "change_5d": "+3.81%",
-      "volume_ratio": "0.53x",
-      "atr_pct": "3.00%",
-      "gap_pct": "+0.32%",
-      "premarket_move_pct": "+1.95%",
-      "live_gap_pct": "+2.07%",
-      "regular_move_pct": "+1.85%",
-      "avg_dollar_volume": 2188623143.25,
-      "bar_age_minutes": 0.8,
-      "vwap": 1757.48,
-      "opening_range_high": 1765.72,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -130,7 +91,7 @@
       "thesis": "1T +2.11%, 5T +1.88%, relatives Volumen 0.77x, ATR 3.22%",
       "catalyst": "Carnival (CCL): A Record Quarter Meets a Fuel Bill Nobody Can Hedge Away",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.37%, seit Open +2.21%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.40%, seit Open +2.24%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.93,
       "target_pct": 3.67,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,10 +101,10 @@
       "atr_pct": "3.22%",
       "gap_pct": "-1.33%",
       "premarket_move_pct": "-0.44%",
-      "live_gap_pct": "+0.37%",
-      "regular_move_pct": "+2.21%",
+      "live_gap_pct": "+0.40%",
+      "regular_move_pct": "+2.24%",
       "avg_dollar_volume": 518064999.07,
-      "bar_age_minutes": 0.8,
+      "bar_age_minutes": 4.5,
       "vwap": 22.25,
       "opening_range_high": 22.3,
       "opening_range_ready": true,
@@ -162,29 +123,29 @@
       }
     },
     {
-      "ticker": "AMGN",
-      "name": "Amgen",
+      "ticker": "TXN",
+      "name": "Texas Instruments",
       "score": 91,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.11%, 5T +7.51%, relatives Volumen 0.54x, ATR 2.87%",
-      "catalyst": "Scotiabank Raises Amgen Price Target to $500 From $450, Sector Outperform Rating Kept",
+      "thesis": "1T +2.74%, 5T +4.29%, relatives Volumen 0.45x, ATR 2.94%",
+      "catalyst": "Texas Instruments Extends Dividend Growth Streak to 23 Years with 7% Raise",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.63%, seit Open +1.39%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.72,
-      "target_pct": 3.27,
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.23%, seit Open +0.57%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.76,
+      "target_pct": 3.35,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.11%",
-      "change_5d": "+7.51%",
-      "volume_ratio": "0.54x",
-      "atr_pct": "2.87%",
-      "gap_pct": "-0.68%",
-      "premarket_move_pct": "-0.73%",
-      "live_gap_pct": "+0.63%",
-      "regular_move_pct": "+1.39%",
-      "avg_dollar_volume": 1226232755.62,
-      "bar_age_minutes": 0.8,
-      "vwap": 415.84,
-      "opening_range_high": 417.23,
+      "change_1d": "+2.74%",
+      "change_5d": "+4.29%",
+      "volume_ratio": "0.45x",
+      "atr_pct": "2.94%",
+      "gap_pct": "-0.37%",
+      "premarket_move_pct": "+1.36%",
+      "live_gap_pct": "+0.23%",
+      "regular_move_pct": "+0.57%",
+      "avg_dollar_volume": 1603070282.93,
+      "bar_age_minutes": 4.5,
+      "vwap": 276.65,
+      "opening_range_high": 278.44,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -194,6 +155,45 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +4.36%, 5T +16.62%, relatives Volumen 1.55x, ATR 4.37%",
+      "catalyst": "CSCO's Security Growth Accelerates: Can It Outpace DDOG & CRWD?",
+      "risk_note": "Snowflake Slides 4% on Proposed $3.5B Convertible Offering; Oracle Falls 3%, Datadog Drops 4%",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.92%, seit Open +5.91%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.62,
+      "target_pct": 4.98,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+4.36%",
+      "change_5d": "+16.62%",
+      "volume_ratio": "1.55x",
+      "atr_pct": "4.37%",
+      "gap_pct": "-4.01%",
+      "premarket_move_pct": "-3.93%",
+      "live_gap_pct": "+0.92%",
+      "regular_move_pct": "+5.91%",
+      "avg_dollar_volume": 850554932.49,
+      "bar_age_minutes": 4.5,
+      "vwap": 267.54,
+      "opening_range_high": 267.0,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -254,6 +254,12 @@
     },
     {
       "ticker": "DDOG",
+      "title": "CSCO's Security Growth Accelerates: Can It Outpace DDOG & CRWD?",
+      "time": "Mon, 28 Sep 2026 15:35:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "DDOG",
       "title": "DDOG's Late-June Rally Failed To Carry The Stock Beyond Recently Hit Record Highs – Interestingly, Bernstein Now Flags Slowing Demand Signals",
       "time": "Sun, 27 Sep 2026 19:36:27",
       "sentiment": 1
@@ -295,6 +301,12 @@
       "sentiment": -1
     },
     {
+      "ticker": "CAT",
+      "title": "Caterpillar Stock (CAT) Pullback Could Offer a Strong Entry Point",
+      "time": "Mon, 28 Sep 2026 13:56:42",
+      "sentiment": 1
+    },
+    {
       "ticker": "GE",
       "title": "GE Aerospace (GE) Beats Earnings: Why the Stock Plunged Anyway",
       "time": "Sun, 27 Sep 2026 21:17:20",
@@ -313,12 +325,6 @@
       "sentiment": -1
     },
     {
-      "ticker": "BLK",
-      "title": "Ares Management Stock: Is ARES Underperforming the Financial Service Sector?",
-      "time": "Mon, 28 Sep 2026 15:49:26",
-      "sentiment": -1
-    },
-    {
       "ticker": "HLT",
       "title": "Hilton’s Asset-Light Model Keeps Room For Growth",
       "time": "Mon, 28 Sep 2026 01:38:18",
@@ -331,12 +337,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "DIS",
-      "title": "Disney's Avengers: Endgame Encore Spurs Box Office Surge, DIS St",
-      "time": "Sun, 27 Sep 2026 18:03:17",
-      "sentiment": 1
-    },
-    {
       "ticker": "UAL",
       "title": "AAL Stock Slumps After-Hours As Airline Says ‘Not Interested’ In Merger With UAL",
       "time": "Sun, 27 Sep 2026 18:37:33",
@@ -346,12 +346,6 @@
       "ticker": "UAL",
       "title": "AAL, UAL, DAL, LUV Stocks Surge Overnight: Airline Stocks Catch A Tailwind As US-Iran Deal Cools Fuel Fears",
       "time": "Sun, 27 Sep 2026 20:11:22",
-      "sentiment": 1
-    },
-    {
-      "ticker": "UAL",
-      "title": "BMO Capital Adjusts PT on United Airlines to $140 From $157.50, Keeps Outperform Rating",
-      "time": "Mon, 28 Sep 2026 09:52:34",
       "sentiment": 1
     },
     {
@@ -388,12 +382,6 @@
       "ticker": "C",
       "title": "Citigroup (C) Stock Forecast: Strong Earnings Beat Meets Higher Spending Concerns as Recovery Tests $140",
       "time": "Sun, 27 Sep 2026 23:11:13",
-      "sentiment": 1
-    },
-    {
-      "ticker": "AMGN",
-      "title": "Scotiabank Raises Amgen Price Target to $500 From $450, Sector Outperform Rating Kept",
-      "time": "Mon, 28 Sep 2026 17:34:42",
       "sentiment": 1
     },
     {
@@ -446,20 +434,8 @@
     },
     {
       "ticker": "MSFT",
-      "title": "Microsoft (MSFT) Stock Soars with AI-Focused Strategy",
-      "time": "Mon, 28 Sep 2026 07:11:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PYPL",
-      "title": "4 stocks to watch on Monday: PYPL, BA, SKHY, and SPCX (SPX:)",
-      "time": "Mon, 28 Sep 2026 12:50:39",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PYPL",
-      "title": "This Small-Cap Fintech Stock Is Crushing PayPal, SoFi, Klarna In 2026: Analyst Says Rally Isn't Over Yet",
-      "time": "Sun, 27 Sep 2026 22:53:24",
+      "title": "Microsoft's New Copilot Push Gets a $550 Vote From Wall Street",
+      "time": "Mon, 28 Sep 2026 14:54:30",
       "sentiment": 0
     },
     {
@@ -470,20 +446,26 @@
     },
     {
       "ticker": "PYPL",
+      "title": "4 stocks to watch on Monday: PYPL, BA, SKHY, and SPCX (SPX:)",
+      "time": "Mon, 28 Sep 2026 12:50:39",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PYPL",
       "title": "Is PayPal a Deep Value Play Right Now?",
       "time": "Mon, 28 Sep 2026 10:50:00",
       "sentiment": 0
     },
     {
       "ticker": "PYPL",
-      "title": "PYPL Stock Price Today",
-      "time": "Mon, 28 Sep 2026 15:13:55",
+      "title": "UBS reiterates PayPal stock rating at neutral, $61 target By Investing.com",
+      "time": "Mon, 28 Sep 2026 14:41:14",
       "sentiment": 0
     },
     {
       "ticker": "PYPL",
-      "title": "UBS reiterates PayPal stock rating at neutral, $61 target By Investing.com",
-      "time": "Mon, 28 Sep 2026 14:41:14",
+      "title": "SoFi's Stablecoin Push Gains Ground: Is SOFI Stock Worth Watching Now?",
+      "time": "Mon, 28 Sep 2026 15:27:00",
       "sentiment": 0
     },
     {
@@ -524,20 +506,20 @@
     },
     {
       "ticker": "CVS",
-      "title": "Planning for Flu season: CVS Pharmacy helps protect your family this season",
-      "time": "Mon, 28 Sep 2026 11:38:52",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CVS",
       "title": "9 Best Dry Shampoos on Sale During CVS’ Extra Big Deals That Refresh Hair, Absorb Oil & Add Volume",
       "time": "Mon, 28 Sep 2026 16:40:00",
       "sentiment": 0
     },
     {
+      "ticker": "CVS",
+      "title": "S&P 500 Movers | Winners: BE, ON, MCHP | Losers: GEN, CHTR, DVN",
+      "time": "Mon, 28 Sep 2026 05:04:28",
+      "sentiment": 0
+    },
+    {
       "ticker": "AAL",
-      "title": "Is American Airlines (AAL)’s Premium Push Doing More Work than the Rest of the Plane?",
-      "time": "Mon, 28 Sep 2026 01:24:00",
+      "title": "American Airlines Group Inc. (AAL) Stock Price, News, Quote & History",
+      "time": "Mon, 28 Sep 2026 01:55:42",
       "sentiment": 0
     },
     {
@@ -560,8 +542,8 @@
     },
     {
       "ticker": "AAL",
-      "title": "AAL Maintained by BMO Capital -- Price Target Lowered to $15.50",
-      "time": "Mon, 28 Sep 2026 17:28:07",
+      "title": "Barclays Maintains American Airlines(AAL.US) With Hold Rating, Maintains Target Price $14",
+      "time": "Mon, 28 Sep 2026 13:44:36",
       "sentiment": 0
     },
     {
@@ -577,21 +559,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "DDOG",
-      "title": "The $1 Trillion Question Facing Palantir Stock",
-      "time": "Mon, 28 Sep 2026 16:30:00",
+      "ticker": "SMCI",
+      "title": "What's Going On With Super Micro Computer Stock Monday?",
+      "time": "Mon, 28 Sep 2026 17:52:14",
       "sentiment": 0
     },
     {
       "ticker": "SMCI",
       "title": "Super Micro Computer, Inc. (SMCI) Stock Price, News, Quote & History",
       "time": "Mon, 28 Sep 2026 02:14:18",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SMCI",
-      "title": "What's Going On With Super Micro Computer Stock Monday?",
-      "time": "Mon, 28 Sep 2026 17:52:14",
       "sentiment": 0
     },
     {
@@ -646,12 +622,6 @@
       "ticker": "CAT",
       "title": "Dell To Officially Join Tesla, Oracle, Caterpillar In Texas As Stock Eyes Best Year Since Returning To Public Markets",
       "time": "Mon, 28 Sep 2026 02:31:57",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CAT",
-      "title": "Promising Industrial Stocks To Watch Now - September 27th",
-      "time": "Sun, 27 Sep 2026 18:09:41",
       "sentiment": 0
     },
     {
@@ -715,6 +685,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "BLK",
+      "title": "Dillard's deepens ties to the Lone Star State with a move to the Texas Stock Exchange (DDS:NYSE)",
+      "time": "Mon, 28 Sep 2026 10:30:32",
+      "sentiment": 0
+    },
+    {
       "ticker": "ISRG",
       "title": "Here's Why You Should Retain OPK Stock in Your Portfolio for Now",
       "time": "Mon, 28 Sep 2026 14:52:00",
@@ -730,6 +706,12 @@
       "ticker": "ISRG",
       "title": "Are Options Traders Betting on a Big Move in OSI Systems Stock?",
       "time": "Mon, 28 Sep 2026 16:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ISRG",
+      "title": "SPCX Price Today: Space Exploration Technologies Corp. Stock Price, Quote & Chart | MEXC",
+      "time": "Mon, 28 Sep 2026 16:09:12",
       "sentiment": 0
     },
     {
@@ -758,20 +740,20 @@
     },
     {
       "ticker": "CCL",
-      "title": "Earnings Preview: What To Expect From Carnival’s Report",
-      "time": "Mon, 28 Sep 2026 08:47:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CCL",
       "title": "Dear Carnival Stock Fans, Mark Your Calendars for September 29",
       "time": "Mon, 28 Sep 2026 14:12:46",
       "sentiment": 0
     },
     {
       "ticker": "CCL",
-      "title": "Why Analysts Are Upgrading Royal Caribbean Right Before Carnival Earnings",
-      "time": "Mon, 28 Sep 2026 15:55:00",
+      "title": "Earnings Preview: What To Expect From Carnival’s Report",
+      "time": "Mon, 28 Sep 2026 08:47:41",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CCL",
+      "title": "Carnival Corp and CarMax earnings preview: what to watch pre-market Sep 29",
+      "time": "Mon, 28 Sep 2026 18:11:36",
       "sentiment": 0
     },
     {
@@ -805,6 +787,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "DIS",
+      "title": "DIS Stock Analysis: Explained",
+      "time": "Mon, 28 Sep 2026 07:41:46",
+      "sentiment": 0
+    },
+    {
       "ticker": "DKNG",
       "title": "DKNG Stock Gets A Cheer From Wall Street – Retail Sees Headlines Shifting From ‘Prediction Market Doom To Prediction Market Boom’",
       "time": "Mon, 28 Sep 2026 02:47:59",
@@ -826,6 +814,12 @@
       "ticker": "UAL",
       "title": "Stocks making the biggest moves premarket: Meta Platforms, United Airlines, Nvidia & more",
       "time": "Mon, 28 Sep 2026 11:29:28",
+      "sentiment": 0
+    },
+    {
+      "ticker": "UAL",
+      "title": "American Airlines Group Inc. (AAL) Stock Price, News, Quote & History",
+      "time": "Mon, 28 Sep 2026 01:55:42",
       "sentiment": 0
     },
     {
@@ -914,6 +908,12 @@
     },
     {
       "ticker": "TSLA",
+      "title": "Could This Be the Catalyst That Supercharges Tesla Stock Before the End of 2026?",
+      "time": "Mon, 28 Sep 2026 18:05:26",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSLA",
       "title": "If You'd Invested $10,000 in Tesla (TSLA) 10 Years Ago, Here's How Much You'd Have Today",
       "time": "Mon, 28 Sep 2026 05:20:00",
       "sentiment": 0
@@ -922,12 +922,6 @@
       "ticker": "TSLA",
       "title": "Tesla (TSLA) Q3 2026 delivery estimates range from 422,000 to 482,000",
       "time": "Mon, 28 Sep 2026 16:33:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSLA",
-      "title": "Prediction: Tesla Stock Will Plunge to $100 if the S&P 500 Enters a Bear Market",
-      "time": "Mon, 28 Sep 2026 12:03:00",
       "sentiment": 0
     },
     {
@@ -945,7 +939,7 @@
     {
       "ticker": "QCOM",
       "title": "Why is Qualcomm stock sliding today?",
-      "time": "Mon, 28 Sep 2026 14:15:00",
+      "time": "Mon, 28 Sep 2026 14:16:07",
       "sentiment": 0
     },
     {
@@ -1123,9 +1117,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "ASML",
-      "title": "ASML Holding N.V. (ASML) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 12:27:36",
+      "ticker": "AMGN",
+      "title": "Why Amgen’s Pipeline Just Got More Interesting",
+      "time": "Sun, 27 Sep 2026 20:34:31",
       "sentiment": 0
     },
     {
@@ -1150,6 +1144,12 @@
       "ticker": "ASML",
       "title": "ASML CEO Highlights Barriers in EUV Lithography Market",
       "time": "Mon, 28 Sep 2026 08:38:07",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
+      "title": "ASML Holding stock rises 1.29 percent as target is cut",
+      "time": "Mon, 28 Sep 2026 13:06:51",
       "sentiment": 0
     },
     {
@@ -1184,8 +1184,8 @@
     },
     {
       "ticker": "ADI",
-      "title": "VanEck Semiconductor ETF (SMH) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 12:56:24",
+      "title": "SPCX Price Today: Space Exploration Technologies Corp. Stock Price, Quote & Chart | MEXC",
+      "time": "Mon, 28 Sep 2026 16:09:12",
       "sentiment": 0
     },
     {
