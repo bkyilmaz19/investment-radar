@@ -1,58 +1,19 @@
 {
-  "generated_at_local": "28.09.2026 10:35 CEST",
+  "generated_at_local": "28.09.2026 15:12 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.66%, 5T +4.53%, relatives Volumen 1.52x, ATR 2.12%",
-      "catalyst": "Microsoft's 'Muse' Moment Is Here (Rating Upgrade) (NASDAQ:MSFT)",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.25%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 1.27,
-      "target_pct": 2.42,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.66%",
-      "change_5d": "+4.53%",
-      "volume_ratio": "1.52x",
-      "atr_pct": "2.12%",
-      "gap_pct": "-0.25%",
-      "premarket_move_pct": "-0.29%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 10936945361.76,
-      "bar_age_minutes": 0.4,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
       "ticker": "COST",
       "name": "Costco",
-      "score": 85,
+      "score": 90,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +2.93%, 5T +3.07%, relatives Volumen 1.72x, ATR 1.49%",
-      "catalyst": "Costco Q4 Results: EPS $6.75 beats estimates, memory inflation hits margins",
+      "catalyst": "COST Stock Wrapped Its Best Week Since May: Analysts Still See Multiple Growth Drivers For Costco Despite Trimming Price Targets",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.23%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "entry_note": "Premarket-Gap +0.06%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 0.9,
       "target_pct": 2.0,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -60,90 +21,12 @@
       "change_5d": "+3.07%",
       "volume_ratio": "1.72x",
       "atr_pct": "1.49%",
-      "gap_pct": "+0.23%",
-      "premarket_move_pct": "-0.12%",
+      "gap_pct": "+0.06%",
+      "premarket_move_pct": "-0.29%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 2116448973.62,
-      "bar_age_minutes": 4.8,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "GE",
-      "name": "GE Aerospace",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.29%, 5T +4.08%, relatives Volumen 0.83x, ATR 2.76%",
-      "catalyst": "GE Stock Heads For Second Weekly Loss Despite Strong Q2 And Outlook: Retail Cries 'Buying Opportunity'",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.39%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 1.66,
-      "target_pct": 3.15,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.29%",
-      "change_5d": "+4.08%",
-      "volume_ratio": "0.83x",
-      "atr_pct": "2.76%",
-      "gap_pct": "-0.39%",
-      "premarket_move_pct": "+0.00%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 1355436632.59,
-      "bar_age_minutes": 35.4,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Premarket",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "DDOG",
-      "name": "Datadog",
-      "score": 84,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +4.36%, 5T +16.62%, relatives Volumen 1.55x, ATR 4.37%",
-      "catalyst": "Datadog (DDOG) Fell 19% After Q2 Beat and Guidance Raise - The AI Customer Cut Spooked the Market",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.24%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 2.62,
-      "target_pct": 4.98,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+4.36%",
-      "change_5d": "+16.62%",
-      "volume_ratio": "1.55x",
-      "atr_pct": "4.37%",
-      "gap_pct": "-0.24%",
-      "premarket_move_pct": "-0.16%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 850554932.49,
-      "bar_age_minutes": 5.4,
+      "bar_age_minutes": 2.9,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
@@ -164,12 +47,12 @@
     {
       "ticker": "DIS",
       "name": "Disney",
-      "score": 84,
+      "score": 83,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +0.56%, 5T +3.39%, relatives Volumen 0.73x, ATR 2.06%",
       "catalyst": "Disney's Avengers: Endgame Encore Spurs Box Office Surge, DIS St",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.08%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "Premarket-Gap +0.09%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 1.23,
       "target_pct": 2.34,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -177,12 +60,129 @@
       "change_5d": "+3.39%",
       "volume_ratio": "0.73x",
       "atr_pct": "2.06%",
-      "gap_pct": "-0.08%",
-      "premarket_move_pct": "+0.00%",
+      "gap_pct": "+0.09%",
+      "premarket_move_pct": "+0.17%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 852090864.4,
-      "bar_age_minutes": 35.4,
+      "bar_age_minutes": 12.9,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP",
+      "score": 82,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.44%, 5T +4.43%, relatives Volumen 0.69x, ATR 3.46%",
+      "catalyst": "Embedded Systems Growth Might Change The Case For Investing In NXP Semiconductors (NXPI)",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -0.83%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 2.08,
+      "target_pct": 3.94,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.44%",
+      "change_5d": "+4.43%",
+      "volume_ratio": "0.69x",
+      "atr_pct": "3.46%",
+      "gap_pct": "-0.83%",
+      "premarket_move_pct": "+2.45%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 828047895.76,
+      "bar_age_minutes": 16.6,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "score": 82,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.66%, 5T +4.53%, relatives Volumen 1.52x, ATR 2.12%",
+      "catalyst": "Premarket-/Momentum-Bestätigung",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -1.47%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.27,
+      "target_pct": 2.42,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.66%",
+      "change_5d": "+4.53%",
+      "volume_ratio": "1.52x",
+      "atr_pct": "2.12%",
+      "gap_pct": "-1.47%",
+      "premarket_move_pct": "-1.51%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 10936945361.76,
+      "bar_age_minutes": 2.9,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": false,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "score": 79,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.29%, 5T +4.08%, relatives Volumen 0.83x, ATR 2.76%",
+      "catalyst": "GE Aerospace (GE) Beats Earnings: Why the Stock Plunged Anyway",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap -0.79%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.66,
+      "target_pct": 3.15,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.29%",
+      "change_5d": "+4.08%",
+      "volume_ratio": "0.83x",
+      "atr_pct": "2.76%",
+      "gap_pct": "-0.79%",
+      "premarket_move_pct": "-0.40%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 1355436632.59,
+      "bar_age_minutes": 17.9,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
@@ -217,16 +217,28 @@
   ],
   "news": [
     {
-      "ticker": "MSFT",
-      "title": "Microsoft's 'Muse' Moment Is Here (Rating Upgrade) (NASDAQ:MSFT)",
-      "time": "Sun, 27 Sep 2026 13:55:02",
+      "ticker": "COST",
+      "title": "COST Stock Wrapped Its Best Week Since May: Analysts Still See Multiple Growth Drivers For Costco Despite Trimming Price Targets",
+      "time": "Mon, 28 Sep 2026 08:41:01",
       "sentiment": 1
     },
     {
       "ticker": "COST",
-      "title": "Costco Q4 Results: EPS $6.75 beats estimates, memory inflation hits margins",
-      "time": "Sun, 27 Sep 2026 11:32:51",
+      "title": "Costco Stock Forecast: Q4 Sales Strength Meets a Membership Growth Test",
+      "time": "Mon, 28 Sep 2026 13:01:14",
       "sentiment": 1
+    },
+    {
+      "ticker": "COST",
+      "title": "COST Stock Wrapped Its Best Week Since May: Analysts Still See Multiple Growth Drivers For Costco Despite Trimming Price Targets",
+      "time": "Mon, 28 Sep 2026 08:42:19",
+      "sentiment": 1
+    },
+    {
+      "ticker": "CVS",
+      "title": "How Data Lawsuit Settlement Will Impact CVS Health Stock Investors",
+      "time": "Mon, 28 Sep 2026 09:33:59",
+      "sentiment": -1
     },
     {
       "ticker": "AAL",
@@ -238,12 +250,6 @@
       "ticker": "AAL",
       "title": "AAL, UAL, DAL, LUV Stocks Surge Overnight: Airline Stocks Catch A Tailwind As US-Iran Deal Cools Fuel Fears",
       "time": "Sun, 27 Sep 2026 20:11:22",
-      "sentiment": 1
-    },
-    {
-      "ticker": "AAL",
-      "title": "CLF Stock Posts Biggest Gain Of 2026 After CEO Forecasts Strongest Second-Half Performance Since 2021",
-      "time": "Sun, 27 Sep 2026 17:54:47",
       "sentiment": 1
     },
     {
@@ -259,27 +265,21 @@
       "sentiment": 1
     },
     {
-      "ticker": "SMCI",
-      "title": "3 High Insider Ownership Growth Stocks For September 2026",
-      "time": "Sun, 27 Sep 2026 22:27:53",
-      "sentiment": 1
+      "ticker": "SNOW",
+      "title": "Snowflake Stock Falls Amid $3.5 billion Convertible Debt Offering",
+      "time": "Mon, 28 Sep 2026 12:05:00",
+      "sentiment": -1
     },
     {
       "ticker": "SNOW",
-      "title": "PhillipCapital initiates Snowflake stock with buy rating on AI growth By Investing.com",
-      "time": "Mon, 28 Sep 2026 08:16:00",
-      "sentiment": 1
+      "title": "Snowflake Shares Fall After $3.5 Billion Convertible Note Offering",
+      "time": "Mon, 28 Sep 2026 12:06:18",
+      "sentiment": -1
     },
     {
       "ticker": "GE",
-      "title": "GE Stock Heads For Second Weekly Loss Despite Strong Q2 And Outlook: Retail Cries 'Buying Opportunity'",
-      "time": "Sun, 27 Sep 2026 17:30:37",
-      "sentiment": 1
-    },
-    {
-      "ticker": "GE",
-      "title": "GE Aerospace, Kratos secure US Air Force contract for GEK800 engine",
-      "time": "Sun, 27 Sep 2026 12:28:03",
+      "title": "GE Aerospace (GE) Beats Earnings: Why the Stock Plunged Anyway",
+      "time": "Sun, 27 Sep 2026 21:17:20",
       "sentiment": 1
     },
     {
@@ -287,6 +287,12 @@
       "title": "BLK Stock: BlackRock Reportedly Cuts 200 Jobs As CEO Larry Fink Locks In Continuous Downsizing Cycle",
       "time": "Sun, 27 Sep 2026 21:13:05",
       "sentiment": -1
+    },
+    {
+      "ticker": "HLT",
+      "title": "Hilton’s Asset-Light Model Keeps Room For Growth",
+      "time": "Mon, 28 Sep 2026 01:38:18",
+      "sentiment": 1
     },
     {
       "ticker": "CCL",
@@ -297,19 +303,13 @@
     {
       "ticker": "CCL",
       "title": "Bank of America cuts Carnival stock target as key cost surges",
-      "time": "Sun, 27 Sep 2026 11:37:00",
+      "time": "Sun, 27 Sep 2026 14:37:00",
       "sentiment": -1
     },
     {
       "ticker": "DIS",
       "title": "Disney's Avengers: Endgame Encore Spurs Box Office Surge, DIS St",
       "time": "Sun, 27 Sep 2026 18:03:17",
-      "sentiment": 1
-    },
-    {
-      "ticker": "DIS",
-      "title": "Disney Raised Ad-Free Disney+ Prices 13%. Its CFO Says Streaming Profit Dollars Now Beat Margins",
-      "time": "Sun, 27 Sep 2026 09:41:17",
       "sentiment": 1
     },
     {
@@ -325,15 +325,21 @@
       "sentiment": 1
     },
     {
+      "ticker": "UAL",
+      "title": "BMO Capital Adjusts PT on United Airlines to $140 From $157.50, Keeps Outperform Rating",
+      "time": "Mon, 28 Sep 2026 09:52:34",
+      "sentiment": 1
+    },
+    {
       "ticker": "NXPI",
       "title": "Embedded Systems Growth Might Change The Case For Investing In NXP Semiconductors (NXPI)",
       "time": "Sun, 27 Sep 2026 21:29:32",
       "sentiment": 1
     },
     {
-      "ticker": "TSLA",
-      "title": "TSLA Stock Jumps 3% Ahead Of Q2 Report — Analysts Split On Earnings Beat Expectations And Tesla’s Overpromise Problem",
-      "time": "Sun, 27 Sep 2026 19:12:01",
+      "ticker": "NXPI",
+      "title": "NXP Semiconductors stock gains 3.44 percent on growth outlook",
+      "time": "Mon, 28 Sep 2026 11:02:22",
       "sentiment": 1
     },
     {
@@ -356,21 +362,33 @@
     },
     {
       "ticker": "C",
+      "title": "Citigroup (C) Stock Forecast: Strong Earnings Beat Meets Higher Spending Concerns as Recovery Tests $140",
+      "time": "Sun, 27 Sep 2026 23:11:13",
+      "sentiment": 1
+    },
+    {
+      "ticker": "C",
+      "title": "Citigroup aims to raise $3B in Banamex IPO - report (C:NYSE)",
+      "time": "Mon, 28 Sep 2026 11:35:22",
+      "sentiment": -1
+    },
+    {
+      "ticker": "C",
       "title": "Citigroup (C) Lines Up a $3 Billion Banamex IPO for January",
       "time": "Sun, 27 Sep 2026 20:27:31",
       "sentiment": -1
     },
     {
       "ticker": "C",
-      "title": "Citigroup Upgraded Its Outlook. Is It Already Priced In?",
-      "time": "Sun, 27 Sep 2026 09:07:01",
+      "title": "Citigroup stock rises 1.65 percent on stronger Q2 earnings",
+      "time": "Mon, 28 Sep 2026 10:28:35",
       "sentiment": 1
     },
     {
-      "ticker": "C",
-      "title": "Citi, JPM Reportedly In Talks To Join OpenAI IPO Bank Lineup",
-      "time": "Sun, 27 Sep 2026 18:06:30",
-      "sentiment": -1
+      "ticker": "ASML",
+      "title": "ASML reports transactions under its current share buyback program",
+      "time": "Mon, 28 Sep 2026 12:00:00",
+      "sentiment": 1
     },
     {
       "ticker": "TXN",
@@ -380,8 +398,8 @@
     },
     {
       "ticker": "MSFT",
-      "title": "Microsoft Corporation (MSFT) stock price, news, quote and history",
-      "time": "Mon, 28 Sep 2026 07:18:37",
+      "title": "Microsoft Rolls Out Refreshed Copilot App as Stock Lags Megacap Peers",
+      "time": "Mon, 28 Sep 2026 12:49:22",
       "sentiment": 0
     },
     {
@@ -392,20 +410,26 @@
     },
     {
       "ticker": "MSFT",
-      "title": "Is Microsoft (MSFT) Fully Priced As AI And Quantum News Builds?",
-      "time": "Mon, 28 Sep 2026 04:48:53",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
-      "title": "MSFT Stock Slides 4.5% — Microsoft Price Target Revision By Stifel And Xbox Pricing Changes In Focus",
-      "time": "Sun, 27 Sep 2026 20:05:29",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MSFT",
       "title": "Microsoft Corporation (MSFT) Wants AI to Do More. Can Customers Keep Up?",
       "time": "Mon, 28 Sep 2026 03:51:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft (MSFT) Stock Soars with AI-Focused Strategy",
+      "time": "Mon, 28 Sep 2026 07:11:41",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Citizens reiterates Microsoft stock rating on new Copilot features",
+      "time": "Mon, 28 Sep 2026 09:16:28",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft (MSFT) Stock Price, Quote & Analysis",
+      "time": "Sun, 27 Sep 2026 19:33:42",
       "sentiment": 0
     },
     {
@@ -416,38 +440,32 @@
     },
     {
       "ticker": "PYPL",
-      "title": "Dow Ends Higher For Third Straight Session As Oil Cools, Nasdaq Slides On Chipmaker Rout — PYPL, SPCX, AAPL, V, F Stocks In Focus",
-      "time": "Sun, 27 Sep 2026 18:29:22",
+      "title": "PayPal Holdings, Inc. (PYPL) Stock Price Today: $55",
+      "time": "Mon, 28 Sep 2026 02:50:35",
       "sentiment": 0
     },
     {
       "ticker": "PYPL",
-      "title": "S&P 500 Movers | Winners: BE, ON, MCHP | Losers: GEN, CHTR, DVN",
-      "time": "Mon, 28 Sep 2026 05:04:28",
+      "title": "Is PayPal a Deep Value Play Right Now?",
+      "time": "Mon, 28 Sep 2026 10:41:42",
       "sentiment": 0
     },
     {
       "ticker": "PYPL",
-      "title": "Spotify Technology S.A. (SPOTN.MX) Stock Price, News, Quote & History",
-      "time": "Sun, 27 Sep 2026 14:13:34",
+      "title": "PayPal’s Turnaround Plan Depends on Venmo’s Monetization and Operational Efficiencies",
+      "time": "Mon, 28 Sep 2026 13:00:02",
       "sentiment": 0
     },
     {
       "ticker": "PYPL",
-      "title": "ADBE Stock Is Falling Again But Here’s Why One Wall Street Analyst Sees A 31% Upside",
-      "time": "Sun, 27 Sep 2026 19:37:49",
+      "title": "4 stocks to watch on Monday: PYPL, BA, SKHY, and SPCX (SPX:)",
+      "time": "Mon, 28 Sep 2026 12:50:39",
       "sentiment": 0
     },
     {
       "ticker": "PYPL",
-      "title": "Analysts Keep Hiking Broadcom Price Targets, But AVGO Is Flat - Shorting AVGO Puts Is an Attractive Play",
-      "time": "Sun, 27 Sep 2026 14:00:02",
-      "sentiment": 0
-    },
-    {
-      "ticker": "COST",
-      "title": "Costco Costs More Than $920 a Share. Here's Why I'd Still Buy One.",
-      "time": "Sun, 27 Sep 2026 17:27:00",
+      "title": "Is PayPal a Deep Value Play Right Now?",
+      "time": "Mon, 28 Sep 2026 10:50:00",
       "sentiment": 0
     },
     {
@@ -458,20 +476,14 @@
     },
     {
       "ticker": "COST",
-      "title": "Here's What Analysts Are Forecasting For Costco Wholesale Corporation (NASDAQ:COST) After Its Yearly Results",
-      "time": "Sun, 27 Sep 2026 12:39:23",
+      "title": "Costco Costs More Than $920 a Share. Here's Why I'd Still Buy One.",
+      "time": "Sun, 27 Sep 2026 17:27:00",
       "sentiment": 0
     },
     {
       "ticker": "COST",
-      "title": "Can Costco (COST) and Uber (UBER) Make Warehouse Delivery Economically Attractive?",
-      "time": "Mon, 28 Sep 2026 01:40:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "COST",
-      "title": "Stocktwits Retail Therapy: Defensive Bets Take Off As COST, DG, WMT Lead Weekly Consumer Staples Gains",
-      "time": "Mon, 28 Sep 2026 03:45:30",
+      "title": "Evercore ISI maintains Costco stock rating on membership trends",
+      "time": "Mon, 28 Sep 2026 10:15:47",
       "sentiment": 0
     },
     {
@@ -482,20 +494,14 @@
     },
     {
       "ticker": "CVS",
-      "title": "Oscar Health (OSCR) Shares Moved, What Is Catching Investors' Attention?",
-      "time": "Mon, 28 Sep 2026 04:48:53",
+      "title": "UnitedHealth Group Incorporated (UNH) Stock Price, News, Quote & History",
+      "time": "Sun, 27 Sep 2026 16:35:56",
       "sentiment": 0
     },
     {
       "ticker": "CVS",
       "title": "Top Healthcare Stocks To Consider - September 27th",
       "time": "Sun, 27 Sep 2026 17:09:21",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CVS",
-      "title": "UnitedHealth Group Incorporated (UNH) Stock Price, News, Quote & History",
-      "time": "Sun, 27 Sep 2026 13:09:19",
       "sentiment": 0
     },
     {
@@ -518,14 +524,20 @@
     },
     {
       "ticker": "AAL",
-      "title": "1 Top Warren Buffett Stock Trading 21% Below Its All-Time High That Can Double a $1,000 Investment in 5 Years",
-      "time": "Sun, 27 Sep 2026 21:50:00",
+      "title": "American Airlines stock rose 3.90 percent as analysts weigh fuel risk",
+      "time": "Mon, 28 Sep 2026 08:50:00",
       "sentiment": 0
     },
     {
       "ticker": "AAL",
-      "title": "AAL, UAL, DAL Get Fresh Rothschild Targets — Firm Sees Domestic Revenue Strength Extending Into 2027",
-      "time": "Sun, 27 Sep 2026 17:56:26",
+      "title": "Stock Futures Slide as Oil, Bond Yields Resume Climb",
+      "time": "Mon, 28 Sep 2026 13:04:10",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAL",
+      "title": "Why Did the Hormuz Standoff Push Oil Higher Before Monday?",
+      "time": "Mon, 28 Sep 2026 06:28:00",
       "sentiment": 0
     },
     {
@@ -536,8 +548,14 @@
     },
     {
       "ticker": "DDOG",
-      "title": "Datadog Stock And Other Enterprise AI Shares Investors Should Watch",
-      "time": "Sun, 27 Sep 2026 10:45:50",
+      "title": "William O'Neil Initiates Datadog at Buy",
+      "time": "Mon, 28 Sep 2026 09:33:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Here Are Monday’s Top Wall Street Analyst Research Calls: Applied Digital, Autodesk, Datadog, First Solar, L3Harris Technologies, PepsiCo, Roblox, Snowflake, TeraWulf and More",
+      "time": "Mon, 28 Sep 2026 12:12:00",
       "sentiment": 0
     },
     {
@@ -547,9 +565,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "DDOG",
-      "title": "iShares Top 20 US Stocks ETF rated Hold with mi...",
-      "time": "Sun, 27 Sep 2026 19:42:14",
+      "ticker": "SMCI",
+      "title": "Super Micro Computer, Inc. (SMCI) Stock Price, News, Quote & History",
+      "time": "Sun, 27 Sep 2026 21:28:36",
       "sentiment": 0
     },
     {
@@ -560,26 +578,26 @@
     },
     {
       "ticker": "SMCI",
-      "title": "Kyivstar Reports Damage from Drone Strike Amid Ongoing Attacks",
-      "time": "Mon, 28 Sep 2026 08:10:00",
+      "title": "Super Micro Burned $6.8 Billion Last Year. Here’s What Changed in June",
+      "time": "Mon, 28 Sep 2026 12:32:28",
       "sentiment": 0
     },
     {
       "ticker": "SMCI",
-      "title": "Western Digital Stock Is Just One Of 3 Top AI Infrastructure Picks",
-      "time": "Mon, 28 Sep 2026 01:09:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "SMCI",
-      "title": "Why SMCI Stock Rocketed Over 25% After-Hours — A $60B Backlog Has Retail Buzzing",
-      "time": "Sun, 27 Sep 2026 17:36:18",
+      "title": "Super Micro Computer stock gains 4.22 percent on AI shipments",
+      "time": "Mon, 28 Sep 2026 10:32:16",
       "sentiment": 0
     },
     {
       "ticker": "SMCI",
       "title": "Evercore Highlights Yield Curve Risks Amidst AI Stock Bull Marke",
       "time": "Mon, 28 Sep 2026 07:39:51",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SMCI",
+      "title": "Why SMCI Stock Rocketed Over 25% After-Hours — A $60B Backlog Has Retail Buzzing",
+      "time": "Sun, 27 Sep 2026 17:36:18",
       "sentiment": 0
     },
     {
@@ -596,14 +614,20 @@
     },
     {
       "ticker": "SNOW",
-      "title": "Form 144 Snowflake Inc. For: 27 September By Investing.com",
-      "time": "Sun, 27 Sep 2026 22:21:35",
+      "title": "Snowflake Announces Proposed Private Placement of $3.5 Billion of 0.00% Convertible Senior Notes",
+      "time": "Mon, 28 Sep 2026 11:09:00",
       "sentiment": 0
     },
     {
       "ticker": "SNOW",
-      "title": "Is Palantir Stock a Buy Right Now? A Bullish Case Despite the YTD Pullback",
-      "time": "Sun, 27 Sep 2026 17:22:50",
+      "title": "Snowflake announces proposed private placement of $3.5B of 0.00% convertible senior notes",
+      "time": "Mon, 28 Sep 2026 11:19:24",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CAT",
+      "title": "Dell To Officially Join Tesla, Oracle, Caterpillar In Texas As Stock Eyes Best Year Since Returning To Public Markets",
+      "time": "Mon, 28 Sep 2026 02:31:57",
       "sentiment": 0
     },
     {
@@ -621,25 +645,49 @@
     {
       "ticker": "GE",
       "title": "GE Aerospace Is Spending $12 Billion on an Acquisition. Is It Still the Best Aerospace Stock to Own?",
-      "time": "Sun, 27 Sep 2026 20:50:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GE",
-      "title": "GE Aerospace Is Spending $12 Billion on an Acquisition. Is It Still the Best Aerospace Stock to Own?",
       "time": "Sun, 27 Sep 2026 21:30:00",
       "sentiment": 0
     },
     {
       "ticker": "GE",
-      "title": "3 Aerospace Stocks To Own In September 2026",
-      "time": "Mon, 28 Sep 2026 01:42:44",
+      "title": "Redwire Stock And 2 Top Defense Stocks To Own",
+      "time": "Mon, 28 Sep 2026 10:32:21",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GE",
+      "title": "Boeing Drops 3% as 737 MAX Landing Software Glitch Draws Regulator Review; GE Aerospace Eases, RTX Treads Water",
+      "time": "Mon, 28 Sep 2026 13:00:00",
       "sentiment": 0
     },
     {
       "ticker": "GE",
       "title": "GE Aerospace (GE) Ships Redesigned Engines to Boeing (BA). Can it Keep the 777X on Track?",
       "time": "Mon, 28 Sep 2026 00:48:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GE",
+      "title": "GE Aerospace Is Spending $12 Billion on an Acquisition. Is It Still the Best Aerospace Stock to Own?",
+      "time": "Sun, 27 Sep 2026 20:55:14",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BLK",
+      "title": "BlackRock CIO Dumps Stocks for High-Grade Bonds. Here’s Why",
+      "time": "Mon, 28 Sep 2026 02:00:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BLK",
+      "title": "Dillard's deepens ties to the Lone Star State with a move to the Texas Stock Exchange",
+      "time": "Mon, 28 Sep 2026 10:30:32",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BLK",
+      "title": "Is BLK Overvalued? DCF Says Worth $507",
+      "time": "Mon, 28 Sep 2026 11:32:48",
       "sentiment": 0
     },
     {
@@ -650,26 +698,14 @@
     },
     {
       "ticker": "BLK",
-      "title": "Key facts: BlackRock (BLK) adds longer bonds; files Caledonia stake",
-      "time": "Mon, 28 Sep 2026 07:00:00",
+      "title": "Dillard's deepens ties to the Lone Star State with a move to the Texas Stock Exchange (DDS:NYSE)",
+      "time": "Mon, 28 Sep 2026 10:30:32",
       "sentiment": 0
     },
     {
-      "ticker": "BLK",
-      "title": "BlackRock stock at USD 1,086.31 on September 25, 2026, up 1.20 percent",
-      "time": "Mon, 28 Sep 2026 05:47:12",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BLK",
-      "title": "BlackRock CIO Dumps Stocks for High-Grade Bonds. Here’s Why",
-      "time": "Mon, 28 Sep 2026 02:56:14",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BLK",
-      "title": "Private credit redemption pressure eases as fund performance improves (APO:NYSE)",
-      "time": "Sun, 27 Sep 2026 12:43:32",
+      "ticker": "ISRG",
+      "title": "Intuitive Surgical (ISRG) Down 30% This Year; Can Tonight’s Q2 Earnings Reverse the Bearish Channel?",
+      "time": "Sun, 27 Sep 2026 21:10:55",
       "sentiment": 0
     },
     {
@@ -679,39 +715,21 @@
       "sentiment": 0
     },
     {
-      "ticker": "HLT",
-      "title": "Hilton Worldwide Holdings (HLT) Leans Into Sports Tourism While Fair Value Stays In View",
-      "time": "Sun, 27 Sep 2026 11:09:42",
-      "sentiment": 0
-    },
-    {
-      "ticker": "HLT",
-      "title": "Hyatt Hotels Corporation (H) Stock Price, News, Quote & History",
-      "time": "Sun, 27 Sep 2026 11:32:07",
-      "sentiment": 0
-    },
-    {
       "ticker": "CCL",
-      "title": "Weekly Equities Outlook: Nike, Micron Technology, Carnival Corp.",
-      "time": "Sun, 27 Sep 2026 08:42:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CCL",
-      "title": "Earnings Week Ahead: MU, NKE, CCL, and more (NASDAQ:MU)",
-      "time": "Sun, 27 Sep 2026 12:07:21",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CCL",
-      "title": "Micron Reports: But 6 Stocks May Swing More This Week - Nike (NYSE:NKE), Carnival (NYSE:CCL)",
-      "time": "Sun, 27 Sep 2026 12:30:23",
+      "title": "Carnival (CCL) Reports Q3: Everything You Need To Know Ahead Of Earnings",
+      "time": "Mon, 28 Sep 2026 09:55:05",
       "sentiment": 0
     },
     {
       "ticker": "CCL",
       "title": "Earnings Calendar for:",
-      "time": "Mon, 28 Sep 2026 02:48:32",
+      "time": "Mon, 28 Sep 2026 08:48:30",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DIS",
+      "title": "Ex-Disney CEO Bob Chapek advises startups, open to PE fund: Bloomberg (DIS:NYSE)",
+      "time": "Mon, 28 Sep 2026 10:41:30",
       "sentiment": 0
     },
     {
@@ -722,26 +740,44 @@
     },
     {
       "ticker": "DIS",
-      "title": "Walt Disney stock at USD 106.16 on September 25, 2026",
-      "time": "Mon, 28 Sep 2026 06:09:31",
+      "title": "Guggenheim reiterates Buy rating on Disney stock citing CEO vision",
+      "time": "Mon, 28 Sep 2026 11:37:46",
       "sentiment": 0
     },
     {
       "ticker": "DIS",
-      "title": "S&P 500, Dow Snap Three-Day Losses, Nasdaq Ends Best Day In Three Weeks As Earnings Take Centerstage — GOOGL, AAPL, AMD, TSLA, DIS In Focus",
-      "time": "Sun, 27 Sep 2026 18:14:01",
+      "title": "Bob Chapek's Shift to Private Equity Highlights Walt Disney (DIS) Amid Modest Undervaluation",
+      "time": "Mon, 28 Sep 2026 11:06:07",
       "sentiment": 0
     },
     {
       "ticker": "DIS",
-      "title": "‘Avengers: Endgame’ re-release tops box office as sales jump 61% from year ago (DIS:NYSE)",
-      "time": "Sun, 27 Sep 2026 17:26:07",
+      "title": "Goldman Sachs lowers Disney stock price target to $140 on EBITDA",
+      "time": "Mon, 28 Sep 2026 10:11:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DKNG",
+      "title": "Citizens reiterates DraftKings stock rating on NFL pricing analysis By Investing.com",
+      "time": "Mon, 28 Sep 2026 09:37:09",
       "sentiment": 0
     },
     {
       "ticker": "DKNG",
       "title": "Promising Casino Stocks To Add to Your Watchlist - September 27th",
       "time": "Sun, 27 Sep 2026 17:09:21",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DKNG",
+      "title": "Citizens reiterates Flutter Entertainment stock rating on NFL pricing data By Investing.com",
+      "time": "Mon, 28 Sep 2026 09:37:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "UAL",
+      "title": "Stocks making the biggest moves premarket: Meta Platforms, United Airlines, Nvidia & more",
+      "time": "Mon, 28 Sep 2026 11:29:28",
       "sentiment": 0
     },
     {
@@ -752,20 +788,8 @@
     },
     {
       "ticker": "UAL",
-      "title": "Boeing 737 MAX Software Glitch Triggers FAA Probe A Month After MAX 7 Approval — And Airlines Are Pushing Back: Report",
-      "time": "Sun, 27 Sep 2026 10:22:26",
-      "sentiment": 0
-    },
-    {
-      "ticker": "UAL",
       "title": "AAL, UAL, DAL Get Fresh Rothschild Targets — Firm Sees Domestic Revenue Strength Extending Into 2027",
       "time": "Sun, 27 Sep 2026 17:56:26",
-      "sentiment": 0
-    },
-    {
-      "ticker": "UAL",
-      "title": "ASTS Stock Jumps Premarket: Analyst Says AST SpaceMobile Could Be ‘Too Little, Too Late’ As Starlink Widens D2D Lead",
-      "time": "Sun, 27 Sep 2026 19:22:42",
       "sentiment": 0
     },
     {
@@ -776,8 +800,20 @@
     },
     {
       "ticker": "MMM",
+      "title": "A Look Back at General Industrial Machinery Stocks’ Q2 Earnings: 3M (NYSE:MMM) Vs The Rest Of The Pack",
+      "time": "Mon, 28 Sep 2026 03:35:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MMM",
       "title": "S&P 500, Dow Snap Three-Day Losses, Nasdaq Ends Best Day In Three Weeks As Earnings Take Centerstage — GOOGL, AAPL, AMD, TSLA, DIS In Focus",
       "time": "Sun, 27 Sep 2026 18:14:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MMM",
+      "title": "Waste Management, Inc. (WM) Stock Price, News, Quote & History",
+      "time": "Sun, 27 Sep 2026 13:27:05",
       "sentiment": 0
     },
     {
@@ -793,6 +829,18 @@
       "sentiment": 0
     },
     {
+      "ticker": "EMR",
+      "title": "Emerson Electric stock rose 1.26 percent as TD Cowen lifted its target",
+      "time": "Mon, 28 Sep 2026 09:24:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NXPI",
+      "title": "NXP Semiconductors, Vanguard International Joint Venture Opens Semiconductor Fab in Singapore",
+      "time": "Mon, 28 Sep 2026 08:13:11",
+      "sentiment": 0
+    },
+    {
       "ticker": "NXPI",
       "title": "VisionPower Semiconductor Opens New 12-Inch Fab in Singapore, Bo",
       "time": "Mon, 28 Sep 2026 06:12:49",
@@ -805,33 +853,51 @@
       "sentiment": 0
     },
     {
-      "ticker": "TSLA",
-      "title": "If You'd Invested $10,000 in Tesla (TSLA) 10 Years Ago, Here's How Much You'd Have Today",
-      "time": "Mon, 28 Sep 2026 05:20:00",
+      "ticker": "NXPI",
+      "title": "NXP Semiconductors, Vanguard International Joint Venture Opens Semiconductor Fab in Singapore",
+      "time": "Mon, 28 Sep 2026 08:29:39",
       "sentiment": 0
     },
     {
       "ticker": "TSLA",
-      "title": "Tesla Stock Forecast: How Much Will TSLA Stock Be Worth in 2030? Can It Hit $3,000?",
-      "time": "Sun, 27 Sep 2026 13:28:32",
+      "title": "Prediction: Tesla Stock Will Plunge to $100 if the S&P 500 Enters a Bear Market",
+      "time": "Mon, 28 Sep 2026 11:09:53",
       "sentiment": 0
     },
     {
       "ticker": "TSLA",
-      "title": "Top Three S&P 500 Stocks to Watch This Week: Micron, Accenture, Tesla",
-      "time": "Sun, 27 Sep 2026 17:10:47",
+      "title": "My Tesla Stock Price Prediction Hinges on One Massive Opportunity",
+      "time": "Mon, 28 Sep 2026 13:00:00",
       "sentiment": 0
     },
     {
       "ticker": "TSLA",
-      "title": "TSLA Stock Sinks As SpaceX IPO Nears — Analyst Says Investors Are Selling Tesla To Catch A Day-1 Pop In Next Musk Trade",
-      "time": "Sun, 27 Sep 2026 20:31:36",
+      "title": "My Tesla Stock Price Prediction Hinges on One Massive Opportunity",
+      "time": "Mon, 28 Sep 2026 13:00:48",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Tesla Stock Eyes Mag 7’s Worst July — Gordon Johnson Says Q2 Numbers Expose FSD’s ‘Ridiculous’ Valuation",
+      "time": "Mon, 28 Sep 2026 03:01:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Tesla (TSLA) Q2 Earnings Wednesday — 480K Deliveries, 7.6% Options Swing",
+      "time": "Sun, 27 Sep 2026 20:28:25",
       "sentiment": 0
     },
     {
       "ticker": "QCOM",
-      "title": "How to Trade Qualcomm Stock Near Multi-Month Highs",
-      "time": "Sun, 27 Sep 2026 19:46:27",
+      "title": "Qualcomm Stock Has an Opportunity Investors May Be Underestimating",
+      "time": "Sun, 27 Sep 2026 17:00:41",
+      "sentiment": 0
+    },
+    {
+      "ticker": "QCOM",
+      "title": "Qualcomm Just Agreed to Acquire Robotics Software Firm Picknik. How to Approach the Stock Now.",
+      "time": "Mon, 28 Sep 2026 13:00:02",
       "sentiment": 0
     },
     {
@@ -853,9 +919,9 @@
       "sentiment": 0
     },
     {
-      "ticker": "QCOM",
-      "title": "Qualcomm Stock Has an Opportunity Investors May Be Underestimating",
-      "time": "Sun, 27 Sep 2026 17:00:41",
+      "ticker": "NEE",
+      "title": "NextEra Energy stock trades at USD 76.08 as guidance holds",
+      "time": "Mon, 28 Sep 2026 09:09:52",
       "sentiment": 0
     },
     {
@@ -872,20 +938,26 @@
     },
     {
       "ticker": "NEE",
-      "title": "Learn Why The Bull Case For OGE Energy (OGE) Could Change Following Dividend Increase",
-      "time": "Sun, 27 Sep 2026 16:33:27",
+      "title": "Top 3 Nuclear Stocks To Watch In September 2026",
+      "time": "Mon, 28 Sep 2026 10:31:03",
       "sentiment": 0
     },
     {
       "ticker": "NEE",
-      "title": "Best Dividend Stocks To Add to Your Watchlist - September 27th",
-      "time": "Sun, 27 Sep 2026 19:22:21",
+      "title": "ETFs Bought $21.0 Million of NextEra Energy (NEE) on Thursday",
+      "time": "Mon, 28 Sep 2026 10:39:56",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NEE",
+      "title": "Morgan Stanley shares 12 AI bottleneck stocks with at least 40% upside as Big Tech capex continues to boom",
+      "time": "Mon, 28 Sep 2026 09:30:21",
       "sentiment": 0
     },
     {
       "ticker": "AAPL",
-      "title": "Apple Inc (AAPL) Stock Price Today: $340.55",
-      "time": "Mon, 28 Sep 2026 02:10:25",
+      "title": "Apple Inc (AAPL) Stock Price Today: $340.57",
+      "time": "Mon, 28 Sep 2026 06:04:17",
       "sentiment": 0
     },
     {
@@ -896,20 +968,20 @@
     },
     {
       "ticker": "AAPL",
+      "title": "Apple (AAPL)’s Premium iPhone Strategy Faces a Test Beyond Early Adopters",
+      "time": "Mon, 28 Sep 2026 00:32:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAPL",
       "title": "Apple Inc. $AAPL Shares Newly Acquired by Caisse de depot et placement du Quebec",
       "time": "Mon, 28 Sep 2026 07:17:34",
       "sentiment": 0
     },
     {
       "ticker": "AAPL",
-      "title": "Apple Inc. $AAPL Shares Newly Purchased by Perennial Investment Advisors LLC",
-      "time": "Mon, 28 Sep 2026 07:17:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AAPL",
-      "title": "Berkshire Hathaway Inc Acquires 227,917,808 Shares of Apple Inc. $AAPL",
-      "time": "Mon, 28 Sep 2026 07:13:41",
+      "title": "95,277 Shares of Apple Inc. $AAPL Acquired by Strategic Global Advisors LLC",
+      "time": "Mon, 28 Sep 2026 07:31:38",
       "sentiment": 0
     },
     {
@@ -925,9 +997,21 @@
       "sentiment": 0
     },
     {
-      "ticker": "C",
-      "title": "Citigroup stock at USD 134.28 on September 25, 2026",
-      "time": "Mon, 28 Sep 2026 05:40:40",
+      "ticker": "MRK",
+      "title": "Merck agreed to pay $400 million upfront for rights to develop an experimental cancer drug.",
+      "time": "Mon, 28 Sep 2026 10:45:10",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MRK",
+      "title": "Merck Signs Exclusive License Agreement for SciBrunch Therapeutics SPR2015 Inhibitor",
+      "time": "Mon, 28 Sep 2026 11:37:18",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MRK",
+      "title": "Merck & Co. stock trades at USD 148.74 after pipeline updates",
+      "time": "Mon, 28 Sep 2026 10:21:52",
       "sentiment": 0
     },
     {
@@ -944,26 +1028,8 @@
     },
     {
       "ticker": "MRK",
-      "title": "BB Stock To $10? Retail Traders Eye New Highs On QNX, Physical AI Boost",
-      "time": "Sun, 27 Sep 2026 19:33:20",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MRK",
-      "title": "Merck says FDA approves update for U.S. product label for Winrevair",
-      "time": "Sun, 27 Sep 2026 22:45:48",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MRK",
-      "title": "5 biotech stocks for the FDA calendar to April 2027, from the KXCO Biotech Ontology",
-      "time": "Mon, 28 Sep 2026 07:03:27",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMGN",
-      "title": "Amgen Inc. (AMGN) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 00:54:06",
+      "title": "Merck licenses KRAS G12D inhibitor for $400M upfront By Investing.com",
+      "time": "Mon, 28 Sep 2026 10:50:54",
       "sentiment": 0
     },
     {
@@ -980,14 +1046,38 @@
     },
     {
       "ticker": "AMGN",
+      "title": "AMGN DCF Analysis: Intrinsic Value $189 vs Price $415",
+      "time": "Mon, 28 Sep 2026 11:33:30",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMGN",
       "title": "Why Amgen’s Pipeline Just Got More Interesting",
       "time": "Sun, 27 Sep 2026 20:34:31",
       "sentiment": 0
     },
     {
       "ticker": "AMGN",
-      "title": "Biogen Inc. (BIIB) stock price, news, quote and history",
-      "time": "Sun, 27 Sep 2026 09:22:22",
+      "title": "Biotech Stocks To Follow Today - September 27th",
+      "time": "Sun, 27 Sep 2026 16:17:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
+      "title": "ASML Holding N.V. (ASML) Stock Price, News, Quote & History",
+      "time": "Mon, 28 Sep 2026 10:11:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
+      "title": "What company Is ASML? Between ASML and AMD, Which Is a Better Investment?",
+      "time": "Sun, 27 Sep 2026 21:09:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
+      "title": "ASML Holding N.V. : UBS reiterates its Buy rating",
+      "time": "Mon, 28 Sep 2026 12:17:44",
       "sentiment": 0
     },
     {
@@ -998,38 +1088,32 @@
     },
     {
       "ticker": "ASML",
-      "title": "ASML261002C00920000 Interactive Stock Chart | ASML Oct 2026 920.000 call Stock",
-      "time": "Mon, 28 Sep 2026 00:25:38",
+      "title": "ASML CEO Highlights Barriers in EUV Lithography Market",
+      "time": "Mon, 28 Sep 2026 08:38:07",
       "sentiment": 0
     },
     {
-      "ticker": "ASML",
-      "title": "Why ASML is a buy After Terafab Deal?",
-      "time": "Sun, 27 Sep 2026 12:07:10",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
-      "title": "ASML Holding N.V. - New York Registry Shares Price Today | xASML Live Price, Chart & Market Cap",
-      "time": "Sun, 27 Sep 2026 12:45:54",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
-      "title": "ASML Holding stock at EUR 1,522.60 on September 25, 2026",
-      "time": "Mon, 28 Sep 2026 05:46:19",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
-      "title": "Price Prediction: TSMC Could Reach $600 as Capacity Constraints Drive the AI Boom Forward",
-      "time": "Sun, 27 Sep 2026 16:00:00",
+      "ticker": "ADI",
+      "title": "Competitor Analysis: Evaluating Analog Devices And Competitors In Semiconductors & Semiconductor Equi",
+      "time": "Mon, 28 Sep 2026 09:59:18",
       "sentiment": 0
     },
     {
       "ticker": "ADI",
       "title": "The Zacks Analyst Blog Highlights Analog Devices, Semtech, Taiwan Semiconductor and ASM",
-      "time": "Mon, 28 Sep 2026 06:00:00",
+      "time": "Mon, 28 Sep 2026 08:06:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADI",
+      "title": "ADI DCF Analysis: Intrinsic Value $109 vs Price $394",
+      "time": "Mon, 28 Sep 2026 11:32:48",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADI",
+      "title": "Texas Instruments Incorporated (TXN) Stock Price, News, Quote & History",
+      "time": "Mon, 28 Sep 2026 06:41:43",
       "sentiment": 0
     },
     {
@@ -1040,14 +1124,14 @@
     },
     {
       "ticker": "ADI",
-      "title": "Prediction: ON Semiconductor Could Be a Sleeper AI Infrastructure Winner",
-      "time": "Sun, 27 Sep 2026 17:33:21",
+      "title": "Top Cerebras Systems (CBRS) Competitors 2026",
+      "time": "Sun, 27 Sep 2026 16:46:50",
       "sentiment": 0
     },
     {
-      "ticker": "ADI",
-      "title": "Top Cerebras Systems (CBRS) Competitors 2026",
-      "time": "Sun, 27 Sep 2026 16:46:50",
+      "ticker": "TXN",
+      "title": "Texas Instruments Incorporated (TXN) Stock Price, News, Quote & History",
+      "time": "Mon, 28 Sep 2026 06:41:43",
       "sentiment": 0
     },
     {
