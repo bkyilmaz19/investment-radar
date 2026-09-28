@@ -1,49 +1,10 @@
 {
-  "generated_at_local": "28.09.2026 20:58 CEST",
-  "market_regime": "Gemischt / selektiv",
+  "generated_at_local": "28.09.2026 21:15 CEST",
+  "market_regime": "Risk-off / erhöhte Vorsicht",
   "universe_size": 204,
   "scanned_count": 201,
-  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "summary": "Risk-off / erhöhte Vorsicht. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "MSFT",
-      "name": "Microsoft",
-      "score": 95,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.66%, 5T +4.53%, relatives Volumen 1.52x, ATR 2.12%",
-      "catalyst": "Premarket-/Momentum-Bestätigung",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.96%, seit Open +1.14%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.27,
-      "target_pct": 2.42,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.66%",
-      "change_5d": "+4.53%",
-      "volume_ratio": "1.52x",
-      "atr_pct": "2.12%",
-      "gap_pct": "-2.08%",
-      "premarket_move_pct": "-2.11%",
-      "live_gap_pct": "-0.96%",
-      "regular_move_pct": "+1.14%",
-      "avg_dollar_volume": 10936945361.76,
-      "bar_age_minutes": 3.1,
-      "vwap": 508.25,
-      "opening_range_high": 506.49,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
     {
       "ticker": "ISRG",
       "name": "Intuitive Surgical",
@@ -52,7 +13,7 @@
       "thesis": "1T +1.42%, 5T +3.01%, relatives Volumen 0.96x, ATR 2.90%",
       "catalyst": "Intuitive Surgical (ISRG) Gains A New Europe Approval Following A Fresh Undervalued View",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.34%, seit Open +2.34%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.29%, seit Open +2.29%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.74,
       "target_pct": 3.3,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +23,11 @@
       "atr_pct": "2.90%",
       "gap_pct": "-0.08%",
       "premarket_move_pct": "+0.07%",
-      "live_gap_pct": "+2.34%",
-      "regular_move_pct": "+2.34%",
+      "live_gap_pct": "+2.29%",
+      "regular_move_pct": "+2.29%",
       "avg_dollar_volume": 913299526.62,
-      "bar_age_minutes": 0.1,
-      "vwap": 412.98,
+      "bar_age_minutes": 0.9,
+      "vwap": 413.03,
       "opening_range_high": 410.54,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -91,7 +52,7 @@
       "thesis": "1T +0.59%, 5T +2.69%, relatives Volumen 0.76x, ATR 1.89%",
       "catalyst": "Hilton’s Asset-Light Model Keeps Room For Growth",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.33%, seit Open +2.77%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.35%, seit Open +2.80%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.13,
       "target_pct": 2.15,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +62,11 @@
       "atr_pct": "1.89%",
       "gap_pct": "noch nicht verfügbar",
       "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "+2.33%",
-      "regular_move_pct": "+2.77%",
+      "live_gap_pct": "+2.35%",
+      "regular_move_pct": "+2.80%",
       "avg_dollar_volume": 526399056.73,
-      "bar_age_minutes": 3.1,
-      "vwap": 317.39,
+      "bar_age_minutes": 0.9,
+      "vwap": 317.54,
       "opening_range_high": 313.62,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -123,38 +84,38 @@
       }
     },
     {
-      "ticker": "AAL",
-      "name": "American Airlines",
-      "score": 92,
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.90%, 5T +7.02%, relatives Volumen 1.09x, ATR 3.36%",
-      "catalyst": "AAL, UAL, DAL, LUV Stocks Surge Overnight: Airline Stocks Catch A Tailwind As US-Iran Deal Cools Fuel Fears",
+      "thesis": "1T +3.66%, 5T +4.53%, relatives Volumen 1.52x, ATR 2.12%",
+      "catalyst": "Premarket-/Momentum-Bestätigung",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Gap noch -1.98%. Warten, bis der Kurs mindestens in den erlaubten Gap-Bereich zurückkehrt und Stabilität zeigt.",
-      "stop_pct": 2.01,
-      "target_pct": 3.83,
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -1.24%, seit Open +0.86%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.27,
+      "target_pct": 2.42,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.90%",
-      "change_5d": "+7.02%",
-      "volume_ratio": "1.09x",
-      "atr_pct": "3.36%",
-      "gap_pct": "-2.07%",
-      "premarket_move_pct": "-0.93%",
-      "live_gap_pct": "-1.98%",
-      "regular_move_pct": "+0.32%",
-      "avg_dollar_volume": 932218508.68,
-      "bar_age_minutes": 3.1,
-      "vwap": 13.48,
-      "opening_range_high": 13.58,
+      "change_1d": "+3.66%",
+      "change_5d": "+4.53%",
+      "volume_ratio": "1.52x",
+      "atr_pct": "2.12%",
+      "gap_pct": "-2.08%",
+      "premarket_move_pct": "-2.11%",
+      "live_gap_pct": "-1.24%",
+      "regular_move_pct": "+0.86%",
+      "avg_dollar_volume": 10936945361.76,
+      "bar_age_minutes": 0.9,
+      "vwap": 508.33,
+      "opening_range_high": 506.49,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": false,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": false,
@@ -169,7 +130,7 @@
       "thesis": "1T +2.11%, 5T +1.88%, relatives Volumen 0.77x, ATR 3.22%",
       "catalyst": "Carnival (CCL): A Record Quarter Meets a Fuel Bill Nobody Can Hedge Away",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.31%, seit Open +2.15%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.13%, seit Open +1.97%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.93,
       "target_pct": 3.67,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,10 +140,10 @@
       "atr_pct": "3.22%",
       "gap_pct": "-1.33%",
       "premarket_move_pct": "-0.44%",
-      "live_gap_pct": "+0.31%",
-      "regular_move_pct": "+2.15%",
+      "live_gap_pct": "+0.13%",
+      "regular_move_pct": "+1.97%",
       "avg_dollar_volume": 518064999.07,
-      "bar_age_minutes": 3.1,
+      "bar_age_minutes": 0.9,
       "vwap": 22.26,
       "opening_range_high": 22.3,
       "opening_range_ready": true,
@@ -194,6 +155,45 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +4.36%, 5T +16.62%, relatives Volumen 1.55x, ATR 4.37%",
+      "catalyst": "CSCO's Security Growth Accelerates: Can It Outpace DDOG & CRWD?",
+      "risk_note": "Snowflake Slides 4% on Proposed $3.5B Convertible Offering; Oracle Falls 3%, Datadog Drops 4%",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.08%, seit Open +6.07%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.62,
+      "target_pct": 4.98,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+4.36%",
+      "change_5d": "+16.62%",
+      "volume_ratio": "1.55x",
+      "atr_pct": "4.37%",
+      "gap_pct": "-4.01%",
+      "premarket_move_pct": "-3.93%",
+      "live_gap_pct": "+1.08%",
+      "regular_move_pct": "+6.07%",
+      "avg_dollar_volume": 850554932.49,
+      "bar_age_minutes": 0.9,
+      "vwap": 267.98,
+      "opening_range_high": 267.0,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -241,12 +241,6 @@
       "sentiment": -1
     },
     {
-      "ticker": "AAL",
-      "title": "AAL, UAL, DAL, LUV Stocks Surge Overnight: Airline Stocks Catch A Tailwind As US-Iran Deal Cools Fuel Fears",
-      "time": "Sun, 27 Sep 2026 20:11:22",
-      "sentiment": 1
-    },
-    {
       "ticker": "DDOG",
       "title": "CSCO's Security Growth Accelerates: Can It Outpace DDOG & CRWD?",
       "time": "Mon, 28 Sep 2026 15:35:00",
@@ -256,6 +250,12 @@
       "ticker": "DDOG",
       "title": "DDOG's Late-June Rally Failed To Carry The Stock Beyond Recently Hit Record Highs – Interestingly, Bernstein Now Flags Slowing Demand Signals",
       "time": "Sun, 27 Sep 2026 19:36:27",
+      "sentiment": 1
+    },
+    {
+      "ticker": "DDOG",
+      "title": "Datadog Surges 5.4% to $271, Adding $4.9 Billion in One Session",
+      "time": "Mon, 28 Sep 2026 19:07:04",
       "sentiment": 1
     },
     {
@@ -290,8 +290,8 @@
     },
     {
       "ticker": "CAT",
-      "title": "Caterpillar Stock (CAT) Pullback Could Offer a Strong Entry Point",
-      "time": "Mon, 28 Sep 2026 13:56:42",
+      "title": "Can CAT Stock Surge Again On A $72B Data Center Backlog?",
+      "time": "Mon, 28 Sep 2026 18:30:07",
       "sentiment": 1
     },
     {
@@ -458,8 +458,8 @@
     },
     {
       "ticker": "MSFT",
-      "title": "Microsoft: Why The $3.8T Fortress Won't Deliver An AI Moonshot (NASDAQ:MSFT)",
-      "time": "Mon, 28 Sep 2026 14:25:07",
+      "title": "Microsoft: At 5% Yields, It's A $4 Trillion AI Haven To Own (NASDAQ:MSFT)",
+      "time": "Mon, 28 Sep 2026 15:39:42",
       "sentiment": 0
     },
     {
@@ -549,13 +549,19 @@
     {
       "ticker": "CVS",
       "title": "UnitedHealth Group Incorporated (UNH) stock price, news, quote and history",
-      "time": "Sun, 27 Sep 2026 21:38:04",
+      "time": "Sun, 27 Sep 2026 23:55:53",
       "sentiment": 0
     },
     {
       "ticker": "CVS",
       "title": "S&P 500 Movers | Winners: BE, ON, MCHP | Losers: GEN, CHTR, DVN",
       "time": "Mon, 28 Sep 2026 05:04:28",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AAL",
+      "title": "American Airlines Stock's New Floor Holds, But Resistance Remains",
+      "time": "Mon, 28 Sep 2026 18:55:17",
       "sentiment": 0
     },
     {
@@ -598,12 +604,6 @@
       "ticker": "DDOG",
       "title": "William O'Neil Initiates Datadog at Buy",
       "time": "Mon, 28 Sep 2026 09:33:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DDOG",
-      "title": "The $1 Trillion Question Facing Palantir Stock",
-      "time": "Mon, 28 Sep 2026 16:30:00",
       "sentiment": 0
     },
     {
@@ -656,14 +656,20 @@
     },
     {
       "ticker": "CAT",
-      "title": "Can Caterpillar (NYSE:CAT) Keep Riding the Data-Center Power Wave?",
-      "time": "Mon, 28 Sep 2026 17:20:00",
+      "title": "Caterpillar (CAT) CEO holds 11,234 share-linked units, settled in cash upon retirement or separation.",
+      "time": "Mon, 28 Sep 2026 19:01:55",
       "sentiment": 0
     },
     {
       "ticker": "CAT",
-      "title": "BofA Securities Maintains Caterpillar(CAT.US) With Buy Rating, Announces Target Price $989",
-      "time": "Mon, 28 Sep 2026 13:19:33",
+      "title": "Caterpillar (CAT) CFO gets 18 share-linked units that settle in cash at retirement or departure.",
+      "time": "Mon, 28 Sep 2026 19:01:55",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CAT",
+      "title": "Can Caterpillar (NYSE:CAT) Keep Riding the Data-Center Power Wave?",
+      "time": "Mon, 28 Sep 2026 17:20:00",
       "sentiment": 0
     },
     {
@@ -674,14 +680,8 @@
     },
     {
       "ticker": "CAT",
-      "title": "Dell To Officially Join Tesla, Oracle, Caterpillar In Texas As Stock Eyes Best Year Since Returning To Public Markets",
-      "time": "Mon, 28 Sep 2026 02:31:57",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CAT",
-      "title": "Caterpillar shares stall below resistance at $823 as chart signals diverge: weekly analysis",
-      "time": "Mon, 28 Sep 2026 14:21:36",
+      "title": "BofA Securities Maintains Caterpillar(CAT.US) With Buy Rating, Announces Target Price $989",
+      "time": "Mon, 28 Sep 2026 13:19:33",
       "sentiment": 0
     },
     {
@@ -734,8 +734,8 @@
     },
     {
       "ticker": "ISRG",
-      "title": "Which S&P500 stocks are moving on Monday?",
-      "time": "Mon, 28 Sep 2026 16:35:01",
+      "title": "Stay informed with the top movers within the S&P500 index on Monday.",
+      "time": "Mon, 28 Sep 2026 19:05:01",
       "sentiment": 0
     },
     {
@@ -752,8 +752,8 @@
     },
     {
       "ticker": "ISRG",
-      "title": "NeuroSense CFO to discuss ALS drug PrimeC progr...",
-      "time": "Mon, 28 Sep 2026 16:53:53",
+      "title": "Which S&P500 stocks are moving on Monday?",
+      "time": "Mon, 28 Sep 2026 16:35:01",
       "sentiment": 0
     },
     {
@@ -766,6 +766,12 @@
       "ticker": "HLT",
       "title": "Here's How Much $1000 Invested In Hilton Worldwide Holdings 5 Years Ago Would Be Worth Today",
       "time": "Mon, 28 Sep 2026 15:30:29",
+      "sentiment": 0
+    },
+    {
+      "ticker": "HLT",
+      "title": "Stay informed with the top movers within the S&P500 index on Monday.",
+      "time": "Mon, 28 Sep 2026 19:05:01",
       "sentiment": 0
     },
     {
@@ -956,8 +962,8 @@
     },
     {
       "ticker": "TSLA",
-      "title": "Tesla Inc Stock (TSLA) Moved Down by 3.10% on Sep 28: What Signal Does It Send?",
-      "time": "Mon, 28 Sep 2026 15:15:25",
+      "title": "Tesla Stock Forecast: Shares May Face New Drop as Q3 Delivery Estimates Cut, Trump Plans to Relax Fuel Economy Standards",
+      "time": "Mon, 28 Sep 2026 14:42:26",
       "sentiment": 0
     },
     {
@@ -1022,14 +1028,14 @@
     },
     {
       "ticker": "NEE",
-      "title": "41 New 4-Star Stocks This Week",
-      "time": "Mon, 28 Sep 2026 13:40:23",
+      "title": "3 Great Nuclear Stocks To Own In September 2026",
+      "time": "Mon, 28 Sep 2026 10:09:33",
       "sentiment": 0
     },
     {
       "ticker": "NEE",
-      "title": "3 Great Nuclear Stocks To Own In September 2026",
-      "time": "Mon, 28 Sep 2026 10:09:33",
+      "title": "41 New 4-Star Stocks This Week",
+      "time": "Mon, 28 Sep 2026 13:40:23",
       "sentiment": 0
     },
     {
@@ -1197,7 +1203,7 @@
     {
       "ticker": "ADI",
       "title": "Texas Instruments Incorporated (TXN) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 06:41:43",
+      "time": "Mon, 28 Sep 2026 13:41:52",
       "sentiment": 0
     },
     {
@@ -1215,7 +1221,7 @@
     {
       "ticker": "TXN",
       "title": "Texas Instruments Incorporated (TXN) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 06:41:43",
+      "time": "Mon, 28 Sep 2026 13:41:52",
       "sentiment": 0
     },
     {
