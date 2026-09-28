@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "28.09.2026 21:42 CEST",
+  "generated_at_local": "28.09.2026 21:56 CEST",
   "market_regime": "Risk-off / erhöhte Vorsicht",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +1.42%, 5T +3.01%, relatives Volumen 0.96x, ATR 2.90%",
       "catalyst": "Intuitive Surgical (ISRG) Gains A New Europe Approval Following A Fresh Undervalued View",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.37%, seit Open +2.37%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.29%, seit Open +2.29%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.74,
       "target_pct": 3.3,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "2.90%",
       "gap_pct": "-0.08%",
       "premarket_move_pct": "+0.07%",
-      "live_gap_pct": "+2.37%",
-      "regular_move_pct": "+2.37%",
+      "live_gap_pct": "+2.29%",
+      "regular_move_pct": "+2.29%",
       "avg_dollar_volume": 913299526.62,
-      "bar_age_minutes": 2.7,
-      "vwap": 413.17,
+      "bar_age_minutes": 1.4,
+      "vwap": 413.31,
       "opening_range_high": 410.54,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -52,7 +52,7 @@
       "thesis": "1T +0.59%, 5T +2.69%, relatives Volumen 0.76x, ATR 1.89%",
       "catalyst": "Hilton’s Asset-Light Model Keeps Room For Growth",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.23%, seit Open +2.68%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.08%, seit Open +2.53%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.13,
       "target_pct": 2.15,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,12 +62,51 @@
       "atr_pct": "1.89%",
       "gap_pct": "noch nicht verfügbar",
       "premarket_move_pct": "noch nicht verfügbar",
-      "live_gap_pct": "+2.23%",
-      "regular_move_pct": "+2.68%",
+      "live_gap_pct": "+2.08%",
+      "regular_move_pct": "+2.53%",
       "avg_dollar_volume": 526399056.73,
-      "bar_age_minutes": 2.7,
-      "vwap": 317.91,
+      "bar_age_minutes": 1.4,
+      "vwap": 318.15,
       "opening_range_high": 313.62,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen",
+      "score": 95,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.11%, 5T +7.51%, relatives Volumen 0.54x, ATR 2.87%",
+      "catalyst": "Take the Zacks Approach to Beat the Markets: Bloom Energy, Microsoft & Amgen in Focus",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.88%, seit Open +1.63%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.72,
+      "target_pct": 3.27,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.11%",
+      "change_5d": "+7.51%",
+      "volume_ratio": "0.54x",
+      "atr_pct": "2.87%",
+      "gap_pct": "-0.68%",
+      "premarket_move_pct": "-0.73%",
+      "live_gap_pct": "+0.88%",
+      "regular_move_pct": "+1.63%",
+      "avg_dollar_volume": 1226232755.62,
+      "bar_age_minutes": 1.4,
+      "vwap": 416.49,
+      "opening_range_high": 417.23,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -91,7 +130,7 @@
       "thesis": "1T +3.66%, 5T +4.53%, relatives Volumen 1.52x, ATR 2.12%",
       "catalyst": "Premarket-/Momentum-Bestätigung",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -1.36%, seit Open +0.74%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -1.32%, seit Open +0.78%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.27,
       "target_pct": 2.42,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +140,11 @@
       "atr_pct": "2.12%",
       "gap_pct": "-2.08%",
       "premarket_move_pct": "-2.11%",
-      "live_gap_pct": "-1.36%",
-      "regular_move_pct": "+0.74%",
+      "live_gap_pct": "-1.32%",
+      "regular_move_pct": "+0.78%",
       "avg_dollar_volume": 10936945361.76,
-      "bar_age_minutes": 2.7,
-      "vwap": 508.37,
+      "bar_age_minutes": 1.4,
+      "vwap": 508.46,
       "opening_range_high": 506.49,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -130,7 +169,7 @@
       "thesis": "1T +2.52%, 5T +4.86%, relatives Volumen 0.77x, ATR 3.59%",
       "catalyst": "AAL, UAL, DAL, LUV Stocks Surge Overnight: Airline Stocks Catch A Tailwind As US-Iran Deal Cools Fuel Fears",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Gap noch -2.04%. Warten, bis der Kurs mindestens in den erlaubten Gap-Bereich zurückkehrt und Stabilität zeigt.",
+      "entry_note": "Live-Gap noch -2.05%. Warten, bis der Kurs mindestens in den erlaubten Gap-Bereich zurückkehrt und Stabilität zeigt.",
       "stop_pct": 2.15,
       "target_pct": 4.09,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +179,11 @@
       "atr_pct": "3.59%",
       "gap_pct": "-2.48%",
       "premarket_move_pct": "-0.75%",
-      "live_gap_pct": "-2.04%",
-      "regular_move_pct": "+0.38%",
+      "live_gap_pct": "-2.05%",
+      "regular_move_pct": "+0.37%",
       "avg_dollar_volume": 421498072.91,
-      "bar_age_minutes": 2.7,
-      "vwap": 110.89,
+      "bar_age_minutes": 1.4,
+      "vwap": 110.94,
       "opening_range_high": 111.24,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -158,45 +197,6 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": false,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "TXN",
-      "name": "Texas Instruments",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.74%, 5T +4.29%, relatives Volumen 0.45x, ATR 2.94%",
-      "catalyst": "Texas Instruments Extends Dividend Growth Streak to 23 Years with 7% Raise",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.01%, seit Open +0.33%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.76,
-      "target_pct": 3.35,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.74%",
-      "change_5d": "+4.29%",
-      "volume_ratio": "0.45x",
-      "atr_pct": "2.94%",
-      "gap_pct": "-0.37%",
-      "premarket_move_pct": "+1.36%",
-      "live_gap_pct": "-0.01%",
-      "regular_move_pct": "+0.33%",
-      "avg_dollar_volume": 1603070282.93,
-      "bar_age_minutes": 2.7,
-      "vwap": 277.16,
-      "opening_range_high": 278.44,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
         "confirmation_ok": true
       }
     }
@@ -321,7 +321,7 @@
     {
       "ticker": "HLT",
       "title": "Hilton’s Asset-Light Model Keeps Room For Growth",
-      "time": "Mon, 28 Sep 2026 01:38:18",
+      "time": "Mon, 28 Sep 2026 11:43:37",
       "sentiment": 1
     },
     {
@@ -406,6 +406,12 @@
       "ticker": "AMGN",
       "title": "Take the Zacks Approach to Beat the Markets: Bloom Energy, Microsoft & Amgen in Focus",
       "time": "Mon, 28 Sep 2026 12:12:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "AMGN",
+      "title": "Scotiabank Raises Amgen Price Target to $500 From $450, Sector Outperform Rating Kept",
+      "time": "Mon, 28 Sep 2026 17:34:42",
       "sentiment": 1
     },
     {
@@ -734,6 +740,12 @@
     },
     {
       "ticker": "ISRG",
+      "title": "Gilead vs. Intuitive Surgical: Which Healthcare Stock Offers the Better Risk-Adjusted Upside?",
+      "time": "Mon, 28 Sep 2026 19:27:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ISRG",
       "title": "Stay informed with the top movers within the S&P500 index on Monday.",
       "time": "Mon, 28 Sep 2026 19:05:01",
       "sentiment": 0
@@ -742,12 +754,6 @@
       "ticker": "ISRG",
       "title": "Here's Why You Should Retain OPK Stock in Your Portfolio for Now",
       "time": "Mon, 28 Sep 2026 14:52:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ISRG",
-      "title": "Are Options Traders Betting on a Big Move in OSI Systems Stock?",
-      "time": "Mon, 28 Sep 2026 16:00:00",
       "sentiment": 0
     },
     {
@@ -830,7 +836,7 @@
     },
     {
       "ticker": "DIS",
-      "title": "Ex-Disney CEO Bob Chapek advises startups, open to PE fund: Bloomberg",
+      "title": "Ex-Disney CEO Bob Chapek advises startups, open to PE fund: Bloomberg (DIS:NYSE)",
       "time": "Mon, 28 Sep 2026 10:41:30",
       "sentiment": 0
     },
@@ -850,6 +856,12 @@
       "ticker": "DIS",
       "title": "Goldman Sachs lowers Disney stock price target to $140 on EBITDA",
       "time": "Mon, 28 Sep 2026 10:08:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DKNG",
+      "title": "DKNG Stock Gets A Cheer From Wall Street – Retail Sees Headlines Shifting From ‘Prediction Market Doom To Prediction Market Boom’",
+      "time": "Mon, 28 Sep 2026 02:47:59",
       "sentiment": 0
     },
     {
@@ -1010,14 +1022,14 @@
     },
     {
       "ticker": "QCOM",
-      "title": "Qualcomm Just Locked In Apple. Our Target Sits Above Wall Street’s",
-      "time": "Mon, 28 Sep 2026 13:30:00",
+      "title": "Qualcomm Just Agreed to Acquire Robotics Software Firm Picknik. How to Approach the Stock Now.",
+      "time": "Mon, 28 Sep 2026 13:00:02",
       "sentiment": 0
     },
     {
       "ticker": "QCOM",
-      "title": "US Market Movers | Chip Stocks Decline Broadly; Qualcomm (QCOM.US) Drops Nearly 7%",
-      "time": "Mon, 28 Sep 2026 14:22:11",
+      "title": "Intel vs. Qualcomm: Which Chip Stock Is a Better Buy in 2026?",
+      "time": "Mon, 28 Sep 2026 19:25:11",
       "sentiment": 0
     },
     {
@@ -1142,8 +1154,8 @@
     },
     {
       "ticker": "AMGN",
-      "title": "Amgen (AMGN) Sells its Deerfield Campus for $151 Million and Leases it Back",
-      "time": "Sun, 27 Sep 2026 19:55:55",
+      "title": "Why Amgen’s Pipeline Just Got More Interesting",
+      "time": "Sun, 27 Sep 2026 20:34:31",
       "sentiment": 0
     },
     {
@@ -1156,12 +1168,6 @@
       "ticker": "AMGN",
       "title": "Uncover the latest developments among dow jones stocks in today's session.",
       "time": "Mon, 28 Sep 2026 16:40:14",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMGN",
-      "title": "Why Amgen’s Pipeline Just Got More Interesting",
-      "time": "Sun, 27 Sep 2026 20:34:31",
       "sentiment": 0
     },
     {
