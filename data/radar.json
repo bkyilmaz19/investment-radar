@@ -1,49 +1,10 @@
 {
-  "generated_at_local": "29.09.2026 18:44 CEST",
+  "generated_at_local": "29.09.2026 18:59 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
-  "scanned_count": 201,
-  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "scanned_count": 200,
+  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 200 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "ASML",
-      "name": "ASML",
-      "score": 94,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.58%, 5T +3.51%, relatives Volumen 1.18x, ATR 2.84%",
-      "catalyst": "KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML?",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +2.60%, seit Open +0.37%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.71,
-      "target_pct": 3.24,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.58%",
-      "change_5d": "+3.51%",
-      "volume_ratio": "1.18x",
-      "atr_pct": "2.84%",
-      "gap_pct": "+2.24%",
-      "premarket_move_pct": "+0.67%",
-      "live_gap_pct": "+2.60%",
-      "regular_move_pct": "+0.37%",
-      "avg_dollar_volume": 2203195422.24,
-      "bar_age_minutes": 4.9,
-      "vwap": 1821.15,
-      "opening_range_high": 1816.45,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
     {
       "ticker": "XOM",
       "name": "Exxon Mobil",
@@ -52,7 +13,7 @@
       "thesis": "1T +1.20%, 5T +2.67%, relatives Volumen 0.97x, ATR 2.41%",
       "catalyst": "Are Current Oil Prices High Enough to Fuel ExxonMobil's Growth?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.41%, seit Open +1.02%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.44%, seit Open +1.00%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.44,
       "target_pct": 2.74,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +23,11 @@
       "atr_pct": "2.41%",
       "gap_pct": "-1.37%",
       "premarket_move_pct": "-1.37%",
-      "live_gap_pct": "-0.41%",
-      "regular_move_pct": "+1.02%",
+      "live_gap_pct": "-0.44%",
+      "regular_move_pct": "+1.00%",
       "avg_dollar_volume": 2374254204.17,
-      "bar_age_minutes": 4.9,
-      "vwap": 161.07,
+      "bar_age_minutes": 4.7,
+      "vwap": 161.11,
       "opening_range_high": 160.69,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -91,7 +52,7 @@
       "thesis": "1T +0.94%, 5T +1.33%, relatives Volumen 1.12x, ATR 2.29%",
       "catalyst": "Why Is Chevron (NYSE:CVX) In Focus After Its Venezuela Commitment And Record-High Shares?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.48%, seit Open +1.15%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.64%, seit Open +0.99%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.37,
       "target_pct": 2.61,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,12 +62,51 @@
       "atr_pct": "2.29%",
       "gap_pct": "-1.24%",
       "premarket_move_pct": "-1.33%",
-      "live_gap_pct": "-0.48%",
-      "regular_move_pct": "+1.15%",
+      "live_gap_pct": "-0.64%",
+      "regular_move_pct": "+0.99%",
       "avg_dollar_volume": 2160808391.38,
-      "bar_age_minutes": 4.9,
-      "vwap": 204.52,
+      "bar_age_minutes": 4.7,
+      "vwap": 204.56,
       "opening_range_high": 204.57,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "PM",
+      "name": "Philip Morris",
+      "score": 92,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.72%, 5T +3.35%, relatives Volumen 0.70x, ATR 2.31%",
+      "catalyst": "MO vs. PM: Which Tobacco Giant Has the Better Growth Story?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.47%, seit Open +0.47%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.38,
+      "target_pct": 2.63,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.72%",
+      "change_5d": "+3.35%",
+      "volume_ratio": "0.70x",
+      "atr_pct": "2.31%",
+      "gap_pct": "-1.28%",
+      "premarket_move_pct": "-0.90%",
+      "live_gap_pct": "-0.47%",
+      "regular_move_pct": "+0.47%",
+      "avg_dollar_volume": 836978907.33,
+      "bar_age_minutes": 4.8,
+      "vwap": 191.92,
+      "opening_range_high": 192.45,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
@@ -130,7 +130,7 @@
       "thesis": "1T +1.91%, 5T +2.02%, relatives Volumen 1.41x, ATR 1.56%",
       "catalyst": "Procter & Gamble Co. stock outperforms competitors on strong trading day",
       "risk_note": "The Stock Market Just Flashed a Warning Signal Seen Only a Handful of Times in 150 Years. Here's Where I'd Put Money Right Now.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.59%, seit Open +0.14%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.53%, seit Open +0.20%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 0.93,
       "target_pct": 2.0,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +140,11 @@
       "atr_pct": "1.56%",
       "gap_pct": "-0.58%",
       "premarket_move_pct": "-0.30%",
-      "live_gap_pct": "-0.59%",
-      "regular_move_pct": "+0.14%",
+      "live_gap_pct": "-0.53%",
+      "regular_move_pct": "+0.20%",
       "avg_dollar_volume": 1197723265.02,
-      "bar_age_minutes": 4.9,
-      "vwap": 147.91,
+      "bar_age_minutes": 4.7,
+      "vwap": 147.92,
       "opening_range_high": 148.23,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -169,7 +169,7 @@
       "thesis": "1T +0.67%, 5T +2.83%, relatives Volumen 1.02x, ATR 3.99%",
       "catalyst": "KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +2.36%, seit Open -0.67%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +2.42%, seit Open -0.62%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.4,
       "target_pct": 4.55,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +179,11 @@
       "atr_pct": "3.99%",
       "gap_pct": "+3.08%",
       "premarket_move_pct": "+2.41%",
-      "live_gap_pct": "+2.36%",
-      "regular_move_pct": "-0.67%",
+      "live_gap_pct": "+2.42%",
+      "regular_move_pct": "-0.62%",
       "avg_dollar_volume": 1719197946.5,
-      "bar_age_minutes": 4.9,
-      "vwap": 195.74,
+      "bar_age_minutes": 4.7,
+      "vwap": 195.69,
       "opening_range_high": 197.43,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -237,12 +237,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "ASML",
-      "title": "KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML?",
-      "time": "Tue, 29 Sep 2026 16:08:15",
-      "sentiment": 1
-    },
-    {
       "ticker": "ISRG",
       "title": "Intuitive Surgical (ISRG) Gains A New Europe Approval Following A Fresh Undervalued View",
       "time": "Mon, 28 Sep 2026 18:24:34",
@@ -255,9 +249,9 @@
       "sentiment": 1
     },
     {
-      "ticker": "NVDA",
-      "title": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
-      "time": "Tue, 29 Sep 2026 11:00:01",
+      "ticker": "ABBV",
+      "title": "AbbVie Stock Drops Although Juvmo Wins Parkinson's Approval",
+      "time": "Tue, 29 Sep 2026 16:19:08",
       "sentiment": 1
     },
     {
@@ -287,7 +281,7 @@
     {
       "ticker": "KLAC",
       "title": "KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML?",
-      "time": "Tue, 29 Sep 2026 16:08:15",
+      "time": "Tue, 29 Sep 2026 14:02:00",
       "sentiment": 1
     },
     {
@@ -406,9 +400,9 @@
     },
     {
       "ticker": "AMAT",
-      "title": "Morgan Stanley Cuts Applied Materials Price Target as AI Boom and Valuation Premium Diverge",
-      "time": "Tue, 29 Sep 2026 06:42:32",
-      "sentiment": -1
+      "title": "KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML?",
+      "time": "Tue, 29 Sep 2026 14:02:00",
+      "sentiment": 1
     },
     {
       "ticker": "CRWD",
@@ -420,6 +414,12 @@
       "ticker": "ADI",
       "title": "Analog Devices: Double-Digit Growth To Continue Into 2027 (NASDAQ:ADI)",
       "time": "Tue, 29 Sep 2026 05:41:10",
+      "sentiment": 1
+    },
+    {
+      "ticker": "NKE",
+      "title": "NKE Stock Heads For Another Month In The Red: Jefferies Bets On Nike's Recovery, Sees A Q1 Earnings Beat",
+      "time": "Tue, 29 Sep 2026 08:19:41",
       "sentiment": 1
     },
     {
@@ -450,6 +450,12 @@
       "ticker": "ASML",
       "title": "ASML Holding N.V. (ASML) Stock Price, News, Quote & History",
       "time": "Tue, 29 Sep 2026 00:13:53",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
+      "title": "What's Going On With ASML Stock Tuesday?",
+      "time": "Tue, 29 Sep 2026 16:41:56",
       "sentiment": 0
     },
     {
@@ -531,36 +537,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "NVDA",
-      "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History",
-      "time": "Tue, 29 Sep 2026 06:17:50",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Nvidia Just Put $150 Billion Behind Its Stock. Is It Cheap Enough?",
-      "time": "Tue, 29 Sep 2026 14:38:51",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Nvidia Stock Is at Its Cheapest Valuation Since 2015",
-      "time": "Tue, 29 Sep 2026 13:45:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NVDA",
-      "title": "NVIDIA Announces a $150 Billion Share Repurchase Authorization Increase",
-      "time": "Mon, 28 Sep 2026 17:02:51",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Is The Market Underpricing NVIDIA Stock?",
-      "time": "Tue, 29 Sep 2026 12:52:02",
-      "sentiment": 0
-    },
-    {
       "ticker": "ABBV",
       "title": "UnitedHealth, AbbVie And A Health Care Stock On CNBC’s ‘Final Trades’",
       "time": "Tue, 29 Sep 2026 14:41:47",
@@ -576,12 +552,6 @@
       "ticker": "ABBV",
       "title": "FDA Nod For JUVMO Parkinson’s Drug Could Be A Game Changer For AbbVie (ABBV)",
       "time": "Tue, 29 Sep 2026 05:11:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ABBV",
-      "title": "What Is Behind the Latest Moves at AbbVie (NYSE:ABBV)?",
-      "time": "Mon, 28 Sep 2026 17:23:00",
       "sentiment": 0
     },
     {
@@ -755,7 +725,7 @@
     {
       "ticker": "DHR",
       "title": "Form 4 Danaher Corporation For: 28 September By Investing.com",
-      "time": "Mon, 28 Sep 2026 21:53:12",
+      "time": "Mon, 28 Sep 2026 22:26:43",
       "sentiment": 0
     },
     {
@@ -809,7 +779,7 @@
     {
       "ticker": "HLT",
       "title": "Marriott International, Inc. (MAR) stock price, news, quote and history",
-      "time": "Tue, 29 Sep 2026 04:19:27",
+      "time": "Mon, 28 Sep 2026 18:57:20",
       "sentiment": 0
     },
     {
@@ -822,12 +792,6 @@
       "ticker": "HLT",
       "title": "The Great Rebalance: Hilton's 2027 Trends Report Reveals Why Travelers Are Embracing Good ‘Ish’ Over Perfection",
       "time": "Tue, 29 Sep 2026 04:02:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "HLT",
-      "title": "Marriott International, Inc. (MAR) stock price, news, quote and history",
-      "time": "Mon, 28 Sep 2026 18:57:20",
       "sentiment": 0
     },
     {
@@ -916,14 +880,20 @@
     },
     {
       "ticker": "WMT",
-      "title": "Walmart Earnings Ahead: Can WMT Stock Sustain Momentum Under New CEO?",
-      "time": "Mon, 28 Sep 2026 23:49:09",
+      "title": "Walmart Stock Trades 20% Below Its High: Here’s the Path to $128 by 2029",
+      "time": "Tue, 29 Sep 2026 16:44:36",
       "sentiment": 0
     },
     {
       "ticker": "WMT",
       "title": "Is It Worth Investing in Walmart (WMT) Based on Wall Street's Bullish Views?",
       "time": "Tue, 29 Sep 2026 12:30:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "WMT",
+      "title": "Walmart Earnings Ahead: Can WMT Stock Sustain Momentum Under New CEO?",
+      "time": "Mon, 28 Sep 2026 23:49:09",
       "sentiment": 0
     },
     {
@@ -936,12 +906,6 @@
       "ticker": "WMT",
       "title": "WMT Maintained by Mizuho -- Price Target Lowered to $125",
       "time": "Tue, 29 Sep 2026 13:51:39",
-      "sentiment": 0
-    },
-    {
-      "ticker": "WMT",
-      "title": "What Could Walmart (WMT) Gain From This New AI Shopping Test In India?",
-      "time": "Tue, 29 Sep 2026 08:40:04",
       "sentiment": 0
     },
     {
@@ -1036,8 +1000,8 @@
     },
     {
       "ticker": "DIS",
-      "title": "How to Play DIS Stock as Disney+ Price Hikes Take Effect",
-      "time": "Mon, 28 Sep 2026 22:44:18",
+      "title": "Disney's Q4 Should Look Healthy. Its 2027 Film Slate Is the Harder Setup, Analyst Says",
+      "time": "Tue, 29 Sep 2026 16:43:37",
       "sentiment": 0
     },
     {
@@ -1048,14 +1012,14 @@
     },
     {
       "ticker": "DIS",
-      "title": "Walt Disney (NYSE:DIS) Lifts Streaming Prices Again And Reshapes Tech Team",
-      "time": "Tue, 29 Sep 2026 16:01:00",
+      "title": "How to Play DIS Stock as Disney+ Price Hikes Take Effect",
+      "time": "Mon, 28 Sep 2026 22:44:18",
       "sentiment": 0
     },
     {
       "ticker": "DIS",
-      "title": "How Much Do You Need to Have Netflix, Disney and the 8 Major Streaming Platforms?",
-      "time": "Tue, 29 Sep 2026 15:30:16",
+      "title": "Walt Disney (NYSE:DIS) Lifts Streaming Prices Again And Reshapes Tech Team",
+      "time": "Tue, 29 Sep 2026 16:01:00",
       "sentiment": 0
     },
     {
@@ -1146,6 +1110,12 @@
       "ticker": "BIIB",
       "title": "Why Did KOD, RGEN, BIIB Stocks Rise To 52-Week Highs?",
       "time": "Tue, 29 Sep 2026 04:23:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BIIB",
+      "title": "Why Did KOD, RGEN, BIIB Stocks Rise To 52-Week Highs?",
+      "time": "Mon, 28 Sep 2026 21:23:00",
       "sentiment": 0
     },
     {
@@ -1242,6 +1212,36 @@
       "ticker": "ADI",
       "title": "Performance Comparison: Analog Devices And Competitors In Semiconductors & Semiconductor Equipment In",
       "time": "Tue, 29 Sep 2026 09:58:51",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NKE",
+      "title": "How Earnings Doubts At Nike Stock Have Changed Its Investment Story",
+      "time": "Tue, 29 Sep 2026 10:36:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NKE",
+      "title": "NIKE to Post Q1 Earnings: Should You Buy the Stock Before the Release?",
+      "time": "Tue, 29 Sep 2026 13:25:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NKE",
+      "title": "Nike's Win Now Plan Is For Patient Investors Willing To Win Later (NYSE:NKE)",
+      "time": "Tue, 29 Sep 2026 09:52:19",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NKE",
+      "title": "NKE Stock Faces Second Weekly Loss: Nike Takes Greater Control Of China Sales, Resets Digital Strategy",
+      "time": "Mon, 28 Sep 2026 23:11:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NKE",
+      "title": "What's Wrong With Nike Stock?",
+      "time": "Tue, 29 Sep 2026 12:50:57",
       "sentiment": 0
     }
   ]
