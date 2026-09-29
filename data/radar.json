@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "29.09.2026 22:54 CEST",
+  "generated_at_local": "29.09.2026 23:11 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -8,7 +8,7 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "score": 93,
+      "score": 95,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.68%, 5T +0.65%, relatives Volumen 1.54x, ATR 2.26%",
       "catalyst": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
@@ -26,7 +26,7 @@
       "live_gap_pct": "-0.68%",
       "regular_move_pct": "-1.55%",
       "avg_dollar_volume": 25247024621.94,
-      "bar_age_minutes": 4.7,
+      "bar_age_minutes": 1.6,
       "vwap": 229.68,
       "opening_range_high": 232.82,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "+3.87%",
       "regular_move_pct": "+0.80%",
       "avg_dollar_volume": 1719197946.5,
-      "bar_age_minutes": 4.7,
+      "bar_age_minutes": 1.1,
       "vwap": 195.74,
       "opening_range_high": 197.43,
       "opening_range_ready": true,
@@ -77,6 +77,45 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie",
+      "score": 91,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.73%, 5T +0.68%, relatives Volumen 1.41x, ATR 1.85%",
+      "catalyst": "AbbVie Stock Drops Although Juvmo Wins Parkinson's Approval",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.12%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.11,
+      "target_pct": 2.1,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.73%",
+      "change_5d": "+0.68%",
+      "volume_ratio": "1.41x",
+      "atr_pct": "1.85%",
+      "gap_pct": "+0.12%",
+      "premarket_move_pct": "+0.98%",
+      "live_gap_pct": "-1.13%",
+      "regular_move_pct": "-0.82%",
+      "avg_dollar_volume": 1076020882.44,
+      "bar_age_minutes": 46.6,
+      "vwap": 263.77,
+      "opening_range_high": 268.93,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -104,7 +143,7 @@
       "live_gap_pct": "+3.58%",
       "regular_move_pct": "+1.33%",
       "avg_dollar_volume": 2203195422.24,
-      "bar_age_minutes": 4.7,
+      "bar_age_minutes": 1.4,
       "vwap": 1824.28,
       "opening_range_high": 1816.45,
       "opening_range_ready": true,
@@ -123,76 +162,37 @@
       }
     },
     {
-      "ticker": "ABBV",
-      "name": "AbbVie",
-      "score": 89,
+      "ticker": "MDT",
+      "name": "Medtronic",
+      "score": 85,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.73%, 5T +0.68%, relatives Volumen 1.41x, ATR 1.85%",
-      "catalyst": "AbbVie Stock Drops Although Juvmo Wins Parkinson's Approval",
+      "thesis": "1T +0.97%, 5T -2.45%, relatives Volumen 2.02x, ATR 2.18%",
+      "catalyst": "3 Absurdly Cheap Growth Stocks That Are Trading Below $100",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.12%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.11,
-      "target_pct": 2.1,
+      "entry_note": "Premarket-Gap +0.00%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.31,
+      "target_pct": 2.49,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.73%",
-      "change_5d": "+0.68%",
-      "volume_ratio": "1.41x",
-      "atr_pct": "1.85%",
-      "gap_pct": "+0.12%",
-      "premarket_move_pct": "+0.98%",
-      "live_gap_pct": "-1.13%",
-      "regular_move_pct": "-0.82%",
-      "avg_dollar_volume": 1076020882.44,
-      "bar_age_minutes": 29.7,
-      "vwap": 263.77,
-      "opening_range_high": 268.93,
+      "change_1d": "+0.97%",
+      "change_5d": "-2.45%",
+      "volume_ratio": "2.02x",
+      "atr_pct": "2.18%",
+      "gap_pct": "+0.00%",
+      "premarket_move_pct": "-0.23%",
+      "live_gap_pct": "-2.69%",
+      "regular_move_pct": "-1.96%",
+      "avg_dollar_volume": 983381607.32,
+      "bar_age_minutes": 26.8,
+      "vwap": 87.3,
+      "opening_range_high": 89.22,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
         "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "MAR",
-      "name": "Marriott",
-      "score": 87,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.86%, 5T +4.64%, relatives Volumen 1.21x, ATR 2.07%",
-      "catalyst": "Carnival jumps on strong results but trails travel stocks in Quant ratings (XLY:NYSEARCA)",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.79%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.24,
-      "target_pct": 2.36,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.86%",
-      "change_5d": "+4.64%",
-      "volume_ratio": "1.21x",
-      "atr_pct": "2.07%",
-      "gap_pct": "+0.79%",
-      "premarket_move_pct": "+0.96%",
-      "live_gap_pct": "+0.88%",
-      "regular_move_pct": "-0.52%",
-      "avg_dollar_volume": 558313682.6,
-      "bar_age_minutes": 4.7,
-      "vwap": 359.93,
-      "opening_range_high": 364.08,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
+        "momentum_ok": false,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
@@ -251,12 +251,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "MAR",
-      "title": "Carnival jumps on strong results but trails travel stocks in Quant ratings (XLY:NYSEARCA)",
-      "time": "Tue, 29 Sep 2026 14:11:34",
-      "sentiment": 1
-    },
-    {
       "ticker": "NVDA",
       "title": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
       "time": "Tue, 29 Sep 2026 11:00:01",
@@ -269,9 +263,21 @@
       "sentiment": 1
     },
     {
+      "ticker": "NVDA",
+      "title": "Nvidia Stock Gains as $235 Billion Buyback Tests Capital Discipline",
+      "time": "Tue, 29 Sep 2026 18:14:16",
+      "sentiment": 1
+    },
+    {
       "ticker": "ABBV",
       "title": "AbbVie Stock Drops Although Juvmo Wins Parkinson's Approval",
       "time": "Tue, 29 Sep 2026 16:19:08",
+      "sentiment": 1
+    },
+    {
+      "ticker": "ABBV",
+      "title": "AbbVie Inc. stock outperforms competitors despite losses on the day",
+      "time": "Tue, 29 Sep 2026 20:31:00",
       "sentiment": 1
     },
     {
@@ -378,13 +384,19 @@
     },
     {
       "ticker": "WMT",
+      "title": "Walmart (NASDAQ:WMT) Shares Down 1.8% on Analyst Downgrade",
+      "time": "Tue, 29 Sep 2026 21:03:52",
+      "sentiment": -1
+    },
+    {
+      "ticker": "WMT",
       "title": "Walmart (NASDAQ:WMT) Stock: Outlook Raised After a Strong Second Quarter and a Changed Listing",
       "time": "Tue, 29 Sep 2026 19:18:00",
       "sentiment": 1
     },
     {
       "ticker": "TSM",
-      "title": "Taiwan Semiconductor Manufacturing Company stock reports 53.30 percent revenue growth",
+      "title": "Taiwan Semiconductor Manufacturing Company stock reports 53.30 percent revenue growth - ad-hoc-news.de",
       "time": "Tue, 29 Sep 2026 11:29:55",
       "sentiment": 1
     },
@@ -396,14 +408,14 @@
     },
     {
       "ticker": "TGT",
-      "title": "Target's price cuts are seen as the latest winning move by management (TGT:NYSE)",
-      "time": "Tue, 29 Sep 2026 17:55:58",
+      "title": "Target stock analysis: price cuts, margin pressure, and the holiday test",
+      "time": "Tue, 29 Sep 2026 19:30:14",
       "sentiment": -1
     },
     {
       "ticker": "TGT",
-      "title": "Target stock analysis: price cuts, margin pressure, and the holiday test",
-      "time": "Tue, 29 Sep 2026 19:26:13",
+      "title": "Target's price cuts are seen as the latest winning move by management (TGT:NYSE)",
+      "time": "Tue, 29 Sep 2026 17:55:58",
       "sentiment": -1
     },
     {
@@ -463,7 +475,7 @@
     {
       "ticker": "PG",
       "title": "I'd Put $1,000 Into Each of These 3 Dividend Stocks and Lose the Password",
-      "time": "Tue, 29 Sep 2026 15:05:19",
+      "time": "Tue, 29 Sep 2026 16:00:00",
       "sentiment": 0
     },
     {
@@ -474,8 +486,14 @@
     },
     {
       "ticker": "PG",
-      "title": "Procter & Gamble stock gains 1.91 percent as target reaches USD 160.61",
+      "title": "Procter & Gamble stock gains 1.91 percent as target reaches USD 160.61 - ad-hoc-news.de",
       "time": "Tue, 29 Sep 2026 06:44:37",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
+      "title": "ASML Holding N.V. (ASML) Stock Price, News, Quote & History",
+      "time": "Tue, 29 Sep 2026 04:53:23",
       "sentiment": 0
     },
     {
@@ -488,12 +506,6 @@
       "ticker": "ASML",
       "title": "ASML Rises as Chip Equipment Stocks Gain on AI Demand Optimism",
       "time": "Tue, 29 Sep 2026 14:49:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
-      "title": "UBS names top European chip stocks to watch ahead of Q3 2026 earnings season",
-      "time": "Tue, 29 Sep 2026 19:30:56",
       "sentiment": 0
     },
     {
@@ -528,8 +540,8 @@
     },
     {
       "ticker": "ISRG",
-      "title": "Here's Why You Should Retain Revvity Stock in Your Portfolio for Now",
-      "time": "Tue, 29 Sep 2026 13:12:00",
+      "title": "Here's Why You Should Retain McKesson Stock in Your Portfolio for Now",
+      "time": "Tue, 29 Sep 2026 17:57:00",
       "sentiment": 0
     },
     {
@@ -552,6 +564,12 @@
     },
     {
       "ticker": "MAR",
+      "title": "InterContinental Hotels: Japan Fits The K-Shaped Thesis (NYSE:IHG)",
+      "time": "Tue, 29 Sep 2026 20:59:37",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MAR",
       "title": "A Look Back at Consumer Discretionary - Travel and Vacation Providers Stocks’ Q2 Earnings: Marriott Vacations (NYSE:VAC) Vs The Rest Of The Pack",
       "time": "Tue, 29 Sep 2026 20:08:02",
       "sentiment": 0
@@ -566,12 +584,6 @@
       "ticker": "NVDA",
       "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history",
       "time": "Tue, 29 Sep 2026 14:40:08",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Is The Market Underpricing NVIDIA Stock?",
-      "time": "Tue, 29 Sep 2026 12:52:02",
       "sentiment": 0
     },
     {
@@ -602,12 +614,6 @@
       "ticker": "ABBV",
       "title": "What's Driving the Buzz Around AbbVie (NYSE:ABBV) Today?",
       "time": "Tue, 29 Sep 2026 12:30:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ABBV",
-      "title": "Valkai Partners with Abbvie to Apply Advanced Ai Across Targeted Areas of Clinical Development",
-      "time": "Tue, 29 Sep 2026 19:42:51",
       "sentiment": 0
     },
     {
@@ -774,14 +780,14 @@
     },
     {
       "ticker": "BMY",
-      "title": "Bristol Myers Squibb (BMY) Stock Trades Below Fair Value As Caution Lingers",
-      "time": "Tue, 29 Sep 2026 10:06:17",
+      "title": "Bristol-Myers Squibb stock after-hours: quarterly dividend set at USD 0.63 - ad-hoc-news.de",
+      "time": "Tue, 29 Sep 2026 20:01:24",
       "sentiment": 0
     },
     {
       "ticker": "BMY",
-      "title": "Bristol-Myers Squibb stock after-hours: quarterly dividend set at USD 0.63",
-      "time": "Tue, 29 Sep 2026 20:01:24",
+      "title": "Bristol Myers Squibb (BMY) Stock Trades Below Fair Value As Caution Lingers",
+      "time": "Tue, 29 Sep 2026 10:06:17",
       "sentiment": 0
     },
     {
@@ -804,7 +810,7 @@
     },
     {
       "ticker": "DHR",
-      "title": "Danaher stock reports USD 6.26 billion Q2 revenue ahead of earnings",
+      "title": "Danaher stock reports USD 6.26 billion Q2 revenue ahead of earnings - ad-hoc-news.de",
       "time": "Tue, 29 Sep 2026 11:24:01",
       "sentiment": 0
     },
@@ -864,8 +870,20 @@
     },
     {
       "ticker": "HLT",
+      "title": "InterContinental Hotels: Japan Fits The K-Shaped Thesis (NYSE:IHG)",
+      "time": "Tue, 29 Sep 2026 20:59:37",
+      "sentiment": 0
+    },
+    {
+      "ticker": "HLT",
       "title": "The Great Rebalance: Hilton's 2027 Trends Report Reveals Why Travelers Are Embracing Good ‘Ish’ Over Perfection",
       "time": "Tue, 29 Sep 2026 04:02:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "HLT",
+      "title": "InterContinental Hotels Group PLC (IHG) Stock Price, News, Quote & History",
+      "time": "Tue, 29 Sep 2026 06:04:36",
       "sentiment": 0
     },
     {
@@ -876,14 +894,14 @@
     },
     {
       "ticker": "XOM",
-      "title": "Can ExxonMobil Holdings (XOM) Stay Cheap With Cash Flow Growing?",
-      "time": "Tue, 29 Sep 2026 04:27:00",
+      "title": "ExxonMobil (NYSE:XOM) Stock: New Corporate Identity, Same Trading Symbol",
+      "time": "Tue, 29 Sep 2026 19:20:00",
       "sentiment": 0
     },
     {
       "ticker": "XOM",
-      "title": "ExxonMobil (NYSE:XOM) Stock: New Corporate Identity, Same Trading Symbol",
-      "time": "Tue, 29 Sep 2026 19:20:00",
+      "title": "Can ExxonMobil Holdings (XOM) Stay Cheap With Cash Flow Growing?",
+      "time": "Tue, 29 Sep 2026 04:27:00",
       "sentiment": 0
     },
     {
@@ -947,15 +965,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "WMT",
-      "title": "Walmart (NASDAQ:WMT) Price Target Cut to $125.00 by Analysts at Mizuho",
-      "time": "Tue, 29 Sep 2026 13:03:07",
+      "ticker": "TSM",
+      "title": "Prediction: Taiwan Semiconductor Manufacturing Will Hit a $3 Trillion Market Cap Before 2027 Is Over",
+      "time": "Tue, 29 Sep 2026 20:49:00",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
       "title": "Prediction: Taiwan Semiconductor Manufacturing Will Hit a $3 Trillion Market Cap Before 2027 Is Over",
-      "time": "Tue, 29 Sep 2026 20:31:48",
+      "time": "Tue, 29 Sep 2026 20:31:32",
       "sentiment": 0
     },
     {
@@ -974,12 +992,6 @@
       "ticker": "TSM",
       "title": "Taiwan Semiconductor Has Returned 132.6% in Eric Bleeker's AI Portfolio in Under Two Years",
       "time": "Tue, 29 Sep 2026 00:30:13",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSM",
-      "title": "I’m Jumping Back Into Taiwan Semiconductor Again and I Won’t Stop This Time",
-      "time": "Tue, 29 Sep 2026 16:12:10",
       "sentiment": 0
     },
     {
@@ -1104,7 +1116,7 @@
     },
     {
       "ticker": "MMM",
-      "title": "3M stock trades at EUR 149.23 as Bernstein lifts target",
+      "title": "3M stock trades at EUR 149.23 as Bernstein lifts target - ad-hoc-news.de",
       "time": "Tue, 29 Sep 2026 10:47:34",
       "sentiment": 0
     },
@@ -1170,7 +1182,7 @@
     },
     {
       "ticker": "BIIB",
-      "title": "Biogen stock at USD 228.69 on September 28, 2026",
+      "title": "Biogen stock at USD 228.69 on September 28, 2026 - ad-hoc-news.de",
       "time": "Mon, 28 Sep 2026 21:35:51",
       "sentiment": 0
     },
