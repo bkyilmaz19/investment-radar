@@ -1,19 +1,19 @@
 {
-  "generated_at_local": "29.09.2026 15:14 CEST",
-  "market_regime": "Risk-off / erhöhte Vorsicht",
+  "generated_at_local": "29.09.2026 15:36 CEST",
+  "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
-  "summary": "Risk-off / erhöhte Vorsicht. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
       "ticker": "ABBV",
       "name": "AbbVie",
-      "score": 91,
+      "score": 93,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +0.73%, 5T +0.68%, relatives Volumen 1.41x, ATR 1.85%",
       "catalyst": "Should FDA Approval Require Action From AbbVie (ABBV) Investors?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.12%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
       "stop_pct": 1.11,
       "target_pct": 2.1,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,17 +23,17 @@
       "atr_pct": "1.85%",
       "gap_pct": "+0.12%",
       "premarket_move_pct": "+0.98%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
+      "live_gap_pct": "+0.42%",
+      "regular_move_pct": "+0.73%",
       "avg_dollar_volume": 1076020882.44,
-      "bar_age_minutes": 34.6,
-      "vwap": null,
+      "bar_age_minutes": 1.6,
+      "vwap": 266.51,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Premarket",
+      "session_phase": "US-Handel live",
       "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
@@ -41,135 +41,18 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.68%, 5T +0.65%, relatives Volumen 1.53x, ATR 2.26%",
-      "catalyst": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.72%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.36,
-      "target_pct": 2.58,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.68%",
-      "change_5d": "+0.65%",
-      "volume_ratio": "1.53x",
-      "atr_pct": "2.26%",
-      "gap_pct": "+0.72%",
-      "premarket_move_pct": "+0.01%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 25237870221.91,
-      "bar_age_minutes": 4.6,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "TSM",
-      "name": "Taiwan Semiconductor",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.50%, 5T +1.74%, relatives Volumen 0.84x, ATR 2.20%",
-      "catalyst": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.14%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.32,
-      "target_pct": 2.51,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.50%",
-      "change_5d": "+1.74%",
-      "volume_ratio": "0.84x",
-      "atr_pct": "2.20%",
-      "gap_pct": "+0.14%",
-      "premarket_move_pct": "+0.35%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 4213071495.26,
-      "bar_age_minutes": 4.6,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Premarket",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "DHR",
-      "name": "Danaher",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.27%, 5T +5.32%, relatives Volumen 1.03x, ATR 2.39%",
-      "catalyst": "Gilead vs. Danaher: Which Healthcare Growth Story is More Convincing?",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.62%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 1.43,
-      "target_pct": 2.72,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.27%",
-      "change_5d": "+5.32%",
-      "volume_ratio": "1.03x",
-      "atr_pct": "2.39%",
-      "gap_pct": "-0.62%",
-      "premarket_move_pct": "+0.00%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 873524065.25,
-      "bar_age_minutes": 314.6,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Premarket",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
       }
     },
     {
       "ticker": "GILD",
       "name": "Gilead",
-      "score": 83,
+      "score": 89,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +0.85%, 5T +1.10%, relatives Volumen 0.93x, ATR 2.22%",
       "catalyst": "Can Lenacapavir Power Gilead Sciences (GILD)’s Next Growth Phase?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.43%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
       "stop_pct": 1.33,
       "target_pct": 2.53,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -177,17 +60,17 @@
       "change_5d": "+1.10%",
       "volume_ratio": "0.93x",
       "atr_pct": "2.22%",
-      "gap_pct": "-0.43%",
-      "premarket_move_pct": "-0.17%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
+      "gap_pct": "-1.32%",
+      "premarket_move_pct": "-1.07%",
+      "live_gap_pct": "+0.24%",
+      "regular_move_pct": "+1.59%",
       "avg_dollar_volume": 887866461.1,
-      "bar_age_minutes": 9.6,
-      "vwap": null,
+      "bar_age_minutes": 1.6,
+      "vwap": 151.28,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
-      "session_phase": "Premarket",
+      "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
@@ -197,7 +80,124 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": true
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "LYV",
+      "name": "Live Nation",
+      "score": 88,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.60%, 5T +1.60%, relatives Volumen 1.25x, ATR 2.23%",
+      "catalyst": "Live Nation stock reports 9 percent Q2 revenue growth at EUR 151.45",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "stop_pct": 1.34,
+      "target_pct": 2.54,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.60%",
+      "change_5d": "+1.60%",
+      "volume_ratio": "1.25x",
+      "atr_pct": "2.23%",
+      "gap_pct": "noch nicht verfügbar",
+      "premarket_move_pct": "noch nicht verfügbar",
+      "live_gap_pct": "+0.28%",
+      "regular_move_pct": "+0.55%",
+      "avg_dollar_volume": 343567447.35,
+      "bar_age_minutes": 6.6,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "score": 85,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.68%, 5T +0.65%, relatives Volumen 1.53x, ATR 2.26%",
+      "catalyst": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "stop_pct": 1.36,
+      "target_pct": 2.58,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.68%",
+      "change_5d": "+0.65%",
+      "volume_ratio": "1.53x",
+      "atr_pct": "2.26%",
+      "gap_pct": "+0.94%",
+      "premarket_move_pct": "+0.23%",
+      "live_gap_pct": "+0.63%",
+      "regular_move_pct": "-0.30%",
+      "avg_dollar_volume": 25237870221.91,
+      "bar_age_minutes": 1.6,
+      "vwap": 231.53,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "DHR",
+      "name": "Danaher",
+      "score": 84,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.27%, 5T +5.32%, relatives Volumen 1.03x, ATR 2.39%",
+      "catalyst": "Gilead vs. Danaher: Which Healthcare Growth Story is More Convincing?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "stop_pct": 1.43,
+      "target_pct": 2.72,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.27%",
+      "change_5d": "+5.32%",
+      "volume_ratio": "1.03x",
+      "atr_pct": "2.39%",
+      "gap_pct": "-0.51%",
+      "premarket_move_pct": "+0.10%",
+      "live_gap_pct": "-0.18%",
+      "regular_move_pct": "+0.15%",
+      "avg_dollar_volume": 873524065.25,
+      "bar_age_minutes": 1.6,
+      "vwap": 226.83,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
       }
     }
   ],
@@ -231,12 +231,6 @@
       "sentiment": -1
     },
     {
-      "ticker": "PG",
-      "title": "Procter & Gamble Co. stock outperforms competitors on strong trading day",
-      "time": "Mon, 28 Sep 2026 20:32:00",
-      "sentiment": 1
-    },
-    {
       "ticker": "ISRG",
       "title": "Intuitive Surgical (ISRG) Gains A New Europe Approval Following A Fresh Undervalued View",
       "time": "Mon, 28 Sep 2026 18:24:34",
@@ -268,14 +262,20 @@
     },
     {
       "ticker": "ABBV",
-      "title": "AbbVie (ABBV) Gains FDA Approval for Juvmo, Bolstering Parkinson's Portfolio",
-      "time": "Mon, 28 Sep 2026 13:30:52",
+      "title": "AbbVie (ABBV) Gains FDA Approval for Juvmo Tablets to Treat Park",
+      "time": "Mon, 28 Sep 2026 16:30:34",
       "sentiment": 1
     },
     {
       "ticker": "LYV",
       "title": "Live Nation stock reports 9 percent Q2 revenue growth at EUR 151.45",
       "time": "Tue, 29 Sep 2026 11:16:49",
+      "sentiment": 1
+    },
+    {
+      "ticker": "CVX",
+      "title": "Why Is Chevron (NYSE:CVX) In Focus After Its Venezuela Commitment And Record-High Shares?",
+      "time": "Mon, 28 Sep 2026 17:35:00",
       "sentiment": 1
     },
     {
@@ -288,6 +288,12 @@
       "ticker": "DHR",
       "title": "Gilead vs. Danaher: Which Healthcare Growth Story is More Convincing?",
       "time": "Mon, 28 Sep 2026 18:45:06",
+      "sentiment": 1
+    },
+    {
+      "ticker": "DHR",
+      "title": "Gilead vs. Thermo Fisher: Which Life Sciences Stock has the Stronger Growth Outlook?",
+      "time": "Mon, 28 Sep 2026 18:08:25",
       "sentiment": 1
     },
     {
@@ -328,12 +334,6 @@
     },
     {
       "ticker": "TSM",
-      "title": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
-      "time": "Mon, 28 Sep 2026 14:33:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "TSM",
       "title": "Taiwan Semiconductor Manufacturing Company stock reports 53.30 percent revenue growth",
       "time": "Tue, 29 Sep 2026 11:29:55",
       "sentiment": 1
@@ -341,7 +341,7 @@
     {
       "ticker": "TSM",
       "title": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
-      "time": "Mon, 28 Sep 2026 14:33:20",
+      "time": "Mon, 28 Sep 2026 14:33:00",
       "sentiment": 1
     },
     {
@@ -381,12 +381,6 @@
       "sentiment": -1
     },
     {
-      "ticker": "TGT",
-      "title": "Target cuts prices on 2,000 home and apparel it...",
-      "time": "Tue, 29 Sep 2026 10:16:29",
-      "sentiment": -1
-    },
-    {
       "ticker": "PM",
       "title": "Philip Morris International Inc. stock outperforms competitors on strong trading day",
       "time": "Mon, 28 Sep 2026 20:32:00",
@@ -414,12 +408,6 @@
       "ticker": "BIIB",
       "title": "Can Biogen's Growth Portfolio Maintain Its Lead Over Legacy MS Drugs?",
       "time": "Mon, 28 Sep 2026 13:41:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "BIIB",
-      "title": "Biogen stock closes 0.55 percent higher as Q2 growth holds",
-      "time": "Mon, 28 Sep 2026 13:20:39",
       "sentiment": 1
     },
     {
@@ -462,6 +450,12 @@
       "ticker": "PG",
       "title": "PG's Baby Care Regains China Lead on Premium Innovation Momentum",
       "time": "Mon, 28 Sep 2026 14:56:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PG",
+      "title": "Top dow jones movers in Monday's session",
+      "time": "Mon, 28 Sep 2026 19:10:15",
       "sentiment": 0
     },
     {
@@ -574,14 +568,14 @@
     },
     {
       "ticker": "NVDA",
-      "title": "What's Going On With NVIDIA Stock Tuesday? - NVIDIA (NASDAQ:NVDA)",
-      "time": "Tue, 29 Sep 2026 10:07:22",
+      "title": "Is The Market Underpricing NVIDIA Stock?",
+      "time": "Tue, 29 Sep 2026 12:52:02",
       "sentiment": 0
     },
     {
       "ticker": "NVDA",
-      "title": "Is The Market Underpricing NVIDIA Stock?",
-      "time": "Tue, 29 Sep 2026 12:52:02",
+      "title": "What's Going On With NVIDIA Stock Tuesday? - NVIDIA (NASDAQ:NVDA)",
+      "time": "Tue, 29 Sep 2026 10:07:22",
       "sentiment": 0
     },
     {
@@ -670,14 +664,14 @@
     },
     {
       "ticker": "CVX",
-      "title": "Chevron Is Expanding Its Presence in the Mediterranean. Here's What It Means for CVX Stock.",
-      "time": "Mon, 28 Sep 2026 15:13:00",
+      "title": "Oil Price Spike Could Be A Game Changer For Chevron Stock (CVX)",
+      "time": "Mon, 28 Sep 2026 13:58:38",
       "sentiment": 0
     },
     {
       "ticker": "CVX",
-      "title": "Oil Price Spike Could Be A Game Changer For Chevron Stock (CVX)",
-      "time": "Mon, 28 Sep 2026 13:30:21",
+      "title": "Chevron Is Expanding Its Presence in the Mediterranean. Here's What It Means for CVX Stock.",
+      "time": "Mon, 28 Sep 2026 15:13:00",
       "sentiment": 0
     },
     {
@@ -693,15 +687,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "CVX",
-      "title": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy in 2026?",
-      "time": "Tue, 29 Sep 2026 13:11:09",
+      "ticker": "MDT",
+      "title": "[425] Medtronic plc Business Combination Communication",
+      "time": "Mon, 28 Sep 2026 20:53:21",
       "sentiment": 0
     },
     {
       "ticker": "MDT",
-      "title": "[425] Medtronic plc Business Combination Communication",
-      "time": "Mon, 28 Sep 2026 20:53:21",
+      "title": "3 Historically Stable Dividend Raisers in Medical Devices Offering Solid Yields With Fortress-Like Growth",
+      "time": "Tue, 29 Sep 2026 13:26:00",
       "sentiment": 0
     },
     {
@@ -730,6 +724,12 @@
     },
     {
       "ticker": "PANW",
+      "title": "Stocks making big moves yesterday: TTM Technologies, PacBio, Nvidia, Palo Alto Networks, and Teleflex",
+      "time": "Tue, 29 Sep 2026 13:16:48",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PANW",
       "title": "Palo Alto Networks (NASDAQ:PANW) Director Sells $102,099.40 in Stock",
       "time": "Mon, 28 Sep 2026 21:10:29",
       "sentiment": 0
@@ -744,12 +744,6 @@
       "ticker": "PANW",
       "title": "Palo Alto Networks Inc Stock (PANW) Moved Up by 3.92% on Sep 28: What Investors Need To Know",
       "time": "Mon, 28 Sep 2026 16:15:24",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PANW",
-      "title": "At $392.6850 each, a director's family trust sold 260 Palo Alto Networks (PANW) shares.",
-      "time": "Mon, 28 Sep 2026 20:30:42",
       "sentiment": 0
     },
     {
@@ -791,7 +785,7 @@
     {
       "ticker": "DHR",
       "title": "Form 4 Danaher Corporation For: 28 September By Investing.com",
-      "time": "Mon, 28 Sep 2026 22:26:43",
+      "time": "Mon, 28 Sep 2026 21:53:12",
       "sentiment": 0
     },
     {
@@ -880,20 +874,14 @@
     },
     {
       "ticker": "XOM",
-      "title": "Exxon Mobil Corporation (XOM) Stock Price Today: $161.69",
-      "time": "Tue, 29 Sep 2026 06:32:36",
-      "sentiment": 0
-    },
-    {
-      "ticker": "XOM",
       "title": "Exxon Mobil Holdings (XOM) Gains As Market Dips: What You Should Know",
       "time": "Mon, 28 Sep 2026 20:45:04",
       "sentiment": 0
     },
     {
-      "ticker": "AMGN",
-      "title": "Amgen (AMGN), What Is Behind The Fresh Attention?",
-      "time": "Tue, 29 Sep 2026 00:08:00",
+      "ticker": "XOM",
+      "title": "Why Is ExxonMobil (NYSE:XOM) Back In Focus As Crude Firms On Middle East Tensions?",
+      "time": "Mon, 28 Sep 2026 17:35:00",
       "sentiment": 0
     },
     {
@@ -910,14 +898,20 @@
     },
     {
       "ticker": "AMGN",
+      "title": "Amgen (AMGN), What Is Behind The Fresh Attention?",
+      "time": "Tue, 29 Sep 2026 00:08:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMGN",
       "title": "Why Amgen’s 6% Dividend Raise Masks a Tougher Road Ahead",
       "time": "Tue, 29 Sep 2026 13:03:00",
       "sentiment": 0
     },
     {
       "ticker": "AMGN",
-      "title": "Understanding the Setup: (AMGN) and Scalable Risk",
-      "time": "Tue, 29 Sep 2026 00:18:02",
+      "title": "Why Amgen’s 6% Dividend Raise Masks a Tougher Road Ahead",
+      "time": "Tue, 29 Sep 2026 13:03:17",
       "sentiment": 0
     },
     {
@@ -988,6 +982,12 @@
     },
     {
       "ticker": "TSM",
+      "title": "TSM vs. UMC: Which Semiconductor Foundry Stock Should You Bet on Now?",
+      "time": "Tue, 29 Sep 2026 11:40:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSM",
       "title": "Chip Stocks To Watch And Semiconductor Industry News",
       "time": "Mon, 28 Sep 2026 16:25:00",
       "sentiment": 0
@@ -1002,6 +1002,12 @@
       "ticker": "GILD",
       "title": "Gilead vs. Intuitive Surgical: Which Healthcare Stock Offers the Better Risk-Adjusted Upside?",
       "time": "Mon, 28 Sep 2026 19:27:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TGT",
+      "title": "Here is What to Know Beyond Why Target Corporation (TGT) is a Trending Stock",
+      "time": "Tue, 29 Sep 2026 12:00:03",
       "sentiment": 0
     },
     {
@@ -1048,8 +1054,8 @@
     },
     {
       "ticker": "DIS",
-      "title": "The Walt Disney Company (DIS) latest stock news and headlines – Yahoo Finance",
-      "time": "Tue, 29 Sep 2026 00:08:44",
+      "title": "Disney (DIS) Pays for the Playoffs. What Happens When Series End Early?",
+      "time": "Tue, 29 Sep 2026 02:25:00",
       "sentiment": 0
     },
     {
@@ -1060,14 +1066,14 @@
     },
     {
       "ticker": "DIS",
-      "title": "Disney (DIS) Pays for the Playoffs. What Happens When Series End Early?",
-      "time": "Tue, 29 Sep 2026 02:25:00",
+      "title": "(DIS) Volatility Zones as Tactical Triggers",
+      "time": "Tue, 29 Sep 2026 00:58:03",
       "sentiment": 0
     },
     {
       "ticker": "DIS",
-      "title": "What Is Behind Walt Disney (NYSE:DIS) As Streaming Prices Climb?",
-      "time": "Mon, 28 Sep 2026 17:03:00",
+      "title": "How to Play DIS Stock as Disney+ Price Hikes Take Effect",
+      "time": "Mon, 28 Sep 2026 22:44:18",
       "sentiment": 0
     },
     {
@@ -1150,6 +1156,12 @@
     },
     {
       "ticker": "BIIB",
+      "title": "Why Did KOD, RGEN, BIIB Stocks Rise To 52-Week Highs?",
+      "time": "Tue, 29 Sep 2026 04:23:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BIIB",
       "title": "How Biogen Inc. (BIIB) Affects Rotational Strategy Timing",
       "time": "Tue, 29 Sep 2026 06:02:02",
       "sentiment": 0
@@ -1158,12 +1170,6 @@
       "ticker": "BIIB",
       "title": "Biogen stock at USD 228.69 on September 28, 2026",
       "time": "Mon, 28 Sep 2026 21:35:51",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BIIB",
-      "title": "Why Did KOD, RGEN, BIIB Stocks Rise To 52-Week Highs?",
-      "time": "Tue, 29 Sep 2026 04:23:00",
       "sentiment": 0
     },
     {
