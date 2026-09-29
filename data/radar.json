@@ -1,49 +1,10 @@
 {
-  "generated_at_local": "29.09.2026 23:11 CEST",
+  "generated_at_local": "29.09.2026 23:29 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "score": 95,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.68%, 5T +0.65%, relatives Volumen 1.54x, ATR 2.26%",
-      "catalyst": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.94%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.36,
-      "target_pct": 2.58,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.68%",
-      "change_5d": "+0.65%",
-      "volume_ratio": "1.54x",
-      "atr_pct": "2.26%",
-      "gap_pct": "+0.94%",
-      "premarket_move_pct": "+0.23%",
-      "live_gap_pct": "-0.68%",
-      "regular_move_pct": "-1.55%",
-      "avg_dollar_volume": 25247024621.94,
-      "bar_age_minutes": 1.6,
-      "vwap": 229.68,
-      "opening_range_high": 232.82,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
     {
       "ticker": "KLAC",
       "name": "KLA",
@@ -65,7 +26,7 @@
       "live_gap_pct": "+3.87%",
       "regular_move_pct": "+0.80%",
       "avg_dollar_volume": 1719197946.5,
-      "bar_age_minutes": 1.1,
+      "bar_age_minutes": 4.5,
       "vwap": 195.74,
       "opening_range_high": 197.43,
       "opening_range_ready": true,
@@ -104,9 +65,48 @@
       "live_gap_pct": "-1.13%",
       "regular_move_pct": "-0.82%",
       "avg_dollar_volume": 1076020882.44,
-      "bar_age_minutes": 46.6,
+      "bar_age_minutes": 0.2,
       "vwap": 263.77,
       "opening_range_high": 268.93,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.68%, 5T +0.65%, relatives Volumen 1.54x, ATR 2.26%",
+      "catalyst": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.94%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.36,
+      "target_pct": 2.58,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.68%",
+      "change_5d": "+0.65%",
+      "volume_ratio": "1.54x",
+      "atr_pct": "2.26%",
+      "gap_pct": "+0.94%",
+      "premarket_move_pct": "+0.23%",
+      "live_gap_pct": "-0.68%",
+      "regular_move_pct": "-1.55%",
+      "avg_dollar_volume": 25247024621.94,
+      "bar_age_minutes": 4.5,
+      "vwap": 229.68,
+      "opening_range_high": 232.82,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
@@ -143,7 +143,7 @@
       "live_gap_pct": "+3.58%",
       "regular_move_pct": "+1.33%",
       "avg_dollar_volume": 2203195422.24,
-      "bar_age_minutes": 1.4,
+      "bar_age_minutes": 4.6,
       "vwap": 1824.28,
       "opening_range_high": 1816.45,
       "opening_range_ready": true,
@@ -162,37 +162,37 @@
       }
     },
     {
-      "ticker": "MDT",
-      "name": "Medtronic",
-      "score": 85,
+      "ticker": "MAR",
+      "name": "Marriott",
+      "score": 87,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.97%, 5T -2.45%, relatives Volumen 2.02x, ATR 2.18%",
-      "catalyst": "3 Absurdly Cheap Growth Stocks That Are Trading Below $100",
+      "thesis": "1T +1.86%, 5T +4.64%, relatives Volumen 1.21x, ATR 2.07%",
+      "catalyst": "Carnival jumps on strong results but trails travel stocks in Quant ratings (XLY:NYSEARCA)",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.00%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 1.31,
-      "target_pct": 2.49,
+      "entry_note": "Premarket-Gap +0.79%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.24,
+      "target_pct": 2.36,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.97%",
-      "change_5d": "-2.45%",
-      "volume_ratio": "2.02x",
-      "atr_pct": "2.18%",
-      "gap_pct": "+0.00%",
-      "premarket_move_pct": "-0.23%",
-      "live_gap_pct": "-2.69%",
-      "regular_move_pct": "-1.96%",
-      "avg_dollar_volume": 983381607.32,
-      "bar_age_minutes": 26.8,
-      "vwap": 87.3,
-      "opening_range_high": 89.22,
+      "change_1d": "+1.86%",
+      "change_5d": "+4.64%",
+      "volume_ratio": "1.21x",
+      "atr_pct": "2.07%",
+      "gap_pct": "+0.79%",
+      "premarket_move_pct": "+0.96%",
+      "live_gap_pct": "+0.88%",
+      "regular_move_pct": "-0.52%",
+      "avg_dollar_volume": 558313682.6,
+      "bar_age_minutes": 7.7,
+      "vwap": 359.93,
+      "opening_range_high": 364.08,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
       "criteria": {
         "score_ok": true,
-        "momentum_ok": false,
+        "momentum_ok": true,
         "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
@@ -251,21 +251,15 @@
       "sentiment": 1
     },
     {
+      "ticker": "MAR",
+      "title": "Carnival jumps on strong results but trails travel stocks in Quant ratings (XLY:NYSEARCA)",
+      "time": "Tue, 29 Sep 2026 14:11:34",
+      "sentiment": 1
+    },
+    {
       "ticker": "NVDA",
       "title": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
       "time": "Tue, 29 Sep 2026 11:00:01",
-      "sentiment": 1
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Nvidia $150B Buyback: Is NVDA Stock Cheap Enough? - NVIDIA (NASDAQ:NVDA)",
-      "time": "Tue, 29 Sep 2026 14:38:51",
-      "sentiment": 1
-    },
-    {
-      "ticker": "NVDA",
-      "title": "Nvidia Stock Gains as $235 Billion Buyback Tests Capital Discipline",
-      "time": "Tue, 29 Sep 2026 18:14:16",
       "sentiment": 1
     },
     {
@@ -408,14 +402,14 @@
     },
     {
       "ticker": "TGT",
-      "title": "Target stock analysis: price cuts, margin pressure, and the holiday test",
-      "time": "Tue, 29 Sep 2026 19:30:14",
+      "title": "Target's price cuts are seen as the latest winning move by management (TGT:NYSE)",
+      "time": "Tue, 29 Sep 2026 17:55:58",
       "sentiment": -1
     },
     {
       "ticker": "TGT",
-      "title": "Target's price cuts are seen as the latest winning move by management (TGT:NYSE)",
-      "time": "Tue, 29 Sep 2026 17:55:58",
+      "title": "Target stock analysis: price cuts, margin pressure, and the holiday test",
+      "time": "Tue, 29 Sep 2026 19:26:13",
       "sentiment": -1
     },
     {
@@ -474,12 +468,6 @@
     },
     {
       "ticker": "PG",
-      "title": "I'd Put $1,000 Into Each of These 3 Dividend Stocks and Lose the Password",
-      "time": "Tue, 29 Sep 2026 16:00:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PG",
       "title": "Is Procter & Gamble (NYSE:PG) the Bluechip Stocks Stock Everyone's Talking About Today?",
       "time": "Tue, 29 Sep 2026 12:30:00",
       "sentiment": 0
@@ -488,6 +476,12 @@
       "ticker": "PG",
       "title": "Procter & Gamble stock gains 1.91 percent as target reaches USD 160.61 - ad-hoc-news.de",
       "time": "Tue, 29 Sep 2026 06:44:37",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PG",
+      "title": "How Thorne’s brand platform led to a $3.8B P&G deal — and what’s next",
+      "time": "Tue, 29 Sep 2026 17:00:00",
       "sentiment": 0
     },
     {
@@ -564,8 +558,8 @@
     },
     {
       "ticker": "MAR",
-      "title": "InterContinental Hotels: Japan Fits The K-Shaped Thesis (NYSE:IHG)",
-      "time": "Tue, 29 Sep 2026 20:59:37",
+      "title": "Is Booking Stock Worth More Than Its Competitors?",
+      "time": "Mon, 28 Sep 2026 21:55:28",
       "sentiment": 0
     },
     {
@@ -575,15 +569,21 @@
       "sentiment": 0
     },
     {
-      "ticker": "MAR",
-      "title": "Is Booking Stock Worth More Than Its Competitors?",
-      "time": "Mon, 28 Sep 2026 21:55:28",
+      "ticker": "NVDA",
+      "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history",
+      "time": "Tue, 29 Sep 2026 14:40:08",
       "sentiment": 0
     },
     {
       "ticker": "NVDA",
-      "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history",
-      "time": "Tue, 29 Sep 2026 14:40:08",
+      "title": "NVIDIA (NVDA) at $205: Why Jensen Huang’s $1 Trillion Blackwell-Rubin Vision Matters More Than the Pullback",
+      "time": "Tue, 29 Sep 2026 11:14:06",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Nvidia Just Put $150 Billion Behind Its Stock. Is It Cheap Enough?",
+      "time": "Tue, 29 Sep 2026 14:38:51",
       "sentiment": 0
     },
     {
@@ -666,6 +666,12 @@
     },
     {
       "ticker": "CVX",
+      "title": "Chevron (NYSE:CVX) Shares Down 1% - Here's Why",
+      "time": "Tue, 29 Sep 2026 21:26:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CVX",
       "title": "Chevron (CVX): Is the Recent Decline a Temporary Setback or a Long-Term Opportunity?",
       "time": "Tue, 29 Sep 2026 13:32:08",
       "sentiment": 0
@@ -686,12 +692,6 @@
       "ticker": "CVX",
       "title": "Why Can't Investors Stop Watching Chevron (NYSE:CVX) Today?",
       "time": "Tue, 29 Sep 2026 12:30:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CVX",
-      "title": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy in 2026?",
-      "time": "Tue, 29 Sep 2026 13:59:00",
       "sentiment": 0
     },
     {
@@ -726,14 +726,14 @@
     },
     {
       "ticker": "MDT",
-      "title": "Discover which S&P500 stocks are making waves on Tuesday.",
-      "time": "Tue, 29 Sep 2026 16:35:01",
+      "title": "3 Historically Stable Dividend Raisers in Medical Devices Offering Solid Yields With Fortress-Like Growth",
+      "time": "Tue, 29 Sep 2026 13:26:00",
       "sentiment": 0
     },
     {
       "ticker": "MDT",
-      "title": "3 Historically Stable Dividend Raisers in Medical Devices Offering Solid Yields With Fortress-Like Growth",
-      "time": "Tue, 29 Sep 2026 13:26:00",
+      "title": "Medtronic stock after-hours at EUR 76.43: minus 2.16 percent versus prior close - ad-hoc-news.de",
+      "time": "Tue, 29 Sep 2026 17:37:34",
       "sentiment": 0
     },
     {
@@ -804,12 +804,6 @@
     },
     {
       "ticker": "DHR",
-      "title": "Form 4 Danaher Corporation For: 28 September By Investing.com",
-      "time": "Mon, 28 Sep 2026 21:53:12",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DHR",
       "title": "Danaher stock reports USD 6.26 billion Q2 revenue ahead of earnings - ad-hoc-news.de",
       "time": "Tue, 29 Sep 2026 11:24:01",
       "sentiment": 0
@@ -818,6 +812,12 @@
       "ticker": "DHR",
       "title": "SpaceX (SPCX) Reached Orbit And Deployed 26 Satellites For The First Time",
       "time": "Tue, 29 Sep 2026 16:04:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DHR",
+      "title": "Form 4 Danaher Corporation For: 28 September",
+      "time": "Mon, 28 Sep 2026 21:48:57",
       "sentiment": 0
     },
     {
@@ -870,14 +870,14 @@
     },
     {
       "ticker": "HLT",
-      "title": "InterContinental Hotels: Japan Fits The K-Shaped Thesis (NYSE:IHG)",
-      "time": "Tue, 29 Sep 2026 20:59:37",
+      "title": "The Great Rebalance: Hilton's 2027 Trends Report Reveals Why Travelers Are Embracing Good ‘Ish’ Over Perfection",
+      "time": "Tue, 29 Sep 2026 04:02:05",
       "sentiment": 0
     },
     {
       "ticker": "HLT",
-      "title": "The Great Rebalance: Hilton's 2027 Trends Report Reveals Why Travelers Are Embracing Good ‘Ish’ Over Perfection",
-      "time": "Tue, 29 Sep 2026 04:02:05",
+      "title": "InterContinental Hotels: Japan Fits The K-Shaped Thesis (NYSE:IHG)",
+      "time": "Tue, 29 Sep 2026 20:59:37",
       "sentiment": 0
     },
     {
@@ -954,14 +954,14 @@
     },
     {
       "ticker": "WMT",
-      "title": "Walmart Earnings Ahead: Can WMT Stock Sustain Momentum Under New CEO?",
-      "time": "Mon, 28 Sep 2026 23:49:09",
+      "title": "Walmart Stock Drops 2.64% as Sparky Gets a Hard Pricing Boundary",
+      "time": "Tue, 29 Sep 2026 18:50:00",
       "sentiment": 0
     },
     {
       "ticker": "WMT",
-      "title": "Walmart Stock Trades 20% Below Its High: Here’s the Path to $128 by 2029",
-      "time": "Tue, 29 Sep 2026 16:31:21",
+      "title": "Walmart Earnings Ahead: Can WMT Stock Sustain Momentum Under New CEO?",
+      "time": "Mon, 28 Sep 2026 23:49:09",
       "sentiment": 0
     },
     {
@@ -1242,8 +1242,8 @@
     },
     {
       "ticker": "CRWD",
-      "title": "CrowdStrike (CRWD) is Clearing Hurdles. Can its Financial Momentum Do the Rest?",
-      "time": "Mon, 28 Sep 2026 23:25:59",
+      "title": "CrowdStrike Selloff ‘Overdone’ After Anthropic’s Security Tool Debut, Says JPMorgan",
+      "time": "Mon, 28 Sep 2026 23:37:14",
       "sentiment": 0
     },
     {
