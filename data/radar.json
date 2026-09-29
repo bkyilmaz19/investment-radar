@@ -1,10 +1,49 @@
 {
-  "generated_at_local": "29.09.2026 23:29 CEST",
+  "generated_at_local": "29.09.2026 23:46 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "score": 93,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.68%, 5T +0.65%, relatives Volumen 1.54x, ATR 2.26%",
+      "catalyst": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.94%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.36,
+      "target_pct": 2.58,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.68%",
+      "change_5d": "+0.65%",
+      "volume_ratio": "1.54x",
+      "atr_pct": "2.26%",
+      "gap_pct": "+0.94%",
+      "premarket_move_pct": "+0.23%",
+      "live_gap_pct": "-0.68%",
+      "regular_move_pct": "-1.55%",
+      "avg_dollar_volume": 25247024621.94,
+      "bar_age_minutes": 1.2,
+      "vwap": 229.68,
+      "opening_range_high": 232.82,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
     {
       "ticker": "KLAC",
       "name": "KLA",
@@ -26,7 +65,7 @@
       "live_gap_pct": "+3.87%",
       "regular_move_pct": "+0.80%",
       "avg_dollar_volume": 1719197946.5,
-      "bar_age_minutes": 4.5,
+      "bar_age_minutes": 1.2,
       "vwap": 195.74,
       "opening_range_high": 197.43,
       "opening_range_ready": true,
@@ -65,48 +104,9 @@
       "live_gap_pct": "-1.13%",
       "regular_move_pct": "-0.82%",
       "avg_dollar_volume": 1076020882.44,
-      "bar_age_minutes": 0.2,
+      "bar_age_minutes": 21.2,
       "vwap": 263.77,
       "opening_range_high": 268.93,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "score": 90,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.68%, 5T +0.65%, relatives Volumen 1.54x, ATR 2.26%",
-      "catalyst": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.94%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.36,
-      "target_pct": 2.58,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.68%",
-      "change_5d": "+0.65%",
-      "volume_ratio": "1.54x",
-      "atr_pct": "2.26%",
-      "gap_pct": "+0.94%",
-      "premarket_move_pct": "+0.23%",
-      "live_gap_pct": "-0.68%",
-      "regular_move_pct": "-1.55%",
-      "avg_dollar_volume": 25247024621.94,
-      "bar_age_minutes": 4.5,
-      "vwap": 229.68,
-      "opening_range_high": 232.82,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
@@ -143,7 +143,7 @@
       "live_gap_pct": "+3.58%",
       "regular_move_pct": "+1.33%",
       "avg_dollar_volume": 2203195422.24,
-      "bar_age_minutes": 4.6,
+      "bar_age_minutes": 6.2,
       "vwap": 1824.28,
       "opening_range_high": 1816.45,
       "opening_range_ready": true,
@@ -182,7 +182,7 @@
       "live_gap_pct": "+0.88%",
       "regular_move_pct": "-0.52%",
       "avg_dollar_volume": 558313682.6,
-      "bar_age_minutes": 7.7,
+      "bar_age_minutes": 14.7,
       "vwap": 359.93,
       "opening_range_high": 364.08,
       "opening_range_ready": true,
@@ -260,6 +260,12 @@
       "ticker": "NVDA",
       "title": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
       "time": "Tue, 29 Sep 2026 11:00:01",
+      "sentiment": 1
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Nvidia: The Valuation Still Doesn't Match The AI Growth (NASDAQ:NVDA)",
+      "time": "Tue, 29 Sep 2026 21:32:26",
       "sentiment": 1
     },
     {
@@ -409,7 +415,7 @@
     {
       "ticker": "TGT",
       "title": "Target stock analysis: price cuts, margin pressure, and the holiday test",
-      "time": "Tue, 29 Sep 2026 19:26:13",
+      "time": "Tue, 29 Sep 2026 19:24:00",
       "sentiment": -1
     },
     {
@@ -593,12 +599,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "NVDA",
-      "title": "Nvidia: A Deep Analysis About The AI CapEx (NASDAQ:NVDA)",
-      "time": "Tue, 29 Sep 2026 16:23:59",
-      "sentiment": 0
-    },
-    {
       "ticker": "ABBV",
       "title": "UnitedHealth, AbbVie And A Health Care Stock On CNBC’s ‘Final Trades’",
       "time": "Tue, 29 Sep 2026 14:41:47",
@@ -726,14 +726,14 @@
     },
     {
       "ticker": "MDT",
-      "title": "3 Historically Stable Dividend Raisers in Medical Devices Offering Solid Yields With Fortress-Like Growth",
-      "time": "Tue, 29 Sep 2026 13:26:00",
+      "title": "Discover which S&P500 stocks are making waves on Tuesday.",
+      "time": "Tue, 29 Sep 2026 16:35:01",
       "sentiment": 0
     },
     {
       "ticker": "MDT",
-      "title": "Medtronic stock after-hours at EUR 76.43: minus 2.16 percent versus prior close - ad-hoc-news.de",
-      "time": "Tue, 29 Sep 2026 17:37:34",
+      "title": "3 Historically Stable Dividend Raisers in Medical Devices Offering Solid Yields With Fortress-Like Growth",
+      "time": "Tue, 29 Sep 2026 13:26:00",
       "sentiment": 0
     },
     {
@@ -852,14 +852,14 @@
     },
     {
       "ticker": "CMG",
-      "title": "Is It Worth Investing in Chipotle (CMG) Based on Wall Street's Bullish Views?",
-      "time": "Tue, 29 Sep 2026 12:30:02",
+      "title": "Chipotle hits another milestone with its successful Chipotlane concept (CMG:NYSE)",
+      "time": "Tue, 29 Sep 2026 12:19:01",
       "sentiment": 0
     },
     {
       "ticker": "CMG",
-      "title": "Chipotle Mexican Grill (CMG) Jumps 5.4% to $33.02",
-      "time": "Mon, 28 Sep 2026 21:33:12",
+      "title": "Is It Worth Investing in Chipotle (CMG) Based on Wall Street's Bullish Views?",
+      "time": "Tue, 29 Sep 2026 12:30:02",
       "sentiment": 0
     },
     {
@@ -1020,8 +1020,8 @@
     },
     {
       "ticker": "GILD",
-      "title": "Johnson & Johnson (NYSE:JNJ) Stock: Newer Medicines Absorb the Loss of Stelara Sales",
-      "time": "Tue, 29 Sep 2026 19:24:00",
+      "title": "Broadcom’s AI Revenue Could Hit $230 Billion by 2028- Why AVGO Stock Still Faces a Margin Test",
+      "time": "Tue, 29 Sep 2026 20:38:57",
       "sentiment": 0
     },
     {
@@ -1134,6 +1134,12 @@
     },
     {
       "ticker": "EMR",
+      "title": "Emerson Electric Co. (EMR) latest stock news and headlines",
+      "time": "Tue, 29 Sep 2026 12:35:51",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EMR",
       "title": "8 Green Days In A Row: Emerson Electric Stock Is Up 9.3%",
       "time": "Tue, 29 Sep 2026 07:10:29",
       "sentiment": 0
@@ -1157,12 +1163,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "EMR",
-      "title": "Wall Street Analysts Look Bullish on Emerson Electric (EMR): Should You Buy?",
-      "time": "Tue, 29 Sep 2026 12:30:04",
-      "sentiment": 0
-    },
-    {
       "ticker": "BIIB",
       "title": "How Biogen Inc. (BIIB) Affects Rotational Strategy Timing",
       "time": "Tue, 29 Sep 2026 06:02:02",
@@ -1181,12 +1181,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "BIIB",
-      "title": "Biogen stock at USD 228.69 on September 28, 2026 - ad-hoc-news.de",
-      "time": "Mon, 28 Sep 2026 21:35:51",
-      "sentiment": 0
-    },
-    {
       "ticker": "AMAT",
       "title": "Why It’s Time to Load Up on Applied Materials Stock",
       "time": "Tue, 29 Sep 2026 18:17:12",
@@ -1201,7 +1195,7 @@
     {
       "ticker": "AMAT",
       "title": "Better Semiconductor Equipment Stock: Applied Materials vs. Lam Research",
-      "time": "Tue, 29 Sep 2026 18:36:16",
+      "time": "Tue, 29 Sep 2026 18:33:54",
       "sentiment": 0
     },
     {
@@ -1242,14 +1236,20 @@
     },
     {
       "ticker": "CRWD",
-      "title": "CrowdStrike Selloff ‘Overdone’ After Anthropic’s Security Tool Debut, Says JPMorgan",
-      "time": "Mon, 28 Sep 2026 23:37:14",
+      "title": "CrowdStrike (CRWD) is Clearing Hurdles. Can its Financial Momentum Do the Rest?",
+      "time": "Mon, 28 Sep 2026 23:25:59",
       "sentiment": 0
     },
     {
       "ticker": "ADI",
       "title": "Analog Devices, Inc. (ADI) Stock Price, News, Quote & History",
       "time": "Tue, 29 Sep 2026 05:58:40",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADI",
+      "title": "Analog Devices, Inc. (ADI.VI) Stock Price, News, Quote & History",
+      "time": "Tue, 29 Sep 2026 20:42:12",
       "sentiment": 0
     },
     {
@@ -1262,12 +1262,6 @@
       "ticker": "ADI",
       "title": "Analog Devices $100 investment grows to $1,120 in 15 years",
       "time": "Tue, 29 Sep 2026 11:56:32",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADI",
-      "title": "3 AI Infrastructure Stocks Retail Investors Are Watching After AMD’s World Labs Deal",
-      "time": "Tue, 29 Sep 2026 01:51:37",
       "sentiment": 0
     },
     {
