@@ -1,10 +1,49 @@
 {
-  "generated_at_local": "29.09.2026 19:19 CEST",
+  "generated_at_local": "29.09.2026 19:43 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
+    {
+      "ticker": "PM",
+      "name": "Philip Morris",
+      "score": 94,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.72%, 5T +3.35%, relatives Volumen 0.70x, ATR 2.31%",
+      "catalyst": "MO vs. PM: Which Tobacco Giant Has the Better Growth Story?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.54%, seit Open +0.40%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.38,
+      "target_pct": 2.63,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.72%",
+      "change_5d": "+3.35%",
+      "volume_ratio": "0.70x",
+      "atr_pct": "2.31%",
+      "gap_pct": "-1.28%",
+      "premarket_move_pct": "-0.90%",
+      "live_gap_pct": "-0.54%",
+      "regular_move_pct": "+0.40%",
+      "avg_dollar_volume": 836978907.33,
+      "bar_age_minutes": 3.2,
+      "vwap": 191.99,
+      "opening_range_high": 192.45,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
     {
       "ticker": "XOM",
       "name": "Exxon Mobil",
@@ -13,7 +52,7 @@
       "thesis": "1T +1.20%, 5T +2.67%, relatives Volumen 0.97x, ATR 2.41%",
       "catalyst": "Are Current Oil Prices High Enough to Fuel ExxonMobil's Growth?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.67%, seit Open +0.76%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.79%, seit Open +0.64%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.44,
       "target_pct": 2.74,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +62,11 @@
       "atr_pct": "2.41%",
       "gap_pct": "-1.37%",
       "premarket_move_pct": "-1.37%",
-      "live_gap_pct": "-0.67%",
-      "regular_move_pct": "+0.76%",
+      "live_gap_pct": "-0.79%",
+      "regular_move_pct": "+0.64%",
       "avg_dollar_volume": 2374254204.17,
-      "bar_age_minutes": 4.5,
-      "vwap": 161.13,
+      "bar_age_minutes": 3.2,
+      "vwap": 161.14,
       "opening_range_high": 160.69,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -52,7 +91,7 @@
       "thesis": "1T +1.91%, 5T +2.02%, relatives Volumen 1.41x, ATR 1.56%",
       "catalyst": "Procter & Gamble Co. stock outperforms competitors on strong trading day",
       "risk_note": "The Stock Market Just Flashed a Warning Signal Seen Only a Handful of Times in 150 Years. Here's Where I'd Put Money Right Now.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.42%, seit Open +0.30%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.38%, seit Open +0.35%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 0.93,
       "target_pct": 2.0,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +101,11 @@
       "atr_pct": "1.56%",
       "gap_pct": "-0.58%",
       "premarket_move_pct": "-0.30%",
-      "live_gap_pct": "-0.42%",
-      "regular_move_pct": "+0.30%",
+      "live_gap_pct": "-0.38%",
+      "regular_move_pct": "+0.35%",
       "avg_dollar_volume": 1197723265.02,
-      "bar_age_minutes": 4.5,
-      "vwap": 147.94,
+      "bar_age_minutes": 3.2,
+      "vwap": 148.0,
       "opening_range_high": 148.23,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -84,45 +123,6 @@
       }
     },
     {
-      "ticker": "PM",
-      "name": "Philip Morris",
-      "score": 92,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.72%, 5T +3.35%, relatives Volumen 0.70x, ATR 2.31%",
-      "catalyst": "MO vs. PM: Which Tobacco Giant Has the Better Growth Story?",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.61%, seit Open +0.33%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.38,
-      "target_pct": 2.63,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.72%",
-      "change_5d": "+3.35%",
-      "volume_ratio": "0.70x",
-      "atr_pct": "2.31%",
-      "gap_pct": "-1.28%",
-      "premarket_move_pct": "-0.90%",
-      "live_gap_pct": "-0.61%",
-      "regular_move_pct": "+0.33%",
-      "avg_dollar_volume": 836978907.33,
-      "bar_age_minutes": 4.5,
-      "vwap": 191.96,
-      "opening_range_high": 192.45,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
       "ticker": "AMGN",
       "name": "Amgen",
       "score": 88,
@@ -130,7 +130,7 @@
       "thesis": "1T +0.85%, 5T +6.35%, relatives Volumen 0.97x, ATR 2.19%",
       "catalyst": "Amgen (AMGN) Has a New Growth Opportunity. But How Much Is It Really Worth?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.31%, seit Open +1.21%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.36%, seit Open +1.26%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.32,
       "target_pct": 2.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +140,11 @@
       "atr_pct": "2.19%",
       "gap_pct": "-1.11%",
       "premarket_move_pct": "-0.48%",
-      "live_gap_pct": "+0.31%",
-      "regular_move_pct": "+1.21%",
+      "live_gap_pct": "+0.36%",
+      "regular_move_pct": "+1.26%",
       "avg_dollar_volume": 1246358273.13,
-      "bar_age_minutes": 4.5,
-      "vwap": 417.25,
+      "bar_age_minutes": 3.2,
+      "vwap": 417.38,
       "opening_range_high": 421.35,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -162,41 +162,41 @@
       }
     },
     {
-      "ticker": "GILD",
-      "name": "Gilead",
+      "ticker": "ABBV",
+      "name": "AbbVie",
       "score": 86,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.85%, 5T +1.10%, relatives Volumen 0.93x, ATR 2.22%",
-      "catalyst": "Can Lenacapavir Power Gilead Sciences (GILD)’s Next Growth Phase?",
+      "thesis": "1T +0.73%, 5T +0.68%, relatives Volumen 1.41x, ATR 1.85%",
+      "catalyst": "AbbVie Stock Drops Although Juvmo Wins Parkinson's Approval",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -1.07%, seit Open +0.26%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.33,
-      "target_pct": 2.53,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.96%, seit Open -0.65%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.11,
+      "target_pct": 2.1,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.85%",
-      "change_5d": "+1.10%",
-      "volume_ratio": "0.93x",
-      "atr_pct": "2.22%",
-      "gap_pct": "-1.32%",
-      "premarket_move_pct": "-1.07%",
-      "live_gap_pct": "-1.07%",
-      "regular_move_pct": "+0.26%",
-      "avg_dollar_volume": 887866461.1,
-      "bar_age_minutes": 4.5,
-      "vwap": 150.06,
-      "opening_range_high": 152.62,
+      "change_1d": "+0.73%",
+      "change_5d": "+0.68%",
+      "volume_ratio": "1.41x",
+      "atr_pct": "1.85%",
+      "gap_pct": "+0.12%",
+      "premarket_move_pct": "+0.98%",
+      "live_gap_pct": "-0.96%",
+      "regular_move_pct": "-0.65%",
+      "avg_dollar_volume": 1076020882.44,
+      "bar_age_minutes": 3.2,
+      "vwap": 263.91,
+      "opening_range_high": 268.93,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": false,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": false,
+        "gap_ok": true,
         "confirmation_ok": false
       }
     }
@@ -244,8 +244,8 @@
     },
     {
       "ticker": "MAR",
-      "title": "Carnival jumps on strong results but trails travel stocks in Quant ratings (XLY:NYSEARCA)",
-      "time": "Tue, 29 Sep 2026 14:11:34",
+      "title": "Marriott International Inc. stock outperforms competitors on strong trading day",
+      "time": "Mon, 28 Sep 2026 20:41:00",
       "sentiment": 1
     },
     {
@@ -273,6 +273,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "ABBV",
+      "title": "AbbVie (NYSE:ABBV) Wins Juvmo Approval for Parkinson's Disease",
+      "time": "Tue, 29 Sep 2026 16:54:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "LYV",
       "title": "Live Nation Entertainment (LYV) On International Expansion Hopes And Venue Growth Looks Undervalued",
       "time": "Tue, 29 Sep 2026 15:37:11",
@@ -294,12 +300,6 @@
       "ticker": "KLAC",
       "title": "KLAC's Backlog Surges on AI Demand: Can It Outpace AMAT & ASML?",
       "time": "Tue, 29 Sep 2026 14:02:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "CVX",
-      "title": "Why Is Chevron (NYSE:CVX) In Focus After Its Venezuela Commitment And Record-High Shares?",
-      "time": "Mon, 28 Sep 2026 17:35:00",
       "sentiment": 1
     },
     {
@@ -394,14 +394,20 @@
     },
     {
       "ticker": "TGT",
-      "title": "Target (TGT) Announces Holiday Price Cuts Ahead of Circle Deal D",
-      "time": "Tue, 29 Sep 2026 11:07:08",
+      "title": "Target Cuts Prices On Nearly 2,000 Products Ahead Of Holidays: A Look At The Key Highlights",
+      "time": "Tue, 29 Sep 2026 17:30:36",
       "sentiment": -1
     },
     {
       "ticker": "PM",
       "title": "MO vs. PM: Which Tobacco Giant Has the Better Growth Story?",
       "time": "Tue, 29 Sep 2026 12:47:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "PM",
+      "title": "Needham raises Philip Morris Intl price target to $215",
+      "time": "Tue, 29 Sep 2026 05:03:15",
       "sentiment": 1
     },
     {
@@ -426,6 +432,12 @@
       "ticker": "CRWD",
       "title": "CrowdStrike vs. Figma: Comparing Revenue Trends Between Two High-Growth Tech Companies",
       "time": "Tue, 29 Sep 2026 06:35:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "CRWD",
+      "title": "CrowdStrike Holdings Inc. Cl A stock rises Monday, outperforms market",
+      "time": "Mon, 28 Sep 2026 20:34:00",
       "sentiment": 1
     },
     {
@@ -527,6 +539,12 @@
     {
       "ticker": "MAR",
       "title": "Marriott International, Inc. (MAR) stock price, news, quote and history",
+      "time": "Tue, 29 Sep 2026 04:19:27",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MAR",
+      "title": "Marriott International, Inc. (MAR) stock price, news, quote and history",
       "time": "Mon, 28 Sep 2026 18:57:20",
       "sentiment": 0
     },
@@ -591,12 +609,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "ABBV",
-      "title": "FDA Nod For JUVMO Parkinson’s Drug Could Be A Game Changer For AbbVie (ABBV)",
-      "time": "Tue, 29 Sep 2026 05:11:00",
-      "sentiment": 0
-    },
-    {
       "ticker": "LYV",
       "title": "Live Nation Revenue Rises 12% as $450M Legal Accrual Pushes Company to Q1 Loss",
       "time": "Mon, 28 Sep 2026 19:20:32",
@@ -606,12 +618,6 @@
       "ticker": "KLAC",
       "title": "Why KLA (KLAC) Stock Is Up Today",
       "time": "Tue, 29 Sep 2026 15:33:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KLAC",
-      "title": "KLA Corporation (KLAC) interactive stock chart – Yahoo Finance",
-      "time": "Tue, 29 Sep 2026 14:04:57",
       "sentiment": 0
     },
     {
@@ -630,6 +636,12 @@
       "ticker": "KLAC",
       "title": "What Is Changing for KLA Corporation (NASDAQ:KLAC)?",
       "time": "Tue, 29 Sep 2026 09:10:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KLAC",
+      "title": "These S&P500 stocks that are showing activity before the opening bell on Tuesday.",
+      "time": "Tue, 29 Sep 2026 12:35:01",
       "sentiment": 0
     },
     {
@@ -663,15 +675,21 @@
       "sentiment": 0
     },
     {
-      "ticker": "MDT",
-      "title": "[425] Medtronic plc Business Combination Communication",
-      "time": "Mon, 28 Sep 2026 20:53:21",
+      "ticker": "CVX",
+      "title": "3 Great Dividend Stocks To Own In September 2026",
+      "time": "Tue, 29 Sep 2026 03:25:10",
       "sentiment": 0
     },
     {
       "ticker": "MDT",
       "title": "How New Robotics Deals At Medtronic (MDT) Have Changed Its Investment Story",
       "time": "Tue, 29 Sep 2026 14:39:08",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDT",
+      "title": "[425] Medtronic plc Business Combination Communication",
+      "time": "Mon, 28 Sep 2026 20:53:21",
       "sentiment": 0
     },
     {
@@ -694,8 +712,8 @@
     },
     {
       "ticker": "MDT",
-      "title": "Abbott Laboratories (ABT) Stock Price, News, Quote & History",
-      "time": "Tue, 29 Sep 2026 02:18:45",
+      "title": "Medtronic stock after-hours at EUR 76.43: minus 2.16 percent versus prior close",
+      "time": "Tue, 29 Sep 2026 17:37:34",
       "sentiment": 0
     },
     {
@@ -736,6 +754,12 @@
     },
     {
       "ticker": "BMY",
+      "title": "Why Is Bristol-Myers Squibb (BMY) In Focus After New Phase 3 Myeloma Data?",
+      "time": "Tue, 29 Sep 2026 13:39:38",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BMY",
       "title": "Bristol Myers Squibb (BMY) Stock Trades Below Fair Value As Caution Lingers",
       "time": "Tue, 29 Sep 2026 10:06:17",
       "sentiment": 0
@@ -753,12 +777,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "BMY",
-      "title": "3 Numbers That Explain Bristol Myers Squibb's Dirt Cheap Valuation",
-      "time": "Tue, 29 Sep 2026 09:41:00",
-      "sentiment": 0
-    },
-    {
       "ticker": "DHR",
       "title": "(DHR) Price Dynamics and Execution-Aware Positioning",
       "time": "Tue, 29 Sep 2026 08:54:02",
@@ -767,7 +785,7 @@
     {
       "ticker": "DHR",
       "title": "Form 4 Danaher Corporation For: 28 September By Investing.com",
-      "time": "Mon, 28 Sep 2026 22:26:43",
+      "time": "Mon, 28 Sep 2026 21:53:12",
       "sentiment": 0
     },
     {
@@ -821,7 +839,7 @@
     {
       "ticker": "HLT",
       "title": "Marriott International, Inc. (MAR) stock price, news, quote and history",
-      "time": "Mon, 28 Sep 2026 18:57:20",
+      "time": "Tue, 29 Sep 2026 04:19:27",
       "sentiment": 0
     },
     {
@@ -834,6 +852,12 @@
       "ticker": "HLT",
       "title": "The Great Rebalance: Hilton's 2027 Trends Report Reveals Why Travelers Are Embracing Good ‘Ish’ Over Perfection",
       "time": "Tue, 29 Sep 2026 04:02:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "HLT",
+      "title": "Marriott International, Inc. (MAR) stock price, news, quote and history",
+      "time": "Mon, 28 Sep 2026 18:57:20",
       "sentiment": 0
     },
     {
@@ -880,8 +904,8 @@
     },
     {
       "ticker": "AMGN",
-      "title": "Top dow jones movers in Monday's session",
-      "time": "Mon, 28 Sep 2026 19:10:15",
+      "title": "AMGN Maintains Rating by Scotiabank -- Price Target Raised to $5",
+      "time": "Tue, 29 Sep 2026 15:48:01",
       "sentiment": 0
     },
     {
@@ -958,20 +982,20 @@
     },
     {
       "ticker": "TSM",
-      "title": "ASML Holding N.V. (ASML) Stock Price, News, Quote & History",
-      "time": "Tue, 29 Sep 2026 00:13:53",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSM",
-      "title": "TSMC: 2nm Is Moving Into High Gear (NYSE:TSM)",
-      "time": "Tue, 29 Sep 2026 15:10:40",
+      "title": "Taiwan Semiconductor Has Returned 132.6% in Eric Bleeker's AI Portfolio in Under Two Years",
+      "time": "Tue, 29 Sep 2026 00:30:13",
       "sentiment": 0
     },
     {
       "ticker": "TSM",
       "title": "I’m Jumping Back Into Taiwan Semiconductor Again and I Won’t Stop This Time",
       "time": "Tue, 29 Sep 2026 16:12:10",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TSM",
+      "title": "TSMC: 2nm Is Moving Into High Gear (NYSE:TSM)",
+      "time": "Tue, 29 Sep 2026 15:10:40",
       "sentiment": 0
     },
     {
@@ -1023,12 +1047,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "PM",
-      "title": "Philip Morris stock at USD 192.57 on September 28, 2026",
-      "time": "Mon, 28 Sep 2026 17:40:50",
-      "sentiment": 0
-    },
-    {
       "ticker": "DIS",
       "title": "The Walt Disney Company (DIS) stock price, news, quote and history",
       "time": "Tue, 29 Sep 2026 02:29:47",
@@ -1036,14 +1054,14 @@
     },
     {
       "ticker": "DIS",
-      "title": "Disney's Q4 Should Look Healthy. Its 2027 Film Slate Is the Harder Setup, Analyst Says",
-      "time": "Tue, 29 Sep 2026 16:43:37",
+      "title": "Disney to cut workforce by another “few hundred” — Deadline (DIS:NYSE)",
+      "time": "Tue, 29 Sep 2026 17:01:37",
       "sentiment": 0
     },
     {
       "ticker": "DIS",
-      "title": "Disney to cut workforce by another “few hundred” — Deadline (DIS:NYSE)",
-      "time": "Tue, 29 Sep 2026 17:01:37",
+      "title": "Disney's Q4 Should Look Healthy. Its 2027 Film Slate Is the Harder Setup, Analyst Says",
+      "time": "Tue, 29 Sep 2026 16:43:37",
       "sentiment": 0
     },
     {
@@ -1150,12 +1168,6 @@
     },
     {
       "ticker": "BIIB",
-      "title": "Why Did KOD, RGEN, BIIB Stocks Rise To 52-Week Highs?",
-      "time": "Mon, 28 Sep 2026 21:23:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BIIB",
       "title": "Biogen stock at USD 228.69 on September 28, 2026",
       "time": "Mon, 28 Sep 2026 21:35:51",
       "sentiment": 0
@@ -1192,6 +1204,12 @@
     },
     {
       "ticker": "CRWD",
+      "title": "Eligible OpenAI business customers can spend part of their existing commitments on CrowdStrike cybersecurity.",
+      "time": "Tue, 29 Sep 2026 17:40:58",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
       "title": "CrowdStrike (CRWD) is Clearing Hurdles. Can its Financial Momentum Do the Rest?",
       "time": "Mon, 28 Sep 2026 23:25:59",
       "sentiment": 0
@@ -1204,20 +1222,8 @@
     },
     {
       "ticker": "CRWD",
-      "title": "CrowdStrike rises as earnings momentum and new partner integrations support shares",
-      "time": "Mon, 28 Sep 2026 17:36:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRWD",
       "title": "CrowdStrike vs. Okta: Which Cybersecurity Stock Is a Better Buy in 2026?",
       "time": "Tue, 29 Sep 2026 00:37:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRWD",
-      "title": "What Lifted CrowdStrike (NASDAQ:CRWD) Toward a Fresh High?",
-      "time": "Mon, 28 Sep 2026 17:20:00",
       "sentiment": 0
     },
     {
