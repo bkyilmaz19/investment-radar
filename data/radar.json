@@ -1,19 +1,58 @@
 {
-  "generated_at_local": "29.09.2026 10:35 CEST",
+  "generated_at_local": "29.09.2026 15:14 CEST",
   "market_regime": "Risk-off / erhöhte Vorsicht",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Risk-off / erhöhte Vorsicht. Premarket-Daten einbezogen, soweit verfügbar. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
+      "ticker": "ABBV",
+      "name": "AbbVie",
+      "score": 91,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.73%, 5T +0.68%, relatives Volumen 1.41x, ATR 1.85%",
+      "catalyst": "Should FDA Approval Require Action From AbbVie (ABBV) Investors?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.12%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.11,
+      "target_pct": 2.1,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.73%",
+      "change_5d": "+0.68%",
+      "volume_ratio": "1.41x",
+      "atr_pct": "1.85%",
+      "gap_pct": "+0.12%",
+      "premarket_move_pct": "+0.98%",
+      "live_gap_pct": "noch nicht verfügbar",
+      "regular_move_pct": "noch nicht verfügbar",
+      "avg_dollar_volume": 1076020882.44,
+      "bar_age_minutes": 34.6,
+      "vwap": null,
+      "opening_range_high": null,
+      "opening_range_ready": false,
+      "breakout_confirmed": false,
+      "session_phase": "Premarket",
+      "action_status": "WARTEN",
+      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
       "ticker": "NVDA",
       "name": "NVIDIA",
-      "score": 93,
+      "score": 89,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.68%, 5T +0.65%, relatives Volumen 1.53x, ATR 2.26%",
-      "catalyst": "Nvidia Adds Record $150 Billion to Stock Buyback",
+      "catalyst": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.88%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "entry_note": "Premarket-Gap +0.72%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
       "stop_pct": 1.36,
       "target_pct": 2.58,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -21,12 +60,12 @@
       "change_5d": "+0.65%",
       "volume_ratio": "1.53x",
       "atr_pct": "2.26%",
-      "gap_pct": "+0.88%",
-      "premarket_move_pct": "+0.16%",
+      "gap_pct": "+0.72%",
+      "premarket_move_pct": "+0.01%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 25237870221.91,
-      "bar_age_minutes": 0.0,
+      "bar_age_minutes": 4.6,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
@@ -45,66 +84,27 @@
       }
     },
     {
-      "ticker": "PG",
-      "name": "Procter & Gamble",
-      "score": 86,
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor",
+      "score": 89,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.91%, 5T +2.02%, relatives Volumen 1.41x, ATR 1.56%",
-      "catalyst": "Procter & Gamble Co. stock outperforms competitors on strong trading day",
+      "thesis": "1T +0.50%, 5T +1.74%, relatives Volumen 0.84x, ATR 2.20%",
+      "catalyst": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap -0.37%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
-      "stop_pct": 0.93,
-      "target_pct": 2.0,
+      "entry_note": "Premarket-Gap +0.14%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.32,
+      "target_pct": 2.51,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.91%",
-      "change_5d": "+2.02%",
-      "volume_ratio": "1.41x",
-      "atr_pct": "1.56%",
-      "gap_pct": "-0.37%",
-      "premarket_move_pct": "-0.09%",
+      "change_1d": "+0.50%",
+      "change_5d": "+1.74%",
+      "volume_ratio": "0.84x",
+      "atr_pct": "2.20%",
+      "gap_pct": "+0.14%",
+      "premarket_move_pct": "+0.35%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 1197723265.02,
-      "bar_age_minutes": 2.2,
-      "vwap": null,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "MDT",
-      "name": "Medtronic",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.97%, 5T -2.45%, relatives Volumen 2.02x, ATR 2.18%",
-      "catalyst": "Medtronic stock reports 13.7 percent Q1 revenue growth",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.23%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.31,
-      "target_pct": 2.49,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.97%",
-      "change_5d": "-2.45%",
-      "volume_ratio": "2.02x",
-      "atr_pct": "2.18%",
-      "gap_pct": "+0.23%",
-      "premarket_move_pct": "+0.00%",
-      "live_gap_pct": "noch nicht verfügbar",
-      "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 983381607.32,
-      "bar_age_minutes": 35.5,
+      "avg_dollar_volume": 4213071495.26,
+      "bar_age_minutes": 4.6,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
@@ -114,8 +114,8 @@
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
         "score_ok": true,
-        "momentum_ok": false,
-        "volume_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -143,7 +143,7 @@
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
       "avg_dollar_volume": 873524065.25,
-      "bar_age_minutes": 35.5,
+      "bar_age_minutes": 314.6,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
@@ -162,42 +162,42 @@
       }
     },
     {
-      "ticker": "ABBV",
-      "name": "AbbVie",
-      "score": 85,
+      "ticker": "GILD",
+      "name": "Gilead",
+      "score": 83,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.73%, 5T +0.68%, relatives Volumen 1.41x, ATR 1.85%",
-      "catalyst": "Should FDA Approval Require Action From AbbVie (ABBV) Investors?",
+      "thesis": "1T +0.85%, 5T +1.10%, relatives Volumen 0.93x, ATR 2.22%",
+      "catalyst": "Can Lenacapavir Power Gilead Sciences (GILD)’s Next Growth Phase?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Nur bei bestätigtem Breakout über das lokale Intraday-Hoch oder klarer relativer Stärke nach Eröffnung.",
-      "stop_pct": 1.11,
-      "target_pct": 2.1,
+      "entry_note": "Premarket-Gap -0.43%. Nur interessant, wenn der Titel den Gap zügig zurückerobert; sonst auslassen.",
+      "stop_pct": 1.33,
+      "target_pct": 2.53,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.73%",
-      "change_5d": "+0.68%",
-      "volume_ratio": "1.41x",
-      "atr_pct": "1.85%",
-      "gap_pct": "noch nicht verfügbar",
-      "premarket_move_pct": "noch nicht verfügbar",
+      "change_1d": "+0.85%",
+      "change_5d": "+1.10%",
+      "volume_ratio": "0.93x",
+      "atr_pct": "2.22%",
+      "gap_pct": "-0.43%",
+      "premarket_move_pct": "-0.17%",
       "live_gap_pct": "noch nicht verfügbar",
       "regular_move_pct": "noch nicht verfügbar",
-      "avg_dollar_volume": 1076020882.44,
-      "bar_age_minutes": null,
+      "avg_dollar_volume": 887866461.1,
+      "bar_age_minutes": 9.6,
       "vwap": null,
       "opening_range_high": null,
       "opening_range_ready": false,
       "breakout_confirmed": false,
       "session_phase": "Premarket",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Gap, Live-/Premarket-Bestätigung, Live-/Premarket-Daten",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": false
+        "gap_ok": true,
+        "confirmation_ok": true
       }
     }
   ],
@@ -226,6 +226,12 @@
   "news": [
     {
       "ticker": "PG",
+      "title": "The Stock Market Just Flashed a Warning Signal Seen Only a Handful of Times in 150 Years. Here's Where I'd Put Money Right Now.",
+      "time": "Tue, 29 Sep 2026 10:19:09",
+      "sentiment": -1
+    },
+    {
+      "ticker": "PG",
       "title": "Procter & Gamble Co. stock outperforms competitors on strong trading day",
       "time": "Mon, 28 Sep 2026 20:32:00",
       "sentiment": 1
@@ -238,14 +244,14 @@
     },
     {
       "ticker": "NVDA",
-      "title": "Nvidia Adds Record $150 Billion to Stock Buyback",
-      "time": "Mon, 28 Sep 2026 15:02:06",
+      "title": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
+      "time": "Tue, 29 Sep 2026 11:00:01",
       "sentiment": 1
     },
     {
       "ticker": "NVDA",
-      "title": "Jim Cramer says Nvidia’s record buyback could ‘change the trajectory’ of the stock",
-      "time": "Mon, 28 Sep 2026 16:44:44",
+      "title": "Nvidia's $150B buyback could fuel next stock rally",
+      "time": "Tue, 29 Sep 2026 09:24:54",
       "sentiment": 1
     },
     {
@@ -267,21 +273,15 @@
       "sentiment": 1
     },
     {
-      "ticker": "CVX",
-      "title": "XOM, CVX Stocks In Focus: Trump Criticizes Exxon And Chevron For Profiting From Iran-Driven Oil Price Surge — ‘They’re Making Too Much Money’",
-      "time": "Tue, 29 Sep 2026 00:23:16",
+      "ticker": "LYV",
+      "title": "Live Nation stock reports 9 percent Q2 revenue growth at EUR 151.45",
+      "time": "Tue, 29 Sep 2026 11:16:49",
       "sentiment": 1
     },
     {
-      "ticker": "CVX",
-      "title": "Strong Refining Will Drive Chevron, ExxonMobil Q3 Results: Analyst",
-      "time": "Mon, 28 Sep 2026 18:16:39",
-      "sentiment": 1
-    },
-    {
-      "ticker": "MDT",
-      "title": "Medtronic stock reports 13.7 percent Q1 revenue growth",
-      "time": "Mon, 28 Sep 2026 10:37:18",
+      "ticker": "PANW",
+      "title": "BTIG raises Palo Alto Networks stock price target on growth outlook",
+      "time": "Tue, 29 Sep 2026 10:33:16",
       "sentiment": 1
     },
     {
@@ -292,8 +292,8 @@
     },
     {
       "ticker": "DHR",
-      "title": "Gilead vs. Thermo Fisher: Which Life Sciences Stock has the Stronger Growth Outlook?",
-      "time": "Mon, 28 Sep 2026 18:08:25",
+      "title": "Walmart Doubles Down on Neighborhood Market Growth",
+      "time": "Mon, 28 Sep 2026 19:06:32",
       "sentiment": 1
     },
     {
@@ -303,15 +303,9 @@
       "sentiment": 1
     },
     {
-      "ticker": "HLT",
-      "title": "Hilton’s Asset-Light Model Keeps Room For Growth",
-      "time": "Mon, 28 Sep 2026 11:43:37",
-      "sentiment": 1
-    },
-    {
       "ticker": "XOM",
-      "title": "XOM, CVX Stocks In Focus: Trump Criticizes Exxon And Chevron For Profiting From Iran-Driven Oil Price Surge — ‘They’re Making Too Much Money’",
-      "time": "Tue, 29 Sep 2026 00:23:16",
+      "title": "Strong Refining Will Drive Chevron, ExxonMobil Q3 Results: Analyst",
+      "time": "Mon, 28 Sep 2026 18:16:39",
       "sentiment": 1
     },
     {
@@ -333,15 +327,21 @@
       "sentiment": 1
     },
     {
-      "ticker": "WMT",
-      "title": "Walmart Downgraded Ahead Of Earnings This Month – Oppenheimer Sees A ‘Less Compelling Outperformance Case’",
-      "time": "Tue, 29 Sep 2026 02:23:23",
-      "sentiment": -1
+      "ticker": "TSM",
+      "title": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
+      "time": "Mon, 28 Sep 2026 14:33:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "TSM",
+      "title": "Taiwan Semiconductor Manufacturing Company stock reports 53.30 percent revenue growth",
+      "time": "Tue, 29 Sep 2026 11:29:55",
+      "sentiment": 1
     },
     {
       "ticker": "TSM",
       "title": "Intel Drops 4% on Oil-Driven Rate Fears, NVIDIA Rises 3% on Record $150B Buyback; Taiwan Semiconductor Slips",
-      "time": "Mon, 28 Sep 2026 14:33:00",
+      "time": "Mon, 28 Sep 2026 14:33:20",
       "sentiment": 1
     },
     {
@@ -358,12 +358,6 @@
     },
     {
       "ticker": "GILD",
-      "title": "Can Gilead Sciences (GILD) Justify Its Price As It Raises 2026 Guidance And Dividend?",
-      "time": "Mon, 28 Sep 2026 13:11:34",
-      "sentiment": 1
-    },
-    {
-      "ticker": "GILD",
       "title": "Gilead vs. Danaher: Which Healthcare Growth Story is More Convincing?",
       "time": "Mon, 28 Sep 2026 18:45:06",
       "sentiment": 1
@@ -376,8 +370,32 @@
     },
     {
       "ticker": "TGT",
-      "title": "Target Corporation stock reports 5.3 percent sales growth",
-      "time": "Tue, 29 Sep 2026 07:21:28",
+      "title": "Target cuts prices on thousands of products as value war heats up (TGT:NYSE)",
+      "time": "Tue, 29 Sep 2026 10:43:56",
+      "sentiment": -1
+    },
+    {
+      "ticker": "TGT",
+      "title": "Target (TGT) Announces Holiday Price Cuts Ahead of Circle Deal D",
+      "time": "Tue, 29 Sep 2026 11:07:08",
+      "sentiment": -1
+    },
+    {
+      "ticker": "TGT",
+      "title": "Target cuts prices on 2,000 home and apparel it...",
+      "time": "Tue, 29 Sep 2026 10:16:29",
+      "sentiment": -1
+    },
+    {
+      "ticker": "PM",
+      "title": "Philip Morris International Inc. stock outperforms competitors on strong trading day",
+      "time": "Mon, 28 Sep 2026 20:32:00",
+      "sentiment": 1
+    },
+    {
+      "ticker": "PM",
+      "title": "MO vs. PM: Which Tobacco Giant Has the Better Growth Story?",
+      "time": "Tue, 29 Sep 2026 12:58:38",
       "sentiment": 1
     },
     {
@@ -387,21 +405,9 @@
       "sentiment": 1
     },
     {
-      "ticker": "PM",
-      "title": "Philip Morris International Inc. stock outperforms competitors on strong trading day",
-      "time": "Mon, 28 Sep 2026 20:32:00",
-      "sentiment": 1
-    },
-    {
       "ticker": "DIS",
       "title": "Disney Stock Gets Fresh Price Target Cut From Wall Street — So Why Is Retail Still Strongly Bullish?",
       "time": "Tue, 29 Sep 2026 00:07:32",
-      "sentiment": 1
-    },
-    {
-      "ticker": "MMM",
-      "title": "3M stock draws analyst upgrades as Q2 sales rise",
-      "time": "Mon, 28 Sep 2026 14:07:35",
       "sentiment": 1
     },
     {
@@ -418,27 +424,27 @@
     },
     {
       "ticker": "AMAT",
-      "title": "Morgan Stanley cuts Applied Materials' price target by $79 (AMAT:NASDAQ)",
-      "time": "Mon, 28 Sep 2026 12:50:01",
-      "sentiment": -1
-    },
-    {
-      "ticker": "AMAT",
-      "title": "Applied Materials Stock Rallies on Record Results and AI Chip Demand Surg",
-      "time": "Mon, 28 Sep 2026 13:58:21",
-      "sentiment": 1
-    },
-    {
-      "ticker": "AMAT",
       "title": "Morgan Stanley Cuts Applied Materials Price Target as AI Boom and Valuation Premium Diverge",
-      "time": "Tue, 29 Sep 2026 06:43:10",
+      "time": "Tue, 29 Sep 2026 06:42:32",
       "sentiment": -1
+    },
+    {
+      "ticker": "CRWD",
+      "title": "CrowdStrike vs. Figma: Comparing Revenue Trends Between Two High-Growth Tech Companies",
+      "time": "Tue, 29 Sep 2026 06:35:00",
+      "sentiment": 1
     },
     {
       "ticker": "ADI",
       "title": "Analog Devices: Double-Digit Growth To Continue Into 2027 (NASDAQ:ADI)",
       "time": "Tue, 29 Sep 2026 05:41:10",
       "sentiment": 1
+    },
+    {
+      "ticker": "PG",
+      "title": "Procter & Gamble (PG) Stock May Be 24% Undervalued After Q1 Sales Slip",
+      "time": "Tue, 29 Sep 2026 10:36:23",
+      "sentiment": 0
     },
     {
       "ticker": "PG",
@@ -454,20 +460,8 @@
     },
     {
       "ticker": "PG",
-      "title": "Top dow jones movers in Monday's session",
-      "time": "Mon, 28 Sep 2026 19:10:15",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PG",
       "title": "PG's Baby Care Regains China Lead on Premium Innovation Momentum",
       "time": "Mon, 28 Sep 2026 14:56:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PG",
-      "title": "Pantene puts cream-level nourishment in a spray that protects hair from heat up to 450°F.",
-      "time": "Mon, 28 Sep 2026 13:00:00",
       "sentiment": 0
     },
     {
@@ -484,26 +478,26 @@
     },
     {
       "ticker": "ASML",
+      "title": "Stock Futures Drift as Treasury Selloff Continues",
+      "time": "Tue, 29 Sep 2026 08:46:54",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
+      "title": "ASML Holding stock reports Q2 revenue of EUR 9.33 billion",
+      "time": "Tue, 29 Sep 2026 11:10:33",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
       "title": "ASML Warns Trump on China Chip Restrictions - ASML Holding (NASDAQ:ASML)",
       "time": "Mon, 28 Sep 2026 14:20:17",
       "sentiment": 0
     },
     {
       "ticker": "ASML",
-      "title": "ASML Holding N.V. : UBS reiterates its Buy rating",
-      "time": "Mon, 28 Sep 2026 12:17:44",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
       "title": "ASML Stock Analysis 2026: 41% Upside Predicted – Is It Too Late To Buy? 📊🚀 Televoto Grande Fratello Vip Percentuali Oggi (6ilxFSK1sY)",
       "time": "Mon, 28 Sep 2026 22:33:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
-      "title": "CMCSA Stock Gains Over 3% — NBCUniversal Teams Up With Alphabet To Stream Peacock On YouTube Premium",
-      "time": "Mon, 28 Sep 2026 23:50:46",
       "sentiment": 0
     },
     {
@@ -520,14 +514,14 @@
     },
     {
       "ticker": "ISRG",
-      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
-      "time": "Tue, 29 Sep 2026 07:03:34",
+      "title": "Stay informed with the top movers within the S&P500 index on Monday.",
+      "time": "Mon, 28 Sep 2026 19:05:01",
       "sentiment": 0
     },
     {
       "ticker": "ISRG",
-      "title": "Stay informed with the top movers within the S&P500 index on Monday.",
-      "time": "Mon, 28 Sep 2026 19:05:01",
+      "title": "Intuitive Surgical stock trades at EUR 364.65 before October 20 results",
+      "time": "Tue, 29 Sep 2026 12:02:56",
       "sentiment": 0
     },
     {
@@ -562,20 +556,14 @@
     },
     {
       "ticker": "MAR",
-      "title": "Forget Inflation: Funflation Is Here and These ETFs Are Riding on It",
-      "time": "Mon, 28 Sep 2026 12:54:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "MAR",
       "title": "Marriott International stock at USD 356.94 on September 28, 2026",
       "time": "Mon, 28 Sep 2026 16:38:24",
       "sentiment": 0
     },
     {
-      "ticker": "NVDA",
-      "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 18:10:14",
+      "ticker": "MAR",
+      "title": "Forget Inflation: Funflation Is Here and These ETFs Are Riding on It",
+      "time": "Mon, 28 Sep 2026 15:02:00",
       "sentiment": 0
     },
     {
@@ -586,14 +574,20 @@
     },
     {
       "ticker": "NVDA",
-      "title": "Nvidia (NVDA) Stock Outlook October: What You Need To Look For?",
-      "time": "Tue, 29 Sep 2026 07:16:34",
+      "title": "What's Going On With NVIDIA Stock Tuesday? - NVIDIA (NASDAQ:NVDA)",
+      "time": "Tue, 29 Sep 2026 10:07:22",
       "sentiment": 0
     },
     {
       "ticker": "NVDA",
-      "title": "NVDA Stock Eyes Worst First Half Since 2022: Retail Patience Wears Thin As Board Member Trims Stake For Third Time This Year",
-      "time": "Tue, 29 Sep 2026 04:46:08",
+      "title": "Is The Market Underpricing NVIDIA Stock?",
+      "time": "Tue, 29 Sep 2026 12:52:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NVDA",
+      "title": "Nvidia (NVDA) Stock Outlook October: What You Need To Look For?",
+      "time": "Tue, 29 Sep 2026 07:16:34",
       "sentiment": 0
     },
     {
@@ -604,8 +598,8 @@
     },
     {
       "ticker": "ABBV",
-      "title": "What Is Behind the Latest Moves at AbbVie (NYSE:ABBV)?",
-      "time": "Mon, 28 Sep 2026 17:23:00",
+      "title": "What's Driving the Buzz Around AbbVie (NYSE:ABBV) Today?",
+      "time": "Tue, 29 Sep 2026 12:30:00",
       "sentiment": 0
     },
     {
@@ -622,14 +616,26 @@
     },
     {
       "ticker": "LYV",
+      "title": "Live Nation Revenue Rises 12% as $450M Legal Accrual Pushes Company to Q1 Loss",
+      "time": "Mon, 28 Sep 2026 19:20:32",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LYV",
       "title": "Forget Inflation: Funflation Is Here and These ETFs Are Riding on It",
-      "time": "Mon, 28 Sep 2026 12:54:00",
+      "time": "Mon, 28 Sep 2026 15:02:00",
       "sentiment": 0
     },
     {
       "ticker": "KLAC",
-      "title": "MU: Micron Technology Inc Latest Stock Price, Analysis, News and Trading Ideas",
-      "time": "Tue, 29 Sep 2026 07:03:34",
+      "title": "KLA: This Window Of Opportunity Won't Last Forever (NASDAQ:KLAC)",
+      "time": "Tue, 29 Sep 2026 10:23:45",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KLAC",
+      "title": "What Is Changing for KLA Corporation (NASDAQ:KLAC)?",
+      "time": "Tue, 29 Sep 2026 09:10:00",
       "sentiment": 0
     },
     {
@@ -646,14 +652,8 @@
     },
     {
       "ticker": "KLAC",
-      "title": "KLAC DCF Analysis: Intrinsic Value $104 vs Price $188",
-      "time": "Mon, 28 Sep 2026 11:32:48",
-      "sentiment": 0
-    },
-    {
-      "ticker": "KLAC",
       "title": "3 Chip Equipment Stocks Retail Investors Are Watching On US China Trade Hopes",
-      "time": "Tue, 29 Sep 2026 07:44:27",
+      "time": "Tue, 29 Sep 2026 07:44:28",
       "sentiment": 0
     },
     {
@@ -670,8 +670,20 @@
     },
     {
       "ticker": "CVX",
+      "title": "Chevron Is Expanding Its Presence in the Mediterranean. Here's What It Means for CVX Stock.",
+      "time": "Mon, 28 Sep 2026 15:13:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CVX",
       "title": "Oil Price Spike Could Be A Game Changer For Chevron Stock (CVX)",
       "time": "Mon, 28 Sep 2026 13:30:21",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CVX",
+      "title": "Chevron Is Expanding Its Presence in the Mediterranean. Here's What It Means for CVX Stock.",
+      "time": "Mon, 28 Sep 2026 15:53:00",
       "sentiment": 0
     },
     {
@@ -682,14 +694,20 @@
     },
     {
       "ticker": "CVX",
-      "title": "Chevron Is Expanding Its Presence in the Mediterranean. Here's What It Means for CVX Stock.",
-      "time": "Mon, 28 Sep 2026 15:53:00",
+      "title": "Chevron vs. Occidental Petroleum: Which Energy Stock Is a Better Buy in 2026?",
+      "time": "Tue, 29 Sep 2026 13:11:09",
       "sentiment": 0
     },
     {
       "ticker": "MDT",
       "title": "[425] Medtronic plc Business Combination Communication",
       "time": "Mon, 28 Sep 2026 20:53:21",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MDT",
+      "title": "Boston Scientific: Market Pessimism Has Pushed The Stock Into Undervalued Territory (NYSE:BSX)",
+      "time": "Tue, 29 Sep 2026 09:02:42",
       "sentiment": 0
     },
     {
@@ -708,12 +726,6 @@
       "ticker": "PANW",
       "title": "Palo Alto Networks (PANW) Stock Trades Up, Here Is Why",
       "time": "Tue, 29 Sep 2026 00:46:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PANW",
-      "title": "Analysts Raise Palo Alto Networks Stock Price Targets - What's the Best PANW Play?",
-      "time": "Mon, 28 Sep 2026 12:45:02",
       "sentiment": 0
     },
     {
@@ -748,6 +760,18 @@
     },
     {
       "ticker": "BMY",
+      "title": "3 Numbers That Explain Bristol Myers Squibb's Dirt Cheap Valuation",
+      "time": "Tue, 29 Sep 2026 09:26:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BMY",
+      "title": "Bristol Myers Squibb (BMY) Stock Trades Below Fair Value As Caution Lingers",
+      "time": "Tue, 29 Sep 2026 10:06:17",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BMY",
       "title": "Biotech Stocks Need A Shot In The Arm After Brutal July: Could AstraZeneca-Bristol Myers Megadeal Be The Cure?",
       "time": "Mon, 28 Sep 2026 16:09:10",
       "sentiment": 0
@@ -760,26 +784,26 @@
     },
     {
       "ticker": "BMY",
-      "title": "What's Driving the Buzz Around Bristol Myers Squibb (NYSE:BMY) in Blue-Chip Stocks?",
-      "time": "Mon, 28 Sep 2026 12:30:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BMY",
-      "title": "Bristol Myers Squibb stock gets USD 82.00 target from Piper Sandler",
-      "time": "Mon, 28 Sep 2026 13:41:21",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BMY",
-      "title": "Precision Trading with Bristol-myers Squibb Company (BMY) Risk Zones",
-      "time": "Tue, 29 Sep 2026 00:34:02",
+      "title": "3 Numbers That Explain Bristol Myers Squibb's Dirt Cheap Valuation",
+      "time": "Tue, 29 Sep 2026 09:41:00",
       "sentiment": 0
     },
     {
       "ticker": "DHR",
       "title": "Form 4 Danaher Corporation For: 28 September By Investing.com",
       "time": "Mon, 28 Sep 2026 22:26:43",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DHR",
+      "title": "Danaher stock reports USD 6.26 billion Q2 revenue ahead of earnings",
+      "time": "Tue, 29 Sep 2026 11:24:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DHR",
+      "title": "Leica Biosystems Completes Acquisition of StatLab to Bolster Delivery of More Precise, Timely Diagnostics for Cancer Patients",
+      "time": "Tue, 29 Sep 2026 12:17:19",
       "sentiment": 0
     },
     {
@@ -796,8 +820,8 @@
     },
     {
       "ticker": "CMG",
-      "title": "Five cities will get $6 Chipotle margaritas this October. Dallas will also serve a frozen take.",
-      "time": "Mon, 28 Sep 2026 11:56:15",
+      "title": "How Chipotle Mexican Grill Inc. (CMG) Affects Rotational Strategy Timing",
+      "time": "Tue, 29 Sep 2026 07:34:21",
       "sentiment": 0
     },
     {
@@ -809,13 +833,7 @@
     {
       "ticker": "CMG",
       "title": "Chipotle Mexican Grill (CMG) Jumps 5.4% to $33.02",
-      "time": "Mon, 28 Sep 2026 16:54:10",
-      "sentiment": 0
-    },
-    {
-      "ticker": "HLT",
-      "title": "79% of travelers say fresh air and the outdoors are essential to relaxing on trips, Hilton finds.",
-      "time": "Tue, 29 Sep 2026 04:15:41",
+      "time": "Mon, 28 Sep 2026 21:33:12",
       "sentiment": 0
     },
     {
@@ -838,6 +856,12 @@
     },
     {
       "ticker": "HLT",
+      "title": "The Great Rebalance: Hilton's 2027 Trends Report Reveals Why Travelers Are Embracing Good ‘Ish’ Over Perfection",
+      "time": "Tue, 29 Sep 2026 04:02:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "HLT",
       "title": "Hilton Worldwide Holdings shares deliver 17.95% annual return over 5 years",
       "time": "Mon, 28 Sep 2026 15:51:18",
       "sentiment": 0
@@ -850,20 +874,20 @@
     },
     {
       "ticker": "XOM",
-      "title": "What's Going On With Exxon Mobil Stock on Monday?",
-      "time": "Mon, 28 Sep 2026 13:14:24",
+      "title": "ExxonMobil (NYSE:XOM) Stock Sold by Rep. Kevin Hern",
+      "time": "Tue, 29 Sep 2026 09:05:55",
+      "sentiment": 0
+    },
+    {
+      "ticker": "XOM",
+      "title": "Exxon Mobil Corporation (XOM) Stock Price Today: $161.69",
+      "time": "Tue, 29 Sep 2026 06:32:36",
       "sentiment": 0
     },
     {
       "ticker": "XOM",
       "title": "Exxon Mobil Holdings (XOM) Gains As Market Dips: What You Should Know",
       "time": "Mon, 28 Sep 2026 20:45:04",
-      "sentiment": 0
-    },
-    {
-      "ticker": "XOM",
-      "title": "ExxonMobil (NYSE:XOM) Nears Breakout as Technical Strength and Setup Quality Align",
-      "time": "Mon, 28 Sep 2026 12:30:29",
       "sentiment": 0
     },
     {
@@ -886,14 +910,14 @@
     },
     {
       "ticker": "AMGN",
-      "title": "Understanding the Setup: (AMGN) and Scalable Risk",
-      "time": "Tue, 29 Sep 2026 00:18:02",
+      "title": "Why Amgen’s 6% Dividend Raise Masks a Tougher Road Ahead",
+      "time": "Tue, 29 Sep 2026 13:03:00",
       "sentiment": 0
     },
     {
       "ticker": "AMGN",
-      "title": "Uncover the latest developments among dow jones stocks in today's session.",
-      "time": "Mon, 28 Sep 2026 16:40:14",
+      "title": "Understanding the Setup: (AMGN) and Scalable Risk",
+      "time": "Tue, 29 Sep 2026 00:18:02",
       "sentiment": 0
     },
     {
@@ -904,8 +928,8 @@
     },
     {
       "ticker": "TMO",
-      "title": "Third-quarter results are due before markets open Oct. 21; the call is at 7 a.m.",
-      "time": "Mon, 28 Sep 2026 12:00:00",
+      "title": "Thermo Fisher Scientific (TMO) Adds New Separation Platform To Its Proteomics Toolkit",
+      "time": "Tue, 29 Sep 2026 09:42:29",
       "sentiment": 0
     },
     {
@@ -928,14 +952,20 @@
     },
     {
       "ticker": "WMT",
-      "title": "Walmart Inc. (WMT) is Attracting Investor Attention: Here is What You Should Know",
-      "time": "Mon, 28 Sep 2026 12:00:05",
+      "title": "Walmart (NASDAQ:WMT) Price Target Cut to $125.00 by Analysts at Mizuho",
+      "time": "Tue, 29 Sep 2026 13:03:07",
       "sentiment": 0
     },
     {
       "ticker": "WMT",
-      "title": "Walmart continues to expand its Neighborhood Market concept (WMT:NASDAQ)",
-      "time": "Mon, 28 Sep 2026 10:36:29",
+      "title": "What Could Walmart (WMT) Gain From This New AI Shopping Test In India?",
+      "time": "Tue, 29 Sep 2026 08:40:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "WMT",
+      "title": "Walmart (NASDAQ:WMT) Shares Unloaded by Rep. Kevin Hern",
+      "time": "Tue, 29 Sep 2026 09:05:55",
       "sentiment": 0
     },
     {
@@ -946,14 +976,14 @@
     },
     {
       "ticker": "WMT",
-      "title": "Walmart's Membership Gains Scale: Is It the Next Major Profit Engine?",
-      "time": "Mon, 28 Sep 2026 12:30:00",
+      "title": "WMT: Walmart Denies Dynamic Pricing Amid Patent Controversy",
+      "time": "Mon, 28 Sep 2026 18:06:36",
       "sentiment": 0
     },
     {
       "ticker": "WMT",
-      "title": "WMT: Walmart Denies Dynamic Pricing Amid Patent Controversy",
-      "time": "Mon, 28 Sep 2026 18:06:36",
+      "title": "Uncover the latest developments among dow jones stocks in today's session.",
+      "time": "Mon, 28 Sep 2026 16:40:14",
       "sentiment": 0
     },
     {
@@ -966,18 +996,6 @@
       "ticker": "TSM",
       "title": "ASML Holding N.V. (ASML) Stock Price, News, Quote & History",
       "time": "Tue, 29 Sep 2026 00:13:53",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSM",
-      "title": "TSMC Stock Moves Lower as Agentic Design Chases A14's 2028 Clock",
-      "time": "Mon, 28 Sep 2026 19:34:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TSM",
-      "title": "Best Manufacturing Stocks To Follow Today - September 28th",
-      "time": "Mon, 28 Sep 2026 18:08:07",
       "sentiment": 0
     },
     {
@@ -994,26 +1012,14 @@
     },
     {
       "ticker": "TGT",
-      "title": "Discipline and Rules-Based Execution in TGT Response",
-      "time": "Tue, 29 Sep 2026 03:04:02",
+      "title": "Target's Room Essentials queen comforters now cost $40, down from $50.",
+      "time": "Tue, 29 Sep 2026 10:01:00",
       "sentiment": 0
     },
     {
       "ticker": "TGT",
-      "title": "Best Buy Co., Inc. (BBY) Stock Price, News, Quote & History",
-      "time": "Mon, 28 Sep 2026 20:07:07",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TGT",
-      "title": "Apple Is the Best-Performing \"Magnificent Seven\" Stock This Year. But It Has Still Lagged This Unassuming Dividend Stock (That Remains a Top Buy Now).",
-      "time": "Mon, 28 Sep 2026 13:07:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TGT",
-      "title": "Stocks In Play",
-      "time": "Mon, 28 Sep 2026 14:45:33",
+      "title": "Target lowers prices on nearly 2,000 items",
+      "time": "Tue, 29 Sep 2026 10:20:11",
       "sentiment": 0
     },
     {
@@ -1024,20 +1030,14 @@
     },
     {
       "ticker": "PM",
+      "title": "Transcript: Philip Morris Intl Q2 2026 Earnings Conference Call",
+      "time": "Tue, 29 Sep 2026 08:50:39",
+      "sentiment": 0
+    },
+    {
+      "ticker": "PM",
       "title": "Philip Morris stock at USD 192.57 on September 28, 2026",
       "time": "Mon, 28 Sep 2026 17:40:50",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PM",
-      "title": "Conagra Brands Readies for Q1 Earnings: What to Expect From CAG Stock?",
-      "time": "Mon, 28 Sep 2026 12:33:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "PM",
-      "title": "3 Quality Compounders with Exciting Potential",
-      "time": "Mon, 28 Sep 2026 09:55:05",
       "sentiment": 0
     },
     {
@@ -1048,32 +1048,38 @@
     },
     {
       "ticker": "DIS",
+      "title": "The Walt Disney Company (DIS) latest stock news and headlines – Yahoo Finance",
+      "time": "Tue, 29 Sep 2026 00:08:44",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DIS",
+      "title": "Walt Disney stock at USD 105.70 on September 28, 2026, down 0.42 percent",
+      "time": "Mon, 28 Sep 2026 21:00:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DIS",
       "title": "Disney (DIS) Pays for the Playoffs. What Happens When Series End Early?",
       "time": "Tue, 29 Sep 2026 02:25:00",
       "sentiment": 0
     },
     {
       "ticker": "DIS",
-      "title": "Ex-Disney CEO Bob Chapek advises startups, open to PE fund: Bloomberg (DIS:NYSE)",
-      "time": "Mon, 28 Sep 2026 10:41:30",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DIS",
-      "title": "How to Play DIS Stock as Disney+ Price Hikes Take Effect",
-      "time": "Mon, 28 Sep 2026 22:44:18",
-      "sentiment": 0
-    },
-    {
-      "ticker": "DIS",
-      "title": "Investors Heavily Search The Walt Disney Company (DIS): Here is What You Need to Know",
-      "time": "Mon, 28 Sep 2026 12:00:03",
+      "title": "What Is Behind Walt Disney (NYSE:DIS) As Streaming Prices Climb?",
+      "time": "Mon, 28 Sep 2026 17:03:00",
       "sentiment": 0
     },
     {
       "ticker": "MMM",
       "title": "3M Company (MMM) Stock Price, News, Quote & History",
       "time": "Mon, 28 Sep 2026 19:50:47",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MMM",
+      "title": "3M Company: Had A Great Run In The Last Three Years, But Too Expensive To Buy Now",
+      "time": "Tue, 29 Sep 2026 11:15:27",
       "sentiment": 0
     },
     {
@@ -1090,8 +1096,8 @@
     },
     {
       "ticker": "MMM",
-      "title": "Crypto Equities HOOD, COIN, MSTR Slide With Broader Market After Oil Hits Five-Week High",
-      "time": "Tue, 29 Sep 2026 02:21:37",
+      "title": "3M stock trades at EUR 149.23 as Bernstein lifts target",
+      "time": "Tue, 29 Sep 2026 10:47:34",
       "sentiment": 0
     },
     {
@@ -1132,20 +1138,20 @@
     },
     {
       "ticker": "EMR",
-      "title": "Investors Heavily Search Emerson Electric Co. (EMR): Here is What You Need to Know",
-      "time": "Mon, 28 Sep 2026 12:00:04",
+      "title": "Emerson Electric stock last trades at USD 159.41 on September 28, 2026",
+      "time": "Mon, 28 Sep 2026 21:11:58",
       "sentiment": 0
     },
     {
       "ticker": "BIIB",
       "title": "How At Home Alzheimer’s Treatment Could Impact Biogen (BIIB) Investors",
-      "time": "Tue, 29 Sep 2026 07:44:28",
+      "time": "Tue, 29 Sep 2026 07:44:29",
       "sentiment": 0
     },
     {
       "ticker": "BIIB",
-      "title": "Why Did KOD, RGEN, BIIB Stocks Rise To 52-Week Highs?",
-      "time": "Tue, 29 Sep 2026 04:23:00",
+      "title": "How Biogen Inc. (BIIB) Affects Rotational Strategy Timing",
+      "time": "Tue, 29 Sep 2026 06:02:02",
       "sentiment": 0
     },
     {
@@ -1155,9 +1161,21 @@
       "sentiment": 0
     },
     {
+      "ticker": "BIIB",
+      "title": "Why Did KOD, RGEN, BIIB Stocks Rise To 52-Week Highs?",
+      "time": "Tue, 29 Sep 2026 04:23:00",
+      "sentiment": 0
+    },
+    {
       "ticker": "AMAT",
-      "title": "Wall Street Analysts Believe Applied Materials (AMAT) Could Rally 34.23%: Here's is How to Trade",
-      "time": "Mon, 28 Sep 2026 12:55:03",
+      "title": "Morgan Stanley resets AMAT stock price target by $79",
+      "time": "Tue, 29 Sep 2026 12:07:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMAT",
+      "title": "Applied Materials stock gains 2.60 percent on September 29",
+      "time": "Tue, 29 Sep 2026 12:34:16",
       "sentiment": 0
     },
     {
@@ -1168,8 +1186,14 @@
     },
     {
       "ticker": "AMAT",
-      "title": "Here's How Much a $1000 Investment in Applied Materials Made 10 Years Ago Would Be Worth Today",
-      "time": "Mon, 28 Sep 2026 11:30:02",
+      "title": "Is Applied Materials Still The Business You Bought?",
+      "time": "Tue, 29 Sep 2026 12:42:17",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMAT",
+      "title": "(AMAT) Price Dynamics and Execution-Aware Positioning",
+      "time": "Tue, 29 Sep 2026 05:04:02",
       "sentiment": 0
     },
     {
@@ -1186,12 +1210,6 @@
     },
     {
       "ticker": "CRWD",
-      "title": "CrowdStrike vs. Okta: Which Cybersecurity Stock Is a Better Buy in 2026?",
-      "time": "Tue, 29 Sep 2026 00:37:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRWD",
       "title": "CrowdStrike Holdings Inc Stock (CRWD) Moved Up by 3.10% on Sep 28: Facts Behind the Movement",
       "time": "Mon, 28 Sep 2026 17:15:25",
       "sentiment": 0
@@ -1204,8 +1222,8 @@
     },
     {
       "ticker": "CRWD",
-      "title": "Will Rising AI Vulnerabilities Boost CrowdStrike's Exposure Business?",
-      "time": "Mon, 28 Sep 2026 15:09:00",
+      "title": "CrowdStrike vs. Okta: Which Cybersecurity Stock Is a Better Buy in 2026?",
+      "time": "Tue, 29 Sep 2026 00:37:00",
       "sentiment": 0
     },
     {
@@ -1228,14 +1246,14 @@
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices' data center revenue to reach 26...",
-      "time": "Tue, 29 Sep 2026 06:00:45",
+      "title": "Performance Comparison: Analog Devices And Competitors In Semiconductors & Semiconductor Equipment In",
+      "time": "Tue, 29 Sep 2026 09:58:51",
       "sentiment": 0
     },
     {
       "ticker": "ADI",
-      "title": "Technical Reactions to ADI Trends in Macro Strategies",
-      "time": "Tue, 29 Sep 2026 03:46:01",
+      "title": "Analog Devices' data center revenue to reach 26...",
+      "time": "Tue, 29 Sep 2026 06:00:45",
       "sentiment": 0
     }
   ]
