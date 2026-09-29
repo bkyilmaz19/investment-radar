@@ -1,10 +1,49 @@
 {
-  "generated_at_local": "29.09.2026 16:44 CEST",
+  "generated_at_local": "29.09.2026 17:01 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
+    {
+      "ticker": "XOM",
+      "name": "Exxon Mobil",
+      "score": 93,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.20%, 5T +2.67%, relatives Volumen 0.97x, ATR 2.41%",
+      "catalyst": "Are Current Oil Prices High Enough to Fuel ExxonMobil's Growth?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.93%, seit Open +0.50%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.44,
+      "target_pct": 2.74,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.20%",
+      "change_5d": "+2.67%",
+      "volume_ratio": "0.97x",
+      "atr_pct": "2.41%",
+      "gap_pct": "-1.37%",
+      "premarket_move_pct": "-1.37%",
+      "live_gap_pct": "-0.93%",
+      "regular_move_pct": "+0.50%",
+      "avg_dollar_volume": 2374254204.17,
+      "bar_age_minutes": 1.5,
+      "vwap": 160.62,
+      "opening_range_high": 160.69,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
     {
       "ticker": "CMG",
       "name": "Chipotle",
@@ -13,7 +52,7 @@
       "thesis": "1T +1.66%, 5T -3.89%, relatives Volumen 2.22x, ATR 3.92%",
       "catalyst": "Chipotle stock gains as investors revisit guidance, buybacks and a rebound setup",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.61%, seit Open +1.50%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.53%, seit Open +1.43%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.35,
       "target_pct": 4.46,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +62,11 @@
       "atr_pct": "3.92%",
       "gap_pct": "-0.31%",
       "premarket_move_pct": "-0.53%",
-      "live_gap_pct": "+0.61%",
-      "regular_move_pct": "+1.50%",
+      "live_gap_pct": "+0.53%",
+      "regular_move_pct": "+1.43%",
       "avg_dollar_volume": 470166008.67,
-      "bar_age_minutes": 4.9,
-      "vwap": 31.88,
+      "bar_age_minutes": 1.5,
+      "vwap": 31.89,
       "opening_range_high": 31.75,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -45,84 +84,6 @@
       }
     },
     {
-      "ticker": "XOM",
-      "name": "Exxon Mobil",
-      "score": 92,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.20%, 5T +2.67%, relatives Volumen 0.97x, ATR 2.41%",
-      "catalyst": "Strong Refining Will Drive Chevron, ExxonMobil Q3 Results: Analyst",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -1.15%, seit Open +0.27%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.44,
-      "target_pct": 2.74,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.20%",
-      "change_5d": "+2.67%",
-      "volume_ratio": "0.97x",
-      "atr_pct": "2.41%",
-      "gap_pct": "-1.37%",
-      "premarket_move_pct": "-1.37%",
-      "live_gap_pct": "-1.15%",
-      "regular_move_pct": "+0.27%",
-      "avg_dollar_volume": 2374254204.17,
-      "bar_age_minutes": 4.9,
-      "vwap": 160.58,
-      "opening_range_high": 160.69,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "CVX",
-      "name": "Chevron",
-      "score": 91,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.94%, 5T +1.33%, relatives Volumen 1.12x, ATR 2.29%",
-      "catalyst": "Why Is Chevron (NYSE:CVX) In Focus After Its Venezuela Commitment And Record-High Shares?",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -1.03%, seit Open +0.59%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.37,
-      "target_pct": 2.61,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.94%",
-      "change_5d": "+1.33%",
-      "volume_ratio": "1.12x",
-      "atr_pct": "2.29%",
-      "gap_pct": "-1.24%",
-      "premarket_move_pct": "-1.33%",
-      "live_gap_pct": "-1.03%",
-      "regular_move_pct": "+0.59%",
-      "avg_dollar_volume": 2160808391.38,
-      "bar_age_minutes": 4.9,
-      "vwap": 204.15,
-      "opening_range_high": 204.57,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": false,
-        "confirmation_ok": true
-      }
-    },
-    {
       "ticker": "NVDA",
       "name": "NVIDIA",
       "score": 86,
@@ -130,7 +91,7 @@
       "thesis": "1T +1.68%, 5T +0.65%, relatives Volumen 1.53x, ATR 2.26%",
       "catalyst": "Nvidia's record buyback shows chipmaker's stock is too cheap for CEO Huang to resist",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.95%, seit Open +0.02%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.98%, seit Open +0.10%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.36,
       "target_pct": 2.58,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +101,11 @@
       "atr_pct": "2.26%",
       "gap_pct": "+0.94%",
       "premarket_move_pct": "+0.23%",
-      "live_gap_pct": "+0.95%",
-      "regular_move_pct": "+0.02%",
+      "live_gap_pct": "+0.98%",
+      "regular_move_pct": "+0.10%",
       "avg_dollar_volume": 25237870221.91,
-      "bar_age_minutes": 4.9,
-      "vwap": 230.67,
+      "bar_age_minutes": 1.5,
+      "vwap": 230.76,
       "opening_range_high": 232.82,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -169,7 +130,7 @@
       "thesis": "1T +0.85%, 5T +6.35%, relatives Volumen 0.97x, ATR 2.19%",
       "catalyst": "Amgen (AMGN) Has a New Growth Opportunity. But How Much Is It Really Worth?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.57%, seit Open +0.32%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.45%, seit Open +0.45%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.32,
       "target_pct": 2.5,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +140,11 @@
       "atr_pct": "2.19%",
       "gap_pct": "-1.11%",
       "premarket_move_pct": "-0.48%",
-      "live_gap_pct": "-0.57%",
-      "regular_move_pct": "+0.32%",
+      "live_gap_pct": "-0.45%",
+      "regular_move_pct": "+0.45%",
       "avg_dollar_volume": 1246358273.13,
-      "bar_age_minutes": 4.9,
-      "vwap": 417.26,
+      "bar_age_minutes": 1.5,
+      "vwap": 417.23,
       "opening_range_high": 421.35,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -197,6 +158,45 @@
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "PM",
+      "name": "Philip Morris",
+      "score": 81,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +1.72%, 5T +3.35%, relatives Volumen 0.70x, ATR 2.31%",
+      "catalyst": "MO vs. PM: Which Tobacco Giant Has the Better Growth Story?",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -1.27%, seit Open -0.34%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.38,
+      "target_pct": 2.63,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+1.72%",
+      "change_5d": "+3.35%",
+      "volume_ratio": "0.70x",
+      "atr_pct": "2.31%",
+      "gap_pct": "-1.28%",
+      "premarket_move_pct": "-0.90%",
+      "live_gap_pct": "-1.27%",
+      "regular_move_pct": "-0.34%",
+      "avg_dollar_volume": 836978907.33,
+      "bar_age_minutes": 1.5,
+      "vwap": 191.88,
+      "opening_range_high": 192.45,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": false,
         "confirmation_ok": false
       }
     }
@@ -263,19 +263,13 @@
     {
       "ticker": "ABBV",
       "title": "AbbVie (ABBV) Gains FDA Approval for Juvmo Tablets to Treat Park",
-      "time": "Mon, 28 Sep 2026 15:21:19",
+      "time": "Mon, 28 Sep 2026 16:30:34",
       "sentiment": 1
     },
     {
       "ticker": "LYV",
       "title": "Live Nation stock reports 9 percent Q2 revenue growth at EUR 151.45",
       "time": "Tue, 29 Sep 2026 11:16:49",
-      "sentiment": 1
-    },
-    {
-      "ticker": "CVX",
-      "title": "Why Is Chevron (NYSE:CVX) In Focus After Its Venezuela Commitment And Record-High Shares?",
-      "time": "Mon, 28 Sep 2026 17:35:00",
       "sentiment": 1
     },
     {
@@ -310,14 +304,14 @@
     },
     {
       "ticker": "XOM",
-      "title": "Strong Refining Will Drive Chevron, ExxonMobil Q3 Results: Analyst",
-      "time": "Mon, 28 Sep 2026 18:16:39",
+      "title": "Are Current Oil Prices High Enough to Fuel ExxonMobil's Growth?",
+      "time": "Tue, 29 Sep 2026 12:01:00",
       "sentiment": 1
     },
     {
       "ticker": "XOM",
-      "title": "ExxonMobil (NYSE:XOM) Shares Up 1.2% on Analyst Upgrade",
-      "time": "Mon, 28 Sep 2026 21:02:35",
+      "title": "Strong Refining Will Drive Chevron, ExxonMobil Q3 Results: Analyst",
+      "time": "Mon, 28 Sep 2026 18:16:39",
       "sentiment": 1
     },
     {
@@ -399,12 +393,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "AMAT",
-      "title": "Morgan Stanley Cuts Applied Materials Price Target as AI Boom and Valuation Premium Diverge",
-      "time": "Tue, 29 Sep 2026 06:42:32",
-      "sentiment": -1
-    },
-    {
       "ticker": "CRWD",
       "title": "CrowdStrike vs. Figma: Comparing Revenue Trends Between Two High-Growth Tech Companies",
       "time": "Tue, 29 Sep 2026 06:35:00",
@@ -442,8 +430,8 @@
     },
     {
       "ticker": "PG",
-      "title": "PG's Baby Care Regains China Lead on Premium Innovation Momentum",
-      "time": "Mon, 28 Sep 2026 14:56:00",
+      "title": "Top dow jones movers in Monday's session",
+      "time": "Mon, 28 Sep 2026 19:10:15",
       "sentiment": 0
     },
     {
@@ -454,8 +442,20 @@
     },
     {
       "ticker": "ASML",
+      "title": "ASML Rises as Chip Equipment Stocks Gain on AI Demand Optimism",
+      "time": "Tue, 29 Sep 2026 14:49:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
+      "title": "Why Everyone Is Watching ASML Holding (ENXTAM:ASML) Today",
+      "time": "Tue, 29 Sep 2026 12:34:14",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
       "title": "ASML Holding NV (0QB8) Receives a Buy from UBS",
-      "time": "Tue, 29 Sep 2026 12:40:39",
+      "time": "Tue, 29 Sep 2026 12:47:01",
       "sentiment": 0
     },
     {
@@ -468,18 +468,6 @@
       "ticker": "ASML",
       "title": "ASML (ASML) Increases Despite Market Slip: Here's What You Need to Know",
       "time": "Mon, 28 Sep 2026 20:50:05",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
-      "title": "Stock Futures Drift as Treasury Selloff Continues",
-      "time": "Tue, 29 Sep 2026 08:46:54",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
-      "title": "ASML Holding stock reports Q2 revenue of EUR 9.33 billion",
-      "time": "Tue, 29 Sep 2026 11:10:33",
       "sentiment": 0
     },
     {
@@ -544,8 +532,8 @@
     },
     {
       "ticker": "NVDA",
-      "title": "Nvidia Stock Is at Its Cheapest Valuation Since 2015",
-      "time": "Tue, 29 Sep 2026 13:45:52",
+      "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History",
+      "time": "Tue, 29 Sep 2026 06:17:50",
       "sentiment": 0
     },
     {
@@ -562,14 +550,20 @@
     },
     {
       "ticker": "NVDA",
-      "title": "What's Going On With NVIDIA Stock Tuesday? - NVIDIA (NASDAQ:NVDA)",
-      "time": "Tue, 29 Sep 2026 10:07:22",
+      "title": "Nvidia Just Put $150 Billion Behind Its Stock. Is It Cheap Enough?",
+      "time": "Tue, 29 Sep 2026 14:38:51",
       "sentiment": 0
     },
     {
       "ticker": "NVDA",
       "title": "Nvidia (NVDA) Stock Outlook October: What You Need To Look For?",
       "time": "Tue, 29 Sep 2026 07:16:34",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ABBV",
+      "title": "UnitedHealth, AbbVie And A Health Care Stock On CNBC’s ‘Final Trades’",
+      "time": "Tue, 29 Sep 2026 14:41:47",
       "sentiment": 0
     },
     {
@@ -582,12 +576,6 @@
       "ticker": "ABBV",
       "title": "FDA Nod For JUVMO Parkinson’s Drug Could Be A Game Changer For AbbVie (ABBV)",
       "time": "Tue, 29 Sep 2026 05:11:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ABBV",
-      "title": "AbbVie’s New Parkinson’s Pill Could Become a Billion-Dollar Drug, Analyst Says",
-      "time": "Mon, 28 Sep 2026 17:38:34",
       "sentiment": 0
     },
     {
@@ -622,6 +610,12 @@
     },
     {
       "ticker": "KLAC",
+      "title": "KLA Corporation (KLAC) Slips 1.43% to $185.24, Holding the Middle of Its $175.98–$194.50 Range - Wave Truncation",
+      "time": "Mon, 28 Sep 2026 15:45:24",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KLAC",
       "title": "Responsive Playbooks and the KLAC Inflection",
       "time": "Tue, 29 Sep 2026 01:42:02",
       "sentiment": 0
@@ -633,12 +627,6 @@
       "sentiment": 0
     },
     {
-      "ticker": "KLAC",
-      "title": "3 Chip Equipment Stocks Retail Investors Are Watching On US China Trade Hopes",
-      "time": "Tue, 29 Sep 2026 07:44:28",
-      "sentiment": 0
-    },
-    {
       "ticker": "CVX",
       "title": "Chevron Posts Highest Revenue In Four Years On Energy Rally – CVX Stock Heads for Best Month Since October 2022",
       "time": "Tue, 29 Sep 2026 03:23:00",
@@ -646,8 +634,8 @@
     },
     {
       "ticker": "CVX",
-      "title": "Chevron Is Expanding Its Presence in the Mediterranean. Here's What It Means for CVX Stock.",
-      "time": "Mon, 28 Sep 2026 15:13:00",
+      "title": "Chevron (CVX): Is the Recent Decline a Temporary Setback or a Long-Term Opportunity?",
+      "time": "Tue, 29 Sep 2026 13:32:08",
       "sentiment": 0
     },
     {
@@ -660,6 +648,12 @@
       "ticker": "CVX",
       "title": "Why Can't Investors Stop Watching Chevron (NYSE:CVX) Today?",
       "time": "Tue, 29 Sep 2026 12:30:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CVX",
+      "title": "Chevron Is Expanding Its Presence in the Mediterranean. Here's What It Means for CVX Stock.",
+      "time": "Mon, 28 Sep 2026 15:13:00",
       "sentiment": 0
     },
     {
@@ -718,14 +712,14 @@
     },
     {
       "ticker": "PANW",
-      "title": "Stocks making big moves yesterday: TTM Technologies, PacBio, Nvidia, Palo Alto Networks, and Teleflex",
-      "time": "Tue, 29 Sep 2026 13:21:12",
+      "title": "Palo Alto Networks Stock Rose Nearly 5% as Nvidia Launched an AI Agent Safety Platform. Here’s What Palo Alto Is Building on Top of It",
+      "time": "Tue, 29 Sep 2026 14:45:56",
       "sentiment": 0
     },
     {
       "ticker": "PANW",
-      "title": "Palo Alto Networks in spotlight as BTIG ups price target (PANW:NASDAQ)",
-      "time": "Mon, 28 Sep 2026 16:11:27",
+      "title": "Stocks making big moves yesterday: TTM Technologies, PacBio, Nvidia, Palo Alto Networks, and Teleflex",
+      "time": "Tue, 29 Sep 2026 13:21:12",
       "sentiment": 0
     },
     {
@@ -766,8 +760,14 @@
     },
     {
       "ticker": "DHR",
+      "title": "(DHR) Price Dynamics and Execution-Aware Positioning",
+      "time": "Tue, 29 Sep 2026 08:54:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "DHR",
       "title": "Form 4 Danaher Corporation For: 28 September By Investing.com",
-      "time": "Mon, 28 Sep 2026 22:26:43",
+      "time": "Mon, 28 Sep 2026 21:53:12",
       "sentiment": 0
     },
     {
@@ -856,14 +856,14 @@
     },
     {
       "ticker": "XOM",
-      "title": "Exxon Mobil Holdings (XOM) Gains As Market Dips: What You Should Know",
-      "time": "Mon, 28 Sep 2026 20:45:04",
+      "title": "Why Can't Investors Stop Watching Exxon Mobil (NYSE:XOM) Today?",
+      "time": "Tue, 29 Sep 2026 12:30:00",
       "sentiment": 0
     },
     {
       "ticker": "XOM",
-      "title": "Why Is ExxonMobil (NYSE:XOM) Back In Focus As Crude Firms On Middle East Tensions?",
-      "time": "Mon, 28 Sep 2026 17:35:00",
+      "title": "Exxon Mobil Holdings (XOM) Gains As Market Dips: What You Should Know",
+      "time": "Mon, 28 Sep 2026 20:45:04",
       "sentiment": 0
     },
     {
@@ -910,12 +910,6 @@
     },
     {
       "ticker": "TMO",
-      "title": "Thermo Fisher Scientific and Evosep Enter Reseller Agreement for Evosep Eno",
-      "time": "Tue, 29 Sep 2026 12:16:34",
-      "sentiment": 0
-    },
-    {
-      "ticker": "TMO",
       "title": "Thermo Fisher Scientific stock trades at EUR 596.90 before October 21 results",
       "time": "Tue, 29 Sep 2026 13:33:15",
       "sentiment": 0
@@ -924,6 +918,12 @@
       "ticker": "TMO",
       "title": "Will Thermo Fisher’s New cGMP CHO-K1 Panel and MRD Moves Change Thermo Fisher Scientific's (TMO) Narrative",
       "time": "Tue, 29 Sep 2026 01:09:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TMO",
+      "title": "Thermo Fisher Scientific stock last trades at USD 677.36 on September 28, 2026",
+      "time": "Mon, 28 Sep 2026 19:20:53",
       "sentiment": 0
     },
     {
@@ -952,8 +952,8 @@
     },
     {
       "ticker": "WMT",
-      "title": "Walmart (WMT) Delivers Forgotten Groceries Fast. Can Small Orders Make Money?",
-      "time": "Tue, 29 Sep 2026 02:32:00",
+      "title": "What Could Walmart (WMT) Gain From This New AI Shopping Test In India?",
+      "time": "Tue, 29 Sep 2026 08:40:04",
       "sentiment": 0
     },
     {
@@ -1030,8 +1030,8 @@
     },
     {
       "ticker": "PM",
-      "title": "Philip Morris stock at USD 192.57 on September 28, 2026",
-      "time": "Mon, 28 Sep 2026 17:40:50",
+      "title": "McCormick Readies for Q3 Earnings: What to Expect From MKC Stock?",
+      "time": "Tue, 29 Sep 2026 11:51:00",
       "sentiment": 0
     },
     {
@@ -1156,12 +1156,6 @@
     },
     {
       "ticker": "BIIB",
-      "title": "Why Did KOD, RGEN, BIIB Stocks Rise To 52-Week Highs?",
-      "time": "Mon, 28 Sep 2026 21:23:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BIIB",
       "title": "Biogen stock at USD 228.69 on September 28, 2026",
       "time": "Mon, 28 Sep 2026 21:35:51",
       "sentiment": 0
@@ -1170,6 +1164,12 @@
       "ticker": "AMAT",
       "title": "Morgan Stanley resets AMAT stock price target by $79",
       "time": "Tue, 29 Sep 2026 12:07:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMAT",
+      "title": "Applied Materials Inc Stock (AMAT) Opened Up by 4.09% on Sep 29: What Investors Need To Know",
+      "time": "Tue, 29 Sep 2026 13:47:18",
       "sentiment": 0
     },
     {
@@ -1234,14 +1234,14 @@
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices stock at USD 393.60 on September 28, 2026",
-      "time": "Mon, 28 Sep 2026 20:25:33",
+      "title": "Analog Devices $100 investment grows to $1,120 in 15 years",
+      "time": "Tue, 29 Sep 2026 11:56:32",
       "sentiment": 0
     },
     {
       "ticker": "ADI",
-      "title": "3 AI Infrastructure Stocks Retail Investors Are Watching After AMD’s World Labs Deal",
-      "time": "Tue, 29 Sep 2026 01:51:37",
+      "title": "Analog Devices stock at USD 393.60 on September 28, 2026",
+      "time": "Mon, 28 Sep 2026 20:25:33",
       "sentiment": 0
     },
     {
