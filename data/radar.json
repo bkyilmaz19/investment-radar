@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "30.09.2026 15:58 CEST",
+  "generated_at_local": "30.09.2026 16:20 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -13,7 +13,7 @@
       "thesis": "1T +7.45%, 5T +10.98%, relatives Volumen 0.73x, ATR 4.21%",
       "catalyst": "Royal Caribbean Cruises (NYSE:RCL) Stock Keeps \"Outperform\" Rating at BMO Capital Markets",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.49%, seit Open +2.67%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +3.08%, seit Open +3.27%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.53,
       "target_pct": 4.8,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "4.21%",
       "gap_pct": "+0.90%",
       "premarket_move_pct": "+0.42%",
-      "live_gap_pct": "+2.49%",
-      "regular_move_pct": "+2.67%",
+      "live_gap_pct": "+3.08%",
+      "regular_move_pct": "+3.27%",
       "avg_dollar_volume": 765198104.43,
-      "bar_age_minutes": 3.1,
-      "vwap": 263.59,
+      "bar_age_minutes": 0.3,
+      "vwap": 265.77,
       "opening_range_high": 265.2,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -65,8 +65,8 @@
       "live_gap_pct": "-0.51%",
       "regular_move_pct": "+0.37%",
       "avg_dollar_volume": 404312601.89,
-      "bar_age_minutes": 3.1,
-      "vwap": 209.1,
+      "bar_age_minutes": 5.3,
+      "vwap": 209.28,
       "opening_range_high": 210.15,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -84,53 +84,14 @@
       }
     },
     {
-      "ticker": "KLAC",
-      "name": "KLA",
-      "score": 92,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.89%, 5T +4.36%, relatives Volumen 0.93x, ATR 3.77%",
-      "catalyst": "KLA Corporation: Fundamentals Are Strong, But The Stock Needs More (NASDAQ:KLAC)",
-      "risk_note": "KLA (NASDAQ:KLAC) Downgraded by Zacks Research to Hold",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.15%, seit Open +0.41%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 2.26,
-      "target_pct": 4.3,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.89%",
-      "change_5d": "+4.36%",
-      "volume_ratio": "0.93x",
-      "atr_pct": "3.77%",
-      "gap_pct": "+0.07%",
-      "premarket_move_pct": "+0.86%",
-      "live_gap_pct": "+0.15%",
-      "regular_move_pct": "+0.41%",
-      "avg_dollar_volume": 1728892612.53,
-      "bar_age_minutes": 3.1,
-      "vwap": 196.51,
-      "opening_range_high": 197.2,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
       "ticker": "AMGN",
       "name": "Amgen",
-      "score": 89,
+      "score": 88,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.32%, 5T +3.27%, relatives Volumen 1.32x, ATR 2.24%",
       "catalyst": "Amgen Inc (AMGN) Shares Surge 1.3% -- What GF Score of 87 Tells Investors",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.15%, seit Open +0.07%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.05%, seit Open -0.14%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.34,
       "target_pct": 2.55,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +101,11 @@
       "atr_pct": "2.24%",
       "gap_pct": "+0.18%",
       "premarket_move_pct": "-0.21%",
-      "live_gap_pct": "+0.15%",
-      "regular_move_pct": "+0.07%",
+      "live_gap_pct": "-0.05%",
+      "regular_move_pct": "-0.14%",
       "avg_dollar_volume": 1278510646.58,
-      "bar_age_minutes": 3.1,
-      "vwap": 424.7,
+      "bar_age_minutes": 5.3,
+      "vwap": 424.16,
       "opening_range_high": 426.59,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -162,29 +123,29 @@
       }
     },
     {
-      "ticker": "LRCX",
-      "name": "Lam Research",
-      "score": 88,
+      "ticker": "SO",
+      "name": "Southern Company",
+      "score": 85,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.99%, 5T +4.15%, relatives Volumen 0.90x, ATR 4.41%",
-      "catalyst": "Lam Research Corp (LRCX) Shares Surge 3.0% -- What GF Score of 8",
+      "thesis": "1T +1.34%, 5T -2.00%, relatives Volumen 1.99x, ATR 1.52%",
+      "catalyst": "NEE vs. SO: Which Utility Stock Wins for Retirement Income in 2026?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.73%, seit Open +0.44%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 2.65,
-      "target_pct": 5.03,
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.02%, seit Open -0.35%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 0.91,
+      "target_pct": 2.0,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.99%",
-      "change_5d": "+4.15%",
-      "volume_ratio": "0.90x",
-      "atr_pct": "4.41%",
-      "gap_pct": "+0.34%",
-      "premarket_move_pct": "+0.01%",
-      "live_gap_pct": "+0.73%",
-      "regular_move_pct": "+0.44%",
-      "avg_dollar_volume": 2784302933.9,
-      "bar_age_minutes": 3.1,
-      "vwap": 325.91,
-      "opening_range_high": 328.12,
+      "change_1d": "+1.34%",
+      "change_5d": "-2.00%",
+      "volume_ratio": "1.99x",
+      "atr_pct": "1.52%",
+      "gap_pct": "+0.66%",
+      "premarket_move_pct": "+0.12%",
+      "live_gap_pct": "+0.02%",
+      "regular_move_pct": "-0.35%",
+      "avg_dollar_volume": 534067006.0,
+      "bar_age_minutes": 0.3,
+      "vwap": 83.6,
+      "opening_range_high": 83.98,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -192,8 +153,47 @@
       "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
         "score_ok": true,
+        "momentum_ok": false,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML",
+      "score": 83,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.56%, 5T +4.95%, relatives Volumen 1.41x, ATR 2.86%",
+      "catalyst": "Premarket-/Momentum-Bestätigung",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.72%, seit Open -0.41%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 1.71,
+      "target_pct": 3.26,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.56%",
+      "change_5d": "+4.95%",
+      "volume_ratio": "1.41x",
+      "atr_pct": "2.86%",
+      "gap_pct": "-0.39%",
+      "premarket_move_pct": "-0.75%",
+      "live_gap_pct": "-0.72%",
+      "regular_move_pct": "-0.41%",
+      "avg_dollar_volume": 2252103617.86,
+      "bar_age_minutes": 0.3,
+      "vwap": 1824.77,
+      "opening_range_high": 1830.0,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "WARTEN",
+      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
+      "criteria": {
+        "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": false,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -208,12 +208,6 @@
     }
   ],
   "news": [
-    {
-      "ticker": "ASML",
-      "title": "ASML Stock Surges 3.8% as AI Rebound Returns to Lithography",
-      "time": "Tue, 29 Sep 2026 18:48:36",
-      "sentiment": 1
-    },
     {
       "ticker": "AMAT",
       "title": "Applied Materials Inc (AMAT) Shares Surge 5.2% -- What GF Score of 87 Tells Investors",
@@ -312,7 +306,7 @@
     },
     {
       "ticker": "SYK",
-      "title": "Stryker stock faces analyst cuts as Stifel lowers target - ad-hoc-news.de",
+      "title": "Stryker stock faces analyst cuts as Stifel lowers target",
       "time": "Wed, 30 Sep 2026 09:40:54",
       "sentiment": -1
     },
@@ -330,7 +324,7 @@
     },
     {
       "ticker": "SAP",
-      "title": "SAP stock weighs cloud growth against acquisition costs - ad-hoc-news.de",
+      "title": "SAP stock weighs cloud growth against acquisition costs",
       "time": "Wed, 30 Sep 2026 11:56:50",
       "sentiment": 1
     },
@@ -360,14 +354,14 @@
     },
     {
       "ticker": "GEV",
-      "title": "GE Vernova Keeps Quarterly Dividend at $0.50 a Share, Payable Nov. 24 to Shareholders of Record as of Oct. 27",
-      "time": "Wed, 30 Sep 2026 11:49:20",
+      "title": "GE Vernova Inc. stock rises Tuesday, outperforms market",
+      "time": "Tue, 29 Sep 2026 20:34:00",
       "sentiment": 1
     },
     {
       "ticker": "META",
       "title": "Meta: Meta Launches Enterprise Offering to Open Up Another Way to Monetize AI Investments",
-      "time": "Wed, 30 Sep 2026 08:18:01",
+      "time": "Wed, 30 Sep 2026 08:18:06",
       "sentiment": -1
     },
     {
@@ -392,12 +386,6 @@
       "ticker": "MRNA",
       "title": "Moderna stock slips as Citi cuts to Sell (MRNA:NASDAQ)",
       "time": "Wed, 30 Sep 2026 11:35:47",
-      "sentiment": -1
-    },
-    {
-      "ticker": "MRNA",
-      "title": "Moderna Sinks 6% on Citi Downgrade; Merck and Pfizer Stay Flat",
-      "time": "Wed, 30 Sep 2026 13:42:00",
       "sentiment": -1
     },
     {
@@ -443,12 +431,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "NFLX",
-      "title": "Netflix (NASDAQ:NFLX) Stock Price Up 1.5% on Analyst Upgrade",
-      "time": "Tue, 29 Sep 2026 21:03:52",
-      "sentiment": 1
-    },
-    {
       "ticker": "TMO",
       "title": "Thermo Fisher Scientific (NYSE:TMO) Stock: Faster Organic Growth Lifts Its 2026 Outlook",
       "time": "Tue, 29 Sep 2026 19:16:00",
@@ -456,15 +438,15 @@
     },
     {
       "ticker": "BA",
-      "title": "BA Stock Climbs After Boeing Secures $20 Billion Contract as Pentagon Pushes Next-Generation Carrier Figh",
-      "time": "Wed, 30 Sep 2026 07:42:30",
-      "sentiment": 1
-    },
-    {
-      "ticker": "BA",
       "title": "Boeing (BA) Won A Multibillion Dollar Navy F A XX Fighter Contract",
       "time": "Wed, 30 Sep 2026 08:44:51",
       "sentiment": 1
+    },
+    {
+      "ticker": "ASML",
+      "title": "Here is What to Know Beyond Why ASML Holding N.V. (ASML) is a Trending Stock",
+      "time": "Wed, 30 Sep 2026 12:00:06",
+      "sentiment": 0
     },
     {
       "ticker": "ASML",
@@ -522,7 +504,7 @@
     },
     {
       "ticker": "TJX",
-      "title": "TJX Companies stock after-hours at EUR 117.25: plus 1.74 percent versus prior close - ad-hoc-news.de",
+      "title": "TJX Companies stock after-hours at EUR 117.25: plus 1.74 percent versus prior close",
       "time": "Tue, 29 Sep 2026 17:33:36",
       "sentiment": 0
     },
@@ -714,8 +696,8 @@
     },
     {
       "ticker": "EXC",
-      "title": "BUNA ETF Holdings List — HAN:BUNA",
-      "time": "Tue, 29 Sep 2026 19:04:35",
+      "title": "Nomura Global Listed Real Assets Fund's Exelon Corp(EXC) Holding History",
+      "time": "Tue, 29 Sep 2026 21:50:03",
       "sentiment": 0
     },
     {
@@ -762,7 +744,7 @@
     },
     {
       "ticker": "LRCX",
-      "title": "Lam Research stock pre-market at EUR 284.10: minus 0.74 percent - ad-hoc-news.de",
+      "title": "Lam Research stock pre-market at EUR 284.10: minus 0.74 percent",
       "time": "Wed, 30 Sep 2026 05:51:57",
       "sentiment": 0
     },
@@ -774,26 +756,26 @@
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices stock trades at EUR 350.40, minus 0.42 percent versus EUR 351.88 - ad-hoc-news.de",
-      "time": "Wed, 30 Sep 2026 09:39:35",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADI",
       "title": "Analog Devices (NASDAQ:ADI) Stock: Alif Semiconductor Deal Adds AI-Native Processing to Its Portfolio",
       "time": "Tue, 29 Sep 2026 19:04:00",
       "sentiment": 0
     },
     {
       "ticker": "ADI",
-      "title": "New Long‑Term Debt And AI Momentum Could Be A Game Changer For Analog Devices (ADI)",
-      "time": "Wed, 30 Sep 2026 12:12:32",
+      "title": "Analog Devices stock trades at EUR 350.40, minus 0.42 percent versus EUR 351.88",
+      "time": "Wed, 30 Sep 2026 09:39:35",
       "sentiment": 0
     },
     {
       "ticker": "ADI",
       "title": "Inquiry Into Analog Devices's Competitor Dynamics In Semiconductors & Semiconductor Equipment Industr",
       "time": "Wed, 30 Sep 2026 09:59:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADI",
+      "title": "Microchip Technology Incorporated (MCHP) Stock Price, News, Quote & History",
+      "time": "Wed, 30 Sep 2026 08:03:32",
       "sentiment": 0
     },
     {
@@ -936,14 +918,14 @@
     },
     {
       "ticker": "DAL",
-      "title": "Oil Is Finally Falling. Watch Delta Before Another Oil Major.",
-      "time": "Wed, 30 Sep 2026 07:21:42",
+      "title": "How Investors Are Reacting To Delta Air Lines (DAL) Dividend And Transatlantic Expansion Strategy",
+      "time": "Wed, 30 Sep 2026 13:10:59",
       "sentiment": 0
     },
     {
       "ticker": "DAL",
-      "title": "Delta Air Lines, Inc. (DAL) latest stock news and headlines",
-      "time": "Wed, 30 Sep 2026 04:45:00",
+      "title": "Oil Is Finally Falling. Watch Delta Before Another Oil Major.",
+      "time": "Wed, 30 Sep 2026 07:21:42",
       "sentiment": 0
     },
     {
@@ -954,14 +936,14 @@
     },
     {
       "ticker": "DAL",
-      "title": "Delta Air Lines (DAL) Advances While Market Declines: Some Information for Investors",
-      "time": "Tue, 29 Sep 2026 20:45:02",
+      "title": "Delta Air Lines, Inc. (DAL) latest stock news and headlines",
+      "time": "Wed, 30 Sep 2026 04:45:00",
       "sentiment": 0
     },
     {
       "ticker": "DAL",
-      "title": "Delta Expands Europe Network With New Routes From Detroit and Boston",
-      "time": "Tue, 29 Sep 2026 15:17:00",
+      "title": "Delta Air Lines (DAL) Advances While Market Declines: Some Information for Investors",
+      "time": "Tue, 29 Sep 2026 20:45:02",
       "sentiment": 0
     },
     {
@@ -973,19 +955,19 @@
     {
       "ticker": "META",
       "title": "Meta's Stock Has Rocketed Over 30% in the Past Month. Here's How the Embattled \"Magnificent Seven\" Company Completely Flipped the Script",
-      "time": "Wed, 30 Sep 2026 13:32:56",
+      "time": "Wed, 30 Sep 2026 13:47:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "META",
+      "title": "OpenAI Launches Muse Competitor. Meta Seen As 'Clear Leader' In Personal AI Agent Battle.",
+      "time": "Wed, 30 Sep 2026 14:16:00",
       "sentiment": 0
     },
     {
       "ticker": "META",
       "title": "Meta Faces Challenge in Enterprise Market As OpenAI Launches Autonomous Dots Agents",
       "time": "Wed, 30 Sep 2026 13:04:08",
-      "sentiment": 0
-    },
-    {
-      "ticker": "META",
-      "title": "META Eyes Best Month Since 2013 On Muse AI Strength",
-      "time": "Wed, 30 Sep 2026 09:04:47",
       "sentiment": 0
     },
     {
@@ -1020,7 +1002,7 @@
     },
     {
       "ticker": "CI",
-      "title": "Cigna Group stock tracks new 2030 earnings targets - ad-hoc-news.de",
+      "title": "Cigna Group stock tracks new 2030 earnings targets",
       "time": "Wed, 30 Sep 2026 13:06:25",
       "sentiment": 0
     },
@@ -1070,6 +1052,12 @@
       "ticker": "MRNA",
       "title": "Stocks making the biggest moves premarket: Robinhood, Boeing, Moderna & more",
       "time": "Wed, 30 Sep 2026 11:38:54",
+      "sentiment": 0
+    },
+    {
+      "ticker": "MRNA",
+      "title": "Moderna Inc Stock (MRNA) Opened Down by 6.27% on Sep 30: Key Drivers Unveiled",
+      "time": "Wed, 30 Sep 2026 13:47:18",
       "sentiment": 0
     },
     {
@@ -1134,14 +1122,14 @@
     },
     {
       "ticker": "MRVL",
-      "title": "How Investors Should View Marvell Stock as Seaport Analysts Join the MRVL Bulls",
-      "time": "Tue, 29 Sep 2026 14:00:02",
+      "title": "Marvell Is Up 210% in 2026: Take Profits, or Buy More?",
+      "time": "Tue, 29 Sep 2026 19:01:00",
       "sentiment": 0
     },
     {
       "ticker": "MRVL",
-      "title": "Marvell Is Up 210% in 2026: Take Profits, or Buy More?",
-      "time": "Tue, 29 Sep 2026 19:01:00",
+      "title": "Why Marvell Technology (MRVL) Stock Is Trading Up Today",
+      "time": "Tue, 29 Sep 2026 19:55:48",
       "sentiment": 0
     },
     {
@@ -1193,6 +1181,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "NFLX",
+      "title": "NFLX Stock Drops Over 14% This Month, Nears This Crucial Level From July — Here’s A Look At Some Key Street Takes",
+      "time": "Tue, 29 Sep 2026 22:21:03",
+      "sentiment": 0
+    },
+    {
       "ticker": "TMO",
       "title": "Thermo Fisher Scientific Inc (TMO) Stock Forecasts",
       "time": "Wed, 30 Sep 2026 12:57:01",
@@ -1220,6 +1214,12 @@
       "ticker": "TMO",
       "title": "Director Karen S. Lynch holds 398.7 deferred stock units at Thermo Fisher Scientific (TMO) after the credit.",
       "time": "Tue, 29 Sep 2026 20:14:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BA",
+      "title": "What's Going On with Boeing Stock Today?",
+      "time": "Wed, 30 Sep 2026 14:16:28",
       "sentiment": 0
     },
     {
