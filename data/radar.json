@@ -1,49 +1,10 @@
 {
-  "generated_at_local": "30.09.2026 18:56 CEST",
+  "generated_at_local": "30.09.2026 19:13 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
-  "scanned_count": 201,
-  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "scanned_count": 200,
+  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 200 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
-    {
-      "ticker": "RCL",
-      "name": "Royal Caribbean",
-      "score": 97,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +7.45%, 5T +10.98%, relatives Volumen 0.73x, ATR 4.21%",
-      "catalyst": "Royal Caribbean Cruises (NYSE:RCL) Stock Keeps \"Outperform\" Rating at BMO Capital Markets",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.60%, seit Open +2.78%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 2.53,
-      "target_pct": 4.8,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+7.45%",
-      "change_5d": "+10.98%",
-      "volume_ratio": "0.73x",
-      "atr_pct": "4.21%",
-      "gap_pct": "+0.90%",
-      "premarket_move_pct": "+0.42%",
-      "live_gap_pct": "+2.60%",
-      "regular_move_pct": "+2.78%",
-      "avg_dollar_volume": 765198104.43,
-      "bar_age_minutes": 1.6,
-      "vwap": 267.1,
-      "opening_range_high": 265.2,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
     {
       "ticker": "SAP",
       "name": "SAP",
@@ -52,7 +13,7 @@
       "thesis": "1T +0.74%, 5T +0.08%, relatives Volumen 1.46x, ATR 2.36%",
       "catalyst": "NetApp seeks to expand its partnership with SAP",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.05%, seit Open +0.84%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.13%, seit Open +0.75%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 1.42,
       "target_pct": 2.69,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +23,11 @@
       "atr_pct": "2.36%",
       "gap_pct": "-0.86%",
       "premarket_move_pct": "+0.23%",
-      "live_gap_pct": "-0.05%",
-      "regular_move_pct": "+0.84%",
+      "live_gap_pct": "-0.13%",
+      "regular_move_pct": "+0.75%",
       "avg_dollar_volume": 404312601.89,
-      "bar_age_minutes": 1.6,
-      "vwap": 210.34,
+      "bar_age_minutes": 3.9,
+      "vwap": 210.35,
       "opening_range_high": 210.15,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -91,7 +52,7 @@
       "thesis": "1T +0.67%, 5T -1.87%, relatives Volumen 1.48x, ATR 4.23%",
       "catalyst": "Could Snowflake (NYSE:SNOW) Be the Next Big Growth Stocks Story?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +4.84%, seit Open +4.62%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +4.24%, seit Open +4.02%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.54,
       "target_pct": 4.83,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,11 +62,11 @@
       "atr_pct": "4.23%",
       "gap_pct": "+0.36%",
       "premarket_move_pct": "+0.18%",
-      "live_gap_pct": "+4.84%",
-      "regular_move_pct": "+4.62%",
+      "live_gap_pct": "+4.24%",
+      "regular_move_pct": "+4.02%",
       "avg_dollar_volume": 1894167010.46,
-      "bar_age_minutes": 1.6,
-      "vwap": 344.0,
+      "bar_age_minutes": 3.9,
+      "vwap": 344.1,
       "opening_range_high": 337.88,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -130,7 +91,7 @@
       "thesis": "1T +2.99%, 5T +4.15%, relatives Volumen 0.90x, ATR 4.41%",
       "catalyst": "Lam Research Corp (LRCX) Shares Surge 3.0% -- What GF Score of 8",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.59%, seit Open +0.31%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.68%, seit Open +0.39%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.65,
       "target_pct": 5.03,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,12 +101,51 @@
       "atr_pct": "4.41%",
       "gap_pct": "+0.34%",
       "premarket_move_pct": "+0.01%",
-      "live_gap_pct": "+0.59%",
-      "regular_move_pct": "+0.31%",
+      "live_gap_pct": "+0.68%",
+      "regular_move_pct": "+0.39%",
       "avg_dollar_volume": 2784302933.9,
-      "bar_age_minutes": 1.6,
-      "vwap": 325.49,
+      "bar_age_minutes": 3.9,
+      "vwap": 325.51,
       "opening_range_high": 328.12,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "RCL",
+      "name": "Royal Caribbean",
+      "score": 90,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +7.45%, 5T +10.98%, relatives Volumen 0.73x, ATR 4.21%",
+      "catalyst": "Royal Caribbean Cruises (NYSE:RCL) Stock Keeps \"Outperform\" Rating at BMO Capital Markets",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +2.32%, seit Open +2.50%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 2.53,
+      "target_pct": 4.8,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+7.45%",
+      "change_5d": "+10.98%",
+      "volume_ratio": "0.73x",
+      "atr_pct": "4.21%",
+      "gap_pct": "+0.90%",
+      "premarket_move_pct": "+0.42%",
+      "live_gap_pct": "+2.32%",
+      "regular_move_pct": "+2.50%",
+      "avg_dollar_volume": 765198104.43,
+      "bar_age_minutes": 3.9,
+      "vwap": 267.11,
+      "opening_range_high": 265.2,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
@@ -169,7 +169,7 @@
       "thesis": "1T +1.32%, 5T +3.27%, relatives Volumen 1.32x, ATR 2.24%",
       "catalyst": "Amgen Inc (AMGN) Shares Surge 1.3% -- What GF Score of 87 Tells Investors",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.07%, seit Open -0.16%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.05%, seit Open -0.13%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.34,
       "target_pct": 2.55,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,10 +179,10 @@
       "atr_pct": "2.24%",
       "gap_pct": "+0.18%",
       "premarket_move_pct": "-0.21%",
-      "live_gap_pct": "-0.07%",
-      "regular_move_pct": "-0.16%",
+      "live_gap_pct": "-0.05%",
+      "regular_move_pct": "-0.13%",
       "avg_dollar_volume": 1278510646.58,
-      "bar_age_minutes": 1.5,
+      "bar_age_minutes": 3.9,
       "vwap": 423.53,
       "opening_range_high": 426.59,
       "opening_range_ready": true,
@@ -212,6 +212,12 @@
       "ticker": "TJX",
       "title": "TJX Companies stock trades at EUR 116.75 after Q2 growth",
       "time": "Wed, 30 Sep 2026 14:41:25",
+      "sentiment": 1
+    },
+    {
+      "ticker": "AMAT",
+      "title": "Applied Materials Inc (AMAT) Shares Surge 5.2% -- What GF Score of 87 Tells Investors",
+      "time": "Tue, 29 Sep 2026 21:18:40",
       "sentiment": 1
     },
     {
@@ -293,12 +299,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "SYK",
-      "title": "Stryker stock faces analyst cuts as Stifel lowers target",
-      "time": "Wed, 30 Sep 2026 09:40:54",
-      "sentiment": -1
-    },
-    {
       "ticker": "EXC",
       "title": "Scotiabank Adjusts Price Target on Exelon to $44 From $47, Keeps Sector Perform Rating",
       "time": "Wed, 30 Sep 2026 10:38:48",
@@ -355,7 +355,7 @@
     {
       "ticker": "META",
       "title": "Meta: Meta Launches Enterprise Offering to Open Up Another Way to Monetize AI Investments",
-      "time": "Wed, 30 Sep 2026 08:18:06",
+      "time": "Wed, 30 Sep 2026 08:13:02",
       "sentiment": -1
     },
     {
@@ -432,14 +432,8 @@
     },
     {
       "ticker": "ASML",
-      "title": "ASML Stock Gains Over 5% — Why Bernstein Thinks ASML Holding Can Keep Climbing After Nearly 140% Run In The Past Year",
-      "time": "Wed, 30 Sep 2026 00:45:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ASML",
       "title": "ASML Holding N.V. vs. Marvell Technology: Which Technology Stock Is a Better Buy in 2026?",
-      "time": "Wed, 30 Sep 2026 11:13:12",
+      "time": "Wed, 30 Sep 2026 12:00:00",
       "sentiment": 0
     },
     {
@@ -458,6 +452,12 @@
       "ticker": "ASML",
       "title": "ASML Stocks Slip as High-NA Adoption Extends Into 2030",
       "time": "Wed, 30 Sep 2026 15:12:11",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ASML",
+      "title": "ASML Holding N.V. vs. Marvell Technology: Which Technology Stock Is a Better Buy in 2026?",
+      "time": "Wed, 30 Sep 2026 11:20:03",
       "sentiment": 0
     },
     {
@@ -486,8 +486,8 @@
     },
     {
       "ticker": "TJX",
-      "title": "TJX Companies stock after-hours at EUR 117.25: plus 1.74 percent versus prior close",
-      "time": "Tue, 29 Sep 2026 17:33:36",
+      "title": "TJX Companies Inc Actuals & Estimates (HAN:TJX)",
+      "time": "Tue, 29 Sep 2026 17:44:05",
       "sentiment": 0
     },
     {
@@ -500,12 +500,6 @@
       "ticker": "AMAT",
       "title": "Applied Materials (AMAT) Stock May Be In Line Following AI Memory News",
       "time": "Wed, 30 Sep 2026 10:41:15",
-      "sentiment": 0
-    },
-    {
-      "ticker": "AMAT",
-      "title": "AMAT Stock Has Doubled This Year: Analyst Trims Price Target But Sees Higher 2027 Sales, Profit",
-      "time": "Wed, 30 Sep 2026 02:21:00",
       "sentiment": 0
     },
     {
@@ -534,14 +528,14 @@
     },
     {
       "ticker": "AMGN",
-      "title": "Which dow jones stocks are moving on Tuesday?",
-      "time": "Tue, 29 Sep 2026 19:10:09",
+      "title": "Biogen Inc. (BIIB) stock price, news, quote and history",
+      "time": "Wed, 30 Sep 2026 09:31:48",
       "sentiment": 0
     },
     {
       "ticker": "AMGN",
-      "title": "Biogen Inc. (BIIB) stock price, news, quote and history",
-      "time": "Wed, 30 Sep 2026 09:31:48",
+      "title": "Which dow jones stocks are moving on Tuesday?",
+      "time": "Tue, 29 Sep 2026 19:10:09",
       "sentiment": 0
     },
     {
@@ -565,7 +559,7 @@
     {
       "ticker": "SO",
       "title": "The Southern Company (SO) Stock Price, News, Quote & History",
-      "time": "Wed, 30 Sep 2026 05:48:06",
+      "time": "Tue, 29 Sep 2026 21:25:52",
       "sentiment": 0
     },
     {
@@ -678,6 +672,12 @@
     },
     {
       "ticker": "SYK",
+      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of Stryker Corp. - SYK",
+      "time": "Tue, 29 Sep 2026 21:37:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SYK",
       "title": "(SYK) Movement Within Algorithmic Entry Frameworks",
       "time": "Tue, 29 Sep 2026 20:58:02",
       "sentiment": 0
@@ -698,12 +698,6 @@
       "ticker": "EXC",
       "title": "American Electric Power Company, Inc. (AEP) Stock Price, News, Quote & History",
       "time": "Tue, 29 Sep 2026 20:05:41",
-      "sentiment": 0
-    },
-    {
-      "ticker": "EXC",
-      "title": "Nomura Global Listed Real Assets Fund's Exelon Corp(EXC) Holding History",
-      "time": "Tue, 29 Sep 2026 21:50:03",
       "sentiment": 0
     },
     {
@@ -732,8 +726,8 @@
     },
     {
       "ticker": "SAP",
-      "title": "Grocery Outlet (GO) Stock Trades Up, Here Is Why",
-      "time": "Wed, 30 Sep 2026 14:50:48",
+      "title": "SAP RISE security: Where SAP’s responsibility ends and yours begins",
+      "time": "Wed, 30 Sep 2026 11:00:00",
       "sentiment": 0
     },
     {
@@ -1002,14 +996,20 @@
     },
     {
       "ticker": "CI",
-      "title": "(CI) Cigna Expects 2026 Adjusted Revenue $280B",
-      "time": "Wed, 30 Sep 2026 11:26:25",
+      "title": "Wednesday's session: gap up and gap down stock in the S&P500 index",
+      "time": "Wed, 30 Sep 2026 14:35:01",
       "sentiment": 0
     },
     {
       "ticker": "CRWD",
       "title": "Is CrowdStrike Stock Paying You Enough For The Swings?",
       "time": "Wed, 30 Sep 2026 15:40:50",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "Why This Cybersecurity Stock Belongs in Every Millionaire-in-the-Making Portfolio",
+      "time": "Wed, 30 Sep 2026 16:37:42",
       "sentiment": 0
     },
     {
@@ -1028,12 +1028,6 @@
       "ticker": "CRWD",
       "title": "CRWD Stock Price Today",
       "time": "Wed, 30 Sep 2026 11:22:14",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CRWD",
-      "title": "CrowdStrike: Time To Ring The Register (NASDAQ:CRWD)",
-      "time": "Tue, 29 Sep 2026 21:00:04",
       "sentiment": 0
     },
     {
@@ -1068,14 +1062,14 @@
     },
     {
       "ticker": "RCL",
-      "title": "Royal Caribbean Cruises Ltd. (RCL) Is a Trending Stock: Facts to Know Before Betting on It",
-      "time": "Wed, 30 Sep 2026 12:00:05",
+      "title": "Why Royal Caribbean Group (RCL) Stock Is Up Today",
+      "time": "Wed, 30 Sep 2026 15:32:00",
       "sentiment": 0
     },
     {
       "ticker": "RCL",
-      "title": "Two Alaska cruise ships pair glacier views with bumper cars and a skydiving simulator",
-      "time": "Wed, 30 Sep 2026 15:09:00",
+      "title": "Royal Caribbean Cruises Ltd. (RCL) Is a Trending Stock: Facts to Know Before Betting on It",
+      "time": "Wed, 30 Sep 2026 12:00:05",
       "sentiment": 0
     },
     {
@@ -1109,15 +1103,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "DUK",
-      "title": "Insight Enterprises, Inc. (NSIT) Latest Stock News & Headlines",
-      "time": "Wed, 30 Sep 2026 13:25:47",
+      "ticker": "MRVL",
+      "title": "Why Marvell Technology (MRVL) Stock Is Trading Up Today",
+      "time": "Wed, 30 Sep 2026 00:00:00",
       "sentiment": 0
     },
     {
       "ticker": "MRVL",
-      "title": "Why Marvell Technology (MRVL) Stock Is Trading Up Today",
-      "time": "Wed, 30 Sep 2026 00:00:00",
+      "title": "What Is The True Hidden Price Of Marvell Stock?",
+      "time": "Wed, 30 Sep 2026 14:17:02",
       "sentiment": 0
     },
     {
@@ -1145,15 +1139,15 @@
       "sentiment": 0
     },
     {
-      "ticker": "MRVL",
-      "title": "Why Marvell Technology (MRVL) Stock Is Trading Up Today",
-      "time": "Tue, 29 Sep 2026 19:55:48",
+      "ticker": "VST",
+      "title": "Vistra vs. Talen: Which Stock Is Better Positioned for Investors?",
+      "time": "Wed, 30 Sep 2026 15:10:00",
       "sentiment": 0
     },
     {
       "ticker": "VST",
-      "title": "Vistra vs. Talen: Which Stock Is Better Positioned for Investors?",
-      "time": "Wed, 30 Sep 2026 15:10:00",
+      "title": "Why is Vistra stock sliding today?",
+      "time": "Wed, 30 Sep 2026 16:29:15",
       "sentiment": 0
     },
     {
@@ -1164,20 +1158,14 @@
     },
     {
       "ticker": "VST",
+      "title": "Wednesday's session: gap up and gap down stock in the S&P500 index",
+      "time": "Wed, 30 Sep 2026 14:35:01",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VST",
       "title": "Constellation Energy Corp Stock (CEG) Opened Down by 5.04% on Sep 30: Key Drivers Unveiled",
       "time": "Wed, 30 Sep 2026 13:47:16",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VST",
-      "title": "Why is Vistra stock sliding today? By Investing.com",
-      "time": "Wed, 30 Sep 2026 16:26:27",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VST",
-      "title": "Vistra Corp. (VST) Gains As Market Dips: What You Should Know",
-      "time": "Tue, 29 Sep 2026 20:45:05",
       "sentiment": 0
     },
     {
@@ -1194,6 +1182,12 @@
     },
     {
       "ticker": "NFLX",
+      "title": "Netflix's Content Commitments Rise: Is Cash Flow Under Pressure?",
+      "time": "Wed, 30 Sep 2026 14:59:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NFLX",
       "title": "Most Investors Are Wrong About Selling Netflix. Here's What I'd Do Instead.",
       "time": "Wed, 30 Sep 2026 04:30:00",
       "sentiment": 0
@@ -1202,12 +1196,6 @@
       "ticker": "NFLX",
       "title": "Why Bill Ackman Likes Netflix Stock Again - Netflix (NASDAQ:NFLX)",
       "time": "Tue, 29 Sep 2026 21:50:57",
-      "sentiment": 0
-    },
-    {
-      "ticker": "NFLX",
-      "title": "Most Investors Are Wrong About Selling Netflix. Here's What I'd Do Instead.",
-      "time": "Wed, 30 Sep 2026 03:56:32",
       "sentiment": 0
     },
     {
@@ -1254,6 +1242,12 @@
     },
     {
       "ticker": "BA",
+      "title": "Boeing’s $20B-Plus Navy Fighter Win Gets Street’s Attention — What BA Investors Need To Know",
+      "time": "Wed, 30 Sep 2026 17:06:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BA",
       "title": "Boeing vs. GE Aerospace: Which Aerospace Stock Is a Better Buy in 2026?",
       "time": "Wed, 30 Sep 2026 16:05:20",
       "sentiment": 0
@@ -1262,12 +1256,6 @@
       "ticker": "BA",
       "title": "AI sets Boeing stock price target on October 31, 2026",
       "time": "Wed, 30 Sep 2026 10:31:19",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BA",
-      "title": "Boeing Stock Price Forecast: How Will Winning an Over $20 Billion Navy Fighter Jet Order Impact BA Stock?",
-      "time": "Wed, 30 Sep 2026 03:50:43",
       "sentiment": 0
     }
   ]
