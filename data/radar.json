@@ -1,19 +1,136 @@
 {
-  "generated_at_local": "30.09.2026 15:35 CEST",
+  "generated_at_local": "30.09.2026 15:58 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
+      "ticker": "RCL",
+      "name": "Royal Caribbean",
+      "score": 97,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +7.45%, 5T +10.98%, relatives Volumen 0.73x, ATR 4.21%",
+      "catalyst": "Royal Caribbean Cruises (NYSE:RCL) Stock Keeps \"Outperform\" Rating at BMO Capital Markets",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.49%, seit Open +2.67%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.53,
+      "target_pct": 4.8,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+7.45%",
+      "change_5d": "+10.98%",
+      "volume_ratio": "0.73x",
+      "atr_pct": "4.21%",
+      "gap_pct": "+0.90%",
+      "premarket_move_pct": "+0.42%",
+      "live_gap_pct": "+2.49%",
+      "regular_move_pct": "+2.67%",
+      "avg_dollar_volume": 765198104.43,
+      "bar_age_minutes": 3.1,
+      "vwap": 263.59,
+      "opening_range_high": 265.2,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "SAP",
+      "name": "SAP",
+      "score": 94,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.74%, 5T +0.08%, relatives Volumen 1.46x, ATR 2.36%",
+      "catalyst": "NTAP Stock Hits Record High: NetApp Expands Strategic Partnerships With SAP, Oracle, and Supermicro To Drive Cloud Infrastructure",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.51%, seit Open +0.37%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.42,
+      "target_pct": 2.69,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.74%",
+      "change_5d": "+0.08%",
+      "volume_ratio": "1.46x",
+      "atr_pct": "2.36%",
+      "gap_pct": "-0.86%",
+      "premarket_move_pct": "+0.23%",
+      "live_gap_pct": "-0.51%",
+      "regular_move_pct": "+0.37%",
+      "avg_dollar_volume": 404312601.89,
+      "bar_age_minutes": 3.1,
+      "vwap": 209.1,
+      "opening_range_high": 210.15,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA",
+      "score": 92,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.89%, 5T +4.36%, relatives Volumen 0.93x, ATR 3.77%",
+      "catalyst": "KLA Corporation: Fundamentals Are Strong, But The Stock Needs More (NASDAQ:KLAC)",
+      "risk_note": "KLA (NASDAQ:KLAC) Downgraded by Zacks Research to Hold",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.15%, seit Open +0.41%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.26,
+      "target_pct": 4.3,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.89%",
+      "change_5d": "+4.36%",
+      "volume_ratio": "0.93x",
+      "atr_pct": "3.77%",
+      "gap_pct": "+0.07%",
+      "premarket_move_pct": "+0.86%",
+      "live_gap_pct": "+0.15%",
+      "regular_move_pct": "+0.41%",
+      "avg_dollar_volume": 1728892612.53,
+      "bar_age_minutes": 3.1,
+      "vwap": 196.51,
+      "opening_range_high": 197.2,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
       "ticker": "AMGN",
       "name": "Amgen",
-      "score": 95,
+      "score": 89,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +1.32%, 5T +3.27%, relatives Volumen 1.32x, ATR 2.24%",
       "catalyst": "Amgen Inc (AMGN) Shares Surge 1.3% -- What GF Score of 87 Tells Investors",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.15%, seit Open +0.07%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.34,
       "target_pct": 2.55,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,52 +140,13 @@
       "atr_pct": "2.24%",
       "gap_pct": "+0.18%",
       "premarket_move_pct": "-0.21%",
-      "live_gap_pct": "+0.36%",
-      "regular_move_pct": "+0.27%",
+      "live_gap_pct": "+0.15%",
+      "regular_move_pct": "+0.07%",
       "avg_dollar_volume": 1278510646.58,
-      "bar_age_minutes": 5.4,
-      "vwap": 424.57,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "ASML",
-      "name": "ASML",
-      "score": 88,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +3.56%, 5T +4.95%, relatives Volumen 1.41x, ATR 2.86%",
-      "catalyst": "ASML Stock Surges 3.8% as AI Rebound Returns to Lithography",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
-      "stop_pct": 1.71,
-      "target_pct": 3.26,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+3.56%",
-      "change_5d": "+4.95%",
-      "volume_ratio": "1.41x",
-      "atr_pct": "2.86%",
-      "gap_pct": "-0.39%",
-      "premarket_move_pct": "-0.75%",
-      "live_gap_pct": "-0.34%",
-      "regular_move_pct": "-0.03%",
-      "avg_dollar_volume": 2252103617.86,
-      "bar_age_minutes": 0.4,
-      "vwap": 1825.47,
-      "opening_range_high": null,
-      "opening_range_ready": false,
+      "bar_age_minutes": 3.1,
+      "vwap": 424.7,
+      "opening_range_high": 426.59,
+      "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "WARTEN",
@@ -86,12 +164,12 @@
     {
       "ticker": "LRCX",
       "name": "Lam Research",
-      "score": 85,
+      "score": 88,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +2.99%, 5T +4.15%, relatives Volumen 0.90x, ATR 4.41%",
       "catalyst": "Lam Research Corp (LRCX) Shares Surge 3.0% -- What GF Score of 8",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.73%, seit Open +0.44%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.65,
       "target_pct": 5.03,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -101,13 +179,13 @@
       "atr_pct": "4.41%",
       "gap_pct": "+0.34%",
       "premarket_move_pct": "+0.01%",
-      "live_gap_pct": "+0.65%",
-      "regular_move_pct": "+0.37%",
+      "live_gap_pct": "+0.73%",
+      "regular_move_pct": "+0.44%",
       "avg_dollar_volume": 2784302933.9,
-      "bar_age_minutes": 0.5,
-      "vwap": 325.47,
-      "opening_range_high": null,
-      "opening_range_ready": false,
+      "bar_age_minutes": 3.1,
+      "vwap": 325.91,
+      "opening_range_high": 328.12,
+      "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "US-Handel live",
       "action_status": "NICHT KAUFEN",
@@ -116,84 +194,6 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "ADI",
-      "name": "Analog Devices",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.71%, 5T +2.01%, relatives Volumen 0.87x, ATR 2.93%",
-      "catalyst": "Analog Devices Inc (ADI): GF Score of 96 Signals Strong Outperfo",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
-      "stop_pct": 1.76,
-      "target_pct": 3.34,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.71%",
-      "change_5d": "+2.01%",
-      "volume_ratio": "0.87x",
-      "atr_pct": "2.93%",
-      "gap_pct": "-0.22%",
-      "premarket_move_pct": "+0.47%",
-      "live_gap_pct": "+0.15%",
-      "regular_move_pct": "+0.28%",
-      "avg_dollar_volume": 1247603143.02,
-      "bar_age_minutes": 0.5,
-      "vwap": 397.85,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
-      "ticker": "SO",
-      "name": "Southern Company",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.34%, 5T -2.00%, relatives Volumen 1.99x, ATR 1.52%",
-      "catalyst": "NEE vs. SO: Which Utility Stock Wins for Retirement Income in 2026?",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "US-Handel läuft, aber die 15-Minuten-Opening-Range ist noch nicht abgeschlossen. Kein Entry vor 09:45 New-York-Zeit.",
-      "stop_pct": 0.91,
-      "target_pct": 2.0,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.34%",
-      "change_5d": "-2.00%",
-      "volume_ratio": "1.99x",
-      "atr_pct": "1.52%",
-      "gap_pct": "+0.42%",
-      "premarket_move_pct": "-0.12%",
-      "live_gap_pct": "+0.36%",
-      "regular_move_pct": "-0.14%",
-      "avg_dollar_volume": 534067006.0,
-      "bar_age_minutes": 0.4,
-      "vwap": 83.65,
-      "opening_range_high": null,
-      "opening_range_ready": false,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": false,
-        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -312,9 +312,9 @@
     },
     {
       "ticker": "SYK",
-      "title": "Stryker stock gains 1.77 percent as quarterly growth holds",
-      "time": "Tue, 29 Sep 2026 13:55:24",
-      "sentiment": 1
+      "title": "Stryker stock faces analyst cuts as Stifel lowers target - ad-hoc-news.de",
+      "time": "Wed, 30 Sep 2026 09:40:54",
+      "sentiment": -1
     },
     {
       "ticker": "EXC",
@@ -330,7 +330,7 @@
     },
     {
       "ticker": "SAP",
-      "title": "SAP stock weighs cloud growth against acquisition costs",
+      "title": "SAP stock weighs cloud growth against acquisition costs - ad-hoc-news.de",
       "time": "Wed, 30 Sep 2026 11:56:50",
       "sentiment": 1
     },
@@ -338,6 +338,12 @@
       "ticker": "LRCX",
       "title": "Lam Research Corp (LRCX) Shares Surge 3.0% -- What GF Score of 8",
       "time": "Wed, 30 Sep 2026 00:01:48",
+      "sentiment": 1
+    },
+    {
+      "ticker": "LRCX",
+      "title": "Lam Research rises as investors lean into chip-equipment strength and recent upbeat company signals",
+      "time": "Tue, 29 Sep 2026 21:21:00",
       "sentiment": 1
     },
     {
@@ -356,12 +362,6 @@
       "ticker": "GEV",
       "title": "GE Vernova Keeps Quarterly Dividend at $0.50 a Share, Payable Nov. 24 to Shareholders of Record as of Oct. 27",
       "time": "Wed, 30 Sep 2026 11:49:20",
-      "sentiment": 1
-    },
-    {
-      "ticker": "GEV",
-      "title": "GE Vernova Inc. stock rises Tuesday, outperforms market",
-      "time": "Tue, 29 Sep 2026 20:34:00",
       "sentiment": 1
     },
     {
@@ -396,8 +396,8 @@
     },
     {
       "ticker": "MRNA",
-      "title": "MRNA Stock Downgraded As Valuation Fears Eclipse Cancer Win",
-      "time": "Wed, 30 Sep 2026 12:33:00",
+      "title": "Moderna Sinks 6% on Citi Downgrade; Merck and Pfizer Stay Flat",
+      "time": "Wed, 30 Sep 2026 13:42:00",
       "sentiment": -1
     },
     {
@@ -439,7 +439,7 @@
     {
       "ticker": "NFLX",
       "title": "Buy Upgrade Could Be A Fresh Angle On Netflix Stock (NFLX)",
-      "time": "Wed, 30 Sep 2026 11:40:32",
+      "time": "Wed, 30 Sep 2026 11:40:34",
       "sentiment": 1
     },
     {
@@ -462,12 +462,6 @@
     },
     {
       "ticker": "BA",
-      "title": "Boeing wins $20 billion Navy award for next-generation fighter jet; shares rise",
-      "time": "Tue, 29 Sep 2026 22:24:49",
-      "sentiment": 1
-    },
-    {
-      "ticker": "BA",
       "title": "Boeing (BA) Won A Multibillion Dollar Navy F A XX Fighter Contract",
       "time": "Wed, 30 Sep 2026 08:44:51",
       "sentiment": 1
@@ -486,14 +480,14 @@
     },
     {
       "ticker": "ASML",
-      "title": "ASML (ASML) Eyes Earnings Amid Market Caution and AI-Driven Cape",
-      "time": "Wed, 30 Sep 2026 11:14:28",
+      "title": "ASML, TSM earnings could test market expectations, Sara Awad says (ASML:NASDAQ)",
+      "time": "Wed, 30 Sep 2026 09:48:48",
       "sentiment": 0
     },
     {
       "ticker": "ASML",
-      "title": "ASML, TSM earnings could test market expectations, Sara Awad says (ASML:NASDAQ)",
-      "time": "Wed, 30 Sep 2026 09:48:48",
+      "title": "ASML (ASML) Eyes Earnings Amid Market Caution and AI-Driven Cape",
+      "time": "Wed, 30 Sep 2026 11:14:28",
       "sentiment": 0
     },
     {
@@ -505,7 +499,7 @@
     {
       "ticker": "TJX",
       "title": "TJX (TJX) Stock May Be Trading At A Premium To Cash Flow",
-      "time": "Wed, 30 Sep 2026 00:27:17",
+      "time": "Wed, 30 Sep 2026 00:27:15",
       "sentiment": 0
     },
     {
@@ -528,7 +522,7 @@
     },
     {
       "ticker": "TJX",
-      "title": "TJX Companies stock after-hours at EUR 117.25: plus 1.74 percent versus prior close",
+      "title": "TJX Companies stock after-hours at EUR 117.25: plus 1.74 percent versus prior close - ad-hoc-news.de",
       "time": "Tue, 29 Sep 2026 17:33:36",
       "sentiment": 0
     },
@@ -558,14 +552,14 @@
     },
     {
       "ticker": "AMAT",
-      "title": "Better Semiconductor Equipment Stock: Applied Materials vs. Lam Research",
-      "time": "Tue, 29 Sep 2026 18:50:00",
+      "title": "Why It’s Time to Load Up on Applied Materials Stock",
+      "time": "Tue, 29 Sep 2026 18:17:12",
       "sentiment": 0
     },
     {
       "ticker": "AMAT",
-      "title": "Why It’s Time to Load Up on Applied Materials Stock",
-      "time": "Tue, 29 Sep 2026 18:17:12",
+      "title": "Better Semiconductor Equipment Stock: Applied Materials vs. Lam Research",
+      "time": "Tue, 29 Sep 2026 19:30:00",
       "sentiment": 0
     },
     {
@@ -768,13 +762,7 @@
     },
     {
       "ticker": "LRCX",
-      "title": "Lam Research Corp Stock (LRCX) Opened Up by 3.53% on Sep 29: Facts Behind the Movement",
-      "time": "Tue, 29 Sep 2026 13:47:18",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LRCX",
-      "title": "Lam Research stock pre-market at EUR 284.10: minus 0.74 percent",
+      "title": "Lam Research stock pre-market at EUR 284.10: minus 0.74 percent - ad-hoc-news.de",
       "time": "Wed, 30 Sep 2026 05:51:57",
       "sentiment": 0
     },
@@ -786,20 +774,14 @@
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices (NASDAQ:ADI) Stock: Alif Semiconductor Deal Adds AI-Native Processing to Its Portfolio",
-      "time": "Tue, 29 Sep 2026 19:04:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "ADI",
-      "title": "Analog Devices stock trades at EUR 350.40, minus 0.42 percent versus EUR 351.88",
+      "title": "Analog Devices stock trades at EUR 350.40, minus 0.42 percent versus EUR 351.88 - ad-hoc-news.de",
       "time": "Wed, 30 Sep 2026 09:39:35",
       "sentiment": 0
     },
     {
       "ticker": "ADI",
-      "title": "Timken to Boost Industrial Motion Margins With Belts Business Sale",
-      "time": "Tue, 29 Sep 2026 13:49:00",
+      "title": "Analog Devices (NASDAQ:ADI) Stock: Alif Semiconductor Deal Adds AI-Native Processing to Its Portfolio",
+      "time": "Tue, 29 Sep 2026 19:04:00",
       "sentiment": 0
     },
     {
@@ -812,6 +794,12 @@
       "ticker": "ADI",
       "title": "Inquiry Into Analog Devices's Competitor Dynamics In Semiconductors & Semiconductor Equipment Industr",
       "time": "Wed, 30 Sep 2026 09:59:23",
+      "sentiment": 0
+    },
+    {
+      "ticker": "ADI",
+      "title": "DOCU Stock Soars 50.8% in 3 Months: Here's What You Should Know",
+      "time": "Tue, 29 Sep 2026 16:08:00",
       "sentiment": 0
     },
     {
@@ -869,6 +857,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "GEV",
+      "title": "Mizuho reiterates Neutral on GE Vernova stock, keeps $949 target",
+      "time": "Wed, 30 Sep 2026 10:29:57",
+      "sentiment": 0
+    },
+    {
       "ticker": "MAR",
       "title": "Marriott International (NASDAQ:MAR) Stock: Insider David Marriott Sells 3,500 Shares",
       "time": "Wed, 30 Sep 2026 01:15:03",
@@ -914,6 +908,12 @@
       "ticker": "HLT",
       "title": "3 Reasons to Sell HLT and 1 Stock to Buy Instead",
       "time": "Wed, 30 Sep 2026 04:05:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "HLT",
+      "title": "Consumer Discretionary - Travel and Vacation Providers Stocks Q2 In Review: Hilton (NYSE:HLT) Vs Peers",
+      "time": "Wed, 30 Sep 2026 03:33:00",
       "sentiment": 0
     },
     {
@@ -978,14 +978,14 @@
     },
     {
       "ticker": "META",
-      "title": "META Eyes Best Month Since 2013 On Muse AI Strength",
-      "time": "Wed, 30 Sep 2026 09:04:47",
+      "title": "Meta Faces Challenge in Enterprise Market As OpenAI Launches Autonomous Dots Agents",
+      "time": "Wed, 30 Sep 2026 13:04:08",
       "sentiment": 0
     },
     {
       "ticker": "META",
-      "title": "Meta Faces Challenge in Enterprise Market As OpenAI Launches Autonomous Dots Agents",
-      "time": "Wed, 30 Sep 2026 13:04:08",
+      "title": "META Eyes Best Month Since 2013 On Muse AI Strength",
+      "time": "Wed, 30 Sep 2026 09:04:47",
       "sentiment": 0
     },
     {
@@ -1015,12 +1015,12 @@
     {
       "ticker": "CI",
       "title": "Humana Inc. (HUM) stock price, news, quote and history",
-      "time": "Wed, 30 Sep 2026 00:06:36",
+      "time": "Wed, 30 Sep 2026 04:10:45",
       "sentiment": 0
     },
     {
       "ticker": "CI",
-      "title": "Cigna Group stock tracks new 2030 earnings targets",
+      "title": "Cigna Group stock tracks new 2030 earnings targets - ad-hoc-news.de",
       "time": "Wed, 30 Sep 2026 13:06:25",
       "sentiment": 0
     },
@@ -1074,6 +1074,12 @@
     },
     {
       "ticker": "RCL",
+      "title": "Royal Caribbean Cruises Ltd. (RCL) Is a Trending Stock: Facts to Know Before Betting on It",
+      "time": "Wed, 30 Sep 2026 12:00:05",
+      "sentiment": 0
+    },
+    {
+      "ticker": "RCL",
       "title": "This Analyst Says It's Time to Buy Royal Caribbean Stock. Here's Why.",
       "time": "Tue, 29 Sep 2026 20:43:05",
       "sentiment": 0
@@ -1081,12 +1087,6 @@
     {
       "ticker": "RCL",
       "title": "RCL Stock Draws Bullish Targets As Sandals Deal Reshapes The Story",
-      "time": "Tue, 29 Sep 2026 20:47:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "RCL",
-      "title": "RCL Stock Rallies As Wall Street Backs Sandals Deal",
       "time": "Tue, 29 Sep 2026 20:47:00",
       "sentiment": 0
     },
@@ -1152,6 +1152,12 @@
     },
     {
       "ticker": "VST",
+      "title": "Vistra: AI Makes Power Plants More Valuable, But a 31% Drop Still Isn't Cheap",
+      "time": "Wed, 30 Sep 2026 09:51:03",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VST",
       "title": "3 Stocks to Buy Now Before Wall Street Catches On",
       "time": "Tue, 29 Sep 2026 15:00:00",
       "sentiment": 0
@@ -1160,12 +1166,6 @@
       "ticker": "VST",
       "title": "Vistra to Report Third Quarter Results on Nov. 6, 2026",
       "time": "Tue, 29 Sep 2026 21:30:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VST",
-      "title": "Bloom’s Power Orders Versus Vistra and NRG’s Cash Flow",
-      "time": "Wed, 30 Sep 2026 00:47:55",
       "sentiment": 0
     },
     {
@@ -1220,6 +1220,12 @@
       "ticker": "TMO",
       "title": "Director Karen S. Lynch holds 398.7 deferred stock units at Thermo Fisher Scientific (TMO) after the credit.",
       "time": "Tue, 29 Sep 2026 20:14:16",
+      "sentiment": 0
+    },
+    {
+      "ticker": "BA",
+      "title": "Boeing stock jumps on $20 billion Navy fighter jet win",
+      "time": "Wed, 30 Sep 2026 13:34:09",
       "sentiment": 0
     },
     {
