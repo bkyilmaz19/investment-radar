@@ -1,9 +1,9 @@
 {
-  "generated_at_local": "30.09.2026 21:20 CEST",
+  "generated_at_local": "30.09.2026 21:41 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
-  "scanned_count": 201,
-  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
+  "scanned_count": 200,
+  "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 200 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
       "ticker": "LRCX",
@@ -13,7 +13,7 @@
       "thesis": "1T +2.99%, 5T +4.15%, relatives Volumen 0.90x, ATR 4.41%",
       "catalyst": "Lam Research Corp (LRCX) Shares Surge 3.0% -- What GF Score of 8",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.75%, seit Open +1.47%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +1.78%, seit Open +1.49%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
       "stop_pct": 2.65,
       "target_pct": 5.03,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -23,11 +23,11 @@
       "atr_pct": "4.41%",
       "gap_pct": "+0.34%",
       "premarket_move_pct": "+0.01%",
-      "live_gap_pct": "+1.75%",
-      "regular_move_pct": "+1.47%",
+      "live_gap_pct": "+1.78%",
+      "regular_move_pct": "+1.49%",
       "avg_dollar_volume": 2784302933.9,
-      "bar_age_minutes": 5.1,
-      "vwap": 326.2,
+      "bar_age_minutes": 1.6,
+      "vwap": 326.59,
       "opening_range_high": 328.12,
       "opening_range_ready": true,
       "breakout_confirmed": true,
@@ -47,12 +47,12 @@
     {
       "ticker": "SNOW",
       "name": "Snowflake",
-      "score": 88,
+      "score": 90,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +0.67%, 5T -1.87%, relatives Volumen 1.48x, ATR 4.23%",
       "catalyst": "Could Snowflake (NYSE:SNOW) Be the Next Big Growth Stocks Story?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +3.83%, seit Open +3.61%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +3.56%, seit Open +3.34%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.54,
       "target_pct": 4.83,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +62,11 @@
       "atr_pct": "4.23%",
       "gap_pct": "+0.36%",
       "premarket_move_pct": "+0.18%",
-      "live_gap_pct": "+3.83%",
-      "regular_move_pct": "+3.61%",
+      "live_gap_pct": "+3.56%",
+      "regular_move_pct": "+3.34%",
       "avg_dollar_volume": 1894167010.46,
-      "bar_age_minutes": 5.1,
-      "vwap": 343.84,
+      "bar_age_minutes": 1.6,
+      "vwap": 343.77,
       "opening_range_high": 337.88,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -84,67 +84,28 @@
       }
     },
     {
-      "ticker": "SAP",
-      "name": "SAP",
-      "score": 87,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.74%, 5T +0.08%, relatives Volumen 1.46x, ATR 2.36%",
-      "catalyst": "NetApp seeks to expand its partnership with SAP",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.65%, seit Open +0.23%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 1.42,
-      "target_pct": 2.69,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.74%",
-      "change_5d": "+0.08%",
-      "volume_ratio": "1.46x",
-      "atr_pct": "2.36%",
-      "gap_pct": "-0.86%",
-      "premarket_move_pct": "+0.23%",
-      "live_gap_pct": "-0.65%",
-      "regular_move_pct": "+0.23%",
-      "avg_dollar_volume": 404312601.89,
-      "bar_age_minutes": 0.1,
-      "vwap": 210.37,
-      "opening_range_high": 210.15,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "US-Handel live",
-      "action_status": "WARTEN",
-      "action_reason": "Gutes Setup, aber noch nicht alle Bedingungen erfüllt: Live-/Premarket-Bestätigung",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": false
-      }
-    },
-    {
       "ticker": "AMAT",
       "name": "Applied Materials",
       "score": 87,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +5.19%, 5T +8.37%, relatives Volumen 1.38x, ATR 3.76%",
+      "thesis": "1T +5.19%, 5T +8.37%, relatives Volumen 1.39x, ATR 3.76%",
       "catalyst": "Applied Materials Inc (AMAT) Shares Surge 5.2% -- What GF Score of 87 Tells Investors",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.30%, seit Open +0.02%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.45%, seit Open +0.17%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.25,
       "target_pct": 4.28,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
       "change_1d": "+5.19%",
       "change_5d": "+8.37%",
-      "volume_ratio": "1.38x",
+      "volume_ratio": "1.39x",
       "atr_pct": "3.76%",
       "gap_pct": "+0.35%",
       "premarket_move_pct": "+0.36%",
-      "live_gap_pct": "+0.30%",
-      "regular_move_pct": "+0.02%",
-      "avg_dollar_volume": 2906480993.25,
-      "bar_age_minutes": 0.1,
-      "vwap": 510.51,
+      "live_gap_pct": "+0.45%",
+      "regular_move_pct": "+0.17%",
+      "avg_dollar_volume": 2906767718.86,
+      "bar_age_minutes": 1.6,
+      "vwap": 510.75,
       "opening_range_high": 515.42,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -169,7 +130,7 @@
       "thesis": "1T +1.32%, 5T +3.27%, relatives Volumen 1.32x, ATR 2.24%",
       "catalyst": "Amgen Inc (AMGN) Shares Surge 1.3% -- What GF Score of 87 Tells Investors",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.30%, seit Open -0.39%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.42%, seit Open -0.50%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.34,
       "target_pct": 2.55,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +140,11 @@
       "atr_pct": "2.24%",
       "gap_pct": "+0.18%",
       "premarket_move_pct": "-0.21%",
-      "live_gap_pct": "-0.30%",
-      "regular_move_pct": "-0.39%",
+      "live_gap_pct": "-0.42%",
+      "regular_move_pct": "-0.50%",
       "avg_dollar_volume": 1278510646.58,
-      "bar_age_minutes": 5.1,
-      "vwap": 423.29,
+      "bar_age_minutes": 1.6,
+      "vwap": 423.2,
       "opening_range_high": 426.59,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -194,6 +155,45 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": false
+      }
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA",
+      "score": 85,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +3.89%, 5T +4.36%, relatives Volumen 0.93x, ATR 3.77%",
+      "catalyst": "KLA Corporation: Fundamentals Are Strong, But The Stock Needs More (NASDAQ:KLAC)",
+      "risk_note": "KLA (NASDAQ:KLAC) Downgraded by Zacks Research to Hold",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.03%, seit Open +0.29%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "stop_pct": 2.26,
+      "target_pct": 4.3,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+3.89%",
+      "change_5d": "+4.36%",
+      "volume_ratio": "0.93x",
+      "atr_pct": "3.77%",
+      "gap_pct": "+0.07%",
+      "premarket_move_pct": "+0.86%",
+      "live_gap_pct": "+0.03%",
+      "regular_move_pct": "+0.29%",
+      "avg_dollar_volume": 1728892612.53,
+      "bar_age_minutes": 1.6,
+      "vwap": 195.77,
+      "opening_range_high": 197.2,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "US-Handel live",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -317,12 +317,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "SAP",
-      "title": "NTAP Stock Hits Record High: NetApp Expands Strategic Partnerships With SAP, Oracle, and Supermicro To Drive Cloud Infrastructure",
-      "time": "Tue, 29 Sep 2026 19:51:25",
-      "sentiment": 1
-    },
-    {
       "ticker": "LRCX",
       "title": "Lam Research Corp (LRCX) Shares Surge 3.0% -- What GF Score of 8",
       "time": "Wed, 30 Sep 2026 00:01:48",
@@ -431,6 +425,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "BA",
+      "title": "Boeing (NYSE:BA) Wins a $20 Billion Navy Fighter Deal Over Northrop, but the Stock Barely Moves",
+      "time": "Wed, 30 Sep 2026 18:14:59",
+      "sentiment": 1
+    },
+    {
       "ticker": "ASML",
       "title": "Here is What to Know Beyond Why ASML Holding N.V. (ASML) is a Trending Stock",
       "time": "Wed, 30 Sep 2026 12:00:06",
@@ -516,14 +516,14 @@
     },
     {
       "ticker": "AMAT",
-      "title": "Better Semiconductor Equipment Stock: Applied Materials vs. Lam Research",
-      "time": "Tue, 29 Sep 2026 19:30:00",
+      "title": "Applied Materials (AMAT) Recently Broke Out Above the 50-Day Moving Average",
+      "time": "Wed, 30 Sep 2026 12:30:02",
       "sentiment": 0
     },
     {
       "ticker": "AMGN",
       "title": "Is Amgen (AMGN) Undervalued Following Its Phase 3 Sjögren's Disease Trial Update?",
-      "time": "Wed, 30 Sep 2026 15:34:50",
+      "time": "Wed, 30 Sep 2026 15:34:48",
       "sentiment": 0
     },
     {
@@ -540,14 +540,14 @@
     },
     {
       "ticker": "AMGN",
-      "title": "Gilead Sciences (NASDAQ:GILD) Stock: Stronger HIV Sales Meet Weaker Reported Earnings",
-      "time": "Tue, 29 Sep 2026 19:23:00",
+      "title": "Ginkgo Bioworks Holdings, Inc. (DNA) Stock Price, News, Quote & History",
+      "time": "Tue, 29 Sep 2026 21:31:51",
       "sentiment": 0
     },
     {
       "ticker": "KLAC",
       "title": "KLA Corporation (KLAC) Stock Price, News, Quote & History",
-      "time": "Wed, 30 Sep 2026 05:17:19",
+      "time": "Wed, 30 Sep 2026 07:56:55",
       "sentiment": 0
     },
     {
@@ -695,6 +695,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "EXC",
+      "title": "Nomura Global Listed Real Assets Fund's Exelon Corp(EXC) Holding History",
+      "time": "Tue, 29 Sep 2026 21:50:03",
+      "sentiment": 0
+    },
+    {
       "ticker": "SAP",
       "title": "SAP Stock And 2 European Cloud Resilience Plays Retail Investors Are Watching",
       "time": "Wed, 30 Sep 2026 12:12:00",
@@ -719,6 +725,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "SAP",
+      "title": "Grocery Outlet (GO) Stock Trades Up, Here Is Why",
+      "time": "Wed, 30 Sep 2026 14:50:48",
+      "sentiment": 0
+    },
+    {
       "ticker": "LRCX",
       "title": "Lam Research (NASDAQ:LRCX) Stock Price Up 3% - Time to Buy?",
       "time": "Tue, 29 Sep 2026 21:26:02",
@@ -726,14 +738,14 @@
     },
     {
       "ticker": "LRCX",
-      "title": "Better Semiconductor Equipment Stock: Applied Materials vs. Lam Research",
-      "time": "Tue, 29 Sep 2026 19:30:00",
+      "title": "Lam Research stock pre-market at EUR 284.10: minus 0.74 percent",
+      "time": "Wed, 30 Sep 2026 05:51:57",
       "sentiment": 0
     },
     {
       "ticker": "LRCX",
-      "title": "Lam Research stock pre-market at EUR 284.10: minus 0.74 percent",
-      "time": "Wed, 30 Sep 2026 05:51:57",
+      "title": "KLA Corporation (KLAC) Stock Price, News, Quote & History",
+      "time": "Wed, 30 Sep 2026 07:56:55",
       "sentiment": 0
     },
     {
@@ -792,6 +804,12 @@
     },
     {
       "ticker": "GEV",
+      "title": "GE Vernova (GEV) Stock Could Be Fully Valued Despite Its 57% Run",
+      "time": "Wed, 30 Sep 2026 19:27:34",
+      "sentiment": 0
+    },
+    {
+      "ticker": "GEV",
       "title": "Here is What to Know Beyond Why GE Vernova Inc. (GEV) is a Trending Stock",
       "time": "Wed, 30 Sep 2026 12:00:05",
       "sentiment": 0
@@ -812,12 +830,6 @@
       "ticker": "GEV",
       "title": "GE Vernova (GEV) Gains As Market Dips: What You Should Know",
       "time": "Tue, 29 Sep 2026 21:00:03",
-      "sentiment": 0
-    },
-    {
-      "ticker": "GEV",
-      "title": "Mizuho reiterates Neutral on GE Vernova stock, keeps $949 target",
-      "time": "Wed, 30 Sep 2026 10:29:57",
       "sentiment": 0
     },
     {
@@ -1032,8 +1044,8 @@
     },
     {
       "ticker": "MRNA",
-      "title": "Stocks making the biggest moves premarket: Robinhood, Boeing, Moderna & more",
-      "time": "Wed, 30 Sep 2026 11:38:54",
+      "title": "Stocks making the biggest moves midday: Rogers, United Therapeutics, Moderna, FormFactor & more",
+      "time": "Wed, 30 Sep 2026 17:04:33",
       "sentiment": 0
     },
     {
@@ -1242,14 +1254,8 @@
     },
     {
       "ticker": "BA",
-      "title": "AI sets Boeing stock price target on October 31, 2026",
-      "time": "Wed, 30 Sep 2026 10:31:19",
-      "sentiment": 0
-    },
-    {
-      "ticker": "BA",
-      "title": "Boeing’s F/A-XX win is ‘major strategic’ victory, Morgan Stanley says (BA:NYSE)",
-      "time": "Wed, 30 Sep 2026 14:32:20",
+      "title": "Boeing’s $20B-Plus Navy Fighter Win Gets Street’s Attention — What BA Investors Need To Know",
+      "time": "Wed, 30 Sep 2026 17:06:59",
       "sentiment": 0
     }
   ]
