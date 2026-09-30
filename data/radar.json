@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "30.09.2026 22:13 CEST",
+  "generated_at_local": "30.09.2026 22:31 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -23,51 +23,12 @@
       "atr_pct": "2.22%",
       "gap_pct": "+0.58%",
       "premarket_move_pct": "+0.43%",
-      "live_gap_pct": "-1.03%",
-      "regular_move_pct": "-1.45%",
+      "live_gap_pct": "-1.08%",
+      "regular_move_pct": "-1.50%",
       "avg_dollar_volume": 1198135679.74,
-      "bar_age_minutes": 5.8,
-      "vwap": 132.74,
+      "bar_age_minutes": 26.8,
+      "vwap": 132.73,
       "opening_range_high": 134.67,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "WARTEN",
-      "action_reason": "Premarket-Setup bestätigt; KAUF HEUTE erst nach echter Bestätigung in der heutigen regulären US-Session.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "score": 91,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +5.19%, 5T +8.37%, relatives Volumen 1.39x, ATR 3.76%",
-      "catalyst": "Applied Materials Inc (AMAT) Shares Surge 5.2% -- What GF Score of 87 Tells Investors",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.35%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.25,
-      "target_pct": 4.28,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+5.19%",
-      "change_5d": "+8.37%",
-      "volume_ratio": "1.39x",
-      "atr_pct": "3.76%",
-      "gap_pct": "+0.35%",
-      "premarket_move_pct": "+0.36%",
-      "live_gap_pct": "-0.07%",
-      "regular_move_pct": "-0.34%",
-      "avg_dollar_volume": 2906767718.86,
-      "bar_age_minutes": 3.7,
-      "vwap": 511.15,
-      "opening_range_high": 515.42,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
@@ -101,10 +62,10 @@
       "atr_pct": "1.52%",
       "gap_pct": "+0.66%",
       "premarket_move_pct": "+0.12%",
-      "live_gap_pct": "-0.64%",
-      "regular_move_pct": "-1.00%",
+      "live_gap_pct": "-0.67%",
+      "regular_move_pct": "-1.04%",
       "avg_dollar_volume": 534067006.0,
-      "bar_age_minutes": 5.8,
+      "bar_age_minutes": 26.8,
       "vwap": 83.32,
       "opening_range_high": 83.98,
       "opening_range_ready": true,
@@ -116,45 +77,6 @@
         "score_ok": true,
         "momentum_ok": false,
         "volume_ok": true,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "LRCX",
-      "name": "Lam Research",
-      "score": 89,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +2.99%, 5T +4.15%, relatives Volumen 0.90x, ATR 4.41%",
-      "catalyst": "Lam Research Corp (LRCX) Shares Surge 3.0% -- What GF Score of 8",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.34%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 2.65,
-      "target_pct": 5.03,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+2.99%",
-      "change_5d": "+4.15%",
-      "volume_ratio": "0.90x",
-      "atr_pct": "4.41%",
-      "gap_pct": "+0.34%",
-      "premarket_move_pct": "+0.01%",
-      "live_gap_pct": "+1.47%",
-      "regular_move_pct": "+1.18%",
-      "avg_dollar_volume": 2784302933.9,
-      "bar_age_minutes": 3.7,
-      "vwap": 327.17,
-      "opening_range_high": 328.12,
-      "opening_range_ready": true,
-      "breakout_confirmed": true,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -182,7 +104,7 @@
       "live_gap_pct": "-0.51%",
       "regular_move_pct": "-0.59%",
       "avg_dollar_volume": 1278510646.58,
-      "bar_age_minutes": 3.6,
+      "bar_age_minutes": 6.8,
       "vwap": 422.76,
       "opening_range_high": 426.59,
       "opening_range_ready": true,
@@ -194,6 +116,84 @@
         "score_ok": true,
         "momentum_ok": true,
         "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "score": 86,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.99%, 5T +4.15%, relatives Volumen 0.90x, ATR 4.41%",
+      "catalyst": "Lam Research Corp (LRCX) Shares Surge 3.0% -- What GF Score of 8",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.34%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.65,
+      "target_pct": 5.03,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.99%",
+      "change_5d": "+4.15%",
+      "volume_ratio": "0.90x",
+      "atr_pct": "4.41%",
+      "gap_pct": "+0.34%",
+      "premarket_move_pct": "+0.01%",
+      "live_gap_pct": "+1.47%",
+      "regular_move_pct": "+1.18%",
+      "avg_dollar_volume": 2784302933.9,
+      "bar_age_minutes": 1.8,
+      "vwap": 327.17,
+      "opening_range_high": 328.12,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar",
+      "score": 85,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +0.82%, 5T +2.31%, relatives Volumen 1.03x, ATR 2.50%",
+      "catalyst": "Why Caterpillar Stock Has Surged 75% Over the Past Year on AI Power Demand",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.73%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 1.5,
+      "target_pct": 2.85,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+0.82%",
+      "change_5d": "+2.31%",
+      "volume_ratio": "1.03x",
+      "atr_pct": "2.50%",
+      "gap_pct": "+0.73%",
+      "premarket_move_pct": "+0.38%",
+      "live_gap_pct": "-1.93%",
+      "regular_move_pct": "-2.15%",
+      "avg_dollar_volume": 1926488338.33,
+      "bar_age_minutes": 10.0,
+      "vwap": 816.05,
+      "opening_range_high": 831.95,
+      "opening_range_ready": true,
+      "breakout_confirmed": false,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -212,18 +212,6 @@
       "ticker": "TJX",
       "title": "TJX Companies stock trades at EUR 116.75 after Q2 growth",
       "time": "Wed, 30 Sep 2026 14:41:25",
-      "sentiment": 1
-    },
-    {
-      "ticker": "AMAT",
-      "title": "Applied Materials Inc (AMAT) Shares Surge 5.2% -- What GF Score of 87 Tells Investors",
-      "time": "Tue, 29 Sep 2026 21:18:40",
-      "sentiment": 1
-    },
-    {
-      "ticker": "AMAT",
-      "title": "Applied Materials stock reports record USD 9.12 billion revenue",
-      "time": "Wed, 30 Sep 2026 08:30:11",
       "sentiment": 1
     },
     {
@@ -299,12 +287,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "SYK",
-      "title": "Stryker stock faces analyst cuts as Stifel lowers target",
-      "time": "Wed, 30 Sep 2026 09:40:54",
-      "sentiment": -1
-    },
-    {
       "ticker": "EXC",
       "title": "Scotiabank Adjusts Price Target on Exelon to $44 From $47, Keeps Sector Perform Rating",
       "time": "Wed, 30 Sep 2026 10:38:48",
@@ -326,12 +308,6 @@
       "ticker": "LRCX",
       "title": "Lam Research rises as investors lean into chip-equipment strength and recent upbeat company signals",
       "time": "Tue, 29 Sep 2026 21:21:00",
-      "sentiment": 1
-    },
-    {
-      "ticker": "LRCX",
-      "title": "Lam Research Corp. stock outperforms competitors on strong trading day",
-      "time": "Tue, 29 Sep 2026 20:31:00",
       "sentiment": 1
     },
     {
@@ -380,12 +356,6 @@
       "ticker": "CRWD",
       "title": "CrowdStrike Stock Forecast: Can AI Security Growth Sustain CRWD’s Rally?",
       "time": "Wed, 30 Sep 2026 05:25:55",
-      "sentiment": 1
-    },
-    {
-      "ticker": "CRWD",
-      "title": "CrowdStrike Holdings Inc (CRWD) Shares Surge 1.4% -- What GF Sco",
-      "time": "Wed, 30 Sep 2026 00:31:59",
       "sentiment": 1
     },
     {
@@ -522,6 +492,12 @@
     },
     {
       "ticker": "AMAT",
+      "title": "Applied Materials, Inc. (AMAT) stock price, news, quote and history",
+      "time": "Wed, 30 Sep 2026 17:29:31",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMAT",
       "title": "What's Going On With Applied Materials Stock Wednesday?",
       "time": "Wed, 30 Sep 2026 12:30:51",
       "sentiment": 0
@@ -530,6 +506,12 @@
       "ticker": "AMAT",
       "title": "Applied Materials (AMAT) Stock May Be In Line Following AI Memory News",
       "time": "Wed, 30 Sep 2026 10:41:15",
+      "sentiment": 0
+    },
+    {
+      "ticker": "AMAT",
+      "title": "AMAT Stock Has Doubled This Year: Analyst Trims Price Target But Sees Higher 2027 Sales, Profit",
+      "time": "Wed, 30 Sep 2026 02:21:00",
       "sentiment": 0
     },
     {
@@ -600,8 +582,8 @@
     },
     {
       "ticker": "SO",
-      "title": "Southern Co. (SO) Rises As Market Takes a Dip: Key Facts",
-      "time": "Tue, 29 Sep 2026 21:00:05",
+      "title": "Southern or Duke: Which Utility Dividend Holds Up Against the Data Center Buildout",
+      "time": "Wed, 30 Sep 2026 16:45:00",
       "sentiment": 0
     },
     {
@@ -630,8 +612,8 @@
     },
     {
       "ticker": "CAT",
-      "title": "Caterpillar to Invest $1 Billion in North Carolina to Expand Cat Compact Manufacturing Capacity",
-      "time": "Wed, 30 Sep 2026 13:03:15",
+      "title": "Caterpillar Stocks Fall 1.2% as $1 Billion Factory Expands Compact Equipment",
+      "time": "Wed, 30 Sep 2026 17:49:48",
       "sentiment": 0
     },
     {
@@ -660,8 +642,8 @@
     },
     {
       "ticker": "TSM",
-      "title": "Prediction: Taiwan Semiconductor Manufacturing Will Hit a $3 Trillion Market Cap Before 2027 Is Over",
-      "time": "Tue, 29 Sep 2026 20:49:00",
+      "title": "Is Taiwan Semiconductor Manufacturing Co Ltd (TSM) Overvalued Af",
+      "time": "Tue, 29 Sep 2026 23:45:49",
       "sentiment": 0
     },
     {
@@ -692,6 +674,12 @@
       "ticker": "SNOW",
       "title": "Snowflake stock rating reiterated at Buy by StoneX",
       "time": "Wed, 30 Sep 2026 12:54:04",
+      "sentiment": 0
+    },
+    {
+      "ticker": "SYK",
+      "title": "Stifel maintains Buy rating on Stryker, $330 price target",
+      "time": "Wed, 30 Sep 2026 16:44:57",
       "sentiment": 0
     },
     {
@@ -764,6 +752,12 @@
       "ticker": "LRCX",
       "title": "Lam Research stock pre-market at EUR 284.10: minus 0.74 percent",
       "time": "Wed, 30 Sep 2026 05:51:57",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LRCX",
+      "title": "Lam Research Corporation Announces September Quarter Financial Conference Call",
+      "time": "Wed, 30 Sep 2026 20:05:00",
       "sentiment": 0
     },
     {
@@ -1031,6 +1025,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "CRWD",
+      "title": "CRWD Stock Price Today",
+      "time": "Wed, 30 Sep 2026 11:22:14",
+      "sentiment": 0
+    },
+    {
       "ticker": "MRNA",
       "title": "Citi tells investors it’s time to sell Moderna after 600%-plus stock gains",
       "time": "Wed, 30 Sep 2026 14:59:00",
@@ -1050,8 +1050,8 @@
     },
     {
       "ticker": "MRNA",
-      "title": "Stocks making the biggest moves premarket: Robinhood, Boeing, Moderna & more",
-      "time": "Wed, 30 Sep 2026 11:38:54",
+      "title": "Why is Moderna stock down 4% today?",
+      "time": "Wed, 30 Sep 2026 09:59:15",
       "sentiment": 0
     },
     {
@@ -1086,8 +1086,8 @@
     },
     {
       "ticker": "DUK",
-      "title": "[Form 3] Duke Energy CORP Initial Statement of Beneficial Ownership",
-      "time": "Tue, 29 Sep 2026 20:22:14",
+      "title": "Duke Energy stock hits 52-week low at 19.84 USD",
+      "time": "Wed, 30 Sep 2026 16:26:17",
       "sentiment": 0
     },
     {
@@ -1212,20 +1212,20 @@
     },
     {
       "ticker": "TMO",
-      "title": "At $675 per unit, a Thermo Fisher (TMO) director was credited with 62.96 stock units.",
-      "time": "Tue, 29 Sep 2026 20:14:23",
+      "title": "(TMO) and the Role of Price-Sensitive Allocations",
+      "time": "Tue, 29 Sep 2026 21:30:01",
       "sentiment": 0
     },
     {
       "ticker": "TMO",
-      "title": "Thermo Fisher Director Dion J. Weisler Receives Quarterly Phantom Stock Unit Credit",
-      "time": "Tue, 29 Sep 2026 20:25:56",
+      "title": "Illumina, Inc. (ILMN) Stock Price, News, Quote & History",
+      "time": "Wed, 30 Sep 2026 04:21:04",
       "sentiment": 0
     },
     {
       "ticker": "TMO",
-      "title": "Director Karen S. Lynch holds 398.7 deferred stock units at Thermo Fisher Scientific (TMO) after the credit.",
-      "time": "Tue, 29 Sep 2026 20:14:16",
+      "title": "Covalon Technologies Stock Faces Downside Pressure as Investor Sentiment Turns Cautious",
+      "time": "Wed, 30 Sep 2026 13:00:00",
       "sentiment": 0
     },
     {
