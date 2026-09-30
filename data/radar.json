@@ -1,43 +1,43 @@
 {
-  "generated_at_local": "30.09.2026 17:45 CEST",
+  "generated_at_local": "30.09.2026 18:02 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
   "summary": "Gemischt / selektiv. US-Handel läuft: Live-Gap und Bewegung seit Eröffnung werden zur Bestätigung neu bewertet. 201 von 204 Aktien mit ausreichenden Daten geprüft; 5 Top-Kandidaten angezeigt. Aggressives Short-Term-Ranking: Katalysator/News, 1T-/5T-Momentum, relatives Volumen, ATR, Liquidität, Gap/Premarket und Live-Bestätigung. Kein Score garantiert einen Kursanstieg; ohne bestätigten Trigger ist kein Trade besser als ein erzwungener Trade.",
   "candidates": [
     {
-      "ticker": "SAP",
-      "name": "SAP",
-      "score": 94,
+      "ticker": "RCL",
+      "name": "Royal Caribbean",
+      "score": 97,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +0.74%, 5T +0.08%, relatives Volumen 1.46x, ATR 2.36%",
-      "catalyst": "NTAP Stock Hits Record High: NetApp Expands Strategic Partnerships With SAP, Oracle, and Supermicro To Drive Cloud Infrastructure",
+      "thesis": "1T +7.45%, 5T +10.98%, relatives Volumen 0.73x, ATR 4.21%",
+      "catalyst": "Royal Caribbean Cruises (NYSE:RCL) Stock Keeps \"Outperform\" Rating at BMO Capital Markets",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap -0.14%, seit Open +0.74%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
-      "stop_pct": 1.42,
-      "target_pct": 2.69,
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +2.47%, seit Open +2.65%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 2.53,
+      "target_pct": 4.8,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+0.74%",
-      "change_5d": "+0.08%",
-      "volume_ratio": "1.46x",
-      "atr_pct": "2.36%",
-      "gap_pct": "-0.86%",
-      "premarket_move_pct": "+0.23%",
-      "live_gap_pct": "-0.14%",
-      "regular_move_pct": "+0.74%",
-      "avg_dollar_volume": 404312601.89,
-      "bar_age_minutes": 5.5,
-      "vwap": 210.11,
-      "opening_range_high": 210.15,
+      "change_1d": "+7.45%",
+      "change_5d": "+10.98%",
+      "volume_ratio": "0.73x",
+      "atr_pct": "4.21%",
+      "gap_pct": "+0.90%",
+      "premarket_move_pct": "+0.42%",
+      "live_gap_pct": "+2.47%",
+      "regular_move_pct": "+2.65%",
+      "avg_dollar_volume": 765198104.43,
+      "bar_age_minutes": 2.0,
+      "vwap": 267.06,
+      "opening_range_high": 265.2,
       "opening_range_ready": true,
       "breakout_confirmed": true,
       "session_phase": "US-Handel live",
-      "action_status": "KAUF HEUTE",
-      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -47,12 +47,12 @@
     {
       "ticker": "LRCX",
       "name": "Lam Research",
-      "score": 90,
+      "score": 94,
       "stance": "Short-Term Momentum / Event",
       "thesis": "1T +2.99%, 5T +4.15%, relatives Volumen 0.90x, ATR 4.41%",
       "catalyst": "Lam Research Corp (LRCX) Shares Surge 3.0% -- What GF Score of 8",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.65%, seit Open +0.36%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.85%, seit Open +0.57%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 2.65,
       "target_pct": 5.03,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -62,11 +62,11 @@
       "atr_pct": "4.41%",
       "gap_pct": "+0.34%",
       "premarket_move_pct": "+0.01%",
-      "live_gap_pct": "+0.65%",
-      "regular_move_pct": "+0.36%",
+      "live_gap_pct": "+0.85%",
+      "regular_move_pct": "+0.57%",
       "avg_dollar_volume": 2784302933.9,
-      "bar_age_minutes": 0.5,
-      "vwap": 325.41,
+      "bar_age_minutes": 2.0,
+      "vwap": 325.47,
       "opening_range_high": 328.12,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -84,42 +84,42 @@
       }
     },
     {
-      "ticker": "RCL",
-      "name": "Royal Caribbean",
-      "score": 90,
+      "ticker": "SAP",
+      "name": "SAP",
+      "score": 92,
       "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +7.45%, 5T +10.98%, relatives Volumen 0.73x, ATR 4.21%",
-      "catalyst": "Royal Caribbean Cruises (NYSE:RCL) Stock Keeps \"Outperform\" Rating at BMO Capital Markets",
+      "thesis": "1T +0.74%, 5T +0.08%, relatives Volumen 1.46x, ATR 2.36%",
+      "catalyst": "NTAP Stock Hits Record High: NetApp Expands Strategic Partnerships With SAP, Oracle, and Supermicro To Drive Cloud Infrastructure",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +2.32%, seit Open +2.51%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
-      "stop_pct": 2.53,
-      "target_pct": 4.8,
+      "entry_note": "Live-Trigger bestätigt: Kurs hält VWAP und testet/überschreitet die 15-Minuten-Opening-Range; Gap +0.06%, seit Open +0.95%. Bevorzugt Rücksetzer + erneute Stärke statt Hinterherjagen.",
+      "stop_pct": 1.42,
+      "target_pct": 2.69,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+7.45%",
-      "change_5d": "+10.98%",
-      "volume_ratio": "0.73x",
-      "atr_pct": "4.21%",
-      "gap_pct": "+0.90%",
-      "premarket_move_pct": "+0.42%",
-      "live_gap_pct": "+2.32%",
-      "regular_move_pct": "+2.51%",
-      "avg_dollar_volume": 765198104.43,
-      "bar_age_minutes": 0.5,
-      "vwap": 267.06,
-      "opening_range_high": 265.2,
+      "change_1d": "+0.74%",
+      "change_5d": "+0.08%",
+      "volume_ratio": "1.46x",
+      "atr_pct": "2.36%",
+      "gap_pct": "-0.86%",
+      "premarket_move_pct": "+0.23%",
+      "live_gap_pct": "+0.06%",
+      "regular_move_pct": "+0.95%",
+      "avg_dollar_volume": 404312601.89,
+      "bar_age_minutes": 2.0,
+      "vwap": 210.21,
+      "opening_range_high": 210.15,
       "opening_range_ready": true,
-      "breakout_confirmed": false,
+      "breakout_confirmed": true,
       "session_phase": "US-Handel live",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "action_status": "KAUF HEUTE",
+      "action_reason": "Alle definierten Kriterien sind in der heutigen regulären US-Session live bestätigt.",
       "criteria": {
         "score_ok": true,
         "momentum_ok": true,
-        "volume_ok": false,
+        "volume_ok": true,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
-        "confirmation_ok": false
+        "confirmation_ok": true
       }
     },
     {
@@ -130,7 +130,7 @@
       "thesis": "1T +1.32%, 5T +3.27%, relatives Volumen 1.32x, ATR 2.24%",
       "catalyst": "Amgen Inc (AMGN) Shares Surge 1.3% -- What GF Score of 87 Tells Investors",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.01%, seit Open -0.08%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap +0.14%, seit Open +0.05%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 1.34,
       "target_pct": 2.55,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -140,11 +140,11 @@
       "atr_pct": "2.24%",
       "gap_pct": "+0.18%",
       "premarket_move_pct": "-0.21%",
-      "live_gap_pct": "+0.01%",
-      "regular_move_pct": "-0.08%",
+      "live_gap_pct": "+0.14%",
+      "regular_move_pct": "+0.05%",
       "avg_dollar_volume": 1278510646.58,
-      "bar_age_minutes": 0.5,
-      "vwap": 423.72,
+      "bar_age_minutes": 2.0,
+      "vwap": 423.74,
       "opening_range_high": 426.59,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -169,7 +169,7 @@
       "thesis": "1T +1.34%, 5T -2.00%, relatives Volumen 1.99x, ATR 1.52%",
       "catalyst": "NEE vs. SO: Which Utility Stock Wins for Retirement Income in 2026?",
       "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.23%, seit Open -0.60%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
+      "entry_note": "Noch kein sauberer Live-Trigger. Gap -0.28%, seit Open -0.64%. Warten auf VWAP-Halt plus Opening-Range-Bestätigung.",
       "stop_pct": 0.91,
       "target_pct": 2.0,
       "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
@@ -179,11 +179,11 @@
       "atr_pct": "1.52%",
       "gap_pct": "+0.66%",
       "premarket_move_pct": "+0.12%",
-      "live_gap_pct": "-0.23%",
-      "regular_move_pct": "-0.60%",
+      "live_gap_pct": "-0.28%",
+      "regular_move_pct": "-0.64%",
       "avg_dollar_volume": 534067006.0,
-      "bar_age_minutes": 0.5,
-      "vwap": 83.45,
+      "bar_age_minutes": 2.0,
+      "vwap": 83.44,
       "opening_range_high": 83.98,
       "opening_range_ready": true,
       "breakout_confirmed": false,
@@ -257,12 +257,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "KLAC",
-      "title": "KLA (NASDAQ:KLAC) Stock: Guidance Sets a Higher Revenue Bar After a Stronger June Quarter",
-      "time": "Tue, 29 Sep 2026 19:24:00",
-      "sentiment": 1
-    },
-    {
       "ticker": "SO",
       "title": "NEE vs. SO: Which Utility Stock Wins for Retirement Income in 2026?",
       "time": "Wed, 30 Sep 2026 12:32:00",
@@ -323,21 +317,9 @@
       "sentiment": -1
     },
     {
-      "ticker": "EXC",
-      "title": "Alliant Energy Corp. stock outperforms competitors on strong trading day",
-      "time": "Tue, 29 Sep 2026 21:11:00",
-      "sentiment": 1
-    },
-    {
       "ticker": "SAP",
       "title": "NTAP Stock Hits Record High: NetApp Expands Strategic Partnerships With SAP, Oracle, and Supermicro To Drive Cloud Infrastructure",
       "time": "Tue, 29 Sep 2026 19:51:25",
-      "sentiment": 1
-    },
-    {
-      "ticker": "SAP",
-      "title": "SAP stock weighs cloud growth against acquisition costs",
-      "time": "Wed, 30 Sep 2026 11:56:50",
       "sentiment": 1
     },
     {
@@ -371,12 +353,6 @@
       "sentiment": 1
     },
     {
-      "ticker": "TXN",
-      "title": "Texas Instruments stock reports growth at EUR 246.13 versus EUR 247.78, minus 0.67 percent",
-      "time": "Wed, 30 Sep 2026 14:53:13",
-      "sentiment": 1
-    },
-    {
       "ticker": "GEV",
       "title": "GE Vernova Keeps Quarterly Dividend at $0.50 a Share, Payable Nov. 24 to Shareholders of Record as of Oct. 27",
       "time": "Wed, 30 Sep 2026 11:49:20",
@@ -385,7 +361,7 @@
     {
       "ticker": "META",
       "title": "Meta: Meta Launches Enterprise Offering to Open Up Another Way to Monetize AI Investments",
-      "time": "Wed, 30 Sep 2026 08:18:06",
+      "time": "Wed, 30 Sep 2026 08:10:41",
       "sentiment": -1
     },
     {
@@ -395,15 +371,15 @@
       "sentiment": -1
     },
     {
-      "ticker": "CRWD",
-      "title": "CrowdStrike Stock Forecast: Can AI Security Growth Sustain CRWD’s Rally?",
-      "time": "Wed, 30 Sep 2026 05:25:55",
+      "ticker": "CI",
+      "title": "Cigna Stock: Specialty Drug Growth Takes Focus at Investor Day",
+      "time": "Wed, 30 Sep 2026 15:43:00",
       "sentiment": 1
     },
     {
       "ticker": "CRWD",
-      "title": "CrowdStrike Holdings Inc (CRWD) Shares Surge 1.4% -- What GF Sco",
-      "time": "Wed, 30 Sep 2026 00:31:59",
+      "title": "CrowdStrike Stock Forecast: Can AI Security Growth Sustain CRWD’s Rally?",
+      "time": "Wed, 30 Sep 2026 05:25:55",
       "sentiment": 1
     },
     {
@@ -443,22 +419,10 @@
       "sentiment": 1
     },
     {
-      "ticker": "VST",
-      "title": "Vistra (NYSE:VST) Completes Notes Offering as Power Demand Builds",
-      "time": "Tue, 29 Sep 2026 16:02:00",
-      "sentiment": -1
-    },
-    {
       "ticker": "NFLX",
       "title": "Buy Upgrade Could Be A Fresh Angle On Netflix Stock (NFLX)",
       "time": "Wed, 30 Sep 2026 11:40:32",
       "sentiment": 1
-    },
-    {
-      "ticker": "NFLX",
-      "title": "Netflix stock falls 40% in a year, but one anal...",
-      "time": "Wed, 30 Sep 2026 11:34:44",
-      "sentiment": -1
     },
     {
       "ticker": "TMO",
@@ -498,8 +462,8 @@
     },
     {
       "ticker": "ASML",
-      "title": "ASML, TSM earnings could test market expectations, Sara Awad says (ASML:NASDAQ)",
-      "time": "Wed, 30 Sep 2026 09:48:48",
+      "title": "ASML Stocks Slip as High-NA Adoption Extends Into 2030",
+      "time": "Wed, 30 Sep 2026 15:12:11",
       "sentiment": 0
     },
     {
@@ -510,8 +474,8 @@
     },
     {
       "ticker": "ASML",
-      "title": "ASML Holding N.V. vs. Marvell Technology: Which Technology Stock Is a Better Buy in 2026?",
-      "time": "Wed, 30 Sep 2026 11:20:03",
+      "title": "ASML, TSM earnings could test market expectations, Sara Awad says (ASML:NASDAQ)",
+      "time": "Wed, 30 Sep 2026 09:48:48",
       "sentiment": 0
     },
     {
@@ -594,6 +558,12 @@
     },
     {
       "ticker": "KLAC",
+      "title": "KLA Corporation (KLAC) Stock Price, News, Quote & History",
+      "time": "Wed, 30 Sep 2026 05:17:19",
+      "sentiment": 0
+    },
+    {
+      "ticker": "KLAC",
       "title": "Is KLA Stock Really Expensive?",
       "time": "Wed, 30 Sep 2026 14:06:34",
       "sentiment": 0
@@ -648,14 +618,14 @@
     },
     {
       "ticker": "CAT",
-      "title": "Caterpillar plans $1B North Carolina expansion, agrees to buy Fabick dealership (CAT:NYSE)",
-      "time": "Wed, 30 Sep 2026 13:21:43",
+      "title": "What's Behind Caterpillar's (NYSE:CAT) Big Moment in Industrial Stocks Today?",
+      "time": "Wed, 30 Sep 2026 14:30:00",
       "sentiment": 0
     },
     {
       "ticker": "CAT",
-      "title": "Is Caterpillar Inc (CAT) Overvalued After 0.8% Rally? GF Value S",
-      "time": "Wed, 30 Sep 2026 00:01:48",
+      "title": "Caterpillar plans $1B North Carolina expansion, agrees to buy Fabick dealership (CAT:NYSE)",
+      "time": "Wed, 30 Sep 2026 13:21:43",
       "sentiment": 0
     },
     {
@@ -702,14 +672,14 @@
     },
     {
       "ticker": "SNOW",
-      "title": "Snowflake Stock Slips After a $3.75 Billion Convertible Deal. Here’s What Investors Should Know",
-      "time": "Tue, 29 Sep 2026 18:24:55",
+      "title": "UiPath and Snowflake Jump 5% on UiPath's BDO and Snowflake Updates; Salesforce Moves Up 3%",
+      "time": "Wed, 30 Sep 2026 15:51:00",
       "sentiment": 0
     },
     {
       "ticker": "SNOW",
-      "title": "Snowflake (NYSE:SNOW) Slips on Convertible Note Offering After Strong Earnings Run",
-      "time": "Tue, 29 Sep 2026 16:52:00",
+      "title": "Snowflake Stock Slips After a $3.75 Billion Convertible Deal. Here’s What Investors Should Know",
+      "time": "Tue, 29 Sep 2026 18:24:55",
       "sentiment": 0
     },
     {
@@ -738,6 +708,12 @@
     },
     {
       "ticker": "EXC",
+      "title": "BUNA ETF Holdings List — HAN:BUNA",
+      "time": "Tue, 29 Sep 2026 19:04:35",
+      "sentiment": 0
+    },
+    {
+      "ticker": "EXC",
       "title": "Dominion Energy, Inc. (D) Stock Price, News, Quote & History",
       "time": "Tue, 29 Sep 2026 20:34:55",
       "sentiment": 0
@@ -756,8 +732,8 @@
     },
     {
       "ticker": "SAP",
-      "title": "Q.beyond Signs Up as Partner for Vitakraft's SAP Migration",
-      "time": "Wed, 30 Sep 2026 09:34:32",
+      "title": "SAP RISE security: Where SAP’s responsibility ends and yours begins",
+      "time": "Wed, 30 Sep 2026 11:00:00",
       "sentiment": 0
     },
     {
@@ -767,15 +743,21 @@
       "sentiment": 0
     },
     {
-      "ticker": "LRCX",
-      "title": "Better Semiconductor Equipment Stock: Applied Materials vs. Lam Research",
-      "time": "Tue, 29 Sep 2026 18:50:00",
+      "ticker": "SAP",
+      "title": "Q.beyond Signs Up as Partner for Vitakraft's SAP Migration",
+      "time": "Wed, 30 Sep 2026 09:34:32",
       "sentiment": 0
     },
     {
       "ticker": "LRCX",
       "title": "Lam Research (NASDAQ:LRCX) Stock Price Up 3% - Time to Buy?",
       "time": "Tue, 29 Sep 2026 21:26:02",
+      "sentiment": 0
+    },
+    {
+      "ticker": "LRCX",
+      "title": "Better Semiconductor Equipment Stock: Applied Materials vs. Lam Research",
+      "time": "Tue, 29 Sep 2026 18:50:00",
       "sentiment": 0
     },
     {
@@ -839,9 +821,15 @@
       "sentiment": 0
     },
     {
+      "ticker": "TXN",
+      "title": "Amtech Gains 79% in the Past Year: Should It Be in Your Portfolio?",
+      "time": "Wed, 30 Sep 2026 13:38:00",
+      "sentiment": 0
+    },
+    {
       "ticker": "GEV",
-      "title": "GE Vernova (GEV) Gains As Market Dips: What You Should Know",
-      "time": "Tue, 29 Sep 2026 21:00:03",
+      "title": "Here is What to Know Beyond Why GE Vernova Inc. (GEV) is a Trending Stock",
+      "time": "Wed, 30 Sep 2026 12:00:05",
       "sentiment": 0
     },
     {
@@ -864,8 +852,8 @@
     },
     {
       "ticker": "GEV",
-      "title": "Mizuho reiterates Neutral on GE Vernova stock, keeps $949 target",
-      "time": "Wed, 30 Sep 2026 10:29:57",
+      "title": "GE Vernova (GEV) Gains As Market Dips: What You Should Know",
+      "time": "Tue, 29 Sep 2026 21:00:03",
       "sentiment": 0
     },
     {
@@ -966,14 +954,14 @@
     },
     {
       "ticker": "DAL",
-      "title": "Delta Air Lines, Inc. (DAL) stock price, news, quote and history",
-      "time": "Tue, 29 Sep 2026 16:35:13",
+      "title": "(DAL) Volatility Zones as Tactical Triggers",
+      "time": "Tue, 29 Sep 2026 23:58:02",
       "sentiment": 0
     },
     {
       "ticker": "META",
       "title": "Meta Stock Slides as Muse Faces OpenAI Threat",
-      "time": "Wed, 30 Sep 2026 13:56:00",
+      "time": "Wed, 30 Sep 2026 14:13:41",
       "sentiment": 0
     },
     {
@@ -1014,20 +1002,20 @@
     },
     {
       "ticker": "CI",
-      "title": "Cigna sets aside $3B to boost performance (CI:NYSE)",
+      "title": "Cigna sets aside $3B to boost performance; issues long-term targets",
       "time": "Wed, 30 Sep 2026 14:23:37",
-      "sentiment": 0
-    },
-    {
-      "ticker": "CI",
-      "title": "Cigna Stock in Focus as Investor Day Spotlights Specialty Drugs",
-      "time": "Tue, 29 Sep 2026 15:47:00",
       "sentiment": 0
     },
     {
       "ticker": "CI",
       "title": "(CI) Cigna Expects 2026 Adjusted Revenue $280B",
       "time": "Wed, 30 Sep 2026 11:26:25",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "Is CrowdStrike Stock Paying You Enough For The Swings?",
+      "time": "Wed, 30 Sep 2026 15:40:25",
       "sentiment": 0
     },
     {
@@ -1057,7 +1045,7 @@
     {
       "ticker": "MRNA",
       "title": "Citi tells investors it’s time to sell Moderna after 600%-plus stock gains",
-      "time": "Wed, 30 Sep 2026 11:12:00",
+      "time": "Wed, 30 Sep 2026 14:59:00",
       "sentiment": 0
     },
     {
@@ -1170,20 +1158,26 @@
     },
     {
       "ticker": "VST",
-      "title": "Constellation Energy Corp Stock (CEG) Opened Down by 5.04% on Sep 30: Key Drivers Unveiled",
-      "time": "Wed, 30 Sep 2026 13:47:16",
+      "title": "Is Vistra (NYSE:VST) Rewriting the Energy Stocks Playbook Today?",
+      "time": "Wed, 30 Sep 2026 14:30:00",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VST",
+      "title": "Vistra: AI Makes Power Plants More Valuable, But a 31% Drop Still Isn't Cheap",
+      "time": "Wed, 30 Sep 2026 13:48:36",
+      "sentiment": 0
+    },
+    {
+      "ticker": "VST",
+      "title": "Scotiabank Adjusts Price Target on Vistra to $207 From $298, Keeps Sector Outperform Rating",
+      "time": "Wed, 30 Sep 2026 10:14:25",
       "sentiment": 0
     },
     {
       "ticker": "VST",
       "title": "Vistra to Report Third Quarter Results on Nov. 6, 2026",
       "time": "Tue, 29 Sep 2026 21:30:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "VST",
-      "title": "Bloom’s Power Orders Versus Vistra and NRG’s Cash Flow",
-      "time": "Wed, 30 Sep 2026 00:47:55",
       "sentiment": 0
     },
     {
@@ -1208,6 +1202,12 @@
       "ticker": "NFLX",
       "title": "Most Investors Are Wrong About Selling Netflix. Here's What I'd Do Instead.",
       "time": "Wed, 30 Sep 2026 03:56:32",
+      "sentiment": 0
+    },
+    {
+      "ticker": "NFLX",
+      "title": "NFLX Stock Drops Over 14% This Month, Nears This Crucial Level From July — Here’s A Look At Some Key Street Takes",
+      "time": "Tue, 29 Sep 2026 22:21:03",
       "sentiment": 0
     },
     {
