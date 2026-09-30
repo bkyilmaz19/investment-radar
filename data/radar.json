@@ -1,5 +1,5 @@
 {
-  "generated_at_local": "30.09.2026 22:54 CEST",
+  "generated_at_local": "30.09.2026 23:11 CEST",
   "market_regime": "Gemischt / selektiv",
   "universe_size": 204,
   "scanned_count": 201,
@@ -26,7 +26,7 @@
       "live_gap_pct": "-1.08%",
       "regular_move_pct": "-1.50%",
       "avg_dollar_volume": 1198135679.74,
-      "bar_age_minutes": 49.7,
+      "bar_age_minutes": 66.5,
       "vwap": 132.73,
       "opening_range_high": 134.67,
       "opening_range_ready": true,
@@ -65,7 +65,7 @@
       "live_gap_pct": "-0.67%",
       "regular_move_pct": "-1.04%",
       "avg_dollar_volume": 534067006.0,
-      "bar_age_minutes": 49.7,
+      "bar_age_minutes": 66.5,
       "vwap": 83.32,
       "opening_range_high": 83.98,
       "opening_range_ready": true,
@@ -77,6 +77,45 @@
         "score_ok": true,
         "momentum_ok": false,
         "volume_ok": true,
+        "volatility_ok": true,
+        "news_ok": true,
+        "gap_ok": true,
+        "confirmation_ok": true
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research",
+      "score": 86,
+      "stance": "Short-Term Momentum / Event",
+      "thesis": "1T +2.99%, 5T +4.15%, relatives Volumen 0.90x, ATR 4.41%",
+      "catalyst": "Lam Research Corp (LRCX) Shares Surge 3.0% -- What GF Score of 8",
+      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
+      "entry_note": "Premarket-Gap +0.34%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
+      "stop_pct": 2.65,
+      "target_pct": 5.03,
+      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
+      "change_1d": "+2.99%",
+      "change_5d": "+4.15%",
+      "volume_ratio": "0.90x",
+      "atr_pct": "4.41%",
+      "gap_pct": "+0.34%",
+      "premarket_move_pct": "+0.01%",
+      "live_gap_pct": "+1.47%",
+      "regular_move_pct": "+1.18%",
+      "avg_dollar_volume": 2784302933.9,
+      "bar_age_minutes": 1.5,
+      "vwap": 327.17,
+      "opening_range_high": 328.12,
+      "opening_range_ready": true,
+      "breakout_confirmed": true,
+      "session_phase": "After-Hours / US-Session beendet",
+      "action_status": "NICHT KAUFEN",
+      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
+      "criteria": {
+        "score_ok": true,
+        "momentum_ok": true,
+        "volume_ok": false,
         "volatility_ok": true,
         "news_ok": true,
         "gap_ok": true,
@@ -104,7 +143,7 @@
       "live_gap_pct": "-0.51%",
       "regular_move_pct": "-0.59%",
       "avg_dollar_volume": 1278510646.58,
-      "bar_age_minutes": 4.5,
+      "bar_age_minutes": 6.5,
       "vwap": 422.76,
       "opening_range_high": 426.59,
       "opening_range_ready": true,
@@ -143,48 +182,9 @@
       "live_gap_pct": "-1.93%",
       "regular_move_pct": "-2.15%",
       "avg_dollar_volume": 1926488338.33,
-      "bar_age_minutes": 4.7,
+      "bar_age_minutes": 0.4,
       "vwap": 816.05,
       "opening_range_high": 831.95,
-      "opening_range_ready": true,
-      "breakout_confirmed": false,
-      "session_phase": "After-Hours / US-Session beendet",
-      "action_status": "NICHT KAUFEN",
-      "action_reason": "Das Setup erfüllt die Mindestregeln für einen kurzfristigen Einstieg nicht.",
-      "criteria": {
-        "score_ok": true,
-        "momentum_ok": true,
-        "volume_ok": false,
-        "volatility_ok": true,
-        "news_ok": true,
-        "gap_ok": true,
-        "confirmation_ok": true
-      }
-    },
-    {
-      "ticker": "DAL",
-      "name": "Delta Air Lines",
-      "score": 85,
-      "stance": "Short-Term Momentum / Event",
-      "thesis": "1T +1.00%, 5T +1.13%, relatives Volumen 0.78x, ATR 2.91%",
-      "catalyst": "Delta leads airline stocks in September with a 4.5% gain, outperforming United and American amid industry challenges.",
-      "risk_note": "Momentum kann nach Eröffnung drehen; Overnight- und Gap-Risiko.",
-      "entry_note": "Premarket-Gap +0.38%. Nicht blind jagen: Einstieg nur, wenn der Gap nach Eröffnung gehalten wird und Volumen bestätigt.",
-      "stop_pct": 1.74,
-      "target_pct": 3.31,
-      "exit_note": "Zeithorizont wenige Stunden bis max. etwa 2 Handelstage. Spätestens am Folgetag vollständig neu bewerten.",
-      "change_1d": "+1.00%",
-      "change_5d": "+1.13%",
-      "volume_ratio": "0.78x",
-      "atr_pct": "2.91%",
-      "gap_pct": "+0.38%",
-      "premarket_move_pct": "+0.09%",
-      "live_gap_pct": "-1.66%",
-      "regular_move_pct": "-1.64%",
-      "avg_dollar_volume": 572605466.93,
-      "bar_age_minutes": 24.7,
-      "vwap": 83.65,
-      "opening_range_high": 85.14,
       "opening_range_ready": true,
       "breakout_confirmed": false,
       "session_phase": "After-Hours / US-Session beendet",
@@ -299,6 +299,12 @@
       "sentiment": 1
     },
     {
+      "ticker": "LRCX",
+      "title": "Lam Research rises as investors lean into chip-equipment strength and recent upbeat company signals",
+      "time": "Tue, 29 Sep 2026 21:21:00",
+      "sentiment": 1
+    },
+    {
       "ticker": "ADI",
       "title": "Does Earnings Beat Change The Bull Case For Analog Devices Stock?",
       "time": "Wed, 30 Sep 2026 15:34:48",
@@ -309,12 +315,6 @@
       "title": "Texas Instruments stock reports growth at EUR 246.13 versus EUR 247.78, minus 0.67 percent",
       "time": "Wed, 30 Sep 2026 14:53:13",
       "sentiment": 1
-    },
-    {
-      "ticker": "TXN",
-      "title": "SCHD's Rules Sold Broadcom in March 2024. The Stock Is Up About 183% Since, and SCHD Holders Missed the Run",
-      "time": "Wed, 30 Sep 2026 20:01:00",
-      "sentiment": -1
     },
     {
       "ticker": "GEV",
@@ -344,12 +344,6 @@
       "ticker": "CRWD",
       "title": "CrowdStrike Stock Forecast: Can AI Security Growth Sustain CRWD’s Rally?",
       "time": "Wed, 30 Sep 2026 05:25:55",
-      "sentiment": 1
-    },
-    {
-      "ticker": "CRWD",
-      "title": "CrowdStrike Holdings Inc (CRWD) Shares Surge 1.4% -- What GF Sco",
-      "time": "Wed, 30 Sep 2026 00:31:59",
       "sentiment": 1
     },
     {
@@ -564,8 +558,8 @@
     },
     {
       "ticker": "SO",
-      "title": "The Southern Company (SOMN) Stock Price, News, Quote & History",
-      "time": "Wed, 30 Sep 2026 17:29:01",
+      "title": "The Southern Company (SO) Stock Price, News, Quote & History",
+      "time": "Tue, 29 Sep 2026 21:25:52",
       "sentiment": 0
     },
     {
@@ -576,8 +570,8 @@
     },
     {
       "ticker": "SO",
-      "title": "The Southern Company (SO) Stock Price, News, Quote & History",
-      "time": "Tue, 29 Sep 2026 21:25:52",
+      "title": "Southern or Duke: Which Utility Dividend Holds Up Against the Data Center Buildout",
+      "time": "Wed, 30 Sep 2026 16:45:00",
       "sentiment": 0
     },
     {
@@ -642,8 +636,8 @@
     },
     {
       "ticker": "TSM",
-      "title": "Is Taiwan Semiconductor Manufacturing Co Ltd (TSM) Overvalued Af",
-      "time": "Tue, 29 Sep 2026 23:45:49",
+      "title": "Micron Technology, Inc. (MU) stock price, news, quote and history",
+      "time": "Wed, 30 Sep 2026 15:00:16",
       "sentiment": 0
     },
     {
@@ -671,6 +665,12 @@
       "sentiment": 0
     },
     {
+      "ticker": "SNOW",
+      "title": "Snowflake stock rating reiterated at Buy by StoneX",
+      "time": "Wed, 30 Sep 2026 12:54:04",
+      "sentiment": 0
+    },
+    {
       "ticker": "SYK",
       "title": "Stifel maintains Buy rating on Stryker, $330 price target",
       "time": "Wed, 30 Sep 2026 16:44:57",
@@ -678,8 +678,8 @@
     },
     {
       "ticker": "SYK",
-      "title": "(SYK) Movement Within Algorithmic Entry Frameworks",
-      "time": "Tue, 29 Sep 2026 20:58:02",
+      "title": "Stryker price target lowered to $330 from $360 at Stifel",
+      "time": "Wed, 30 Sep 2026 11:02:06",
       "sentiment": 0
     },
     {
@@ -750,12 +750,6 @@
     },
     {
       "ticker": "LRCX",
-      "title": "Lam Research Corporation Announces September Quarter Financial Conference Call",
-      "time": "Wed, 30 Sep 2026 20:05:00",
-      "sentiment": 0
-    },
-    {
-      "ticker": "LRCX",
       "title": "Top 5 Semiconductor Stocks To Own Into Year End - Intel (NASDAQ:INTC), Advanced Micro Devices (NASDAQ:AMD",
       "time": "Wed, 30 Sep 2026 20:01:40",
       "sentiment": 0
@@ -774,8 +768,8 @@
     },
     {
       "ticker": "ADI",
-      "title": "Analog Devices stock trades at EUR 350.40, minus 0.42 percent versus EUR 351.88",
-      "time": "Wed, 30 Sep 2026 09:39:35",
+      "title": "Analog Devices stock after-hours at EUR 351.55: minus 0.09 percent versus prior close",
+      "time": "Wed, 30 Sep 2026 20:52:21",
       "sentiment": 0
     },
     {
@@ -810,6 +804,12 @@
     },
     {
       "ticker": "TXN",
+      "title": "What to Expect From Texas Instruments’ Q3 2026 Earnings Report",
+      "time": "Wed, 30 Sep 2026 13:47:15",
+      "sentiment": 0
+    },
+    {
+      "ticker": "TXN",
       "title": "Amtech Gains 79% in the Past Year: Should It Be in Your Portfolio?",
       "time": "Wed, 30 Sep 2026 13:38:00",
       "sentiment": 0
@@ -834,14 +834,14 @@
     },
     {
       "ticker": "GEV",
-      "title": "My Top AI Power Stock to Buy Right Now (and It's Not Even Close)",
-      "time": "Tue, 29 Sep 2026 21:30:00",
+      "title": "GE Vernova: A Potential Stock in the AI Market",
+      "time": "Wed, 30 Sep 2026 02:56:50",
       "sentiment": 0
     },
     {
       "ticker": "GEV",
-      "title": "GE Vernova: A Potential Stock in the AI Market",
-      "time": "Wed, 30 Sep 2026 02:56:50",
+      "title": "My Top AI Power Stock to Buy Right Now (and It's Not Even Close)",
+      "time": "Tue, 29 Sep 2026 21:30:00",
       "sentiment": 0
     },
     {
@@ -900,26 +900,20 @@
     },
     {
       "ticker": "HLT",
-      "title": "InterContinental Hotels: Japan Fits The K-Shaped Thesis (NYSE:IHG)",
-      "time": "Tue, 29 Sep 2026 20:59:37",
-      "sentiment": 0
-    },
-    {
-      "ticker": "HLT",
       "title": "Hyatt Hotels Corporation (H) stock price, news, quote and history",
       "time": "Tue, 29 Sep 2026 23:25:33",
       "sentiment": 0
     },
     {
       "ticker": "DAL",
-      "title": "Delta Air Lines (DAL) Could Be 63% Below Fair Value As Dividend Debate Deepens",
-      "time": "Wed, 30 Sep 2026 20:09:35",
+      "title": "Which Airline Stock Dominated in September: American, United, or Delta?",
+      "time": "Wed, 30 Sep 2026 19:03:00",
       "sentiment": 0
     },
     {
       "ticker": "DAL",
-      "title": "Which Airline Stock Dominated in September: American, United, or Delta?",
-      "time": "Wed, 30 Sep 2026 19:03:00",
+      "title": "Delta Air Lines (DAL) Could Be 63% Below Fair Value As Dividend Debate Deepens",
+      "time": "Wed, 30 Sep 2026 20:09:35",
       "sentiment": 0
     },
     {
@@ -1022,6 +1016,12 @@
       "ticker": "CRWD",
       "title": "Why This Cybersecurity Stock Belongs in Every Millionaire-in-the-Making Portfolio",
       "time": "Wed, 30 Sep 2026 16:48:28",
+      "sentiment": 0
+    },
+    {
+      "ticker": "CRWD",
+      "title": "CRWD Stock Price Today",
+      "time": "Wed, 30 Sep 2026 11:22:14",
       "sentiment": 0
     },
     {
@@ -1140,14 +1140,14 @@
     },
     {
       "ticker": "VST",
-      "title": "Vistra vs. Talen: Which Stock Is Better Positioned for Investors?",
-      "time": "Wed, 30 Sep 2026 15:10:00",
+      "title": "Why is Vistra stock sliding today?",
+      "time": "Wed, 30 Sep 2026 16:29:15",
       "sentiment": 0
     },
     {
       "ticker": "VST",
-      "title": "Why is Vistra stock sliding today?",
-      "time": "Wed, 30 Sep 2026 16:29:15",
+      "title": "Vistra vs. Talen: Which Stock Is Better Positioned for Investors?",
+      "time": "Wed, 30 Sep 2026 17:12:00",
       "sentiment": 0
     },
     {
